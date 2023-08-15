@@ -6,10 +6,10 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: #eaefe8;
-  --first-color-alt: #eaefe8;
+  --first-color: #00C853;
+  --first-color-alt: #56de8e;
   --text-color: #ffffff;
-  --body-color: #342222;
+  --body-color: #0D47A1;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -47,7 +47,9 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: var(--font-bold);
 }
 
@@ -209,7 +211,7 @@ img {
 /*=============== HOME ===============*/
 
 .home {
-  background: url('https://images.unsplash.com/photo-1541471943749-e5976783f6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80') center/cover;
+  background: url('https://images.unsplash.com/photo-1609562041317-3c13618f1128?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80') center/cover;
 }
 
 
@@ -227,9 +229,9 @@ img {
 }
 
 .footer__info {
-justify-items: center;
-row-gap: 1rem;
-padding: 1rem;
+  justify-items: center;
+  row-gap: 1rem;
+  padding: 1rem;
 }
 
 .copy__link {
