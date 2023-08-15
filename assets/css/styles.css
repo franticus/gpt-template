@@ -45,6 +45,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  padding-top: 4rem;
 }
 
 h1, h2, h3 {
@@ -82,7 +83,7 @@ img {
 
 .section {
   padding-block: 5rem 1rem;
-  padding: 8rem 0;
+  padding: 3rem 0;
 }
 
 .section__title {
