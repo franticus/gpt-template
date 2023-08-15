@@ -6,10 +6,10 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: #FF5C00;
-  --first-color-alt: #FF5C00;
-  --text-color: #FFFFFF;
-  --body-color: #2E1F28;
+  --first-color: #4CAF50;
+  --first-color-alt: #3dac41;
+  --text-color: #333333;
+  --body-color: #FFFFFF;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -211,7 +211,7 @@ img {
 /*=============== HOME ===============*/
 
 .home {
-  background: url('https://images.unsplash.com/photo-1533619043865-1c2e2f32ff2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80') center/cover;
+  background: url("https://images.unsplash.com/photo-1451807278147-2e0e1e90b24d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80") center/cover;
 }
 
 
