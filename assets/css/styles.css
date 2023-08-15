@@ -6,10 +6,10 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: #FFA000;
-  --first-color-alt: #ffc053;
-  --text-color: #FFF8E1;
-  --body-color: #3E2723;
+  --first-color: #e9b669;
+  --first-color-alt: #FFB74D;
+  --text-color: #00CED1;
+  --body-color: #333333;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -45,7 +45,6 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  padding-top: 4rem;
 }
 
 h1,
@@ -85,7 +84,7 @@ img {
 
 .section {
   padding-block: 5rem 1rem;
-  padding: 3rem 0;
+  padding: 8rem 0;
 }
 
 .section__title {
@@ -197,9 +196,10 @@ img {
   column-gap: .5rem;
   background-color: var(--first-color);
   padding: 1rem 1.5rem;
-  color: #fff;
+  color: var(--body-color);
   font-weight: var(--font-bold);
   transition: background .3s;
+  border-radius: 2rem;
 }
 
 .button:hover {
@@ -211,9 +211,8 @@ img {
 
 /*=============== HOME ===============*/
 
-.home__data h1,
-.home__data p {
-  margin-bottom: 2rem;
+.home {
+  background: url('https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80') center/cover;
 }
 
 
@@ -290,8 +289,10 @@ img {
     height: calc(var(--header-height) + 1.5rem);
   }
 
-  .home__container {
+  .services__cards,
+  .about__container {
     grid-template-columns: repeat(2, 1fr);
+    align-items: start;
   }
 
   .footer {
