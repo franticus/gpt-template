@@ -7,10 +7,11 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: #7743DB;
-  --first-color-alt: #4a2b84;
-  --text-color: #ffffff;
-  --container-color: #102C57;
+  --first-color: #55D8A7;
+  --first-color-alt: #27a375;
+  --text-color: #333333;
+  --container-color: #EAF9F5;
+  --icon-box: #27a375;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -289,8 +290,10 @@ p {
 
 
 .car {
-  background-color: #f1a3a3;
-  color: #691e1e;
+  background-color: var(--icon-box);
+  color: var(--body-font);
+  width: 100px;
+  height: 80px;
 }
 
 
