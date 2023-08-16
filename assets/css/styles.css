@@ -6,10 +6,10 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: #FFA000;
-  --first-color-alt: #ffc053;
-  --text-color: #FFF8E1;
-  --body-color: #3E2723;
+  --first-color: #61677A;
+  --first-color-alt: #3c4153;
+  --text-color: #272829;
+  --body-color: #D8D9DA;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -45,12 +45,9 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  padding-top: 4rem;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-weight: var(--font-bold);
 }
 
@@ -66,6 +63,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 2rem;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -85,7 +83,7 @@ img {
 
 .section {
   padding-block: 5rem 1rem;
-  padding: 3rem 0;
+  padding: 8rem 0;
 }
 
 .section__title {
@@ -197,7 +195,7 @@ img {
   column-gap: .5rem;
   background-color: var(--first-color);
   padding: 1rem 1.5rem;
-  color: #fff;
+  color: var(--body-color);
   font-weight: var(--font-bold);
   transition: background .3s;
 }
@@ -211,7 +209,7 @@ img {
 
 /*=============== HOME ===============*/
 
-.home__data h1,
+.home__data h1, 
 .home__data p {
   margin-bottom: 2rem;
 }
@@ -231,9 +229,9 @@ img {
 }
 
 .footer__info {
-  justify-items: center;
-  row-gap: 1rem;
-  padding: 1rem;
+justify-items: center;
+row-gap: 1rem;
+padding: 1rem;
 }
 
 .copy__link {
@@ -290,8 +288,14 @@ img {
     height: calc(var(--header-height) + 1.5rem);
   }
 
-  .home__container {
+  .home__container,
+  .services__container {
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .left {
+    order: 1;
   }
 
   .footer {
