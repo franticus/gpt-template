@@ -6,10 +6,10 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: #61677A;
-  --first-color-alt: #3c4153;
+  --first-color: #22242c;
+  --first-color-alt: #36a075;
   --text-color: #272829;
-  --body-color: #D8D9DA;
+  --body-color: #dbf3f7;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -45,6 +45,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  padding-top: 4rem;
 }
 
 h1, h2, h3 {
@@ -83,7 +84,7 @@ img {
 
 .section {
   padding-block: 5rem 1rem;
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .section__title {
