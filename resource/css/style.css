@@ -10,6 +10,10 @@
 iframe {
   width: 100%;
 }
+
+i {
+  font-size: 48px;
+}
       
       
       body {
@@ -305,8 +309,8 @@ iframe {
          border-radius: 10px;
          border: 0px;
          font-weight: 700;
-         box-shadow: 0px 0px 14px -7px #f39107;
-         background-color: linear-gradient(45deg, #FF512F 0%, #f19e29 51%, #FF512F 100%);
+         box-shadow: var(--shadow);
+         background-color: var(--accent-color);
          cursor: pointer;
          user-select: none;
          -webkit-user-select: none;
@@ -527,7 +531,7 @@ iframe {
        }
 
        .why-us {
-         background: url(bg/0_bg.jpg);
+         background: url("../../bg/0_bg.avif");
          background-repeat: no-repeat;
          background-position: center;
          background-size: cover;
@@ -708,7 +712,7 @@ iframe {
          list-style: none;
          margin: 0;
          padding: 0;
-         text-align: end;
+         text-align: center;
        }
 
        .footer-item {
