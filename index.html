@@ -1,25 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Welcome to Coffee-com, your ultimate destination for premium coffee and a cozy ambiance. Indulge in the rich flavors of our carefully crafted brews while enjoying a comfortable atmosphere. Join us at Coffee-com for a delightful coffee experience!"
-    />
-    <meta
-      name="keywords"
-      content="Coffee-com, Coffee Shop, Premium Coffee, Cozy Ambiance, Coffee Selection, Coffee Lovers, Barista Creations"
-    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--=============== REMIXICONS ===============-->
+    <script src="resource/js/jquery-poi.file.min.js"></script>
     <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      href="https://fonts.googleapis.com/css2?family=Murecho:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
       rel="stylesheet"
     />
 
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>YourLamp Store - Illuminate Your Space</title>
+    <meta
+      property="og:title"
+      content="YourLamp Store - Premium Lighting Solutions"
+    />
+    <meta property="og:image" content="1689916191.jpeg" />
+    <meta
+      property="og:description"
+      content="Discover the finest in lighting decor and fixtures at YourLamp Store."
+    />
+    <meta
+      name="description"
+      content="Illuminate your interiors with our exquisite collection of lamps and lighting fixtures."
+    />
+
+    <link rel="stylesheet" href="resource/css/botstrap-nmb.min.css" />
+    <link rel="stylesheet" href="resource/css/bootstrap-fop.min.css.map.css" />
+    <link rel="stylesheet" href="resource/css/icons-pas.css" />
+    <link rel="stylesheet" href="resource/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="resource/js/jquery-bgv.cookie.file.js"></script>
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -27,213 +43,491 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-
-    <title>
-      Welcome to Coffee-com – Your Destination for Premium Coffee and Cozy
-      Ambiance!
-    </title>
   </head>
 
   <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="index.html" class="nav__logo"> Coffee-com </a>
+    <section class="header fixed-top">
+      <nav
+        class="navbar-expand-lg navbar navbar-light fixed-top navigation navigation-logo"
+      >
+        <div class="container container-fluid">
+          <a href="/"><h2 class="logo-title">YourLamp</h2></a>
 
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="index.html" class="nav__link">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="about.html" class="nav__link">About</a>
-            </li>
-            <li class="nav__item">
-              <a href="contact.html" class="nav__link">Contact</a>
-            </li>
-          </ul>
+          <button
+            class="navbar-toggler button-nav"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="#ffffff"
+              class="bi bi-justify"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </button>
 
-          <!-- Close button -->
-          <div class="nav__close" id="nav-close">
-            <i class="ri-close-line"></i>
-          </div>
-        </div>
-        <div class="nav__buttons">
-          <!-- Toggle button -->
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="ri-menu-line"></i>
+          <div
+            class="offcanvas offcanvas-top"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-body justify-content-center nav-bgc">
+              <ul class="nav-list">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#benefits">Benefits</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#why-us">Why us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#our-team"> Our team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#testimonial"
+                    >Testimonial</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
-    </header>
+    </section>
 
-    <!--==================== MAIN ====================-->
-    <main class="main">
-      <!--==================== HOME ====================-->
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__data">
-            <h1 class="home__title">
-              Welcome to Coffee-com – Your Destination for Premium Coffee and
-              Cozy Ambiance!
-            </h1>
-            <p>
-              At Coffee-com, we bring you the finest selection of premium coffee
-              in a warm and inviting atmosphere. Indulge in the rich flavors of
-              our carefully crafted brews while enjoying a comfortable ambiance.
-              Join us at Coffee-com for a delightful coffee experience!
-            </p>
-            <a href="contact.html" class="button">Get in touch</a>
-          </div>
-          <img
-            src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3271&q=80"
-            alt="Coffee Experience"
-          />
+    <section class="hero section" id="home">
+      <div class="container hero-wrapper-description">
+        <div class="picture">
+          <img class="picture-img" src="bg/product_1.jpeg" alt="" />
         </div>
-      </section>
-
-      <section class="image section">
-        <img
-          src="https://images.unsplash.com/photo-1525193612562-0ec53b0e5d7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-          alt="Premium Coffee Selection"
-        />
-      </section>
-
-      <section class="about section">
-        <div class="about__container container grid">
-          <h2 class="section__title">Crafted Coffee</h2>
-          <h3 class="section__subtitle">Expert Creations</h3>
-          <p>
-            Our journey into the captivating world of coffee commenced with a
-            simple yet profoundly intense adoration for this remarkable elixir.
-            Coffee, to us, is more than just a beverage; it's an embodiment of
-            artistry and dedication. Here at Coffee-com, we've elevated this
-            affection into a transcendent art form, a symphony of flavors that
-            dances upon your palate. Within the walls of our serene sanctuary,
-            we beckon you to embark on a voyage of respite, a haven where the
-            cacophony of daily life fades away, and all that remains is the
-            soothing aroma and the gentle caress of each sip. Our team, a
-            collective of passionate artisans, pours their expertise into every
-            aspect of your experience. Our skilled baristas, true maestros of
-            their craft, weave their magic as they meticulously curate each cup.
-            With unwavering commitment, they select the finest beans, artfully
-            grind them, and then coax out the essence of perfection through
-            carefully calibrated brewing methods.
-          </p>
-          <p>
-            As you indulge in our offerings, you're not just partaking in a
-            beverage; you're embracing a masterpiece that reflects the
-            culmination of knowledge, technique, and a profound love for the art
-            of coffee. From the intricate patterns adorning your latte's surface
-            to the ethereal fragrance that envelops you, every element is
-            orchestrated to harmonize into a sensory symphony. So join us,
-            fellow seeker of sensory delight, in our pursuit of elevating the
-            coffee experience to new heights. At Coffee-com, each cup is an ode
-            to the remarkable journey that brought us here, a testament to the
-            endless possibilities that lie within a humble coffee bean.
-          </p>
+        <div class="description justify-content-start">
+          <h1 class="hero-text">
+            Illuminate your entire world with the radiant offerings of YourLamp
+            Store. Our team of seasoned experts is wholeheartedly committed to
+            illuminating every nook and cranny of your cherished spaces. Immerse
+            yourself in our unparalleled assortment, and watch as your
+            residences and workplaces are imbued with a luminous splendor that
+            knows no equal.
+          </h1>
         </div>
-      </section>
-
-      <section class="image section">
-        <img
-          src="https://images.unsplash.com/photo-1513267048331-5611cad62e41?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-          alt="Cozy Ambiance, Coffee Experience"
-        />
-      </section>
-
-      <section class="about section">
-        <div class="about__container container grid">
-          <h2 class="section__title">Cozy Ambiance</h2>
-          <h3 class="section__subtitle">Coffee Moments</h3>
-          <p>
-            Step into the warm embrace of Coffee-com's inviting ambiance, where
-            every corner is a haven waiting to wrap you in comfort. Here, we
-            invite you to partake in a celebration of both coffee and community,
-            a symposium of flavors and connections that intertwine seamlessly.
-            Our establishment transcends the conventional coffee shop experience
-            by curating an array of special coffee-themed events. From sensory
-            tastings that deepen your appreciation for the nuances of each brew
-            to workshops that unlock the secrets of crafting the perfect cup,
-            Coffee-com is a realm where education meets indulgence. Picture
-            yourself in one of our thoughtfully designed, cozy corners, each one
-            an invitation to unwind and engage in meaningful conversations.
-            Whether you're seeking solace in the company of a book, catching up
-            with old friends, or forging new connections, our space is your
-            canvas to paint moments that will linger long after the last sip. As
-            you immerse yourself in the symphony of aromas and the dance of
-            flavors, you'll find that Coffee-com is more than a coffee shop;
-            it's a sanctuary for forging connections, igniting inspiration, and
-            crafting unforgettable memories.
-          </p>
-          <p>
-            The heart of our mission lies not only in serving handcrafted coffee
-            but also in providing an environment that nurtures the bonds between
-            friends, family, and fellow enthusiasts. Our space is an open
-            invitation to linger, to savor, and to celebrate the magic that
-            unfolds when people gather around the common love for coffee. So
-            come, join us in this journey where coffee and camaraderie
-            intertwine, where every cup is a catalyst for forging connections
-            that resonate far beyond the confines of our cozy corners. At
-            Coffee-com, every moment is an opportunity to embrace the present
-            and create cherished memories that will accompany you on your way.
-          </p>
-        </div>
-      </section>
-
-      <section class="image section">
-        <img
-          src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-          alt="Cozy Ambiance, Coffee Moments"
-        />
-      </section>
-    </main>
-
-    <!--==================== CONTACT ====================-->
-    <section class="about section">
-      <div class="about__container container grid">
-        <h2 class="section__title">Coffee Moments</h2>
-        <h3 class="section__subtitle">A Cozy Retreat</h3>
-        <p>
-          At Coffee-com, we create a haven of comfort where coffee, connection,
-          and cozy ambiance converge. Immerse yourself in the joy of sipping
-          premium brews, engage in meaningful conversations, and bask in the
-          warmth of a serene atmosphere.
-        </p>
-        <p>
-          Reserve your coffee retreat today and step into a world where every
-          cup is a celebration of flavor and every moment is a chance to unwind.
-          Welcome to Coffee-com!
-        </p>
-        <h5>Email</h5>
-        <p>info@coffee-com.com</p>
-        <h5>Phone</h5>
-        <p>+1 (123) 456-7890</p>
-        <h5>Address</h5>
-        <p>
-          456 Bean Street, <br />
-          Roastville, NY 12345, <br />
-          United States
-        </p>
       </div>
     </section>
 
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
-      <div class="footer__info container grid">
-        <span class="footer__copy">
-          &#169; Coffee-com. All rights reserved
-        </span>
+    <section class="section" id="about">
+      <div class="container main-block-container">
+        <h2 class="title">YourLamp Store - Lighting Solutions</h2>
+        <div class="content__block">
+          <div class="main-wrapper">
+            <img
+              class="main-wrapper-img"
+              src="https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80"
+              alt=""
+            />
+          </div>
 
-        <div class="footer__privacy">
-          <a href="" class="copy__link">Terms of Use</a>
-          <a href="" class="copy__link">Privacy Policy</a>
-          <a href="" class="copy__link">Cookie Policy</a>
+          <div class="main-description">
+            <div>
+              <p>
+                Explore a wide range of options to meet the needs and desires of
+                every lighting enthusiast at YourLamp Store.&nbsp;
+              </p>
+              <p>
+                Whether you're a casual admirer or a connoisseur of lighting, we
+                have the perfect solution for you.
+              </p>
+              <p>
+                <strong
+                  >Our lineup includes the latest in gaming laptops and desktops
+                  from top brands known for their exceptional performance and
+                  cutting-edge technology.&nbsp;</strong
+                >
+              </p>
+              <p>
+                We understand the importance of powerful processors, high-speed
+                graphics cards, ample RAM, and extensive storage to provide an
+                illuminating experience.&nbsp;
+              </p>
+              <p>
+                That's why we meticulously curate our range to offer only the
+                finest available options.
+              </p>
+              <p>
+                <strong
+                  >From sleek and portable gaming laptops that let you play
+                  anywhere to high-performance desktops that can handle the most
+                  demanding games and applications, we have everything you
+                  need.&nbsp;</strong
+                >
+              </p>
+              <p>
+                Our store offers numerous configurations designed for different
+                budgets and preferences. Whether you're seeking an economical
+                choice or a top-tier gaming setup, we can assist you in finding
+                the perfect match.
+              </p>
+              <p>
+                <strong
+                  >In addition to an extensive selection of hardware, we also
+                  provide a wide array of gaming accessories and peripherals to
+                  enhance your gaming experience.&nbsp;</strong
+                >
+              </p>
+              <p>
+                From gaming mice and keyboards to high-resolution monitors and
+                immersive audio systems, we offer everything you need to create
+                the perfect gaming rig.
+              </p>
+              <p>
+                <strong
+                  >Our experienced and friendly team are passionate gamers
+                  themselves and are always ready to help you find the right
+                  gaming PC or laptop to meet your needs. They can provide
+                  expert advice, answer any questions you may have, and ensure
+                  you make an informed decision.</strong
+                >
+              </p>
+              <p>
+                At our store, we strive to provide exceptional customer service
+                and ensure you enjoy your shopping experience. We offer
+                competitive prices, regular promotions, and flexible financing
+                options to make gaming PCs and laptops more accessible to
+                everyone.
+              </p>
+              <p>
+                Visit our store today and explore the extensive selection of
+                YourLamp Store's gaming PCs and laptops. Get ready to elevate
+                your gaming experience with the perfect gaming system built just
+                for you.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+    <section class="statistics section">
+      <div class="container">
+        <ul class="statistics-list">
+          <li class="statistics-item">
+            <div class="statistics-svg-wrapper">
+              <img src="./statistic_1.svg" alt="lamp" />
+            </div>
+            <p class="statistics-text text">Satisfied Customers</p>
+            <p class="statistics-count text">82</p>
+          </li>
+          <li class="statistics-item">
+            <div class="statistics-svg-wrapper-2">
+              <img src="./statistic_1.svg" alt="lamp" />
+            </div>
+            <p class="statistics-text text">Consultation Hours</p>
+            <p class="statistics-count text">1999</p>
+          </li>
+          <li class="statistics-item">
+            <div class="statistics-svg-wrapper-3">
+              <img src="./statistic_1.svg" alt="lamp" />
+            </div>
+            <p class="statistics-text text">Successfully Completed Projects</p>
+            <p class="statistics-count text">7536</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="benefits">
+      <div class="container">
+        <h2 class="title">Our Services</h2>
+        <p class="text services-text">
+          Enter the realm of cutting-edge lighting development, where our
+          passion for storytelling and technical prowess combine to create
+          unforgettable illuminating journeys.
+        </p>
+        <div class="services-logo-wrapper">
+          <ul class="services-list">
+            <li class="services-item">
+              <img src="./lamp_tips.svg" alt="gear" />
+              <p class="text">
+                Multiplatform Lighting Design: Craft lighting setups that
+                seamlessly transcend various platforms, delivering a consistent
+                and delightful experience for all lighting enthusiasts.
+              </p>
+            </li>
+            <li class="services-item">
+              <img src="./lamp_tips.svg" alt="gear" />
+              <p class="text">
+                Lighting Enhancement & Promotion: Elevate visibility and attract
+                admirers to your lighting with our targeted lighting enhancement
+                and promotional strategies.
+              </p>
+            </li>
+          </ul>
+
+          <img class="services-img" src="bg/product_2.jpeg" alt="" />
+
+          <ul class="services-list">
+            <li class="services-item">
+              <img src="./lamp_tips.svg" alt="gear" />
+              <p class="text">
+                Lighting Testing & Quality Assurance. Ensure a flawless lighting
+                experience with our testing and quality assurance services,
+                identifying and rectifying issues prior to launch.
+              </p>
+            </li>
+            <li class="services-item">
+              <img src="./lamp_tips.svg" alt="gear" />
+              <p class="text">
+                Cloud-Based Lighting Solutions: Provide enthusiasts access to
+                and enjoyment of lighting from anywhere with our cloud-based
+                lighting solutions, offering smooth and on-demand illumination.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-us FVTRbz" id="why-us">
+      <div class="why-us-wrapper section">
+        <div class="container">
+          <ul class="why-us-list">
+            <li class="why-us-item">
+              <img src="./lamp_tips2.svg" alt="" />
+              <h3 class="title">
+                Can you provide links or case studies of your work?
+              </h3>
+              <p class="text">
+                Yes, we take pride in our accomplished work and would be
+                delighted to provide recommendations or case studies upon
+                request.
+              </p>
+            </li>
+            <li class="why-us-item">
+              <img src="./lamp_tips2.svg" alt="" />
+              <h3 class="title">
+                What is your process for creating new lamps and lighting
+                fixtures?
+              </h3>
+              <p class="text">
+                Our process of creating new lamps and lighting fixtures
+                generally starts with ideation and concept development, followed
+                by prototyping, testing, and iterative development until the
+                final product is ready for launch.
+              </p>
+            </li>
+            <li class="why-us-item">
+              <img src="./lamp_tips2.svg" alt="" />
+              <h3 class="title">
+                What is your approach to attracting users and marketing your
+                products?
+              </h3>
+              <p class="text">
+                Our approach to user engagement and product marketing is
+                data-driven, aiming to understand the needs and behaviors of our
+                target audience. We employ a mix of digital marketing, public
+                relations, and partnerships with influencers to engage and
+                captivate our customers.
+              </p>
+            </li>
+            <li class="why-us-item">
+              <img src="./lamp_tips2.svg" alt="" />
+              <h3 class="title">
+                How does the company handle error reports and technical issues?
+              </h3>
+              <p class="text">
+                Our company has a process in place to address error messages and
+                technical issues swiftly and efficiently to ensure quick
+                resolutions.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="our-team">
+      <div class="container">
+        <ul class="our-team-list">
+          <li class="our-team-item">
+            <img class="our-team-img" src="avatar/m-0.avif" />
+            <div class="our-team-description">
+              <p class="title">Lukasz Bonner</p>
+              <p class="text">Fiction Writer</p>
+            </div>
+          </li>
+          <li class="our-team-item">
+            <img class="our-team-img" src="avatar/w-0.avif" />
+            <div class="our-team-description">
+              <p class="title">Muna Curry</p>
+              <p class="text">Game Location Manager</p>
+            </div>
+          </li>
+          <li class="our-team-item">
+            <img class="our-team-img" src="avatar/m-1.avif" />
+            <div class="our-team-description">
+              <p class="title">Maxim Crouch</p>
+              <p class="text">Director</p>
+            </div>
+          </li>
+          <li class="our-team-item xZ7ItzXaYy">
+            <img class="our-team-img" src="avatar/w-1.avif" />
+            <div class="our-team-description">
+              <p class="title">Harmony Rodriguez</p>
+              <p class="text">Game Engine Programmer</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section testimonial" id="testimonial">
+      <div class="container">
+        <ul class="testimonial-list">
+          <li class="testimonial-item">
+            <div class="testimonial-box">
+              <p class="text">
+                This company knows how to create memorable and unique game
+                mechanics. Each of their games feels fresh and innovative,
+                keeping me engaged and addicted to the gameplay.
+              </p>
+            </div>
+
+            <div class="testimonial-description">
+              <img class="testimonial-img" src="avatar/w-1.avif" />
+              <h3 class="testimonial-name">Harmony Rodriguez</h3>
+            </div>
+          </li>
+
+          <li class="testimonial-item">
+            <div class="testimonial-box">
+              <p class="text">
+                Their dedication to inclusion is noteworthy. They make an
+                ideological effort to create a variety of characters and
+                stories, providing a more realistic and immersive gaming world.
+              </p>
+            </div>
+
+            <div class="testimonial-description">
+              <img class="testimonial-img" src="avatar/m-1.avif" />
+              <h3 class="testimonial-name">Leon Sanderson</h3>
+            </div>
+          </li>
+          <li class="testimonial-item">
+            <div class="testimonial-box">
+              <p class="text">
+                This company truly masters the art of creating interesting and
+                exciting computer games. Their attention to detail is
+                unparalleled, and the gaming experience they offer is
+                unforgettable.
+              </p>
+            </div>
+
+            <div class="testimonial-description">
+              <img class="testimonial-img" src="avatar/w-0.avif" />
+              <h3 class="testimonial-name">Sallie Winters</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section footer" id="contact">
+      <div class="container footer-wrapper">
+        <div class="footer-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201865.5677469752!2d-93.29304766106459!3d44.91932698830417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32a74f186b8f1%3A0xa2fb6bac0896a51!2s2353 Rice St%2C Roseville%2C MN 55113%2C USA!5e0!3m2!1sen!2sby!4v1692273875708!5m2!1sen!2sby"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="footer-contacts">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <p class="footer-called">Address:</p>
+              <p>2353 RICE ST SAINT PAUL MN 55113-3775 USA</p>
+            </li>
+            <li class="footer-item">
+              <p class="footer-called">Phone Number:</p>
+              <p>+55 11 2066-7100</p>
+            </li>
+            <li class="footer-item">
+              <p class="footer-called">Email Address:</p>
+              <p>yourlampcont@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-privacy-wrapper">
+        <a class="footer-privacy" href="privacy/privacy6nq7eGuvn.html"
+          >Privacy Policy</a
+        >
+        <a class="footer-privacy" href="privacy/termDginoanfc.html"
+          >Terms and Conditions</a
+        >
+        <a class="footer-privacy" href="privacy/disclaimerHgfsmkhe.html"
+          >Disclaimers</a
+        >
+      </div>
+    </section>
+
+    <div id="cookie-1NX8VIWQd">
+      <p>
+        We use cookies to improve the website and your interaction with users.
+        By continuing to use the site, you agree to the use of cookies. You can
+        always disable cookies in your browser settings.
+      </p>
+      <button class="button-4 cookie_accept" style="margin: 0">Accept</button>
+    </div>
+
+    <script src="resource/js/bootstrap.bundle.min.js"></script>
+    <script src="resource/js/main.js"></script>
+
+    <script>
+      let Hgs = $('.main-wrapper-img').prop('naturalHeight');
+      let dgG = $('.main-wrapper-img').prop('naturalWidth');
+
+      if (Hgs == dgG) {
+        if (dgG > 600) {
+          $('.main-wrapper-img').css({ width: '50%' });
+        }
+      }
+      if (Hgs > dgG) {
+        if (Hgs < 2500 && Hgs > 700) {
+          $('.main-wrapper-img').css({ width: '25%' });
+        }
+        if (Hgs < 700 && Hgs > 500) {
+          $('.main-wrapper-img').css({ width: '50%' });
+        }
+      }
+      if (Hgs < dgG) {
+        $('.main-wrapper-img').css({ width: '100%' });
+        if (dgG < 600) {
+          $('.main-wrapper-img').css({ width: '500px' });
+        }
+      }
+    </script>
   </body>
 </html>
