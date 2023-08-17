@@ -6,10 +6,10 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: #7e6136;
-  --first-color-alt: #a09036;
-  --text-color: #272829;
-  --body-color: #e7e6d0;
+  --first-color: #8D230F;
+  --first-color-alt: #9B4F0F;
+  --text-color: #1E434C;
+  --body-color: #e8b714;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -64,7 +64,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 5rem;
+  border-radius: 1rem;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -293,6 +293,12 @@ padding: 1rem;
   .services__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+  }
+
+  .vertical {
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: 4rem auto;
   }
 
   .left {
