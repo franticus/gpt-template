@@ -6,10 +6,10 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: #4c8d0f;
-  --first-color-alt: #9B4F0F;
-  --text-color: #1E434C;
-  --body-color: #ffee8f;
+  --first-color: #171937;
+  --first-color-alt: #202e62;
+  --text-color: #050408;
+  --body-color: #72d583;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -64,7 +64,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 20rem;
+  border-radius: 4px;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
