@@ -553,7 +553,7 @@ a {
 }
 
 .why-us {
-  background: url("../../bg/0_bg.avif");
+  background: url("https://images.unsplash.com/photo-1485973088077-6e9a977f8617?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -916,7 +916,7 @@ a {
 
   .why-us-item {
     padding: 39px;
-    border-radius: 20px;
+    border-radius: 200px;
   }
 
   .why-us-item:first-child {
@@ -1050,8 +1050,7 @@ a {
     font-size: 32px;
   }
 
-  .description {
-  }
+  .description {}
 
   .nav-link {
     font-size: 21px;
@@ -1103,6 +1102,7 @@ a {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
