@@ -506,6 +506,7 @@ i {
        .services-img {
          width: 100%;
          margin-bottom: 64px;
+         border-radius: 20px;
        }
 
        .services-list {
