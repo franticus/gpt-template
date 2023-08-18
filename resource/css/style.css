@@ -20,6 +20,19 @@ i {
   font-size: 48px;
 }
 
+.img-overflow-height {
+  width: 100%;
+  height: 50vh;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.img-overflow-height-fix {
+  max-height: 60%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
 .bi-gear::before {
   animation: rotate 10s ease-in-out infinite;
 }
@@ -130,13 +143,6 @@ a {
 .main-wrapper-img {
   width: 100%;
   border-radius: 20px;
-}
-
-.img-overflow-height {
-  width: 100%;
-  height: 50vh;
-  border-radius: 20px;
-  overflow: hidden;
 }
 
 .offcanvas.offcanvas-top {
@@ -603,23 +609,22 @@ a {
 }
 
 .our-team-item {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 16px;
   text-align: center;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
-  border-radius: 0px;
+  border-radius: 10px;
   display: flex;
-  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
   gap: 24px;
+  color: var(--text-dark);
+  background: var(--text-light);
 }
 
 .our-team-img {
-  max-width: 100%;
+  max-width: 140%;
   height: auto;
-  border-radius: 0px;
-  margin-bottom: 10px;
   border-radius: 20px;
 }
 
