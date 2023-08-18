@@ -3,10 +3,10 @@
   --header-color: #f1f1f1;
   --header-text: #015367;
   --header-text-hover: #099da8;
-  --text-light: #015367;
+  --text-light: #184855;
   --text-dark: #f1f1f1;
   --accent-color: #8eb7c1;
-  --gradient: #a8a6c4;
+  --gradient: #d1d0e0;
   --shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
 
   --img-bg-hero: url("https://images.unsplash.com/photo-1482449609509-eae2a7ea42b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
@@ -45,7 +45,6 @@ i {
 }
 
 .bi-gear::before {
-  animation: rotate 10s ease-in-out infinite;
 }
 
 body {
@@ -95,7 +94,7 @@ a {
 
 .text {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   text-align: center;
   line-height: 1.5;
   margin-bottom: 16px;
@@ -569,6 +568,14 @@ a {
 .services-item {
   margin-bottom: 64px;
   text-align: center;
+}
+
+.services-item > p {
+  font-weight: 600;
+}
+
+.num {
+  font-size: 24px;
 }
 
 .services-item:last-child {
