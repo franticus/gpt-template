@@ -663,7 +663,7 @@ a {
   padding-right: 39px;
   margin-bottom: 10px;
   position: relative;
-  border-radius: 20px;
+  border-radius: 70px;
 }
 
 .testimonial-box::after {
@@ -685,7 +685,7 @@ a {
 }
 
 .testimonial-img {
-  border-radius: 50%;
+  border-radius: 10%;
   width: auto;
   height: 60%;
   margin-right: 10px;
