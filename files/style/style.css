@@ -157,8 +157,8 @@ header {
   height: 90%;
   background: linear-gradient(rgba(255, 255, 255, 0.1),
       rgba(0, 0, 0, 0.5)),
-    url(bg/0_bg.jpg);
-  background-position: center;
+    url("https://images.unsplash.com/photo-1617400210795-53720bf465c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2455&q=80");
+  background-position: center top;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -260,7 +260,7 @@ header {
   width: 100%;
   height: auto;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(bg/1_bg.jpg);
+    url("https://images.unsplash.com/photo-1469313785555-277fa0c1dc9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
   padding: 72px 0;
   background-position: center;
   background-size: cover;
