@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
     <title>
-      Explore Incredible Worlds with SkyTech: Drone Sales and Repair
+      SkyTech: Drone Sales and Repair
     </title>
     <meta
       property="og:title"
@@ -344,29 +344,45 @@
       </div>
 
       <div class="workers" id="worker">
-        <h1>Nossos funcionários</h1>
+        <h1>Our Team</h1>
         <div class="workerFlexStyle">
           <div class="cardPerson">
-            <img src="avatar/m-2.jpg" alt="Worker 1" class="personImg" />
-            <h3 class="card-name">Braxton Naylor</h3>
+            <img
+              src="https://images.unsplash.com/photo-1692090383592-5c4c47735dd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlcnNvbiUyMGZhY2V8ZW58MHx8Mnx8fDI%3D&auto=format&fit=crop&w=800&q=60"
+              alt="Worker 1"
+              class="personImg"
+            />
+            <h3 class="card-name">Alex Turner</h3>
             <p class="card-position">
-              Gerente de Desenvolvimento de Negócios de Jogos
+              Director of Drone Sales and Business Development
             </p>
           </div>
           <div class="cardPerson">
-            <img src="avatar/w-1.jpg" alt="Worker 2" class="personImg" />
-            <h3 class="card-name">Felicity Lyon</h3>
-            <p class="card-position">Gerente de Comunidade de Jogos</p>
+            <img
+              src="https://images.unsplash.com/photo-1600481176431-47ad2ab2745d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
+              alt="Worker 2"
+              class="personImg"
+            />
+            <h3 class="card-name">Emily Parker</h3>
+            <p class="card-position">Drone Services Manager</p>
           </div>
           <div class="cardPerson">
-            <img src="avatar/m-3.jpg" alt="Worker 3" class="personImg" />
-            <h3 class="card-name">Dave Wu</h3>
-            <p class="card-position">Desenvolvedor Líder de Jogos</p>
+            <img
+              src="https://images.unsplash.com/photo-1530268729831-4b0b9e170218?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              alt="Worker 3"
+              class="personImg"
+            />
+            <h3 class="card-name">Daniel Harris</h3>
+            <p class="card-position">Chief Drone Developer</p>
           </div>
           <div class="cardPerson">
-            <img src="avatar/w-2.jpg" alt="Worker 4" class="personImg" />
-            <h3 class="card-name">Felicity Lyon</h3>
-            <p class="card-position">Programador de IA de Jogos</p>
+            <img
+              src="https://images.unsplash.com/photo-1626526804650-7118ac691b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
+              alt="Worker 4"
+              class="personImg"
+            />
+            <h3 class="card-name">Sophia Lee</h3>
+            <p class="card-position">Game-changing UAV Engineer</p>
           </div>
         </div>
       </div>
@@ -375,7 +391,7 @@
     <footer>
       <div class="footer-left" id="contacts">
         <div class="contact-info">
-          <h1>Contatos</h1>
+          <h1>Contact Information</h1>
           <p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -443,9 +459,9 @@
       </div>
     </footer>
     <footer class="footer-links">
-      <a href="privacy/privacy.html">Política de privacidade</a>
-      <a href="privacy/term.html">Prazo e condições</a>
-      <a href="privacy/disclaimer.html">Isenções</a>
+      <a href="privacy/privacy.html">Privacy Policy</a>
+      <a href="privacy/term.html">Terms and Conditions</a>
+      <a href="privacy/disclaimer.html">Disclaimers</a>
     </footer>
 
     <div id="cookie-kv">
@@ -477,41 +493,5 @@
     </script>
 
     <script type="text/javascript" src="files/javascript/script.js"></script>
-    <script>
-      let iMfg = $('.piClass').prop('naturalHeight');
-      let iWfa = $('.piClass').prop('naturalWidth');
-
-      if (iMfg == iWfa) {
-        if (iWfa > 600) {
-          $('.piClass').css({ width: '50%' });
-        }
-      }
-      if (iMfg > iWfa) {
-        if (iMfg < 2500 && iMfg > 700) {
-          $('.piClass').css({ width: '25%' });
-        }
-        if (iMfg < 700 && iMfg > 500) {
-          $('.piClass').css({ width: '50%' });
-        }
-      }
-      if (iMfg < iWfa) {
-        $('.piClass').css({ width: '100%' });
-        if (iWfa < 600) {
-          $('.piClass').css({ width: '500px' });
-        }
-      }
-      function convertHexColor(hex, opacity) {
-        hex = hex.replace('#', '');
-        r = parseInt(hex.substring(0, 2), 16);
-        g = parseInt(hex.substring(2, 4), 16);
-        b = parseInt(hex.substring(4, 6), 16);
-
-        result = 'rgba(' + r + ',' + g + ',' + b + ',' + opacity / 100 + ')';
-        return result;
-      }
-      $('.cardPerson').css({
-        'background-color': convertHexColor('#f7f3e9', 20),
-      });
-    </script>
   </body>
 </html>
