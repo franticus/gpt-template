@@ -575,6 +575,11 @@ footer {
 #cookie-kv button {
   max-width: 200px;
   width: 100%;
+  background: var(--bg-color);
+  color: var(--main-text);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 #cookie-kv p {
