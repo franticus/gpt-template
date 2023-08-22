@@ -1,6 +1,6 @@
 :root {
   --bg-color: #ffffff;
-  --main-text: #3b2a84;
+  --main-text: #feffe1;
   --accent-color: #ffffff;
   --additional: #160c41;
 }
@@ -22,18 +22,17 @@ body {
   padding: 0px;
   background-color: var(--bg-color);
   color: var(--main-text);
-  background-color: #e5e5f7;
-  background-size: 10px 10px;
-  background-image: repeating-linear-gradient(45deg, #fff17e 0, #fff17e 1px, #ffffff 0, #ffffff 50%);
+  background-color: #fbfbff;
 }
 
 header {
+  position: absolute;
+  top: 0;
+  right: 10%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 100px;
-  border-top: 12px solid var(--accent-color);
-  // background-color: var(--accent-color);
 }
 
 .logo {
@@ -186,11 +185,12 @@ header {
 }
 
 .hedBox_2 {
+  position: relative;
   height: 90vh;
   flex-direction: column;
   padding: 100px 20px;
   gap: 20px;
-  background: linear-gradient(to right, #ffe23f, #ffb936);
+  background: url("https://img.freepik.com/free-photo/jewelry-lifestyle-flat-layout-with-place-text-jewellery-background-mockup-banner-fashion-accessories_460848-12598.jpg?w=2000&t=st=1692701303~exp=1692701903~hmac=8a6835bbb6511a143891a8a7c02d927ba564fd3570eee1066c70b8b3aa89ab48");
 }
 
 .hedBox2_text {
@@ -200,9 +200,8 @@ header {
 }
 
 .hedBox2_img {
-  width: 65vw;
+  width: 30vw;
   overflow: hidden;
-  border-radius: 50px;
 }
 
 .hedBox2_img img {
