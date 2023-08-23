@@ -1884,9 +1884,12 @@ section {
 .warning {
   position: fixed;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: none;
   justify-content: center;
+  width: 90%;
+  max-width: 1000px;
   padding: 30px;
   box-sizing: border-box;
   background: #fff;
@@ -1917,4 +1920,19 @@ section {
 
 .warning__apply:hover {
   background: #cbffd0;
+}
+
+@media (max-width: 756px) {
+  .warning {
+    padding: 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .warning {
+    padding: 10px;
+    font-size: 10px;
+    transform: translate(-50%, -30%);
+  }
 }
