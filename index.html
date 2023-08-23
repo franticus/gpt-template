@@ -14,7 +14,6 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-    <script src="files/javascript/cookJquery.cookie.file.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
@@ -50,7 +49,6 @@
           href="index.html"
           class="logo d-flex align-items-center me-auto me-xl-0"
         >
-          <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="assets/img/logo.png" alt=""> -->
           <h1>KitchenCrafters</h1>
           <span>.</span>
@@ -1322,31 +1320,32 @@
       <div></div>
     </div>
 
-    <div id="cookie-kv">
-      <p>
+    <div class="warning warning--active">
+      <div class="warning__text">
         We use cookies to improve the website and your interaction with users.
         By continuing to use the site, you agree to the use of cookies. You can
         always disable cookies in your browser settings.
-      </p>
-      <button class="button-2 cookie_accept" style="margin: 0">Accept</button>
+      </div>
+      <button class="warning__apply" type="button">Accept</button>
     </div>
 
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.6.3.js"
+    ></script>
     <script type="text/javascript">
-      function checkCookiesMss() {
-        let cookieDate = localStorage.getItem('cookie-kv--cookieDate');
-        let cookieNotification = document.getElementById('cookie-kv');
-        let cookieBtn = cookieNotification.querySelector('.cookie_accept');
+      const container = document.querySelector('.warning');
+      if (document.cookie.indexOf('warning') != -1) {
+        container.classList.remove('warning--active');
+      }
 
-        if (!cookieDate || +cookieDate + 31536000000 < Date.now()) {
-          cookieNotification.classList.add('show');
-        }
-
-        cookieBtn.addEventListener('click', function () {
-          localStorage.setItem('cookie-kv--cookieDate', Date.now());
-          cookieNotification.classList.remove('show');
+      if (document.querySelector('.warning')) {
+        const apply = container.querySelector('.warning__apply');
+        apply.addEventListener('click', () => {
+          container.classList.remove('warning--active');
+          document.cookie = 'warning=true; max-age=2592000; path=/';
         });
       }
-      checkCookiesMss();
     </script>
 
     <!-- Vendor JS Files -->

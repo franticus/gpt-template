@@ -2954,3 +2954,41 @@ section {
     flex-direction: column;
   }
 }
+
+.warning {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: none;
+	justify-content: center;
+	padding: 30px;
+	box-sizing: border-box;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 20px;
+  z-index: 999999;
+}
+
+.warning--active {
+	display: flex;
+}
+
+.warning__text {
+	margin-right: 30px;
+}
+
+.warning__read {
+	display: block;
+	margin-left: 15px;
+}
+
+.warning__apply {
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #fff;
+  padding: 0 20px;
+}
+
+.warning__apply:hover {
+  background: #cbffd0;
+}
