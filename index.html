@@ -1,952 +1,1708 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./dist/output.css" rel="stylesheet" />
-    <link rel="icon" type="image/png" href="./favicon.ico" />
-    <title>Enigma</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>KitchenCrafters</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="./favicon.ico" rel="icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
   </head>
-  <body>
-    <div>
-      <header
-        class="bg-[url('https://images.unsplash.com/photo-1552627019-947c3789ffb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2531&q=80')] bg-cover"
-        x-data="{ isOpen: false }"
+
+  <body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
       >
-        <nav
-          class="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center"
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
         >
-          <div class="flex items-center justify-between">
-            <a
-              class="text-xl font-bold text-white transition-colors duration-300 transform md:text-2xl hover:text-indigo-400"
-              href="./index.html"
-              >Enigma</a
-            >
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1>KitchenCrafters</h1>
+          <span>.</span>
+        </a>
 
-            <!-- Mobile menu button -->
-            <div @click="isOpen = !isOpen" class="flex md:hidden">
-              <button
-                type="button"
-                class="text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400"
-                aria-label="toggle menu"
-              >
-                <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
-                  <path
-                    fill-rule="evenodd"
-                    d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-          </div>
+        <!-- Nav Menu -->
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
 
-          <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-          <div
-            :class="isOpen ? 'flex' : 'hidden'"
-            class="flex-col mt-2 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
-          >
-            <a
-              class="text-sm font-medium text-gray-200 transition-colors duration-300 transform hover:text-indigo-400"
-              href="#about"
-              >About</a
-            >
-            <a
-              class="text-sm font-medium text-gray-200 transition-colors duration-300 transform hover:text-indigo-400"
-              href="#services"
-              >Services</a
-            >
-            <a
-              class="text-sm font-medium text-gray-200 transition-colors duration-300 transform hover:text-indigo-400"
-              href="#reviews"
-              >Testimonials</a
-            >
-            <a
-              class="px-4 py-1 text-sm font-medium text-center text-gray-200 transition-colors duration-300 transform border rounded hover:bg-indigo-400"
-              href="#contact"
-              >Contact</a
-            >
-          </div>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
+        <!-- End Nav Menu -->
 
-        <section class="flex items-center justify-center" style="height: 500px">
-          <div class="text-center">
-            <h2
-              class="mt-6 text-3xl max-w-4xl font-bold text-white md:text-5xl"
-            >
-              Elevate your personal style with Enigma Tattoo Salon's custom
-              tattoo designs, and make a statement in the world of body art.
-            </h2>
-
-            <div class="flex justify-center mt-8">
-              <a
-                class="px-8 py-2 text-lg font-medium text-white transition-colors duration-300 transform bg-indigo-600 rounded hover:bg-indigo-500"
-                href="#contact"
-                >Get In Touch</a
-              >
-            </div>
-          </div>
-        </section>
-      </header>
-
-      <section class="bg-gray-900" id="about">
-        <div class="max-w-5xl px-6 py-16 mx-auto">
-          <div class="items-center md:flex md:space-x-6">
-            <div class="md:w-1/2">
-              <h3 class="text-2xl font-semibold text-white">
-                Enigma Ink: Unveiling the Mysteries of Exceptional Tattoo
-                Artistry
-              </h3>
-              <p class="max-w-md mt-4 text-white">
-                At Enigma Ink, we unravel the secrets of extraordinary tattoo
-                craftsmanship. Our skilled team is committed to transforming
-                your ideas into stunning body art that tells a story. With
-                meticulous attention to detail and a passion for creativity, we
-                create personalized tattoos that reflect your unique
-                individuality. Explore our diverse range of styles, from
-                intricate designs to bold and expressive imagery. Let Enigma Ink
-                be your premier destination for top-notch tattoo solutions,
-                where imagination meets ink. Experience the magic of tattooing
-                and embark on a journey of self-expression with Enigma Ink
-                today.
-              </p>
-            </div>
-
-            <div class="mt-8 md:mt-0 md:w-1/2">
-              <div class="flex items-center justify-center">
-                <div class="max-w-md">
-                  <img
-                    class="object-cover object-center w-full rounded-md shadow"
-                    style="height: 500px"
-                    src="https://img.freepik.com/free-photo/tattooed-male-with-crossed-arms-grey-artistic-background_613910-12704.jpg?w=900&t=st=1692787219~exp=1692787819~hmac=743081162856e91f36b080de51b1868d8ece8230555021d7e9950754cc2f9255"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="carousel">
-        <div class="carousel-inner">
-          <input
-            class="carousel-open"
-            type="radio"
-            id="carousel-1"
-            name="carousel"
-            aria-hidden="true"
-            hidden=""
-            checked="checked"
-          />
-
-          <div class="carousel-item">
-            <img
-              src="https://images.unsplash.com/photo-1482329033286-79a3d24413b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-            />
-          </div>
-          <input
-            class="carousel-open"
-            type="radio"
-            id="carousel-2"
-            name="carousel"
-            aria-hidden="true"
-            hidden=""
-          />
-          <div class="carousel-item">
-            <img
-              src="https://images.unsplash.com/photo-1479767574301-a01c78234a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-            />
-          </div>
-          <input
-            class="carousel-open"
-            type="radio"
-            id="carousel-3"
-            name="carousel"
-            aria-hidden="true"
-            hidden=""
-          />
-          <div class="carousel-item">
-            <img
-              src="https://images.unsplash.com/photo-1519822356-4853be4346a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
-            />
-          </div>
-          <label for="carousel-3" class="carousel-control prev control-1"
-            >‹</label
-          >
-          <label for="carousel-2" class="carousel-control next control-1"
-            >›</label
-          >
-          <label for="carousel-1" class="carousel-control prev control-2"
-            >‹</label
-          >
-          <label for="carousel-3" class="carousel-control next control-2"
-            >›</label
-          >
-          <label for="carousel-2" class="carousel-control prev control-3"
-            >‹</label
-          >
-          <label for="carousel-1" class="carousel-control next control-3"
-            >›</label
-          >
-          <ol class="carousel-indicators">
-            <li>
-              <label for="carousel-1" class="carousel-bullet">•</label>
-            </li>
-            <li>
-              <label for="carousel-2" class="carousel-bullet">•</label>
-            </li>
-            <li>
-              <label for="carousel-3" class="carousel-bullet">•</label>
-            </li>
-          </ol>
-        </div>
+        <a class="btn-getstarted" href="index.html#about">Get Started</a>
       </div>
+    </header>
+    <!-- End Header -->
 
-      <section class="bg-gray-900">
-        <div class="max-w-5xl px-6 py-16 mx-auto">
-          <div class="items-center md:flex md:space-x-6">
-            <div class="md:w-1/2">
-              <div class="flex items-center justify-center">
-                <div class="max-w-md">
-                  <img
-                    class="object-cover object-center w-full rounded-md shadow"
-                    style="height: 500px"
-                    src="https://img.freepik.com/free-photo/studio-portrait-bearded-male-with-tattoos-his-arms-dressed-denim-shirt-isolated-grey-vignette-background_613910-7178.jpg?w=900&t=st=1692787295~exp=1692787895~hmac=c5b976e06d0da59e4c4de7f4a81d7eacdc616cfdece7af9df7485aa7bde92dbd"
-                  />
+    <main id="main">
+      <!-- Hero Section - Home Page -->
+      <section id="hero" class="hero">
+        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h2 data-aos="fade-up" data-aos-delay="100">
+                Welcome to the KitchenCrafters!
+              </h2>
+              <p data-aos="fade-up" data-aos-delay="200">
+                We are a team of talented designers dedicated to creating
+                innovative designs and manufacturing high-quality kitchen
+                furniture.
+              </p>
+            </div>
+            <div class="col-lg-5">
+              <form
+                action="#"
+                class="sign-up-form d-flex"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter email address"
+                />
+                <input type="submit" class="btn btn-primary" value="Sign up" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Hero Section -->
+
+      <!-- Clients Section - Home Page -->
+      <section id="clients" class="clients">
+        <div class="container-fluid" data-aos="fade-up">
+          <div class="row gy-4">
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/client-1.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/client-2.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/client-3.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/client-4.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/client-5.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/client-6.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
+          </div>
+        </div>
+      </section>
+      <!-- End Clients Section -->
+
+      <!-- About Section - Home Page -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-xl-center gy-5">
+            <div class="col-xl-5 content">
+              <h3>About Us</h3>
+              <h2>Ducimus rerum libero reprehenderit cumque</h2>
+              <p>
+                Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor
+                cumque alias maxime. Enim reiciendis minus et rerum hic non.
+                Dicta quas cum quia maiores iure. Quidem nulla qui assumenda
+                incidunt voluptatem tempora deleniti soluta.
+              </p>
+              <a href="#" class="read-more"
+                ><span>Read More</span><i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+
+            <div class="col-xl-7">
+              <div class="row gy-4 icon-boxes">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-box">
+                    <i class="bi bi-buildings"></i>
+                    <h3>Eius provident</h3>
+                    <p>
+                      Magni repellendus vel ullam hic officia accusantium ipsa
+                      dolor omnis dolor voluptatem
+                    </p>
+                  </div>
                 </div>
+                <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box">
+                    <i class="bi bi-clipboard-pulse"></i>
+                    <h3>Rerum aperiam</h3>
+                    <p>
+                      Autem saepe animi et aut aspernatur culpa facere. Rerum
+                      saepe rerum voluptates quia
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                    <i class="bi bi-command"></i>
+                    <h3>Veniam omnis</h3>
+                    <p>
+                      Omnis perferendis molestias culpa sed. Recusandae quas
+                      possimus. Quod consequatur corrupti
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="bi bi-graph-up-arrow"></i>
+                    <h3>Delares sapiente</h3>
+                    <p>
+                      Sint et dolor voluptas minus possimus nostrum. Reiciendis
+                      commodi eligendi omnis quideme lorenda
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
               </div>
             </div>
-
-            <div class="mt-8 md:mt-0 md:w-1/2">
-              <h3 class="text-2xl font-semibold text-white">
-                Embrace Your True Self at Enigma Ink: The Art of Body Piercing
-              </h3>
-              <p class="max-w-md mt-4 text-white">
-                Discover the transformative power of body piercing at Enigma
-                Ink. Our talented team of piercing artists specializes in
-                creating unique and meaningful experiences for our clients. With
-                a focus on precision and hygiene, we offer a wide range of
-                piercing options to help you express your individuality. From
-                ear piercings to nose, lip, and body piercings, we ensure a safe
-                and comfortable journey as you embrace your true self. Trust our
-                expertise and attention to detail as we guide you through the
-                process, providing professional aftercare instructions for
-                optimal healing. Experience the artistry of body piercing and
-                unlock a new level of self-expression with Enigma Ink.
-              </p>
-            </div>
           </div>
         </div>
       </section>
+      <!-- End About Section -->
 
-      <section class="bg-gray-900" id="reviews">
-        <div class="max-w-5xl px-6 py-16 mx-auto">
-          <div class="md:flex md:justify-between">
-            <h2 class="text-3xl font-semibold text-white">Testimonials:</h2>
-          </div>
+      <!-- Stats Section - Home Page -->
+      <section id="stats" class="stats">
+        <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in" />
 
-          <div class="grid gap-8 mt-10 md:grid-cols-2 lg:grid-cols-3">
-            <div
-              class="px-6 py-8 overflow-hidden bg-white rounded-md shadow-md transform transition duration-300 ease-in-out hover:-translate-y-2"
-            >
-              <h2 class="text-xl font-medium text-gray-600">
-                Rebecca Johnson:
-              </h2>
-              <p class="max-w-md mt-4 text-gray-400">
-                "I was absolutely amazed by the tattoo artistry at Enigma Ink.
-                The attention to detail and the exceptional quality of their
-                work surpassed my expectations. The tattoo artists skillfully
-                brought my vision to life, creating a stunning piece of body
-                art. Their professionalism and expertise made me feel confident
-                and comfortable throughout the process. I highly recommend
-                Enigma Ink for anyone seeking outstanding tattoo services."
-              </p>
+        <div
+          class="container position-relative"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="232"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Clients</p>
+              </div>
             </div>
+            <!-- End Stats Item -->
 
-            <div
-              class="px-6 py-8 overflow-hidden bg-white rounded-md shadow-md transform transition duration-300 ease-in-out hover:-translate-y-2"
-            >
-              <h2 class="text-xl font-medium text-gray-600">
-                Michael Anderson:
-              </h2>
-              <p class="max-w-md mt-4 text-gray-400">
-                "Enigma Ink is a game-changer in the world of body art. I was
-                truly impressed with how they transformed my ideas into
-                breathtaking tattoos. The artists' talent and creativity were
-                evident in every stroke, resulting in vibrant and captivating
-                designs. The studio's welcoming atmosphere and commitment to
-                cleanliness further added to my overall experience. If you're
-                looking for exceptional tattoo craftsmanship, look no further
-                than Enigma Ink."
-              </p>
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="521"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Projects</p>
+              </div>
             </div>
+            <!-- End Stats Item -->
 
-            <div
-              class="px-6 py-8 overflow-hidden bg-white rounded-md shadow-md transform transition duration-300 ease-in-out hover:-translate-y-2"
-            >
-              <h2 class="text-xl font-medium text-gray-600">Sophia Roberts:</h2>
-              <p class="max-w-md mt-4 text-gray-400">
-                "When it comes to reliable and professional tattooing, Enigma
-                Ink is the ultimate destination. The team's dedication to
-                perfection and their passion for the art form are truly
-                commendable. From the initial consultation to the final tattoo,
-                they took the time to understand my vision and executed it
-                flawlessly. The attention to detail and the precise linework
-                showcased their expertise. I couldn't be happier with my tattoo
-                from Enigma Ink."
-              </p>
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="1453"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Hours Of Support</p>
+              </div>
             </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="32"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Workers</p>
+              </div>
+            </div>
+            <!-- End Stats Item -->
           </div>
         </div>
       </section>
+      <!-- End Stats Section -->
 
-      <section class="bg-gray-900">
-        <div class="max-w-5xl px-6 py-16 mx-auto text-center">
-          <h2 class="text-3xl font-semibold text-white">
-            At Enigma Ink, we are committed to surpassing your expectations and
-            elevating your body art with our exceptional tattooing services.
-          </h2>
-          <p class="max-w-5xl mx-auto mt-4 text-white">
-            From conception to completion, our team of skilled artists is
-            devoted to creating extraordinary tattoos that leave a lasting
-            impression. We take pride in using top-of-the-line equipment and
-            maintaining the highest standards of hygiene to ensure flawless
-            results. With our meticulous attention to detail and unwavering
-            dedication to client satisfaction, we provide a seamless journey
-            throughout the tattooing process. Trust Enigma Ink to bring your
-            vision to life and express your unique artistic statement. Unleash
-            your imagination and embark on a transformative experience with the
-            art of tattooing at Enigma Ink.
+      <!-- Services Section - Home Page -->
+      <section id="services" class="services">
+        <!--  Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Services</h2>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
           </p>
+        </div>
+        <!-- End Section Title -->
 
-          <img
-            class="object-cover object-center w-full mt-16 rounded-md shadow h-80"
-            src="https://img.freepik.com/free-photo/happy-lovely-stylish-woman-denim-shorts-sitting-chaise-longue-resting-with-friend-summer-open-air-terrace_291650-1302.jpg?w=2000&t=st=1692787442~exp=1692788042~hmac=fa79fc40c33b33fd377eae73653d3a15933a59454bc32a4596a0ec06a9a86e37"
-          />
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-briefcase"></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a href="services-details.html" class="stretched-link"
+                      >Lorem Ipsum</a
+                    >
+                  </h4>
+                  <p class="description">
+                    Voluptatum deleniti atque corrupti quos dolores et quas
+                    molestias excepturi sint occaecati cupiditate non provident
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-card-checklist"></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a href="services-details.html" class="stretched-link"
+                      >Dolor Sitema</a
+                    >
+                  </h4>
+                  <p class="description">
+                    Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat tarad limino ata
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-bar-chart"></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a href="services-details.html" class="stretched-link"
+                      >Sed ut perspiciatis</a
+                    >
+                  </h4>
+                  <p class="description">
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-binoculars"></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a href="services-details.html" class="stretched-link"
+                      >Magni Dolores</a
+                    >
+                  </h4>
+                  <p class="description">
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-brightness-high"></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a href="services-details.html" class="stretched-link"
+                      >Nemo Enim</a
+                    >
+                  </h4>
+                  <p class="description">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium voluptatum deleniti atque
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-calendar4-week"></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a href="services-details.html" class="stretched-link"
+                      >Eiusmod Tempor</a
+                    >
+                  </h4>
+                  <p class="description">
+                    Et harum quidem rerum facilis est et expedita distinctio.
+                    Nam libero tempore, cum soluta nobis est eligendi
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
         </div>
       </section>
+      <!-- End Services Section -->
 
-      <section class="bg-gray-900">
-        <div
-          class="max-w-5xl px-6 py-16 mx-auto space-y-8 md:flex md:items-center md:space-y-0"
-        >
-          <div class="md:w-2/3">
-            <div class="hidden md:flex md:items-center md:space-x-10">
-              <img
-                class="object-cover object-center rounded-md shadow w-72 h-72"
-                src="https://img.freepik.com/free-photo/beautiful-young-female-model-isolated-studio-setting_1153-9576.jpg?size=626&ext=jpg&ga=GA1.2.1758426518.1692787007&semt=ais"
-              />
-              <img
-                class="object-cover object-center w-64 rounded-md shadow h-96"
-                src="https://img.freepik.com/free-photo/medium-shot-smiley-woman-posing_23-2149439869.jpg?size=626&ext=jpg&ga=GA1.2.1758426518.1692787007&semt=ais"
-              />
-            </div>
-            <h2 class="text-3xl font-semibold text-white md:mt-6">
-              Enigma Ink is a renowned tattoo studio that surpasses expectations
-              in the world of body art.
-            </h2>
-            <p class="max-w-lg mt-4 text-white">
-              Our unwavering commitment to excellence and meticulous attention
-              to detail sets us apart from the rest. With a team of talented
-              artists and state-of-the-art equipment, we bring your tattoo
-              visions to life with unmatched precision and vibrant design
-              execution. Our customer-centric approach ensures satisfaction with
-              every tattoo experience. Trust Enigma Ink for all your body art
-              needs and immerse yourself in the perfect blend of exceptional
-              craftsmanship, artistic flair, and impeccable service.
-            </p>
-          </div>
-          <div class="md:w-1/3">
-            <img
-              class="object-cover object-center w-full rounded-md shadow"
-              style="height: 700px"
-              src="https://img.freepik.com/free-photo/smiling-girl-with-tattoo_23-2147680598.jpg?size=626&ext=jpg&ga=GA1.2.1758426518.1692787007&semt=ais"
-            />
-          </div>
+      <!-- Features Section - Home Page -->
+      <section id="features" class="features">
+        <!--  Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Features</h2>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
         </div>
-      </section>
+        <!-- End Section Title -->
 
-      <!-- component -->
-      <div
-        id="services"
-        class="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-gray-900"
-      >
-        <div class="container xl:max-w-5xl mx-auto px-4">
-          <!-- Heading start -->
-          <header class="text-center mx-auto mb-12 lg:px-20">
-            <h2 class="text-2xl leading-normal mb-2 font-bold text-white">
-              What We Do
-            </h2>
-            <svg
-              version="1.1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              x="0px"
-              y="0px"
-              viewBox="0 0 100 60"
-              style="margin: 0 auto; height: 35px"
-              xml:space="preserve"
-            >
-              <circle
-                cx="50.1"
-                cy="30.4"
-                r="5"
-                class="stroke-primary"
-                style="
-                  fill: transparent;
-                  stroke-width: 2;
-                  stroke-miterlimit: 10;
-                "
-              ></circle>
-              <line
-                x1="55.1"
-                y1="30.4"
-                x2="100"
-                y2="30.4"
-                class="stroke-primary"
-                style="stroke-width: 2; stroke-miterlimit: 10"
-              ></line>
-              <line
-                x1="45.1"
-                y1="30.4"
-                x2="0"
-                y2="30.4"
-                class="stroke-primary"
-                style="stroke-width: 2; stroke-miterlimit: 10"
-              ></line>
-            </svg>
-            <p
-              class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2"
-            >
-              Enigma Ink Services: Empowering Your Personal Expression
-            </p>
-          </header>
-          <!-- End heading -->
-          <!-- row -->
-          <div class="flex flex-wrap flex-row -mx-4 text-center">
+        <div class="container">
+          <div class="row gy-4 align-items-center features-item">
             <div
-              class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
-              data-wow-duration="1s"
-              style="
-                visibility: visible;
-                animation-duration: 1s;
-                animation-name: fadeInUp;
-              "
+              class="col-lg-5 order-2 order-lg-1"
+              data-aos="fade-up"
+              data-aos-delay="200"
             >
-              <!-- service block -->
-              <div
-                class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 rounded-2xl"
-              >
-                <div class="inline-block text-gray-900 mb-4">
-                  <!-- icon -->
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2rem"
-                    height="2rem"
-                    fill="currentColor"
-                    class="bi bi-search"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                    ></path>
-                  </svg>
-                </div>
-                <h3
-                  class="text-lg leading-normal mb-2 font-semibold text-black"
-                >
-                  Exquisite Tattoo Artistry
-                </h3>
-                <p class="text-gray-500">
-                  Experience the transformative art of tattooing with our
-                  skilled professionals who bring your vision to life.
-                </p>
-              </div>
-              <!-- end service block -->
-            </div>
-            <div
-              class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".1s"
-              style="
-                visibility: visible;
-                animation-duration: 1s;
-                animation-delay: 0.1s;
-                animation-name: fadeInUp;
-              "
-            >
-              <!-- service block -->
-              <div
-                class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 rounded-2xl"
-              >
-                <div class="inline-block text-gray-900 mb-4">
-                  <!-- icon -->
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2rem"
-                    height="2rem"
-                    fill="currentColor"
-                    class="bi bi-chat-square-dots"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
-                    ></path>
-                    <path
-                      d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
-                    ></path>
-                  </svg>
-                </div>
-                <h3
-                  class="text-lg leading-normal mb-2 font-semibold text-black"
-                >
-                  Unveiling Unique Designs
-                </h3>
-                <p class="text-gray-500">
-                  Explore a diverse selection of captivating tattoo options,
-                  carefully crafted with utmost precision and creative flair.
-                </p>
-              </div>
-              <!-- end service block -->
-            </div>
-            <div
-              class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".3s"
-              style="
-                visibility: visible;
-                animation-duration: 1s;
-                animation-delay: 0.3s;
-                animation-name: fadeInUp;
-              "
-            >
-              <!-- service block -->
-              <div
-                class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 rounded-2xl"
-              >
-                <div class="inline-block text-gray-900 mb-4">
-                  <!-- icon -->
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2rem"
-                    height="2rem"
-                    fill="currentColor"
-                    class="bi bi-badge-ad"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M3.7 11l.47-1.542h2.004L6.644 11h1.261L5.901 5.001H4.513L2.5 11h1.2zm1.503-4.852l.734 2.426H4.416l.734-2.426h.053zm4.759.128c-1.059 0-1.753.765-1.753 2.043v.695c0 1.279.685 2.043 1.74 2.043.677 0 1.222-.33 1.367-.804h.057V11h1.138V4.685h-1.16v2.36h-.053c-.18-.475-.68-.77-1.336-.77zm.387.923c.58 0 1.002.44 1.002 1.138v.602c0 .76-.396 1.2-.984 1.2-.598 0-.972-.449-.972-1.248v-.453c0-.795.37-1.24.954-1.24z"
-                    ></path>
-                    <path
-                      d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"
-                    ></path>
-                  </svg>
-                </div>
-                <h3
-                  class="text-lg leading-normal mb-2 font-semibold text-black"
-                >
-                  Embrace Your Individuality
-                </h3>
-                <p class="text-gray-500">
-                  Reveal your true self through customized tattoos that reflect
-                  your unique personality and style.
-                </p>
-              </div>
-              <!-- end service block -->
-            </div>
-            <div
-              class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
-              data-wow-duration="1s"
-              style="
-                visibility: visible;
-                animation-duration: 1s;
-                animation-name: fadeInUp;
-              "
-            >
-              <!-- service block -->
-              <div
-                class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 rounded-2xl"
-              >
-                <div class="inline-block text-gray-900 mb-4">
-                  <!-- icon -->
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2rem"
-                    height="2rem"
-                    fill="currentColor"
-                    class="bi bi-card-checklist"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"
-                    ></path>
-                    <path
-                      d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"
-                    ></path>
-                  </svg>
-                </div>
-                <h3
-                  class="text-lg leading-normal mb-2 font-semibold text-black"
-                >
-                  Crafting Lasting Impressions
-                </h3>
-                <p class="text-gray-500">
-                  Build a distinctive brand identity through our exceptional
-                  tattooing solutions that leave a lasting impact.
-                </p>
-              </div>
-              <!-- end service block -->
-            </div>
-            <div
-              class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".1s"
-              style="
-                visibility: visible;
-                animation-duration: 1s;
-                animation-delay: 0.1s;
-                animation-name: fadeInUp;
-              "
-            >
-              <!-- service block -->
-              <div
-                class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 rounded-2xl"
-              >
-                <div class="inline-block text-gray-900 mb-4">
-                  <!-- icon -->
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2rem"
-                    height="2rem"
-                    fill="currentColor"
-                    class="bi bi-wallet2"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"
-                    ></path>
-                  </svg>
-                </div>
-                <h3
-                  class="text-lg leading-normal mb-2 font-semibold text-black"
-                >
-                  Tailored to Fit Your Budget
-                </h3>
-                <p class="text-gray-500">
-                  Discover affordable tattoo services without compromising on
-                  quality, tailored to meet your specific budgetary needs.
-                </p>
-              </div>
-              <!-- end service block -->
-            </div>
-            <div
-              class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".3s"
-              style="
-                visibility: visible;
-                animation-duration: 1s;
-                animation-delay: 0.3s;
-                animation-name: fadeInUp;
-              "
-            >
-              <!-- service block -->
-              <div
-                class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 rounded-2xl"
-              >
-                <div class="inline-block text-gray-900 mb-4">
-                  <!-- icon -->
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2rem"
-                    height="2rem"
-                    fill="currentColor"
-                    class="bi bi-funnel"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"
-                    ></path>
-                  </svg>
-                </div>
-                <h3
-                  class="text-lg leading-normal mb-2 font-semibold text-black"
-                >
-                  Unlock Your Potential
-                </h3>
-                <p class="text-gray-500">
-                  Amplify your personal expression and captivate a wider
-                  audience by optimizing your tattoo designs for maximum impact.
-                </p>
-              </div>
-              <!-- end service block -->
-            </div>
-          </div>
-          <!-- end row -->
-        </div>
-      </div>
-
-      <!-- component -->
-      <!-- component -->
-      <div class="py-20 bg-gray-50">
-        <div class="container mx-auto px-6 md:px-12 xl:px-32">
-          <div class="mb-16 text-center">
-            <h2
-              class="mb-4 text-center text-2xl text-gray-900 font-bold md:text-4xl"
-            >
-              Leading Tattoo Artistry at Enigma Ink
-            </h2>
-            <p class="text-gray-600 lg:w-8/12 lg:mx-auto">
-              Enigma Ink stands out as a beacon of excellence, not only for its
-              outstanding artistry but also for the remarkable individuals who
-              lead the way.
-            </p>
-          </div>
-          <div class="grid gap-12 items-center md:grid-cols-3">
-            <div class="space-y-4 text-center">
-              <img
-                class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-                src="https://img.freepik.com/free-photo/beautiful-creative-master-with-dreadlocks-is-working-new-peace-big-leg-tattoo-customer_613910-2923.jpg?w=2000&t=st=1692787036~exp=1692787636~hmac=90d03065d543d41597237a74bbdb5296de715743c72561974d8586ff22897da3"
-                alt="woman"
-                loading="lazy"
-                width="640"
-                height="805"
-              />
-              <div>
-                <h4 class="text-2xl">Haley Monroe</h4>
-                <span class="block text-sm text-gray-500">
-                  Master Artist and Founder</span
-                >
-              </div>
-            </div>
-            <div class="space-y-4 text-center">
-              <img
-                class="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80"
-                src="https://img.freepik.com/free-photo/redhead-bearded-male-with-tattoos-his-arms-posing-grey-background_613910-13731.jpg?size=626&ext=jpg&ga=GA1.2.1758426518.1692787007&semt=ais"
-                alt="man"
-                loading="lazy"
-                width="1000"
-                height="667"
-              />
-              <div>
-                <h4 class="text-2xl">Ethan Reed</h4>
-                <span class="block text-sm text-gray-500">
-                  Creative Director</span
-                >
-              </div>
-            </div>
-            <div class="space-y-4 text-center">
-              <img
-                class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-                src="https://img.freepik.com/free-photo/young-beautiful-girl-sits-table-with-makeup-tools-holding-makeup-brush-with-mirror-isolated-orange-wall_141793-105910.jpg?w=2000&t=st=1692787089~exp=1692787689~hmac=d54eeda0ac6f41ec08e037a58517390b176e4e0e71ef638ed91594fb13adae27"
-                alt="woman"
-                loading="lazy"
-                width="1000"
-                height="667"
-              />
-              <div>
-                <h4 class="text-2xl">Olivia Bennett</h4>
-                <span class="block text-sm text-gray-500"></span>
-                Operations Manager
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- component -->
-    <div class="w-full z-50 sticky bg-gray-900">
-      <div
-        class="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-5xl md:px-24 lg:px-8 lg:py-20"
-      >
-        <div
-          class="flex flex-col items-center justify-between w-full mb-10 lg:flex-row"
-        >
-          <div class="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
-            <div class="max-w-xl mb-6">
-              <h2
-                class="font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none max-w-lg mb-6"
-              >
-                Step 1: Consultation and Design
-              </h2>
-              <p class="text-white text-base md:text-lg">
-                Start by scheduling a consultation at Enigma Tattoo Salon. Share
-                your ideas, preferences, and any specific elements you want in
-                your tattoo. Collaborate with the tattoo artist to create a
-                custom design that reflects your vision.
+              <h3>Corporis temporibus maiores provident</h3>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident.
               </p>
+              <a href="#" class="btn btn-get-started">Get Started</a>
+            </div>
+            <div
+              class="col-lg-7 order-1 order-lg-2 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <div class="image-stack">
+                <img
+                  src="assets/img/features-light-1.jpg"
+                  alt=""
+                  class="stack-front"
+                />
+                <img
+                  src="assets/img/features-light-2.jpg"
+                  alt=""
+                  class="stack-back"
+                />
+              </div>
             </div>
           </div>
-          <image
-            alt="logo"
-            width="450"
-            height="450"
-            src="https://img.freepik.com/free-photo/side-view-tattoo-artist-studio_23-2149525980.jpg?w=2000&t=st=1692787508~exp=1692788108~hmac=bbf02d0bb6cee817e44d0adbac9d278cfedbe432a1d91be420e74f94c9ad0e0b"
-          />
-        </div>
-      </div>
-
-      <div
-        class="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-5xl md:px-24 lg:px-8 lg:py-20"
-      >
-        <div
-          class="flex flex-col items-center justify-between w-full mb-10 lg:flex-row"
-        >
-          <image
-            alt="logo"
-            width="450"
-            height="450"
-            src="https://img.freepik.com/free-photo/medium-shot-tattoo-artist-man_23-2149525934.jpg?size=626&ext=jpg&ga=GA1.2.1758426518.1692787007&semt=ais"
-          />
-
-          <div class="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
-            <div class="max-w-xl mb-6 lg:pl-10">
-              <h2
-                class="font-sans text-3xl sm:mt-0 mt-6 font-bold tracking-tight text-white sm:text-4xl sm:leading-none max-w-lg mb-6"
-              >
-                Step 2: Booking and Preparation
-              </h2>
-              <p class="text-white text-base md:text-lg">
-                Once the design is finalized, book your tattoo session at Enigma
-                Tattoo Salon. Confirm the date, time, and payment details. Prior
-                to your appointment, follow any necessary preparation
-                instructions provided by the salon, such as avoiding certain
-                medications or alcohol.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-5xl md:px-24 lg:px-8 lg:py-20"
-      >
-        <div
-          class="flex flex-col items-center justify-between w-full mb-10 lg:flex-row"
-        >
-          <div class="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
-            <div class="max-w-xl mb-6">
-              <h2
-                class="font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none max-w-lg mb-6"
-              >
-                Step 3: Tattoo Session and Aftercare
-              </h2>
-              <p class="text-white text-base md:text-lg">
-                On the scheduled day, arrive at the salon for your tattoo
-                session. The skilled artist will carefully ink your design onto
-                your skin. Afterward, they will provide you with detailed
-                aftercare instructions to ensure proper healing and maintenance
-                of your tattoo.
-              </p>
-            </div>
-          </div>
-          <image
-            alt="logo"
-            width="450"
-            height="450"
-            src="https://img.freepik.com/free-photo/talented-tattoo-artist-doing-his-job-side-view_23-2149525941.jpg?w=2000&t=st=1692787556~exp=1692788156~hmac=e59d9ecda9ef53a350820205d6cbc592211ff773d39d16c7fcb76f461dad8b31"
-          />
-        </div>
-      </div>
-
-      <div
-        class="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-5xl md:px-24 lg:px-8 lg:py-20"
-      >
-        <div
-          class="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded-3xl shadow-sm lg:flex-row sm:mx-auto"
-        >
-          <div class="relative lg:w-1/2">
-            <image
-              width="50"
-              height="50"
-              src="https://img.freepik.com/free-photo/look-that-isolated-funny-bald-bearded-man-with-tattoo-raising-index-fingre-pointing-left-corner-expressing-excitement-curiosity-raising-eyebrows-body-language_343059-1721.jpg?size=626&ext=jpg&ga=GA1.2.1758426518.1692787007&semt=ais"
-              alt="mobile app"
-              class="object-cover w-full lg:absolute h-80 lg:h-full"
-            />
-          </div>
+          <!-- Features Item -->
 
           <div
-            class="flex flex-col justify-center p-8 bg-black lg:p-16 lg:pl-10 lg:w-1/2"
+            class="row gy-4 align-items-stretch justify-content-between features-item"
           >
-            <h5
-              class="mb-3 text-3xl text-white font-extrabold leading-none sm:text-4xl"
+            <div
+              class="col-lg-6 d-flex align-items-center features-img-bg"
+              data-aos="zoom-out"
             >
-              Need Some Help?
-            </h5>
-            <p class="mb-8 text-blue-400 font-black"></p>
-            <div class="flex items-left cursor-pointer">
-              <a
-                href="#contact"
-                class="flex hover:border-2 hover:shadow-xl items-center text-white border-2 justify-center w-full sm:px-10 py-4 leading-6 bg-black rounded-lg font-black"
-                >Contact Us
-              </a>
+              <img
+                src="assets/img/features-light-3.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div
+              class="col-lg-5 d-flex justify-content-center flex-column"
+              data-aos="fade-up"
+            >
+              <h3>Sunt consequatur ad ut est nulla</h3>
+              <p>
+                Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus
+                quia minima quod. Sunt saepe odit aut quia voluptatem hic
+                voluptas dolor doloremque.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i
+                  ><span>
+                    Duis aute irure dolor in reprehenderit in voluptate
+                    velit.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Facilis ut et voluptatem aperiam. Autem soluta ad
+                    fugiat</span
+                  >.
+                </li>
+              </ul>
+              <a href="#" class="btn btn-get-started align-self-start"
+                >Get Started</a
+              >
+            </div>
+          </div>
+          <!-- Features Item -->
+        </div>
+      </section>
+      <!-- End Features Section -->
+
+      <!-- Portfolio Section - Home Page -->
+      <section id="portfolio" class="portfolio">
+        <!--  Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Portfolio</h2>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <ul
+              class="portfolio-filters isotope-filters"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-product">Card</li>
+              <li data-filter=".filter-branding">Web</li>
+            </ul>
+            <!-- End Portfolio Filters -->
+
+            <div
+              class="row gy-4 isotope-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <img
+                  src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>App 1</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a
+                    href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
+                    title="App 1"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+              >
+                <img
+                  src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Product 1</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a
+                    href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
+                    title="Product 1"
+                    data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+              >
+                <img
+                  src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Branding 1</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a
+                    href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
+                    title="Branding 1"
+                    data-gallery="portfolio-gallery-branding"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <img
+                  src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>App 2</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a
+                    href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
+                    title="App 2"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+              >
+                <img
+                  src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Product 2</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a
+                    href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
+                    title="Product 2"
+                    data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+              >
+                <img
+                  src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Branding 2</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a
+                    href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
+                    title="Branding 2"
+                    data-gallery="portfolio-gallery-branding"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <img
+                  src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>App 3</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a
+                    href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
+                    title="App 3"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+              >
+                <img
+                  src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Product 3</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a
+                    href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
+                    title="Product 3"
+                    data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+              >
+                <img
+                  src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Branding 3</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a
+                    href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
+                    title="Branding 2"
+                    data-gallery="portfolio-gallery-branding"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Container -->
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+      <!-- Pricing Section - Home Page -->
+      <section id="pricing" class="pricing">
+        <!--  Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Pricing</h2>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="zoom-in" data-aos-delay="100">
+          <div class="row g-4">
+            <div class="col-lg-4">
+              <div class="pricing-item">
+                <h3>Free Plan</h3>
+                <div class="icon">
+                  <i class="bi bi-box"></i>
+                </div>
+                <h4><sup>$</sup>0<span> / month</span></h4>
+                <ul>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Quam adipiscing vitae proin</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Nec feugiat nisl pretium</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Nulla at volutpat diam uteera</span>
+                  </li>
+                  <li class="na">
+                    <i class="bi bi-x"></i>
+                    <span>Pharetra massa massa ultricies</span>
+                  </li>
+                  <li class="na">
+                    <i class="bi bi-x"></i>
+                    <span>Massa ultricies mi quis hendrerit</span>
+                  </li>
+                </ul>
+                <div class="text-center">
+                  <a href="#" class="buy-btn">Buy Now</a>
+                </div>
+              </div>
+            </div>
+            <!-- End Pricing Item -->
+
+            <div class="col-lg-4">
+              <div class="pricing-item featured">
+                <h3>Business Plan</h3>
+                <div class="icon">
+                  <i class="bi bi-rocket"></i>
+                </div>
+
+                <h4><sup>$</sup>29<span> / month</span></h4>
+                <ul>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Quam adipiscing vitae proin</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Nec feugiat nisl pretium</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Nulla at volutpat diam uteera</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Pharetra massa massa ultricies</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Massa ultricies mi quis hendrerit</span>
+                  </li>
+                </ul>
+                <div class="text-center">
+                  <a href="#" class="buy-btn">Buy Now</a>
+                </div>
+              </div>
+            </div>
+            <!-- End Pricing Item -->
+
+            <div class="col-lg-4">
+              <div class="pricing-item">
+                <h3>Developer Plan</h3>
+                <div class="icon">
+                  <i class="bi bi-send"></i>
+                </div>
+                <h4><sup>$</sup>49<span> / month</span></h4>
+                <ul>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Quam adipiscing vitae proin</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Nec feugiat nisl pretium</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Nulla at volutpat diam uteera</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Pharetra massa massa ultricies</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Massa ultricies mi quis hendrerit</span>
+                  </li>
+                </ul>
+                <div class="text-center">
+                  <a href="#" class="buy-btn">Buy Now</a>
+                </div>
+              </div>
+            </div>
+            <!-- End Pricing Item -->
+          </div>
+        </div>
+      </section>
+      <!-- End Pricing Section -->
+
+      <!-- Faq Section - Home Page -->
+      <section id="faq" class="faq">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="content px-xl-5">
+                <h3>
+                  <span>Frequently Asked </span><strong>Questions</strong>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Duis aute irure dolor in reprehenderit
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+              <div class="faq-container">
+                <div class="faq-item faq-active">
+                  <h3>
+                    <span class="num">1.</span>
+                    <span>Non consectetur a erat nam at lectus urna duis?</span>
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
+                      id volutpat lacus laoreet non curabitur gravida. Venenatis
+                      lectus magna fringilla urna porttitor rhoncus dolor purus
+                      non.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    <span class="num">2.</span>
+                    <span
+                      >Feugiat scelerisque varius morbi enim nunc faucibus a
+                      pellentesque?</span
+                    >
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Dolor sit amet consectetur adipiscing elit pellentesque
+                      habitant morbi. Id interdum velit laoreet id donec
+                      ultrices. Fringilla phasellus faucibus scelerisque
+                      eleifend donec pretium. Est pellentesque elit ullamcorper
+                      dignissim. Mauris ultrices eros in cursus turpis massa
+                      tincidunt dui.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    <span class="num">3.</span>
+                    <span
+                      >Dolor sit amet consectetur adipiscing elit
+                      pellentesque?</span
+                    >
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                      sagittis orci. Faucibus pulvinar elementum integer enim.
+                      Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                      tellus pellentesque eu tincidunt. Lectus urna duis
+                      convallis convallis tellus. Urna molestie at elementum eu
+                      facilisis sed odio morbi quis
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    <span class="num">4.</span>
+                    <span
+                      >Ac odio tempor orci dapibus. Aliquam eleifend mi in
+                      nulla?</span
+                    >
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Dolor sit amet consectetur adipiscing elit pellentesque
+                      habitant morbi. Id interdum velit laoreet id donec
+                      ultrices. Fringilla phasellus faucibus scelerisque
+                      eleifend donec pretium. Est pellentesque elit ullamcorper
+                      dignissim. Mauris ultrices eros in cursus turpis massa
+                      tincidunt dui.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    <span class="num">5.</span>
+                    <span
+                      >Tempus quam pellentesque nec nam aliquam sem et tortor
+                      consequat?</span
+                    >
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Molestie a iaculis at erat pellentesque adipiscing
+                      commodo. Dignissim suspendisse in est ante in. Nunc vel
+                      risus commodo viverra maecenas accumsan. Sit amet nisl
+                      suscipit adipiscing bibendum est. Purus gravida quis
+                      blandit turpis cursus in
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+      <!-- End Faq Section -->
 
-    <!-- FOOTER -->
-    <section class="bg-gray-900" id="contact">
-        <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.7029153620992!2d-121.9874327!3d37.9607222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80855e21f970de33%3A0x6c3201dfc9052faa!2s1451%20Wharton%20Way%2C%20Concord%2C%20CA%2094521%2C%20USA!5e0!3m2!1sen!2sby!4v1692787753264!5m2!1sen!2sby"
-        width="100%"
-        height="300"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-
-      <div
-        class="max-w-lg bg-gray-900 px-4 pt-20 pb-20 py-8 mx-auto text-left md:max-w-none md:text-center"
-      >
-        <h1 class="tracking-tight text-center">
-          <div class="text-white text-2xl lg:text-4xl mb-1">Address:</div>
-          <div class="text-white text-2md lg:text-4md mb-2">
-            1451 WHARTON WAY CONCORD CA 94521-2992 USA
-          </div>
-          <div class="text-white text-2xl lg:text-4xl mb-1">Phone:</div>
-          <div class="text-white text-2md lg:text-4md mb-2">
-            +1 324-123-6757
-          </div>
-          <div class="text-white text-2xl lg:text-4xl mb-1">Email:</div>
-          <div class="text-white text-2md lg:text-4md mb-2">
-            enigmaink@gmail.com
-          </div>
-        </h1>
-      </div>
-    </section>
-
-    <footer class="bg-gray-900 pb-5">
-      <div class="max-w-screen-xl px-4 pt-8 mx-auto sm:px-6 lg:px-8">
-        <div class="sm:flex sm:items-center sm:justify-center">
-          <p
-            class="mt-4 text-sm text-center items-center text-gray-400 lg:text-right lg:mt-0"
-          >
-            <a href="privacy/privacy.html">Privacy Policy</a>&nbsp;
-            <a href="privacy/terms.html">Terms and Conditions</a>&nbsp;
-            <a href="privacy/disclaimer.html">Disclaimers</a>&nbsp;
-            <a href="privacy/cookies.html">Cookie Policy</a>
+      <!-- Team Section - Home Page -->
+      <section id="team" class="team">
+        <!--  Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Team</h2>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
           </p>
         </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-5">
+            <div
+              class="col-lg-4 col-md-6 member"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member-img">
+                <img
+                  src="assets/img/team/team-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+                <p>
+                  Aliquam iure quaerat voluptatem praesentium possimus unde
+                  laudantium vel dolorum distinctio dire flow
+                </p>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-4 col-md-6 member"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="member-img">
+                <img
+                  src="assets/img/team/team-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+                <p>
+                  Labore ipsam sit consequatur exercitationem rerum laboriosam
+                  laudantium aut quod dolores exercitationem ut
+                </p>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-4 col-md-6 member"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member-img">
+                <img
+                  src="assets/img/team/team-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+                <p>
+                  Illum minima ea autem doloremque ipsum quidem quas aspernatur
+                  modi ut praesentium vel tque sed facilis at qui
+                </p>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-4 col-md-6 member"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="member-img">
+                <img
+                  src="assets/img/team/team-4.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+                <p>
+                  Magni voluptatem accusamus assumenda cum nisi aut qui dolorem
+                  voluptate sed et veniam quasi quam consectetur
+                </p>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-4 col-md-6 member"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="member-img">
+                <img
+                  src="assets/img/team/team-5.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Brian Doe</h4>
+                <span>Marketing</span>
+                <p>
+                  Qui consequuntur quos accusamus magnam quo est molestiae eius
+                  laboriosam sunt doloribus quia impedit laborum velit
+                </p>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-4 col-md-6 member"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="member-img">
+                <img
+                  src="assets/img/team/team-6.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Josepha Palas</h4>
+                <span>Operation</span>
+                <p>
+                  Sint sint eveniet explicabo amet consequatur nesciunt error
+                  enim rerum earum et omnis fugit eligendi cupiditate vel
+                </p>
+              </div>
+            </div>
+            <!-- End Team Member -->
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+
+      <!-- Call-to-action Section - Home Page -->
+      <section id="call-to-action" class="call-to-action">
+        <img src="assets/img/cta-bg.jpg" alt="" />
+
+        <div class="container">
+          <div
+            class="row justify-content-center"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="col-xl-10">
+              <div class="text-center">
+                <h3>Call To Action</h3>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+                </p>
+                <a class="cta-btn" href="#">Call To Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Call-to-action Section -->
+
+      <!-- Testimonials Section - Home Page -->
+      <section id="testimonials" class="testimonials">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+              <h3>Testimonials</h3>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+            </div>
+
+            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+              <div class="swiper">
+                <template class="swiper-config">
+                  { "loop": true, "speed" : 600, "autoplay": { "delay": 5000 },
+                  "slidesPerView": "auto", "pagination": { "el":
+                  ".swiper-pagination", "type": "bullets", "clickable": true } }
+                </template>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img
+                          src="assets/img/testimonials/testimonials-1.jpg"
+                          class="testimonial-img flex-shrink-0"
+                          alt=""
+                        />
+                        <div>
+                          <h3>Saul Goodman</h3>
+                          <h4>Ceo & Founder</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span
+                          >Proin iaculis purus consequat sem cure digni ssim
+                          donec porttitora entum suscipit rhoncus. Accusantium
+                          quam, ultricies eget id, aliquam eget nibh et. Maecen
+                          aliquam, risus at semper.</span
+                        >
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End testimonial item -->
+
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img
+                          src="assets/img/testimonials/testimonials-2.jpg"
+                          class="testimonial-img flex-shrink-0"
+                          alt=""
+                        />
+                        <div>
+                          <h3>Sara Wilsson</h3>
+                          <h4>Designer</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span
+                          >Export tempor illum tamen malis malis eram quae irure
+                          esse labore quem cillum quid cillum eram malis quorum
+                          velit fore eram velit sunt aliqua noster fugiat irure
+                          amet legam anim culpa.</span
+                        >
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End testimonial item -->
+
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img
+                          src="assets/img/testimonials/testimonials-3.jpg"
+                          class="testimonial-img flex-shrink-0"
+                          alt=""
+                        />
+                        <div>
+                          <h3>Jena Karlis</h3>
+                          <h4>Store Owner</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span
+                          >Enim nisi quem export duis labore cillum quae magna
+                          enim sint quorum nulla quem veniam duis minim tempor
+                          labore quem eram duis noster aute amet eram fore quis
+                          sint minim.</span
+                        >
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End testimonial item -->
+
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img
+                          src="assets/img/testimonials/testimonials-4.jpg"
+                          class="testimonial-img flex-shrink-0"
+                          alt=""
+                        />
+                        <div>
+                          <h3>Matt Brandon</h3>
+                          <h4>Freelancer</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span
+                          >Fugiat enim eram quae cillum dolore dolor amet nulla
+                          culpa multos export minim fugiat minim velit minim
+                          dolor enim duis veniam ipsum anim magna sunt elit fore
+                          quem dolore labore illum veniam.</span
+                        >
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End testimonial item -->
+
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img
+                          src="assets/img/testimonials/testimonials-5.jpg"
+                          class="testimonial-img flex-shrink-0"
+                          alt=""
+                        />
+                        <div>
+                          <h3>John Larson</h3>
+                          <h4>Entrepreneur</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span
+                          >Quis quorum aliqua sint quem legam fore sunt eram
+                          irure aliqua veniam tempor noster veniam enim culpa
+                          labore duis sunt culpa nulla illum cillum fugiat legam
+                          esse veniam culpa fore nisi cillum quid.</span
+                        >
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End testimonial item -->
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+
+      <!-- Contact Section - Home Page -->
+      <section id="contact" class="contact">
+        <!--  Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="200">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Address</h3>
+                    <p>A108 Adam Street</p>
+                    <p>New York, NY 535022</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="300">
+                    <i class="bi bi-telephone"></i>
+                    <h3>Call Us</h3>
+                    <p>+1 5589 55488 55</p>
+                    <p>+1 6678 254445 41</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="400">
+                    <i class="bi bi-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>info@example.com</p>
+                    <p>contact@example.com</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="500">
+                    <i class="bi bi-clock"></i>
+                    <h3>Open Hours</h3>
+                    <p>Monday - Friday</p>
+                    <p>9:00AM - 05:00PM</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form
+                action="forms/contact.php"
+                method="post"
+                class="php-email-form"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      placeholder="Subject"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="6"
+                      placeholder="Message"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your message has been sent. Thank you!
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-12 footer-links">
+            <ul>
+              <li><a href="#">Desclaimer</a></li>
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Cookie policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container copyright text-center">
+        <p>
+          &copy; <span>Copyright</span>
+          <strong class="px-1">KitchenCrafters</strong>
+          <span>All Rights Reserved</span>
+        </p>
       </div>
     </footer>
-    <!-- END FOOTER -->
+    <!-- End Footer -->
 
-    <div id="cookie-kv">
-      <p>
-        We use cookies to improve the website and your interaction with users.
-        By continuing to use the site, you agree to the use of cookies. You can
-        always disable cookies in your browser settings.
-      </p>
-      <button class="button-2 cookie_accept" style="margin: 0">Accept</button>
+    <!-- Scroll Top Button -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
-      defer
-    ></script>
-    <script type="text/javascript" src="./dist/script.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
