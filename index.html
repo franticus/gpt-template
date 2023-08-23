@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/output.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="./favicon.ico" />
-    <title>AmasePrint</title>
+    <title>Enigma</title>
   </head>
   <body>
     <div>
       <header
-        class="bg-[url('https://images.unsplash.com/photo-1562986398-ef6efbbc9537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')]"
+        class="bg-[url('https://images.unsplash.com/photo-1552627019-947c3789ffb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2531&q=80')] bg-cover"
         x-data="{ isOpen: false }"
       >
         <nav
@@ -20,7 +20,7 @@
             <a
               class="text-xl font-bold text-white transition-colors duration-300 transform md:text-2xl hover:text-indigo-400"
               href="./index.html"
-              >AmasePrint</a
+              >Enigma</a
             >
 
             <!-- Mobile menu button -->
@@ -70,7 +70,9 @@
 
         <section class="flex items-center justify-center" style="height: 500px">
           <div class="text-center">
-            <h2 class="mt-6 text-3xl max-w-4xl font-bold text-white md:text-5xl">
+            <h2
+              class="mt-6 text-3xl max-w-4xl font-bold text-white md:text-5xl"
+            >
               Express your style with our personalized clothing prints, and
               elevate your fashion game.
             </h2>
@@ -86,15 +88,15 @@
         </section>
       </header>
 
-      <section class="bg-white" id="about">
+      <section class="bg-gray-800" id="about">
         <div class="max-w-5xl px-6 py-16 mx-auto">
           <div class="items-center md:flex md:space-x-6">
             <div class="md:w-1/2">
-              <h3 class="text-2xl font-semibold text-gray-800">
+              <h3 class="text-2xl font-semibold text-white">
                 AmasePrint, the leading company specializing in custom clothing
                 printing.
               </h3>
-              <p class="max-w-md mt-4 text-gray-600">
+              <p class="max-w-md mt-4 text-white">
                 We are dedicated to providing exceptional services that will
                 bring your designs to life. Our team of skilled professionals
                 ensures the highest quality prints on a wide range of garments.
@@ -122,7 +124,82 @@
         </div>
       </section>
 
-      <section class="bg-white">
+      <div class="carousel">
+        <div class="carousel-inner">
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-1"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+            checked="checked"
+          />
+
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1482329033286-79a3d24413b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            />
+          </div>
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-2"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+          />
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1479767574301-a01c78234a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            />
+          </div>
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-3"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+          />
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1519822356-4853be4346a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+            />
+          </div>
+          <label for="carousel-3" class="carousel-control prev control-1"
+            >‹</label
+          >
+          <label for="carousel-2" class="carousel-control next control-1"
+            >›</label
+          >
+          <label for="carousel-1" class="carousel-control prev control-2"
+            >‹</label
+          >
+          <label for="carousel-3" class="carousel-control next control-2"
+            >›</label
+          >
+          <label for="carousel-2" class="carousel-control prev control-3"
+            >‹</label
+          >
+          <label for="carousel-1" class="carousel-control next control-3"
+            >›</label
+          >
+          <ol class="carousel-indicators">
+            <li>
+              <label for="carousel-1" class="carousel-bullet">•</label>
+            </li>
+            <li>
+              <label for="carousel-2" class="carousel-bullet">•</label>
+            </li>
+            <li>
+              <label for="carousel-3" class="carousel-bullet">•</label>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <section class="bg-gray-800">
         <div class="max-w-5xl px-6 py-16 mx-auto">
           <div class="items-center md:flex md:space-x-6">
             <div class="md:w-1/2">
@@ -138,11 +215,11 @@
             </div>
 
             <div class="mt-8 md:mt-0 md:w-1/2">
-              <h3 class="text-2xl font-semibold text-gray-800">
+              <h3 class="text-2xl font-semibold text-white">
                 Discover the world of AmasePrint, your premier destination for
                 top-notch apparel printing solutions.
               </h3>
-              <p class="max-w-md mt-4 text-gray-600">
+              <p class="max-w-md mt-4 text-white">
                 We pride ourselves on delivering outstanding craftsmanship and
                 innovative designs for all your clothing needs. From custom tees
                 to stylish hoodies and more, we offer a diverse selection of
@@ -160,130 +237,17 @@
         </div>
       </section>
 
-      <section class="bg-white">
-        <div class="max-w-5xl px-6 py-16 mx-auto">
-          <h2 class="text-3xl font-semibold text-gray-800">
-            Experience the AmasePrint Advantage:
-          </h2>
-          <p class="max-w-lg mt-4 text-gray-600">
-            AmasePrint stands out as the premier choice for custom clothing
-            printing, offering unmatched quality prints that surpass
-            expectations. With an extensive range of products, including
-            t-shirts, hoodies, and accessories, we provide limitless
-            customization options to bring your unique vision to life. Our quick
-            turnaround time, exceptional customer service, and cost-effective
-            solutions ensure a seamless experience from start to finish. Trust
-            AmasePrint to elevate your style with premium prints that make a
-            lasting impression.
-          </p>
-          <div class="grid gap-8 mt-10 md:mt-20 md:grid-cols-2">
-            <div class="flex space-x-4">
-              <svg
-                class="w-6 h-6 text-gray-500"
-                viewBox="0 0 50 50"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M47.6268 23.7062C48.2466 24.4484 48.2466 25.5277 47.6268 26.2699L44.4812 30.0372C43.803 30.8493 43.4742 31.8971 43.5669 32.9512L44.0044 37.9287C44.0912 38.9165 43.4411 39.8188 42.4765 40.0491L38.0619 41.1031C36.9808 41.3612 36.0559 42.0575 35.5089 43.025L33.2053 47.099C32.6961 47.9995 31.5844 48.3631 30.6415 47.9375L26.6498 46.1358C25.6003 45.6621 24.3976 45.6636 23.3493 46.14L19.3597 47.9531C18.4161 48.3819 17.3014 48.0189 16.7912 47.1168L14.4911 43.0489C13.9441 42.0814 13.0192 41.3851 11.9381 41.127L7.52286 40.0728C6.55849 39.8426 5.90838 38.9406 5.99496 37.9529L6.43346 32.9505C6.52583 31.8968 6.19706 30.8494 5.5191 30.0375L2.37029 26.2665C1.75138 25.5253 1.75043 24.4477 2.36803 23.7054L5.52362 19.9127C6.1988 19.1012 6.52582 18.0557 6.43339 17.0041L5.99624 12.0308C5.90922 11.0408 6.56225 10.1372 7.52946 9.90904L11.9298 8.87123C13.0153 8.61522 13.9446 7.91765 14.4935 6.94684L16.7947 2.87709C17.3039 1.97664 18.4156 1.61302 19.3585 2.03858L23.3544 3.8422C24.4007 4.31444 25.5993 4.31444 26.6456 3.8422L30.6415 2.03858C31.5844 1.61301 32.6961 1.97663 33.2053 2.87709L35.5089 6.95112C36.0559 7.9186 36.9808 8.61486 38.0619 8.87297L42.4765 9.92701C43.4411 10.1573 44.0912 11.0596 44.0044 12.0474L43.5669 17.0249C43.4742 18.079 43.803 19.1268 44.4812 19.939L47.6268 23.7062ZM25 37.9326C26.8075 37.9326 28.2727 36.4674 28.2727 34.6599V34.4275C28.2727 32.6201 26.8075 31.1548 25 31.1548C23.1925 31.1548 21.7273 32.6201 21.7273 34.4275V34.6599C21.7273 36.4674 23.1925 37.9326 25 37.9326ZM25 28.377C26.8075 28.377 28.2727 26.9117 28.2727 25.1042V15.3162C28.2727 13.5087 26.8075 12.0435 25 12.0435C23.1925 12.0435 21.7273 13.5087 21.7273 15.3162V25.1042C21.7273 26.9117 23.1925 28.377 25 28.377Z"
-                  stroke="currentColor"
-                  stroke-width="2"
-                />
-              </svg>
-
-              <div>
-                <h4 class="text-xl font-medium text-gray-800">
-                  Custom Design Services
-                </h4>
-                <p class="max-w-lg mt-4 text-gray-600">
-                  Explore the innovative design concepts tailored exclusively
-                  for you at AmasePrint. Our team of skilled designers brings
-                  your ideas to life, creating visually stunning prints that
-                  reflect your unique style. From intricate patterns to bold
-                  graphics, we go beyond expectations to deliver exceptional
-                  designs. With careful attention to detail and a commitment to
-                  excellence, our custom design services ensure that your
-                  clothing makes a lasting statement.
-                </p>
-              </div>
-            </div>
-
-            <div class="flex space-x-4">
-              <svg
-                class="w-6 h-6 text-gray-500"
-                viewBox="0 0 50 50"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1 25C1 11.8023 11.8023 1 25 1C38.1977 1 49 11.8023 49 25C49 38.1977 38.1977 49 25 49C11.8023 49 1 38.1977 1 25ZM33.36 35.3573C34.7228 36.1959 36.5074 35.771 37.346 34.4082C38.1913 33.0346 37.7522 31.2351 36.3692 30.4053L28.221 25.5164C27.6186 25.155 27.25 24.504 27.25 23.8014V14.375C27.25 12.7872 25.9628 11.5 24.375 11.5C22.7872 11.5 21.5 12.7872 21.5 14.375V25.8236C21.5 27.2127 22.2206 28.5023 23.4036 29.2302L33.36 35.3573Z"
-                  stroke="currentColor"
-                  stroke-width="2"
-                />
-              </svg>
-
-              <div>
-                <h4 class="text-xl font-medium text-gray-800">
-                  Custom Clothing Printing
-                </h4>
-                <p class="max-w-lg mt-4 text-gray-600">
-                  Experience the art of clothing printing at AmasePrint. Our
-                  dedicated team blends creativity and expertise to deliver
-                  impeccable prints that bring your designs to life. With
-                  meticulous attention to detail and innovative techniques, we
-                  ensure each garment is a true masterpiece. From vibrant colors
-                  to intricate textures, our custom printing services showcase
-                  your unique style. Trust us to transform ordinary clothing
-                  into extraordinary fashion statements. Elevate your wardrobe
-                  with AmasePrint's exceptional clothing printing services
-                  today.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="bg-white">
-        <div class="max-w-5xl px-6 py-16 mx-auto">
-          <div
-            class="px-8 py-12 bg-gray-800 rounded-md md:px-20 md:flex md:items-center md:justify-between"
-          >
-            <div>
-              <h3 class="text-2xl font-semibold text-white">
-                Create your unique style with AmasePrint
-              </h3>
-              <p class="max-w-md mt-4 text-gray-400">
-                Unlock the potential of custom clothing printing and express
-                yourself with AmasePrint. From high-quality materials to
-                impeccable craftsmanship, we bring your ideas to life. Stand out
-                from the crowd and make a statement with personalized fashion
-                that reflects your individuality. Experience the difference of
-                AmasePrint's exceptional printing services and elevate your
-                wardrobe today.
-              </p>
-            </div>
-
-            <a
-              class="block px-8 py-2 mt-6 text-lg font-medium text-center text-white transition-colors duration-300 transform bg-indigo-600 rounded md:mt-0 hover:bg-indigo-500"
-              href="#contact"
-              >Get In Touch</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <section class="bg-white" id="reviews">
+      <section class="bg-gray-800" id="reviews">
         <div class="max-w-5xl px-6 py-16 mx-auto">
           <div class="md:flex md:justify-between">
-            <h2 class="text-3xl font-semibold text-gray-800">Testimonials:</h2>
+            <h2 class="text-3xl font-semibold text-white">Testimonials:</h2>
           </div>
 
           <div class="grid gap-8 mt-10 md:grid-cols-2 lg:grid-cols-3">
             <div
               class="px-6 py-8 overflow-hidden bg-white rounded-md shadow-md transform transition duration-300 ease-in-out hover:-translate-y-2"
             >
-              <h2 class="text-xl font-medium text-gray-800">John Smith:</h2>
+              <h2 class="text-xl font-medium text-gray-600">John Smith:</h2>
               <p class="max-w-md mt-4 text-gray-400">
                 "I was thoroughly impressed with the printing services provided
                 by AmasePrint. The attention to detail and quality of their work
@@ -296,7 +260,7 @@
             <div
               class="px-6 py-8 overflow-hidden bg-white rounded-md shadow-md transform transition duration-300 ease-in-out hover:-translate-y-2"
             >
-              <h2 class="text-xl font-medium text-gray-800">Emily Davis:</h2>
+              <h2 class="text-xl font-medium text-gray-600">Emily Davis:</h2>
               <p class="max-w-md mt-4 text-gray-400">
                 "AmasePrint is a game-changer when it comes to custom clothing
                 printing. They beautifully brought my creative ideas to life on
@@ -310,7 +274,7 @@
             <div
               class="px-6 py-8 overflow-hidden bg-white rounded-md shadow-md transform transition duration-300 ease-in-out hover:-translate-y-2"
             >
-              <h2 class="text-xl font-medium text-gray-800">David Thompson:</h2>
+              <h2 class="text-xl font-medium text-gray-600">David Thompson:</h2>
               <p class="max-w-md mt-4 text-gray-400">
                 "When it comes to reliable and professional clothing printing,
                 AmasePrint is the go-to company. The team's dedication to
@@ -325,13 +289,13 @@
         </div>
       </section>
 
-      <section class="bg-white">
+      <section class="bg-gray-800">
         <div class="max-w-5xl px-6 py-16 mx-auto text-center">
-          <h2 class="text-3xl font-semibold text-gray-800">
+          <h2 class="text-3xl font-semibold text-white">
             At AmasePrint, we strive to exceed your expectations and elevate
             your style with our exceptional clothing printing services.
           </h2>
-          <p class="max-w-5xl mx-auto mt-4 text-gray-600">
+          <p class="max-w-5xl mx-auto mt-4 text-white">
             From concept to creation, our team of experts is dedicated to
             delivering remarkable prints that make a lasting impression. We take
             pride in using top-quality materials and precise craftsmanship to
@@ -350,7 +314,7 @@
         </div>
       </section>
 
-      <section class="bg-white">
+      <section class="bg-gray-800">
         <div
           class="max-w-5xl px-6 py-16 mx-auto space-y-8 md:flex md:items-center md:space-y-0"
         >
@@ -365,11 +329,11 @@
                 src="https://images.unsplash.com/photo-1503342296413-28a6ec3768b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
               />
             </div>
-            <h2 class="text-3xl font-semibold text-gray-800 md:mt-6">
+            <h2 class="text-3xl font-semibold text-white md:mt-6">
               AmasePrint is a renowned company specializing in apparel printing
               that exceeds expectations.
             </h2>
-            <p class="max-w-lg mt-4 text-gray-600">
+            <p class="max-w-lg mt-4 text-white">
               Our commitment to excellence and attention to detail sets us apart
               from the rest. Utilizing cutting-edge technology and a team of
               skilled professionals, we bring your designs to life with
@@ -393,12 +357,12 @@
       <!-- component -->
       <div
         id="services"
-        class="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white"
+        class="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-gray-800"
       >
         <div class="container xl:max-w-6xl mx-auto px-4">
           <!-- Heading start -->
           <header class="text-center mx-auto mb-12 lg:px-20">
-            <h2 class="text-2xl leading-normal mb-2 font-bold text-black">
+            <h2 class="text-2xl leading-normal mb-2 font-bold text-white">
               What We Do
             </h2>
             <svg
@@ -711,129 +675,218 @@
       </div>
 
       <!-- component -->
-      <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
-        <div class="text-center pb-12">
-          <h1
-            class="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-gray-900"
-          >
-            Check our awesome team members
-          </h1>
+      <!-- component -->
+      <div class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 md:px-12 xl:px-32">
+          <div class="mb-16 text-center">
+            <h2
+              class="mb-4 text-center text-2xl text-gray-900 font-bold md:text-4xl"
+            >
+              Tailus blocks leadership
+            </h2>
+            <p class="text-gray-600 lg:w-8/12 lg:mx-auto">
+              Tailus prides itself not only on award-winning technology, but
+              also on the talent of its people of some of the brightest minds
+              and most experienced executives in business.
+            </p>
+          </div>
+          <div class="grid gap-12 items-center md:grid-cols-3">
+            <div class="space-y-4 text-center">
+              <img
+                class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
+                src="https://tailus.io/sources/blocks/classic/preview/images/woman1.jpg"
+                alt="woman"
+                loading="lazy"
+                width="640"
+                height="805"
+              />
+              <div>
+                <h4 class="text-2xl">Hentoni Doe</h4>
+                <span class="block text-sm text-gray-500">CEO-Founder</span>
+              </div>
+            </div>
+            <div class="space-y-4 text-center">
+              <img
+                class="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80"
+                src="https://tailus.io/sources/blocks/classic/preview/images/man.jpg"
+                alt="man"
+                loading="lazy"
+                width="1000"
+                height="667"
+              />
+              <div>
+                <h4 class="text-2xl">Jonathan Doe</h4>
+                <span class="block text-sm text-gray-500"
+                  >Chief Technical Officer</span
+                >
+              </div>
+            </div>
+            <div class="space-y-4 text-center">
+              <img
+                class="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
+                src="https://tailus.io/sources/blocks/classic/preview/images/woman.jpg"
+                alt="woman"
+                loading="lazy"
+                width="1000"
+                height="667"
+              />
+              <div>
+                <h4 class="text-2xl">Anabelle Doe</h4>
+                <span class="block text-sm text-gray-500"
+                  >Chief Operations Officer</span
+                >
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+
+    <!-- component -->
+    <div class="w-full z-50 sticky bg-gray-800">
+      <div
+        class="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-6xl md:px-24 lg:px-8 lg:py-20"
+      >
         <div
-          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          class="flex flex-col items-center justify-between w-full mb-10 lg:flex-row"
         >
-          <div
-            class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center transform transition duration-300 ease-in-out hover:-translate-y-2"
-          >
-            <div class="mb-8">
-              <img
-                class="object-center object-cover rounded-full h-36 w-36"
-                src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-                alt="photo"
-              />
-            </div>
-            <div class="text-center">
-              <p class="text-xl text-gray-700 font-bold mb-2">John Anderson</p>
-              <p class="text-base text-gray-400 font-normal">
-                Printing Specialist
+          <div class="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
+            <div class="max-w-xl mb-6">
+              <h2
+                class="font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none max-w-lg mb-6"
+              >
+                Step 1: Consultation and Design
+              </h2>
+              <p class="text-white text-base md:text-lg">
+                Start by scheduling a consultation at Enigma Tattoo Salon. Share
+                your ideas, preferences, and any specific elements you want in
+                your tattoo. Collaborate with the tattoo artist to create a
+                custom design that reflects your vision.
               </p>
             </div>
           </div>
-          <div
-            class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center transform transition duration-300 ease-in-out hover:-translate-y-2"
-          >
-            <div class="mb-8">
-              <img
-                class="object-center object-cover rounded-full h-36 w-36"
-                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-                alt="photo"
-              />
-            </div>
-            <div class="text-center">
-              <p class="text-xl text-gray-700 font-bold mb-2">Emily Reynolds</p>
-              <p class="text-base text-gray-400 font-normal">
-                Design Coordinator
+          <image
+            alt="logo"
+            width="450"
+            height="450"
+            src="https://images.unsplash.com/photo-1542304074-9c8ce93b52fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          />
+        </div>
+      </div>
+
+      <div
+        class="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-6xl md:px-24 lg:px-8 lg:py-20"
+      >
+        <div
+          class="flex flex-col items-center justify-between w-full mb-10 lg:flex-row"
+        >
+          <image
+            alt="logo"
+            width="450"
+            height="450"
+            src="https://images.unsplash.com/photo-1515023677547-593d7638cbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          />
+
+          <div class="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
+            <div class="max-w-xl mb-6">
+              <h2
+                class="font-sans text-3xl sm:mt-0 mt-6 font-bold tracking-tight text-white sm:text-4xl sm:leading-none max-w-lg mb-6"
+              >
+                Step 2: Booking and Preparation
+              </h2>
+              <p class="text-white text-base md:text-lg">
+                Once the design is finalized, book your tattoo session at Enigma
+                Tattoo Salon. Confirm the date, time, and payment details. Prior
+                to your appointment, follow any necessary preparation
+                instructions provided by the salon, such as avoiding certain
+                medications or alcohol.
               </p>
-            </div>
-          </div>
-          <div
-            class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center transform transition duration-300 ease-in-out hover:-translate-y-2"
-          >
-            <div class="mb-8">
-              <img
-                class="object-center object-cover rounded-full h-36 w-36"
-                src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1176&q=80"
-                alt="photo"
-              />
-            </div>
-            <div class="text-center">
-              <p class="text-xl text-gray-700 font-bold mb-2">Nora Sullivan</p>
-              <p class="text-base text-gray-400 font-normal">
-                Quality Assurance Analyst
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center transform transition duration-300 ease-in-out hover:-translate-y-2"
-          >
-            <div class="mb-8">
-              <img
-                class="object-center object-cover rounded-full h-36 w-36"
-                src="https://images.unsplash.com/photo-1559893088-c0787ebfc084?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVufGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=800&q=60"
-                alt="photo"
-              />
-            </div>
-            <div class="text-center">
-              <p class="text-xl text-gray-700 font-bold mb-2">
-                Oliver Mitchell
-              </p>
-              <p class="text-base text-gray-400 font-normal">
-                Operations Manager
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center transform transition duration-300 ease-in-out hover:-translate-y-2"
-          >
-            <div class="mb-8">
-              <img
-                class="object-center object-cover rounded-full h-36 w-36"
-                src="https://images.unsplash.com/photo-1534180477871-5d6cc81f3920?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHdvbWFufGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=800&q=60"
-                alt="photo"
-              />
-            </div>
-            <div class="text-center">
-              <p class="text-xl text-gray-700 font-bold mb-2">Sophia Hughes</p>
-              <p class="text-base text-gray-400 font-normal">
-                Printing Technician
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center transform transition duration-300 ease-in-out hover:-translate-y-2"
-          >
-            <div class="mb-8">
-              <img
-                class="object-center object-cover rounded-full h-36 w-36"
-                src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWVufGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=800&q=60"
-                alt="photo"
-              />
-            </div>
-            <div class="text-center">
-              <p class="text-xl text-gray-700 font-bold mb-2">
-                Ethan Patterson
-              </p>
-              <p class="text-base text-gray-400 font-normal">Graphic Artist</p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+
+      <div
+        class="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-6xl md:px-24 lg:px-8 lg:py-20"
+      >
+        <div
+          class="flex flex-col items-center justify-between w-full mb-10 lg:flex-row"
+        >
+          <div class="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
+            <div class="max-w-xl mb-6">
+              <h2
+                class="font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none max-w-lg mb-6"
+              >
+                Step 3: Tattoo Session and Aftercare
+              </h2>
+              <p class="text-white text-base md:text-lg">
+                On the scheduled day, arrive at the salon for your tattoo
+                session. The skilled artist will carefully ink your design onto
+                your skin. Afterward, they will provide you with detailed
+                aftercare instructions to ensure proper healing and maintenance
+                of your tattoo.
+              </p>
+            </div>
+          </div>
+          <image
+            alt="logo"
+            width="450"
+            height="450"
+            src="https://images.unsplash.com/photo-1546195643-70f48f9c5b87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          />
+        </div>
+      </div>
+
+      <div
+        class="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-6xl md:px-24 lg:px-8 lg:py-20"
+      >
+        <div
+          class="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded-3xl shadow-sm lg:flex-row sm:mx-auto"
+        >
+          <div class="relative lg:w-1/2">
+            <image
+              width="50"
+              height="50"
+              src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt="mobile app"
+              class="object-cover w-full lg:absolute h-80 lg:h-full"
+            />
+            <svg
+              class="absolute top-0 right-0 hidden h-full text-white lg:inline-block"
+              viewBox="0 0 20 104"
+              fill="currentColor"
+            >
+              <polygon
+                points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104"
+              />
+            </svg>
+          </div>
+
+          <div
+            class="flex flex-col justify-center p-8 bg-black lg:p-16 lg:pl-10 lg:w-1/2"
+          >
+            <h5
+              class="mb-3 text-3xl text-white font-extrabold leading-none sm:text-4xl"
+            >
+              Need Some Help?
+            </h5>
+            <p class="mb-8 text-blue-400 font-black"></p>
+            <div class="flex items-left cursor-pointer">
+              <a
+                href="#contact"
+                class="flex hover:border-2 hover:shadow-xl items-center text-white border-2 justify-center w-full sm:px-10 py-4 leading-6 bg-black rounded-lg font-black"
+                >Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- FOOTER -->
-    <section class="bg-black" id="contact">
+    <section class="bg-gray-800" id="contact">
       <div
-        class="max-w-lg bg-black px-4 pt-20 pb-20 py-8 mx-auto text-left md:max-w-none md:text-center"
+        class="max-w-lg bg-gray-800 px-4 pt-20 pb-20 py-8 mx-auto text-left md:max-w-none md:text-center"
       >
         <h1 class="tracking-tight text-center">
           <div class="text-white text-2xl lg:text-4xl mb-1">Address:</div>
@@ -862,7 +915,7 @@
       ></iframe>
     </section>
 
-    <footer class="bg-black pb-5">
+    <footer class="bg-gray-800 pb-5">
       <div class="max-w-screen-xl px-4 pt-8 mx-auto sm:px-6 lg:px-8">
         <div class="sm:flex sm:items-center sm:justify-center">
           <p
