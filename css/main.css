@@ -12,6 +12,25 @@
 .logo_img {
   width: 34px;
   margin-right: 10px;
+  border-radius: 50%;
+}
+
+.case-studies .color-cards .card-contents {
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+}
+
+.card {
+  border-radius: 30px;
+}
+
+.customer-feedback .customer-cards {
+  border-radius: 100px;
+  box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+}
+
+.contact-us-bgimage {
+  box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
 }
 
 .warning {
