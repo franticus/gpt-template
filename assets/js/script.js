@@ -11,7 +11,7 @@ hashLinks.forEach(function (link) {
       const targetPosition = targetElement.offsetTop;
       const startPosition = window.pageYOffset;
       const distance = targetPosition - startPosition;
-      const duration = 1000; // Длительность анимации в миллисекундах
+      const duration = 500;
 
       let start = null;
       window.requestAnimationFrame(step);
