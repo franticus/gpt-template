@@ -1,6 +1,8 @@
 :root {
-  --hero-color: #872c2c;
-  --section-color: #ffecec;
+  --hero-color: #fff;
+  --hero-font: #221144;
+  --section-color: #3e125d;
+  --section-font: #ffffff;
   --button-color: #ff6464;
   --button-hover: #ffefef;
   --progress: #d46983;
@@ -53,9 +55,8 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid var(--hero-color);
-  border-top-color: #fff;
-  border-bottom-color: #fff;
-  border-radius: 50%;
+  border-top-color: var(--hero-font);
+  border-bottom-color: var(--hero-font);
   width: 60px;
   height: 60px;
   animation: animate-preloader 1s linear infinite;
@@ -84,19 +85,18 @@ h6 {
   background: var(--button-color);
   width: 40px;
   height: 40px;
-  border-radius: 50px;
   transition: all 0.4s;
 }
 
 .back-to-top i {
   font-size: 24px;
-  color: #fff;
+  color: var(--hero-font);
   line-height: 0;
 }
 
 .back-to-top:hover {
   background: var(--button-hover);
-  color: #fff;
+  color: var(--hero-font);
 }
 
 .back-to-top.active {
@@ -115,7 +115,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: var(--hero-color);
+  background: #fff;
 }
 
 #header .logo {
@@ -129,7 +129,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: var(--hero-font);
 }
 
 #header .logo img {
@@ -166,7 +166,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  color: #fff;
+  color: var(--hero-font);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -189,8 +189,7 @@ h6 {
 .navbar .getstarted:focus {
   padding: 8px 20px;
   margin-left: 30px;
-  border-radius: 50px;
-  color: #fff;
+  color: var(--hero-font);
   font-size: 14px;
   border: 2px solid var(--button-color);
   font-weight: 600;
@@ -198,7 +197,7 @@ h6 {
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
+  color: var(--hero-font);
   background: #31a9e1;
 }
 
@@ -212,10 +211,9 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: var(--hero-font);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
-  border-radius: 4px;
 }
 
 .navbar .dropdown ul li {
@@ -273,7 +271,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: var(--hero-font);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -282,7 +280,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: var(--hero-font);
 }
 
 @media (max-width: 991px) {
@@ -321,8 +319,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  border-radius: 10px;
-  background-color: #fff;
+  background-color: var(--hero-font);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -354,7 +351,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: var(--hero-font);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -399,11 +396,11 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: var(--hero-font);
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.6);
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -415,10 +412,9 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 28px 11px 28px;
-  border-radius: 50px;
   transition: 0.5s;
   margin: 10px 0 0 0;
-  color: #fff;
+  color: var(--hero-font);
   background: var(--button-color);
 }
 
@@ -432,13 +428,13 @@ h6 {
   align-items: center;
   transition: 0.5s;
   margin: 10px 0 0 25px;
-  color: #fff;
+  color: var(--hero-font);
   line-height: 1;
 }
 
 #hero .btn-watch-video i {
   line-height: 0;
-  color: #fff;
+  color: var(--hero-font);
   font-size: 32px;
   transition: 0.3s;
   margin-right: 8px;
@@ -533,7 +529,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: var(--hero-color);
+  color: #fff;
 }
 
 .section-title h2::before {
@@ -541,7 +537,7 @@ section {
   position: absolute;
   display: block;
   width: 120px;
-  height: 1px;
+  height: 0px;
   background: #ddd;
   bottom: 1px;
   left: calc(50% - 60px);
@@ -552,7 +548,7 @@ section {
   position: absolute;
   display: block;
   width: 40px;
-  height: 3px;
+  height: 10px;
   background: var(--button-color);
   bottom: 0;
   left: calc(50% - 20px);
@@ -560,6 +556,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -597,6 +594,10 @@ section {
   font-size: 26px;
 }
 
+.about h2, .about p {
+  color: var(--hero-font);
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -631,7 +632,6 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
   color: var(--button-color);
@@ -642,7 +642,7 @@ section {
 
 .about .content .btn-learn-more:hover {
   background: var(--button-color);
-  color: #fff;
+  color: var(--hero-font);
   text-decoration: none;
 }
 
@@ -656,7 +656,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: var(--hero-color);
+  color: var(--section-font);
 }
 
 .why-us .content h4 {
@@ -687,13 +687,11 @@ section {
 
 .why-us .accordion-list li+li {
   margin-top: 15px;
-  border-radius: 20px;
 }
 
 .why-us .accordion-list li {
   padding: 20px;
-  background: #fff;
-  border-radius: 20px;
+  background: var(--hero-font);
 }
 
 .why-us .accordion-list a {
@@ -725,6 +723,7 @@ section {
 .why-us .accordion-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  color: #fff;
 }
 
 .why-us .accordion-list .icon-show {
@@ -732,7 +731,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed {
-  color: #343a40;
+  color: #fff;
 }
 
 .why-us .accordion-list a.collapsed:hover {
@@ -782,7 +781,7 @@ section {
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: var(--hero-color);
+  color: var(--hero-font);
   font-family: "Poppins", sans-serif;
 }
 
@@ -819,7 +818,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: var(--hero-color);
+  color: var(--hero-font);
 }
 
 .skills .progress .skill .val {
@@ -846,7 +845,8 @@ section {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
-  background: #fff;
+  background: var(--hero-font);
+  color: #fff;
   border-radius: 30px;
 }
 
@@ -895,13 +895,13 @@ section {
 }
 
 .cta h3 {
-  color: #fff;
+  color: var(--hero-font);
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #fff;
+  color: var(--hero-font);
 }
 
 .cta .cta-btn {
@@ -914,8 +914,8 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid var(--hero-font);
+  color: var(--hero-font);
 }
 
 .cta .cta-btn:hover {
@@ -962,7 +962,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   background: var(--button-color);
-  color: #fff;
+  color: var(--hero-font);
 }
 
 .portfolio .portfolio-item {
@@ -991,9 +991,9 @@ section {
 
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color: #fff;
+  color: var(--hero-font);
   font-weight: 600;
-  color: #fff;
+  color: var(--hero-font);
   margin-bottom: 0px;
 }
 
@@ -1009,7 +1009,7 @@ section {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #fff;
+  color: var(--hero-font);
   transition: 0.3s;
 }
 
@@ -1049,7 +1049,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: var(--hero-font);
   opacity: 1;
   border: 1px solid var(--button-color);
 }
@@ -1103,7 +1103,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 40px;
-  background: #fff;
+  background: var(--hero-font);
   transition: 0.5s;
   height: 100%;
 }
@@ -1124,13 +1124,13 @@ section {
 
 .team .member .member-info {
   padding-left: 30px;
+  color: #fff;
 }
 
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: var(--hero-color);
 }
 
 .team .member span {
@@ -1186,7 +1186,7 @@ section {
 }
 
 .team .member .social a:hover i {
-  color: #fff;
+  color: var(--hero-font);
 }
 
 .team .member .social a+a {
@@ -1203,22 +1203,26 @@ section {
 .pricing .box {
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
-  background: #fff;
+  background: var(--hero-font);
   height: 100%;
-  border-top: 4px solid #fff;
+  border-top: 4px solid var(--hero-font);
   border-radius: 30px;
+}
+
+.pricing h2, .pricing p {
+  color: var(--hero-font);
 }
 
 .pricing h3 {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
-  color: var(--hero-color);
+  color: #fff;
 }
 
 .pricing h4 {
   font-size: 48px;
-  color: var(--hero-color);
+  color: #fff;
   font-weight: 400;
   font-family: "Jost", sans-serif;
   margin-bottom: 25px;
@@ -1282,7 +1286,7 @@ section {
 
 .pricing .buy-btn:hover {
   background: var(--button-color);
-  color: #fff;
+  color: var(--hero-font);
 }
 
 .pricing .featured {
@@ -1292,7 +1296,7 @@ section {
 
 .pricing .featured .buy-btn {
   background: var(--button-color);
-  color: #fff;
+  color: var(--hero-font);
 }
 
 .pricing .featured .buy-btn:hover {
@@ -1338,7 +1342,7 @@ section {
 
 .faq .faq-list li {
   padding: 20px;
-  background: #fff;
+  background: var(--hero-font);
   border-radius: 4px;
   position: relative;
 }
@@ -1374,6 +1378,7 @@ section {
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  color: #fff;
 }
 
 .faq .faq-list .icon-show {
@@ -1381,7 +1386,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: var(--hero-color);
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -1410,9 +1415,13 @@ section {
   border-top: 3px solid var(--button-color);
   border-bottom: 3px solid var(--button-color);
   padding: 30px;
-  background: #fff;
+  background: var(--hero-font);
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.contact h2, .contact p {
+  color: var(--hero-font);
 }
 
 .contact .info i {
@@ -1434,7 +1443,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: var(--hero-color);
+  color: #fff;
 }
 
 .contact .info p {
@@ -1456,7 +1465,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #333;
-  color: #fff;
+  color: var(--hero-font);
   line-height: 1;
   padding: 8px 0;
   border-radius: 50%;
@@ -1469,14 +1478,14 @@ section {
 
 .contact .info .social-links a:hover {
   background: var(--button-color);
-  color: #fff;
+  color: var(--hero-font);
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   background: var(--button-color);
-  color: #fff;
+  color: var(--hero-font);
 }
 
 .contact .php-email-form {
@@ -1484,7 +1493,7 @@ section {
   border-top: 3px solid var(--button-color);
   border-bottom: 3px solid var(--button-color);
   padding: 30px;
-  background: #fff;
+  background: var(--hero-font);
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -1502,7 +1511,7 @@ section {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: var(--hero-font);
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -1515,7 +1524,7 @@ section {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: var(--hero-font);
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1524,7 +1533,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: var(--hero-font);
   text-align: center;
   padding: 15px;
 }
@@ -1574,7 +1583,7 @@ section {
   background: var(--button-color);
   border: 0;
   padding: 12px 34px;
-  color: #fff;
+  color: var(--hero-font);
   transition: 0.4s;
   border-radius: 50px;
 }
@@ -1662,7 +1671,7 @@ section {
 
 #footer .footer-newsletter form {
   margin-top: 30px;
-  background: #fff;
+  background: var(--hero-font);
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
@@ -1686,7 +1695,7 @@ section {
   font-size: 16px;
   padding: 0 20px;
   background: var(--button-color);
-  color: #fff;
+  color: var(--hero-font);
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1698,7 +1707,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: var(--hero-font);
 }
 
 #footer .footer-top .footer-contact {
@@ -1774,7 +1783,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: var(--button-color);
-  color: #fff;
+  color: var(--hero-font);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1787,14 +1796,14 @@ section {
 
 #footer .footer-top .social-links a:hover {
   background: #209dd8;
-  color: #fff;
+  color: var(--hero-font);
   text-decoration: none;
 }
 
 #footer .footer-bottom {
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #fff;
+  color: var(--hero-font);
 }
 
 #footer .copyright {
