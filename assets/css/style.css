@@ -1,19 +1,17 @@
 
 :root {
   scroll-behavior: smooth;
-  --bg-color: #fff;
-  --accent-color: #ff6262;
-  --accent-hover: #ff3b3b;
-  --font-color: #ff0000;
+  --bg-color: #ffffff;
+  --accent-color: #01ad8d;
+  --accent-hover: #00725e;
+  --font-color: #080320;
   --accent-shadow: 0px 5px 30px rgba(255, 110, 110, 0.4);
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: #ffffff;
-  background-image: radial-gradient(#d1d3ff 0.6000000000000001px, #ffffff 0.6000000000000001px);
-  background-size: 12px 12px;
+  background: #08f4c9;
 }
 
 a {
@@ -22,7 +20,7 @@ a {
 }
 
 img {
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 a:hover {
@@ -427,7 +425,7 @@ section {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: var(--accent-color);
+  color: var(--font-color);
 }
 
 .navbar-mobile .getstarted,
@@ -522,6 +520,21 @@ section {
 
 .hero .hero-img {
   text-align: right;
+  animation: heroImg 10s ease-in-out infinite;
+}
+
+@keyframes heroImg {
+  0% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(-5deg);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -667,6 +680,7 @@ section {
   width: 100%;
   background: #fff;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 20px;
 }
 
 .counts .count-box i {
@@ -698,6 +712,7 @@ section {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
   height: 100%;
+  border-radius: 20px;
   background: var(--bg-color);
 }
 
@@ -726,6 +741,8 @@ section {
 .features .feture-tabs {
   margin-top: 120px;
   background: var(--bg-color);
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .features .feture-tabs h3 {
@@ -826,7 +843,7 @@ section {
   padding: 60px 30px;
   text-align: center;
   transition: 0.3s;
-  border-radius: 50px;
+  border-radius: 200px;
   background: var(--bg-color);
 }
 
@@ -981,7 +998,7 @@ section {
   background: #fff;
   text-align: center;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
+  border-radius: 40px;
   position: relative;
   overflow: hidden;
   transition: 0.3s;
@@ -1451,7 +1468,11 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
-  padding: 40px;
+  padding: 10px;
+}
+
+.team .member .member-img img {
+  border-radius: 40px;
 }
 
 .team .member .member-img:after {
@@ -2318,6 +2339,9 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .footer .footer-top .footer-links ul i {
@@ -2331,10 +2355,6 @@ section {
   padding: 10px 0;
   display: flex;
   align-items: center;
-}
-
-.footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
 }
 
 .footer .footer-top .footer-links ul a {
