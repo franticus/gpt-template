@@ -1096,8 +1096,11 @@ section {
   border: 0;
 }
 
+.accordion-flush .accordion-item {
+  border-radius: 10px!important;
+}
+
 .faq .accordion-button {
-  padding: 15px 15px 20px 0;
   font-weight: 600;
   border: 0;
   font-size: 18px;
@@ -1116,7 +1119,7 @@ section {
 }
 
 .faq .accordion-body {
-  padding: 0 0 25px 0;
+  padding: 20px;
   border: 0;
 }
 
