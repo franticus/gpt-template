@@ -1,17 +1,20 @@
 :root {
   scroll-behavior: smooth;
   --bg-color: #fff;
-  --accent-color: #ff6262;
-  --accent-hover: #ff3b3b;
-  --font-color: #ff0000;
-  --accent-shadow: 0px 5px 30px rgba(255, 110, 110, 0.4);
+  --accent-color: #ffffff;
+  --accent-hover: #ffffff;
+  --font-color: #ffffff;
+  --font-second-color: #0c4d4d;
+  --button-font-color: #062e30;
+  --accent-shadow: 0px 5px 30px rgba(0, 229, 255, 0.4);
 }
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: var(--font-second-color);
   background-color: #ffffff;
-  background-image: linear-gradient(0deg, #ffffff 50%, #fbfbff 50%);
+  opacity: 1;
+  background-image: linear-gradient(0deg, #8ce4e8 50%, #70c9cd 50%);
   background-size: 10px 10px;
 }
 
@@ -56,7 +59,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: var(--accent-color);
+  color: var(--font-second-color);
   text-transform: uppercase;
 }
 
@@ -66,7 +69,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: var(--font-color);
+  color: var(--font-second-color);
 }
 
 @media (max-width: 768px) {
@@ -179,7 +182,7 @@ section {
 }
 
 .header.header-scrolled {
-  background: #fff;
+  background: var(--font-second-color);
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -233,7 +236,7 @@ section {
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: #c1f8ff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -258,12 +261,12 @@ section {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
-  color: #fff;
+  color: var(--button-font-color);
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
+  color: var(--button-font-color);
   background: var(--accent-hover);
 }
 
@@ -420,18 +423,19 @@ section {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: var(--font-color);
+  color: var(--button-font-color);
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: var(--accent-color);
+  color: var(--button-font-color);
 }
 
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
+  border: 1px solid var(--button-font-color);
 }
 
 .navbar-mobile .dropdown ul {
@@ -486,7 +490,7 @@ section {
 }
 
 .hero h2 {
-  color: #444444;
+  color: var(--font-second-color);
   margin: 15px 0 0 0;
   font-size: 26px;
 }
@@ -497,7 +501,7 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
+  color: var(--button-font-color);
   background: var(--accent-color);
   box-shadow: var(--accent-shadow);
 }
@@ -584,7 +588,7 @@ section {
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: var(--font-color);
+  color: var(--font-second-color);
 }
 
 .about p {
@@ -597,7 +601,7 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
+  color: var(--font-second-color);
   background: var(--accent-color);
   box-shadow: var(--accent-shadow);
 }
@@ -702,7 +706,7 @@ section {
 
 .features .feature-box h3 {
   font-size: 18px;
-  color: var(--font-color);
+  color: var(--font-second-color);
   font-weight: 700;
   margin: 0;
 }
@@ -719,16 +723,18 @@ section {
 
 .features .feature-box:hover i {
   background: var(--accent-color);
-  color: #fff;
+  color: var(--font-second-color);
 }
 
 .features .feture-tabs {
   margin-top: 120px;
   background: var(--bg-color);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .features .feture-tabs h3 {
-  color: var(--font-color);
+  color: var(--font-second-color);
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 10px;
@@ -841,7 +847,7 @@ section {
 }
 
 .services .service-box h3 {
-  color: #444444;
+  color: var(--font-second-color);
   font-weight: 700;
 }
 
@@ -999,7 +1005,7 @@ section {
 
 .pricing .price {
   font-size: 36px;
-  color: #444444;
+  color: var(--font-second-color);
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
@@ -1023,7 +1029,7 @@ section {
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #444444;
+  color: var(--font-second-color);
   text-align: center;
   line-height: 26px;
   font-size: 16px;
@@ -1083,7 +1089,7 @@ section {
   font-weight: 600;
   border: 0;
   font-size: 18px;
-  color: #444444;
+  color: var(--font-second-color);
   text-align: left;
 }
 
@@ -1122,7 +1128,7 @@ section {
   font-size: 15px;
   font-weight: 600;
   line-height: 1;
-  color: #444444;
+  color: var(--font-second-color);
   margin: 0 4px 8px 4px;
   transition: 0.3s;
   border-radius: 50px;
@@ -1450,7 +1456,8 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
-  padding: 40px;
+  padding: 80px;
+  box-shadow: 0px -100px 200px var(--font-second-color);
 }
 
 .team .member .member-img:after {
@@ -1499,7 +1506,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: var(--font-color);
+  color: var(--font-second-color);
 }
 
 .team .member .member-info span {
@@ -1560,7 +1567,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color: var(--font-second-color);
   background: #fafbff;
   padding: 30px;
 }
@@ -1568,12 +1575,12 @@ section {
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: var(--accent-color);
+  color: var(--font-second-color);
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: var(--font-color);
+  color: var(--font-second-color);
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -1657,7 +1664,7 @@ section {
   background: var(--accent-color);
   border: 0;
   padding: 10px 30px;
-  color: #fff;
+  color: var(--font-second-color);
   transition: 0.4s;
   border-radius: 4px;
 }
@@ -1781,7 +1788,7 @@ section {
 }
 
 .blog .entry .entry-content blockquote p {
-  color: #444444;
+  color: var(--font-second-color);
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
@@ -1921,7 +1928,7 @@ section {
 
 .blog .blog-comments .comment h5 a {
   font-weight: bold;
-  color: #444444;
+  color: var(--font-second-color);
   transition: 0.3s;
 }
 
@@ -2205,7 +2212,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  color: var(--font-color);
+  color: var(--font-second-color);
 }
 
 .footer .footer-newsletter form {
@@ -2234,7 +2241,7 @@ section {
   padding: 0 30px;
   margin: 3px;
   background: var(--accent-color);
-  color: #fff;
+  color: var(--font-second-color);
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -2337,7 +2344,7 @@ section {
 }
 
 .footer .footer-top .footer-links ul a {
-  color: #013289;
+  color: var(--font-second-color);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2354,7 +2361,7 @@ section {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: var(--font-color);
+  color: var(--font-second-color);
 }
 
 .footer .credits {
