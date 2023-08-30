@@ -55,6 +55,7 @@ iframe {
   padding: 30px;
   box-sizing: border-box;
   background: #fff;
+  color: #000;
   border: 1px solid black;
   border-radius: 20px;
   z-index: 999999;
