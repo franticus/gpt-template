@@ -11,9 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: #ffffff;
-  background-image: radial-gradient(#d1d3ff 0.6000000000000001px, #ffffff 0.6000000000000001px);
-  background-size: 12px 12px;
+  background-color: #120946;
 }
 
 a {
@@ -475,8 +473,6 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.png) top center no-repeat;
-  background-size: cover;
 }
 
 .hero h1 {
@@ -522,6 +518,25 @@ section {
 
 .hero .hero-img {
   text-align: right;
+}
+
+.hero .hero-img img {
+  text-align: right;
+  animation: heroImg 3s ease-in-out infinite;
+}
+
+@keyframes heroImg {
+  0% {
+    transform: rotate(-5);
+  }
+
+  50% {
+    transform: rotate(5);
+  }
+
+  100% {
+    transform: rotate(-5);
+  }
 }
 
 @media (min-width: 1024px) {
