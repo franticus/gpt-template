@@ -1,4 +1,3 @@
-
 :root {
   scroll-behavior: smooth;
   --bg-color: #fff;
@@ -12,8 +11,8 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   background-color: #ffffff;
-  background-image: radial-gradient(#d1d3ff 0.6000000000000001px, #ffffff 0.6000000000000001px);
-  background-size: 12px 12px;
+  background-image: linear-gradient(0deg, #ffffff 50%, #fbfbff 50%);
+  background-size: 10px 10px;
 }
 
 a {
@@ -36,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 /*--------------------------------------------------------------
@@ -199,7 +198,7 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: var(--font-color);
-  font-family: "Nunito", sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin-top: 3px;
 }
 
@@ -231,7 +230,7 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 16px;
   font-weight: 700;
   color: #013289;
@@ -504,7 +503,7 @@ section {
 }
 
 .hero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -604,7 +603,7 @@ section {
 }
 
 .about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -686,7 +685,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 14px;
 }
 
@@ -1048,7 +1047,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 600;
   transition: 0.3s;
   border: 1px solid var(--accent-color);
@@ -2277,7 +2276,7 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: var(--font-color);
-  font-family: "Nunito", sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin-top: 3px;
 }
 
@@ -2285,7 +2284,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 .footer .footer-top .social-links a {
