@@ -131,3 +131,8 @@ iframe {
 .case-studies .color-cards .card-contents {
   padding: 0;
 }
+
+.contact-us .contact-us-bgimage {
+  padding: 200px 0;
+  border-radius: 40px;
+}
