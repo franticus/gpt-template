@@ -7,10 +7,10 @@
 /* Global Colors */
 :root {
   --color-default: #212529;
-  --color-default-rgb: 194, 0, 0;
-  --color-background: #ffffff;
+  --color-default-rgb: 193, 255, 231;
+  --color-background: #073240;
   --color-background-rgb: 255, 255, 255;
-  --color-primary: #d10000;
+  --color-primary: #073240;
   --color-primary-rgb: 232, 69, 69;
   --color-secondary: #32353a;
   --color-secondary-rgb: 50, 53, 58;
@@ -66,7 +66,10 @@ h6 {
 
 section {
   color: var(--color-default);
-  background-color: var(--color-background);
+  background-color: #ffffff;
+  opacity: 1;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(45deg, #f7f6ff 0, #f7f6ff 1px, #ffffff 0, #ffffff 50%);
   padding: 60px 0;
   overflow: clip;
 }
@@ -80,7 +83,7 @@ section {
 }
 
 .section-title h2 {
-  color: var(--color-secondary);
+  color: var(--color-default);
   font-size: 32px;
   font-weight: 700;
   position: relative;
@@ -91,7 +94,7 @@ section {
   content: "";
   width: 50px;
   height: 2px;
-  background: var(--color-primary);
+  background: var(--color-box-background);
   display: inline-block;
 }
 
@@ -105,6 +108,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  color: var(--color-default);
 }
 
 /*--------------------------------------------------------------
@@ -1092,7 +1096,7 @@ section {
 }
 
 .services .service-item .icon i {
-  color: rgba(var(--color-default-rgb), 0.7);
+  color: rgba(var(--color-default), 0.7);
   font-size: 56px;
   transition: ease-in-out 0.3s;
   z-index: 2;
@@ -1133,6 +1137,14 @@ section {
 
 /* Features Section - Home Page
 ------------------------------*/
+.features {
+ background: var(--color-background);
+}
+
+.features .section-title h2, .features .section-title p {
+ color: var(--color-box-background);
+}
+
 .features .features-item {
   color: rgba(var(--color-default-rgb), 0.8);
 }
@@ -1148,7 +1160,7 @@ section {
 }
 
 .features .features-item h3 {
-  color: var(--color-secondary);
+  color: var(--color-box-background);
   font-weight: 700;
   font-size: 26px;
 }
@@ -1182,7 +1194,7 @@ section {
 .features .features-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--color-primary);
+  color: var(--color-box-background);
 }
 
 .features .features-item img {
@@ -1209,6 +1221,7 @@ section {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  border-radius: 50%;
 }
 
 .features .features-item .image-stack {
@@ -1246,6 +1259,7 @@ section {
 .pricing .pricing-item {
   background: var(--color-box-background);
   box-shadow: 0 3px 20px -2px rgba(var(--color-default-rgb), 0.1);
+  border: 1px solid var(--color-primary);
   padding: 60px 40px;
   height: 100%;
   position: relative;
@@ -1274,7 +1288,7 @@ section {
 }
 
 .pricing .icon i {
-  color: var(--color-background);
+  color: var(--color-box-background);
   font-size: 28px;
   transition: ease-in-out 0.3s;
   line-height: 0;
@@ -1324,7 +1338,7 @@ section {
 .pricing ul {
   padding: 20px 0;
   list-style: none;
-  color: rgba(var(--color-default-rgb), 0.8);
+  color: rgba(var(--color-default), 0.8);
   text-align: left;
   line-height: 20px;
 }
@@ -1342,11 +1356,11 @@ section {
 }
 
 .pricing ul .na {
-  color: rgba(var(--color-default-rgb), 0.3);
+  color: rgba(var(--color-default), 0.3);
 }
 
 .pricing ul .na i {
-  color: rgba(var(--color-default-rgb), 0.3);
+  color: rgba(var(--color-default), 0.3);
 }
 
 .pricing ul .na span {
@@ -1354,7 +1368,7 @@ section {
 }
 
 .pricing .buy-btn {
-  color: rgba(var(--color-default-rgb), 0.8);
+  color: rgba(var(--color-default), 0.8);
   background-color: var(--color-inverse);
   display: inline-block;
   padding: 10px 40px;
@@ -1402,14 +1416,14 @@ section {
 
 .faq .content p {
   font-size: 15px;
-  color: rgba(var(--color-default-rgb), 0.7);
+  color: rgba(var(--color-default), 0.7);
 }
 
 .faq .faq-container .faq-item {
   position: relative;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0px 5px 25px 0px rgba(var(--color-default-rgb), 0.1);
+  box-shadow: 0px 5px 25px 0px rgba(var(--color-default), 0.1);
   overflow: hidden;
 }
 
@@ -1679,7 +1693,7 @@ section {
 }
 
 .testimonials .testimonial-item h4 {
-  color: rgba(var(--color-default-rgb), 0.5);
+  color: rgba(var(--color-default), 0.5);
   font-size: 14px;
   margin: 0;
 }
