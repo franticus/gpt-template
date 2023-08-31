@@ -771,7 +771,7 @@ section {
 }
 
 .footer .footer-links ul a {
-  color: rgba(var(--color-default-rgb), 0.8);
+  color: rgba(var(--color-default), 0.8);
   display: inline-block;
   line-height: 1;
 }
@@ -1508,7 +1508,7 @@ section {
 
 .team .member .member-img {
   margin: 0 80px;
-  border-radius: 10%;
+  border-radius: 50%;
   overflow: hidden;
   position: relative;
   border: 20px solid var(--color-box-background);
@@ -1566,7 +1566,7 @@ section {
   font-style: italic;
   display: block;
   font-size: 15px;
-  color: rgba(var(--color-default-rgb), 0.6);
+  color: rgba(var(--color-default), 0.6);
   margin-bottom: 10px;
 }
 
