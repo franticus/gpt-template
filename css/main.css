@@ -1,3 +1,9 @@
+body {
+  background-color: #ffffff;
+  background-image: radial-gradient(#ff9f00 1.25px, #ffffff 1.25px);
+  background-size: 25px 25px;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -27,7 +33,7 @@ iframe {
 
 .case-studies .color-cards .card-contents {
   border-radius: 30px;
-  box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card {
@@ -36,11 +42,11 @@ iframe {
 
 .customer-feedback .customer-cards {
   border-radius: 100px;
-  box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact-us-bgimage {
-  box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .warning {
@@ -97,4 +103,31 @@ iframe {
     font-size: 10px;
     transform: translate(-50%, -30%);
   }
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  background: url("../images/hero-bg.jpeg") no-repeat;
+  background-size: cover;
+}
+
+.btn-opacity-light, .btn-opacity-success {
+  color: #000;
+}
+
+.case-studies .case-studies-card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.case-studies .color-cards .card-contents {
+  padding: 0;
 }
