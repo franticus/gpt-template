@@ -251,6 +251,14 @@ section {
   }
 }
 
+@media (max-width: 679px) {
+
+  .header .btn-getstarted,
+  .header .btn-getstarted:focus {
+    display: none;
+  }
+}
+
 /*--------------------------------------------------------------
 # Desktop Navigation 
 --------------------------------------------------------------*/
@@ -1984,7 +1992,7 @@ section {
   content: "";
   inset: 0;
   position: absolute;
-  background: rgba(var(--color-secondary-rgb), 0.8);
+  background: rgba(var(--color-secondary-rgb), 0);
   z-index: 2;
   transition: 0.5s;
   visibility: hidden;

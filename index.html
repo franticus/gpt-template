@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>HeroBiz Bootstrap Template - Home 1</title>
+    <title>LegalEdge</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -21,9 +21,9 @@
 
     <!-- Vendor CSS Files -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
     <link
@@ -36,6 +36,16 @@
       rel="stylesheet"
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Variables CSS Files. Uncomment your preferred color scheme -->
     <link href="assets/css/variables.css" rel="stylesheet" />
@@ -60,134 +70,51 @@
           href="index.html"
           class="logo d-flex align-items-center scrollto me-auto me-lg-0"
         >
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
-          <h1>HeroBiz<span>.</span></h1>
+          <img src="./logo.png" alt="logo" />
+          <h1>LegalEdge<span>.</span></h1>
         </a>
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li class="dropdown">
-              <a href="#"
-                ><span>Home</span>
-                <i class="bi bi-chevron-down dropdown-indicator"></i
-              ></a>
-              <ul>
-                <li>
-                  <a href="index.html" class="active">Home 1 - index.html</a>
-                </li>
-                <li><a href="index-2.html">Home 2 - index-2.html</a></li>
-                <li><a href="index-3.html">Home 3 - index-3.html</a></li>
-                <li><a href="index-4.html">Home 4 - index-4.html</a></li>
-              </ul>
-            </li>
-
             <li>
-              <a class="nav-link scrollto" href="index.html#about">About</a>
+              <a class="nav-link scrollto" href="#about">About</a>
             </li>
             <li>
-              <a class="nav-link scrollto" href="index.html#services"
-                >Services</a
-              >
+              <a class="nav-link scrollto" href="#services">Services</a>
             </li>
             <li>
-              <a class="nav-link scrollto" href="index.html#portfolio"
-                >Portfolio</a
-              >
+              <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
             </li>
             <li>
-              <a class="nav-link scrollto" href="index.html#team">Team</a>
+              <a class="nav-link scrollto" href="#team">Team</a>
             </li>
-            <li><a href="blog.html">Blog</a></li>
-            <li class="dropdown megamenu">
-              <a href="#"
-                ><span>Mega Menu</span>
-                <i class="bi bi-chevron-down dropdown-indicator"></i
-              ></a>
-              <ul>
-                <li>
-                  <a href="#">Column 1 link 1</a>
-                  <a href="#">Column 1 link 2</a>
-                  <a href="#">Column 1 link 3</a>
-                </li>
-                <li>
-                  <a href="#">Column 2 link 1</a>
-                  <a href="#">Column 2 link 2</a>
-                  <a href="#">Column 3 link 3</a>
-                </li>
-                <li>
-                  <a href="#">Column 3 link 1</a>
-                  <a href="#">Column 3 link 2</a>
-                  <a href="#">Column 3 link 3</a>
-                </li>
-                <li>
-                  <a href="#">Column 4 link 1</a>
-                  <a href="#">Column 4 link 2</a>
-                  <a href="#">Column 4 link 3</a>
-                </li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#"
-                ><span>Drop Down</span>
-                <i class="bi bi-chevron-down dropdown-indicator"></i
-              ></a>
-              <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>Deep Drop Down</span>
-                    <i class="bi bi-chevron-down dropdown-indicator"></i
-                  ></a>
-                  <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                    <li><a href="#">Deep Drop Down 2</a></li>
-                    <li><a href="#">Deep Drop Down 3</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Drop Down 2</a></li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-              </ul>
-            </li>
+            <li><a href="#blog">Blog</a></li>
             <li>
-              <a class="nav-link scrollto" href="index.html#contact">Contact</a>
+              <a class="nav-link scrollto" href="#contact">Contact</a>
             </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle d-none"></i>
         </nav>
         <!-- .navbar -->
 
-        <a class="btn-getstarted scrollto" href="index.html#about"
-          >Get Started</a
-        >
+        <a class="btn-getstarted scrollto" href="#contact">Get Started</a>
       </div>
     </header>
     <!-- End Header -->
 
-    <section id="hero-animated" class="hero-animated d-flex align-items-center">
+    <section class="hero-animated d-flex align-items-center">
       <div
         class="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
         data-aos="zoom-out"
       >
-        <img
-          src="assets/img/hero-carousel/hero-carousel-3.svg"
-          class="img-fluid animated"
-        />
-        <h2>Welcome to <span>HeroBiz</span></h2>
+        <img src="assets/img/hero-bgg.png" class="img-fluid animated" />
+        <h2>Welcome to <span>LegalEdge</span></h2>
         <p>
-          Et voluptate esse accusantium accusamus natus reiciendis quidem
-          voluptates similique aut.
+          Your Trusted Partners in Legal Counsel and Advocacy. We are here to
+          provide expert legal solutions tailored to your needs.
         </p>
         <div class="d-flex">
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
-          <a
-            href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-            class="glightbox btn-watch-video d-flex align-items-center"
-            ><i class="bi bi-play-circle"></i><span>Watch Video</span></a
-          >
+          <a href="#contact" class="btn-get-started scrollto">Get Started</a>
         </div>
       </div>
     </section>
@@ -199,11 +126,13 @@
           <div class="row gy-4">
             <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
               <div class="service-item position-relative">
-                <div class="icon"><i class="bi bi-activity icon"></i></div>
-                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+                <div class="icon"><i class="bi bi-pentagon-half"></i></div>
+                <h4>
+                  <a href="#contact" class="stretched-link">Legal Counsel</a>
+                </h4>
                 <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
+                  Trusted legal advice and representation tailored to your
+                  needs.
                 </p>
               </div>
             </div>
@@ -216,12 +145,16 @@
             >
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="bi bi-bounding-box-circles icon"></i>
+                  <i class="bi bi-shield"></i>
                 </div>
-                <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
+                <h4>
+                  <a href="#contact" class="stretched-link"
+                    >Protection Services</a
+                  >
+                </h4>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore
+                  Ensuring your rights and interests are safeguarded through our
+                  legal expertise.
                 </p>
               </div>
             </div>
@@ -234,12 +167,16 @@
             >
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="bi bi-calendar4-week icon"></i>
+                  <i class="bi bi-files"></i>
                 </div>
-                <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
+                <h4>
+                  <a href="#contact" class="stretched-link"
+                    >Document Assistance</a
+                  >
+                </h4>
                 <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia
+                  Expert guidance in handling legal documentation and paperwork
+                  efficiently.
                 </p>
               </div>
             </div>
@@ -251,11 +188,13 @@
               data-aos-delay="600"
             >
               <div class="service-item position-relative">
-                <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+                <div class="icon"><i class="bi bi-person-check-fill"></i></div>
+                <h4>
+                  <a href="#contact" class="stretched-link">Client Advocacy</a>
+                </h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
+                  Dedicated to advocating for our clients' best interests with
+                  integrity.
                 </p>
               </div>
             </div>
@@ -263,6 +202,7 @@
           </div>
         </div>
       </section>
+
       <!-- End Featured Services Section -->
 
       <!-- ======= About Section ======= -->
@@ -289,26 +229,6 @@
                 Neque officiis dolore maiores et exercitationem quae est seda
                 lidera pat claero
               </h3>
-
-              <!-- Tabs -->
-              <ul class="nav nav-pills mb-3">
-                <li>
-                  <a class="nav-link active" data-bs-toggle="pill" href="#tab1"
-                    >Saepe fuga</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" data-bs-toggle="pill" href="#tab2"
-                    >Voluptates</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" data-bs-toggle="pill" href="#tab3"
-                    >Corrupti</a
-                  >
-                </li>
-              </ul>
-              <!-- End Tabs -->
 
               <!-- Tab Content -->
               <div class="tab-content">
@@ -353,93 +273,6 @@
                     odit enim quaerat. Vero error error voluptatem eum.
                   </p>
                 </div>
-                <!-- End Tab 1 Content -->
-
-                <div class="tab-pane fade show" id="tab2">
-                  <p class="fst-italic">
-                    Consequuntur inventore voluptates consequatur aut vel et.
-                    Eos doloribus expedita. Sapiente atque consequatur minima
-                    nihil quae aspernatur quo suscipit voluptatem.
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>
-                      Repudiandae rerum velit modi et officia quasi facilis
-                    </h4>
-                  </div>
-                  <p>
-                    Laborum omnis voluptates voluptas qui sit aliquam
-                    blanditiis. Sapiente minima commodi dolorum non eveniet
-                    magni quaerat nemo et.
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                  </div>
-                  <p>
-                    Non quod totam minus repellendus autem sint velit. Rerum
-                    debitis facere soluta tenetur. Iure molestiae assumenda sunt
-                    qui inventore eligendi voluptates nisi at. Dolorem quo
-                    tempora. Quia et perferendis.
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
-                  </div>
-                  <p>
-                    Eius alias aut cupiditate. Dolor voluptates animi ut
-                    blanditiis quos nam. Magnam officia aut ut alias quo
-                    explicabo ullam esse. Sunt magnam et dolorem eaque magnam
-                    odit enim quaerat. Vero error error voluptatem eum.
-                  </p>
-                </div>
-                <!-- End Tab 2 Content -->
-
-                <div class="tab-pane fade show" id="tab3">
-                  <p class="fst-italic">
-                    Consequuntur inventore voluptates consequatur aut vel et.
-                    Eos doloribus expedita. Sapiente atque consequatur minima
-                    nihil quae aspernatur quo suscipit voluptatem.
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>
-                      Repudiandae rerum velit modi et officia quasi facilis
-                    </h4>
-                  </div>
-                  <p>
-                    Laborum omnis voluptates voluptas qui sit aliquam
-                    blanditiis. Sapiente minima commodi dolorum non eveniet
-                    magni quaerat nemo et.
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                  </div>
-                  <p>
-                    Non quod totam minus repellendus autem sint velit. Rerum
-                    debitis facere soluta tenetur. Iure molestiae assumenda sunt
-                    qui inventore eligendi voluptates nisi at. Dolorem quo
-                    tempora. Quia et perferendis.
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
-                  </div>
-                  <p>
-                    Eius alias aut cupiditate. Dolor voluptates animi ut
-                    blanditiis quos nam. Magnam officia aut ut alias quo
-                    explicabo ullam esse. Sunt magnam et dolorem eaque magnam
-                    odit enim quaerat. Vero error error voluptatem eum.
-                  </p>
-                </div>
-                <!-- End Tab 3 Content -->
               </div>
             </div>
           </div>
@@ -528,7 +361,9 @@
                 cupidatat non proident, sunt in culpa qui officia deserunt
                 mollit anim id est laborum.
               </p>
-              <a class="cta-btn align-self-start" href="#">Call To Action</a>
+              <a class="cta-btn align-self-start" href="#contact"
+                >Call To Action</a
+              >
             </div>
 
             <div
@@ -545,44 +380,32 @@
 
       <!-- ======= On Focus Section ======= -->
       <section id="onfocus" class="onfocus">
-        <div class="container-fluid p-0" data-aos="fade-up">
-          <div class="row g-0">
-            <div class="col-lg-6 video-play position-relative">
-              <a
-                href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                class="glightbox play-btn"
-              ></a>
-            </div>
-            <div class="col-lg-6">
-              <div
-                class="content d-flex flex-column justify-content-center h-100"
-              >
-                <h3>Voluptatem dignissimos provident quasi corporis</h3>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Duis aute irure dolor in
-                    reprehenderit in voluptate velit.
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate trideta storacalaperda mastiro
-                    dolore eu fugiat nulla pariatur.
-                  </li>
-                </ul>
-                <a href="#" class="read-more align-self-start"
-                  ><span>Read More</span><i class="bi bi-arrow-right"></i
-                ></a>
-              </div>
-            </div>
+        <div class="container-fluid" data-aos="fade-up">
+          <div class="content d-flex flex-column justify-content-center h-100">
+            <h3>Voluptatem dignissimos provident quasi corporis</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul>
+              <li>
+                <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+              <li>
+                <i class="bi bi-check-circle"></i> Duis aute irure dolor in
+                reprehenderit in voluptate velit.
+              </li>
+              <li>
+                <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate trideta storacalaperda mastiro dolore
+                eu fugiat nulla pariatur.
+              </li>
+            </ul>
+            <a href="#contact" class="read-more align-self-start"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
           </div>
         </div>
       </section>
@@ -591,62 +414,8 @@
       <!-- ======= Features Section ======= -->
       <section id="features" class="features">
         <div class="container" data-aos="fade-up">
-          <ul class="nav nav-tabs row gy-4 d-flex">
-            <li class="nav-item col-6 col-md-4 col-lg-2">
-              <a
-                class="nav-link active show"
-                data-bs-toggle="tab"
-                data-bs-target="#tab-1"
-              >
-                <i class="bi bi-binoculars color-cyan"></i>
-                <h4>Modinest</h4>
-              </a>
-            </li>
-            <!-- End Tab 1 Nav -->
-
-            <li class="nav-item col-6 col-md-4 col-lg-2">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                <i class="bi bi-box-seam color-indigo"></i>
-                <h4>Undaesenti</h4>
-              </a>
-            </li>
-            <!-- End Tab 2 Nav -->
-
-            <li class="nav-item col-6 col-md-4 col-lg-2">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-                <i class="bi bi-brightness-high color-teal"></i>
-                <h4>Pariatur</h4>
-              </a>
-            </li>
-            <!-- End Tab 3 Nav -->
-
-            <li class="nav-item col-6 col-md-4 col-lg-2">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-                <i class="bi bi-command color-red"></i>
-                <h4>Nostrum</h4>
-              </a>
-            </li>
-            <!-- End Tab 4 Nav -->
-
-            <li class="nav-item col-6 col-md-4 col-lg-2">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
-                <i class="bi bi-easel color-blue"></i>
-                <h4>Adipiscing</h4>
-              </a>
-            </li>
-            <!-- End Tab 5 Nav -->
-
-            <li class="nav-item col-6 col-md-4 col-lg-2">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
-                <i class="bi bi-map color-orange"></i>
-                <h4>Reprehit</h4>
-              </a>
-            </li>
-            <!-- End Tab 6 Nav -->
-          </ul>
-
           <div class="tab-content">
-            <div class="tab-pane active show" id="tab-1">
+            <div class="tab-pane active show">
               <div class="row gy-4">
                 <div
                   class="col-lg-8 order-2 order-lg-1"
@@ -696,231 +465,6 @@
                 </div>
               </div>
             </div>
-            <!-- End Tab Content 1 -->
-
-            <div class="tab-pane" id="tab-2">
-              <div class="row gy-4">
-                <div class="col-lg-8 order-2 order-lg-1">
-                  <h3>Undaesenti</h3>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
-                  </p>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                  <ul>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.
-                    </li>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Duis aute irure
-                      dolor in reprehenderit in voluptate velit.
-                    </li>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Provident mollitia
-                      neque rerum asperiores dolores quos qui a. Ipsum neque
-                      dolor voluptate nisi sed.
-                    </li>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                      dolor in reprehenderit in voluptate trideta storacalaperda
-                      mastiro dolore eu fugiat nulla pariatur.
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-4 order-1 order-lg-2 text-center">
-                  <img
-                    src="assets/img/features-2.svg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </div>
-            <!-- End Tab Content 2 -->
-
-            <div class="tab-pane" id="tab-3">
-              <div class="row gy-4">
-                <div class="col-lg-8 order-2 order-lg-1">
-                  <h3>Pariatur</h3>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
-                  </p>
-                  <ul>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.
-                    </li>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Duis aute irure
-                      dolor in reprehenderit in voluptate velit.
-                    </li>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Provident mollitia
-                      neque rerum asperiores dolores quos qui a. Ipsum neque
-                      dolor voluptate nisi sed.
-                    </li>
-                  </ul>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-                <div class="col-lg-4 order-1 order-lg-2 text-center">
-                  <img
-                    src="assets/img/features-3.svg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </div>
-            <!-- End Tab Content 3 -->
-
-            <div class="tab-pane" id="tab-4">
-              <div class="row gy-4">
-                <div class="col-lg-8 order-2 order-lg-1">
-                  <h3>Nostrum</h3>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
-                  </p>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                  <ul>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.
-                    </li>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Duis aute irure
-                      dolor in reprehenderit in voluptate velit.
-                    </li>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                      dolor in reprehenderit in voluptate trideta storacalaperda
-                      mastiro dolore eu fugiat nulla pariatur.
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-4 order-1 order-lg-2 text-center">
-                  <img
-                    src="assets/img/features-4.svg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </div>
-            <!-- End Tab Content 4 -->
-
-            <div class="tab-pane" id="tab-5">
-              <div class="row gy-4">
-                <div class="col-lg-8 order-2 order-lg-1">
-                  <h3>Adipiscing</h3>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
-                  </p>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                  <ul>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.
-                    </li>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Duis aute irure
-                      dolor in reprehenderit in voluptate velit.
-                    </li>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                      dolor in reprehenderit in voluptate trideta storacalaperda
-                      mastiro dolore eu fugiat nulla pariatur.
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-4 order-1 order-lg-2 text-center">
-                  <img
-                    src="assets/img/features-5.svg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </div>
-            <!-- End Tab Content 5 -->
-
-            <div class="tab-pane" id="tab-6">
-              <div class="row gy-4">
-                <div class="col-lg-8 order-2 order-lg-1">
-                  <h3>Reprehit</h3>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
-                  </p>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                  <ul>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.
-                    </li>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Duis aute irure
-                      dolor in reprehenderit in voluptate velit.
-                    </li>
-                    <li>
-                      <i class="bi bi-check-circle-fill"></i> Ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                      dolor in reprehenderit in voluptate trideta storacalaperda
-                      mastiro dolore eu fugiat nulla pariatur.
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-4 order-1 order-lg-2 text-center">
-                  <img
-                    src="assets/img/features-6.svg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </div>
-            <!-- End Tab Content 6 -->
           </div>
         </div>
       </section>
@@ -953,9 +497,9 @@
                 </div>
                 <div class="details position-relative">
                   <div class="icon">
-                    <i class="bi bi-activity"></i>
+                    <i class="bi bi-pentagon"></i>
                   </div>
-                  <a href="#" class="stretched-link">
+                  <a href="#contact" class="stretched-link">
                     <h3>Nesciunt Mete</h3>
                   </a>
                   <p>
@@ -984,7 +528,7 @@
                   <div class="icon">
                     <i class="bi bi-broadcast"></i>
                   </div>
-                  <a href="#" class="stretched-link">
+                  <a href="#contact" class="stretched-link">
                     <h3>Eosle Commodi</h3>
                   </a>
                   <p>
@@ -1013,7 +557,7 @@
                   <div class="icon">
                     <i class="bi bi-easel"></i>
                   </div>
-                  <a href="#" class="stretched-link">
+                  <a href="#contact" class="stretched-link">
                     <h3>Ledo Markt</h3>
                   </a>
                   <p>
@@ -1043,14 +587,14 @@
                   <div class="icon">
                     <i class="bi bi-bounding-box-circles"></i>
                   </div>
-                  <a href="#" class="stretched-link">
+                  <a href="#contact" class="stretched-link">
                     <h3>Asperiores Commodit</h3>
                   </a>
                   <p>
                     Non et temporibus minus omnis sed dolor esse consequatur.
                     Cupiditate sed error ea fuga sit provident adipisci neque.
                   </p>
-                  <a href="#" class="stretched-link"></a>
+                  <a href="#contact" class="stretched-link"></a>
                 </div>
               </div>
             </div>
@@ -1073,7 +617,7 @@
                   <div class="icon">
                     <i class="bi bi-calendar4-week"></i>
                   </div>
-                  <a href="#" class="stretched-link">
+                  <a href="#contact" class="stretched-link">
                     <h3>Velit Doloremque</h3>
                   </a>
                   <p>
@@ -1081,7 +625,7 @@
                     aut ipsam corporis aut. Sed animi at autem alias eius
                     labore.
                   </p>
-                  <a href="#" class="stretched-link"></a>
+                  <a href="#contact" class="stretched-link"></a>
                 </div>
               </div>
             </div>
@@ -1104,14 +648,14 @@
                   <div class="icon">
                     <i class="bi bi-chat-square-text"></i>
                   </div>
-                  <a href="#" class="stretched-link">
+                  <a href="#contact" class="stretched-link">
                     <h3>Dolori Architecto</h3>
                   </a>
                   <p>
                     Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
                     neque non et debitis iure. Corrupti recusandae ducimus enim.
                   </p>
-                  <a href="#" class="stretched-link"></a>
+                  <a href="#contact" class="stretched-link"></a>
                 </div>
               </div>
             </div>
@@ -1315,7 +859,7 @@
                 </ul>
 
                 <div class="text-center mt-auto">
-                  <a href="#" class="buy-btn">Buy Now</a>
+                  <a href="#contact" class="buy-btn">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -1352,7 +896,7 @@
                 </ul>
 
                 <div class="text-center mt-auto">
-                  <a href="#" class="buy-btn">Buy Now</a>
+                  <a href="#contact" class="buy-btn">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -1389,7 +933,7 @@
                 </ul>
 
                 <div class="text-center mt-auto">
-                  <a href="#" class="buy-btn">Buy Now</a>
+                  <a href="#contact" class="buy-btn">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -1616,15 +1160,6 @@
             data-portfolio-layout="masonry"
             data-portfolio-sort="original-order"
           >
-            <ul class="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-product">Product</li>
-              <li data-filter=".filter-branding">Branding</li>
-              <li data-filter=".filter-books">Books</li>
-            </ul>
-            <!-- End Portfolio Filters -->
-
             <div class="row g-0 portfolio-container">
               <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
                 <img
@@ -1649,7 +1184,6 @@
                   ></a>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
 
               <div
                 class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product"
@@ -1659,24 +1193,7 @@
                   class="img-fluid"
                   alt=""
                 />
-                <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <a
-                    href="assets/img/portfolio/product-1.jpg"
-                    title="Product 1"
-                    data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
               </div>
-              <!-- End Portfolio Item -->
 
               <div
                 class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding"
@@ -1686,24 +1203,7 @@
                   class="img-fluid"
                   alt=""
                 />
-                <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <a
-                    href="assets/img/portfolio/branding-1.jpg"
-                    title="Branding 1"
-                    data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
               </div>
-              <!-- End Portfolio Item -->
 
               <div
                 class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books"
@@ -1713,22 +1213,6 @@
                   class="img-fluid"
                   alt=""
                 />
-                <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <a
-                    href="assets/img/portfolio/books-1.jpg"
-                    title="Branding 1"
-                    data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
               </div>
               <!-- End Portfolio Item -->
 
@@ -1738,22 +1222,6 @@
                   class="img-fluid"
                   alt=""
                 />
-                <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <a
-                    href="assets/img/portfolio/app-2.jpg"
-                    title="App 2"
-                    data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
               </div>
               <!-- End Portfolio Item -->
 
@@ -1765,22 +1233,6 @@
                   class="img-fluid"
                   alt=""
                 />
-                <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <a
-                    href="assets/img/portfolio/product-2.jpg"
-                    title="Product 2"
-                    data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
               </div>
               <!-- End Portfolio Item -->
 
@@ -1792,22 +1244,6 @@
                   class="img-fluid"
                   alt=""
                 />
-                <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <a
-                    href="assets/img/portfolio/branding-2.jpg"
-                    title="Branding 2"
-                    data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
               </div>
               <!-- End Portfolio Item -->
 
@@ -1819,22 +1255,6 @@
                   class="img-fluid"
                   alt=""
                 />
-                <div class="portfolio-info">
-                  <h4>Books 2</h4>
-                  <a
-                    href="assets/img/portfolio/books-2.jpg"
-                    title="Branding 2"
-                    data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
               </div>
               <!-- End Portfolio Item -->
 
@@ -1844,22 +1264,6 @@
                   class="img-fluid"
                   alt=""
                 />
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <a
-                    href="assets/img/portfolio/app-3.jpg"
-                    title="App 3"
-                    data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
               </div>
               <!-- End Portfolio Item -->
 
@@ -1871,22 +1275,6 @@
                   class="img-fluid"
                   alt=""
                 />
-                <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <a
-                    href="assets/img/portfolio/product-3.jpg"
-                    title="Product 3"
-                    data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
               </div>
               <!-- End Portfolio Item -->
 
@@ -1898,22 +1286,6 @@
                   class="img-fluid"
                   alt=""
                 />
-                <div class="portfolio-info">
-                  <h4>Branding 3</h4>
-                  <a
-                    href="assets/img/portfolio/branding-3.jpg"
-                    title="Branding 2"
-                    data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
               </div>
               <!-- End Portfolio Item -->
 
@@ -1925,26 +1297,8 @@
                   class="img-fluid"
                   alt=""
                 />
-                <div class="portfolio-info">
-                  <h4>Books 3</h4>
-                  <a
-                    href="assets/img/portfolio/books-3.jpg"
-                    title="Branding 3"
-                    data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
               </div>
-              <!-- End Portfolio Item -->
             </div>
-            <!-- End Portfolio Container -->
           </div>
         </div>
       </section>
@@ -1977,12 +1331,6 @@
                   />
                 </div>
                 <div class="member-info">
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
                   <h4>Walter White</h4>
                   <span>Chief Executive Officer</span>
                 </div>
@@ -2004,12 +1352,6 @@
                   />
                 </div>
                 <div class="member-info">
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
                   <h4>Sarah Jhonson</h4>
                   <span>Product Manager</span>
                 </div>
@@ -2031,12 +1373,6 @@
                   />
                 </div>
                 <div class="member-info">
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
                   <h4>William Anderson</h4>
                   <span>CTO</span>
                 </div>
@@ -2079,7 +1415,7 @@
                   omnis laudantium. Asperiores eum ipsa est officiis. Modi
                   cupiditate exercitationem qui magni est...
                 </p>
-                <a href="blog-details.html" class="readmore stretched-link"
+                <a href="#contact" class="readmore stretched-link"
                   ><span>Read More</span><i class="bi bi-arrow-right"></i
                 ></a>
               </div>
@@ -2106,7 +1442,7 @@
                   id. Odit quia ab eum assumenda. Quisquam omnis aliquid
                   necessitatibus tempora consectetur doloribus...
                 </p>
-                <a href="blog-details.html" class="readmore stretched-link"
+                <a href="#contact" class="readmore stretched-link"
                   ><span>Read More</span><i class="bi bi-arrow-right"></i
                 ></a>
               </div>
@@ -2133,7 +1469,7 @@
                   laboriosam. Quis omnis repellat sed quae consectetur magnam
                   veritatis dicta nihil...
                 </p>
-                <a href="blog-details.html" class="readmore stretched-link"
+                <a href="#contact" class="readmore stretched-link"
                   ><span>Read More</span><i class="bi bi-arrow-right"></i
                 ></a>
               </div>
@@ -2292,11 +1628,11 @@
               <ul>
                 <li>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="#">Terms of service</a>
+                  <a href="#contact">Terms of service</a>
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="#">Privacy policy</a>
+                  <a href="#contact">Privacy policy</a>
                 </li>
               </ul>
             </div>
@@ -2318,11 +1654,19 @@
           </div>
 
           <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="#contact" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#contact" class="facebook"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#contact" class="instagram"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="#contact" class="google-plus"
+              ><i class="bi bi-skype"></i
+            ></a>
+            <a href="#contact" class="linkedin"
+              ><i class="bi bi-linkedin"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -2330,7 +1674,7 @@
     <!-- End Footer -->
 
     <a
-      href="#"
+      href="#contact"
       class="scroll-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
