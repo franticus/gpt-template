@@ -687,10 +687,6 @@ section {
   padding: 140px 0 60px 0;
 }
 
-.hero .carousel-item {
-  overflow: hidden;
-}
-
 @media (max-width: 640px) {
   .hero .container {
     padding: 0 60px;
@@ -740,82 +736,6 @@ section {
 .hero .btn-get-started:hover {
   background: var(--color-primary);
   color: var(--color-white);
-}
-
-.hero .carousel-control-prev {
-  justify-content: start;
-}
-
-@media (min-width: 640px) {
-  .hero .carousel-control-prev {
-    padding-left: 15px;
-  }
-}
-
-.hero .carousel-control-next {
-  justify-content: end;
-}
-
-@media (min-width: 640px) {
-  .hero .carousel-control-next {
-    padding-right: 15px;
-  }
-}
-
-.hero .carousel-control-next-icon,
-.hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 26px;
-  line-height: 0;
-  background: rgba(var(--color-secondary-rgb), 0.4);
-  color: rgba(var(--color-white-rgb), 0.98);
-  border-radius: 50px;
-  width: 54px;
-  height: 54px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero .carousel-control-next-icon {
-  padding-left: 3px;
-}
-
-.hero .carousel-control-prev-icon {
-  padding-right: 3px;
-}
-
-.hero .carousel-control-prev,
-.hero .carousel-control-next {
-  transition: 0.3s;
-}
-
-.hero .carousel-control-prev:focus,
-.hero .carousel-control-next:focus {
-  opacity: 0.5;
-}
-
-.hero .carousel-control-prev:hover,
-.hero .carousel-control-next:hover {
-  opacity: 0.9;
-}
-
-.hero .carousel-indicators li {
-  list-style-type: none;
-  cursor: pointer;
-  background: rgba(var(--color-secondary-rgb), 0.5);
-  overflow: hidden;
-  border: 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 50px;
-  opacity: 0.6;
-  transition: 0.3s;
-}
-
-.hero .carousel-indicators li.active {
-  opacity: 1;
-  background: var(--color-primary);
 }
 
 @keyframes fadeIn {
