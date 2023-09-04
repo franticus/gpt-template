@@ -100,5 +100,6 @@ iframe {
 }
 
 .img-fluid {
-  border-radius: 100px;
+  border-radius: 10px;
+  border: 10px solid #fff;
 }
