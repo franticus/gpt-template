@@ -559,7 +559,7 @@ section {
 --------------------------------------------------------------*/
 .hero-animated {
   width: 100%;
-  min-height: 50vh;
+  min-height: 90vh;
   background: url("../img/hero-bg.jpeg") center center;
   background-size: cover;
   position: relative;
@@ -1688,6 +1688,7 @@ section {
   text-align: center;
   padding: 40px;
   margin: -60px -40px 0;
+  min-height: 50%;
 }
 
 .pricing h3 {
