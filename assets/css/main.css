@@ -1689,6 +1689,7 @@ section {
   padding: 40px;
   margin: -60px -40px 0;
   min-height: 50%;
+  filter: invert(1);
 }
 
 .pricing h3 {
