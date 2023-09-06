@@ -48,6 +48,10 @@ body {
   color: #ffffff;
 }
 
+.skills .progress {
+  height: 100px;
+}
+
 .section-title h2 {
   color: #ffffff;
 }
@@ -72,8 +76,7 @@ body {
 }
 
 .skills .progress-bar {
-  background-color: #f93f77;
-  height: 20px;
+  height: 40px;
   border-radius: 10px;
 }
 
@@ -81,10 +84,22 @@ body {
   color: #f93f77;
 }
 
+.services .icon-box {
+  border-radius: 20px;
+}
+
 .cta {
   background: linear-gradient(rgba(40, 58, 90, 0.3), rgba(11, 21, 37, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 400px 0;
+}
+
+.team .member {
+  background: #98edff;
+}
+
+.team .member .pic {
+  border-radius: 10px;
 }
 
 ul {
