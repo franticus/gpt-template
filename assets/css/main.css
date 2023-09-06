@@ -108,6 +108,10 @@ body {
   border-radius: 10px;
 }
 
+#footer .footer-top .footer-links ul a:hover {
+  color: #004771;
+}
+
 ul {
   list-style: none;
   margin: 0;
