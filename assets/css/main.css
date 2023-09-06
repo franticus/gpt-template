@@ -94,6 +94,12 @@ body {
   padding: 400px 0;
 }
 
+.cta2 {
+  background: linear-gradient(rgba(40, 58, 90, 0.3), rgba(11, 21, 37, 0.9)), url("../img/cta-bg2.jpg") fixed center center;
+  background-size: cover;
+  padding: 500px 0;
+}
+
 .team .member {
   background: #98edff;
 }
