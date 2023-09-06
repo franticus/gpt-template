@@ -1,7 +1,7 @@
 body {
-  background-color: #ffffff;
-  background-image: radial-gradient(#ff9f00 1.25px, #ffffff 1.25px);
-  background-size: 25px 25px;
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 10px), repeating-linear-gradient(#ffffff55, #ffffff);
 }
 
 ul {
@@ -118,7 +118,8 @@ iframe {
   background-size: cover;
 }
 
-.btn-opacity-light, .btn-opacity-success {
+.btn-opacity-light,
+.btn-opacity-success {
   color: #000;
 }
 
