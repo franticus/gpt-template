@@ -1,3 +1,59 @@
+body {
+  background-color: #000000;
+  opacity: 1;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #000000 19px), repeating-linear-gradient(#13131355, #131313);
+}
+
+#hero {
+  background: url("../img/hero-bg.jpeg") no-repeat;
+  background-size: cover;
+}
+
+.section-bg {
+  background: #010220;
+}
+
+#footer .footer-top,
+#footer {
+  background: #010220;
+}
+
+#header.header-scrolled,
+#header.header-inner-pages {
+  background: #010220;
+}
+
+#preloader {
+  background: #010220;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #fff;
+}
+
+.about .content p,
+.skills .content p,
+.why-us .content p,
+.section-title p,
+#footer .footer-top .footer-links ul a,
+.about .content ul li {
+  color: #ffffff;
+}
+
+.section-title h2 {
+  color: #ffffff;
+}
+
+.why-us .accordion-list, .why-us .content {
+  padding: 0;
+}
+
+.cta {
+  background: linear-gradient(rgba(40, 58, 90, 0.3), rgba(11, 21, 37, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 400px 0;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -27,7 +83,7 @@ iframe {
 
 .case-studies .color-cards .card-contents {
   border-radius: 30px;
-  box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card {
@@ -36,11 +92,11 @@ iframe {
 
 .customer-feedback .customer-cards {
   border-radius: 100px;
-  box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact-us-bgimage {
-  box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .warning {
