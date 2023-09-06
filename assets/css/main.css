@@ -1,30 +1,32 @@
 body {
-  background-color: #000000;
-  opacity: 1;
-  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #000000 19px), repeating-linear-gradient(#13131355, #131313);
+  background-color: #004771;
 }
 
 #hero {
-  background: url("../img/hero-bg.jpeg") no-repeat;
+  background: url("../img/hero-bg.jpg") no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .section-bg {
-  background: #010220;
+  background-color: #008cff;
+  opacity: 1;
+  background-image: radial-gradient(ellipse farthest-corner at 21px 21px, #2f86ff, #2f86ff 50%, #008cff 50%);
+  background-size: 21px 21px;
 }
 
 #footer .footer-top,
 #footer {
-  background: #010220;
+  background: #0eb8e3;
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: #010220;
+  background: #0eb8e3;
 }
 
 #preloader {
-  background: #010220;
+  background: #0eb8e3;
 }
 
 #footer .footer-top .footer-links ul a {
@@ -40,12 +42,43 @@ body {
   color: #ffffff;
 }
 
+.skills .content h3,
+.why-us .content h3,
+.skills .progress .skill {
+  color: #ffffff;
+}
+
 .section-title h2 {
   color: #ffffff;
 }
 
-.why-us .accordion-list, .why-us .content {
+.why-us .accordion-list,
+.why-us .content {
   padding: 0;
+}
+
+.pricing .box {
+  border-radius: 120px;
+  border-top: 100px solid #0eb8e3;
+}
+
+.pricing .featured {
+  border-radius: 120px;
+  border-top: 100px solid #f46dc2;
+}
+
+.faq .faq-list li {
+  border-radius: 20px;
+}
+
+.skills .progress-bar {
+  background-color: #f93f77;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.services .icon-box .icon i {
+  color: #f93f77;
 }
 
 .cta {
@@ -58,6 +91,18 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #004771;
+}
+
+.navbar .getstarted,
+.navbar .getstarted:focus {
+  border: 2px solid #004771;
 }
 
 iframe {
