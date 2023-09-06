@@ -1,7 +1,7 @@
 body {
-  background-color: #e5e5f7;
+  background-color: #f7f7f7;
   opacity: 1;
-  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 10px), repeating-linear-gradient(#ffffff55, #ffffff);
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #f7f7f7 10px), repeating-linear-gradient(#ffffff55, #ffffff);
 }
 
 ul {
@@ -136,4 +136,14 @@ iframe {
 .contact-us .contact-us-bgimage {
   padding: 200px 0;
   border-radius: 40px;
+}
+
+.user-cards {
+  margin: 20px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.img-user {
+  height: 100px;
 }
