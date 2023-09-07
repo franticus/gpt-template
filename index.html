@@ -4,19 +4,25 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>RoastHaven</title>
+    <title>LexiMed</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
     <link href="./favicon.ico" rel="icon" />
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <!-- Google Fonts -->
     <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -41,6 +47,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js"></script>
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -48,25 +55,44 @@
   </head>
 
   <body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top">
-      <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-between"
-      >
-        <a href="index.html" class="logo d-flex align-items-center">
-          <span>RoastHaven</span>
-        </a>
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-flex align-items-center fixed-top">
+      <div class="container d-flex justify-content-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope"></i>
+          <a href="mailto:contact@example.com">leximed@mail.com</a>
+          <i class="bi bi-phone"></i> +1 6382 87636 55
+        </div>
+        <div class="d-none d-lg-flex social-links align-items-center">
+          <a href="#contact" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#contact" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#contact" class="instagram"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="#contact" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
 
-        <nav id="navbar" class="navbar">
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo"><a href="index.html">LexiMed</a></h1>
+        <a href="index.html" class="logo me-auto"
+          ><img src="./logo.png" alt="" class="img-fluid"
+        /></a>
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
             <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
             <li><a class="nav-link scrollto" href="#about">About</a></li>
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
             <li>
-              <a class="getstarted scrollto" href="#pricing">Get Started</a>
+              <a class="nav-link scrollto" href="#departments">Departments</a>
             </li>
+            <li><a class="nav-link scrollto" href="#doctors">Doctors</a></li>
+            <li><a class="nav-link scrollto" href="#faq">Faq</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -76,203 +102,186 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="hero d-flex align-items-center">
+    <section id="hero" class="d-flex align-items-center">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 d-flex flex-column justify-content-center">
-            <h1 data-aos="fade-up">
-              Savor the Finest Coffee Experience at RoastHaven
-            </h1>
-            <h2 data-aos="fade-up" data-aos-delay="400">
-              We are a team of coffee connoisseurs dedicated to delivering the
-              most exquisite coffee beans and brews.
-            </h2>
-            <div data-aos="fade-up" data-aos-delay="600">
-              <div class="text-center text-lg-start">
-                <a
-                  href="#about"
-                  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center"
-                >
-                  <span>Explore Our Brews</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-6 hero-img"
-            data-aos="zoom-out"
-            data-aos-delay="200"
-          ></div>
-        </div>
+        <h1>Welcome to LexiMed Clinic</h1>
+        <h2>
+          We are a dedicated team of healthcare professionals providing quality
+          medical care.
+        </h2>
+        <a href="#about" class="btn-get-started scrollto">Learn More</a>
       </div>
     </section>
     <!-- End Hero -->
 
     <main id="main">
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-          <div class="row gx-0">
-            <div
-              class="col-lg-6 d-flex flex-column justify-content-center"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
+      <!-- ======= Why Us Section ======= -->
+      <section id="why-us" class="why-us">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 d-flex align-items-stretch">
               <div class="content">
-                <h3>About RoastHaven</h3>
-                <h2>
-                  Providing seamless logistics solutions for your business
-                  needs.
-                </h2>
+                <h3>Why Choose Medilab?</h3>
                 <p>
-                  At RoastHaven, we are dedicated to delivering efficient and
-                  reliable logistics services. Our team of experts ensures that
-                  your goods are transported with utmost care and delivered on
-                  time. We strive to exceed customer expectations and provide
-                  tailored solutions to meet your unique requirements.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Duis aute irure dolor in reprehenderit Asperiores dolores sed
+                  et. Tenetur quia eos. Autem tempore quibusdam vel
+                  necessitatibus optio ad corporis.
                 </p>
-                <div class="text-center text-lg-start">
-                  <a
-                    href="#contact"
-                    class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center"
-                  >
-                    <span>Learn More</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
+                <div class="text-center">
+                  <a href="#contact" class="more-btn"
+                    >Learn More <i class="bx bx-chevron-right"></i
+                  ></a>
                 </div>
               </div>
             </div>
+            <div class="col-lg-8 d-flex align-items-stretch">
+              <div class="icon-boxes d-flex flex-column justify-content-center">
+                <div class="row">
+                  <div class="col-xl-4 d-flex align-items-stretch">
+                    <div class="icon-box mt-4 mt-xl-0">
+                      <i class="bx bx-receipt"></i>
+                      <h4>Corporis voluptates sit</h4>
+                      <p>
+                        Consequuntur sunt aut quasi enim aliquam quae harum
+                        pariatur laboris nisi ut aliquip
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 d-flex align-items-stretch">
+                    <div class="icon-box mt-4 mt-xl-0">
+                      <i class="bx bx-cube-alt"></i>
+                      <h4>Ullamco laboris ladore pan</h4>
+                      <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 d-flex align-items-stretch">
+                    <div class="icon-box mt-4 mt-xl-0">
+                      <i class="bx bx-images"></i>
+                      <h4>Labore consequatur</h4>
+                      <p>
+                        Aut suscipit aut cum nemo deleniti aut omnis. Doloribus
+                        ut maiores omnis facere
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End .content-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Why Us Section -->
+
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative"
+            ></div>
 
             <div
-              class="col-lg-6 d-flex align-items-center"
-              data-aos="zoom-out"
-              data-aos-delay="200"
+              class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
             >
-              <img src="assets/img/about.jpg" class="img-fluid" alt="" />
+              <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+              <p>
+                Esse voluptas cumque vel exercitationem. Reiciendis est hic
+                accusamus. Non ipsam et sed minima temporibus laudantium. Soluta
+                voluptate sed facere corporis dolores excepturi. Libero
+                laboriosam sint et id nulla tenetur. Suscipit aut voluptate.
+              </p>
+
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                <h4 class="title"><a href="#contact">Lorem Ipsum</a></h4>
+                <p class="description">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
+                </p>
+              </div>
+
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-gift"></i></div>
+                <h4 class="title"><a href="#contact">Nemo Enim</a></h4>
+                <p class="description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
+
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-atom"></i></div>
+                <h4 class="title"><a href="#contact">Dine Pad</a></h4>
+                <p class="description">
+                  Explicabo est voluptatum asperiores consequatur magnam. Et
+                  veritatis odit. Sunt aut deserunt minus aut eligendi omnis
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <!-- End About Section -->
 
-      <!-- ======= Values Section ======= -->
-      <section id="values" class="values">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
-            <h2>Our Core Principles</h2>
-            <p>Coffee excellence for your enjoyment</p>
-          </header>
-
-          <div class="row">
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-              <div class="box">
-                <img src="assets/img/values-1.jpg" class="img-fluid" alt="" />
-                <h3>Premium Coffee Selection</h3>
-                <p>
-                  We offer a range of meticulously sourced and freshly roasted
-                  coffee beans to ensure you enjoy the finest coffee experience.
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 mt-4 mt-lg-0"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="box">
-                <img src="assets/img/values-2.jpg" class="img-fluid" alt="" />
-                <h3>Craftsmanship in Every Brew</h3>
-                <p>
-                  Our commitment lies in the art of brewing. We take pride in
-                  crafting each cup of coffee to perfection, delivering a rich
-                  and flavorful taste.
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 mt-4 mt-lg-0"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <div class="box">
-                <img src="assets/img/values-3.jpg" class="img-fluid" alt="" />
-                <h3>Passion for Coffee Culture</h3>
-                <p>
-                  We're passionate about fostering a coffee community. Join us
-                  in celebrating the culture, stories, and rituals that make
-                  coffee special.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Values Section -->
-
       <!-- ======= Counts Section ======= -->
       <section id="counts" class="counts">
-        <div class="container" data-aos="fade-up">
-          <div class="row gy-4">
+        <div class="container">
+          <div class="row">
             <div class="col-lg-3 col-md-6">
               <div class="count-box">
-                <i class="bi bi-emoji-smile"></i>
-                <div>
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="232"
-                    data-purecounter-duration="1"
-                    class="purecounter"
-                  ></span>
-                  <p>Satisfied Coffee Lovers</p>
-                </div>
+                <i class="bx bx-cube-alt"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="85"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Doctors</p>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
               <div class="count-box">
-                <i class="bi bi-coffee" style="color: #ee6c20"></i>
-                <div>
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="521"
-                    data-purecounter-duration="1"
-                    class="purecounter"
-                  ></span>
-                  <p>Coffee Blends</p>
-                </div>
+                <i class="bx bx-cube-alt"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="18"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Departments</p>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
               <div class="count-box">
-                <i class="bi bi-mug" style="color: #15be56"></i>
-                <div>
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="1463"
-                    data-purecounter-duration="1"
-                    class="purecounter"
-                  ></span>
-                  <p>Coffee Brewing Hours</p>
-                </div>
+                <i class="bx bx-cube-alt"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="12"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Research Labs</p>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
               <div class="count-box">
-                <i class="bi bi-heart" style="color: #bb0852"></i>
-                <div>
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="15"
-                    data-purecounter-duration="1"
-                    class="purecounter"
-                  ></span>
-                  <p>Dedicated Coffee Craftsmen</p>
-                </div>
+                <i class="bx bx-cube-alt"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="150"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Awards</p>
               </div>
             </div>
           </div>
@@ -280,323 +289,86 @@
       </section>
       <!-- End Counts Section -->
 
-      <!-- ======= Features Section ======= -->
-      <section id="features" class="features">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
-            <h2>Coffee Experiences</h2>
-            <p>Distinctive attributes that make RoastHaven's coffee unique</p>
-          </header>
-
-          <div class="row">
-            <div class="col-lg-6">
-              <img src="assets/img/features.jpg" class="img-fluid" alt="" />
-            </div>
-
-            <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
-              <div class="row align-self-center gy-4">
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="bi bi-check"></i>
-                    <h3>Efficient Delivery Solutions</h3>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="bi bi-check"></i>
-                    <h3>Streamlined Supply Chain Management</h3>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="bi bi-check"></i>
-                    <h3>Reliable Shipment Tracking</h3>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="bi bi-check"></i>
-                    <h3>Efficient Warehouse Operations</h3>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="bi bi-check"></i>
-                    <h3>Customized Logistics Solutions</h3>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="bi bi-check"></i>
-                    <h3>Responsive Customer Support</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Feature Tabs -->
-          <div class="row feture-tabs" data-aos="fade-up">
-            <div class="col-lg-6">
-              <h3>Premium Coffee Experience</h3>
-
-              <!-- Tab Content -->
-              <div class="tab-content">
-                <div class="tab-pane fade show active" id="tab1">
-                  <p>
-                    RoastHaven offers a premium coffee experience that elevates
-                    your morning routine.
-                  </p>
-                  <div class="d-flex align-items-center mb-2">
-                    <i class="bi bi-check2"></i>
-                    <h4>Artisanal Coffee Blends</h4>
-                  </div>
-                  <p>
-                    Our team of coffee artisans meticulously crafts unique
-                    blends, ensuring a rich and satisfying coffee experience
-                    every time.
-                  </p>
-                  <div class="d-flex align-items-center mb-2">
-                    <i class="bi bi-check2"></i>
-                    <h4>Barista Expertise</h4>
-                  </div>
-                  <p>
-                    Our skilled baristas create coffee masterpieces with a touch
-                    of artistry and precision, making each cup a work of art.
-                  </p>
-                  <div class="d-flex align-items-center mb-2">
-                    <i class="bi bi-check2"></i>
-                    <h4>Freshly Roasted Beans</h4>
-                  </div>
-                  <p>
-                    We source and roast our coffee beans to perfection, ensuring
-                    the freshest and most aromatic coffee for your enjoyment.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <img src="assets/img/features-2.jpg" class="img-fluid" alt="" />
-            </div>
-          </div>
-
-          <!-- Feature Icons -->
-          <div class="row feature-icons" data-aos="fade-up">
-            <h3>Enhancing Your Coffee Experience</h3>
-
-            <div class="row">
-              <div
-                class="col-xl-4 text-center"
-                data-aos="fade-right"
-                data-aos-delay="100"
-              >
-                <img
-                  src="assets/img/features-3.jpg"
-                  class="img-fluid p-4"
-                  alt=""
-                />
-              </div>
-
-              <div class="col-xl-8 d-flex content">
-                <div class="row align-self-center gy-4">
-                  <div class="col-md-6 icon-box" data-aos="fade-up">
-                    <div>
-                      <h4>Crafting Exceptional Blends</h4>
-                      <p>
-                        Our coffee artisans create exceptional coffee blends
-                        that tantalize your taste buds, ensuring a delightful
-                        coffee experience every sip of the way.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <div>
-                      <h4>Expert Baristas</h4>
-                      <p>
-                        Our skilled baristas are experts at brewing the perfect
-                        cup of coffee, infusing passion and expertise into each
-                        cup they serve.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <div>
-                      <h4>Single-Origin Beans</h4>
-                      <p>
-                        We source our coffee beans from single-origin locations
-                        to provide you with the purest and most flavorful coffee
-                        beans available.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                  >
-                    <div>
-                      <h4>Immersive Coffee Tastings</h4>
-                      <p>
-                        Join us for immersive coffee tastings and explore a
-                        world of coffee flavors, aromas, and brewing techniques.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="400"
-                  >
-                    <div>
-                      <h4>State-of-the-Art Brewing</h4>
-                      <p>
-                        Our state-of-the-art coffee machines ensure consistent
-                        quality and precision in every cup, elevating your
-                        coffee experience to new heights.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="500"
-                  >
-                    <div>
-                      <h4>Coffee Education</h4>
-                      <p>
-                        Learn the art and science of coffee through our
-                        educational programs, becoming a coffee connoisseur in
-                        your own right.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Feature Icons -->
-        </div>
-      </section>
-      <!-- End Features Section -->
-
       <!-- ======= Services Section ======= -->
       <section id="services" class="services">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
-            <h2>Our Offerings</h2>
+        <div class="container">
+          <div class="section-title">
+            <h2>Services</h2>
             <p>
-              Exceptional services tailored to enhance your coffee experience
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
-          </header>
+          </div>
 
-          <div class="row gy-4">
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="service-box blue">
-                <h3>Premium Coffee Selection</h3>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-cube-alt"></i></div>
+                <h4><a href="#contact">Lorem Ipsum</a></h4>
                 <p>
-                  Explore our exquisite range of coffee blends, carefully
-                  crafted to deliver the finest flavors and aromas to your cup.
-                  Elevate your coffee experience with RoastHaven.
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi
                 </p>
               </div>
             </div>
 
             <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="300"
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
             >
-              <div class="service-box orange">
-                <h3>Coffee Brewing Mastery</h3>
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-cube-alt"></i></div>
+                <h4><a href="#contact">Sed ut perspiciatis</a></h4>
                 <p>
-                  Unlock the art of coffee brewing with our expertly designed
-                  coffee machines. Experience the magic of brewing your favorite
-                  RoastHaven coffee blends right in your own kitchen.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore
                 </p>
               </div>
             </div>
 
             <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="400"
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
             >
-              <div class="service-box green">
-                <h3>Single-Origin Beans</h3>
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-cube-alt"></i></div>
+                <h4><a href="#contact">Magni Dolores</a></h4>
                 <p>
-                  Immerse yourself in the world of coffee origins with our
-                  selection of single-origin coffee beans. Taste the unique
-                  flavors of coffee-growing regions from around the globe.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia
                 </p>
               </div>
             </div>
 
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <div class="service-box red">
-                <h3>Coffee Tasting Events</h3>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-cube-alt"></i></div>
+                <h4><a href="#contact">Nemo Enim</a></h4>
                 <p>
-                  Join us for exclusive coffee tasting events, where our coffee
-                  experts guide you through a sensory journey, exploring diverse
-                  coffee profiles and brewing techniques.
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis
                 </p>
               </div>
             </div>
 
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <div class="service-box purple">
-                <h3>Coffee Accessories</h3>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-cube-alt"></i></div>
+                <h4><a href="#contact">Dele cardo</a></h4>
                 <p>
-                  Elevate your coffee ritual with our premium coffee
-                  accessories, including elegant coffee makers, stylish mugs,
-                  and artisanal grinders, all designed to enhance your coffee
-                  enjoyment.
+                  Quis consequatur saepe eligendi voluptatem consequatur dolor
+                  consequuntur
                 </p>
               </div>
             </div>
 
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="700"
-            >
-              <div class="service-box pink">
-                <h3>Customer Delight</h3>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-cube-alt"></i></div>
+                <h4><a href="#contact">Divera don</a></h4>
                 <p>
-                  At RoastHaven, your satisfaction is our top priority. Our
-                  dedicated team is committed to ensuring you receive
-                  exceptional service, personalized recommendations, and a
-                  delightful coffee experience with every sip.
+                  Modi nostrum vel laborum. Porro fugit error sit minus sapiente
+                  sit aspernatur
                 </p>
               </div>
             </div>
@@ -605,263 +377,310 @@
       </section>
       <!-- End Services Section -->
 
-      <!-- ======= Pricing Section ======= -->
-      <section id="pricing" class="pricing">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
-            <h2>Our Coffee Plans</h2>
-            <p>Explore Our Coffee Subscription Plans</p>
-          </header>
+      <!-- ======= Departments Section ======= -->
+      <section id="departments" class="departments">
+        <div class="container">
+          <div class="section-title">
+            <h2>Departments</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
 
-          <div class="row gy-4" data-aos="fade-left">
-            <div
-              class="col-lg-3 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="box">
-                <h3 style="color: #07d5c0">Basic Brew</h3>
-                <div class="price"><sup>$</sup>0<span> / mo</span></div>
-                <ul>
-                  <li>Single-origin coffee selection</li>
-                  <li>Monthly coffee delivery</li>
-                  <li>No additional charges</li>
-                  <li class="na">Customized roast levels</li>
-                  <li class="na">24/7 coffee concierge</li>
-                </ul>
-                <a href="#contact" class="btn-buy">Get Started</a>
-              </div>
+          <div class="row gy-4">
+            <div class="col-lg-3">
+              <ul class="nav nav-tabs flex-column">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active show"
+                    data-bs-toggle="tab"
+                    href="#tab-1"
+                    >Cardiology</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-2"
+                    >Neurology</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-3"
+                    >Hepatology</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-4"
+                    >Pediatrics</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-5"
+                    >Eye Care</a
+                  >
+                </li>
+              </ul>
             </div>
-
-            <div
-              class="col-lg-3 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <div class="box">
-                <span class="featured">Featured</span>
-                <h3 style="color: #65c600">Coffee Enthusiast</h3>
-                <div class="price"><sup>$</sup>19<span> / mo</span></div>
-                <ul>
-                  <li>Premium coffee blends</li>
-                  <li>Bi-weekly coffee delivery</li>
-                  <li>Real-time coffee tracking</li>
-                  <li>Dedicated coffee support</li>
-                  <li class="na">Customized coffee profiles</li>
-                </ul>
-                <a href="#contact" class="btn-buy">Get Started</a>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-3 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
-              <div class="box">
-                <h3 style="color: #ff901c">Coffee Connoisseur</h3>
-                <div class="price"><sup>$</sup>69<span> / mo</span></div>
-                <ul>
-                  <li>Exclusive coffee selections</li>
-                  <li>Weekly coffee deliveries</li>
-                  <li>Advanced coffee education</li>
-                  <li>Customized brewing options</li>
-                  <li>24/7 coffee hotline</li>
-                </ul>
-                <a href="#contact" class="btn-buy">Get Started</a>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-3 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="400"
-            >
-              <div class="box">
-                <h3 style="color: #ff0071">Coffee Aficionado</h3>
-                <div class="price"><sup>$</sup>99<span> / mo</span></div>
-                <ul>
-                  <li>Rare and exclusive coffee experiences</li>
-                  <li>Daily coffee deliveries</li>
-                  <li>Ultimate coffee indulgence</li>
-                  <li>Premium coffee concierge</li>
-                  <li>Customized coffee journey</li>
-                </ul>
-                <a href="#contact" class="btn-buy">Get Started</a>
+            <div class="col-lg-9">
+              <div class="tab-content">
+                <div class="tab-pane active show" id="tab-1">
+                  <div class="row gy-4">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Cardiology</h3>
+                      <p class="fst-italic">
+                        Qui laudantium consequatur laborum sit qui ad sapiente
+                        dila parde sonata raqer a videna mareta paulona marka
+                      </p>
+                      <p>
+                        Et nobis maiores eius. Voluptatibus ut enim blanditiis
+                        atque harum sint. Laborum eos ipsum ipsa odit magni.
+                        Incidunt hic ut molestiae aut qui. Est repellat minima
+                        eveniet eius et quis magni nihil. Consequatur dolorem
+                        quaerat quos qui similique accusamus nostrum rem vero
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/departments-1.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-2">
+                  <div class="row gy-4">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Et blanditiis nemo veritatis excepturi</h3>
+                      <p class="fst-italic">
+                        Qui laudantium consequatur laborum sit qui ad sapiente
+                        dila parde sonata raqer a videna mareta paulona marka
+                      </p>
+                      <p>
+                        Ea ipsum voluptatem consequatur quis est. Illum error
+                        ullam omnis quia et reiciendis sunt sunt est. Non
+                        aliquid repellendus itaque accusamus eius et velit ipsa
+                        voluptates. Optio nesciunt eaque beatae accusamus lerode
+                        pakto madirna desera vafle de nideran pal
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/departments-2.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-3">
+                  <div class="row gy-4">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                      <p class="fst-italic">
+                        Eos voluptatibus quo. Odio similique illum id quidem non
+                        enim fuga. Qui natus non sunt dicta dolor et. In
+                        asperiores velit quaerat perferendis aut
+                      </p>
+                      <p>
+                        Iure officiis odit rerum. Harum sequi eum illum corrupti
+                        culpa veritatis quisquam. Neque necessitatibus illo
+                        rerum eum ut. Commodi ipsam minima molestiae sed
+                        laboriosam a iste odio. Earum odit nesciunt fugiat sit
+                        ullam. Soluta et harum voluptatem optio quae
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/departments-3.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-4">
+                  <div class="row gy-4">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>
+                        Fuga dolores inventore laboriosam ut est accusamus
+                        laboriosam dolore
+                      </h3>
+                      <p class="fst-italic">
+                        Totam aperiam accusamus. Repellat consequuntur iure
+                        voluptas iure porro quis delectus
+                      </p>
+                      <p>
+                        Eaque consequuntur consequuntur libero expedita in
+                        voluptas. Nostrum ipsam necessitatibus aliquam fugiat
+                        debitis quis velit. Eum ex maxime error in consequatur
+                        corporis atque. Eligendi asperiores sed qui veritatis
+                        aperiam quia a laborum inventore
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/departments-4.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-5">
+                  <div class="row gy-4">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>
+                        Est eveniet ipsam sindera pad rone matrelat sando reda
+                      </h3>
+                      <p class="fst-italic">
+                        Omnis blanditiis saepe eos autem qui sunt debitis porro
+                        quia.
+                      </p>
+                      <p>
+                        Exercitationem nostrum omnis. Ut reiciendis repudiandae
+                        minus. Omnis recusandae ut non quam ut quod eius qui.
+                        Ipsum quia odit vero atque qui quibusdam amet. Occaecati
+                        sed est sint aut vitae molestiae voluptate vel
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/departments-5.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Pricing Section -->
+      <!-- End Departments Section -->
 
-      <!-- ======= F.A.Q Section ======= -->
-      <section id="faq" class="faq">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
-            <h2>Frequently Asked Questions</h2>
-          </header>
+      <!-- ======= Doctors Section ======= -->
+      <section id="doctors" class="doctors">
+        <div class="container">
+          <div class="section-title">
+            <h2>Doctors</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
 
           <div class="row">
             <div class="col-lg-6">
-              <!-- F.A.Q List 1-->
-              <div class="accordion accordion-flush" id="faqlist1">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-1"
-                    >
-                      What coffee blends does RoastHaven offer?
-                    </button>
-                  </h2>
-                  <div
-                    id="faq-content-1"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div class="accordion-body">
-                      RoastHaven offers a diverse selection of coffee blends
-                      meticulously crafted to cater to your unique taste buds.
-                      From rich espresso to exotic single-origin varieties, we
-                      have a blend for every coffee connoisseur.
-                    </div>
-                  </div>
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets/img/doctors/doctors-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
                 </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-2"
-                    >
-                      How does RoastHaven ensure coffee freshness?
-                    </button>
-                  </h2>
-                  <div
-                    id="faq-content-2"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div class="accordion-body">
-                      At RoastHaven, we are committed to delivering the freshest
-                      coffee to your doorstep. We source our beans from
-                      top-notch coffee farms and roast them to perfection just
-                      before shipping. This ensures that you experience the full
-                      flavor and aroma of our premium coffee blends.
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-3"
-                    >
-                      Can I customize my coffee subscription with RoastHaven?
-                    </button>
-                  </h2>
-                  <div
-                    id="faq-content-3"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div class="accordion-body">
-                      Yes, absolutely! RoastHaven offers flexible coffee
-                      subscription options. You can adjust your delivery
-                      frequency, choose your favorite coffee blends, and even
-                      select your desired grind level. We believe in providing a
-                      personalized coffee experience tailored to your
-                      preferences.
-                    </div>
+                <div class="member-info">
+                  <h4>Walter White</h4>
+                  <span>Chief Medical Officer</span>
+                  <p>
+                    Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                  </p>
+                  <div class="social">
+                    <a href="#contact"><i class="ri-twitter-fill"></i></a>
+                    <a href="#contact"><i class="ri-facebook-fill"></i></a>
+                    <a href="#contact"><i class="ri-instagram-fill"></i></a>
+                    <a href="#contact">
+                      <i class="ri-linkedin-box-fill"></i>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <!-- F.A.Q List 2-->
-              <div class="accordion accordion-flush" id="faqlist2">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-4"
-                    >
-                      What makes RoastHaven coffee unique?
-                    </button>
-                  </h2>
-                  <div
-                    id="faq-content-4"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div class="accordion-body">
-                      RoastHaven's uniqueness lies in our commitment to quality
-                      and sustainability. We source coffee beans through ethical
-                      and environmentally conscious practices, ensuring that
-                      each cup of RoastHaven coffee not only tastes exceptional
-                      but also supports responsible coffee farming.
-                    </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets/img/doctors/doctors-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Anesthesiologist</span>
+                  <p>
+                    Aut maiores voluptates amet et quis praesentium qui senda
+                    para
+                  </p>
+                  <div class="social">
+                    <a href="#contact"><i class="ri-twitter-fill"></i></a>
+                    <a href="#contact"><i class="ri-facebook-fill"></i></a>
+                    <a href="#contact"><i class="ri-instagram-fill"></i></a>
+                    <a href="#contact">
+                      <i class="ri-linkedin-box-fill"></i>
+                    </a>
                   </div>
                 </div>
+              </div>
+            </div>
 
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-5"
-                    >
-                      Can I purchase RoastHaven coffee as a gift?
-                    </button>
-                  </h2>
-                  <div
-                    id="faq-content-5"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div class="accordion-body">
-                      Absolutely! RoastHaven offers coffee gift packages that
-                      make for a delightful present. Whether it's a special
-                      occasion or a gesture of appreciation, our coffee gift
-                      sets are a thoughtful choice for any coffee lover.
-                    </div>
+            <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets/img/doctors/doctors-3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>William Anderson</h4>
+                  <span>Cardiology</span>
+                  <p>
+                    Quisquam facilis cum velit laborum corrupti fuga rerum quia
+                  </p>
+                  <div class="social">
+                    <a href="#contact"><i class="ri-twitter-fill"></i></a>
+                    <a href="#contact"><i class="ri-facebook-fill"></i></a>
+                    <a href="#contact"><i class="ri-instagram-fill"></i></a>
+                    <a href="#contact">
+                      <i class="ri-linkedin-box-fill"></i>
+                    </a>
                   </div>
                 </div>
+              </div>
+            </div>
 
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq2-content-6"
-                    >
-                      How can I contact RoastHaven's customer support?
-                    </button>
-                  </h2>
-                  <div
-                    id="faq2-content-6"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div class="accordion-body">
-                      Getting in touch with RoastHaven's dedicated customer
-                      support team is easy. You can reach us through our
-                      website's contact page, where you can submit your
-                      inquiries or concerns. We're here to assist you promptly.
-                    </div>
+            <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets/img/doctors/doctors-4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Amanda Jepson</h4>
+                  <span>Neurosurgeon</span>
+                  <p>
+                    Dolorum tempora officiis odit laborum officiis et et
+                    accusamus
+                  </p>
+                  <div class="social">
+                    <a href="#contact"><i class="ri-twitter-fill"></i></a>
+                    <a href="#contact"><i class="ri-facebook-fill"></i></a>
+                    <a href="#contact"><i class="ri-instagram-fill"></i></a>
+                    <a href="#contact">
+                      <i class="ri-linkedin-box-fill"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -869,301 +688,529 @@
           </div>
         </div>
       </section>
-      <!-- End F.A.Q Section -->
+      <!-- End Doctors Section -->
 
-      <!-- ======= Team Section ======= -->
-      <section id="team" class="team">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
-            <h2>Our Team</h2>
-            <p>Meet the Coffee Enthusiasts Behind RoastHaven</p>
-          </header>
+      <!-- ======= Frequently Asked Questions Section ======= -->
+      <section id="faq" class="faq section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
 
-          <div class="row gy-4">
-            <div
-              class="col-lg-3 col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="member">
-                <div class="member-img">
-                  <img
-                    src="assets/img/team/team-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="member-info">
-                  <h4>Olivia Anderson</h4>
-                  <span>Founder & CEO</span>
+          <div class="faq-list">
+            <ul>
+              <li data-aos="fade-up">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  class="collapse"
+                  data-bs-target="#faq-list-1"
+                  >Non consectetur a erat nam at lectus urna duis?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-1"
+                  class="collapse show"
+                  data-bs-parent=".faq-list"
+                >
                   <p>
-                    Olivia is the driving force behind RoastHaven, with a
-                    passion for sourcing the finest coffee beans and ensuring an
-                    exceptional coffee experience for our customers.
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                    volutpat lacus laoreet non curabitur gravida. Venenatis
+                    lectus magna fringilla urna porttitor rhoncus dolor purus
+                    non.
                   </p>
                 </div>
-              </div>
-            </div>
+              </li>
 
-            <div
-              class="col-lg-3 col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="member">
-                <div class="member-img">
-                  <img
-                    src="assets/img/team/team-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="member-info">
-                  <h4>William Roberts</h4>
-                  <span>Master Roaster</span>
+              <li data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-2"
+                  class="collapsed"
+                  >Feugiat scelerisque varius morbi enim nunc?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-2"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
                   <p>
-                    William brings his expertise to the art of coffee roasting,
-                    ensuring that each RoastHaven blend is a masterpiece of
-                    flavor and aroma.
+                    Dolor sit amet consectetur adipiscing elit pellentesque
+                    habitant morbi. Id interdum velit laoreet id donec ultrices.
+                    Fringilla phasellus faucibus scelerisque eleifend donec
+                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                    ultrices eros in cursus turpis massa tincidunt dui.
                   </p>
                 </div>
-              </div>
-            </div>
+              </li>
 
-            <div
-              class="col-lg-3 col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="member">
-                <div class="member-img">
-                  <img
-                    src="assets/img/team/team-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="member-info">
-                  <h4>Natalie Clark</h4>
-                  <span>Marketing Manager</span>
+              <li data-aos="fade-up" data-aos-delay="200">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-3"
+                  class="collapsed"
+                  >Dolor sit amet consectetur adipiscing elit?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-3"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
                   <p>
-                    Natalie leverages her creative skills to share the
-                    RoastHaven story and connect with coffee lovers around the
-                    world.
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                    sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                    nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                    pellentesque eu tincidunt. Lectus urna duis convallis
+                    convallis tellus. Urna molestie at elementum eu facilisis
+                    sed odio morbi quis
                   </p>
                 </div>
-              </div>
-            </div>
+              </li>
 
-            <div
-              class="col-lg-3 col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="member">
-                <div class="member-img">
-                  <img
-                    src="assets/img/team/team-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="member-info">
-                  <h4>Alexander Lewis</h4>
-                  <span>Quality Control Specialist</span>
+              <li data-aos="fade-up" data-aos-delay="300">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-4"
+                  class="collapsed"
+                  >Tempus quam pellentesque nec nam aliquam sem et tortor
+                  consequat? <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-4"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
                   <p>
-                    Alexander's keen palate ensures that every cup of RoastHaven
-                    coffee meets our exacting standards of taste and quality.
+                    Molestie a iaculis at erat pellentesque adipiscing commodo.
+                    Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                    viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                    bibendum est. Purus gravida quis blandit turpis cursus in.
                   </p>
                 </div>
-              </div>
-            </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="400">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-5"
+                  class="collapsed"
+                  >Tortor vitae purus faucibus ornare. Varius vel pharetra vel
+                  turpis nunc eget lorem dolor?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-5"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Laoreet sit amet cursus sit amet dictum sit amet justo.
+                    Mauris vitae ultricies leo integer malesuada nunc vel.
+                    Tincidunt eget nullam non nisi est sit amet. Turpis nunc
+                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate
+                    eu scelerisque.
+                  </p>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
-      <!-- End Team Section -->
+      <!-- End Frequently Asked Questions Section -->
 
       <!-- ======= Testimonials Section ======= -->
       <section id="testimonials" class="testimonials">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
-            <h2>Customer Reviews</h2>
-            <p>What Our Customers Are Saying About RoastHaven Coffee</p>
-          </header>
-
+        <div class="container">
           <div
-            class="testimonials-slid"
+            class="testimonials-slider swiper"
             data-aos="fade-up"
-            data-aos-delay="200"
+            data-aos-delay="100"
           >
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                ><i class="bi bi-star-fill"></i>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <img
+                      src="assets/img/testimonials/testimonials-1.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo &amp; Founder</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Proin iaculis purus consequat sem cure digni ssim donec
+                      porttitora entum suscipit rhoncus. Accusantium quam,
+                      ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                      risus at semper.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
               </div>
-              <p>
-                "RoastHaven Coffee has transformed our mornings. Their coffee is
-                consistently delicious and provides the perfect start to our
-                day. The aroma alone is worth it!"
-              </p>
-              <div class="profile mt-auto">
-                <img
-                  src="assets/img/testimonials/testimonials-2.jpg"
-                  class="testimonial-img"
-                  alt=""
-                />
-                <h3>Sarah Davis</h3>
-                <h4>Coffee Lover</h4>
-              </div>
-            </div>
+              <!-- End testimonial item -->
 
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                ><i class="bi bi-star-fill"></i>
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <img
+                      src="assets/img/testimonials/testimonials-2.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Sara Wilsson</h3>
+                    <h4>Designer</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Export tempor illum tamen malis malis eram quae irure esse
+                      labore quem cillum quid cillum eram malis quorum velit
+                      fore eram velit sunt aliqua noster fugiat irure amet legam
+                      anim culpa.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
               </div>
-              <p>
-                "RoastHaven's commitment to quality is evident in every sip.
-                Their coffee is a true delight, and their customer service is
-                exceptional. I'm a loyal customer for life!"
-              </p>
-              <div class="profile mt-auto">
-                <img
-                  src="assets/img/testimonials/testimonials-1.jpg"
-                  class="testimonial-img"
-                  alt=""
-                />
-                <h3>James Foster</h3>
-                <h4>Coffee Enthusiast</h4>
-              </div>
-            </div>
+              <!-- End testimonial item -->
 
-            <div class="testimonial-item">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
-                ><i class="bi bi-star-fill"></i>
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <img
+                      src="assets/img/testimonials/testimonials-3.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Jena Karlis</h3>
+                    <h4>Store Owner</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Enim nisi quem export duis labore cillum quae magna enim
+                      sint quorum nulla quem veniam duis minim tempor labore
+                      quem eram duis noster aute amet eram fore quis sint minim.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
               </div>
-              <p>
-                "RoastHaven's coffee is a game-changer for our office. It keeps
-                our team energized and motivated throughout the day. We couldn't
-                be happier!"
-              </p>
-              <div class="profile mt-auto">
-                <img
-                  src="assets/img/testimonials/testimonials-3.jpg"
-                  class="testimonial-img"
-                  alt=""
-                />
-                <h3>Megan Mitchell</h3>
-                <h4>Office Manager</h4>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <img
+                      src="assets/img/testimonials/testimonials-4.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Matt Brandon</h3>
+                    <h4>Freelancer</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                      multos export minim fugiat minim velit minim dolor enim
+                      duis veniam ipsum anim magna sunt elit fore quem dolore
+                      labore illum veniam.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
               </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial-item">
+                    <img
+                      src="assets/img/testimonials/testimonials-5.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>John Larson</h3>
+                    <h4>Entrepreneur</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Quis quorum aliqua sint quem legam fore sunt eram irure
+                      aliqua veniam tempor noster veniam enim culpa labore duis
+                      sunt culpa nulla illum cillum fugiat legam esse veniam
+                      culpa fore nisi cillum quid.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
             </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
       <!-- End Testimonials Section -->
 
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery" class="gallery">
+        <div class="container">
+          <div class="section-title">
+            <h2>Gallery</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row g-0">
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-1.jpg"
+                  class="galelry-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-1.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-2.jpg"
+                  class="galelry-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-2.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-3.jpg"
+                  class="galelry-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-3.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-4.jpg"
+                  class="galelry-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-4.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-5.jpg"
+                  class="galelry-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-5.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-6.jpg"
+                  class="galelry-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-6.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-7.jpg"
+                  class="galelry-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-7.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-8.jpg"
+                  class="galelry-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-8.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Gallery Section -->
+
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
+        <div class="container">
+          <div class="section-title">
             <h2>Contact</h2>
-            <p>Contact Us</p>
-          </header>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+        </div>
 
-          <div class="row gy-4">
-            <div class="col-lg-6">
-              <div class="row gy-4">
-                <div class="col-md-6">
-                  <div class="info-box">
-                    <i class="bi bi-geo-alt"></i>
-                    <h3>Address</h3>
-                    <p>400 W INDIO LN,<br />CLOVIS CA 93619-0413</p>
-                  </div>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2957.417202340605!2d-72.4661613!3d42.1627567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6c25344264aa1%3A0x8564f74cc51c10e9!2zNTU3IEVhc3QgU3QsIEx1ZGxvdywgTUEgMDEwNTYsINCh0KjQkA!5e0!3m2!1sru!2sby!4v1694095055011!5m2!1sru!2sby"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>557 East St, Ludlow, MA 01056, США</p>
                 </div>
-                <div class="col-md-6">
-                  <div class="info-box">
-                    <i class="bi bi-telephone"></i>
-                    <h3>Call Us</h3>
-                    <p>+1 3664 73930 55<br />+1 3464 65330 41</p>
-                  </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>leximed@mail.com</p>
                 </div>
-                <div class="col-md-6">
-                  <div class="info-box">
-                    <i class="bi bi-envelope"></i>
-                    <h3>Email Us</h3>
-                    <p>roasthaven@mail.com</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="info-box">
-                    <i class="bi bi-clock"></i>
-                    <h3>Open Hours</h3>
-                    <p>Monday - Friday<br />9:00AM - 05:00PM</p>
-                  </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+1 6382 87636 55</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-8 mt-5 mt-lg-0">
               <form
                 action="forms/contact.php"
                 method="post"
+                role="form"
                 class="php-email-form"
               >
-                <div class="row gy-4">
-                  <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-6 form-group">
                     <input
                       type="text"
                       name="name"
                       class="form-control"
+                      id="name"
                       placeholder="Your Name"
                       required
                     />
                   </div>
-
-                  <div class="col-md-6">
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
                     <input
                       type="email"
                       class="form-control"
                       name="email"
+                      id="email"
                       placeholder="Your Email"
                       required
                     />
                   </div>
-
-                  <div class="col-md-12">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="subject"
-                      placeholder="Subject"
-                      required
-                    />
+                </div>
+                <div class="form-group mt-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="form-group mt-3">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
                   </div>
-
-                  <div class="col-md-12">
-                    <textarea
-                      class="form-control"
-                      name="message"
-                      rows="6"
-                      placeholder="Message"
-                      required
-                    ></textarea>
-                  </div>
-
-                  <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
-
-                    <button type="submit">Send Message</button>
-                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
                 </div>
               </form>
             </div>
@@ -1175,130 +1222,87 @@
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
+    <footer id="footer">
       <div class="footer-top">
         <div class="container">
-          <div class="row gy-4">
-            <div class="col-lg-2 col-6 footer-links">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>LexiMed</h3>
+              <p>
+                557 EAST ST LUDLOW MA 01056-3018 USA<br />
+                <strong>Phone:</strong> +1 6382 87636 55<br />
+                <strong>Email:</strong> leximed@mail.com<br />
+              </p>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <i class="bi bi-chevron-right"></i>
+                  <i class="bx bx-chevron-right"></i>
                   <a href="./privacy/disclaimer.html">Disclaimer</a>
                 </li>
                 <li>
-                  <i class="bi bi-chevron-right"></i>
+                  <i class="bx bx-chevron-right"></i>
                   <a href="./privacy/cookies.html">Cookies</a>
                 </li>
                 <li>
-                  <i class="bi bi-chevron-right"></i>
+                  <i class="bx bx-chevron-right"></i>
                   <a href="./privacy/terms.html">Terms of service</a>
                 </li>
                 <li>
-                  <i class="bi bi-chevron-right"></i>
+                  <i class="bx bx-chevron-right"></i>
                   <a href="./privacy/privacy.html">Privacy policy</a>
                 </li>
               </ul>
             </div>
 
-            <div class="col-lg-10 col-md-12 footer-contact">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.351632023593!2d-119.72095619999999!3d36.8580013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80944335d8a220b7%3A0x6d2a6ce8b8a7726f!2zNDAwIFcgSW5kaW8gTG4sIENsb3ZpcywgQ0EgOTM2MTksINCh0KjQkA!5e0!3m2!1sru!2sby!4v1694092306602!5m2!1sru!2sby"
-                width="100%"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Join Our Newsletter</h4>
+              <p>
+                Tamen quem nulla quae legam multos aute sint culpa legam noster
+                magna
+              </p>
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- ======= Clients Section ======= -->
-      <section id="clients" class="clients">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
-            <h2>Our Clients</h2>
-          </header>
-
-          <div class="clients-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-1.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-2.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-3.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-4.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-5.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-6.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-7.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-8.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
+      <div class="container d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>LexiMed</span></strong
+            >. All Rights Reserved
           </div>
         </div>
-      </section>
-      <!-- End Clients Section -->
-
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>RoastHaven</span></strong
-          >. All Rights Reserved
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#contact" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#contact" class="facebook"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="#contact" class="instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="#contact" class="google-plus"
+            ><i class="bx bxl-skype"></i
+          ></a>
+          <a href="#contact" class="linkedin"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
         </div>
       </div>
     </footer>
     <!-- End Footer -->
 
+    <div id="preloader"></div>
     <a
-      href="#contact"
+      href="#"
       class="back-to-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
@@ -1333,12 +1337,9 @@
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
 
-    <!-- Vendor JS Cdn -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
