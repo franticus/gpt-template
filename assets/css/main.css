@@ -72,9 +72,10 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
-  background-color: #c8dbff;
+  background-color: #ffffff;
   opacity: 1;
-  background: repeating-linear-gradient(45deg, #d1d3ff, #d1d3ff 2px, #c8dbff 2px, #c8dbff 10px);
+  background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#f6f6f6 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #f6f6f6 0.8px, #ffffff 0.8px) -0.4px 0;
+  background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
 }
 
 .section-header {
@@ -204,6 +205,13 @@ section {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+  background: #fff;
+}
+
+.main-title {
+  backdrop-filter: blur(6px);
+  padding: 40px;
+  border-radius: 40px;
 }
 
 .header.sticked {
@@ -555,8 +563,8 @@ section {
 --------------------------------------------------------------*/
 .hero-animated {
   width: 100%;
-  min-height: 90vh;
-  background: url("../img/hero-bg.png") center center;
+  min-height: 100vh;
+  background: url("../img/hero-bg.jpg") center center;
   background-color: #100e2c;
   background-size: cover;
   position: relative;
