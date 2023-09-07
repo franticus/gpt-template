@@ -1094,7 +1094,8 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px;
-  margin: 40px 30px;
+  margin: 40px auto;
+  max-width: 600px;
   box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
   background: #fff;
   min-height: 320px;
