@@ -1679,6 +1679,7 @@ section {
   text-align: center;
   padding: 140px 40px;
   margin: -60px -40px 0;
+  height: 50%;
 }
 
 .pricing h3 {
@@ -1973,8 +1974,9 @@ section {
 # Team Section
 --------------------------------------------------------------*/
 .team .team-member .member-img {
-  border-radius: 8px;
+  border-radius: 20px;
   overflow: hidden;
+  border: 40px solid #fff;
 }
 
 .team .team-member .social {
