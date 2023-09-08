@@ -1149,7 +1149,7 @@ section {
 # Doctors
 --------------------------------------------------------------*/
 .doctors {
-  background: #fff;
+  background: #232323;
 }
 
 .doctors .member {
@@ -1181,7 +1181,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #2c4964;
+  color: #fff;
 }
 
 .doctors .member span {
@@ -1190,6 +1190,8 @@ section {
   padding-bottom: 10px;
   position: relative;
   font-weight: 500;
+  color: #fff;
+  opacity: 0.8;
 }
 
 .doctors .member span::after {
@@ -1198,7 +1200,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #b2c8dd;
+  background: #fff;
   bottom: 0;
   left: 0;
 }
@@ -1206,6 +1208,8 @@ section {
 .doctors .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
+  color: #fff;
+  opacity: 0.8;
 }
 
 .doctors .member .social {
@@ -1223,7 +1227,7 @@ section {
   border-radius: 50px;
   width: 32px;
   height: 32px;
-  background: #a0bcd5;
+  background: #2e2e2e;
 }
 
 .doctors .member .social a i {
@@ -1258,7 +1262,7 @@ section {
 
 .faq .faq-list li {
   padding: 20px;
-  background: #fff;
+  background: #232323;
   border-radius: 4px;
   position: relative;
 }
@@ -1273,6 +1277,7 @@ section {
   padding: 0 30px;
   outline: none;
   cursor: pointer;
+  color: #fff;
 }
 
 .faq .faq-list .icon-help {
@@ -1294,6 +1299,8 @@ section {
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  color: #fff;
+  opacity: 0.8;
 }
 
 .faq .faq-list .icon-show {
@@ -1301,7 +1308,8 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: #fff;
+  opacity: 0.8;
 }
 
 .faq .faq-list a.collapsed:hover {
@@ -1341,7 +1349,7 @@ section {
   min-height: 200px;
   box-shadow: 0px 2px 12px rgba(44, 73, 100, 0.08);
   position: relative;
-  background: #fff;
+  background: #232323;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1356,12 +1364,13 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #fff;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #fff;
+  opacity: 0.8;
   margin: 0;
 }
 
@@ -1387,6 +1396,8 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
+  color: #fff;
+  opacity: 0.8;
 }
 
 .testimonials .swiper-pagination {
@@ -1432,8 +1443,8 @@ section {
 --------------------------------------------------------------*/
 .gallery .gallery-item {
   overflow: hidden;
-  border-right: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-right: 10px solid #232323;
+  border-bottom: 10px solid #232323;
 }
 
 .gallery .gallery-item img {
@@ -1449,7 +1460,9 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #232323;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .contact .info i {
@@ -1458,7 +1471,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #d6e9fa;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1471,14 +1484,15 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #2c4964;
+  color: #fff;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #4b7dab;
+  color: #fff;
+  opacity: 0.8;
 }
 
 .contact .info .email,
@@ -1495,7 +1509,10 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #232323;
+  padding: 20px;
+  border-radius: 20px;
+
 }
 
 .contact .php-email-form .form-group {
@@ -1552,10 +1569,12 @@ section {
 
 .contact .php-email-form input {
   height: 44px;
+  border-radius: 10px;
 }
 
 .contact .php-email-form textarea {
   padding: 10px 12px;
+  border-radius: 10px;
 }
 
 .contact .php-email-form button[type=submit] {
@@ -1585,15 +1604,16 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #444444;
+  color: #fff;
   font-size: 14px;
-  background: #f1f7fd;
+  background: #232323;
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  background: #232323;
+  box-shadow: 0px 2px 15px rgba(225, 225, 225, 0.1);
+  color: #fff;
 }
 
 #footer .footer-top .footer-contact {
@@ -1613,13 +1633,14 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #777777;
+  color: #fff;
+  opacity: 0.8;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1652,7 +1673,8 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #fff;
+  opacity: 0.8;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1670,7 +1692,7 @@ section {
 #footer .footer-newsletter h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
