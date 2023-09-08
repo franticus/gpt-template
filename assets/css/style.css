@@ -40,7 +40,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #800;
+  background: var(--body-color);
 }
 
 #preloader:before {
@@ -274,7 +274,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #800;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -313,7 +313,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #800;
+  background-color: var(--body-color);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -809,7 +809,7 @@ section {
 --------------------------------------------------------------*/
 .counts {
   background: var(--second-color);
-  padding: 70px 0 60px;
+  padding: 100px;
 }
 
 .counts .count-box {
