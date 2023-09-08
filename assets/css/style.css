@@ -1,11 +1,13 @@
 :root {
-  --accent-color: #1d9200;
+  --accent-color: #c20081;
+  --second-color: #fff;
+  --body-color: #ffcee2;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background: #2e2e2e;
+  background: var(--body-color);
 }
 
 a {
@@ -38,7 +40,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #800;
 }
 
 #preloader:before {
@@ -83,13 +85,13 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #800;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #298ce5;
-  color: #fff;
+  background: var(--body-color);
+  color: var(--accent-color);
 }
 
 .back-to-top.active {
@@ -105,8 +107,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #2e2e2e;
-  color: #fff;
+  background: var(--body-color);
+  color: #800;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -128,7 +130,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #800;
   margin-right: 10px;
 }
 
@@ -170,10 +172,10 @@ h6 {
   align-items: center;
   justify-content: space-between;
   font-size: 14px;
-  color: #fff;
+  color: #800;
   white-space: nowrap;
   transition: 0.3s;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #800;
   padding: 5px 2px;
 }
 
@@ -188,7 +190,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: var(--accent-color);
+  color: #fff;
   border-color: var(--accent-color);
 }
 
@@ -202,7 +204,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #800;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -263,7 +265,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #800;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -272,7 +274,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: #800;
 }
 
 @media (max-width: 991px) {
@@ -311,7 +313,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #800;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -347,7 +349,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #800;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -378,14 +380,16 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   background: url("../img/hero-bg.jpg") top center;
+  background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 179, 251, 0.3) ), url('../img/hero-bg.jpg');
   background-size: cover;
-  margin-bottom: -200px;
 }
 
 #hero .container {
   position: relative;
+  backdrop-filter: blur(10px);
+  padding: 40px;
 }
 
 #hero h1 {
@@ -394,12 +398,11 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #fff;
-  backdrop-filter: blur(10px);
+  color: #800;
 }
 
 #hero h2 {
-  color: #fff;
+  color: #800;
   opacity: .8;
   margin: 10px 0 0 0;
   font-size: 24px;
@@ -416,12 +419,13 @@ h6 {
   margin-top: 30px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
-  background: #2e2e2e;
+  color: #800;
+  background: var(--body-color);
 }
 
 #hero .btn-get-started:hover {
-  background: #3291e6;
+  background: var(--accent-color);
+  color: #fff;
 }
 
 @media (min-width: 1024px) {
@@ -467,7 +471,7 @@ section {
 }
 
 .section-bg {
-  background-color: #2e2e2e;
+  background-color: var(--body-color);
 }
 
 .section-title {
@@ -481,7 +485,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #fff;
+  color: #800;
 }
 
 .section-title h2::before {
@@ -501,14 +505,14 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #fff;
+  background: #800;
   bottom: 0;
   left: calc(50% - 20px);
 }
 
 .section-title p {
   margin-bottom: 0;
-  color: #fff;
+  color: #800;
 }
 
 /*--------------------------------------------------------------
@@ -516,7 +520,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #fff;
+  background-color: #800;
   min-height: 40px;
   margin-top: 120px;
 }
@@ -578,9 +582,9 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #232323;
+  background: #fff;
   border-radius: 4px;
-  color: #fff;
+  color: #800;
 }
 
 .why-us .content h3 {
@@ -597,7 +601,7 @@ section {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   padding: 6px 30px 8px 30px;
-  color: #fff;
+  color: #800;
   border-radius: 50px;
   transition: all ease-in-out 0.4s;
 }
@@ -607,16 +611,16 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: var(--accent-color);
-  background: #fff;
+  color: #fff;
+  background: #800;
 }
 
 .why-us .icon-boxes .icon-box {
   text-align: center;
-  border-radius: 10px;
-  background: #2e2e2e;
+  border-radius: 100px;
+  background: var(--body-color);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: #800;
   padding: 40px 30px;
   width: 100%;
 }
@@ -635,7 +639,7 @@ section {
 
 .why-us .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #fff;
+  color: #800;
   opacity: 0.8;
 }
 
@@ -644,19 +648,19 @@ section {
 --------------------------------------------------------------*/
 .about .icon-boxes h4 {
   font-size: 18px;
-  color: #fff;
+  color: #800;
   margin-bottom: 15px;
 }
 
 .about .icon-boxes p {
-  color: #fff;
+  color: #800;
   opacity: 0.8;
 }
 
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #fff;
+  color: #800;
   margin-bottom: 15px;
 }
 
@@ -698,7 +702,7 @@ section {
 }
 
 .about .icon-box .title a {
-  color: #fff;
+  color: #800;
   transition: 0.3s;
 }
 
@@ -709,7 +713,7 @@ section {
 .about .icon-box .description {
   margin-left: 85px;
   line-height: 24px;
-  color: #fff;
+  color: #800;
   opacity: 0.8;
   font-size: 14px;
 }
@@ -718,6 +722,7 @@ section {
   background: url("../img/about.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
+  border-radius: 200px;
 }
 
 .about .play-btn {
@@ -742,7 +747,7 @@ section {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
+  border-left: 15px solid #800;
   z-index: 100;
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
@@ -781,7 +786,7 @@ section {
   border: none;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
+  border-left: 15px solid #800;
   z-index: 200;
   animation: none;
   border-radius: 0;
@@ -803,16 +808,17 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #232323;
+  background: var(--second-color);
   padding: 70px 0 60px;
 }
 
 .counts .count-box {
   padding: 30px 30px 25px 30px;
+  border-radius: 80px;
   width: 100%;
   position: relative;
   text-align: center;
-  background: #2e2e2e;
+  background: var(--body-color);
 }
 
 .counts .count-box i {
@@ -835,7 +841,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #fff;
+  color: #800;
 }
 
 .counts .count-box p {
@@ -843,7 +849,7 @@ section {
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #fff;
+  color: #800;
   opacity: 0.8;
 }
 
@@ -852,8 +858,8 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  border: 2px solid #d5e1ed;
-  border-radius: 10px;
+  border: 4px dashed #fff;
+  border-radius: 160px;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
 }
@@ -898,31 +904,31 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
-  color: #fff;
+  color: #800;
 }
 
 .services .icon-box h4 a {
-  color: #fff;
+  color: #800;
 }
 
 .services .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-  color: #fff;
+  color: #800;
 }
 
 .services .icon-box:hover {
-  background: var(--accent-color);
+  background: var(--second-color);
   border-color: var(--accent-color);
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #800;
 }
 
 .services .icon-box:hover .icon i {
-  color: var(--accent-color);
+  color: #fff;
 }
 
 .services .icon-box:hover .icon::before {
@@ -931,7 +937,7 @@ section {
 
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
-  color: #fff;
+  color: #800;
 }
 
 /*--------------------------------------------------------------
@@ -955,7 +961,7 @@ section {
 
 .appointment .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: #800;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -968,7 +974,7 @@ section {
 
 .appointment .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: #800;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -977,7 +983,7 @@ section {
 
 .appointment .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: #800;
   text-align: center;
   padding: 15px;
 }
@@ -1022,13 +1028,14 @@ section {
   background: var(--accent-color);
   border: 0;
   padding: 10px 35px;
-  color: #fff;
+  color: #800;
   transition: 0.4s;
   border-radius: 50px;
 }
 
 .appointment .php-email-form button[type=submit]:hover {
-  background: #1c84e3;
+  background: var(--body-color);
+  color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------
@@ -1046,11 +1053,12 @@ section {
   border: 0;
   padding: 10px;
   transition: 0.3s;
-  color: #fff;
+  color: #800;
   border-radius: 0;
-  border-right: 2px solid #fff;
+  border-right: 2px solid #800;
   font-weight: 600;
   font-size: 15px;
+  border-radius: 20px;
 }
 
 .departments .nav-link:hover {
@@ -1058,9 +1066,9 @@ section {
 }
 
 .departments .nav-link.active {
-  color: #fff;
+  color: var(--accent-color);
   border-color: var(--accent-color);
-  background: #232323;
+  background: var(--second-color);
 }
 
 .departments .tab-pane.active {
@@ -1071,11 +1079,11 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #fff;
+  color: #800;
 }
 
 .departments .details p {
-  color: #fff;
+  color: #800;
   opacity: 0.8;
 }
 
@@ -1090,7 +1098,7 @@ section {
   }
 
   .departments .nav-link.active {
-    color: #fff;
+    color: #800;
     background: var(--accent-color);
   }
 }
@@ -1099,7 +1107,7 @@ section {
 # Doctors
 --------------------------------------------------------------*/
 .doctors {
-  background: #232323;
+  background: var(--second-color);
 }
 
 .doctors .member {
@@ -1131,7 +1139,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #fff;
+  color: #800;
 }
 
 .doctors .member span {
@@ -1140,7 +1148,7 @@ section {
   padding-bottom: 10px;
   position: relative;
   font-weight: 500;
-  color: #fff;
+  color: #800;
   opacity: 0.8;
 }
 
@@ -1150,7 +1158,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #fff;
+  background: #800;
   bottom: 0;
   left: 0;
 }
@@ -1158,7 +1166,7 @@ section {
 .doctors .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
-  color: #fff;
+  color: #800;
   opacity: 0.8;
 }
 
@@ -1177,11 +1185,11 @@ section {
   border-radius: 50px;
   width: 32px;
   height: 32px;
-  background: #2e2e2e;
+  background: var(--body-color);
 }
 
 .doctors .member .social a i {
-  color: #fff;
+  color: #800;
   font-size: 16px;
   margin: 0 2px;
 }
@@ -1212,7 +1220,7 @@ section {
 
 .faq .faq-list li {
   padding: 20px;
-  background: #232323;
+  background: var(--second-color);
   border-radius: 4px;
   position: relative;
 }
@@ -1227,7 +1235,7 @@ section {
   padding: 0 30px;
   outline: none;
   cursor: pointer;
-  color: #fff;
+  color: #800;
 }
 
 .faq .faq-list .icon-help {
@@ -1249,7 +1257,7 @@ section {
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
-  color: #fff;
+  color: #800;
   opacity: 0.8;
 }
 
@@ -1258,7 +1266,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #fff;
+  color: #800;
   opacity: 0.8;
 }
 
@@ -1296,16 +1304,17 @@ section {
   box-sizing: content-box;
   padding: 30px 30px 30px 60px;
   margin: 30px 15px;
+  border-radius: 80px;
   min-height: 200px;
   box-shadow: 0px 2px 12px rgba(44, 73, 100, 0.08);
   position: relative;
-  background: #232323;
+  background: var(--second-color);
 }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 10px;
-  border: 6px solid #fff;
+  border: 6px solid #800;
   position: absolute;
   left: -45px;
 }
@@ -1314,12 +1323,12 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: #800;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #fff;
+  color: #800;
   opacity: 0.8;
   margin: 0;
 }
@@ -1346,7 +1355,7 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
-  color: #fff;
+  color: #800;
   opacity: 0.8;
 }
 
@@ -1358,7 +1367,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #800;
   opacity: 1;
   border: 1px solid var(--accent-color);
 }
@@ -1393,8 +1402,7 @@ section {
 --------------------------------------------------------------*/
 .gallery .gallery-item {
   overflow: hidden;
-  border-right: 10px solid #232323;
-  border-bottom: 10px solid #232323;
+  border: 8px solid var(--second-color);
 }
 
 .gallery .gallery-item img {
@@ -1410,18 +1418,18 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #232323;
+  background: var(--second-color);
   padding: 20px;
   border-radius: 20px;
 }
 
 .contact .info i {
   font-size: 20px;
-  color: var(--accent-color);
+  color: var(--second-color);
   float: left;
   width: 44px;
   height: 44px;
-  background: #fff;
+  background: #800;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1434,14 +1442,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #fff;
+  color: #800;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #fff;
+  color: #800;
   opacity: 0.8;
 }
 
@@ -1453,13 +1461,13 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: var(--accent-color);
-  color: #fff;
+  background: var(--second-color);
+  color: #800;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #232323;
+  background: var(--second-color);
   padding: 20px;
   border-radius: 20px;
 
@@ -1471,7 +1479,7 @@ section {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: #800;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -1484,7 +1492,7 @@ section {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: #800;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1493,7 +1501,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: #800;
   text-align: center;
   padding: 15px;
 }
@@ -1531,13 +1539,14 @@ section {
   background: var(--accent-color);
   border: 0;
   padding: 10px 35px;
-  color: #fff;
+  color: #800;
   transition: 0.4s;
   border-radius: 50px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #1c84e3;
+  background: var(--body-color);
+  color: var(--accent-color);
 }
 
 @keyframes animate-loading {
@@ -1554,16 +1563,16 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #fff;
+  color: #800;
   font-size: 14px;
-  background: #232323;
+  background: var(--second-color);
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #232323;
+  background: var(--second-color);
   box-shadow: 0px 2px 15px rgba(225, 225, 225, 0.1);
-  color: #fff;
+  color: #800;
 }
 
 #footer .footer-top .footer-contact {
@@ -1583,14 +1592,14 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #800;
   opacity: 0.8;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: #800;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1607,7 +1616,8 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #1c84e3;
+  color: var(--body-color);
+  color: var(--accent-color);
   font-size: 18px;
   line-height: 1;
 }
@@ -1623,7 +1633,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: #800;
   opacity: 0.8;
   transition: 0.3s;
   display: inline-block;
@@ -1642,14 +1652,14 @@ section {
 #footer .footer-newsletter h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: #800;
   position: relative;
   padding-bottom: 12px;
 }
 
 #footer .footer-newsletter form {
   margin-top: 30px;
-  background: #fff;
+  background: #800;
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
@@ -1659,7 +1669,8 @@ section {
 
 #footer .footer-newsletter form input[type=email] {
   border: 0;
-  padding: 4px 8px;
+  border-radius: 20px;
+  padding: 4px 2px;
   width: calc(100% - 100px);
 }
 
@@ -1673,13 +1684,14 @@ section {
   font-size: 16px;
   padding: 0 20px;
   background: var(--accent-color);
-  color: #fff;
+  color: #800;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #1c84e3;
+  background: var(--body-color);
+  color: var(--accent-color);
 }
 
 #footer .credits {
@@ -1692,7 +1704,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: var(--accent-color);
-  color: #fff;
+  color: #800;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1704,7 +1716,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #1c84e3;
-  color: #fff;
+  background: var(--body-color);
+  color: var(--accent-color);
+  color: #800;
   text-decoration: none;
 }
