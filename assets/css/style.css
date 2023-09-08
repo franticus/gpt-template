@@ -85,7 +85,7 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #800;
+  color: #fff;
   line-height: 0;
 }
 
@@ -1539,7 +1539,7 @@ section {
   background: var(--accent-color);
   border: 0;
   padding: 10px 35px;
-  color: #800;
+  color: #fff;
   transition: 0.4s;
   border-radius: 50px;
 }
@@ -1684,7 +1684,7 @@ section {
   font-size: 16px;
   padding: 0 20px;
   background: var(--accent-color);
-  color: #800;
+  color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
@@ -1704,7 +1704,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: var(--accent-color);
-  color: #800;
+  color: #fff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
