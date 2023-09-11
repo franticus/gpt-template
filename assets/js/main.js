@@ -1,3 +1,4 @@
+
 (function() {
   "use strict";
 
@@ -166,6 +167,37 @@
   }
 
   /**
+   * Menu isotope and filter
+   */
+  window.addEventListener('load', () => {
+    let menuContainer = select('.menu-container');
+    if (menuContainer) {
+      let menuIsotope = new Isotope(menuContainer, {
+        itemSelector: '.menu-item',
+        layoutMode: 'fitRows'
+      });
+
+      let menuFilters = select('#menu-flters li', true);
+
+      on('click', '#menu-flters li', function(e) {
+        e.preventDefault();
+        menuFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        menuIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        menuIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
+
+  /**
    * Initiate glightbox 
    */
   const glightbox = GLightbox({
@@ -173,10 +205,21 @@
   });
 
   /**
-   * Initiate Gallery Lightbox 
+   * Events slider
    */
-  const galelryLightbox = GLightbox({
-    selector: '.galelry-lightbox'
+  new Swiper('.events-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
   });
 
   /**
@@ -202,15 +245,29 @@
       },
 
       1200: {
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 20
       }
     }
   });
 
   /**
-   * Initiate Pure Counter 
+   * Initiate gallery lightbox 
    */
-  new PureCounter();
+  const galleryLightbox = GLightbox({
+    selector: '.gallery-lightbox'
+  });
+
+  /**
+   * Animation on scroll
+   */
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+  });
 
 })()
