@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'DecorPalace',
-  heroTitle: `Discover Exquisite Wallpaper<br />Designs at DecorPalace.`,
-  heroDescription: `DecorPalace offers a diverse collection of stunning wallpaper solutions crafted for interior design enthusiasts.`,
-  featuresMainTitle: 'Step into DecorPalace',
+  logo: 'TowelElegance',
+  heroTitle: `Discover Luxurious Towels<br />at TowelElegance.`,
+  heroDescription: `TowelElegance offers an opulent range of towels and bath linens curated for discerning individuals.`,
+  featuresMainTitle: 'Step into TowelElegance',
   featuresMainDescription:
-    "Elevate your interior spaces with DecorPalace's premium wallpaper collections.",
+    "Elevate your bathing experience with TowelElegance's premium towel collections.",
   featuresList: `<li class="mb-2">
-  <strong>Elegant Wallpaper Selection:</strong> Immerse yourself in a world of sophisticated wallpapers and accessories tailored for every style.
+  <strong>Elegant Towel Selection:</strong> Wrap yourself in luxury with our exquisite towels and accessories tailored for your comfort.
 </li>
 <li class="mb-2">
-  <strong>Luxurious Décor:</strong> Experience the perfect blend of aesthetics and functionality with our meticulously crafted wallpapers.
+  <strong>Luxurious Bathing:</strong> Experience the perfect blend of softness and absorbency with our meticulously crafted towels.
 </li>
 <li class="mb-2">
-  <strong>Innovative Designs:</strong> Each wallpaper showcases a blend of creativity and elegance, ensuring your spaces stand out.
+  <strong>Innovative Designs:</strong> Each towel embodies creativity and elegance, ensuring your bath time is extraordinary.
 </li>
 <li class="mb-2">
-  <strong>Personalized Interior:</strong> Find wallpapers that resonate with your unique design vision, customized just for you.
+  <strong>Personalized Comfort:</strong> Find towels that cater to your unique preferences, customized just for you.
 </li>`,
-  featuresListCol1T: `Exquisite Wallpaper Selection<br />for All Interiors`,
-  featuresListCol1D: `Discover the essence of modern interior design with DecorPalace's latest collections. Transform your spaces into a reflection of your style.`,
-  featuresListCol2T: `Luxurious Ambiance<br />in Every Room`,
-  featuresListCol2D: `Experience the perfect ambiance with our luxurious wallpapers. Dive into a world of premium designs and elegant decor.`,
-  featuresListCol3T: `Distinctive Designs<br />for Every Home`,
-  featuresListCol3D: `Upgrade your interior spaces with our distinctive wallpaper designs. Let your home reflect your personality.`,
-  caseTitle: `Explore Our Wallpaper Catalogue`,
-  caseTitleDesc: `Unveiling DecorPalace's Collections`,
-  caseTitleDesc1T: `Nature-Inspired Themes`,
-  caseTitleDesc1D: `Bring the beauty of the outdoors inside with our nature-inspired wallpaper collections.`,
-  caseTitleDesc2T: `Artistic Murals`,
-  caseTitleDesc2D: `Transform your walls into canvases with our artistic mural wallpapers.`,
-  caseTitleDesc3T: `Textured Elegance`,
-  caseTitleDesc3D: `Experience the tactile appeal of textured wallpapers that add depth to your spaces.`,
-  caseTitleDesc4T: `Custom Wallcoverings`,
-  caseTitleDesc4D: `Tailor your walls to your unique vision with custom wallpaper options.`,
-  mob1Title: `Elevate Your Décor<br />Experience with DecorPalace!`,
-  mob1Desc: `Step into the future of interior design with our exquisite wallpaper collections.`,
-  mob1Desc2: `From residential spaces to commercial projects, DecorPalace is redefining interior aesthetics. Dive into a world where every wall is a canvas of elegance.`,
-  mob2Title: `Where Quality Meets<br />Creative Design.`,
-  mob2Desc: `At DecorPalace, wallpapers are more than just decor. They're about expressing your unique style and enhancing your living spaces.`,
-  mob2Desc2: `Embrace the transformative power of innovative wallpaper design.`,
-  custTitle: `Client Testimonials`,
-  custDesc: `Hear from our design-savvy clientele.`,
-  cust1: `DecorPalace's wallpapers are a game changer. Their attention to detail is unmatched.`,
-  cust1Name: `Sophia Anderson`,
-  cust1Prof: `Interior Designer`,
-  cust2: `The elegance and quality of DecorPalace wallpapers are beyond words. An exceptional design experience every time.`,
-  cust2Name: `James Parker`,
-  cust2Prof: `Architect`,
-  cust3: `From residential makeovers to commercial projects, DecorPalace has it all. Truly exceptional.`,
-  cust3Name: `Ava Turner`,
-  cust3Prof: `Homeowner`,
-  cotactTitle: `Ready for a Design Revolution?<br />Join the DecorPalace Community`,
-  logo2: `DecorPalace`,
-  mail: `contact@decorpalace.com`,
+  featuresListCol1T: `Exquisite Towel Selection<br />for Every Bathroom`,
+  featuresListCol1D: `Discover the essence of luxury bathing with TowelElegance's latest collections. Elevate your daily routine with towels that match your style.`,
+  featuresListCol2T: `Indulge in Bathing<br />Luxury`,
+  featuresListCol2D: `Experience the ultimate comfort with our sumptuous towels. Immerse yourself in a world of premium designs and opulent bath linens.`,
+  featuresListCol3T: `Distinctive Towel Designs<br />for Every Home`,
+  featuresListCol3D: `Upgrade your bathroom spaces with our distinctive towel designs. Let your home reflect your taste for luxury.`,
+  caseTitle: `Explore Our Towel Catalogue`,
+  caseTitleDesc: `Unveiling TowelElegance's Collections`,
+  caseTitleDesc1T: `Plush Towel Sets`,
+  caseTitleDesc1D: `Indulge in the softness of our plush towel sets, designed for your comfort and style.`,
+  caseTitleDesc2T: `Elegant Bath Linens`,
+  caseTitleDesc2D: `Enhance your bathroom decor with our elegant bath linens, adding a touch of sophistication.`,
+  caseTitleDesc3T: `Personalized Towels`,
+  caseTitleDesc3D: `Customize your towels with TowelElegance, ensuring each one is tailored to your preferences.`,
+  caseTitleDesc4T: `Luxury Bathrobe Collection`,
+  caseTitleDesc4D: `Experience relaxation like never before with our luxurious bathrobe collection.`,
+  mob1Title: `Elevate Your Bathing<br />Experience with TowelElegance!`,
+  mob1Desc: `Step into the future of luxury bathing with our opulent towel collections.`,
+  mob1Desc2: `From personal use to elegant gifting, TowelElegance is redefining the art of bath linens. Dive into a world where every towel is a symbol of indulgence.`,
+  mob2Title: `Where Quality Meets<br />Bathing Excellence.`,
+  mob2Desc: `At TowelElegance, towels are more than just linens. They're about expressing your unique style and enhancing your daily bathing rituals.`,
+  mob2Desc2: `Embrace the transformative power of innovative towel designs.`,
+  custTitle: `Customer Testimonials`,
+  custDesc: `Hear from our satisfied customers.`,
+  cust1: `TowelElegance's towels are a game changer. Their softness is unmatched, and they make my bathing experience truly luxurious.`,
+  cust1Name: `Olivia Mitchell`,
+  cust1Prof: `Spa Owner`,
+  cust2: `The quality and style of TowelElegance towels are beyond impressive. Every bath feels like a spa day.`,
+  cust2Name: `Daniel Foster`,
+  cust2Prof: `Hotel Manager`,
+  cust3: `From everyday use to special occasions, TowelElegance has it all. The epitome of luxury.`,
+  cust3Name: `Ella Roberts`,
+  cust3Prof: `Home Enthusiast`,
+  cotactTitle: `Ready for Luxurious Bathing?<br />Join the TowelElegance Experience`,
+  logo2: `TowelElegance`,
+  mail: `contact@towelelegance.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © DecorPalace. All rights reserved.`,
+  logo3: `Copyright © TowelElegance. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
