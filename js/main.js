@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'StyleStreet',
-  heroTitle: `Discover Fashion Forward Looks<br />at StyleStreet.`,
-  heroDescription: `StyleStreet offers modern and trendsetting clothing collections tailored for the fashion-conscious.`,
-  featuresMainTitle: 'Step into StyleStreet',
+  logo: 'KeyTechHub',
+  heroTitle: `Explore Cutting-edge Keyboard<br />Technology at KeyTechHub.`,
+  heroDescription: `KeyTechHub offers a wide range of innovative keyboard solutions designed for tech enthusiasts.`,
+  featuresMainTitle: 'Step into KeyTechHub',
   featuresMainDescription:
-    "Elevate your wardrobe with StyleStreet's curated fashion collections.",
+    "Elevate your typing experience with KeyTechHub's advanced keyboard collections.",
   featuresList: `<li class="mb-2">
-  <strong>Trendy Collections:</strong> Dive into a wide array of chic outfits and accessories tailored for every season.
+  <strong>State-of-the-Art Keyboards:</strong> Dive into a world of advanced keyboards and accessories tailored for every need.
 </li>
 <li class="mb-2">
-  <strong>Luxurious Comfort:</strong> Experience the blend of style and comfort with our meticulously crafted garments.
+  <strong>Ultimate Typing Comfort:</strong> Experience the perfect blend of ergonomic design and typing efficiency with our meticulously crafted keyboards.
 </li>
 <li class="mb-2">
-  <strong>Iconic Designs:</strong> Each piece speaks a language of elegance and modernity, ensuring you always stand out.
+  <strong>Innovative Designs:</strong> Each keyboard showcases a blend of aesthetics and functionality, ensuring you stand out.
 </li>
 <li class="mb-2">
-  <strong>Personalized Fashion:</strong> Find outfits that resonate with your unique fashion sense, curated just for you.
+  <strong>Customized Typing Experience:</strong> Find keyboards that resonate with your unique typing style, tailored just for you.
 </li>`,
-  featuresListCol1T: `Latest Fashion Trends<br />for All Occasions`,
-  featuresListCol1D: `Discover the essence of modern style with StyleStreet's latest collections. Embrace a future where fashion meets functionality.`,
-  featuresListCol2T: `Luxe & Comfort<br />in Every Thread`,
-  featuresListCol2D: `Wrap yourself in luxury that doesn't compromise on comfort. Dive into a world of premium fabrics and sophisticated design.`,
-  featuresListCol3T: `Distinctive Styles<br />for Every Individual`,
-  featuresListCol3D: `Turn heads wherever you go with our distinctive styles. Let your attire reflect your personality.`,
-  caseTitle: `Browse Our Fashion Catalogue`,
-  caseTitleDesc: `Unveiling StyleStreet's Collections`,
-  caseTitleDesc1T: `Seasonal Outfits`,
-  caseTitleDesc1D: `Chic Attires for Every Season`,
-  caseTitleDesc2T: `Designer Accessories`,
-  caseTitleDesc2D: `Perfect Complements to Your Outfits`,
-  caseTitleDesc3T: `Exclusive Editions`,
-  caseTitleDesc3D: `For Those Seeking the Unique`,
-  caseTitleDesc4T: `Versatile Wardrobe Staples`,
-  caseTitleDesc4D: `Foundational Pieces for Every Fashionista`,
-  mob1Title: `Upgrade Your Wardrobe<br />Experience with StyleStreet!`,
-  mob1Desc: `Step into the new era of fashion with our contemporary collections.`,
-  mob1Desc2: `From high-fashion runways to everyday streets, StyleStreet is redefining modern fashion. Dive into a shopping experience where every piece is a statement of elegance.`,
+  featuresListCol1T: `Cutting-edge Keyboard Technology<br />for All Needs`,
+  featuresListCol1D: `Discover the essence of modern keyboard technology with KeyTechHub's latest collections. Embrace a future where technology meets functionality.`,
+  featuresListCol2T: `Ergonomic Excellence<br />in Every Key Press`,
+  featuresListCol2D: `Experience typing comfort like never before. Dive into a world of premium key switches and sleek design.`,
+  featuresListCol3T: `Distinctive Keyboards<br />for Every Typist`,
+  featuresListCol3D: `Upgrade your typing game with our distinctive keyboard designs. Let your workspace reflect your personality.`,
+  caseTitle: `Explore Our Keyboard Catalogue`,
+  caseTitleDesc: `Unveiling KeyTechHub's Collections`,
+  caseTitleDesc1T: `Gaming Keyboards`,
+  caseTitleDesc1D: `Experience precision and speed with our gaming-focused keyboards.`,
+  caseTitleDesc2T: `Wireless Keyboards`,
+  caseTitleDesc2D: `Enjoy freedom and flexibility with our wireless keyboard solutions.`,
+  caseTitleDesc3T: `Mechanical Keyboards`,
+  caseTitleDesc3D: `Discover the tactile satisfaction of mechanical keyboards.`,
+  caseTitleDesc4T: `Programmable Keyboards`,
+  caseTitleDesc4D: `Tailor your keyboard to your workflow with programmable options.`,
+  mob1Title: `Enhance Your Typing<br />Experience with KeyTechHub!`,
+  mob1Desc: `Step into the future of keyboard technology with our cutting-edge collections.`,
+  mob1Desc2: `From gaming enthusiasts to professional typists, KeyTechHub is redefining the typing experience. Dive into a world where every keystroke is a testament to innovation.`,
   mob2Title: `Where Quality Meets<br />Cutting-edge Design.`,
-  mob2Desc: `At StyleStreet, fashion is more than just clothes. It's about expressing your identity and living your style.`,
-  mob2Desc2: `Embrace the transformative power of fashion.`,
-  custTitle: `Shopper Testimonials`,
-  custDesc: `Hear from our fashion-forward clientele.`,
-  cust1: `StyleStreet's collections are a game changer. Their attention to detail is unparalleled.`,
-  cust1Name: `Madison Taylor`,
-  cust1Prof: `Fashion Blogger`,
-  cust2: `The elegance and quality of StyleStreet is beyond words. A stellar shopping experience every time.`,
-  cust2Name: `Liam Walker`,
-  cust2Prof: `Photographer`,
-  cust3: `From day-to-day wear to special occasions, StyleStreet has it all. Truly exceptional.`,
-  cust3Name: `Olivia Perez`,
-  cust3Prof: `Fashion Designer`,
-  cotactTitle: `Ready for a fashion revolution?<br />Join the StyleStreet movement`,
-  logo2: `StyleStreet`,
-  mail: `contact@stylestreet.com`,
+  mob2Desc: `At KeyTechHub, keyboards are more than just tools. They're about expressing your style and enhancing your typing experience.`,
+  mob2Desc2: `Embrace the transformative power of innovative keyboard technology.`,
+  custTitle: `Customer Testimonials`,
+  custDesc: `Hear from our tech-savvy clientele.`,
+  cust1: `KeyTechHub's keyboards are a game changer. Their attention to detail is unmatched.`,
+  cust1Name: `Emily Mitchell`,
+  cust1Prof: `Tech Enthusiast`,
+  cust2: `The precision and quality of KeyTechHub keyboards are beyond words. An exceptional typing experience every time.`,
+  cust2Name: `Daniel Carter`,
+  cust2Prof: `Software Developer`,
+  cust3: `From gaming marathons to office tasks, KeyTechHub has it all. Truly outstanding.`,
+  cust3Name: `Alexa Turner`,
+  cust3Prof: `Gamer`,
+  cotactTitle: `Ready for an Keyboard Revolution?<br />Join the KeyTechHub Community`,
+  logo2: `KeyTechHub`,
+  mail: `contact@keytechhub.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © StyleStreet. All rights reserved.`,
+  logo3: `Copyright © KeyTechHub. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
