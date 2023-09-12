@@ -39,59 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'ChicCuts',
-  heroTitle: `Stylish Transformation<br />at ChicCuts Salon.`,
-  heroDescription: `ChicCuts specializes in cutting-edge hair styling solutions for all your beauty needs.`,
-  featuresMainTitle: 'Welcome to ChicCuts',
+  logo: 'StyleStreet',
+  heroTitle: `Discover Fashion Forward Looks<br />at StyleStreet.`,
+  heroDescription: `StyleStreet offers modern and trendsetting clothing collections tailored for the fashion-conscious.`,
+  featuresMainTitle: 'Step into StyleStreet',
   featuresMainDescription:
-    "Transforming your look into a masterpiece with ChicCuts' innovative hairstyling services.",
+    "Elevate your wardrobe with StyleStreet's curated fashion collections.",
   featuresList: `<li class="mb-2">
-  <strong>Creative Haircuts:</strong> Explore a wide range of trendy hairstyles and personalized haircuts to suit your unique style.
+  <strong>Trendy Collections:</strong> Dive into a wide array of chic outfits and accessories tailored for every season.
 </li>
 <li class="mb-2">
-  <strong>Effortless Glamour:</strong> Experience hassle-free beauty enhancement as we deliver top-quality results that leave you looking and feeling fabulous.
+  <strong>Luxurious Comfort:</strong> Experience the blend of style and comfort with our meticulously crafted garments.
 </li>
 <li class="mb-2">
-  <strong>Exceptional Styling:</strong> We prioritize excellence in every session. Our stylists are dedicated to crafting hairstyles that reflect your personality and flair.
+  <strong>Iconic Designs:</strong> Each piece speaks a language of elegance and modernity, ensuring you always stand out.
 </li>
 <li class="mb-2">
-  <strong>Personalized Beauty:</strong> Tailor your look to your vision. Our experienced team allows you to customize your style and preferences, providing a unique beauty experience.
+  <strong>Personalized Fashion:</strong> Find outfits that resonate with your unique fashion sense, curated just for you.
 </li>`,
-  featuresListCol1T: `Creative Haircuts<br />for All Styles`,
-  featuresListCol1D: `Unlock your style potential with ChicCuts' creative haircuts, ensuring your look stands out. Experience the convenience of top-quality styling without compromise.`,
-  featuresListCol2T: `Effortless Beauty<br />Enhancement`,
-  featuresListCol2D: `Indulge in a world of effortless beauty enhancement as ChicCuts provides you with curated styling options. Discover the perfect blend of convenience and glamour and embark on a journey towards exceptional beauty.`,
-  featuresListCol3T: `Tailored Styling<br />for Every Client`,
-  featuresListCol3D: `Customize your beauty experience with ChicCuts' tailored styling solutions designed to match your unique preferences. Whether it's a trendy makeover, special occasion look, or personalized beauty session, our versatile options cater to your specific needs.`,
-  caseTitle: `Explore Our Styling Portfolio`,
-  caseTitleDesc: `Discover ChicCuts' Beauty Solutions`,
-  caseTitleDesc1T: `Trendsetting Hairstyles`,
-  caseTitleDesc1D: `Set New Trends with ChicCuts`,
-  caseTitleDesc2T: `Personalized Beauty Looks`,
-  caseTitleDesc2D: `Unique Styles Tailored for You`,
-  caseTitleDesc3T: `Effortless Beauty Services`,
-  caseTitleDesc3D: `Glamorous Makeovers for Beauty Success`,
-  caseTitleDesc4T: `Custom Beauty Experiences`,
-  caseTitleDesc4D: `Unique Beauty Sessions for Your Vision`,
-  mob1Title: `Elevate Your Beauty<br />Experience with ChicCuts!`,
-  mob1Desc: `Enhance your style journey with our creative beauty solutions.`,
-  mob1Desc2: `With a dedication that goes beyond the ordinary, we invite you to explore the expertise of our team and embark on a journey to discover the boundless potential of stunning beauty. Whether it's creating a remarkable look, preparing for a special occasion, or realizing your beauty vision, our team's commitment shines through every session, promising an experience that's beyond the norm.`,
-  mob2Title: `Leading Beauty Solutions<br />for Your Glamour.`,
-  mob2Desc: `Say goodbye to ordinary looks and welcome a future of effortless beauty where every session reflects ChicCuts' dedication to providing reliable and innovative styling options. As we empower you to make the most of your beauty vision, you can trust that our commitment to quality, flexibility, and convenience will redefine the way you style.`,
-  mob2Desc2: `Experience the chic way to elevate your beauty.`,
-  custTitle: `Client Testimonials`,
-  custDesc: `Explore the feedback from our satisfied clients.`,
-  cust1: `ChicCuts' styling is truly exceptional, elevating my beauty game. Their dedication is impressive.`,
-  cust1Name: `Samantha Smith`,
-  cust2: `ChicCuts' impact on my beauty transformation is remarkable, boosting my confidence. Their innovation is outstanding.`,
-  cust2Name: `John Anderson`,
-  cust3: `ChicCuts' service is exceptional, revolutionizing my styling choices. Their commitment is commendable.`,
-  cust3Name: `Emily Davis`,
-  cotactTitle: `Ready to elevate your beauty?<br />Get in touch with ChicCuts`,
-  logo2: `ChicCuts`,
-  mail: `info@chiccuts.com`,
+  featuresListCol1T: `Latest Fashion Trends<br />for All Occasions`,
+  featuresListCol1D: `Discover the essence of modern style with StyleStreet's latest collections. Embrace a future where fashion meets functionality.`,
+  featuresListCol2T: `Luxe & Comfort<br />in Every Thread`,
+  featuresListCol2D: `Wrap yourself in luxury that doesn't compromise on comfort. Dive into a world of premium fabrics and sophisticated design.`,
+  featuresListCol3T: `Distinctive Styles<br />for Every Individual`,
+  featuresListCol3D: `Turn heads wherever you go with our distinctive styles. Let your attire reflect your personality.`,
+  caseTitle: `Browse Our Fashion Catalogue`,
+  caseTitleDesc: `Unveiling StyleStreet's Collections`,
+  caseTitleDesc1T: `Seasonal Outfits`,
+  caseTitleDesc1D: `Chic Attires for Every Season`,
+  caseTitleDesc2T: `Designer Accessories`,
+  caseTitleDesc2D: `Perfect Complements to Your Outfits`,
+  caseTitleDesc3T: `Exclusive Editions`,
+  caseTitleDesc3D: `For Those Seeking the Unique`,
+  caseTitleDesc4T: `Versatile Wardrobe Staples`,
+  caseTitleDesc4D: `Foundational Pieces for Every Fashionista`,
+  mob1Title: `Upgrade Your Wardrobe<br />Experience with StyleStreet!`,
+  mob1Desc: `Step into the new era of fashion with our contemporary collections.`,
+  mob1Desc2: `From high-fashion runways to everyday streets, StyleStreet is redefining modern fashion. Dive into a shopping experience where every piece is a statement of elegance.`,
+  mob2Title: `Where Quality Meets<br />Cutting-edge Design.`,
+  mob2Desc: `At StyleStreet, fashion is more than just clothes. It's about expressing your identity and living your style.`,
+  mob2Desc2: `Embrace the transformative power of fashion.`,
+  custTitle: `Shopper Testimonials`,
+  custDesc: `Hear from our fashion-forward clientele.`,
+  cust1: `StyleStreet's collections are a game changer. Their attention to detail is unparalleled.`,
+  cust1Name: `Madison Taylor`,
+  cust1Prof: `Fashion Blogger`,
+  cust2: `The elegance and quality of StyleStreet is beyond words. A stellar shopping experience every time.`,
+  cust2Name: `Liam Walker`,
+  cust2Prof: `Photographer`,
+  cust3: `From day-to-day wear to special occasions, StyleStreet has it all. Truly exceptional.`,
+  cust3Name: `Olivia Perez`,
+  cust3Prof: `Fashion Designer`,
+  cotactTitle: `Ready for a fashion revolution?<br />Join the StyleStreet movement`,
+  logo2: `StyleStreet`,
+  mail: `contact@stylestreet.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © ChicCuts. All rights reserved.`,
+  logo3: `Copyright © StyleStreet. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
