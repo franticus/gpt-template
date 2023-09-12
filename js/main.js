@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'KeyTechHub',
-  heroTitle: `Explore Cutting-edge Keyboard<br />Technology at KeyTechHub.`,
-  heroDescription: `KeyTechHub offers a wide range of innovative keyboard solutions designed for tech enthusiasts.`,
-  featuresMainTitle: 'Step into KeyTechHub',
+  logo: 'DecorPalace',
+  heroTitle: `Discover Exquisite Wallpaper<br />Designs at DecorPalace.`,
+  heroDescription: `DecorPalace offers a diverse collection of stunning wallpaper solutions crafted for interior design enthusiasts.`,
+  featuresMainTitle: 'Step into DecorPalace',
   featuresMainDescription:
-    "Elevate your typing experience with KeyTechHub's advanced keyboard collections.",
+    "Elevate your interior spaces with DecorPalace's premium wallpaper collections.",
   featuresList: `<li class="mb-2">
-  <strong>State-of-the-Art Keyboards:</strong> Dive into a world of advanced keyboards and accessories tailored for every need.
+  <strong>Elegant Wallpaper Selection:</strong> Immerse yourself in a world of sophisticated wallpapers and accessories tailored for every style.
 </li>
 <li class="mb-2">
-  <strong>Ultimate Typing Comfort:</strong> Experience the perfect blend of ergonomic design and typing efficiency with our meticulously crafted keyboards.
+  <strong>Luxurious Décor:</strong> Experience the perfect blend of aesthetics and functionality with our meticulously crafted wallpapers.
 </li>
 <li class="mb-2">
-  <strong>Innovative Designs:</strong> Each keyboard showcases a blend of aesthetics and functionality, ensuring you stand out.
+  <strong>Innovative Designs:</strong> Each wallpaper showcases a blend of creativity and elegance, ensuring your spaces stand out.
 </li>
 <li class="mb-2">
-  <strong>Customized Typing Experience:</strong> Find keyboards that resonate with your unique typing style, tailored just for you.
+  <strong>Personalized Interior:</strong> Find wallpapers that resonate with your unique design vision, customized just for you.
 </li>`,
-  featuresListCol1T: `Cutting-edge Keyboard Technology<br />for All Needs`,
-  featuresListCol1D: `Discover the essence of modern keyboard technology with KeyTechHub's latest collections. Embrace a future where technology meets functionality.`,
-  featuresListCol2T: `Ergonomic Excellence<br />in Every Key Press`,
-  featuresListCol2D: `Experience typing comfort like never before. Dive into a world of premium key switches and sleek design.`,
-  featuresListCol3T: `Distinctive Keyboards<br />for Every Typist`,
-  featuresListCol3D: `Upgrade your typing game with our distinctive keyboard designs. Let your workspace reflect your personality.`,
-  caseTitle: `Explore Our Keyboard Catalogue`,
-  caseTitleDesc: `Unveiling KeyTechHub's Collections`,
-  caseTitleDesc1T: `Gaming Keyboards`,
-  caseTitleDesc1D: `Experience precision and speed with our gaming-focused keyboards.`,
-  caseTitleDesc2T: `Wireless Keyboards`,
-  caseTitleDesc2D: `Enjoy freedom and flexibility with our wireless keyboard solutions.`,
-  caseTitleDesc3T: `Mechanical Keyboards`,
-  caseTitleDesc3D: `Discover the tactile satisfaction of mechanical keyboards.`,
-  caseTitleDesc4T: `Programmable Keyboards`,
-  caseTitleDesc4D: `Tailor your keyboard to your workflow with programmable options.`,
-  mob1Title: `Enhance Your Typing<br />Experience with KeyTechHub!`,
-  mob1Desc: `Step into the future of keyboard technology with our cutting-edge collections.`,
-  mob1Desc2: `From gaming enthusiasts to professional typists, KeyTechHub is redefining the typing experience. Dive into a world where every keystroke is a testament to innovation.`,
-  mob2Title: `Where Quality Meets<br />Cutting-edge Design.`,
-  mob2Desc: `At KeyTechHub, keyboards are more than just tools. They're about expressing your style and enhancing your typing experience.`,
-  mob2Desc2: `Embrace the transformative power of innovative keyboard technology.`,
-  custTitle: `Customer Testimonials`,
-  custDesc: `Hear from our tech-savvy clientele.`,
-  cust1: `KeyTechHub's keyboards are a game changer. Their attention to detail is unmatched.`,
-  cust1Name: `Emily Mitchell`,
-  cust1Prof: `Tech Enthusiast`,
-  cust2: `The precision and quality of KeyTechHub keyboards are beyond words. An exceptional typing experience every time.`,
-  cust2Name: `Daniel Carter`,
-  cust2Prof: `Software Developer`,
-  cust3: `From gaming marathons to office tasks, KeyTechHub has it all. Truly outstanding.`,
-  cust3Name: `Alexa Turner`,
-  cust3Prof: `Gamer`,
-  cotactTitle: `Ready for an Keyboard Revolution?<br />Join the KeyTechHub Community`,
-  logo2: `KeyTechHub`,
-  mail: `contact@keytechhub.com`,
+  featuresListCol1T: `Exquisite Wallpaper Selection<br />for All Interiors`,
+  featuresListCol1D: `Discover the essence of modern interior design with DecorPalace's latest collections. Transform your spaces into a reflection of your style.`,
+  featuresListCol2T: `Luxurious Ambiance<br />in Every Room`,
+  featuresListCol2D: `Experience the perfect ambiance with our luxurious wallpapers. Dive into a world of premium designs and elegant decor.`,
+  featuresListCol3T: `Distinctive Designs<br />for Every Home`,
+  featuresListCol3D: `Upgrade your interior spaces with our distinctive wallpaper designs. Let your home reflect your personality.`,
+  caseTitle: `Explore Our Wallpaper Catalogue`,
+  caseTitleDesc: `Unveiling DecorPalace's Collections`,
+  caseTitleDesc1T: `Nature-Inspired Themes`,
+  caseTitleDesc1D: `Bring the beauty of the outdoors inside with our nature-inspired wallpaper collections.`,
+  caseTitleDesc2T: `Artistic Murals`,
+  caseTitleDesc2D: `Transform your walls into canvases with our artistic mural wallpapers.`,
+  caseTitleDesc3T: `Textured Elegance`,
+  caseTitleDesc3D: `Experience the tactile appeal of textured wallpapers that add depth to your spaces.`,
+  caseTitleDesc4T: `Custom Wallcoverings`,
+  caseTitleDesc4D: `Tailor your walls to your unique vision with custom wallpaper options.`,
+  mob1Title: `Elevate Your Décor<br />Experience with DecorPalace!`,
+  mob1Desc: `Step into the future of interior design with our exquisite wallpaper collections.`,
+  mob1Desc2: `From residential spaces to commercial projects, DecorPalace is redefining interior aesthetics. Dive into a world where every wall is a canvas of elegance.`,
+  mob2Title: `Where Quality Meets<br />Creative Design.`,
+  mob2Desc: `At DecorPalace, wallpapers are more than just decor. They're about expressing your unique style and enhancing your living spaces.`,
+  mob2Desc2: `Embrace the transformative power of innovative wallpaper design.`,
+  custTitle: `Client Testimonials`,
+  custDesc: `Hear from our design-savvy clientele.`,
+  cust1: `DecorPalace's wallpapers are a game changer. Their attention to detail is unmatched.`,
+  cust1Name: `Sophia Anderson`,
+  cust1Prof: `Interior Designer`,
+  cust2: `The elegance and quality of DecorPalace wallpapers are beyond words. An exceptional design experience every time.`,
+  cust2Name: `James Parker`,
+  cust2Prof: `Architect`,
+  cust3: `From residential makeovers to commercial projects, DecorPalace has it all. Truly exceptional.`,
+  cust3Name: `Ava Turner`,
+  cust3Prof: `Homeowner`,
+  cotactTitle: `Ready for a Design Revolution?<br />Join the DecorPalace Community`,
+  logo2: `DecorPalace`,
+  mail: `contact@decorpalace.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © KeyTechHub. All rights reserved.`,
+  logo3: `Copyright © DecorPalace. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
