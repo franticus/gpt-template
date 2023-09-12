@@ -147,3 +147,8 @@ iframe {
   width: 200px;
   border-radius: 20px;
 }
+
+.contact-us-bgimage-blur {
+  backdrop-filter: blur(20px);
+  padding: 20px;
+}

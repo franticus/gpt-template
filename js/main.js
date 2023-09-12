@@ -39,99 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'VitaVital',
-  heroTitle: `VitaVital Nutritional Solutions<br />for Health and Wellness.`,
-  heroDescription: `VitaVital offers comprehensive nutritional solutions for individuals
-  and businesses.`,
-  featuresMainTitle: 'Welcome to VitaVital',
+  logo: 'BizCardPrint',
+  heroTitle: `BizCard Printing Solutions<br />for Professional Networking.`,
+  heroDescription: `BizCardPrint offers comprehensive business card printing solutions for individuals and businesses.`,
+  featuresMainTitle: 'Welcome to BizCardPrint',
   featuresMainDescription:
-    "Elevating your health with VitaVital's premium vitamin solutions.",
+    "Elevating your professional image with BizCardPrint's high-quality business cards.",
   featuresList: `<li class="mb-2">
-  <strong>Enhanced Wellness:</strong> Discover a diverse range of
-  vitamin plans and supplements, tailored to your health and
-  well-being.
+  <strong>Custom Business Cards:</strong> Discover a diverse range of
+  design options and premium materials, tailored to your networking needs.
 </li>
 <li class="mb-2">
-  <strong>Effortless Health:</strong> Experience the utmost
-  convenience as we deliver top-quality vitamins and carefully
-  crafted wellness solutions right to your doorstep, saving you
-  time and effort.
+  <strong>Effortless Printing:</strong> Experience the utmost
+  convenience as we deliver top-quality business cards right to your doorstep, saving you time and effort.
 </li>
 <li class="mb-2">
-  <strong>Premium Nutrition:</strong> We prioritize quality in
-  every product. Our vitamins are meticulously crafted, ensuring
-  that each supplement is a testament to reliability and
-  effectiveness.
+  <strong>Premium Quality:</strong> We prioritize excellence in
+  every product. Our business cards are meticulously crafted, ensuring each card reflects professionalism and effectiveness.
 </li>
 <li class="mb-2">
-  <strong>Personalized Guidance:</strong> Tailor your vitamin
-  regimen to your needs. Our intuitive platform allows you to
-  customize supplements and preferences, providing a personalized
-  health experience.
+  <strong>Personalized Design:</strong> Tailor your business card to your brand. Our intuitive platform allows you to customize designs and preferences, providing a unique networking experience.
 </li>`,
-  featuresListCol1T: `Vital Wellness<br />Solutions`,
-  featuresListCol1D: `Elevate your health with VitaVital's premium vitamin
-solutions, ensuring your well-being and vitality. Experience
-the convenience of staying healthy without compromise.`,
-  featuresListCol2T: `Enriching Health<br />Experiences`,
-  featuresListCol2D: `Immerse yourself in a world of enriching health experiences as
-VitaVital provides you with a curated range of vitamin
-supplements and wellness features. Discover the perfect blend
-of convenience and well-being, and embark on a journey towards
-enhanced health.`,
-  featuresListCol3T: `Tailored Nutrition<br />for Every Individual`,
-  featuresListCol3D: `Customize your health experience with VitaVital's tailored
-vitamin plans designed to match every individual's wellness
-preferences. Whether it's daily vitamins, special supplements,
-or personalized guidance, our versatile options cater to your
-unique health needs.`,
-  caseTitle: `Discover Our Product Lineup`,
-  caseTitleDesc: `Unveiling VitaVital's Wellness Solutions`,
-  caseTitleDesc1T: `Essential Supplements`,
-  caseTitleDesc1D: `Boost Your Vitality Naturally`,
-  caseTitleDesc2T: `Personalized Wellness`,
-  caseTitleDesc2D: `Tailored Solutions for Your Well-Being`,
-  caseTitleDesc3T: `Wellness Companion App`,
-  caseTitleDesc3D: `App Features for Health Enthusiasts`,
-  caseTitleDesc4T: `Tailored Wellness Plans`,
-  caseTitleDesc4D: `Custom Solutions for Your Wellness Goals`,
-  mob1Title: `Elevate Your Wellness<br />Experience with VitaVital!`,
-  mob1Desc: `Enhance your well-being journey with our tailored vitamin
-  plans.`,
-  mob1Desc2: `With a dedication that goes beyond the ordinary, we invite you
-  to explore the expertise of our team and embark on a journey
-  to discover the boundless potential of optimal health and
-  vitality. Whether it's maintaining a vibrant lifestyle,
-  boosting your immune system, or achieving your fitness goals,
-  our team's commitment shines through every product, promising
-  an experience that's beyond the norm.`,
-  mob2Title: `Leading Wellness Solutions<br />for Your Lifestyle.`,
-  mob2Desc: `Say goodbye to health concerns or compromising on well-being.
-  Embrace the future of vitality where every vitamin,
-  supplement, and wellness solution reflects our dedication to
-  providing individuals and families with reliable and
-  exceptional options. As we empower you to make the most of
-  your health journey, you can trust that our commitment to
-  quality, flexibility, and convenience will redefine the way
-  you experience wellness.`,
-  mob2Desc2: `Experience the smart way to boost your health and vitality.`,
+  featuresListCol1T: `Custom Business<br />Card Solutions`,
+  featuresListCol1D: `Elevate your professional image with BizCardPrint's custom business card solutions, ensuring you make a lasting impression. Experience the convenience of high-quality networking without compromise.`,
+  featuresListCol2T: `Efficient Networking<br />Experiences`,
+  featuresListCol2D: `Immerse yourself in a world of efficient networking experiences as BizCardPrint provides you with a curated range of business card options. Discover the perfect blend of convenience and professionalism, and embark on a journey towards enhanced networking.`,
+  featuresListCol3T: `Tailored Branding<br />for Every Business`,
+  featuresListCol3D: `Customize your networking experience with BizCardPrint's tailored business card designs designed to match every business's branding preferences. Whether it's unique designs, special finishes, or personalized branding, our versatile options cater to your unique networking needs.`,
+  caseTitle: `Explore Our Business Card Collection`,
+  caseTitleDesc: `Unveiling BizCardPrint's Networking Solutions`,
+  caseTitleDesc1T: `Premium Card Designs`,
+  caseTitleDesc1D: `Make an Impact Professionally`,
+  caseTitleDesc2T: `Custom Networking`,
+  caseTitleDesc2D: `Unique Designs for Your Brand`,
+  caseTitleDesc3T: `Efficient Printing Service`,
+  caseTitleDesc3D: `Quality Printing for Business Success`,
+  caseTitleDesc4T: `Tailored Networking Solutions`,
+  caseTitleDesc4D: `Personalized Cards for Your Professional Goals`,
+  mob1Title: `Elevate Your Networking<br />Experience with BizCardPrint!`,
+  mob1Desc: `Enhance your professional networking journey with our custom business card solutions.`,
+  mob1Desc2: `With a dedication that goes beyond the ordinary, we invite you to explore the expertise of our team and embark on a journey to discover the boundless potential of successful networking. Whether it's creating a memorable impression, expanding your business, or building your brand, our team's commitment shines through every product, promising an experience that's beyond the norm.`,
+  mob2Title: `Leading Networking Solutions<br />for Your Business.`,
+  mob2Desc: `Say goodbye to missed opportunities or compromising on networking. Embrace the future of efficient networking where every business card reflects our dedication to providing businesses with reliable and exceptional options. As we empower you to make the most of your professional networking, you can trust that our commitment to quality, flexibility, and convenience will redefine the way you network.`,
+  mob2Desc2: `Experience the smart way to boost your professional image.`,
   custTitle: `Customer Reviews`,
   custDesc: `Explore the testimonials from our satisfied customers.`,
-  cust1: `VitaVital's products are truly outstanding, elevating our
-  wellness journey. Their dedication is impressive.`,
-  cust1Name: `Jason Mitchell`,
-  cust2: `VitaVital's impact on our health is remarkable, enhancing
-  our vitality. Their innovation is outstanding.`,
-  cust2Name: `Jacob Reynolds`,
-  cust3: `VitaVital's service is exceptional, revolutionizing our
-  well-being choices. Their commitment is commendable.`,
-  cust3Name: `Olivia Davis`,
-  cotactTitle: `Ready to enhance your wellness journey?<br />Get in touch with
-  VitaVital`,
-  logo2: `VitaVital`,
-  mail: `vitavital@mail.com`,
-  phone: `+345-737-3455`,
-  logo3: `Copyright © VitaVital. All rights reserved.`,
+  cust1: `BizCardPrint's business card designs are truly exceptional, elevating our professional networking. Their dedication is impressive.`,
+  cust1Name: `Alex Johnson`,
+  cust2: `BizCardPrint's impact on our business networking is remarkable, enhancing our brand image. Their innovation is outstanding.`,
+  cust2Name: `David Anderson`,
+  cust3: `BizCardPrint's service is exceptional, revolutionizing our networking choices. Their commitment is commendable.`,
+  cust3Name: `Emily White`,
+  cotactTitle: `Ready to elevate your networking experience?<br />Get in touch with BizCardPrint`,
+  logo2: `BizCardPrint`,
+  mail: `bizcardprint@mail.com`,
+  phone: `+345-555-1234`,
+  logo3: `Copyright © BizCardPrint. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
