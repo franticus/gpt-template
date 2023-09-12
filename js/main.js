@@ -39,59 +39,59 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'ConstructPro',
-  heroTitle: `Building the Future<br />with ConstructPro.`,
-  heroDescription: `ConstructPro specializes in cutting-edge construction solutions for projects of all sizes.`,
-  featuresMainTitle: 'Welcome to ConstructPro',
+  logo: 'ChicCuts',
+  heroTitle: `Stylish Transformation<br />at ChicCuts Salon.`,
+  heroDescription: `ChicCuts specializes in cutting-edge hair styling solutions for all your beauty needs.`,
+  featuresMainTitle: 'Welcome to ChicCuts',
   featuresMainDescription:
-    "Transforming your vision into reality with ConstructPro's innovative construction services.",
+    "Transforming your look into a masterpiece with ChicCuts' innovative hairstyling services.",
   featuresList: `<li class="mb-2">
-  <strong>Custom Construction Projects:</strong> Explore a wide range of architectural designs and premium materials, tailored to your project requirements.
+  <strong>Creative Haircuts:</strong> Explore a wide range of trendy hairstyles and personalized haircuts to suit your unique style.
 </li>
 <li class="mb-2">
-  <strong>Efficient Building:</strong> Experience hassle-free construction as we deliver top-quality results right to your doorstep, saving you time and effort.
+  <strong>Effortless Glamour:</strong> Experience hassle-free beauty enhancement as we deliver top-quality results that leave you looking and feeling fabulous.
 </li>
 <li class="mb-2">
-  <strong>Exceptional Quality:</strong> We prioritize excellence in every project. Our constructions are meticulously crafted, ensuring each structure reflects durability and innovation.
+  <strong>Exceptional Styling:</strong> We prioritize excellence in every session. Our stylists are dedicated to crafting hairstyles that reflect your personality and flair.
 </li>
 <li class="mb-2">
-  <strong>Personalized Design:</strong> Tailor your project to your vision. Our experienced team allows you to customize designs and preferences, providing a unique construction experience.
+  <strong>Personalized Beauty:</strong> Tailor your look to your vision. Our experienced team allows you to customize your style and preferences, providing a unique beauty experience.
 </li>`,
-  featuresListCol1T: `Custom Construction<br />Projects`,
-  featuresListCol1D: `Bring your vision to life with ConstructPro's custom construction solutions, ensuring your project stands out. Experience the convenience of high-quality building without compromise.`,
-  featuresListCol2T: `Efficient Building<br />Experiences`,
-  featuresListCol2D: `Immerse yourself in a world of efficient building experiences as ConstructPro provides you with a curated range of construction options. Discover the perfect blend of convenience and innovation and embark on a journey towards exceptional results.`,
-  featuresListCol3T: `Tailored Solutions<br />for Every Project`,
-  featuresListCol3D: `Customize your construction experience with ConstructPro's tailored project designs designed to match your unique requirements. Whether it's unique designs, special finishes, or personalized features, our versatile options cater to your specific project needs.`,
-  caseTitle: `Explore Our Construction Portfolio`,
-  caseTitleDesc: `Unveiling ConstructPro's Building Solutions`,
-  caseTitleDesc1T: `Premium Building Designs`,
-  caseTitleDesc1D: `Create a Lasting Impact Architecturally`,
-  caseTitleDesc2T: `Customized Building Solutions`,
-  caseTitleDesc2D: `Unique Designs for Your Project`,
-  caseTitleDesc3T: `Efficient Construction Service`,
-  caseTitleDesc3D: `Quality Building for Project Success`,
-  caseTitleDesc4T: `Tailored Construction Solutions`,
-  caseTitleDesc4D: `Personalized Projects for Your Vision`,
-  mob1Title: `Elevate Your Building<br />Experience with ConstructPro!`,
-  mob1Desc: `Enhance your construction journey with our custom building solutions.`,
-  mob1Desc2: `With a dedication that goes beyond the ordinary, we invite you to explore the expertise of our team and embark on a journey to discover the boundless potential of successful construction. Whether it's creating a remarkable structure, expanding your property, or realizing your architectural vision, our team's commitment shines through every project, promising an experience that's beyond the norm.`,
-  mob2Title: `Leading Building Solutions<br />for Your Project.`,
-  mob2Desc: `Say goodbye to compromise and welcome a future of efficient construction where every project reflects ConstructPro's dedication to providing reliable and innovative options. As we empower you to make the most of your construction vision, you can trust that our commitment to quality, flexibility, and convenience will redefine the way you build.`,
-  mob2Desc2: `Experience the smart way to elevate your construction projects.`,
+  featuresListCol1T: `Creative Haircuts<br />for All Styles`,
+  featuresListCol1D: `Unlock your style potential with ChicCuts' creative haircuts, ensuring your look stands out. Experience the convenience of top-quality styling without compromise.`,
+  featuresListCol2T: `Effortless Beauty<br />Enhancement`,
+  featuresListCol2D: `Indulge in a world of effortless beauty enhancement as ChicCuts provides you with curated styling options. Discover the perfect blend of convenience and glamour and embark on a journey towards exceptional beauty.`,
+  featuresListCol3T: `Tailored Styling<br />for Every Client`,
+  featuresListCol3D: `Customize your beauty experience with ChicCuts' tailored styling solutions designed to match your unique preferences. Whether it's a trendy makeover, special occasion look, or personalized beauty session, our versatile options cater to your specific needs.`,
+  caseTitle: `Explore Our Styling Portfolio`,
+  caseTitleDesc: `Discover ChicCuts' Beauty Solutions`,
+  caseTitleDesc1T: `Trendsetting Hairstyles`,
+  caseTitleDesc1D: `Set New Trends with ChicCuts`,
+  caseTitleDesc2T: `Personalized Beauty Looks`,
+  caseTitleDesc2D: `Unique Styles Tailored for You`,
+  caseTitleDesc3T: `Effortless Beauty Services`,
+  caseTitleDesc3D: `Glamorous Makeovers for Beauty Success`,
+  caseTitleDesc4T: `Custom Beauty Experiences`,
+  caseTitleDesc4D: `Unique Beauty Sessions for Your Vision`,
+  mob1Title: `Elevate Your Beauty<br />Experience with ChicCuts!`,
+  mob1Desc: `Enhance your style journey with our creative beauty solutions.`,
+  mob1Desc2: `With a dedication that goes beyond the ordinary, we invite you to explore the expertise of our team and embark on a journey to discover the boundless potential of stunning beauty. Whether it's creating a remarkable look, preparing for a special occasion, or realizing your beauty vision, our team's commitment shines through every session, promising an experience that's beyond the norm.`,
+  mob2Title: `Leading Beauty Solutions<br />for Your Glamour.`,
+  mob2Desc: `Say goodbye to ordinary looks and welcome a future of effortless beauty where every session reflects ChicCuts' dedication to providing reliable and innovative styling options. As we empower you to make the most of your beauty vision, you can trust that our commitment to quality, flexibility, and convenience will redefine the way you style.`,
+  mob2Desc2: `Experience the chic way to elevate your beauty.`,
   custTitle: `Client Testimonials`,
   custDesc: `Explore the feedback from our satisfied clients.`,
-  cust1: `ConstructPro's construction designs are truly exceptional, elevating our architectural projects. Their dedication is impressive.`,
-  cust1Name: `Ron Roberts`,
-  cust2: `ConstructPro's impact on our building projects is remarkable, enhancing our property value. Their innovation is outstanding.`,
-  cust2Name: `Michael Adams`,
-  cust3: `ConstructPro's service is exceptional, revolutionizing our construction choices. Their commitment is commendable.`,
-  cust3Name: `Linda Parker`,
-  cotactTitle: `Ready to elevate your construction projects?<br />Get in touch with ConstructPro`,
-  logo2: `ConstructPro`,
-  mail: `info@constructpro.com`,
+  cust1: `ChicCuts' styling is truly exceptional, elevating my beauty game. Their dedication is impressive.`,
+  cust1Name: `Samantha Smith`,
+  cust2: `ChicCuts' impact on my beauty transformation is remarkable, boosting my confidence. Their innovation is outstanding.`,
+  cust2Name: `John Anderson`,
+  cust3: `ChicCuts' service is exceptional, revolutionizing my styling choices. Their commitment is commendable.`,
+  cust3Name: `Emily Davis`,
+  cotactTitle: `Ready to elevate your beauty?<br />Get in touch with ChicCuts`,
+  logo2: `ChicCuts`,
+  mail: `info@chiccuts.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © ConstructPro. All rights reserved.`,
+  logo3: `Copyright © ChicCuts. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
