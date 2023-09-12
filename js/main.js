@@ -39,62 +39,59 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'BizCardPrint',
-  heroTitle: `BizCard Printing Solutions<br />for Professional Networking.`,
-  heroDescription: `BizCardPrint offers comprehensive business card printing solutions for individuals and businesses.`,
-  featuresMainTitle: 'Welcome to BizCardPrint',
+  logo: 'ConstructPro',
+  heroTitle: `Building the Future<br />with ConstructPro.`,
+  heroDescription: `ConstructPro specializes in cutting-edge construction solutions for projects of all sizes.`,
+  featuresMainTitle: 'Welcome to ConstructPro',
   featuresMainDescription:
-    "Elevating your professional image with BizCardPrint's high-quality business cards.",
+    "Transforming your vision into reality with ConstructPro's innovative construction services.",
   featuresList: `<li class="mb-2">
-  <strong>Custom Business Cards:</strong> Discover a diverse range of
-  design options and premium materials, tailored to your networking needs.
+  <strong>Custom Construction Projects:</strong> Explore a wide range of architectural designs and premium materials, tailored to your project requirements.
 </li>
 <li class="mb-2">
-  <strong>Effortless Printing:</strong> Experience the utmost
-  convenience as we deliver top-quality business cards right to your doorstep, saving you time and effort.
+  <strong>Efficient Building:</strong> Experience hassle-free construction as we deliver top-quality results right to your doorstep, saving you time and effort.
 </li>
 <li class="mb-2">
-  <strong>Premium Quality:</strong> We prioritize excellence in
-  every product. Our business cards are meticulously crafted, ensuring each card reflects professionalism and effectiveness.
+  <strong>Exceptional Quality:</strong> We prioritize excellence in every project. Our constructions are meticulously crafted, ensuring each structure reflects durability and innovation.
 </li>
 <li class="mb-2">
-  <strong>Personalized Design:</strong> Tailor your business card to your brand. Our intuitive platform allows you to customize designs and preferences, providing a unique networking experience.
+  <strong>Personalized Design:</strong> Tailor your project to your vision. Our experienced team allows you to customize designs and preferences, providing a unique construction experience.
 </li>`,
-  featuresListCol1T: `Custom Business<br />Card Solutions`,
-  featuresListCol1D: `Elevate your professional image with BizCardPrint's custom business card solutions, ensuring you make a lasting impression. Experience the convenience of high-quality networking without compromise.`,
-  featuresListCol2T: `Efficient Networking<br />Experiences`,
-  featuresListCol2D: `Immerse yourself in a world of efficient networking experiences as BizCardPrint provides you with a curated range of business card options. Discover the perfect blend of convenience and professionalism, and embark on a journey towards enhanced networking.`,
-  featuresListCol3T: `Tailored Branding<br />for Every Business`,
-  featuresListCol3D: `Customize your networking experience with BizCardPrint's tailored business card designs designed to match every business's branding preferences. Whether it's unique designs, special finishes, or personalized branding, our versatile options cater to your unique networking needs.`,
-  caseTitle: `Explore Our Business Card Collection`,
-  caseTitleDesc: `Unveiling BizCardPrint's Networking Solutions`,
-  caseTitleDesc1T: `Premium Card Designs`,
-  caseTitleDesc1D: `Make an Impact Professionally`,
-  caseTitleDesc2T: `Custom Networking`,
-  caseTitleDesc2D: `Unique Designs for Your Brand`,
-  caseTitleDesc3T: `Efficient Printing Service`,
-  caseTitleDesc3D: `Quality Printing for Business Success`,
-  caseTitleDesc4T: `Tailored Networking Solutions`,
-  caseTitleDesc4D: `Personalized Cards for Your Professional Goals`,
-  mob1Title: `Elevate Your Networking<br />Experience with BizCardPrint!`,
-  mob1Desc: `Enhance your professional networking journey with our custom business card solutions.`,
-  mob1Desc2: `With a dedication that goes beyond the ordinary, we invite you to explore the expertise of our team and embark on a journey to discover the boundless potential of successful networking. Whether it's creating a memorable impression, expanding your business, or building your brand, our team's commitment shines through every product, promising an experience that's beyond the norm.`,
-  mob2Title: `Leading Networking Solutions<br />for Your Business.`,
-  mob2Desc: `Say goodbye to missed opportunities or compromising on networking. Embrace the future of efficient networking where every business card reflects our dedication to providing businesses with reliable and exceptional options. As we empower you to make the most of your professional networking, you can trust that our commitment to quality, flexibility, and convenience will redefine the way you network.`,
-  mob2Desc2: `Experience the smart way to boost your professional image.`,
-  custTitle: `Customer Reviews`,
-  custDesc: `Explore the testimonials from our satisfied customers.`,
-  cust1: `BizCardPrint's business card designs are truly exceptional, elevating our professional networking. Their dedication is impressive.`,
-  cust1Name: `Alex Johnson`,
-  cust2: `BizCardPrint's impact on our business networking is remarkable, enhancing our brand image. Their innovation is outstanding.`,
-  cust2Name: `David Anderson`,
-  cust3: `BizCardPrint's service is exceptional, revolutionizing our networking choices. Their commitment is commendable.`,
-  cust3Name: `Emily White`,
-  cotactTitle: `Ready to elevate your networking experience?<br />Get in touch with BizCardPrint`,
-  logo2: `BizCardPrint`,
-  mail: `bizcardprint@mail.com`,
-  phone: `+345-555-1234`,
-  logo3: `Copyright © BizCardPrint. All rights reserved.`,
+  featuresListCol1T: `Custom Construction<br />Projects`,
+  featuresListCol1D: `Bring your vision to life with ConstructPro's custom construction solutions, ensuring your project stands out. Experience the convenience of high-quality building without compromise.`,
+  featuresListCol2T: `Efficient Building<br />Experiences`,
+  featuresListCol2D: `Immerse yourself in a world of efficient building experiences as ConstructPro provides you with a curated range of construction options. Discover the perfect blend of convenience and innovation and embark on a journey towards exceptional results.`,
+  featuresListCol3T: `Tailored Solutions<br />for Every Project`,
+  featuresListCol3D: `Customize your construction experience with ConstructPro's tailored project designs designed to match your unique requirements. Whether it's unique designs, special finishes, or personalized features, our versatile options cater to your specific project needs.`,
+  caseTitle: `Explore Our Construction Portfolio`,
+  caseTitleDesc: `Unveiling ConstructPro's Building Solutions`,
+  caseTitleDesc1T: `Premium Building Designs`,
+  caseTitleDesc1D: `Create a Lasting Impact Architecturally`,
+  caseTitleDesc2T: `Customized Building Solutions`,
+  caseTitleDesc2D: `Unique Designs for Your Project`,
+  caseTitleDesc3T: `Efficient Construction Service`,
+  caseTitleDesc3D: `Quality Building for Project Success`,
+  caseTitleDesc4T: `Tailored Construction Solutions`,
+  caseTitleDesc4D: `Personalized Projects for Your Vision`,
+  mob1Title: `Elevate Your Building<br />Experience with ConstructPro!`,
+  mob1Desc: `Enhance your construction journey with our custom building solutions.`,
+  mob1Desc2: `With a dedication that goes beyond the ordinary, we invite you to explore the expertise of our team and embark on a journey to discover the boundless potential of successful construction. Whether it's creating a remarkable structure, expanding your property, or realizing your architectural vision, our team's commitment shines through every project, promising an experience that's beyond the norm.`,
+  mob2Title: `Leading Building Solutions<br />for Your Project.`,
+  mob2Desc: `Say goodbye to compromise and welcome a future of efficient construction where every project reflects ConstructPro's dedication to providing reliable and innovative options. As we empower you to make the most of your construction vision, you can trust that our commitment to quality, flexibility, and convenience will redefine the way you build.`,
+  mob2Desc2: `Experience the smart way to elevate your construction projects.`,
+  custTitle: `Client Testimonials`,
+  custDesc: `Explore the feedback from our satisfied clients.`,
+  cust1: `ConstructPro's construction designs are truly exceptional, elevating our architectural projects. Their dedication is impressive.`,
+  cust1Name: `Ron Roberts`,
+  cust2: `ConstructPro's impact on our building projects is remarkable, enhancing our property value. Their innovation is outstanding.`,
+  cust2Name: `Michael Adams`,
+  cust3: `ConstructPro's service is exceptional, revolutionizing our construction choices. Their commitment is commendable.`,
+  cust3Name: `Linda Parker`,
+  cotactTitle: `Ready to elevate your construction projects?<br />Get in touch with ConstructPro`,
+  logo2: `ConstructPro`,
+  mail: `info@constructpro.com`,
+  phone: `+123-456-7890`,
+  logo3: `Copyright © ConstructPro. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
