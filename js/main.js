@@ -126,6 +126,12 @@ unique health needs.`,
   cust3: `VitaVital's service is exceptional, revolutionizing our
   well-being choices. Their commitment is commendable.`,
   cust3Name: `Olivia Davis`,
+  cotactTitle: `Ready to enhance your wellness journey?<br />Get in touch with
+  VitaVital`,
+  logo2: `VitaVital`,
+  mail: `vitavital@mail.com`,
+  phone: `+345-737-3455`,
+  logo3: `Copyright © VitaVital. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
@@ -171,6 +177,13 @@ const cust2Name = document.querySelector('.text-cust-2-name');
 const cust3 = document.querySelector('.text-cust-3');
 const cust3Name = document.querySelector('.text-cust-3-name');
 
+const cotactTitle = document.querySelector('.text-contact-title');
+
+const logo2 = document.querySelector('.text-logo-2');
+const mail = document.querySelector('.text-mail');
+const phone = document.querySelector('.text-phone');
+const logo3 = document.querySelector('.text-logo-3');
+
 const textArrParam = [
   logo,
   heroTitle,
@@ -208,6 +221,11 @@ const textArrParam = [
   cust2Name,
   cust3,
   cust3Name,
+  cotactTitle,
+  logo2,
+  mail,
+  phone,
+  logo3,
 ];
 const textArrKey = [
   'logo',
@@ -246,6 +264,11 @@ const textArrKey = [
   'cust2Name',
   'cust3',
   'cust3Name',
+  'cotactTitle',
+  'logo2',
+  'mail',
+  'phone',
+  'logo3',
 ];
 
 textArrParam.forEach((item, index) => {
