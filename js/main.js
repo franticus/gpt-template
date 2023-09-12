@@ -95,6 +95,37 @@ unique health needs.`,
   caseTitleDesc3D: `App Features for Health Enthusiasts`,
   caseTitleDesc4T: `Tailored Wellness Plans`,
   caseTitleDesc4D: `Custom Solutions for Your Wellness Goals`,
+  mob1Title: `Elevate Your Wellness<br />Experience with VitaVital!`,
+  mob1Desc: `Enhance your well-being journey with our tailored vitamin
+  plans.`,
+  mob1Desc2: `With a dedication that goes beyond the ordinary, we invite you
+  to explore the expertise of our team and embark on a journey
+  to discover the boundless potential of optimal health and
+  vitality. Whether it's maintaining a vibrant lifestyle,
+  boosting your immune system, or achieving your fitness goals,
+  our team's commitment shines through every product, promising
+  an experience that's beyond the norm.`,
+  mob2Title: `Leading Wellness Solutions<br />for Your Lifestyle.`,
+  mob2Desc: `Say goodbye to health concerns or compromising on well-being.
+  Embrace the future of vitality where every vitamin,
+  supplement, and wellness solution reflects our dedication to
+  providing individuals and families with reliable and
+  exceptional options. As we empower you to make the most of
+  your health journey, you can trust that our commitment to
+  quality, flexibility, and convenience will redefine the way
+  you experience wellness.`,
+  mob2Desc2: `Experience the smart way to boost your health and vitality.`,
+  custTitle: `Customer Reviews`,
+  custDesc: `Explore the testimonials from our satisfied customers.`,
+  cust1: `VitaVital's products are truly outstanding, elevating our
+  wellness journey. Their dedication is impressive.`,
+  cust1Name: `Jason Mitchell`,
+  cust2: `VitaVital's impact on our health is remarkable, enhancing
+  our vitality. Their innovation is outstanding.`,
+  cust2Name: `Jacob Reynolds`,
+  cust3: `VitaVital's service is exceptional, revolutionizing our
+  well-being choices. Their commitment is commendable.`,
+  cust3Name: `Olivia Davis`,
 };
 
 const logo = document.querySelector('.text-logo');
@@ -105,12 +136,14 @@ const featuresMainDescription = document.querySelector(
   '.text-features-main-description'
 );
 const featuresList = document.querySelector('.text-features-list');
+
 const featuresListCol1T = document.querySelector('.text-features-col1-title');
 const featuresListCol1D = document.querySelector('.text-features-col1-desc');
 const featuresListCol2T = document.querySelector('.text-features-col2-title');
 const featuresListCol2D = document.querySelector('.text-features-col2-desc');
 const featuresListCol3T = document.querySelector('.text-features-col3-title');
 const featuresListCol3D = document.querySelector('.text-features-col3-desc');
+
 const caseTitle = document.querySelector('.text-case-title');
 const caseTitleDesc = document.querySelector('.text-case-title-desc');
 const caseTitleDesc1T = document.querySelector('.text-card-1-title');
@@ -121,6 +154,22 @@ const caseTitleDesc3T = document.querySelector('.text-card-3-title');
 const caseTitleDesc3D = document.querySelector('.text-card-3-desc');
 const caseTitleDesc4T = document.querySelector('.text-card-4-title');
 const caseTitleDesc4D = document.querySelector('.text-card-4-desc');
+
+const mob1Title = document.querySelector('.text-mob-1-title');
+const mob1Desc = document.querySelector('.text-mob-1-desc');
+const mob1Desc2 = document.querySelector('.text-mob-1-desc-2');
+const mob2Title = document.querySelector('.text-mob-2-title');
+const mob2Desc = document.querySelector('.text-mob-2-desc');
+const mob2Desc2 = document.querySelector('.text-mob-2-desc-2');
+
+const custTitle = document.querySelector('.text-cust-title');
+const custDesc = document.querySelector('.text-cust-desc');
+const cust1 = document.querySelector('.text-cust-1');
+const cust1Name = document.querySelector('.text-cust-1-name');
+const cust2 = document.querySelector('.text-cust-2');
+const cust2Name = document.querySelector('.text-cust-2-name');
+const cust3 = document.querySelector('.text-cust-3');
+const cust3Name = document.querySelector('.text-cust-3-name');
 
 const textArrParam = [
   logo,
@@ -145,6 +194,20 @@ const textArrParam = [
   caseTitleDesc3D,
   caseTitleDesc4T,
   caseTitleDesc4D,
+  mob1Title,
+  mob1Desc,
+  mob1Desc2,
+  mob2Title,
+  mob2Desc,
+  mob2Desc2,
+  custTitle,
+  custDesc,
+  cust1,
+  cust1Name,
+  cust2,
+  cust2Name,
+  cust3,
+  cust3Name,
 ];
 const textArrKey = [
   'logo',
@@ -169,6 +232,20 @@ const textArrKey = [
   'caseTitleDesc3D',
   'caseTitleDesc4T',
   'caseTitleDesc4D',
+  'mob1Title',
+  'mob1Desc',
+  'mob1Desc2',
+  'mob2Title',
+  'mob2Desc',
+  'mob2Desc2',
+  'custTitle',
+  'custDesc',
+  'cust1',
+  'cust1Name',
+  'cust2',
+  'cust2Name',
+  'cust3',
+  'cust3Name',
 ];
 
 textArrParam.forEach((item, index) => {
