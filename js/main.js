@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'PuzzleMasters',
-  heroTitle: `Unlock Your Mind with<br />PuzzleMasters Challenges.`,
-  heroDescription: `PuzzleMasters offers an intriguing assortment of brain teasers, carefully curated for the curious and puzzle enthusiasts.`,
-  featuresMainTitle: 'Dive into the World of PuzzleMasters',
+  logo: 'SpiceSavvy',
+  heroTitle: `Elevate Your Culinary Journey with<br />SpiceSavvy's Flavorful World.`,
+  heroDescription: `SpiceSavvy offers a tantalizing array of exotic spices and seasonings, handpicked for passionate food aficionados.`,
+  featuresMainTitle: 'Embark on a Spice Odyssey with SpiceSavvy',
   featuresMainDescription:
-    "Challenge your intellect with PuzzleMasters' mind-bending puzzle collections.",
+    "Awaken your taste buds with SpiceSavvy's premium spice collections.",
   featuresList: `<li class="mb-2">
-  <strong>Exceptional Puzzle Choices:</strong> Stimulate your mind with our exceptional puzzle games, tailored to your level.
+  <strong>Exquisite Spice Selection:</strong> Excite your palate with our exquisite range of spices, tailored to your culinary adventures.
 </li>
 <li class="mb-2">
-  <strong>Engaging Challenges:</strong> Experience the perfect blend of fun and mental exercise with our meticulously crafted puzzles.
+  <strong>Culinary Adventures:</strong> Experience the perfect blend of taste and creativity with our meticulously crafted spices.
 </li>
 <li class="mb-2">
-  <strong>Innovative Designs:</strong> Each puzzle showcases creativity and craftsmanship, ensuring your gaming stands out.
+  <strong>Artisanal Blends:</strong> Each spice blend showcases craftsmanship, ensuring your dishes stand out.
 </li>
 <li class="mb-2">
-  <strong>Customized Solutions:</strong> Find puzzles that cater to your unique interests, customized for your leisure.
+  <strong>Custom Spice Blends:</strong> Find spices that cater to your unique recipes, customized for your culinary pleasure.
 </li>`,
-  featuresListCol1T: `Puzzle Excellence<br />for Every Mind`,
-  featuresListCol1D: `Explore the essence of mental stimulation with PuzzleMasters' latest collections. Challenge your intellect with puzzles that match your passion.`,
-  featuresListCol2T: `Indulge in Cognitive<br />Entertainment`,
-  featuresListCol2D: `Experience the ultimate thrill of brain teasers and puzzles. Elevate your mental prowess with premium games.`,
-  featuresListCol3T: `Distinctive Puzzle Designs<br />for Every Challenge`,
-  featuresListCol3D: `Enhance your puzzle-solving skills with our distinctive puzzle designs. Let your gaming reflect your passion for challenges.`,
-  caseTitle: `Explore Our Puzzle Catalog`,
-  caseTitleDesc: `Unveiling PuzzleMasters' Collections`,
-  caseTitleDesc1T: `Elegant Puzzle Sets`,
-  caseTitleDesc1D: `Indulge in the complexity of our elegant puzzle sets, designed to stimulate your mind with style and sophistication.`,
-  caseTitleDesc2T: `Cognitive Challenge Enhancements`,
-  caseTitleDesc2D: `Enhance your gaming experiences with our cognitive challenge enhancements, adding a touch of intrigue to every puzzle.`,
-  caseTitleDesc3T: `Customized Puzzle Solutions`,
-  caseTitleDesc3D: `Customize your puzzle adventures with PuzzleMasters, ensuring each puzzle is tailored to your unique interests and preferences.`,
-  caseTitleDesc4T: `Exquisite Brain Teasers`,
-  caseTitleDesc4D: `Experience the thrill of our brain teaser collection, elevating your mental agility to new heights.`,
-  mob1Title: `Expand Your Mind<br />with PuzzleMasters!`,
-  mob1Desc: `Step into the world of cognitive exploration with our intriguing puzzle collections.`,
-  mob1Desc2: `From solo challenges to group gaming, PuzzleMasters is redefining the art of puzzles. Dive into a world where every game is a symbol of mental agility.`,
-  mob2Title: `Where Entertainment Meets<br />Cognitive Excellence.`,
-  mob2Desc: `At PuzzleMasters, puzzles are more than just games. They're about stimulating your mind and enhancing your problem-solving abilities.`,
-  mob2Desc2: `Embrace the power of innovative puzzle designs.`,
+  featuresListCol1T: `Culinary Excellence<br />for Every Palate`,
+  featuresListCol1D: `Explore the essence of gourmet delight with SpiceSavvy's latest collections. Elevate your culinary creations with spices that match your passion.`,
+  featuresListCol2T: `Savor the Flavorful<br />Culinary Adventure`,
+  featuresListCol2D: `Experience the ultimate delight of exotic spices and seasonings. Elevate your culinary prowess with our premium ingredients.`,
+  featuresListCol3T: `Distinctive Spice Blends<br />for Every Dish`,
+  featuresListCol3D: `Enhance your cooking skills with our distinctive spice blends. Let your dishes reflect your passion for flavor.`,
+  caseTitle: `Explore Our Spice Collection`,
+  caseTitleDesc: `Unveiling SpiceSavvy's Selection`,
+  caseTitleDesc1T: `Exotic Spice Selections`,
+  caseTitleDesc1D: `Indulge in the richness of our exotic spice selections, designed to elevate your culinary experience with flair and sophistication.`,
+  caseTitleDesc2T: `Culinary Creativity Enhancements`,
+  caseTitleDesc2D: `Enhance your cooking experiences with our culinary creativity enhancements, adding a touch of uniqueness to every dish.`,
+  caseTitleDesc3T: `Customized Spice Blends`,
+  caseTitleDesc3D: `Customize your culinary adventures with SpiceSavvy, ensuring each dish is tailored to your unique recipes and preferences.`,
+  caseTitleDesc4T: `Flavorful Cooking Adventures`,
+  caseTitleDesc4D: `Experience the joy of our culinary adventure collection, elevating your cooking skills to new heights.`,
+  mob1Title: `Elevate Your Cooking<br />with SpiceSavvy!`,
+  mob1Desc: `Step into the world of culinary exploration with our exotic spice collections.`,
+  mob1Desc2: `From solo cooking to gourmet feasts, SpiceSavvy is redefining the art of seasoning. Dive into a world where every dish is a symbol of flavor.`,
+  mob2Title: `Where Taste Meets<br />Culinary Excellence.`,
+  mob2Desc: `At SpiceSavvy, spices are more than just ingredients. They're about enhancing your culinary journey and creating memorable dining experiences.`,
+  mob2Desc2: `Embrace the power of artisanal spice blends.`,
   custTitle: `Customer Testimonials`,
-  custDesc: `Hear from our satisfied puzzle enthusiasts and mental athletes.`,
-  cust1: `PuzzleMasters' puzzles are a game changer. Their complexity is unmatched, and they make my leisure truly intriguing.`,
-  cust1Name: `Eleanor Smith`,
-  cust1Prof: `Puzzle Enthusiast`,
-  cust2: `The quality and design of PuzzleMasters' puzzles are beyond impressive. Every challenge feels like a mental adventure.`,
-  cust2Name: `William Turner`,
-  cust2Prof: `Mental Athlete`,
-  cust3: `From solo adventures to group brain teasers, PuzzleMasters has it all. The epitome of cognitive entertainment.`,
-  cust3Name: `Mia Mitchell`,
-  cust3Prof: `Puzzle Connoisseur`,
-  contactTitle: `Ready for a Cognitive Challenge?<br />Join the PuzzleMasters Experience`,
-  logo2: `PuzzleMasters`,
-  mail: `contact@puzzlemasters.com`,
+  custDesc: `Hear from our satisfied food enthusiasts and culinary artisans.`,
+  cust1: `SpiceSavvy's spices are a game changer. Their flavors are unmatched, and they make my cooking truly exceptional.`,
+  cust1Name: `Isabella Ramirez`,
+  cust1Prof: `Food Enthusiast`,
+  cust2: `The quality and variety of SpiceSavvy's spices are beyond impressive. Every dish feels like a culinary adventure.`,
+  cust2Name: `Lucas Anderson`,
+  cust2Prof: `Culinary Artisan`,
+  cust3: `From everyday cooking to gourmet creations, SpiceSavvy has it all. The epitome of culinary excellence.`,
+  cust3Name: `Olivia Mitchell`,
+  cust3Prof: `Culinary Connoisseur`,
+  contactTitle: `Ready for a Flavorful Journey?<br />Join the SpiceSavvy Experience`,
+  logo2: `SpiceSavvy`,
+  mail: `contact@spicesavvy.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © PuzzleMasters. All rights reserved.`,
+  logo3: `Copyright © SpiceSavvy. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
