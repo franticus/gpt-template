@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'RugRealm',
-  heroTitle: `Discover Opulence in Rugs<br />at RugRealm.`,
-  heroDescription: `RugRealm presents an exquisite range of premium rugs, thoughtfully curated for discerning connoisseurs.`,
-  featuresMainTitle: 'Step into RugRealm',
+  logo: 'FacadeFinisher',
+  heroTitle: `Explore the Beauty of Facade Paint<br />at FacadeFinisher.`,
+  heroDescription: `FacadeFinisher offers a stunning array of premium facade paints, carefully curated for discerning architects and designers.`,
+  featuresMainTitle: 'Enter the World of FacadeFinisher',
   featuresMainDescription:
-    "Elevate your space with RugRealm's luxurious rug collections.",
+    "Elevate your exteriors with FacadeFinisher's luxurious paint collections.",
   featuresList: `<li class="mb-2">
-  <strong>Elegant Rug Selection:</strong> Transform your spaces with our exquisite rugs and accessories tailored for your style.
+  <strong>Exquisite Paint Selection:</strong> Transform your buildings with our exquisite facade paints and coatings tailored to your style.
 </li>
 <li class="mb-2">
-  <strong>Luxurious Interiors:</strong> Experience the perfect blend of beauty and functionality with our meticulously crafted rugs.
+  <strong>Luxurious Facades:</strong> Experience the perfect blend of aesthetics and durability with our meticulously crafted facade paints.
 </li>
 <li class="mb-2">
-  <strong>Innovative Designs:</strong> Each rug showcases creativity and elegance, ensuring your space stands out.
+  <strong>Innovative Designs:</strong> Each paint showcases creativity and elegance, ensuring your building stands out.
 </li>
 <li class="mb-2">
-  <strong>Personalized Spaces:</strong> Find rugs that cater to your unique preferences, customized just for you.
+  <strong>Customized Solutions:</strong> Find paints that cater to your unique vision, customized just for your project.
 </li>`,
-  featuresListCol1T: `Exquisite Rugs<br />for Every Space`,
-  featuresListCol1D: `Discover the essence of luxury interiors with RugRealm's latest collections. Elevate your surroundings with rugs that match your vision.`,
-  featuresListCol2T: `Indulge in Interior<br />Luxury`,
-  featuresListCol2D: `Experience the ultimate beauty and functionality with our sumptuous rugs. Transform your spaces with premium designs.`,
-  featuresListCol3T: `Distinctive Rug Designs<br />for Every Home`,
-  featuresListCol3D: `Upgrade your living spaces with our distinctive rug designs. Let your home reflect your taste for opulence.`,
-  caseTitle: `Explore Our Rug Catalogue`,
-  caseTitleDesc: `Unveiling RugRealm's Collections`,
-  caseTitleDesc1T: `Elegant Rug Sets`,
-  caseTitleDesc1D: `Indulge in the beauty of our elegant rug sets, designed to transform your spaces with style and sophistication.`,
-  caseTitleDesc2T: `Luxury Rug Enhancements`,
-  caseTitleDesc2D: `Enhance your home decor with our luxury rug enhancements, adding a touch of opulence to every room.`,
-  caseTitleDesc3T: `Personalized Rug Solutions`,
-  caseTitleDesc3D: `Customize your spaces with RugRealm, ensuring each rug is tailored to your unique vision and preferences.`,
-  caseTitleDesc4T: `Exquisite Flooring Collection`,
-  caseTitleDesc4D: `Experience the opulence of our flooring collection, elevating your home's aesthetics to new heights.`,
-  mob1Title: `Elevate Your Space<br />with RugRealm!`,
-  mob1Desc: `Step into the future of luxury interiors with our opulent rug collections.`,
-  mob1Desc2: `From personal use to elegant home transformations, RugRealm is redefining the art of rugs. Dive into a world where every rug is a symbol of opulence.`,
-  mob2Title: `Where Quality Meets<br />Interior Excellence.`,
-  mob2Desc: `At RugRealm, rugs are more than just materials. They're about expressing your unique style and enhancing your daily living spaces.`,
-  mob2Desc2: `Embrace the transformative power of innovative rug designs.`,
-  custTitle: `Customer Testimonials`,
-  custDesc: `Hear from our satisfied connoisseurs.`,
-  cust1: `RugRealm's rugs are a game changer. Their beauty is unmatched, and they make my living spaces truly opulent.`,
-  cust1Name: `Olivia Bennett`,
-  cust1Prof: `Interior Designer`,
-  cust2: `The quality and style of RugRealm rugs are beyond impressive. Every room feels like a work of art.`,
-  cust2Name: `Robert Mitchell`,
-  cust2Prof: `Homeowner`,
-  cust3: `From everyday spaces to special projects, RugRealm has it all. The epitome of interior opulence.`,
-  cust3Name: `Sophia Roberts`,
-  cust3Prof: `Architect`,
-  cotactTitle: `Ready for Opulent Interiors?<br />Join the RugRealm Experience`,
-  logo2: `RugRealm`,
-  mail: `contact@rugrealm.com`,
+  featuresListCol1T: `Exquisite Paints<br />for Every Building`,
+  featuresListCol1D: `Discover the essence of luxury exteriors with FacadeFinisher's latest collections. Elevate your buildings with paints that match your vision.`,
+  featuresListCol2T: `Indulge in Exterior<br />Elegance`,
+  featuresListCol2D: `Experience the ultimate beauty and functionality with our sumptuous facade paints. Transform your exteriors with premium designs.`,
+  featuresListCol3T: `Distinctive Facade Designs<br />for Every Project`,
+  featuresListCol3D: `Upgrade your architectural projects with our distinctive facade designs. Let your buildings reflect your taste for opulence.`,
+  caseTitle: `Explore Our Facade Paint Catalog`,
+  caseTitleDesc: `Unveiling FacadeFinisher's Collections`,
+  caseTitleDesc1T: `Elegant Facade Sets`,
+  caseTitleDesc1D: `Indulge in the beauty of our elegant facade sets, designed to transform your buildings with style and sophistication.`,
+  caseTitleDesc2T: `Luxury Coating Enhancements`,
+  caseTitleDesc2D: `Enhance your architectural designs with our luxury facade enhancements, adding a touch of opulence to every project.`,
+  caseTitleDesc3T: `Customized Facade Solutions`,
+  caseTitleDesc3D: `Customize your architectural projects with FacadeFinisher, ensuring each facade is tailored to your unique vision and requirements.`,
+  caseTitleDesc4T: `Exquisite Building Coatings`,
+  caseTitleDesc4D: `Experience the opulence of our building coatings collection, elevating your architectural aesthetics to new heights.`,
+  mob1Title: `Elevate Your Buildings<br />with FacadeFinisher!`,
+  mob1Desc: `Step into the future of luxury exteriors with our opulent facade paint collections.`,
+  mob1Desc2: `From personal projects to grand architectural transformations, FacadeFinisher is redefining the art of facade painting. Dive into a world where every facade is a symbol of opulence.`,
+  mob2Title: `Where Quality Meets<br />Architectural Excellence.`,
+  mob2Desc: `At FacadeFinisher, facade paints are more than just materials. They're about expressing your unique style and enhancing your architectural designs.`,
+  mob2Desc2: `Embrace the transformative power of innovative facade paint designs.`,
+  custTitle: `Client Testimonials`,
+  custDesc: `Hear from our satisfied architects and designers.`,
+  cust1: `FacadeFinisher's paints are a game changer. Their beauty is unmatched, and they make my architectural projects truly opulent.`,
+  cust1Name: `Emily Anderson`,
+  cust1Prof: `Architect`,
+  cust2: `The quality and style of FacadeFinisher paints are beyond impressive. Every building feels like a work of art.`,
+  cust2Name: `Michael Turner`,
+  cust2Prof: `Designer`,
+  cust3: `From everyday projects to special designs, FacadeFinisher has it all. The epitome of architectural opulence.`,
+  cust3Name: `Ella Collins`,
+  cust3Prof: `Architectural Designer`,
+  cotactTitle: `Ready for Opulent Exteriors?<br />Join the FacadeFinisher Experience`,
+  logo2: `FacadeFinisher`,
+  mail: `contact@facadefinisher.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © RugRealm. All rights reserved.`,
+  logo3: `Copyright © FacadeFinisher. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
