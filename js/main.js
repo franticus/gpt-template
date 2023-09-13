@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'Pizzaroma',
-  heroTitle: `Indulge in Flavorful Delights at<br />Pizzaroma's Pizza Haven.`,
-  heroDescription: `Step into a world of mouthwatering pizzas and culinary delights, expertly crafted for discerning pizza lovers.`,
-  featuresMainTitle: 'Embark on a Pizza Journey with Pizzaroma',
+  logo: 'MochaMingle',
+  heroTitle: `Discover the Perfect Blend at<br />MochaMingle's Coffee Haven.`,
+  heroDescription: `Step into a world of aromatic brews and delightful treats, carefully crafted for coffee aficionados.`,
+  featuresMainTitle: 'Embark on a Coffee Adventure with MochaMingle',
   featuresMainDescription:
-    "Open the door to a world of pizza possibilities with Pizzaroma's exclusive menu.",
+    "Open the door to a world of coffee possibilities with MochaMingle's exclusive menu.",
   featuresList: `<li class="mb-2">
-  <strong>Premium Pizza Selection:</strong> Elevate your taste buds with our premium range of pizzas, tailored to your cravings.
+  <strong>Premium Coffee Selection:</strong> Elevate your taste buds with our premium range of coffee blends, tailored to your cravings.
 </li>
 <li class="mb-2">
-  <strong>Culinary Creations:</strong> Experience the perfect blend of flavors and textures with our meticulously crafted pizzas.
+  <strong>Culinary Creations:</strong> Experience the perfect harmony of flavors and textures with our meticulously crafted coffee and treats.
 </li>
 <li class="mb-2">
-  <strong>Scenic Dining:</strong> Each bite is a journey through taste, ensuring your dining experience stands out.
+  <strong>Cozy Ambiance:</strong> Each sip is an escape into tranquility, ensuring your coffee experience stands out.
 </li>
 <li class="mb-2">
-  <strong>Custom Pizza Creations:</strong> Create pizzas that cater to your unique taste, customized for your culinary pleasure.
+  <strong>Custom Coffee Creations:</strong> Craft your coffee journey to match your unique taste, customized for your caffeinated pleasure.
 </li>`,
-  featuresListCol1T: `Flavorful<br />Pizzas for Every Palate`,
-  featuresListCol1D: `Explore the essence of pizza perfection with Pizzaroma's latest creations. Enhance your dining experience with pizzas that match your cravings.`,
+  featuresListCol1T: `Aromatic<br />Coffee for Every Palate`,
+  featuresListCol1D: `Explore the essence of coffee perfection with MochaMingle's latest creations. Enhance your coffee experience with blends that match your cravings.`,
   featuresListCol2T: `Culinary Delights<br />Await You`,
-  featuresListCol2D: `Experience the ultimate delight of flavors and textures with our gourmet pizzas. Elevate your pizza cravings with our premium offerings.`,
-  featuresListCol3T: `Distinctive Dining<br />for Every Occasion`,
-  featuresListCol3D: `Enhance your dining experience with our distinctive pizza offerings. Let your taste buds embrace the variety of flavors.`,
-  caseTitle: `Explore Our Pizza Menu`,
-  caseTitleDesc: `Unveiling Pizzaroma's Culinary Delights`,
-  caseTitleDesc1T: `Exquisite Pizza Selections`,
-  caseTitleDesc1D: `Indulge in the richness of our exquisite pizza selections, designed to elevate your dining experience with flair and flavor.`,
-  caseTitleDesc2T: `Culinary Adventures`,
-  caseTitleDesc2D: `Enhance your dining experience with our culinary creations, adding a touch of uniqueness to every bite.`,
-  caseTitleDesc3T: `Customized Pizza Creations`,
-  caseTitleDesc3D: `Customize your pizza experience with Pizzaroma, ensuring each slice satisfies your unique culinary vision and preferences.`,
-  caseTitleDesc4T: `Elegant Dining Enhancements`,
-  caseTitleDesc4D: `Experience the joy of our dining enhancement collection, elevating your pizza feast to new heights.`,
-  mob1Title: `Savor the Flavor<br />with Pizzaroma!`,
-  mob1Desc: `Step into the world of pizza perfection with our gourmet menu.`,
-  mob1Desc2: `From everyday pizza cravings to grand culinary adventures, Pizzaroma is redefining the art of pizza perfection. Dive into a world where every slice is a burst of flavor.`,
-  mob2Title: `Where Flavor Meets<br />Culinary Excellence.`,
-  mob2Desc: `At Pizzaroma, pizzas are more than just dishes. They're about enhancing your dining experience and creating memorable taste impressions.`,
-  mob2Desc2: `Embrace the power of flavorful dining.`,
+  featuresListCol2D: `Experience the ultimate delight of flavors and textures with our gourmet coffee and delectable treats. Elevate your coffee cravings with our premium offerings.`,
+  featuresListCol3T: `Cozy Ambiance<br />for Every Occasion`,
+  featuresListCol3D: `Enhance your coffee experience with our cozy ambiance and distinctive coffee offerings. Let your senses embrace the variety of aromas.`,
+  caseTitle: `Explore Our Coffee Menu`,
+  caseTitleDesc: `Unveiling MochaMingle's Coffee Delights`,
+  caseTitleDesc1T: `Exquisite Coffee Blends`,
+  caseTitleDesc1D: `Indulge in the richness of our exquisite coffee blends, designed to elevate your coffee experience with aroma and flavor.`,
+  caseTitleDesc2T: `Coffee Adventures`,
+  caseTitleDesc2D: `Enhance your coffee experience with our culinary creations, adding a touch of uniqueness to every sip.`,
+  caseTitleDesc3T: `Customized Coffee Creations`,
+  caseTitleDesc3D: `Customize your coffee experience with MochaMingle, ensuring each cup satisfies your unique caffeine vision and preferences.`,
+  caseTitleDesc4T: `Cozy Ambiance Enhancements`,
+  caseTitleDesc4D: `Experience the joy of our cozy ambiance collection, elevating your coffee moments to new heights.`,
+  mob1Title: `Savor the Aroma<br />with MochaMingle!`,
+  mob1Desc: `Step into the world of coffee perfection with our gourmet menu.`,
+  mob1Desc2: `From everyday coffee cravings to grand coffee adventures, MochaMingle is redefining the art of coffee perfection. Dive into a world where every sip is an aromatic delight.`,
+  mob2Title: `Where Flavor Meets<br />Caffeine Excellence.`,
+  mob2Desc: `At MochaMingle, coffee is more than just a beverage. It's about enhancing your coffee experience and creating memorable aroma impressions.`,
+  mob2Desc2: `Embrace the power of aromatic coffee.`,
   custTitle: `Customer Testimonials`,
-  custDesc: `Hear from our satisfied pizza enthusiasts and culinary connoisseurs.`,
-  cust1: `Pizzaroma's pizzas are a game changer. Their flavors are unmatched, and they transformed my dining experience into a culinary masterpiece.`,
-  cust1Name: `Aleksa Morgan`,
-  cust1Prof: `Pizza Enthusiast`,
-  cust2: `The quality and variety of Pizzaroma's pizzas are beyond impressive. Every bite feels like a flavor-packed masterpiece.`,
-  cust2Name: `David Turner`,
-  cust2Prof: `Culinary Connoisseur`,
-  cust3: `From classic favorites to unique creations, Pizzaroma has it all. The epitome of pizza perfection.`,
-  cust3Name: `Emily Anderson`,
-  cust3Prof: `Food Critic`,
-  contactTitle: `Ready for a Flavorful Feast?<br />Join the Pizzaroma Experience`,
-  logo2: `Pizzaroma`,
-  mail: `contact@pizzaroma.com`,
+  custDesc: `Hear from our satisfied coffee enthusiasts and aroma connoisseurs.`,
+  cust1: `MochaMingle's coffee is a game changer. Their blends are unmatched, and they transformed my coffee moments into an aromatic masterpiece.`,
+  cust1Name: `Oliver Smith`,
+  cust1Prof: `Coffee Enthusiast`,
+  cust2: `The quality and variety of MochaMingle's coffee blends are beyond impressive. Every sip feels like an aroma-packed masterpiece.`,
+  cust2Name: `Sophia Walker`,
+  cust2Prof: `Aroma Connoisseur`,
+  cust3: `From classic favorites to unique creations, MochaMingle has it all. The epitome of coffee perfection.`,
+  cust3Name: `Lucas Miller`,
+  cust3Prof: `Caffeine Critic`,
+  contactTitle: `Ready for an Aromatic Experience?<br />Join the MochaMingle Journey`,
+  logo2: `MochaMingle`,
+  mail: `contact@mochamingle.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © Pizzaroma. All rights reserved.`,
+  logo3: `Copyright © MochaMingle. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
