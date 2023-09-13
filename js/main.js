@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'ViewVista',
-  heroTitle: `Experience Clarity at<br />ViewVista's Window Emporium.`,
-  heroDescription: `Enter a realm of stunning windows and panoramic vistas, meticulously curated for discerning homeowners.`,
-  featuresMainTitle: 'Embark on a Window Journey with ViewVista',
+  logo: 'Pizzaroma',
+  heroTitle: `Indulge in Flavorful Delights at<br />Pizzaroma's Pizza Haven.`,
+  heroDescription: `Step into a world of mouthwatering pizzas and culinary delights, expertly crafted for discerning pizza lovers.`,
+  featuresMainTitle: 'Embark on a Pizza Journey with Pizzaroma',
   featuresMainDescription:
-    "Open the window to a world of possibilities with ViewVista's exclusive collection.",
+    "Open the door to a world of pizza possibilities with Pizzaroma's exclusive menu.",
   featuresList: `<li class="mb-2">
-  <strong>Premium Window Selection:</strong> Elevate your home's ambiance with our premium range of windows, tailored to your style.
+  <strong>Premium Pizza Selection:</strong> Elevate your taste buds with our premium range of pizzas, tailored to your cravings.
 </li>
 <li class="mb-2">
-  <strong>Home Transformation Expeditions:</strong> Experience the perfect blend of craftsmanship and functionality with our meticulously designed windows.
+  <strong>Culinary Creations:</strong> Experience the perfect blend of flavors and textures with our meticulously crafted pizzas.
 </li>
 <li class="mb-2">
-  <strong>Scenic Panoramas:</strong> Each window frames nature's beauty, ensuring your home stands out.
+  <strong>Scenic Dining:</strong> Each bite is a journey through taste, ensuring your dining experience stands out.
 </li>
 <li class="mb-2">
-  <strong>Custom Window Solutions:</strong> Find windows that cater to your unique home, customized for your architectural pleasure.
+  <strong>Custom Pizza Creations:</strong> Create pizzas that cater to your unique taste, customized for your culinary pleasure.
 </li>`,
-  featuresListCol1T: `Clarity<br />for Every Home`,
-  featuresListCol1D: `Explore the essence of home clarity with ViewVista's latest collections. Enhance your living space with windows that match your style.`,
-  featuresListCol2T: `Aesthetic Home Views<br />Await You`,
-  featuresListCol2D: `Experience the ultimate delight of scenic windows and breathtaking vistas. Elevate your home's charm with our premium offerings.`,
-  featuresListCol3T: `Distinctive Panoramas<br />for Every Home`,
-  featuresListCol3D: `Enhance your home's curb appeal with our distinctive window solutions. Let your home embrace the beauty of the outdoors.`,
-  caseTitle: `Explore Our Window Collection`,
-  caseTitleDesc: `Unveiling ViewVista's Selection`,
-  caseTitleDesc1T: `Exquisite Window Selections`,
-  caseTitleDesc1D: `Indulge in the richness of our exquisite window selections, designed to elevate your home's ambiance with flair and sophistication.`,
-  caseTitleDesc2T: `Home Aesthetic Transformations`,
-  caseTitleDesc2D: `Enhance your home's beauty with our architectural transformations, adding a touch of uniqueness to every view.`,
-  caseTitleDesc3T: `Customized Window Solutions`,
-  caseTitleDesc3D: `Customize your home's views with ViewVista, ensuring each window frames your unique architectural vision and preferences.`,
-  caseTitleDesc4T: `Elegant Home Enhancements`,
-  caseTitleDesc4D: `Experience the joy of our home enhancement collection, elevating your living space to new heights.`,
-  mob1Title: `Elevate Your Home<br />with ViewVista!`,
-  mob1Desc: `Step into the world of home clarity with our exquisite window collections.`,
-  mob1Desc2: `From everyday views to grand home transformations, ViewVista is redefining the art of home aesthetics. Dive into a world where every window is a frame of beauty.`,
-  mob2Title: `Where Clarity Meets<br />Architectural Excellence.`,
-  mob2Desc: `At ViewVista, windows are more than just openings. They're about enhancing your living experience and creating memorable visual impressions.`,
-  mob2Desc2: `Embrace the power of panoramic vistas.`,
+  featuresListCol1T: `Flavorful<br />Pizzas for Every Palate`,
+  featuresListCol1D: `Explore the essence of pizza perfection with Pizzaroma's latest creations. Enhance your dining experience with pizzas that match your cravings.`,
+  featuresListCol2T: `Culinary Delights<br />Await You`,
+  featuresListCol2D: `Experience the ultimate delight of flavors and textures with our gourmet pizzas. Elevate your pizza cravings with our premium offerings.`,
+  featuresListCol3T: `Distinctive Dining<br />for Every Occasion`,
+  featuresListCol3D: `Enhance your dining experience with our distinctive pizza offerings. Let your taste buds embrace the variety of flavors.`,
+  caseTitle: `Explore Our Pizza Menu`,
+  caseTitleDesc: `Unveiling Pizzaroma's Culinary Delights`,
+  caseTitleDesc1T: `Exquisite Pizza Selections`,
+  caseTitleDesc1D: `Indulge in the richness of our exquisite pizza selections, designed to elevate your dining experience with flair and flavor.`,
+  caseTitleDesc2T: `Culinary Adventures`,
+  caseTitleDesc2D: `Enhance your dining experience with our culinary creations, adding a touch of uniqueness to every bite.`,
+  caseTitleDesc3T: `Customized Pizza Creations`,
+  caseTitleDesc3D: `Customize your pizza experience with Pizzaroma, ensuring each slice satisfies your unique culinary vision and preferences.`,
+  caseTitleDesc4T: `Elegant Dining Enhancements`,
+  caseTitleDesc4D: `Experience the joy of our dining enhancement collection, elevating your pizza feast to new heights.`,
+  mob1Title: `Savor the Flavor<br />with Pizzaroma!`,
+  mob1Desc: `Step into the world of pizza perfection with our gourmet menu.`,
+  mob1Desc2: `From everyday pizza cravings to grand culinary adventures, Pizzaroma is redefining the art of pizza perfection. Dive into a world where every slice is a burst of flavor.`,
+  mob2Title: `Where Flavor Meets<br />Culinary Excellence.`,
+  mob2Desc: `At Pizzaroma, pizzas are more than just dishes. They're about enhancing your dining experience and creating memorable taste impressions.`,
+  mob2Desc2: `Embrace the power of flavorful dining.`,
   custTitle: `Customer Testimonials`,
-  custDesc: `Hear from our satisfied homeowners and architectural enthusiasts.`,
-  cust1: `ViewVista's windows are a game changer. Their designs are unmatched, and they transformed my home into an architectural masterpiece.`,
-  cust1Name: `Sophia Harris`,
-  cust1Prof: `Homeowner`,
-  cust2: `The quality and variety of ViewVista's windows are beyond impressive. Every view feels like a scenic masterpiece.`,
-  cust2Name: `Michael Turner`,
-  cust2Prof: `Architectural Enthusiast`,
-  cust3: `From small upgrades to grand transformations, ViewVista has it all. The epitome of home clarity.`,
-  cust3Name: `Olivia Anderson`,
-  cust3Prof: `Interior Designer`,
-  contactTitle: `Ready for a Clear View Upgrade?<br />Join the ViewVista Experience`,
-  logo2: `ViewVista`,
-  mail: `contact@viewvista.com`,
+  custDesc: `Hear from our satisfied pizza enthusiasts and culinary connoisseurs.`,
+  cust1: `Pizzaroma's pizzas are a game changer. Their flavors are unmatched, and they transformed my dining experience into a culinary masterpiece.`,
+  cust1Name: `Aleksa Morgan`,
+  cust1Prof: `Pizza Enthusiast`,
+  cust2: `The quality and variety of Pizzaroma's pizzas are beyond impressive. Every bite feels like a flavor-packed masterpiece.`,
+  cust2Name: `David Turner`,
+  cust2Prof: `Culinary Connoisseur`,
+  cust3: `From classic favorites to unique creations, Pizzaroma has it all. The epitome of pizza perfection.`,
+  cust3Name: `Emily Anderson`,
+  cust3Prof: `Food Critic`,
+  contactTitle: `Ready for a Flavorful Feast?<br />Join the Pizzaroma Experience`,
+  logo2: `Pizzaroma`,
+  mail: `contact@pizzaroma.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © ViewVista. All rights reserved.`,
+  logo3: `Copyright © Pizzaroma. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
