@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'LuminaLuxe',
-  heroTitle: `Illuminate Your World with<br />LuminaLuxe Lighting.`,
-  heroDescription: `LuminaLuxe offers a captivating range of premium lighting solutions, thoughtfully curated for discerning homeowners and designers.`,
-  featuresMainTitle: 'Enter the World of LuminaLuxe',
+  logo: 'PuzzleMasters',
+  heroTitle: `Unlock Your Mind with<br />PuzzleMasters Challenges.`,
+  heroDescription: `PuzzleMasters offers an intriguing assortment of brain teasers, carefully curated for the curious and puzzle enthusiasts.`,
+  featuresMainTitle: 'Dive into the World of PuzzleMasters',
   featuresMainDescription:
-    "Elevate your interiors with LuminaLuxe's exquisite lighting collections.",
+    "Challenge your intellect with PuzzleMasters' mind-bending puzzle collections.",
   featuresList: `<li class="mb-2">
-  <strong>Exceptional Lighting Choices:</strong> Transform your spaces with our exceptional lighting fixtures, tailored to your style.
+  <strong>Exceptional Puzzle Choices:</strong> Stimulate your mind with our exceptional puzzle games, tailored to your level.
 </li>
 <li class="mb-2">
-  <strong>Luxurious Ambiance:</strong> Experience the perfect blend of aesthetics and functionality with our meticulously crafted lighting solutions.
+  <strong>Engaging Challenges:</strong> Experience the perfect blend of fun and mental exercise with our meticulously crafted puzzles.
 </li>
 <li class="mb-2">
-  <strong>Innovative Designs:</strong> Each fixture showcases creativity and elegance, ensuring your space stands out.
+  <strong>Innovative Designs:</strong> Each puzzle showcases creativity and craftsmanship, ensuring your gaming stands out.
 </li>
 <li class="mb-2">
-  <strong>Customized Solutions:</strong> Find lighting that caters to your unique vision, customized just for your project.
+  <strong>Customized Solutions:</strong> Find puzzles that cater to your unique interests, customized for your leisure.
 </li>`,
-  featuresListCol1T: `Lighting Excellence<br />for Every Space`,
-  featuresListCol1D: `Discover the essence of luxurious interiors with LuminaLuxe's latest collections. Illuminate your spaces with lighting that matches your vision.`,
-  featuresListCol2T: `Indulge in Interior<br />Elegance`,
-  featuresListCol2D: `Experience the ultimate beauty and practicality with our sumptuous lighting fixtures. Transform your spaces with premium designs.`,
-  featuresListCol3T: `Distinctive Lighting Designs<br />for Every Project`,
-  featuresListCol3D: `Enhance your interior projects with our distinctive lighting designs. Let your spaces reflect your taste for opulence.`,
-  caseTitle: `Explore Our Lighting Catalog`,
-  caseTitleDesc: `Unveiling LuminaLuxe's Collections`,
-  caseTitleDesc1T: `Elegant Lighting Sets`,
-  caseTitleDesc1D: `Indulge in the beauty of our elegant lighting sets, designed to illuminate your spaces with style and sophistication.`,
-  caseTitleDesc2T: `Luxury Lighting Enhancements`,
-  caseTitleDesc2D: `Enhance your interior designs with our luxury lighting enhancements, adding a touch of opulence to every project.`,
-  caseTitleDesc3T: `Customized Lighting Solutions`,
-  caseTitleDesc3D: `Customize your interior projects with LuminaLuxe, ensuring each lighting fixture is tailored to your unique vision and requirements.`,
-  caseTitleDesc4T: `Exquisite Illumination`,
-  caseTitleDesc4D: `Experience the opulence of our illumination collection, elevating your interior aesthetics to new heights.`,
-  mob1Title: `Illuminate Your Spaces<br />with LuminaLuxe!`,
-  mob1Desc: `Step into the future of luxurious interiors with our opulent lighting collections.`,
-  mob1Desc2: `From personal projects to grand interior transformations, LuminaLuxe is redefining the art of lighting. Dive into a world where every space is a symbol of opulence.`,
-  mob2Title: `Where Quality Meets<br />Interior Excellence.`,
-  mob2Desc: `At LuminaLuxe, lighting fixtures are more than just objects. They're about expressing your unique style and enhancing your interior designs.`,
-  mob2Desc2: `Embrace the transformative power of innovative lighting designs.`,
-  custTitle: `Client Testimonials`,
-  custDesc: `Hear from our satisfied homeowners and interior designers.`,
-  cust1: `LuminaLuxe's lighting is a game changer. Their beauty is unmatched, and they make my interiors truly opulent.`,
-  cust1Name: `Sophia Davis`,
-  cust1Prof: `Homeowner`,
-  cust2: `The quality and style of LuminaLuxe lighting are beyond impressive. Every space feels like a work of art.`,
-  cust2Name: `Oliver Reed`,
-  cust2Prof: `Interior Designer`,
-  cust3: `From everyday spaces to special designs, LuminaLuxe has it all. The epitome of interior opulence.`,
-  cust3Name: `Isabella Roberts`,
-  cust3Prof: `Interior Architect`,
-  contactTitle: `Ready for Luxurious Lighting?<br />Join the LuminaLuxe Experience`,
-  logo2: `LuminaLuxe`,
-  mail: `contact@luminaluxe.com`,
+  featuresListCol1T: `Puzzle Excellence<br />for Every Mind`,
+  featuresListCol1D: `Explore the essence of mental stimulation with PuzzleMasters' latest collections. Challenge your intellect with puzzles that match your passion.`,
+  featuresListCol2T: `Indulge in Cognitive<br />Entertainment`,
+  featuresListCol2D: `Experience the ultimate thrill of brain teasers and puzzles. Elevate your mental prowess with premium games.`,
+  featuresListCol3T: `Distinctive Puzzle Designs<br />for Every Challenge`,
+  featuresListCol3D: `Enhance your puzzle-solving skills with our distinctive puzzle designs. Let your gaming reflect your passion for challenges.`,
+  caseTitle: `Explore Our Puzzle Catalog`,
+  caseTitleDesc: `Unveiling PuzzleMasters' Collections`,
+  caseTitleDesc1T: `Elegant Puzzle Sets`,
+  caseTitleDesc1D: `Indulge in the complexity of our elegant puzzle sets, designed to stimulate your mind with style and sophistication.`,
+  caseTitleDesc2T: `Cognitive Challenge Enhancements`,
+  caseTitleDesc2D: `Enhance your gaming experiences with our cognitive challenge enhancements, adding a touch of intrigue to every puzzle.`,
+  caseTitleDesc3T: `Customized Puzzle Solutions`,
+  caseTitleDesc3D: `Customize your puzzle adventures with PuzzleMasters, ensuring each puzzle is tailored to your unique interests and preferences.`,
+  caseTitleDesc4T: `Exquisite Brain Teasers`,
+  caseTitleDesc4D: `Experience the thrill of our brain teaser collection, elevating your mental agility to new heights.`,
+  mob1Title: `Expand Your Mind<br />with PuzzleMasters!`,
+  mob1Desc: `Step into the world of cognitive exploration with our intriguing puzzle collections.`,
+  mob1Desc2: `From solo challenges to group gaming, PuzzleMasters is redefining the art of puzzles. Dive into a world where every game is a symbol of mental agility.`,
+  mob2Title: `Where Entertainment Meets<br />Cognitive Excellence.`,
+  mob2Desc: `At PuzzleMasters, puzzles are more than just games. They're about stimulating your mind and enhancing your problem-solving abilities.`,
+  mob2Desc2: `Embrace the power of innovative puzzle designs.`,
+  custTitle: `Customer Testimonials`,
+  custDesc: `Hear from our satisfied puzzle enthusiasts and mental athletes.`,
+  cust1: `PuzzleMasters' puzzles are a game changer. Their complexity is unmatched, and they make my leisure truly intriguing.`,
+  cust1Name: `Eleanor Smith`,
+  cust1Prof: `Puzzle Enthusiast`,
+  cust2: `The quality and design of PuzzleMasters' puzzles are beyond impressive. Every challenge feels like a mental adventure.`,
+  cust2Name: `William Turner`,
+  cust2Prof: `Mental Athlete`,
+  cust3: `From solo adventures to group brain teasers, PuzzleMasters has it all. The epitome of cognitive entertainment.`,
+  cust3Name: `Mia Mitchell`,
+  cust3Prof: `Puzzle Connoisseur`,
+  contactTitle: `Ready for a Cognitive Challenge?<br />Join the PuzzleMasters Experience`,
+  logo2: `PuzzleMasters`,
+  mail: `contact@puzzlemasters.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © LuminaLuxe. All rights reserved.`,
+  logo3: `Copyright © PuzzleMasters. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
@@ -140,7 +140,7 @@ const cust2Name = document.querySelector('.text-cust-2-name');
 const cust3 = document.querySelector('.text-cust-3');
 const cust3Name = document.querySelector('.text-cust-3-name');
 
-const cotactTitle = document.querySelector('.text-contact-title');
+const contactTitle = document.querySelector('.text-contact-title');
 
 const logo2 = document.querySelector('.text-logo-2');
 const mail = document.querySelector('.text-mail');
@@ -184,7 +184,7 @@ const textArrParam = [
   cust2Name,
   cust3,
   cust3Name,
-  cotactTitle,
+  contactTitle,
   logo2,
   mail,
   phone,
@@ -227,7 +227,7 @@ const textArrKey = [
   'cust2Name',
   'cust3',
   'cust3Name',
-  'cotactTitle',
+  'contactTitle',
   'logo2',
   'mail',
   'phone',
