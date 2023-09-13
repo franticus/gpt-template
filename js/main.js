@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'FacadeFinisher',
-  heroTitle: `Explore the Beauty of Facade Paint<br />at FacadeFinisher.`,
-  heroDescription: `FacadeFinisher offers a stunning array of premium facade paints, carefully curated for discerning architects and designers.`,
-  featuresMainTitle: 'Enter the World of FacadeFinisher',
+  logo: 'LuminaLuxe',
+  heroTitle: `Illuminate Your World with<br />LuminaLuxe Lighting.`,
+  heroDescription: `LuminaLuxe offers a captivating range of premium lighting solutions, thoughtfully curated for discerning homeowners and designers.`,
+  featuresMainTitle: 'Enter the World of LuminaLuxe',
   featuresMainDescription:
-    "Elevate your exteriors with FacadeFinisher's luxurious paint collections.",
+    "Elevate your interiors with LuminaLuxe's exquisite lighting collections.",
   featuresList: `<li class="mb-2">
-  <strong>Exquisite Paint Selection:</strong> Transform your buildings with our exquisite facade paints and coatings tailored to your style.
+  <strong>Exceptional Lighting Choices:</strong> Transform your spaces with our exceptional lighting fixtures, tailored to your style.
 </li>
 <li class="mb-2">
-  <strong>Luxurious Facades:</strong> Experience the perfect blend of aesthetics and durability with our meticulously crafted facade paints.
+  <strong>Luxurious Ambiance:</strong> Experience the perfect blend of aesthetics and functionality with our meticulously crafted lighting solutions.
 </li>
 <li class="mb-2">
-  <strong>Innovative Designs:</strong> Each paint showcases creativity and elegance, ensuring your building stands out.
+  <strong>Innovative Designs:</strong> Each fixture showcases creativity and elegance, ensuring your space stands out.
 </li>
 <li class="mb-2">
-  <strong>Customized Solutions:</strong> Find paints that cater to your unique vision, customized just for your project.
+  <strong>Customized Solutions:</strong> Find lighting that caters to your unique vision, customized just for your project.
 </li>`,
-  featuresListCol1T: `Exquisite Paints<br />for Every Building`,
-  featuresListCol1D: `Discover the essence of luxury exteriors with FacadeFinisher's latest collections. Elevate your buildings with paints that match your vision.`,
-  featuresListCol2T: `Indulge in Exterior<br />Elegance`,
-  featuresListCol2D: `Experience the ultimate beauty and functionality with our sumptuous facade paints. Transform your exteriors with premium designs.`,
-  featuresListCol3T: `Distinctive Facade Designs<br />for Every Project`,
-  featuresListCol3D: `Upgrade your architectural projects with our distinctive facade designs. Let your buildings reflect your taste for opulence.`,
-  caseTitle: `Explore Our Facade Paint Catalog`,
-  caseTitleDesc: `Unveiling FacadeFinisher's Collections`,
-  caseTitleDesc1T: `Elegant Facade Sets`,
-  caseTitleDesc1D: `Indulge in the beauty of our elegant facade sets, designed to transform your buildings with style and sophistication.`,
-  caseTitleDesc2T: `Luxury Coating Enhancements`,
-  caseTitleDesc2D: `Enhance your architectural designs with our luxury facade enhancements, adding a touch of opulence to every project.`,
-  caseTitleDesc3T: `Customized Facade Solutions`,
-  caseTitleDesc3D: `Customize your architectural projects with FacadeFinisher, ensuring each facade is tailored to your unique vision and requirements.`,
-  caseTitleDesc4T: `Exquisite Building Coatings`,
-  caseTitleDesc4D: `Experience the opulence of our building coatings collection, elevating your architectural aesthetics to new heights.`,
-  mob1Title: `Elevate Your Buildings<br />with FacadeFinisher!`,
-  mob1Desc: `Step into the future of luxury exteriors with our opulent facade paint collections.`,
-  mob1Desc2: `From personal projects to grand architectural transformations, FacadeFinisher is redefining the art of facade painting. Dive into a world where every facade is a symbol of opulence.`,
-  mob2Title: `Where Quality Meets<br />Architectural Excellence.`,
-  mob2Desc: `At FacadeFinisher, facade paints are more than just materials. They're about expressing your unique style and enhancing your architectural designs.`,
-  mob2Desc2: `Embrace the transformative power of innovative facade paint designs.`,
+  featuresListCol1T: `Lighting Excellence<br />for Every Space`,
+  featuresListCol1D: `Discover the essence of luxurious interiors with LuminaLuxe's latest collections. Illuminate your spaces with lighting that matches your vision.`,
+  featuresListCol2T: `Indulge in Interior<br />Elegance`,
+  featuresListCol2D: `Experience the ultimate beauty and practicality with our sumptuous lighting fixtures. Transform your spaces with premium designs.`,
+  featuresListCol3T: `Distinctive Lighting Designs<br />for Every Project`,
+  featuresListCol3D: `Enhance your interior projects with our distinctive lighting designs. Let your spaces reflect your taste for opulence.`,
+  caseTitle: `Explore Our Lighting Catalog`,
+  caseTitleDesc: `Unveiling LuminaLuxe's Collections`,
+  caseTitleDesc1T: `Elegant Lighting Sets`,
+  caseTitleDesc1D: `Indulge in the beauty of our elegant lighting sets, designed to illuminate your spaces with style and sophistication.`,
+  caseTitleDesc2T: `Luxury Lighting Enhancements`,
+  caseTitleDesc2D: `Enhance your interior designs with our luxury lighting enhancements, adding a touch of opulence to every project.`,
+  caseTitleDesc3T: `Customized Lighting Solutions`,
+  caseTitleDesc3D: `Customize your interior projects with LuminaLuxe, ensuring each lighting fixture is tailored to your unique vision and requirements.`,
+  caseTitleDesc4T: `Exquisite Illumination`,
+  caseTitleDesc4D: `Experience the opulence of our illumination collection, elevating your interior aesthetics to new heights.`,
+  mob1Title: `Illuminate Your Spaces<br />with LuminaLuxe!`,
+  mob1Desc: `Step into the future of luxurious interiors with our opulent lighting collections.`,
+  mob1Desc2: `From personal projects to grand interior transformations, LuminaLuxe is redefining the art of lighting. Dive into a world where every space is a symbol of opulence.`,
+  mob2Title: `Where Quality Meets<br />Interior Excellence.`,
+  mob2Desc: `At LuminaLuxe, lighting fixtures are more than just objects. They're about expressing your unique style and enhancing your interior designs.`,
+  mob2Desc2: `Embrace the transformative power of innovative lighting designs.`,
   custTitle: `Client Testimonials`,
-  custDesc: `Hear from our satisfied architects and designers.`,
-  cust1: `FacadeFinisher's paints are a game changer. Their beauty is unmatched, and they make my architectural projects truly opulent.`,
-  cust1Name: `Emily Anderson`,
-  cust1Prof: `Architect`,
-  cust2: `The quality and style of FacadeFinisher paints are beyond impressive. Every building feels like a work of art.`,
-  cust2Name: `Michael Turner`,
-  cust2Prof: `Designer`,
-  cust3: `From everyday projects to special designs, FacadeFinisher has it all. The epitome of architectural opulence.`,
-  cust3Name: `Ella Collins`,
-  cust3Prof: `Architectural Designer`,
-  cotactTitle: `Ready for Opulent Exteriors?<br />Join the FacadeFinisher Experience`,
-  logo2: `FacadeFinisher`,
-  mail: `contact@facadefinisher.com`,
+  custDesc: `Hear from our satisfied homeowners and interior designers.`,
+  cust1: `LuminaLuxe's lighting is a game changer. Their beauty is unmatched, and they make my interiors truly opulent.`,
+  cust1Name: `Sophia Davis`,
+  cust1Prof: `Homeowner`,
+  cust2: `The quality and style of LuminaLuxe lighting are beyond impressive. Every space feels like a work of art.`,
+  cust2Name: `Oliver Reed`,
+  cust2Prof: `Interior Designer`,
+  cust3: `From everyday spaces to special designs, LuminaLuxe has it all. The epitome of interior opulence.`,
+  cust3Name: `Isabella Roberts`,
+  cust3Prof: `Interior Architect`,
+  contactTitle: `Ready for Luxurious Lighting?<br />Join the LuminaLuxe Experience`,
+  logo2: `LuminaLuxe`,
+  mail: `contact@luminaluxe.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © FacadeFinisher. All rights reserved.`,
+  logo3: `Copyright © LuminaLuxe. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
