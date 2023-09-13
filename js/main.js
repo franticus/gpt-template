@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'SpiceSavvy',
-  heroTitle: `Elevate Your Culinary Journey with<br />SpiceSavvy's Flavorful World.`,
-  heroDescription: `SpiceSavvy offers a tantalizing array of exotic spices and seasonings, handpicked for passionate food aficionados.`,
-  featuresMainTitle: 'Embark on a Spice Odyssey with SpiceSavvy',
+  logo: 'DoorwayDeluxe',
+  heroTitle: `Discover Elegance at<br />DoorwayDeluxe's Premier Showroom.`,
+  heroDescription: `Step into a world of exquisite doors and entryways, carefully curated for discerning homeowners.`,
+  featuresMainTitle: 'Embark on a Doorway Journey with DoorwayDeluxe',
   featuresMainDescription:
-    "Awaken your taste buds with SpiceSavvy's premium spice collections.",
+    "Open the door to a world of possibilities with DoorwayDeluxe's exclusive collection.",
   featuresList: `<li class="mb-2">
-  <strong>Exquisite Spice Selection:</strong> Excite your palate with our exquisite range of spices, tailored to your culinary adventures.
+  <strong>Premium Door Selection:</strong> Elevate your home's aesthetic with our premium range of doors, tailored to your style.
 </li>
 <li class="mb-2">
-  <strong>Culinary Adventures:</strong> Experience the perfect blend of taste and creativity with our meticulously crafted spices.
+  <strong>Home Improvement Adventures:</strong> Experience the perfect blend of craftsmanship and functionality with our meticulously designed doors.
 </li>
 <li class="mb-2">
-  <strong>Artisanal Blends:</strong> Each spice blend showcases craftsmanship, ensuring your dishes stand out.
+  <strong>Artisanal Entryways:</strong> Each entryway showcases artistry, ensuring your home stands out.
 </li>
 <li class="mb-2">
-  <strong>Custom Spice Blends:</strong> Find spices that cater to your unique recipes, customized for your culinary pleasure.
+  <strong>Custom Door Solutions:</strong> Find doors that cater to your unique home, customized for your architectural pleasure.
 </li>`,
-  featuresListCol1T: `Culinary Excellence<br />for Every Palate`,
-  featuresListCol1D: `Explore the essence of gourmet delight with SpiceSavvy's latest collections. Elevate your culinary creations with spices that match your passion.`,
-  featuresListCol2T: `Savor the Flavorful<br />Culinary Adventure`,
-  featuresListCol2D: `Experience the ultimate delight of exotic spices and seasonings. Elevate your culinary prowess with our premium ingredients.`,
-  featuresListCol3T: `Distinctive Spice Blends<br />for Every Dish`,
-  featuresListCol3D: `Enhance your cooking skills with our distinctive spice blends. Let your dishes reflect your passion for flavor.`,
-  caseTitle: `Explore Our Spice Collection`,
-  caseTitleDesc: `Unveiling SpiceSavvy's Selection`,
-  caseTitleDesc1T: `Exotic Spice Selections`,
-  caseTitleDesc1D: `Indulge in the richness of our exotic spice selections, designed to elevate your culinary experience with flair and sophistication.`,
-  caseTitleDesc2T: `Culinary Creativity Enhancements`,
-  caseTitleDesc2D: `Enhance your cooking experiences with our culinary creativity enhancements, adding a touch of uniqueness to every dish.`,
-  caseTitleDesc3T: `Customized Spice Blends`,
-  caseTitleDesc3D: `Customize your culinary adventures with SpiceSavvy, ensuring each dish is tailored to your unique recipes and preferences.`,
-  caseTitleDesc4T: `Flavorful Cooking Adventures`,
-  caseTitleDesc4D: `Experience the joy of our culinary adventure collection, elevating your cooking skills to new heights.`,
-  mob1Title: `Elevate Your Cooking<br />with SpiceSavvy!`,
-  mob1Desc: `Step into the world of culinary exploration with our exotic spice collections.`,
-  mob1Desc2: `From solo cooking to gourmet feasts, SpiceSavvy is redefining the art of seasoning. Dive into a world where every dish is a symbol of flavor.`,
-  mob2Title: `Where Taste Meets<br />Culinary Excellence.`,
-  mob2Desc: `At SpiceSavvy, spices are more than just ingredients. They're about enhancing your culinary journey and creating memorable dining experiences.`,
-  mob2Desc2: `Embrace the power of artisanal spice blends.`,
+  featuresListCol1T: `Elegance<br />for Every Home`,
+  featuresListCol1D: `Explore the essence of home elegance with DoorwayDeluxe's latest collections. Elevate your living space with doors that match your style.`,
+  featuresListCol2T: `Aesthetic Home Experiences<br />Await You`,
+  featuresListCol2D: `Experience the ultimate delight of exquisite doors and entryways. Elevate your home's charm with our premium offerings.`,
+  featuresListCol3T: `Distinctive Entryways<br />for Every Home`,
+  featuresListCol3D: `Enhance your home's curb appeal with our distinctive entryway solutions. Let your home reflect your taste for beauty.`,
+  caseTitle: `Explore Our Door Collection`,
+  caseTitleDesc: `Unveiling DoorwayDeluxe's Selection`,
+  caseTitleDesc1T: `Exquisite Door Selections`,
+  caseTitleDesc1D: `Indulge in the richness of our exquisite door selections, designed to elevate your home's appeal with flair and sophistication.`,
+  caseTitleDesc2T: `Home Aesthetic Enhancements`,
+  caseTitleDesc2D: `Enhance your home's beauty with our architectural enhancements, adding a touch of uniqueness to every entryway.`,
+  caseTitleDesc3T: `Customized Door Solutions`,
+  caseTitleDesc3D: `Customize your home's entryways with DoorwayDeluxe, ensuring each door is tailored to your unique architectural vision and preferences.`,
+  caseTitleDesc4T: `Elegant Home Transformations`,
+  caseTitleDesc4D: `Experience the joy of our home transformation collection, elevating your living space to new heights.`,
+  mob1Title: `Elevate Your Home<br />with DoorwayDeluxe!`,
+  mob1Desc: `Step into the world of home elegance with our exquisite door collections.`,
+  mob1Desc2: `From everyday entryways to grand home makeovers, DoorwayDeluxe is redefining the art of home aesthetics. Dive into a world where every door is a symbol of beauty.`,
+  mob2Title: `Where Elegance Meets<br />Architectural Excellence.`,
+  mob2Desc: `At DoorwayDeluxe, doors are more than just entryways. They're about enhancing your living experience and creating memorable first impressions.`,
+  mob2Desc2: `Embrace the power of artisanal entryways.`,
   custTitle: `Customer Testimonials`,
-  custDesc: `Hear from our satisfied food enthusiasts and culinary artisans.`,
-  cust1: `SpiceSavvy's spices are a game changer. Their flavors are unmatched, and they make my cooking truly exceptional.`,
-  cust1Name: `Isabella Ramirez`,
-  cust1Prof: `Food Enthusiast`,
-  cust2: `The quality and variety of SpiceSavvy's spices are beyond impressive. Every dish feels like a culinary adventure.`,
-  cust2Name: `Lucas Anderson`,
-  cust2Prof: `Culinary Artisan`,
-  cust3: `From everyday cooking to gourmet creations, SpiceSavvy has it all. The epitome of culinary excellence.`,
-  cust3Name: `Olivia Mitchell`,
-  cust3Prof: `Culinary Connoisseur`,
-  contactTitle: `Ready for a Flavorful Journey?<br />Join the SpiceSavvy Experience`,
-  logo2: `SpiceSavvy`,
-  mail: `contact@spicesavvy.com`,
+  custDesc: `Hear from our satisfied homeowners and architectural enthusiasts.`,
+  cust1: `DoorwayDeluxe's doors are a game changer. Their designs are unmatched, and they transformed my home into an architectural masterpiece.`,
+  cust1Name: `Jessica Taylor`,
+  cust1Prof: `Homeowner`,
+  cust2: `The quality and variety of DoorwayDeluxe's doors are beyond impressive. Every entry feels like a grand entrance.`,
+  cust2Name: `David Walker`,
+  cust2Prof: `Architectural Enthusiast`,
+  cust3: `From small upgrades to grand transformations, DoorwayDeluxe has it all. The epitome of home elegance.`,
+  cust3Name: `Emily Harrison`,
+  cust3Prof: `Interior Designer`,
+  contactTitle: `Ready for an Elegant Home Upgrade?<br />Join the DoorwayDeluxe Experience`,
+  logo2: `DoorwayDeluxe`,
+  mail: `contact@doorwaydeluxe.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © SpiceSavvy. All rights reserved.`,
+  logo3: `Copyright © DoorwayDeluxe. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
