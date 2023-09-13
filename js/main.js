@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'TowelElegance',
-  heroTitle: `Discover Luxurious Towels<br />at TowelElegance.`,
-  heroDescription: `TowelElegance offers an opulent range of towels and bath linens curated for discerning individuals.`,
-  featuresMainTitle: 'Step into TowelElegance',
+  logo: 'TileWorld',
+  heroTitle: `Explore Elegance in Tiles<br />at TileWorld.`,
+  heroDescription: `TileWorld offers a stunning array of ceramic tiles, meticulously curated for discerning customers.`,
+  featuresMainTitle: 'Step into TileWorld',
   featuresMainDescription:
-    "Elevate your bathing experience with TowelElegance's premium towel collections.",
+    "Elevate your space with TileWorld's premium ceramic tile collections.",
   featuresList: `<li class="mb-2">
-  <strong>Elegant Towel Selection:</strong> Wrap yourself in luxury with our exquisite towels and accessories tailored for your comfort.
+  <strong>Elegant Tile Selection:</strong> Transform your spaces with our exquisite ceramic tiles and accessories tailored for your style.
 </li>
 <li class="mb-2">
-  <strong>Luxurious Bathing:</strong> Experience the perfect blend of softness and absorbency with our meticulously crafted towels.
+  <strong>Luxurious Interiors:</strong> Experience the perfect blend of beauty and functionality with our meticulously crafted tiles.
 </li>
 <li class="mb-2">
-  <strong>Innovative Designs:</strong> Each towel embodies creativity and elegance, ensuring your bath time is extraordinary.
+  <strong>Innovative Designs:</strong> Each tile reflects creativity and elegance, ensuring your space is extraordinary.
 </li>
 <li class="mb-2">
-  <strong>Personalized Comfort:</strong> Find towels that cater to your unique preferences, customized just for you.
+  <strong>Personalized Spaces:</strong> Find tiles that cater to your unique preferences, customized just for you.
 </li>`,
-  featuresListCol1T: `Exquisite Towel Selection<br />for Every Bathroom`,
-  featuresListCol1D: `Discover the essence of luxury bathing with TowelElegance's latest collections. Elevate your daily routine with towels that match your style.`,
-  featuresListCol2T: `Indulge in Bathing<br />Luxury`,
-  featuresListCol2D: `Experience the ultimate comfort with our sumptuous towels. Immerse yourself in a world of premium designs and opulent bath linens.`,
-  featuresListCol3T: `Distinctive Towel Designs<br />for Every Home`,
-  featuresListCol3D: `Upgrade your bathroom spaces with our distinctive towel designs. Let your home reflect your taste for luxury.`,
-  caseTitle: `Explore Our Towel Catalogue`,
-  caseTitleDesc: `Unveiling TowelElegance's Collections`,
-  caseTitleDesc1T: `Plush Towel Sets`,
-  caseTitleDesc1D: `Indulge in the softness of our plush towel sets, designed for your comfort and style.`,
-  caseTitleDesc2T: `Elegant Bath Linens`,
-  caseTitleDesc2D: `Enhance your bathroom decor with our elegant bath linens, adding a touch of sophistication.`,
-  caseTitleDesc3T: `Personalized Towels`,
-  caseTitleDesc3D: `Customize your towels with TowelElegance, ensuring each one is tailored to your preferences.`,
-  caseTitleDesc4T: `Luxury Bathrobe Collection`,
-  caseTitleDesc4D: `Experience relaxation like never before with our luxurious bathrobe collection.`,
-  mob1Title: `Elevate Your Bathing<br />Experience with TowelElegance!`,
-  mob1Desc: `Step into the future of luxury bathing with our opulent towel collections.`,
-  mob1Desc2: `From personal use to elegant gifting, TowelElegance is redefining the art of bath linens. Dive into a world where every towel is a symbol of indulgence.`,
-  mob2Title: `Where Quality Meets<br />Bathing Excellence.`,
-  mob2Desc: `At TowelElegance, towels are more than just linens. They're about expressing your unique style and enhancing your daily bathing rituals.`,
-  mob2Desc2: `Embrace the transformative power of innovative towel designs.`,
+  featuresListCol1T: `Exquisite Tiles<br />for Every Space`,
+  featuresListCol1D: `Discover the essence of luxury interiors with TileWorld's latest collections. Elevate your surroundings with tiles that match your vision.`,
+  featuresListCol2T: `Indulge in Interior<br />Luxury`,
+  featuresListCol2D: `Experience the ultimate beauty and functionality with our sumptuous ceramic tiles. Transform your spaces with premium designs.`,
+  featuresListCol3T: `Distinctive Tile Designs<br />for Every Home`,
+  featuresListCol3D: `Upgrade your living spaces with our distinctive tile designs. Let your home reflect your taste for elegance.`,
+  caseTitle: `Explore Our Tile Catalogue`,
+  caseTitleDesc: `Unveiling TileWorld's Collections`,
+  caseTitleDesc1T: `Elegant Tile Sets`,
+  caseTitleDesc1D: `Indulge in the beauty of our elegant tile sets, designed to transform your spaces with style and sophistication.`,
+  caseTitleDesc2T: `Ceramic Interior Enhancements`,
+  caseTitleDesc2D: `Enhance your home decor with our ceramic interior enhancements, adding a touch of luxury to every room.`,
+  caseTitleDesc3T: `Personalized Tile Solutions`,
+  caseTitleDesc3D: `Customize your spaces with TileWorld, ensuring each tile is tailored to your unique vision and preferences.`,
+  caseTitleDesc4T: `Luxury Flooring Collection`,
+  caseTitleDesc4D: `Experience the luxury of our flooring collection, elevating your home's aesthetics to new heights.`,
+  mob1Title: `Elevate Your Space<br />with TileWorld!`,
+  mob1Desc: `Step into the future of luxury interiors with our opulent ceramic tile collections.`,
+  mob1Desc2: `From personal use to elegant home transformations, TileWorld is redefining the art of ceramic tiles. Dive into a world where every tile is a symbol of beauty.`,
+  mob2Title: `Where Quality Meets<br />Interior Excellence.`,
+  mob2Desc: `At TileWorld, ceramic tiles are more than just materials. They're about expressing your unique style and enhancing your daily living spaces.`,
+  mob2Desc2: `Embrace the transformative power of innovative tile designs.`,
   custTitle: `Customer Testimonials`,
   custDesc: `Hear from our satisfied customers.`,
-  cust1: `TowelElegance's towels are a game changer. Their softness is unmatched, and they make my bathing experience truly luxurious.`,
-  cust1Name: `Olivia Mitchell`,
-  cust1Prof: `Spa Owner`,
-  cust2: `The quality and style of TowelElegance towels are beyond impressive. Every bath feels like a spa day.`,
-  cust2Name: `Daniel Foster`,
-  cust2Prof: `Hotel Manager`,
-  cust3: `From everyday use to special occasions, TowelElegance has it all. The epitome of luxury.`,
-  cust3Name: `Ella Roberts`,
-  cust3Prof: `Home Enthusiast`,
-  cotactTitle: `Ready for Luxurious Bathing?<br />Join the TowelElegance Experience`,
-  logo2: `TowelElegance`,
-  mail: `contact@towelelegance.com`,
+  cust1: `TileWorld's ceramic tiles are a game changer. Their beauty is unmatched, and they make my living spaces truly luxurious.`,
+  cust1Name: `Sophie Anderson`,
+  cust1Prof: `Interior Designer`,
+  cust2: `The quality and style of TileWorld tiles are beyond impressive. Every room feels like a work of art.`,
+  cust2Name: `William Turner`,
+  cust2Prof: `Homeowner`,
+  cust3: `From everyday spaces to special projects, TileWorld has it all. The epitome of interior elegance.`,
+  cust3Name: `Grace Lewis`,
+  cust3Prof: `Architect`,
+  cotactTitle: `Ready for Elegant Interiors?<br />Join the TileWorld Experience`,
+  logo2: `TileWorld`,
+  mail: `contact@tileworld.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © TowelElegance. All rights reserved.`,
+  logo3: `Copyright © TileWorld. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
