@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'DoorwayDeluxe',
-  heroTitle: `Discover Elegance at<br />DoorwayDeluxe's Premier Showroom.`,
-  heroDescription: `Step into a world of exquisite doors and entryways, carefully curated for discerning homeowners.`,
-  featuresMainTitle: 'Embark on a Doorway Journey with DoorwayDeluxe',
+  logo: 'ViewVista',
+  heroTitle: `Experience Clarity at<br />ViewVista's Window Emporium.`,
+  heroDescription: `Enter a realm of stunning windows and panoramic vistas, meticulously curated for discerning homeowners.`,
+  featuresMainTitle: 'Embark on a Window Journey with ViewVista',
   featuresMainDescription:
-    "Open the door to a world of possibilities with DoorwayDeluxe's exclusive collection.",
+    "Open the window to a world of possibilities with ViewVista's exclusive collection.",
   featuresList: `<li class="mb-2">
-  <strong>Premium Door Selection:</strong> Elevate your home's aesthetic with our premium range of doors, tailored to your style.
+  <strong>Premium Window Selection:</strong> Elevate your home's ambiance with our premium range of windows, tailored to your style.
 </li>
 <li class="mb-2">
-  <strong>Home Improvement Adventures:</strong> Experience the perfect blend of craftsmanship and functionality with our meticulously designed doors.
+  <strong>Home Transformation Expeditions:</strong> Experience the perfect blend of craftsmanship and functionality with our meticulously designed windows.
 </li>
 <li class="mb-2">
-  <strong>Artisanal Entryways:</strong> Each entryway showcases artistry, ensuring your home stands out.
+  <strong>Scenic Panoramas:</strong> Each window frames nature's beauty, ensuring your home stands out.
 </li>
 <li class="mb-2">
-  <strong>Custom Door Solutions:</strong> Find doors that cater to your unique home, customized for your architectural pleasure.
+  <strong>Custom Window Solutions:</strong> Find windows that cater to your unique home, customized for your architectural pleasure.
 </li>`,
-  featuresListCol1T: `Elegance<br />for Every Home`,
-  featuresListCol1D: `Explore the essence of home elegance with DoorwayDeluxe's latest collections. Elevate your living space with doors that match your style.`,
-  featuresListCol2T: `Aesthetic Home Experiences<br />Await You`,
-  featuresListCol2D: `Experience the ultimate delight of exquisite doors and entryways. Elevate your home's charm with our premium offerings.`,
-  featuresListCol3T: `Distinctive Entryways<br />for Every Home`,
-  featuresListCol3D: `Enhance your home's curb appeal with our distinctive entryway solutions. Let your home reflect your taste for beauty.`,
-  caseTitle: `Explore Our Door Collection`,
-  caseTitleDesc: `Unveiling DoorwayDeluxe's Selection`,
-  caseTitleDesc1T: `Exquisite Door Selections`,
-  caseTitleDesc1D: `Indulge in the richness of our exquisite door selections, designed to elevate your home's appeal with flair and sophistication.`,
-  caseTitleDesc2T: `Home Aesthetic Enhancements`,
-  caseTitleDesc2D: `Enhance your home's beauty with our architectural enhancements, adding a touch of uniqueness to every entryway.`,
-  caseTitleDesc3T: `Customized Door Solutions`,
-  caseTitleDesc3D: `Customize your home's entryways with DoorwayDeluxe, ensuring each door is tailored to your unique architectural vision and preferences.`,
-  caseTitleDesc4T: `Elegant Home Transformations`,
-  caseTitleDesc4D: `Experience the joy of our home transformation collection, elevating your living space to new heights.`,
-  mob1Title: `Elevate Your Home<br />with DoorwayDeluxe!`,
-  mob1Desc: `Step into the world of home elegance with our exquisite door collections.`,
-  mob1Desc2: `From everyday entryways to grand home makeovers, DoorwayDeluxe is redefining the art of home aesthetics. Dive into a world where every door is a symbol of beauty.`,
-  mob2Title: `Where Elegance Meets<br />Architectural Excellence.`,
-  mob2Desc: `At DoorwayDeluxe, doors are more than just entryways. They're about enhancing your living experience and creating memorable first impressions.`,
-  mob2Desc2: `Embrace the power of artisanal entryways.`,
+  featuresListCol1T: `Clarity<br />for Every Home`,
+  featuresListCol1D: `Explore the essence of home clarity with ViewVista's latest collections. Enhance your living space with windows that match your style.`,
+  featuresListCol2T: `Aesthetic Home Views<br />Await You`,
+  featuresListCol2D: `Experience the ultimate delight of scenic windows and breathtaking vistas. Elevate your home's charm with our premium offerings.`,
+  featuresListCol3T: `Distinctive Panoramas<br />for Every Home`,
+  featuresListCol3D: `Enhance your home's curb appeal with our distinctive window solutions. Let your home embrace the beauty of the outdoors.`,
+  caseTitle: `Explore Our Window Collection`,
+  caseTitleDesc: `Unveiling ViewVista's Selection`,
+  caseTitleDesc1T: `Exquisite Window Selections`,
+  caseTitleDesc1D: `Indulge in the richness of our exquisite window selections, designed to elevate your home's ambiance with flair and sophistication.`,
+  caseTitleDesc2T: `Home Aesthetic Transformations`,
+  caseTitleDesc2D: `Enhance your home's beauty with our architectural transformations, adding a touch of uniqueness to every view.`,
+  caseTitleDesc3T: `Customized Window Solutions`,
+  caseTitleDesc3D: `Customize your home's views with ViewVista, ensuring each window frames your unique architectural vision and preferences.`,
+  caseTitleDesc4T: `Elegant Home Enhancements`,
+  caseTitleDesc4D: `Experience the joy of our home enhancement collection, elevating your living space to new heights.`,
+  mob1Title: `Elevate Your Home<br />with ViewVista!`,
+  mob1Desc: `Step into the world of home clarity with our exquisite window collections.`,
+  mob1Desc2: `From everyday views to grand home transformations, ViewVista is redefining the art of home aesthetics. Dive into a world where every window is a frame of beauty.`,
+  mob2Title: `Where Clarity Meets<br />Architectural Excellence.`,
+  mob2Desc: `At ViewVista, windows are more than just openings. They're about enhancing your living experience and creating memorable visual impressions.`,
+  mob2Desc2: `Embrace the power of panoramic vistas.`,
   custTitle: `Customer Testimonials`,
   custDesc: `Hear from our satisfied homeowners and architectural enthusiasts.`,
-  cust1: `DoorwayDeluxe's doors are a game changer. Their designs are unmatched, and they transformed my home into an architectural masterpiece.`,
-  cust1Name: `Jessica Taylor`,
+  cust1: `ViewVista's windows are a game changer. Their designs are unmatched, and they transformed my home into an architectural masterpiece.`,
+  cust1Name: `Sophia Harris`,
   cust1Prof: `Homeowner`,
-  cust2: `The quality and variety of DoorwayDeluxe's doors are beyond impressive. Every entry feels like a grand entrance.`,
-  cust2Name: `David Walker`,
+  cust2: `The quality and variety of ViewVista's windows are beyond impressive. Every view feels like a scenic masterpiece.`,
+  cust2Name: `Michael Turner`,
   cust2Prof: `Architectural Enthusiast`,
-  cust3: `From small upgrades to grand transformations, DoorwayDeluxe has it all. The epitome of home elegance.`,
-  cust3Name: `Emily Harrison`,
+  cust3: `From small upgrades to grand transformations, ViewVista has it all. The epitome of home clarity.`,
+  cust3Name: `Olivia Anderson`,
   cust3Prof: `Interior Designer`,
-  contactTitle: `Ready for an Elegant Home Upgrade?<br />Join the DoorwayDeluxe Experience`,
-  logo2: `DoorwayDeluxe`,
-  mail: `contact@doorwaydeluxe.com`,
+  contactTitle: `Ready for a Clear View Upgrade?<br />Join the ViewVista Experience`,
+  logo2: `ViewVista`,
+  mail: `contact@viewvista.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © DoorwayDeluxe. All rights reserved.`,
+  logo3: `Copyright © ViewVista. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
