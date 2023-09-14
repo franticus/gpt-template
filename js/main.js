@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'RampMasterPro',
-  heroTitle: `Elevate Your Ride<br />with RampMasterPro Skateboards.`,
-  heroDescription: `Immerse yourself in the world of extreme skateboarding, where every trick is a masterpiece of skill.`,
-  featuresMainTitle: 'Discover the Thrill of RampMasterPro',
+  logo: 'DirtBuster',
+  heroTitle: `Revolutionize Your Cleaning<br />with DirtBuster Vacuums.`,
+  heroDescription: `Step into the world of pristine cleanliness, where every DustBuster vacuum is a marvel of cleaning technology.`,
+  featuresMainTitle: 'Discover the Power of DirtBuster',
   featuresMainDescription:
-    "Experience the epitome of skateboarding with RampMasterPro's collection of premium skateboards and gear.",
+    "Experience the pinnacle of cleaning with DirtBuster's range of premium vacuums and cleaning solutions.",
   featuresList: `<li class="mb-2">
-  <strong>Premium Skateboards:</strong> Elevate your ride with our latest skateboard designs, tailored for skateboarding enthusiasts.
+  <strong>Premium Vacuums:</strong> Elevate your cleaning game with our latest vacuum models, designed for cleaning enthusiasts.
 </li>
 <li class="mb-2">
-  <strong>Unique Designs:</strong> Explore a range of stylish skate gear, meticulously crafted to suit your skateboarding style.
+  <strong>Innovative Designs:</strong> Explore a variety of stylish cleaning appliances, expertly crafted to suit your cleaning needs.
 </li>
 <li class="mb-2">
-  <strong>Pro-Level Performance:</strong> Every skateboard is built for ultimate performance, ensuring your tricks are exceptional.
+  <strong>Pro-Level Performance:</strong> Every vacuum is engineered for superior cleaning, ensuring your home is spotless.
 </li>
 <li class="mb-2">
-  <strong>Customized Gear:</strong> Personalize your skateboarding experience to match your unique preferences, tailored for your skateboarding satisfaction.
+  <strong>Customized Cleaning:</strong> Personalize your cleaning experience to match your unique preferences, tailored for your cleaning satisfaction.
 </li>`,
-  featuresListCol1T: `Skateboard Collection<br />for Every Rider`,
-  featuresListCol1D: `Step into the world of skateboarding excellence with RampMasterPro's latest collection. Enhance your tricks with skateboards that perfectly resonate with your style.`,
-  featuresListCol2T: `Exclusive Skate Gear Selection<br />Awaits You`,
-  featuresListCol2D: `Experience the ultimate skate gear selection with our carefully curated lineup, adding a touch of style to your every ride.`,
-  featuresListCol3T: `Skateboard Paradise<br />for Every Rider`,
-  featuresListCol3D: `Elevate your skateboarding journey with our sleek designs and distinctive gear offerings. Let every trick embrace the joy of skateboarding.`,
-  caseTitle: `Explore Our Skateboarding Creations`,
-  caseTitleDesc: `Discover RampMasterPro's Skateboarding Revolution`,
-  caseTitleDesc1T: `Pro-Level Skateboards`,
-  caseTitleDesc1D: `Indulge in the excellence of our skateboards, meticulously designed to elevate your skateboarding with precision and style.`,
-  caseTitleDesc2T: `Skate Gear Selections`,
-  caseTitleDesc2D: `Enhance your skateboarding universe with our carefully crafted gear, infusing a touch of style into every ride.`,
-  caseTitleDesc3T: `Customized Skate Experience`,
-  caseTitleDesc3D: `Customize your skateboarding experience with RampMasterPro, ensuring each ride aligns with your unique style vision and preferences.`,
-  caseTitleDesc4T: `Extreme Skateboarding Thrills`,
-  caseTitleDesc4D: `Experience the joy of our sleek skateboard designs, elevating your tricks to new heights.`,
-  mob1Title: `Elevate Your Ride<br />Experience with RampMasterPro!`,
-  mob1Desc: `Step into the world of extreme skateboarding with RampMasterPro.`,
-  mob1Desc2: `From classic designs to high-performance gear, RampMasterPro is redefining the world of skateboarding. Immerse yourself in a world where every trick is a masterpiece.`,
-  mob2Title: `Where Style Meets<br />Skateboarding Thrills.`,
-  mob2Desc: `At RampMasterPro, skateboarding is more than just a sport. It's about enhancing your tricks and creating unforgettable moments of skill.`,
-  mob2Desc2: `Embrace the thrill of skateboarding.`,
-  custTitle: `Rider Reviews`,
-  custDesc: `Listen to our satisfied riders and skateboarding enthusiasts.`,
-  cust1: `RampMasterPro's skateboards are a game changer. Their collection is unmatched, and they transformed my skateboarding into extreme fun.`,
-  cust1Name: `Samantha Turner`,
-  cust1Prof: `Skateboard Enthusiast`,
-  cust2: `The quality and variety of RampMasterPro's skate gear are beyond impressive. Every trick feels like a stylish masterpiece.`,
-  cust2Name: `Jake Smith`,
-  cust2Prof: `Skateboarding Pro`,
-  cust3: `From classic designs to high-performance gear, RampMasterPro has it all. The epitome of skateboarding excellence.`,
-  cust3Name: `Alexandra Parker`,
-  cust3Prof: `Extreme Sports Enthusiast`,
-  contactTitle: `Ready for a Skateboarding Revolution?<br />Join the RampMasterPro Journey`,
-  logo2: `RampMasterPro`,
-  mail: `contact@rampmasterpro.com`,
+  featuresListCol1T: `Cleaning Collection<br />for Every Home`,
+  featuresListCol1D: `Step into the world of cleaning excellence with DirtBuster's latest collection. Enhance your cleaning routine with vacuums that perfectly fit your needs.`,
+  featuresListCol2T: `Exclusive Cleaning Solutions<br />Await You`,
+  featuresListCol2D: `Experience the ultimate cleaning solutions with our carefully curated lineup, adding a touch of style to your home.`,
+  featuresListCol3T: `Clean Home Paradise<br />for Every Household`,
+  featuresListCol3D: `Elevate your cleaning journey with our sleek designs and distinctive cleaning offerings. Let every room embrace the joy of cleanliness.`,
+  caseTitle: `Explore Our Cleaning Creations`,
+  caseTitleDesc: `Discover DirtBuster's Cleaning Revolution`,
+  caseTitleDesc1T: `Pro-Level Vacuums`,
+  caseTitleDesc1D: `Indulge in the excellence of our vacuums, meticulously designed to elevate your cleaning with precision and style.`,
+  caseTitleDesc2T: `Cleaning Solutions`,
+  caseTitleDesc2D: `Enhance your cleaning universe with our carefully crafted cleaning solutions, infusing a touch of style into every room.`,
+  caseTitleDesc3T: `Customized Cleaning Experience`,
+  caseTitleDesc3D: `Customize your cleaning routine with DirtBuster, ensuring each clean aligns with your unique cleanliness vision and preferences.`,
+  caseTitleDesc4T: `Effortless Cleaning Thrills`,
+  caseTitleDesc4D: `Experience the joy of our sleek cleaning designs, elevating your cleaning routine to new heights.`,
+  mob1Title: `Elevate Your Cleaning<br />Experience with DirtBuster!`,
+  mob1Desc: `Step into the world of pristine cleanliness with DirtBuster.`,
+  mob1Desc2: `From innovative designs to high-performance cleaning appliances, DirtBuster is redefining the world of cleaning. Immerse yourself in a world where every room is spotless.`,
+  mob2Title: `Where Style Meets<br />Effortless Cleaning Thrills.`,
+  mob2Desc: `At DirtBuster, cleaning is more than just a chore. It's about enhancing your cleaning routine and creating unforgettable moments of cleanliness.`,
+  mob2Desc2: `Embrace the thrill of a spotless home.`,
+  custTitle: `Customer Reviews`,
+  custDesc: `Listen to our satisfied homeowners and cleaning enthusiasts.`,
+  cust1: `DirtBuster's vacuums are a game changer. Their collection is unmatched, and they transformed my cleaning into a breeze.`,
+  cust1Name: `Emily Anderson`,
+  cust1Prof: `Homeowner`,
+  cust2: `The quality and variety of DirtBuster's cleaning appliances are beyond impressive. Every room feels spotless and stylish.`,
+  cust2Name: `John Davis`,
+  cust2Prof: `Cleaning Enthusiast`,
+  cust3: `From innovative designs to high-performance cleaning solutions, DirtBuster has it all. The epitome of cleaning excellence.`,
+  cust3Name: `Sophia Martinez`,
+  cust3Prof: `Cleanliness Advocate`,
+  contactTitle: `Ready for a Cleaning Revolution?<br />Join the DirtBuster Journey`,
+  logo2: `DirtBuster`,
+  mail: `contact@dirtbuster.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © RampMasterPro. All rights reserved.`,
+  logo3: `Copyright © DirtBuster. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
