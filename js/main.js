@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'PureResidenceCare',
-  heroTitle: `Transform Your Home Cleaning<br />with PureResidenceCare Services.`,
-  heroDescription: `Step into a world of pristine living, where PureResidenceCare brings the magic of cleanliness to your doorstep.`,
-  featuresMainTitle: 'Discover the Excellence of PureResidenceCare',
+  logo: 'MowEliteServices',
+  heroTitle: `Elevate Your Lawn's Beauty<br />with MowEliteServices.`,
+  heroDescription: `Step into a world of lush greenery, where MowEliteServices brings the magic of expert lawn care to your doorstep.`,
+  featuresMainTitle: 'Discover the Excellence of MowEliteServices',
   featuresMainDescription:
-    "Experience top-tier home cleaning services tailored to your needs by PureResidenceCare's expert team.",
+    "Experience top-tier lawn care services tailored to your needs by MowEliteServices' dedicated team.",
   featuresList: `<li class="mb-2">
-  <strong>Premium Cleaning:</strong> Elevate your home's cleanliness with our skilled team and top-notch equipment.
+  <strong>Precision Lawn Trimming:</strong> Enhance your lawn's beauty with our skilled team and top-of-the-line equipment.
 </li>
 <li class="mb-2">
-  <strong>Creative Solutions:</strong> Explore innovative cleaning techniques and solutions for a fresh, inviting atmosphere.
+  <strong>Innovative Landscaping:</strong> Explore creative landscaping techniques for a vibrant, inviting outdoor space.
 </li>
 <li class="mb-2">
-  <strong>Professional Service:</strong> Our team is dedicated to delivering superior cleaning, ensuring your home is spotless.
+  <strong>Expert Service:</strong> Our team is committed to delivering superior lawn care, ensuring your outdoor space is pristine.
 </li>
 <li class="mb-2">
-  <strong>Customized Care:</strong> Personalize your cleaning experience to match your unique preferences, tailored for your satisfaction.
+  <strong>Customized Solutions:</strong> Personalize your lawn care experience to match your unique preferences, tailored for your satisfaction.
 </li>`,
-  featuresListCol1T: `Home Cleaning<br />Solutions for Every Residence`,
-  featuresListCol1D: `Experience excellence in home cleaning with PureResidenceCare's latest solutions. Enhance your living space with services that cater perfectly to your needs.`,
-  featuresListCol2T: `Exclusive Cleaning Techniques<br />Await You`,
-  featuresListCol2D: `Experience the ultimate in home cleaning services with our carefully crafted lineup, adding a touch of freshness to your living space.`,
-  featuresListCol3T: `A Clean Home Paradise<br />for Every Household`,
-  featuresListCol3D: `Elevate your living environment with our attentive team and distinctive cleaning offerings. Let every room radiate the joy of cleanliness.`,
-  caseTitle: `Explore Our Cleaning Services`,
-  caseTitleDesc: `Discover PureResidenceCare's Cleaning Excellence`,
-  caseTitleDesc1T: `Professional Home Cleaning`,
-  caseTitleDesc1D: `Indulge in the expertise of our home cleaning services, meticulously designed to elevate your living space with precision and care.`,
-  caseTitleDesc2T: `Innovative Cleaning Solutions`,
-  caseTitleDesc2D: `Enhance your living space with our creative cleaning solutions, infusing a touch of freshness into every corner of your home.`,
-  caseTitleDesc3T: `Tailored Home Cleaning Experience`,
-  caseTitleDesc3D: `Customize your home cleaning routine with PureResidenceCare, ensuring each cleaning session aligns with your unique vision and preferences.`,
-  caseTitleDesc4T: `Effortless Home Cleaning Delights`,
-  caseTitleDesc4D: `Experience the joy of a clean and fresh home, thanks to our dedicated team and effective cleaning methods.`,
-  mob1Title: `Elevate Your Living<br />Experience with PureResidenceCare!`,
-  mob1Desc: `Step into a world of pristine living with PureResidenceCare.`,
-  mob1Desc2: `From innovative cleaning techniques to professional service, PureResidenceCare is redefining the world of home cleaning. Immerse yourself in a world where every room is spotless and inviting.`,
-  mob2Title: `Where Cleanliness Meets<br />Effortless Living Joy.`,
-  mob2Desc: `At PureResidenceCare, cleanliness is more than just a service. It's about enhancing your living experience and creating unforgettable moments in a fresh and inviting home.`,
-  mob2Desc2: `Embrace the joy of a spotless and welcoming residence.`,
+  featuresListCol1T: `Lawn Care<br />Solutions for Every Property`,
+  featuresListCol1D: `Experience excellence in lawn care with MowEliteServices' latest solutions. Enhance your outdoor space with services that cater perfectly to your property's needs.`,
+  featuresListCol2T: `Exclusive Landscaping<br />Techniques Await You`,
+  featuresListCol2D: `Experience the ultimate in lawn care services with our carefully crafted lineup, adding a touch of freshness to your outdoor area.`,
+  featuresListCol3T: `A Green Paradise<br />for Every Property`,
+  featuresListCol3D: `Elevate your outdoor environment with our attentive team and distinctive landscaping offerings. Let your lawn radiate the beauty of nature.`,
+  caseTitle: `Explore Our Lawn Care Services`,
+  caseTitleDesc: `Discover MowEliteServices' Lawn Care Excellence`,
+  caseTitleDesc1T: `Professional Lawn Care`,
+  caseTitleDesc1D: `Indulge in the expertise of our lawn care services, meticulously designed to elevate your property's outdoor space with precision and care.`,
+  caseTitleDesc2T: `Innovative Landscaping Solutions`,
+  caseTitleDesc2D: `Enhance your outdoor space with our creative landscaping solutions, infusing a touch of natural beauty into every corner of your property.`,
+  caseTitleDesc3T: `Tailored Lawn Care Experience`,
+  caseTitleDesc3D: `Customize your lawn care routine with MowEliteServices, ensuring each session aligns with your unique vision and preferences.`,
+  caseTitleDesc4T: `Effortless Lawn Care Delights`,
+  caseTitleDesc4D: `Experience the joy of a beautifully maintained lawn, thanks to our dedicated team and effective landscaping methods.`,
+  mob1Title: `Elevate Your Outdoor<br />Experience with MowEliteServices!`,
+  mob1Desc: `Step into a world of lush green beauty with MowEliteServices.`,
+  mob1Desc2: `From innovative landscaping techniques to expert service, MowEliteServices is redefining the world of lawn care. Immerse yourself in a world where your lawn is always pristine and inviting.`,
+  mob2Title: `Where Beauty Meets<br />Effortless Lawn Joy.`,
+  mob2Desc: `At MowEliteServices, lawn care is more than just a service. It's about enhancing your outdoor experience and creating unforgettable moments in a beautifully landscaped space.`,
+  mob2Desc2: `Embrace the joy of a well-manicured and welcoming property.`,
   custTitle: `Client Testimonials`,
-  custDesc: `Listen to our satisfied homeowners and cleanliness enthusiasts.`,
-  cust1: `PureResidenceCare's cleaning services are a game changer. Their attention to detail is unmatched, and they transformed my home into a haven of cleanliness.`,
-  cust1Name: `Sarah Johnson`,
-  cust1Prof: `Homeowner`,
-  cust2: `The quality and variety of PureResidenceCare's home cleaning solutions are beyond impressive. Every corner of my house feels clean and refreshed.`,
-  cust2Name: `David Wilson`,
-  cust2Prof: `Cleanliness Enthusiast`,
-  cust3: `From innovative cleaning techniques to attentive service, PureResidenceCare has it all. They are the epitome of home cleaning excellence.`,
-  cust3Name: `Emma Smith`,
-  cust3Prof: `Cleanliness Advocate`,
-  contactTitle: `Ready for a Clean Home Revolution?<br />Join the PureResidenceCare Journey`,
-  logo2: `PureResidenceCare`,
-  mail: `contact@pureresidencecare.com`,
+  custDesc: `Listen to our satisfied property owners and outdoor enthusiasts.`,
+  cust1: `MowEliteServices' lawn care is a game changer. Their attention to detail is unmatched, and they transformed my property into a haven of natural beauty.`,
+  cust1Name: `Lisa Anderson`,
+  cust1Prof: `Property Owner`,
+  cust2: `The quality and variety of MowEliteServices' lawn care solutions are beyond impressive. Every corner of my property feels beautifully landscaped and refreshed.`,
+  cust2Name: `John Miller`,
+  cust2Prof: `Outdoor Enthusiast`,
+  cust3: `From innovative landscaping techniques to attentive service, MowEliteServices has it all. They are the epitome of lawn care excellence.`,
+  cust3Name: `Michaela Davis`,
+  cust3Prof: `Landscaping Enthusiast`,
+  contactTitle: `Ready for a Lawn Care Revolution?<br />Join the MowEliteServices Journey`,
+  logo2: `MowEliteServices`,
+  mail: `contact@moweliteservices.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © PureResidenceCare. All rights reserved.`,
+  logo3: `Copyright © MowEliteServices. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
