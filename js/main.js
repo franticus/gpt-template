@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'DirtBuster',
-  heroTitle: `Revolutionize Your Cleaning<br />with DirtBuster Vacuums.`,
-  heroDescription: `Step into the world of pristine cleanliness, where every DustBuster vacuum is a marvel of cleaning technology.`,
-  featuresMainTitle: 'Discover the Power of DirtBuster',
+  logo: 'PureResidenceCare',
+  heroTitle: `Transform Your Home Cleaning<br />with PureResidenceCare Services.`,
+  heroDescription: `Step into a world of pristine living, where PureResidenceCare brings the magic of cleanliness to your doorstep.`,
+  featuresMainTitle: 'Discover the Excellence of PureResidenceCare',
   featuresMainDescription:
-    "Experience the pinnacle of cleaning with DirtBuster's range of premium vacuums and cleaning solutions.",
+    "Experience top-tier home cleaning services tailored to your needs by PureResidenceCare's expert team.",
   featuresList: `<li class="mb-2">
-  <strong>Premium Vacuums:</strong> Elevate your cleaning game with our latest vacuum models, designed for cleaning enthusiasts.
+  <strong>Premium Cleaning:</strong> Elevate your home's cleanliness with our skilled team and top-notch equipment.
 </li>
 <li class="mb-2">
-  <strong>Innovative Designs:</strong> Explore a variety of stylish cleaning appliances, expertly crafted to suit your cleaning needs.
+  <strong>Creative Solutions:</strong> Explore innovative cleaning techniques and solutions for a fresh, inviting atmosphere.
 </li>
 <li class="mb-2">
-  <strong>Pro-Level Performance:</strong> Every vacuum is engineered for superior cleaning, ensuring your home is spotless.
+  <strong>Professional Service:</strong> Our team is dedicated to delivering superior cleaning, ensuring your home is spotless.
 </li>
 <li class="mb-2">
-  <strong>Customized Cleaning:</strong> Personalize your cleaning experience to match your unique preferences, tailored for your cleaning satisfaction.
+  <strong>Customized Care:</strong> Personalize your cleaning experience to match your unique preferences, tailored for your satisfaction.
 </li>`,
-  featuresListCol1T: `Cleaning Collection<br />for Every Home`,
-  featuresListCol1D: `Step into the world of cleaning excellence with DirtBuster's latest collection. Enhance your cleaning routine with vacuums that perfectly fit your needs.`,
-  featuresListCol2T: `Exclusive Cleaning Solutions<br />Await You`,
-  featuresListCol2D: `Experience the ultimate cleaning solutions with our carefully curated lineup, adding a touch of style to your home.`,
-  featuresListCol3T: `Clean Home Paradise<br />for Every Household`,
-  featuresListCol3D: `Elevate your cleaning journey with our sleek designs and distinctive cleaning offerings. Let every room embrace the joy of cleanliness.`,
-  caseTitle: `Explore Our Cleaning Creations`,
-  caseTitleDesc: `Discover DirtBuster's Cleaning Revolution`,
-  caseTitleDesc1T: `Pro-Level Vacuums`,
-  caseTitleDesc1D: `Indulge in the excellence of our vacuums, meticulously designed to elevate your cleaning with precision and style.`,
-  caseTitleDesc2T: `Cleaning Solutions`,
-  caseTitleDesc2D: `Enhance your cleaning universe with our carefully crafted cleaning solutions, infusing a touch of style into every room.`,
-  caseTitleDesc3T: `Customized Cleaning Experience`,
-  caseTitleDesc3D: `Customize your cleaning routine with DirtBuster, ensuring each clean aligns with your unique cleanliness vision and preferences.`,
-  caseTitleDesc4T: `Effortless Cleaning Thrills`,
-  caseTitleDesc4D: `Experience the joy of our sleek cleaning designs, elevating your cleaning routine to new heights.`,
-  mob1Title: `Elevate Your Cleaning<br />Experience with DirtBuster!`,
-  mob1Desc: `Step into the world of pristine cleanliness with DirtBuster.`,
-  mob1Desc2: `From innovative designs to high-performance cleaning appliances, DirtBuster is redefining the world of cleaning. Immerse yourself in a world where every room is spotless.`,
-  mob2Title: `Where Style Meets<br />Effortless Cleaning Thrills.`,
-  mob2Desc: `At DirtBuster, cleaning is more than just a chore. It's about enhancing your cleaning routine and creating unforgettable moments of cleanliness.`,
-  mob2Desc2: `Embrace the thrill of a spotless home.`,
-  custTitle: `Customer Reviews`,
-  custDesc: `Listen to our satisfied homeowners and cleaning enthusiasts.`,
-  cust1: `DirtBuster's vacuums are a game changer. Their collection is unmatched, and they transformed my cleaning into a breeze.`,
-  cust1Name: `Emily Anderson`,
+  featuresListCol1T: `Home Cleaning<br />Solutions for Every Residence`,
+  featuresListCol1D: `Experience excellence in home cleaning with PureResidenceCare's latest solutions. Enhance your living space with services that cater perfectly to your needs.`,
+  featuresListCol2T: `Exclusive Cleaning Techniques<br />Await You`,
+  featuresListCol2D: `Experience the ultimate in home cleaning services with our carefully crafted lineup, adding a touch of freshness to your living space.`,
+  featuresListCol3T: `A Clean Home Paradise<br />for Every Household`,
+  featuresListCol3D: `Elevate your living environment with our attentive team and distinctive cleaning offerings. Let every room radiate the joy of cleanliness.`,
+  caseTitle: `Explore Our Cleaning Services`,
+  caseTitleDesc: `Discover PureResidenceCare's Cleaning Excellence`,
+  caseTitleDesc1T: `Professional Home Cleaning`,
+  caseTitleDesc1D: `Indulge in the expertise of our home cleaning services, meticulously designed to elevate your living space with precision and care.`,
+  caseTitleDesc2T: `Innovative Cleaning Solutions`,
+  caseTitleDesc2D: `Enhance your living space with our creative cleaning solutions, infusing a touch of freshness into every corner of your home.`,
+  caseTitleDesc3T: `Tailored Home Cleaning Experience`,
+  caseTitleDesc3D: `Customize your home cleaning routine with PureResidenceCare, ensuring each cleaning session aligns with your unique vision and preferences.`,
+  caseTitleDesc4T: `Effortless Home Cleaning Delights`,
+  caseTitleDesc4D: `Experience the joy of a clean and fresh home, thanks to our dedicated team and effective cleaning methods.`,
+  mob1Title: `Elevate Your Living<br />Experience with PureResidenceCare!`,
+  mob1Desc: `Step into a world of pristine living with PureResidenceCare.`,
+  mob1Desc2: `From innovative cleaning techniques to professional service, PureResidenceCare is redefining the world of home cleaning. Immerse yourself in a world where every room is spotless and inviting.`,
+  mob2Title: `Where Cleanliness Meets<br />Effortless Living Joy.`,
+  mob2Desc: `At PureResidenceCare, cleanliness is more than just a service. It's about enhancing your living experience and creating unforgettable moments in a fresh and inviting home.`,
+  mob2Desc2: `Embrace the joy of a spotless and welcoming residence.`,
+  custTitle: `Client Testimonials`,
+  custDesc: `Listen to our satisfied homeowners and cleanliness enthusiasts.`,
+  cust1: `PureResidenceCare's cleaning services are a game changer. Their attention to detail is unmatched, and they transformed my home into a haven of cleanliness.`,
+  cust1Name: `Sarah Johnson`,
   cust1Prof: `Homeowner`,
-  cust2: `The quality and variety of DirtBuster's cleaning appliances are beyond impressive. Every room feels spotless and stylish.`,
-  cust2Name: `John Davis`,
-  cust2Prof: `Cleaning Enthusiast`,
-  cust3: `From innovative designs to high-performance cleaning solutions, DirtBuster has it all. The epitome of cleaning excellence.`,
-  cust3Name: `Sophia Martinez`,
+  cust2: `The quality and variety of PureResidenceCare's home cleaning solutions are beyond impressive. Every corner of my house feels clean and refreshed.`,
+  cust2Name: `David Wilson`,
+  cust2Prof: `Cleanliness Enthusiast`,
+  cust3: `From innovative cleaning techniques to attentive service, PureResidenceCare has it all. They are the epitome of home cleaning excellence.`,
+  cust3Name: `Emma Smith`,
   cust3Prof: `Cleanliness Advocate`,
-  contactTitle: `Ready for a Cleaning Revolution?<br />Join the DirtBuster Journey`,
-  logo2: `DirtBuster`,
-  mail: `contact@dirtbuster.com`,
+  contactTitle: `Ready for a Clean Home Revolution?<br />Join the PureResidenceCare Journey`,
+  logo2: `PureResidenceCare`,
+  mail: `contact@pureresidencecare.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © DirtBuster. All rights reserved.`,
+  logo3: `Copyright © PureResidenceCare. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
