@@ -112,7 +112,7 @@ iframe {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70vh;
+  height: 85vh;
   background: url("../images/hero-bg.jpg") no-repeat;
   background-size: cover;
 }
