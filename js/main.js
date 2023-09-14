@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'MochaMingle',
-  heroTitle: `Discover the Perfect Blend at<br />MochaMingle's Coffee Haven.`,
-  heroDescription: `Step into a world of aromatic brews and delightful treats, carefully crafted for coffee aficionados.`,
-  featuresMainTitle: 'Embark on a Coffee Adventure with MochaMingle',
+  logo: 'CarGleam',
+  heroTitle: `Rediscover Excellence at<br />CarGleam's Auto Service Center.`,
+  heroDescription: `Immerse yourself in a world of automotive expertise and meticulous care, tailored for car enthusiasts.`,
+  featuresMainTitle: 'Embark on an Auto Journey with CarGleam',
   featuresMainDescription:
-    "Open the door to a world of coffee possibilities with MochaMingle's exclusive menu.",
+    "Open the door to a world of automotive possibilities with CarGleam's exclusive services.",
   featuresList: `<li class="mb-2">
-  <strong>Premium Coffee Selection:</strong> Elevate your taste buds with our premium range of coffee blends, tailored to your cravings.
+  <strong>Premium Auto Repairs:</strong> Elevate your vehicle's performance with our top-tier repair services, tailored to your car's unique needs.
 </li>
 <li class="mb-2">
-  <strong>Culinary Creations:</strong> Experience the perfect harmony of flavors and textures with our meticulously crafted coffee and treats.
+  <strong>Engineered Solutions:</strong> Experience the perfect blend of technology and expertise with our meticulously crafted solutions and treatments.
 </li>
 <li class="mb-2">
-  <strong>Cozy Ambiance:</strong> Each sip is an escape into tranquility, ensuring your coffee experience stands out.
+  <strong>Relaxing Waiting Area:</strong> Each visit is a journey into comfort, ensuring your car service experience is exceptional.
 </li>
 <li class="mb-2">
-  <strong>Custom Coffee Creations:</strong> Craft your coffee journey to match your unique taste, customized for your caffeinated pleasure.
+  <strong>Personalized Consultation:</strong> Customize your car service journey to match your individual preferences, tailored for your automotive satisfaction.
 </li>`,
-  featuresListCol1T: `Aromatic<br />Coffee for Every Palate`,
-  featuresListCol1D: `Explore the essence of coffee perfection with MochaMingle's latest creations. Enhance your coffee experience with blends that match your cravings.`,
-  featuresListCol2T: `Culinary Delights<br />Await You`,
-  featuresListCol2D: `Experience the ultimate delight of flavors and textures with our gourmet coffee and delectable treats. Elevate your coffee cravings with our premium offerings.`,
-  featuresListCol3T: `Cozy Ambiance<br />for Every Occasion`,
-  featuresListCol3D: `Enhance your coffee experience with our cozy ambiance and distinctive coffee offerings. Let your senses embrace the variety of aromas.`,
-  caseTitle: `Explore Our Coffee Menu`,
-  caseTitleDesc: `Unveiling MochaMingle's Coffee Delights`,
-  caseTitleDesc1T: `Exquisite Coffee Blends`,
-  caseTitleDesc1D: `Indulge in the richness of our exquisite coffee blends, designed to elevate your coffee experience with aroma and flavor.`,
-  caseTitleDesc2T: `Coffee Adventures`,
-  caseTitleDesc2D: `Enhance your coffee experience with our culinary creations, adding a touch of uniqueness to every sip.`,
-  caseTitleDesc3T: `Customized Coffee Creations`,
-  caseTitleDesc3D: `Customize your coffee experience with MochaMingle, ensuring each cup satisfies your unique caffeine vision and preferences.`,
-  caseTitleDesc4T: `Cozy Ambiance Enhancements`,
-  caseTitleDesc4D: `Experience the joy of our cozy ambiance collection, elevating your coffee moments to new heights.`,
-  mob1Title: `Savor the Aroma<br />with MochaMingle!`,
-  mob1Desc: `Step into the world of coffee perfection with our gourmet menu.`,
-  mob1Desc2: `From everyday coffee cravings to grand coffee adventures, MochaMingle is redefining the art of coffee perfection. Dive into a world where every sip is an aromatic delight.`,
-  mob2Title: `Where Flavor Meets<br />Caffeine Excellence.`,
-  mob2Desc: `At MochaMingle, coffee is more than just a beverage. It's about enhancing your coffee experience and creating memorable aroma impressions.`,
-  mob2Desc2: `Embrace the power of aromatic coffee.`,
-  custTitle: `Customer Testimonials`,
-  custDesc: `Hear from our satisfied coffee enthusiasts and aroma connoisseurs.`,
-  cust1: `MochaMingle's coffee is a game changer. Their blends are unmatched, and they transformed my coffee moments into an aromatic masterpiece.`,
-  cust1Name: `Oliver Smith`,
-  cust1Prof: `Coffee Enthusiast`,
-  cust2: `The quality and variety of MochaMingle's coffee blends are beyond impressive. Every sip feels like an aroma-packed masterpiece.`,
-  cust2Name: `Sophia Walker`,
-  cust2Prof: `Aroma Connoisseur`,
-  cust3: `From classic favorites to unique creations, MochaMingle has it all. The epitome of coffee perfection.`,
-  cust3Name: `Lucas Miller`,
-  cust3Prof: `Caffeine Critic`,
-  contactTitle: `Ready for an Aromatic Experience?<br />Join the MochaMingle Journey`,
-  logo2: `MochaMingle`,
-  mail: `contact@mochamingle.com`,
+  featuresListCol1T: `Top-Notch Repairs<br />for Every Vehicle`,
+  featuresListCol1D: `Explore the pinnacle of automotive excellence with CarGleam's latest services. Enhance your car's performance with solutions that perfectly match your requirements.`,
+  featuresListCol2T: `Engineered Perfection<br />Awaits You`,
+  featuresListCol2D: `Experience the ultimate optimization of your vehicle with our technology-driven solutions, adding a touch of precision to every ride.`,
+  featuresListCol3T: `Comfortable Oasis<br />for Every Visit`,
+  featuresListCol3D: `Enhance your car service experience with our relaxing waiting area and distinctive car service offerings. Let your senses embrace the tranquility.`,
+  caseTitle: `Explore Our Service Menu`,
+  caseTitleDesc: `Discover CarGleam's Automotive Expertise`,
+  caseTitleDesc1T: `Exquisite Auto Repairs`,
+  caseTitleDesc1D: `Indulge in the excellence of our auto repair services, meticulously designed to elevate your vehicle's performance with precision and expertise.`,
+  caseTitleDesc2T: `Automotive Solutions`,
+  caseTitleDesc2D: `Enhance your vehicle's functionality with our engineered solutions, infusing a touch of innovation into every drive.`,
+  caseTitleDesc3T: `Customized Car Service`,
+  caseTitleDesc3D: `Customize your car service experience with CarGleam, ensuring each service satisfies your unique automotive vision and preferences.`,
+  caseTitleDesc4T: `Relaxation Enhancements`,
+  caseTitleDesc4D: `Experience the joy of our comfortable waiting area, elevating your car service moments to new heights.`,
+  mob1Title: `Revitalize Your Ride<br />with CarGleam!`,
+  mob1Desc: `Step into the world of automotive perfection with our premium services.`,
+  mob1Desc2: `From everyday car maintenance to advanced automotive solutions, CarGleam is redefining the art of car service excellence. Dive into a world where every visit optimizes your ride.`,
+  mob2Title: `Where Precision Meets<br />Automotive Mastery.`,
+  mob2Desc: `At CarGleam, your car is more than just a vehicle. It's about enhancing your car service experience and creating memorable automotive impressions.`,
+  mob2Desc2: `Embrace the power of automotive expertise.`,
+  custTitle: `Customer Reviews`,
+  custDesc: `Listen to our satisfied car enthusiasts and automotive connoisseurs.`,
+  cust1: `CarGleam's car service is a game changer. Their services are unparalleled, and they transformed my vehicle into a well-optimized masterpiece.`,
+  cust1Name: `Emily Mitchell`,
+  cust1Prof: `Auto Enthusiast`,
+  cust2: `The quality and variety of CarGleam's car service offerings are beyond impressive. Every visit feels like a luxurious automotive experience.`,
+  cust2Name: `Benjamin Roberts`,
+  cust2Prof: `Automotive Aficionado`,
+  cust3: `From basic maintenance to advanced solutions, CarGleam has it all. The epitome of car service excellence.`,
+  cust3Name: `Dana Anderson`,
+  cust3Prof: `Car Enthusiast`,
+  contactTitle: `Ready for an Optimized Experience?<br />Join the CarGleam Journey`,
+  logo2: `CarGleam`,
+  mail: `contact@cargleam.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © MochaMingle. All rights reserved.`,
+  logo3: `Copyright © CarGleam. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
