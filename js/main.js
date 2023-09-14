@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'MowEliteServices',
-  heroTitle: `Elevate Your Lawn's Beauty<br />with MowEliteServices.`,
-  heroDescription: `Step into a world of lush greenery, where MowEliteServices brings the magic of expert lawn care to your doorstep.`,
-  featuresMainTitle: 'Discover the Excellence of MowEliteServices',
+  logo: 'BrickEmpire',
+  heroTitle: `Build Your Dreams with<br />BrickEmpire.`,
+  heroDescription: `Step into a world of endless possibilities, where BrickEmpire provides the finest bricks for your construction needs.`,
+  featuresMainTitle: 'Discover the Excellence of BrickEmpire',
   featuresMainDescription:
-    "Experience top-tier lawn care services tailored to your needs by MowEliteServices' dedicated team.",
+    "Experience top-tier brick solutions tailored to your projects by BrickEmpire's dedicated team.",
   featuresList: `<li class="mb-2">
-  <strong>Precision Lawn Trimming:</strong> Enhance your lawn's beauty with our skilled team and top-of-the-line equipment.
+  <strong>Premium Brick Selection:</strong> Elevate your construction with our quality bricks and expert guidance.
 </li>
 <li class="mb-2">
-  <strong>Innovative Landscaping:</strong> Explore creative landscaping techniques for a vibrant, inviting outdoor space.
+  <strong>Innovative Building Solutions:</strong> Explore creative construction techniques for your projects.
 </li>
 <li class="mb-2">
-  <strong>Expert Service:</strong> Our team is committed to delivering superior lawn care, ensuring your outdoor space is pristine.
+  <strong>Expert Consultation:</strong> Our team is committed to delivering superior brick solutions, ensuring your projects are solid.
 </li>
 <li class="mb-2">
-  <strong>Customized Solutions:</strong> Personalize your lawn care experience to match your unique preferences, tailored for your satisfaction.
+  <strong>Customized Orders:</strong> Personalize your brick orders to match your unique requirements, tailored for your satisfaction.
 </li>`,
-  featuresListCol1T: `Lawn Care<br />Solutions for Every Property`,
-  featuresListCol1D: `Experience excellence in lawn care with MowEliteServices' latest solutions. Enhance your outdoor space with services that cater perfectly to your property's needs.`,
-  featuresListCol2T: `Exclusive Landscaping<br />Techniques Await You`,
-  featuresListCol2D: `Experience the ultimate in lawn care services with our carefully crafted lineup, adding a touch of freshness to your outdoor area.`,
-  featuresListCol3T: `A Green Paradise<br />for Every Property`,
-  featuresListCol3D: `Elevate your outdoor environment with our attentive team and distinctive landscaping offerings. Let your lawn radiate the beauty of nature.`,
-  caseTitle: `Explore Our Lawn Care Services`,
-  caseTitleDesc: `Discover MowEliteServices' Lawn Care Excellence`,
-  caseTitleDesc1T: `Professional Lawn Care`,
-  caseTitleDesc1D: `Indulge in the expertise of our lawn care services, meticulously designed to elevate your property's outdoor space with precision and care.`,
-  caseTitleDesc2T: `Innovative Landscaping Solutions`,
-  caseTitleDesc2D: `Enhance your outdoor space with our creative landscaping solutions, infusing a touch of natural beauty into every corner of your property.`,
-  caseTitleDesc3T: `Tailored Lawn Care Experience`,
-  caseTitleDesc3D: `Customize your lawn care routine with MowEliteServices, ensuring each session aligns with your unique vision and preferences.`,
-  caseTitleDesc4T: `Effortless Lawn Care Delights`,
-  caseTitleDesc4D: `Experience the joy of a beautifully maintained lawn, thanks to our dedicated team and effective landscaping methods.`,
-  mob1Title: `Elevate Your Outdoor<br />Experience with MowEliteServices!`,
-  mob1Desc: `Step into a world of lush green beauty with MowEliteServices.`,
-  mob1Desc2: `From innovative landscaping techniques to expert service, MowEliteServices is redefining the world of lawn care. Immerse yourself in a world where your lawn is always pristine and inviting.`,
-  mob2Title: `Where Beauty Meets<br />Effortless Lawn Joy.`,
-  mob2Desc: `At MowEliteServices, lawn care is more than just a service. It's about enhancing your outdoor experience and creating unforgettable moments in a beautifully landscaped space.`,
-  mob2Desc2: `Embrace the joy of a well-manicured and welcoming property.`,
+  featuresListCol1T: `Brick Solutions<br />for Every Project`,
+  featuresListCol1D: `Experience excellence in brick solutions with BrickEmpire's latest offerings. Enhance your construction projects with bricks that perfectly suit your needs.`,
+  featuresListCol2T: `Exclusive Building<br />Techniques Await You`,
+  featuresListCol2D: `Experience the ultimate in construction solutions with our carefully crafted lineup, adding a touch of innovation to your projects.`,
+  featuresListCol3T: `A Solid Foundation<br />for Every Structure`,
+  featuresListCol3D: `Elevate your construction projects with our attentive team and distinctive brick offerings. Let your structures stand with the strength of quality bricks.`,
+  caseTitle: `Explore Our Brick Solutions`,
+  caseTitleDesc: `Discover BrickEmpire's Construction Excellence`,
+  caseTitleDesc1T: `Professional Brick Guidance`,
+  caseTitleDesc1D: `Indulge in the expertise of our brick solutions, meticulously designed to elevate your construction projects with precision and care.`,
+  caseTitleDesc2T: `Innovative Building Solutions`,
+  caseTitleDesc2D: `Enhance your construction projects with our creative building solutions, infusing a touch of innovation into every corner of your structures.`,
+  caseTitleDesc3T: `Tailored Brick Orders`,
+  caseTitleDesc3D: `Customize your brick orders with BrickEmpire, ensuring each batch aligns with your unique vision and requirements.`,
+  caseTitleDesc4T: `Solid Construction Delights`,
+  caseTitleDesc4D: `Experience the joy of well-constructed structures, thanks to our dedicated team and effective building methods.`,
+  mob1Title: `Elevate Your Building<br />Experience with BrickEmpire!`,
+  mob1Desc: `Step into a world of solid construction with BrickEmpire.`,
+  mob1Desc2: `From innovative building techniques to expert consultation, BrickEmpire is redefining the world of brick solutions. Immerse yourself in a world where your projects are always strong and reliable.`,
+  mob2Title: `Where Quality Meets<br />Effortless Construction Joy.`,
+  mob2Desc: `At BrickEmpire, construction is more than just a service. It's about enhancing your building experience and creating unforgettable structures with quality bricks.`,
+  mob2Desc2: `Embrace the joy of well-constructed and dependable projects.`,
   custTitle: `Client Testimonials`,
-  custDesc: `Listen to our satisfied property owners and outdoor enthusiasts.`,
-  cust1: `MowEliteServices' lawn care is a game changer. Their attention to detail is unmatched, and they transformed my property into a haven of natural beauty.`,
-  cust1Name: `Lisa Anderson`,
-  cust1Prof: `Property Owner`,
-  cust2: `The quality and variety of MowEliteServices' lawn care solutions are beyond impressive. Every corner of my property feels beautifully landscaped and refreshed.`,
-  cust2Name: `John Miller`,
-  cust2Prof: `Outdoor Enthusiast`,
-  cust3: `From innovative landscaping techniques to attentive service, MowEliteServices has it all. They are the epitome of lawn care excellence.`,
-  cust3Name: `Michaela Davis`,
-  cust3Prof: `Landscaping Enthusiast`,
-  contactTitle: `Ready for a Lawn Care Revolution?<br />Join the MowEliteServices Journey`,
-  logo2: `MowEliteServices`,
-  mail: `contact@moweliteservices.com`,
+  custDesc: `Listen to our satisfied project owners and construction enthusiasts.`,
+  cust1: `BrickEmpire's brick solutions are a game changer. Their attention to detail is unmatched, and they transformed my projects into a testament of quality.`,
+  cust1Name: `Sarah Smith`,
+  cust1Prof: `Project Owner`,
+  cust2: `The quality and variety of BrickEmpire's brick offerings are beyond impressive. Every corner of my structures feels solid and reliable.`,
+  cust2Name: `David Johnson`,
+  cust2Prof: `Construction Enthusiast`,
+  cust3: `From innovative building techniques to attentive consultation, BrickEmpire has it all. They are the epitome of construction excellence.`,
+  cust3Name: `Emily Wilson`,
+  cust3Prof: `Building Contractor`,
+  contactTitle: `Ready for a Brick Revolution?<br />Join the BrickEmpire Journey`,
+  logo2: `BrickEmpire`,
+  mail: `contact@brickempire.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © MowEliteServices. All rights reserved.`,
+  logo3: `Copyright © BrickEmpire. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
