@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'CarGleam',
-  heroTitle: `Rediscover Excellence at<br />CarGleam's Auto Service Center.`,
-  heroDescription: `Immerse yourself in a world of automotive expertise and meticulous care, tailored for car enthusiasts.`,
-  featuresMainTitle: 'Embark on an Auto Journey with CarGleam',
+  logo: 'PlayMatrixRental',
+  heroTitle: `Experience Gaming Bliss at<br />PlayMatrixRental's Game Disc Library.`,
+  heroDescription: `Immerse yourself in a world of gaming excitement and endless choices, curated for gamers.`,
+  featuresMainTitle: 'Embark on a Gaming Odyssey with PlayMatrixRental',
   featuresMainDescription:
-    "Open the door to a world of automotive possibilities with CarGleam's exclusive services.",
+    "Open the door to a world of gaming possibilities with PlayMatrixRental's exclusive collection.",
   featuresList: `<li class="mb-2">
-  <strong>Premium Auto Repairs:</strong> Elevate your vehicle's performance with our top-tier repair services, tailored to your car's unique needs.
+  <strong>Premium Game Discs:</strong> Elevate your gaming experience with our top-tier game disc rentals, tailored to your gaming preferences.
 </li>
 <li class="mb-2">
-  <strong>Engineered Solutions:</strong> Experience the perfect blend of technology and expertise with our meticulously crafted solutions and treatments.
+  <strong>Exclusive Titles:</strong> Dive into a universe of gaming excellence with our meticulously curated game titles, carefully selected to captivate your gaming senses.
 </li>
 <li class="mb-2">
-  <strong>Relaxing Waiting Area:</strong> Each visit is a journey into comfort, ensuring your car service experience is exceptional.
+  <strong>Comfortable Gaming Zone:</strong> Each visit is a journey into gaming comfort, ensuring your gaming experience is exceptional.
 </li>
 <li class="mb-2">
-  <strong>Personalized Consultation:</strong> Customize your car service journey to match your individual preferences, tailored for your automotive satisfaction.
+  <strong>Personalized Recommendations:</strong> Customize your gaming journey to match your individual gaming tastes, tailored for your gaming satisfaction.
 </li>`,
-  featuresListCol1T: `Top-Notch Repairs<br />for Every Vehicle`,
-  featuresListCol1D: `Explore the pinnacle of automotive excellence with CarGleam's latest services. Enhance your car's performance with solutions that perfectly match your requirements.`,
-  featuresListCol2T: `Engineered Perfection<br />Awaits You`,
-  featuresListCol2D: `Experience the ultimate optimization of your vehicle with our technology-driven solutions, adding a touch of precision to every ride.`,
-  featuresListCol3T: `Comfortable Oasis<br />for Every Visit`,
-  featuresListCol3D: `Enhance your car service experience with our relaxing waiting area and distinctive car service offerings. Let your senses embrace the tranquility.`,
-  caseTitle: `Explore Our Service Menu`,
-  caseTitleDesc: `Discover CarGleam's Automotive Expertise`,
-  caseTitleDesc1T: `Exquisite Auto Repairs`,
-  caseTitleDesc1D: `Indulge in the excellence of our auto repair services, meticulously designed to elevate your vehicle's performance with precision and expertise.`,
-  caseTitleDesc2T: `Automotive Solutions`,
-  caseTitleDesc2D: `Enhance your vehicle's functionality with our engineered solutions, infusing a touch of innovation into every drive.`,
-  caseTitleDesc3T: `Customized Car Service`,
-  caseTitleDesc3D: `Customize your car service experience with CarGleam, ensuring each service satisfies your unique automotive vision and preferences.`,
-  caseTitleDesc4T: `Relaxation Enhancements`,
-  caseTitleDesc4D: `Experience the joy of our comfortable waiting area, elevating your car service moments to new heights.`,
-  mob1Title: `Revitalize Your Ride<br />with CarGleam!`,
-  mob1Desc: `Step into the world of automotive perfection with our premium services.`,
-  mob1Desc2: `From everyday car maintenance to advanced automotive solutions, CarGleam is redefining the art of car service excellence. Dive into a world where every visit optimizes your ride.`,
-  mob2Title: `Where Precision Meets<br />Automotive Mastery.`,
-  mob2Desc: `At CarGleam, your car is more than just a vehicle. It's about enhancing your car service experience and creating memorable automotive impressions.`,
-  mob2Desc2: `Embrace the power of automotive expertise.`,
-  custTitle: `Customer Reviews`,
-  custDesc: `Listen to our satisfied car enthusiasts and automotive connoisseurs.`,
-  cust1: `CarGleam's car service is a game changer. Their services are unparalleled, and they transformed my vehicle into a well-optimized masterpiece.`,
-  cust1Name: `Emily Mitchell`,
-  cust1Prof: `Auto Enthusiast`,
-  cust2: `The quality and variety of CarGleam's car service offerings are beyond impressive. Every visit feels like a luxurious automotive experience.`,
-  cust2Name: `Benjamin Roberts`,
-  cust2Prof: `Automotive Aficionado`,
-  cust3: `From basic maintenance to advanced solutions, CarGleam has it all. The epitome of car service excellence.`,
-  cust3Name: `Dana Anderson`,
-  cust3Prof: `Car Enthusiast`,
-  contactTitle: `Ready for an Optimized Experience?<br />Join the CarGleam Journey`,
-  logo2: `CarGleam`,
-  mail: `contact@cargleam.com`,
+  featuresListCol1T: `Top-Notch Game Discs<br />for Every Gamer`,
+  featuresListCol1D: `Explore the pinnacle of gaming excellence with PlayMatrixRental's latest collection. Enhance your gaming adventure with discs that perfectly match your gaming desires.`,
+  featuresListCol2T: `Exclusive Gaming Universe<br />Awaits You`,
+  featuresListCol2D: `Experience the ultimate gaming selection with our carefully chosen titles, adding a touch of excitement to every gaming session.`,
+  featuresListCol3T: `Gaming Oasis<br />for Every Visit`,
+  featuresListCol3D: `Enhance your gaming experience with our comfortable gaming zone and distinctive gaming offerings. Let your gaming senses embrace the thrill.`,
+  caseTitle: `Explore Our Game Disc Collection`,
+  caseTitleDesc: `Discover PlayMatrixRental's Gaming Expertise`,
+  caseTitleDesc1T: `Exquisite Game Discs`,
+  caseTitleDesc1D: `Indulge in the excellence of our game disc rentals, meticulously designed to elevate your gaming adventure with precision and expertise.`,
+  caseTitleDesc2T: `Gaming Selections`,
+  caseTitleDesc2D: `Enhance your gaming universe with our carefully curated titles, infusing a touch of excitement into every gaming experience.`,
+  caseTitleDesc3T: `Customized Gaming Journey`,
+  caseTitleDesc3D: `Customize your gaming experience with PlayMatrixRental, ensuring each rental satisfies your unique gaming vision and preferences.`,
+  caseTitleDesc4T: `Gaming Comfort Enhancements`,
+  caseTitleDesc4D: `Experience the joy of our comfortable gaming zone, elevating your gaming moments to new heights.`,
+  mob1Title: `Elevate Your Gameplay<br />with PlayMatrixRental!`,
+  mob1Desc: `Step into the world of gaming bliss with our premium game disc rentals.`,
+  mob1Desc2: `From classic titles to the latest releases, PlayMatrixRental is redefining the art of gaming excellence. Dive into a world where every rental maximizes your gaming experience.`,
+  mob2Title: `Where Excitement Meets<br />Gaming Mastery.`,
+  mob2Desc: `At PlayMatrixRental, gaming is more than just entertainment. It's about enhancing your gaming journey and creating unforgettable gaming memories.`,
+  mob2Desc2: `Embrace the power of gaming expertise.`,
+  custTitle: `Player Reviews`,
+  custDesc: `Listen to our satisfied gamers and gaming enthusiasts.`,
+  cust1: `PlayMatrixRental's game disc rentals are a game changer. Their selection is unmatched, and they transformed my gaming sessions into thrilling adventures.`,
+  cust1Name: `Alexandra Turner`,
+  cust1Prof: `Gaming Enthusiast`,
+  cust2: `The quality and variety of PlayMatrixRental's game disc collection are beyond impressive. Every rental feels like a premium gaming experience.`,
+  cust2Name: `Maxwell Garcia`,
+  cust2Prof: `Game Aficionado`,
+  cust3: `From classic titles to rare gems, PlayMatrixRental has it all. The epitome of gaming excellence.`,
+  cust3Name: `Sophia Lee`,
+  cust3Prof: `Gamer Extraordinaire`,
+  contactTitle: `Ready for an Epic Gaming Experience?<br />Join the PlayMatrixRental Journey`,
+  logo2: `PlayMatrixRental`,
+  mail: `contact@playmatrixrental.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © CarGleam. All rights reserved.`,
+  logo3: `Copyright © PlayMatrixRental. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
