@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'TechWatchMart',
-  heroTitle: `Discover the Future<br />of Timekeeping at TechWatchMart.`,
-  heroDescription: `Immerse yourself in the world of cutting-edge smartwatches, where each timepiece redefines convenience and style.`,
-  featuresMainTitle: 'Embark on a Smartwatch Journey with TechWatchMart',
+  logo: 'RideElevation',
+  heroTitle: `Elevate Your Ride<br />with RideElevation Bikes.`,
+  heroDescription: `Immerse yourself in the world of top-notch bicycles, where each ride brings excitement and style.`,
+  featuresMainTitle: 'Embark on a Cycling Adventure with RideElevation',
   featuresMainDescription:
-    "Step into a realm of innovation and possibilities with TechWatchMart's collection of state-of-the-art smartwatches.",
+    "Discover a realm of biking excellence with RideElevation's collection of high-performance bicycles.",
   featuresList: `<li class="mb-2">
-  <strong>Next-Gen Timepieces:</strong> Elevate your wrist game with our latest smartwatches, designed for tech-savvy individuals.
+  <strong>Premium Bicycles:</strong> Elevate your ride with our latest bike models, designed for cycling enthusiasts.
 </li>
 <li class="mb-2">
-  <strong>Exclusive Designs:</strong> Explore a universe of stylish smartwatches, meticulously crafted to suit your fashion-forward lifestyle.
+  <strong>Unique Designs:</strong> Explore a range of stylish bicycles, meticulously crafted to suit your cycling lifestyle.
 </li>
 <li class="mb-2">
-  <strong>Intuitive Features:</strong> Every smartwatch is a gateway to convenience, ensuring your everyday experiences are exceptional.
+  <strong>Smooth Riding:</strong> Every bike is engineered for a comfortable journey, ensuring your cycling experiences are exceptional.
 </li>
 <li class="mb-2">
-  <strong>Personalized Assistance:</strong> Customize your smartwatch experience to match your unique needs, tailored for your digital satisfaction.
+  <strong>Customized Fit:</strong> Personalize your bike to match your unique preferences, tailored for your cycling satisfaction.
 </li>`,
-  featuresListCol1T: `Top-Tier Smartwatch Collection<br />for Every Tech Enthusiast`,
-  featuresListCol1D: `Dive into the world of cutting-edge technology with TechWatchMart's latest collection. Enhance your digital journey with timepieces that perfectly resonate with your lifestyle.`,
-  featuresListCol2T: `Exclusive Tech Universe<br />Awaits You`,
-  featuresListCol2D: `Experience the ultimate tech selection with our carefully curated smartwatches, adding a touch of sophistication to your everyday life.`,
-  featuresListCol3T: `Digital Oasis<br />for Every Adventure`,
-  featuresListCol3D: `Elevate your tech journey with our sleek designs and distinctive smartwatch offerings. Let your wrist embrace the magic of innovation.`,
-  caseTitle: `Explore Our Smartwatch Creations`,
-  caseTitleDesc: `Discover TechWatchMart's Digital Revolution`,
-  caseTitleDesc1T: `Cutting-Edge Timepieces`,
-  caseTitleDesc1D: `Indulge in the excellence of our smartwatches, meticulously designed to elevate your digital adventure with precision and style.`,
-  caseTitleDesc2T: `Smartwatch Selections`,
-  caseTitleDesc2D: `Enhance your tech universe with our carefully crafted timepieces, infusing a touch of sophistication into every digital encounter.`,
-  caseTitleDesc3T: `Customized Tech Journey`,
-  caseTitleDesc3D: `Customize your smartwatch experience with TechWatchMart, ensuring each timepiece aligns with your unique tech vision and preferences.`,
-  caseTitleDesc4T: `Digital Comfort Enhancements`,
-  caseTitleDesc4D: `Experience the joy of our sleek smartwatch designs, elevating your digital moments to new heights.`,
-  mob1Title: `Elevate Your Digital<br />Experience with TechWatchMart!`,
-  mob1Desc: `Step into the future of timekeeping with our state-of-the-art smartwatches.`,
-  mob1Desc2: `From classic designs to innovative tech features, TechWatchMart is redefining the world of smartwatches. Immerse yourself in a digital world where every moment is convenient and stylish.`,
-  mob2Title: `Where Technology Meets<br />Fashion.`,
-  mob2Desc: `At TechWatchMart, smartwatches are more than just gadgets. They're about enhancing your digital journey and creating unforgettable tech moments.`,
-  mob2Desc2: `Embrace the magic of tech innovation.`,
+  featuresListCol1T: `Top-Tier Bike Collection<br />for Every Cyclist`,
+  featuresListCol1D: `Dive into the world of cycling excellence with RideElevation's latest collection. Enhance your biking journey with bicycles that perfectly resonate with your lifestyle.`,
+  featuresListCol2T: `Exclusive Bike Universe<br />Awaits You`,
+  featuresListCol2D: `Experience the ultimate bike selection with our carefully curated bicycle lineup, adding a touch of sophistication to your every ride.`,
+  featuresListCol3T: `Cycling Paradise<br />for Every Adventure`,
+  featuresListCol3D: `Elevate your cycling journey with our sleek designs and distinctive bike offerings. Let every ride embrace the joy of exploration.`,
+  caseTitle: `Explore Our Bicycle Creations`,
+  caseTitleDesc: `Discover RideElevation's Cycling Revolution`,
+  caseTitleDesc1T: `High-Performance Bicycles`,
+  caseTitleDesc1D: `Indulge in the excellence of our bicycles, meticulously designed to elevate your cycling adventure with precision and style.`,
+  caseTitleDesc2T: `Bike Selections`,
+  caseTitleDesc2D: `Enhance your cycling universe with our carefully crafted bicycles, infusing a touch of sophistication into every pedal stroke.`,
+  caseTitleDesc3T: `Customized Bike Journey`,
+  caseTitleDesc3D: `Customize your bike experience with RideElevation, ensuring each bicycle aligns with your unique cycling vision and preferences.`,
+  caseTitleDesc4T: `Cycling Comfort Enhancements`,
+  caseTitleDesc4D: `Experience the joy of our sleek bicycle designs, elevating your cycling moments to new heights.`,
+  mob1Title: `Elevate Your Cycling<br />Experience with RideElevation!`,
+  mob1Desc: `Step into the world of top-notch bicycles with RideElevation.`,
+  mob1Desc2: `From classic designs to high-performance features, RideElevation is redefining the world of cycling. Immerse yourself in a world where every ride is smooth and stylish.`,
+  mob2Title: `Where Style Meets<br />Performance.`,
+  mob2Desc: `At RideElevation, bicycles are more than just machines. They're about enhancing your cycling journey and creating unforgettable riding moments.`,
+  mob2Desc2: `Embrace the joy of cycling excellence.`,
   custTitle: `Customer Reviews`,
-  custDesc: `Listen to our satisfied tech enthusiasts and digital connoisseurs.`,
-  cust1: `TechWatchMart's smartwatches are a game changer. Their collection is unmatched, and they transformed my digital experiences into delightful adventures.`,
-  cust1Name: `Emily Miller`,
-  cust1Prof: `Tech Enthusiast`,
-  cust2: `The quality and variety of TechWatchMart's smartwatches are beyond impressive. Every interaction feels like a digital masterpiece.`,
-  cust2Name: `Daniel White`,
-  cust2Prof: `Digital Connoisseur`,
-  cust3: `From classic designs to tech innovations, TechWatchMart has it all. The epitome of digital excellence.`,
-  cust3Name: `Michaela Robinson`,
-  cust3Prof: `Tech Explorer`,
-  contactTitle: `Ready for a Tech Revolution?<br />Join the TechWatchMart Journey`,
-  logo2: `TechWatchMart`,
-  mail: `contact@techwatchmart.com`,
+  custDesc: `Listen to our satisfied cyclists and biking enthusiasts.`,
+  cust1: `RideElevation's bicycles are a game changer. Their collection is unmatched, and they transformed my cycling experiences into delightful adventures.`,
+  cust1Name: `Sophia Davis`,
+  cust1Prof: `Cycling Enthusiast`,
+  cust2: `The quality and variety of RideElevation's bicycles are beyond impressive. Every ride feels like a cycling masterpiece.`,
+  cust2Name: `John Anderson`,
+  cust2Prof: `Biking Connoisseur`,
+  cust3: `From classic designs to high-performance features, RideElevation has it all. The epitome of cycling excellence.`,
+  cust3Name: `Olivia Roberts`,
+  cust3Prof: `Adventure Cyclist`,
+  contactTitle: `Ready for a Cycling Revolution?<br />Join the RideElevation Journey`,
+  logo2: `RideElevation`,
+  mail: `contact@rideelevation.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © TechWatchMart. All rights reserved.`,
+  logo3: `Copyright © RideElevation. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
