@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'EliteTuxShop',
-  heroTitle: `Elevate Your Style<br />with EliteTuxShop Smokings.`,
-  heroDescription: `Immerse yourself in the world of exquisite formalwear, where every occasion is a masterpiece of elegance.`,
-  featuresMainTitle: 'Discover the Elegance of EliteTuxShop',
+  logo: 'RampMasterPro',
+  heroTitle: `Elevate Your Ride<br />with RampMasterPro Skateboards.`,
+  heroDescription: `Immerse yourself in the world of extreme skateboarding, where every trick is a masterpiece of skill.`,
+  featuresMainTitle: 'Discover the Thrill of RampMasterPro',
   featuresMainDescription:
-    "Experience the epitome of sophistication with EliteTuxShop's collection of premium tuxedos and formalwear.",
+    "Experience the epitome of skateboarding with RampMasterPro's collection of premium skateboards and gear.",
   featuresList: `<li class="mb-2">
-  <strong>Premium Tuxedos:</strong> Elevate your style with our latest tuxedo designs, tailored for connoisseurs of elegance.
+  <strong>Premium Skateboards:</strong> Elevate your ride with our latest skateboard designs, tailored for skateboarding enthusiasts.
 </li>
 <li class="mb-2">
-  <strong>Unique Designs:</strong> Explore a range of stylish formalwear, meticulously crafted to suit your special occasions.
+  <strong>Unique Designs:</strong> Explore a range of stylish skate gear, meticulously crafted to suit your skateboarding style.
 </li>
 <li class="mb-2">
-  <strong>Impeccable Fit:</strong> Every tuxedo is tailored for a perfect look, ensuring your events are exceptional.
+  <strong>Pro-Level Performance:</strong> Every skateboard is built for ultimate performance, ensuring your tricks are exceptional.
 </li>
 <li class="mb-2">
-  <strong>Customized Elegance:</strong> Personalize your formalwear to match your unique preferences, tailored for your style satisfaction.
+  <strong>Customized Gear:</strong> Personalize your skateboarding experience to match your unique preferences, tailored for your skateboarding satisfaction.
 </li>`,
-  featuresListCol1T: `Elegant Attire Collection<br />for Every Occasion`,
-  featuresListCol1D: `Step into the world of formal elegance with EliteTuxShop's latest collection. Enhance your special events with tuxedos that perfectly resonate with your style.`,
-  featuresListCol2T: `Exclusive Formalwear Selection<br />Awaits You`,
-  featuresListCol2D: `Experience the ultimate formal attire selection with our carefully curated lineup, adding a touch of sophistication to your every event.`,
-  featuresListCol3T: `Style Paradise<br />for Every Celebration`,
-  featuresListCol3D: `Elevate your style journey with our sleek designs and distinctive formalwear offerings. Let every event embrace the joy of elegance.`,
-  caseTitle: `Explore Our Formalwear Creations`,
-  caseTitleDesc: `Discover EliteTuxShop's Elegance Revolution`,
-  caseTitleDesc1T: `High-End Tuxedos`,
-  caseTitleDesc1D: `Indulge in the excellence of our tuxedos, meticulously designed to elevate your special occasions with precision and style.`,
-  caseTitleDesc2T: `Formal Attire Selections`,
-  caseTitleDesc2D: `Enhance your style universe with our carefully crafted formal attire, infusing a touch of sophistication into every event.`,
-  caseTitleDesc3T: `Customized Style Journey`,
-  caseTitleDesc3D: `Customize your formalwear experience with EliteTuxShop, ensuring each outfit aligns with your unique style vision and preferences.`,
-  caseTitleDesc4T: `Elegance Enhancements`,
-  caseTitleDesc4D: `Experience the joy of our sleek formalwear designs, elevating your special moments to new heights.`,
-  mob1Title: `Elevate Your Style<br />Experience with EliteTuxShop!`,
-  mob1Desc: `Step into the world of exquisite formalwear with EliteTuxShop.`,
-  mob1Desc2: `From classic designs to high-end features, EliteTuxShop is redefining the world of elegance. Immerse yourself in a world where every occasion is a masterpiece.`,
-  mob2Title: `Where Elegance Meets<br />Sophistication.`,
-  mob2Desc: `At EliteTuxShop, formal attire is more than just clothing. It's about enhancing your special events and creating unforgettable moments of style.`,
-  mob2Desc2: `Embrace the joy of elegance.`,
-  custTitle: `Customer Reviews`,
-  custDesc: `Listen to our satisfied patrons and style enthusiasts.`,
-  cust1: `EliteTuxShop's formalwear is a game changer. Their collection is unmatched, and they transformed my special occasions into elegant celebrations.`,
-  cust1Name: `Natalie Foster`,
-  cust1Prof: `Elegance Enthusiast`,
-  cust2: `The quality and variety of EliteTuxShop's formal attire are beyond impressive. Every event feels like a stylish masterpiece.`,
-  cust2Name: `William Roberts`,
-  cust2Prof: `Style Connoisseur`,
-  cust3: `From classic designs to high-end features, EliteTuxShop has it all. The epitome of formal elegance.`,
-  cust3Name: `Sophie Anderson`,
-  cust3Prof: `Event Stylist`,
-  contactTitle: `Ready for an Elegance Revolution?<br />Join the EliteTuxShop Journey`,
-  logo2: `EliteTuxShop`,
-  mail: `contact@elitetuxshop.com`,
+  featuresListCol1T: `Skateboard Collection<br />for Every Rider`,
+  featuresListCol1D: `Step into the world of skateboarding excellence with RampMasterPro's latest collection. Enhance your tricks with skateboards that perfectly resonate with your style.`,
+  featuresListCol2T: `Exclusive Skate Gear Selection<br />Awaits You`,
+  featuresListCol2D: `Experience the ultimate skate gear selection with our carefully curated lineup, adding a touch of style to your every ride.`,
+  featuresListCol3T: `Skateboard Paradise<br />for Every Rider`,
+  featuresListCol3D: `Elevate your skateboarding journey with our sleek designs and distinctive gear offerings. Let every trick embrace the joy of skateboarding.`,
+  caseTitle: `Explore Our Skateboarding Creations`,
+  caseTitleDesc: `Discover RampMasterPro's Skateboarding Revolution`,
+  caseTitleDesc1T: `Pro-Level Skateboards`,
+  caseTitleDesc1D: `Indulge in the excellence of our skateboards, meticulously designed to elevate your skateboarding with precision and style.`,
+  caseTitleDesc2T: `Skate Gear Selections`,
+  caseTitleDesc2D: `Enhance your skateboarding universe with our carefully crafted gear, infusing a touch of style into every ride.`,
+  caseTitleDesc3T: `Customized Skate Experience`,
+  caseTitleDesc3D: `Customize your skateboarding experience with RampMasterPro, ensuring each ride aligns with your unique style vision and preferences.`,
+  caseTitleDesc4T: `Extreme Skateboarding Thrills`,
+  caseTitleDesc4D: `Experience the joy of our sleek skateboard designs, elevating your tricks to new heights.`,
+  mob1Title: `Elevate Your Ride<br />Experience with RampMasterPro!`,
+  mob1Desc: `Step into the world of extreme skateboarding with RampMasterPro.`,
+  mob1Desc2: `From classic designs to high-performance gear, RampMasterPro is redefining the world of skateboarding. Immerse yourself in a world where every trick is a masterpiece.`,
+  mob2Title: `Where Style Meets<br />Skateboarding Thrills.`,
+  mob2Desc: `At RampMasterPro, skateboarding is more than just a sport. It's about enhancing your tricks and creating unforgettable moments of skill.`,
+  mob2Desc2: `Embrace the thrill of skateboarding.`,
+  custTitle: `Rider Reviews`,
+  custDesc: `Listen to our satisfied riders and skateboarding enthusiasts.`,
+  cust1: `RampMasterPro's skateboards are a game changer. Their collection is unmatched, and they transformed my skateboarding into extreme fun.`,
+  cust1Name: `Samantha Turner`,
+  cust1Prof: `Skateboard Enthusiast`,
+  cust2: `The quality and variety of RampMasterPro's skate gear are beyond impressive. Every trick feels like a stylish masterpiece.`,
+  cust2Name: `Jake Smith`,
+  cust2Prof: `Skateboarding Pro`,
+  cust3: `From classic designs to high-performance gear, RampMasterPro has it all. The epitome of skateboarding excellence.`,
+  cust3Name: `Alexandra Parker`,
+  cust3Prof: `Extreme Sports Enthusiast`,
+  contactTitle: `Ready for a Skateboarding Revolution?<br />Join the RampMasterPro Journey`,
+  logo2: `RampMasterPro`,
+  mail: `contact@rampmasterpro.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © EliteTuxShop. All rights reserved.`,
+  logo3: `Copyright © RampMasterPro. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
