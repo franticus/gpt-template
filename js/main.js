@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'SwiftFreight',
-  heroTitle: `Efficient and Reliable<br />Freight Solutions with SwiftFreight.`,
-  heroDescription: `SwiftFreight offers a range of shipment services and logistics solutions to streamline your freight transportation across the globe.`,
-  featuresMainTitle: "Experience SwiftFreight's Unparalleled Services",
+  logo: 'CreativeVision',
+  heroTitle: `Capturing Memories & Emotions<br />with Creative Vision Photo Studio.`,
+  heroDescription: `CreativeVision offers professional photography services and a comfortable environment for unforgettable photo sessions.`,
+  featuresMainTitle: "Experience CreativeVision's Exceptional Services",
   featuresMainDescription:
-    'With our committed team of logistics professionals, SwiftFreight is dedicated to providing seamless and efficient freight transportation services.',
+    'Our skilled team of photographers is passionate about delivering high-quality, creative photography experiences.',
   featuresList: `<li class="mb-2">
-  <strong>End-to-End Logistics Solutions:</strong> Streamline your supply chain with our comprehensive freight services, customized to your specific needs.
+  <strong>Portraits & Family Photos:</strong> Capture your special moments and create lasting memories with stunning portraits and family photos.
 </li>
 <li class="mb-2">
-  <strong>Fast and Reliable Shipping:</strong> Ensure your cargo arrives on time, every time, with SwiftFreight's dependable and rapid transportation services.
+  <strong>Events & Corporate Photography:</strong> Trust CreativeVision to document your significant events or corporate functions with style and professionalism.
 </li>
 <li class="mb-2">
-  <strong>Real-Time Tracking and Reporting:</strong> Gain complete control and visibility of your shipments with our tracking and reporting technologies.
+  <strong>Weddings & Engagements:</strong> Let our experienced photographers perfectly capture the essence of your special day.
 </li>
 <li class="mb-2">
-  <strong>Dedicated Customer Support:</strong> Receive exceptional customer service from our experienced freight experts.
+  <strong>Fashion & Commercial:</strong> Showcase your brand or artistic vision with our expert fashion and commercial photography services.
 </li>`,
-  featuresListCol1T: `Worldwide Network`,
-  featuresListCol1D: `SwiftFreight's extensive global network ensures efficient and seamless delivery of your cargo.`,
-  featuresListCol2T: `Customized Freight Solutions`,
-  featuresListCol2D: `Our tailored logistics services adapt to your business requirements for an optimized freight experience.`,
-  featuresListCol3T: `Cutting-Edge Technology`,
-  featuresListCol3D: `Stay updated and informed with our innovative technology solutions that enhance shipment visibility and management.`,
-  caseTitle: `Our Freight Services`,
-  caseTitleDesc: `Explore SwiftFreight's Comprehensive Service Offerings`,
-  caseTitleDesc1T: `Air Freight`,
-  caseTitleDesc1D: `Experience fast and reliable air cargo transportation for urgent or time-sensitive shipments.`,
-  caseTitleDesc2T: `Sea Freight`,
-  caseTitleDesc2D: `Take advantage of cost-effective ocean shipping solutions for larger or bulk cargo.`,
-  caseTitleDesc3T: `Land Freight`,
-  caseTitleDesc3D: `Utilize our extensive ground transportation network for efficient and flexible deliveries.`,
-  caseTitleDesc4T: `Customs Clearance`,
-  caseTitleDesc4D: `Simplify your shipping process with our professional customs clearance services.`,
-  mob1Title: `Experience Unparalleled<br />Freight Solutions!`,
-  mob1Desc: `SwiftFreight leads the way in efficient and reliable shipping.`,
-  mob1Desc2: `Experience the ease of global freight transportation with our end-to-end logistics solutions and dedicated customer support.`,
-  mob2Title: `Where Trust Meets<br />Unrivaled Service.`,
-  mob2Desc: `At SwiftFreight, we go above and beyond to ensure your cargo's safe and timely delivery.`,
-  mob2Desc2: `Experience the SwiftFreight difference and elevate your freight transportation experience.`,
+  featuresListCol1T: `High-quality Equipment`,
+  featuresListCol1D: `CreativeVision employs top-notch cameras and cutting-edge techniques to ensure captivating photography.`,
+  featuresListCol2T: `Experienced Photographers`,
+  featuresListCol2D: `Our skilled photographers are dedicated to producing compelling images and delivering exceptional customer service.`,
+  featuresListCol3T: `Personalized Approach`,
+  featuresListCol3D: `CreativeVision tailors every photography session to reflect your unique vision and preferences.`,
+  caseTitle: `Our Photography Services`,
+  caseTitleDesc: `Discover CreativeVision's Diverse Photography Offerings`,
+  caseTitleDesc1T: `Studio Photography`,
+  caseTitleDesc1D: `Benefit from our fully-equipped studio and professional lighting setups for stunning images.`,
+  caseTitleDesc2T: `On-location Photography`,
+  caseTitleDesc2D: `Our skilled photographers can travel to your chosen location for your perfect photo session.`,
+  caseTitleDesc3T: `Photo Editing & Retouching`,
+  caseTitleDesc3D: `CreativeVision offers post-production services to refine and enhance your images.`,
+  caseTitleDesc4T: `Custom Photography Packages`,
+  caseTitleDesc4D: `We create bespoke packages to accommodate your individual needs and preferences.`,
+  mob1Title: `Capture Moments with<br />Unmatched Creativity!`,
+  mob1Desc: `CreativeVision offers distinct and memorable photography experiences.`,
+  mob1Desc2: `Experience the art of visual storytelling with our creative approach and dedication to quality.`,
+  mob2Title: `Where Passion Meets<br />Professionalism.`,
+  mob2Desc: `At CreativeVision, we combine creativity with technical expertise to bring your vision to life.`,
+  mob2Desc2: `Let us transform your special moments into lasting memories with our exceptional photography services.`,
   custTitle: `Client Testimonials`,
-  custDesc: `Read what our satisfied clients have to say about SwiftFreight.`,
-  cust1: `SwiftFreight truly stands by their commitment to fast and reliable shipping. I couldn't be happier with their services.`,
+  custDesc: `Hear what our satisfied clients have to say about CreativeVision.`,
+  cust1: `Our family photoshoot with CreativeVision was a fantastic experience. The photographers are so talented and put us at ease throughout the session.`,
   cust1Name: `Laura Thompson`,
-  cust1Prof: `Supply Chain Manager`,
-  cust2: `Their tailored solutions and cutting-edge technology made managing our shipments a breeze. SwiftFreight exceeded my expectations.`,
+  cust1Prof: `Mother of Two`,
+  cust2: `CreativeVision handled our company's product photography, and the results were outstanding. They have our highest recommendation.`,
   cust2Name: `James Collins`,
-  cust2Prof: `Logistics Coordinator`,
-  cust3: `SwiftFreight's superb customer support and seamless shipping process have made them our go-to logistics provider.`,
+  cust2Prof: `Marketing Manager`,
+  cust3: `Our wedding day is forever imprinted in our hearts, thanks to the beautiful work of CreativeVision's photographers.`,
   cust3Name: `Michaela Turner`,
-  cust3Prof: `Import/Export Specialist`,
-  contactTitle: `Ready to Transform Your<br />Freight Experience? Contact SwiftFreight Today`,
-  logo2: `SwiftFreight`,
-  mail: `info@swiftfreight.com`,
+  cust3Prof: `Newlywed`,
+  contactTitle: `Ready to Create Beautiful Memories? Contact CreativeVision Today`,
+  logo2: `CreativeVision`,
+  mail: `info@creativevision.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © SwiftFreight. All rights reserved.`,
+  logo3: `Copyright © CreativeVision. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
