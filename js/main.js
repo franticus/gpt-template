@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'EuroExplorerTours',
-  heroTitle: `Discover Europe with<br />EuroExplorerTours.`,
-  heroDescription: `Experience unforgettable travel adventures as EuroExplorerTours takes you on a journey across Europe's most captivating destinations.`,
-  featuresMainTitle: 'Experience the Wonders of Europe with Us',
+  logo: 'SwiftFreight',
+  heroTitle: `Efficient and Reliable<br />Freight Solutions with SwiftFreight.`,
+  heroDescription: `SwiftFreight offers a range of shipment services and logistics solutions to streamline your freight transportation across the globe.`,
+  featuresMainTitle: "Experience SwiftFreight's Unparalleled Services",
   featuresMainDescription:
-    'Join EuroExplorerTours and let our seasoned travel experts guide you through awe-inspiring sights and attractions across Europe.',
+    'With our committed team of logistics professionals, SwiftFreight is dedicated to providing seamless and efficient freight transportation services.',
   featuresList: `<li class="mb-2">
-  <strong>Exclusive European Itineraries:</strong> Venture into the heart of Europe with our carefully curated selection of must-see experiences.
+  <strong>End-to-End Logistics Solutions:</strong> Streamline your supply chain with our comprehensive freight services, customized to your specific needs.
 </li>
 <li class="mb-2">
-  <strong>Personalized Travel Experiences:</strong> Create your perfect tour with options for personalizing destinations and activities.
+  <strong>Fast and Reliable Shipping:</strong> Ensure your cargo arrives on time, every time, with SwiftFreight's dependable and rapid transportation services.
 </li>
 <li class="mb-2">
-  <strong>Expert Local Guides:</strong> Our highly knowledgeable guides reveal Europe's best-kept secrets and bring its rich history to life.
+  <strong>Real-Time Tracking and Reporting:</strong> Gain complete control and visibility of your shipments with our tracking and reporting technologies.
 </li>
 <li class="mb-2">
-  <strong>Comfortable Transportation:</strong> Enjoy the journey seamlessly with the best in modern transportation options.
+  <strong>Dedicated Customer Support:</strong> Receive exceptional customer service from our experienced freight experts.
 </li>`,
-  featuresListCol1T: `Uncover Europe's<br />Hidden Gems`,
-  featuresListCol1D: `Delve into the beauty and culture of Europe's lesser-known treasures with EuroExplorerTours.`,
-  featuresListCol2T: `Historical Sites<br />Beyond Imagination`,
-  featuresListCol2D: `Experience the grandeur of Europe's awe-inspiring historical sites for a truly memorable adventure.`,
-  featuresListCol3T: `Indulge in Europe's<br />Culinary Delights`,
-  featuresListCol3D: `Embark on a culinary journey across diverse European cuisines, flavor profiles, and regional specialties.`,
-  caseTitle: `Explore Our Tour Offerings`,
-  caseTitleDesc: `Discover EuroExplorerTours' Unforgettable Experiences`,
-  caseTitleDesc1T: `Iconic Landmarks`,
-  caseTitleDesc1D: `Witness the majesty of Europe's most iconic landmarks, steeped in history and cultural significance.`,
-  caseTitleDesc2T: `Cultural Immersion`,
-  caseTitleDesc2D: `Immerse yourself in the vibrant cultures of each region, celebrating local customs and traditions.`,
-  caseTitleDesc3T: `Nature's Wonders`,
-  caseTitleDesc3D: `Experience Europe's breathtaking natural landscapes and indulge in its pristine, awe-inspiring beauty.`,
-  caseTitleDesc4T: `Remarkable Travel Memories`,
-  caseTitleDesc4D: `Create unforgettable memories with EuroExplorerTours, as you embark on the journey of a lifetime.`,
-  mob1Title: `Experience Europe<br />Like Never Before!`,
-  mob1Desc: `Unearth the wonders of Europe with EuroExplorerTours.`,
-  mob1Desc2: `Explore ancient cities, experience vibrant cultures, and take in breathtaking natural beauty on your ultimate European adventure.`,
-  mob2Title: `Where Luxury Meets<br />Unforgettable Experiences.`,
-  mob2Desc: `At EuroExplorerTours, travel experiences are more than just itineraries. We strive to make every journey an unforgettable, luxurious memory.`,
-  mob2Desc2: `Experience European adventures beyond your dreams.`,
-  custTitle: `Traveler Testimonials`,
-  custDesc: `Hear from our delighted travel enthusiasts and adventurers.`,
-  cust1: `EuroExplorerTours exceeded my expectations. Their knowledge and expertise transformed the trip into an unforgettable experience.`,
-  cust1Name: `Emily Johnson`,
-  cust1Prof: `World Traveler`,
-  cust2: `The variety of iconic destinations and hidden gems showcased by EuroExplorerTours was truly astounding. I can't wait for my next European adventure with them.`,
-  cust2Name: `Robert Smith`,
-  cust2Prof: `History Enthusiast`,
-  cust3: `From their expert local guides to comfortable transportation, EuroExplorerTours delivered an exceptional and seamless travel experience.`,
-  cust3Name: `Natalie Green`,
-  cust3Prof: `Travel Blogger`,
-  contactTitle: `Ready for Your European Adventure?<br />Join the EuroExplorerTours Family`,
-  logo2: `EuroExplorerTours`,
-  mail: `contact@euroexplorertours.com`,
+  featuresListCol1T: `Worldwide Network`,
+  featuresListCol1D: `SwiftFreight's extensive global network ensures efficient and seamless delivery of your cargo.`,
+  featuresListCol2T: `Customized Freight Solutions`,
+  featuresListCol2D: `Our tailored logistics services adapt to your business requirements for an optimized freight experience.`,
+  featuresListCol3T: `Cutting-Edge Technology`,
+  featuresListCol3D: `Stay updated and informed with our innovative technology solutions that enhance shipment visibility and management.`,
+  caseTitle: `Our Freight Services`,
+  caseTitleDesc: `Explore SwiftFreight's Comprehensive Service Offerings`,
+  caseTitleDesc1T: `Air Freight`,
+  caseTitleDesc1D: `Experience fast and reliable air cargo transportation for urgent or time-sensitive shipments.`,
+  caseTitleDesc2T: `Sea Freight`,
+  caseTitleDesc2D: `Take advantage of cost-effective ocean shipping solutions for larger or bulk cargo.`,
+  caseTitleDesc3T: `Land Freight`,
+  caseTitleDesc3D: `Utilize our extensive ground transportation network for efficient and flexible deliveries.`,
+  caseTitleDesc4T: `Customs Clearance`,
+  caseTitleDesc4D: `Simplify your shipping process with our professional customs clearance services.`,
+  mob1Title: `Experience Unparalleled<br />Freight Solutions!`,
+  mob1Desc: `SwiftFreight leads the way in efficient and reliable shipping.`,
+  mob1Desc2: `Experience the ease of global freight transportation with our end-to-end logistics solutions and dedicated customer support.`,
+  mob2Title: `Where Trust Meets<br />Unrivaled Service.`,
+  mob2Desc: `At SwiftFreight, we go above and beyond to ensure your cargo's safe and timely delivery.`,
+  mob2Desc2: `Experience the SwiftFreight difference and elevate your freight transportation experience.`,
+  custTitle: `Client Testimonials`,
+  custDesc: `Read what our satisfied clients have to say about SwiftFreight.`,
+  cust1: `SwiftFreight truly stands by their commitment to fast and reliable shipping. I couldn't be happier with their services.`,
+  cust1Name: `Laura Thompson`,
+  cust1Prof: `Supply Chain Manager`,
+  cust2: `Their tailored solutions and cutting-edge technology made managing our shipments a breeze. SwiftFreight exceeded my expectations.`,
+  cust2Name: `James Collins`,
+  cust2Prof: `Logistics Coordinator`,
+  cust3: `SwiftFreight's superb customer support and seamless shipping process have made them our go-to logistics provider.`,
+  cust3Name: `Michaela Turner`,
+  cust3Prof: `Import/Export Specialist`,
+  contactTitle: `Ready to Transform Your<br />Freight Experience? Contact SwiftFreight Today`,
+  logo2: `SwiftFreight`,
+  mail: `info@swiftfreight.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © EuroExplorerTours. All rights reserved.`,
+  logo3: `Copyright © SwiftFreight. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
