@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'CreativeVision',
-  heroTitle: `Capturing Memories & Emotions<br />with Creative Vision Photo Studio.`,
-  heroDescription: `CreativeVision offers professional photography services and a comfortable environment for unforgettable photo sessions.`,
-  featuresMainTitle: "Experience CreativeVision's Exceptional Services",
+  logo: 'PixelPaintingPro',
+  heroTitle: `Unlock Your Creative Potential<br />with PixelPaintingPro Digital Art School.`,
+  heroDescription: `PixelPaintingPro offers professional digital art courses and a supportive community for nurturing your artistic talents.`,
+  featuresMainTitle: 'Discover What PixelPaintingPro Offers',
   featuresMainDescription:
-    'Our skilled team of photographers is passionate about delivering high-quality, creative photography experiences.',
+    'Our experienced team of instructors is dedicated to helping you develop your digital art skills.',
   featuresList: `<li class="mb-2">
-  <strong>Portraits & Family Photos:</strong> Capture your special moments and create lasting memories with stunning portraits and family photos.
+  <strong>Fundamentals of Digital Art:</strong> Learn the essential techniques and concepts to kickstart your digital art journey.
 </li>
 <li class="mb-2">
-  <strong>Events & Corporate Photography:</strong> Trust CreativeVision to document your significant events or corporate functions with style and professionalism.
+  <strong>Advanced Digital Painting:</strong> Dive deep into advanced topics and elevate your digital painting skills.
 </li>
 <li class="mb-2">
-  <strong>Weddings & Engagements:</strong> Let our experienced photographers perfectly capture the essence of your special day.
+  <strong>Character Design & Illustration:</strong> Create captivating characters and stunning illustrations with our expert guidance.
 </li>
 <li class="mb-2">
-  <strong>Fashion & Commercial:</strong> Showcase your brand or artistic vision with our expert fashion and commercial photography services.
+  <strong>Concept Art & World Building:</strong> Explore the world of concept art and build imaginative new worlds in your art.
 </li>`,
-  featuresListCol1T: `High-quality Equipment`,
-  featuresListCol1D: `CreativeVision employs top-notch cameras and cutting-edge techniques to ensure captivating photography.`,
-  featuresListCol2T: `Experienced Photographers`,
-  featuresListCol2D: `Our skilled photographers are dedicated to producing compelling images and delivering exceptional customer service.`,
-  featuresListCol3T: `Personalized Approach`,
-  featuresListCol3D: `CreativeVision tailors every photography session to reflect your unique vision and preferences.`,
-  caseTitle: `Our Photography Services`,
-  caseTitleDesc: `Discover CreativeVision's Diverse Photography Offerings`,
-  caseTitleDesc1T: `Studio Photography`,
-  caseTitleDesc1D: `Benefit from our fully-equipped studio and professional lighting setups for stunning images.`,
-  caseTitleDesc2T: `On-location Photography`,
-  caseTitleDesc2D: `Our skilled photographers can travel to your chosen location for your perfect photo session.`,
-  caseTitleDesc3T: `Photo Editing & Retouching`,
-  caseTitleDesc3D: `CreativeVision offers post-production services to refine and enhance your images.`,
-  caseTitleDesc4T: `Custom Photography Packages`,
-  caseTitleDesc4D: `We create bespoke packages to accommodate your individual needs and preferences.`,
-  mob1Title: `Capture Moments with<br />Unmatched Creativity!`,
-  mob1Desc: `CreativeVision offers distinct and memorable photography experiences.`,
-  mob1Desc2: `Experience the art of visual storytelling with our creative approach and dedication to quality.`,
-  mob2Title: `Where Passion Meets<br />Professionalism.`,
-  mob2Desc: `At CreativeVision, we combine creativity with technical expertise to bring your vision to life.`,
-  mob2Desc2: `Let us transform your special moments into lasting memories with our exceptional photography services.`,
-  custTitle: `Client Testimonials`,
-  custDesc: `Hear what our satisfied clients have to say about CreativeVision.`,
-  cust1: `Our family photoshoot with CreativeVision was a fantastic experience. The photographers are so talented and put us at ease throughout the session.`,
-  cust1Name: `Laura Thompson`,
-  cust1Prof: `Mother of Two`,
-  cust2: `CreativeVision handled our company's product photography, and the results were outstanding. They have our highest recommendation.`,
-  cust2Name: `James Collins`,
-  cust2Prof: `Marketing Manager`,
-  cust3: `Our wedding day is forever imprinted in our hearts, thanks to the beautiful work of CreativeVision's photographers.`,
-  cust3Name: `Michaela Turner`,
-  cust3Prof: `Newlywed`,
-  contactTitle: `Ready to Create Beautiful Memories? Contact CreativeVision Today`,
-  logo2: `CreativeVision`,
-  mail: `info@creativevision.com`,
+  featuresListCol1T: `State-of-the-Art Tools`,
+  featuresListCol1D: `PixelPaintingPro provides access to cutting-edge software and hardware for your creative journey.`,
+  featuresListCol2T: `Experienced Instructors`,
+  featuresListCol2D: `Our skilled instructors are passionate about nurturing your artistic talents and providing valuable feedback.`,
+  featuresListCol3T: `Personalized Learning`,
+  featuresListCol3D: `PixelPaintingPro tailors each course to your individual skill level and artistic aspirations.`,
+  caseTitle: `Our Digital Art Courses`,
+  caseTitleDesc: `Explore PixelPaintingPro's Comprehensive Course Offerings`,
+  caseTitleDesc1T: `Digital Painting Fundamentals`,
+  caseTitleDesc1D: `Master the basics of digital painting and build a solid foundation for your artistic journey.`,
+  caseTitleDesc2T: `Advanced Techniques`,
+  caseTitleDesc2D: `Take your skills to the next level with our advanced digital painting techniques.`,
+  caseTitleDesc3T: `Character Design Mastery`,
+  caseTitleDesc3D: `Learn to create compelling characters and bring your imaginative worlds to life.`,
+  caseTitleDesc4T: `Concept Art & World Building`,
+  caseTitleDesc4D: `Dive into the world of concept art and create captivating new universes.`,
+  mob1Title: `Unleash Your Imagination<br />with PixelPaintingPro!`,
+  mob1Desc: `PixelPaintingPro offers a unique platform for unleashing your creative potential through digital art.`,
+  mob1Desc2: `Join our community of artists and let your imagination run wild with our expert guidance.`,
+  mob2Title: `Where Creativity Knows<br />No Boundaries.`,
+  mob2Desc: `At PixelPaintingPro, we believe that creativity has no limits. Let us help you push your artistic boundaries.`,
+  mob2Desc2: `Transform your artistic visions into stunning digital masterpieces with our courses.`,
+  custTitle: `Student Testimonials`,
+  custDesc: `Hear what our satisfied students have to say about PixelPaintingPro.`,
+  cust1: `PixelPaintingPro's courses have been a game-changer for me. I've seen significant improvement in my digital art skills.`,
+  cust1Name: `Sarah Anderson`,
+  cust1Prof: `Digital Artist`,
+  cust2: `I highly recommend PixelPaintingPro to anyone looking to explore digital art. The instructors are fantastic, and the community is supportive.`,
+  cust2Name: `John Smith`,
+  cust2Prof: `Aspiring Illustrator`,
+  cust3: `PixelPaintingPro has helped me turn my passion for art into a career. I'm grateful for the skills I've gained here.`,
+  cust3Name: `Emily Davis`,
+  cust3Prof: `Professional Artist`,
+  contactTitle: `Ready to Explore Your Artistic Journey? Contact PixelPaintingPro Today`,
+  logo2: `PixelPaintingPro`,
+  mail: `info@pixelpaintingpro.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © CreativeVision. All rights reserved.`,
+  logo3: `Copyright © PixelPaintingPro. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
