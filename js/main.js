@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'BrickEmpire',
-  heroTitle: `Build Your Dreams with<br />BrickEmpire.`,
-  heroDescription: `Step into a world of endless possibilities, where BrickEmpire provides the finest bricks for your construction needs.`,
-  featuresMainTitle: 'Discover the Excellence of BrickEmpire',
+  logo: 'ParquetWorld',
+  heroTitle: `Build Your Dreams with<br />ParquetWorld.`,
+  heroDescription: `Step into a world of endless possibilities, where ParquetWorld provides the finest flooring solutions for your construction needs.`,
+  featuresMainTitle: 'Discover the Excellence of ParquetWorld',
   featuresMainDescription:
-    "Experience top-tier brick solutions tailored to your projects by BrickEmpire's dedicated team.",
+    "Experience top-tier flooring solutions tailored to your projects by ParquetWorld's dedicated team.",
   featuresList: `<li class="mb-2">
-  <strong>Premium Brick Selection:</strong> Elevate your construction with our quality bricks and expert guidance.
+  <strong>Premium Parquet Selection:</strong> Elevate your designs with our quality parquet flooring and expert guidance.
 </li>
 <li class="mb-2">
-  <strong>Innovative Building Solutions:</strong> Explore creative construction techniques for your projects.
+  <strong>Innovative Flooring Solutions:</strong> Explore creative techniques for installing and maintaining your floors.
 </li>
 <li class="mb-2">
-  <strong>Expert Consultation:</strong> Our team is committed to delivering superior brick solutions, ensuring your projects are solid.
+  <strong>Expert Consultation:</strong> Our team is committed to delivering superior flooring solutions, ensuring your projects are solid and stylish.
 </li>
 <li class="mb-2">
-  <strong>Customized Orders:</strong> Personalize your brick orders to match your unique requirements, tailored for your satisfaction.
+  <strong>Customized Orders:</strong> Personalize your parquet flooring to match your unique requirements, tailored for your satisfaction.
 </li>`,
-  featuresListCol1T: `Brick Solutions<br />for Every Project`,
-  featuresListCol1D: `Experience excellence in brick solutions with BrickEmpire's latest offerings. Enhance your construction projects with bricks that perfectly suit your needs.`,
+  featuresListCol1T: `Flooring Solutions<br />for Every Project`,
+  featuresListCol1D: `Experience excellence in flooring solutions with ParquetWorld's latest offerings. Enhance your spaces with flooring that perfectly suits your needs.`,
   featuresListCol2T: `Exclusive Building<br />Techniques Await You`,
-  featuresListCol2D: `Experience the ultimate in construction solutions with our carefully crafted lineup, adding a touch of innovation to your projects.`,
-  featuresListCol3T: `A Solid Foundation<br />for Every Structure`,
-  featuresListCol3D: `Elevate your construction projects with our attentive team and distinctive brick offerings. Let your structures stand with the strength of quality bricks.`,
-  caseTitle: `Explore Our Brick Solutions`,
-  caseTitleDesc: `Discover BrickEmpire's Construction Excellence`,
-  caseTitleDesc1T: `Professional Brick Guidance`,
-  caseTitleDesc1D: `Indulge in the expertise of our brick solutions, meticulously designed to elevate your construction projects with precision and care.`,
-  caseTitleDesc2T: `Innovative Building Solutions`,
-  caseTitleDesc2D: `Enhance your construction projects with our creative building solutions, infusing a touch of innovation into every corner of your structures.`,
-  caseTitleDesc3T: `Tailored Brick Orders`,
-  caseTitleDesc3D: `Customize your brick orders with BrickEmpire, ensuring each batch aligns with your unique vision and requirements.`,
+  featuresListCol2D: `Experience the ultimate in flooring solutions with our carefully crafted lineup, adding a touch of elegance to your projects.`,
+  featuresListCol3T: `A Solid Foundation<br />for Every Space`,
+  featuresListCol3D: `Elevate your designs with our attentive team and distinctive parquet offerings. Let your spaces stand with the beauty and durability of quality flooring.`,
+  caseTitle: `Explore Our Flooring Solutions`,
+  caseTitleDesc: `Discover ParquetWorld's Construction Excellence`,
+  caseTitleDesc1T: `Professional Flooring Guidance`,
+  caseTitleDesc1D: `Indulge in the expertise of our flooring solutions, meticulously designed to elevate your spaces with precision and care.`,
+  caseTitleDesc2T: `Innovative Flooring Solutions`,
+  caseTitleDesc2D: `Enhance your spaces with our creative flooring solutions, infusing a touch of elegance into every corner of your projects.`,
+  caseTitleDesc3T: `Tailored Parquet Orders`,
+  caseTitleDesc3D: `Customize your flooring orders with ParquetWorld, ensuring each order aligns with your unique vision and requirements.`,
   caseTitleDesc4T: `Solid Construction Delights`,
-  caseTitleDesc4D: `Experience the joy of well-constructed structures, thanks to our dedicated team and effective building methods.`,
-  mob1Title: `Elevate Your Building<br />Experience with BrickEmpire!`,
-  mob1Desc: `Step into a world of solid construction with BrickEmpire.`,
-  mob1Desc2: `From innovative building techniques to expert consultation, BrickEmpire is redefining the world of brick solutions. Immerse yourself in a world where your projects are always strong and reliable.`,
-  mob2Title: `Where Quality Meets<br />Effortless Construction Joy.`,
-  mob2Desc: `At BrickEmpire, construction is more than just a service. It's about enhancing your building experience and creating unforgettable structures with quality bricks.`,
-  mob2Desc2: `Embrace the joy of well-constructed and dependable projects.`,
+  caseTitleDesc4D: `Experience the joy of well-designed spaces, thanks to our dedicated team and effective flooring methods.`,
+  mob1Title: `Elevate Your Flooring<br />Experience with ParquetWorld!`,
+  mob1Desc: `Step into a world of solid flooring solutions with ParquetWorld.`,
+  mob1Desc2: `From innovative techniques to expert consultation, ParquetWorld is redefining the world of flooring solutions. Immerse yourself in a world where your spaces are always elegant and reliable.`,
+  mob2Title: `Where Quality Meets<br />Effortless Design Joy.`,
+  mob2Desc: `At ParquetWorld, flooring solutions are more than just a service. It's about enhancing your building experience and creating unforgettable spaces with quality flooring.`,
+  mob2Desc2: `Embrace the joy of well-designed and dependable projects.`,
   custTitle: `Client Testimonials`,
-  custDesc: `Listen to our satisfied project owners and construction enthusiasts.`,
-  cust1: `BrickEmpire's brick solutions are a game changer. Their attention to detail is unmatched, and they transformed my projects into a testament of quality.`,
-  cust1Name: `Sarah Smith`,
+  custDesc: `Listen to our satisfied project owners and interior design enthusiasts.`,
+  cust1: `ParquetWorld's flooring solutions are a game changer. Their attention to detail is unmatched, and they transformed my spaces into a testament of quality.`,
+  cust1Name: `Megan Taylor`,
   cust1Prof: `Project Owner`,
-  cust2: `The quality and variety of BrickEmpire's brick offerings are beyond impressive. Every corner of my structures feels solid and reliable.`,
-  cust2Name: `David Johnson`,
-  cust2Prof: `Construction Enthusiast`,
-  cust3: `From innovative building techniques to attentive consultation, BrickEmpire has it all. They are the epitome of construction excellence.`,
-  cust3Name: `Emily Wilson`,
+  cust2: `The quality and variety of ParquetWorld's parquet offerings are beyond impressive. Every corner of my spaces feels stylish and reliable.`,
+  cust2Name: `John Williams`,
+  cust2Prof: `Interior Design Enthusiast`,
+  cust3: `From innovative building techniques to attentive consultation, ParquetWorld has it all. They are the epitome of design excellence.`,
+  cust3Name: `Olivia Brown`,
   cust3Prof: `Building Contractor`,
-  contactTitle: `Ready for a Brick Revolution?<br />Join the BrickEmpire Journey`,
-  logo2: `BrickEmpire`,
-  mail: `contact@brickempire.com`,
+  contactTitle: `Ready for a Flooring Revolution?<br />Join the ParquetWorld Journey`,
+  logo2: `ParquetWorld`,
+  mail: `contact@parquetworld.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © BrickEmpire. All rights reserved.`,
+  logo3: `Copyright © ParquetWorld. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
