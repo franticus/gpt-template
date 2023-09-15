@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'PixelPaintingPro',
-  heroTitle: `Unlock Your Creative Potential<br />with PixelPaintingPro Digital Art School.`,
-  heroDescription: `PixelPaintingPro offers professional digital art courses and a supportive community for nurturing your artistic talents.`,
-  featuresMainTitle: 'Discover What PixelPaintingPro Offers',
+  logo: 'BlossomBoutique',
+  heroTitle: `Discover the Beauty of Nature<br />at BlossomBoutique Flower Shop.`,
+  heroDescription: `BlossomBoutique offers a stunning collection of flowers and floral arrangements to brighten your day.`,
+  featuresMainTitle: 'Experience What BlossomBoutique Offers',
   featuresMainDescription:
-    'Our experienced team of instructors is dedicated to helping you develop your digital art skills.',
+    'Our dedicated team of florists is committed to bringing the beauty of nature into your life.',
   featuresList: `<li class="mb-2">
-  <strong>Fundamentals of Digital Art:</strong> Learn the essential techniques and concepts to kickstart your digital art journey.
+  <strong>Exquisite Flower Selection:</strong> Explore our wide range of flowers, from classic roses to unique and exotic blooms.
 </li>
 <li class="mb-2">
-  <strong>Advanced Digital Painting:</strong> Dive deep into advanced topics and elevate your digital painting skills.
+  <strong>Custom Floral Arrangements:</strong> Let us create a personalized floral masterpiece for your special occasions.
 </li>
 <li class="mb-2">
-  <strong>Character Design & Illustration:</strong> Create captivating characters and stunning illustrations with our expert guidance.
+  <strong>Floral Gifts & Decor:</strong> Find the perfect floral gifts and decorations to add a touch of elegance to any event.
 </li>
 <li class="mb-2">
-  <strong>Concept Art & World Building:</strong> Explore the world of concept art and build imaginative new worlds in your art.
+  <strong>Expert Floral Care Tips:</strong> Learn how to care for your flowers to keep them fresh and vibrant for longer.
 </li>`,
-  featuresListCol1T: `State-of-the-Art Tools`,
-  featuresListCol1D: `PixelPaintingPro provides access to cutting-edge software and hardware for your creative journey.`,
-  featuresListCol2T: `Experienced Instructors`,
-  featuresListCol2D: `Our skilled instructors are passionate about nurturing your artistic talents and providing valuable feedback.`,
-  featuresListCol3T: `Personalized Learning`,
-  featuresListCol3D: `PixelPaintingPro tailors each course to your individual skill level and artistic aspirations.`,
-  caseTitle: `Our Digital Art Courses`,
-  caseTitleDesc: `Explore PixelPaintingPro's Comprehensive Course Offerings`,
-  caseTitleDesc1T: `Digital Painting Fundamentals`,
-  caseTitleDesc1D: `Master the basics of digital painting and build a solid foundation for your artistic journey.`,
-  caseTitleDesc2T: `Advanced Techniques`,
-  caseTitleDesc2D: `Take your skills to the next level with our advanced digital painting techniques.`,
-  caseTitleDesc3T: `Character Design Mastery`,
-  caseTitleDesc3D: `Learn to create compelling characters and bring your imaginative worlds to life.`,
-  caseTitleDesc4T: `Concept Art & World Building`,
-  caseTitleDesc4D: `Dive into the world of concept art and create captivating new universes.`,
-  mob1Title: `Unleash Your Imagination<br />with PixelPaintingPro!`,
-  mob1Desc: `PixelPaintingPro offers a unique platform for unleashing your creative potential through digital art.`,
-  mob1Desc2: `Join our community of artists and let your imagination run wild with our expert guidance.`,
-  mob2Title: `Where Creativity Knows<br />No Boundaries.`,
-  mob2Desc: `At PixelPaintingPro, we believe that creativity has no limits. Let us help you push your artistic boundaries.`,
-  mob2Desc2: `Transform your artistic visions into stunning digital masterpieces with our courses.`,
-  custTitle: `Student Testimonials`,
-  custDesc: `Hear what our satisfied students have to say about PixelPaintingPro.`,
-  cust1: `PixelPaintingPro's courses have been a game-changer for me. I've seen significant improvement in my digital art skills.`,
-  cust1Name: `Sarah Anderson`,
-  cust1Prof: `Digital Artist`,
-  cust2: `I highly recommend PixelPaintingPro to anyone looking to explore digital art. The instructors are fantastic, and the community is supportive.`,
-  cust2Name: `John Smith`,
-  cust2Prof: `Aspiring Illustrator`,
-  cust3: `PixelPaintingPro has helped me turn my passion for art into a career. I'm grateful for the skills I've gained here.`,
-  cust3Name: `Emily Davis`,
-  cust3Prof: `Professional Artist`,
-  contactTitle: `Ready to Explore Your Artistic Journey? Contact PixelPaintingPro Today`,
-  logo2: `PixelPaintingPro`,
-  mail: `info@pixelpaintingpro.com`,
+  featuresListCol1T: `Fresh Blooms Daily`,
+  featuresListCol1D: `BlossomBoutique ensures a daily supply of fresh and vibrant flowers for our customers.`,
+  featuresListCol2T: `Talented Florists`,
+  featuresListCol2D: `Our skilled florists are passionate about creating stunning floral arrangements for every occasion.`,
+  featuresListCol3T: `Personalized Service`,
+  featuresListCol3D: `BlossomBoutique caters to your specific needs, offering personalized floral solutions and expert advice.`,
+  caseTitle: `Our Floral Selection`,
+  caseTitleDesc: `Explore BlossomBoutique's Diverse Floral Offerings`,
+  caseTitleDesc1T: `Classic Roses`,
+  caseTitleDesc1D: `Discover the timeless beauty of classic roses in various colors and arrangements.`,
+  caseTitleDesc2T: `Exotic Blooms`,
+  caseTitleDesc2D: `Experience the allure of exotic flowers from around the world, carefully curated for your enjoyment.`,
+  caseTitleDesc3T: `Special Occasion Flowers`,
+  caseTitleDesc3D: `Find the perfect flowers to celebrate life's special moments with style and grace.`,
+  caseTitleDesc4T: `Floral Decor & Gifts`,
+  caseTitleDesc4D: `Explore our collection of floral decorations and thoughtful gift options that make any occasion memorable.`,
+  mob1Title: `Experience Nature's Beauty<br />at BlossomBoutique!`,
+  mob1Desc: `BlossomBoutique offers a haven for flower enthusiasts, where you can immerse yourself in the beauty of nature.`,
+  mob1Desc2: `Join us and let the fragrance and colors of our flowers brighten your day.`,
+  mob2Title: `Where Flowers Speak<br />the Language of Love.`,
+  mob2Desc: `At BlossomBoutique, we believe that flowers convey emotions and sentiments. Let us help you express your feelings.`,
+  mob2Desc2: `Transform your moments into floral memories with our exquisite selections.`,
+  custTitle: `Customer Testimonials`,
+  custDesc: `Hear what our satisfied customers have to say about BlossomBoutique.`,
+  cust1: `I'm always amazed by the freshness and beauty of the flowers at BlossomBoutique. Their arrangements are a work of art.`,
+  cust1Name: `Linda Roberts`,
+  cust1Prof: `Flower Enthusiast`,
+  cust2: `BlossomBoutique made my wedding day truly special with their stunning floral arrangements. It was a dream come true.`,
+  cust2Name: `David Johnson`,
+  cust2Prof: `Happy Groom`,
+  cust3: `I love sending BlossomBoutique's floral gifts to my loved ones. It's the perfect way to brighten someone's day.`,
+  cust3Name: `Sophia Miller`,
+  cust3Prof: `Thoughtful Sender`,
+  contactTitle: `Ready to Embrace the Beauty of Blooms? Contact BlossomBoutique Today`,
+  logo2: `BlossomBoutique`,
+  mail: `info@blossomboutique.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © PixelPaintingPro. All rights reserved.`,
+  logo3: `Copyright © BlossomBoutique. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
