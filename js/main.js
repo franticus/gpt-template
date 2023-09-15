@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'ParquetWorld',
-  heroTitle: `Build Your Dreams with<br />ParquetWorld.`,
-  heroDescription: `Step into a world of endless possibilities, where ParquetWorld provides the finest flooring solutions for your construction needs.`,
-  featuresMainTitle: 'Discover the Excellence of ParquetWorld',
+  logo: 'EuroExplorerTours',
+  heroTitle: `Discover Europe with<br />EuroExplorerTours.`,
+  heroDescription: `Experience unforgettable travel adventures as EuroExplorerTours takes you on a journey across Europe's most captivating destinations.`,
+  featuresMainTitle: 'Experience the Wonders of Europe with Us',
   featuresMainDescription:
-    "Experience top-tier flooring solutions tailored to your projects by ParquetWorld's dedicated team.",
+    'Join EuroExplorerTours and let our seasoned travel experts guide you through awe-inspiring sights and attractions across Europe.',
   featuresList: `<li class="mb-2">
-  <strong>Premium Parquet Selection:</strong> Elevate your designs with our quality parquet flooring and expert guidance.
+  <strong>Exclusive European Itineraries:</strong> Venture into the heart of Europe with our carefully curated selection of must-see experiences.
 </li>
 <li class="mb-2">
-  <strong>Innovative Flooring Solutions:</strong> Explore creative techniques for installing and maintaining your floors.
+  <strong>Personalized Travel Experiences:</strong> Create your perfect tour with options for personalizing destinations and activities.
 </li>
 <li class="mb-2">
-  <strong>Expert Consultation:</strong> Our team is committed to delivering superior flooring solutions, ensuring your projects are solid and stylish.
+  <strong>Expert Local Guides:</strong> Our highly knowledgeable guides reveal Europe's best-kept secrets and bring its rich history to life.
 </li>
 <li class="mb-2">
-  <strong>Customized Orders:</strong> Personalize your parquet flooring to match your unique requirements, tailored for your satisfaction.
+  <strong>Comfortable Transportation:</strong> Enjoy the journey seamlessly with the best in modern transportation options.
 </li>`,
-  featuresListCol1T: `Flooring Solutions<br />for Every Project`,
-  featuresListCol1D: `Experience excellence in flooring solutions with ParquetWorld's latest offerings. Enhance your spaces with flooring that perfectly suits your needs.`,
-  featuresListCol2T: `Exclusive Building<br />Techniques Await You`,
-  featuresListCol2D: `Experience the ultimate in flooring solutions with our carefully crafted lineup, adding a touch of elegance to your projects.`,
-  featuresListCol3T: `A Solid Foundation<br />for Every Space`,
-  featuresListCol3D: `Elevate your designs with our attentive team and distinctive parquet offerings. Let your spaces stand with the beauty and durability of quality flooring.`,
-  caseTitle: `Explore Our Flooring Solutions`,
-  caseTitleDesc: `Discover ParquetWorld's Construction Excellence`,
-  caseTitleDesc1T: `Professional Flooring Guidance`,
-  caseTitleDesc1D: `Indulge in the expertise of our flooring solutions, meticulously designed to elevate your spaces with precision and care.`,
-  caseTitleDesc2T: `Innovative Flooring Solutions`,
-  caseTitleDesc2D: `Enhance your spaces with our creative flooring solutions, infusing a touch of elegance into every corner of your projects.`,
-  caseTitleDesc3T: `Tailored Parquet Orders`,
-  caseTitleDesc3D: `Customize your flooring orders with ParquetWorld, ensuring each order aligns with your unique vision and requirements.`,
-  caseTitleDesc4T: `Solid Construction Delights`,
-  caseTitleDesc4D: `Experience the joy of well-designed spaces, thanks to our dedicated team and effective flooring methods.`,
-  mob1Title: `Elevate Your Flooring<br />Experience with ParquetWorld!`,
-  mob1Desc: `Step into a world of solid flooring solutions with ParquetWorld.`,
-  mob1Desc2: `From innovative techniques to expert consultation, ParquetWorld is redefining the world of flooring solutions. Immerse yourself in a world where your spaces are always elegant and reliable.`,
-  mob2Title: `Where Quality Meets<br />Effortless Design Joy.`,
-  mob2Desc: `At ParquetWorld, flooring solutions are more than just a service. It's about enhancing your building experience and creating unforgettable spaces with quality flooring.`,
-  mob2Desc2: `Embrace the joy of well-designed and dependable projects.`,
-  custTitle: `Client Testimonials`,
-  custDesc: `Listen to our satisfied project owners and interior design enthusiasts.`,
-  cust1: `ParquetWorld's flooring solutions are a game changer. Their attention to detail is unmatched, and they transformed my spaces into a testament of quality.`,
-  cust1Name: `Megan Taylor`,
-  cust1Prof: `Project Owner`,
-  cust2: `The quality and variety of ParquetWorld's parquet offerings are beyond impressive. Every corner of my spaces feels stylish and reliable.`,
-  cust2Name: `John Williams`,
-  cust2Prof: `Interior Design Enthusiast`,
-  cust3: `From innovative building techniques to attentive consultation, ParquetWorld has it all. They are the epitome of design excellence.`,
-  cust3Name: `Olivia Brown`,
-  cust3Prof: `Building Contractor`,
-  contactTitle: `Ready for a Flooring Revolution?<br />Join the ParquetWorld Journey`,
-  logo2: `ParquetWorld`,
-  mail: `contact@parquetworld.com`,
+  featuresListCol1T: `Uncover Europe's<br />Hidden Gems`,
+  featuresListCol1D: `Delve into the beauty and culture of Europe's lesser-known treasures with EuroExplorerTours.`,
+  featuresListCol2T: `Historical Sites<br />Beyond Imagination`,
+  featuresListCol2D: `Experience the grandeur of Europe's awe-inspiring historical sites for a truly memorable adventure.`,
+  featuresListCol3T: `Indulge in Europe's<br />Culinary Delights`,
+  featuresListCol3D: `Embark on a culinary journey across diverse European cuisines, flavor profiles, and regional specialties.`,
+  caseTitle: `Explore Our Tour Offerings`,
+  caseTitleDesc: `Discover EuroExplorerTours' Unforgettable Experiences`,
+  caseTitleDesc1T: `Iconic Landmarks`,
+  caseTitleDesc1D: `Witness the majesty of Europe's most iconic landmarks, steeped in history and cultural significance.`,
+  caseTitleDesc2T: `Cultural Immersion`,
+  caseTitleDesc2D: `Immerse yourself in the vibrant cultures of each region, celebrating local customs and traditions.`,
+  caseTitleDesc3T: `Nature's Wonders`,
+  caseTitleDesc3D: `Experience Europe's breathtaking natural landscapes and indulge in its pristine, awe-inspiring beauty.`,
+  caseTitleDesc4T: `Remarkable Travel Memories`,
+  caseTitleDesc4D: `Create unforgettable memories with EuroExplorerTours, as you embark on the journey of a lifetime.`,
+  mob1Title: `Experience Europe<br />Like Never Before!`,
+  mob1Desc: `Unearth the wonders of Europe with EuroExplorerTours.`,
+  mob1Desc2: `Explore ancient cities, experience vibrant cultures, and take in breathtaking natural beauty on your ultimate European adventure.`,
+  mob2Title: `Where Luxury Meets<br />Unforgettable Experiences.`,
+  mob2Desc: `At EuroExplorerTours, travel experiences are more than just itineraries. We strive to make every journey an unforgettable, luxurious memory.`,
+  mob2Desc2: `Experience European adventures beyond your dreams.`,
+  custTitle: `Traveler Testimonials`,
+  custDesc: `Hear from our delighted travel enthusiasts and adventurers.`,
+  cust1: `EuroExplorerTours exceeded my expectations. Their knowledge and expertise transformed the trip into an unforgettable experience.`,
+  cust1Name: `Emily Johnson`,
+  cust1Prof: `World Traveler`,
+  cust2: `The variety of iconic destinations and hidden gems showcased by EuroExplorerTours was truly astounding. I can't wait for my next European adventure with them.`,
+  cust2Name: `Robert Smith`,
+  cust2Prof: `History Enthusiast`,
+  cust3: `From their expert local guides to comfortable transportation, EuroExplorerTours delivered an exceptional and seamless travel experience.`,
+  cust3Name: `Natalie Green`,
+  cust3Prof: `Travel Blogger`,
+  contactTitle: `Ready for Your European Adventure?<br />Join the EuroExplorerTours Family`,
+  logo2: `EuroExplorerTours`,
+  mail: `contact@euroexplorertours.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © ParquetWorld. All rights reserved.`,
+  logo3: `Copyright © EuroExplorerTours. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
