@@ -39,59 +39,59 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: `ChandelierWorld`,
-  heroTitle: `Illuminate Your Life with ChandelierWorld's Elegant Lighting`,
-  heroDescription: `ChandelierWorld offers a stunning selection of chandeliers to brighten your home with sophistication and style.`,
-  featuresMainTitle: `Discover the ChandelierWorld Experience`,
-  featuresMainDescription: `Our team of lighting experts is dedicated to enhancing your living spaces with exquisite chandelier designs.`,
+  logo: `KidsPlayLand`,
+  heroTitle: `Explore Joy and Imagination at KidsPlayLand's Magical Toy Wonderland`,
+  heroDescription: `KidsPlayLand offers a captivating collection of toys to ignite your child's creativity and playtime fun.`,
+  featuresMainTitle: `Discover the KidsPlayLand Adventure`,
+  featuresMainDescription: `Our team of playtime experts is committed to enhancing your child's world with delightful toy choices.`,
   featuresList: `<li class="mb-2">
-  <strong>Elegant Chandelier Selection:</strong> Explore our exquisite range of chandeliers for a touch of luxury in your home.
+  <strong>Diverse Toy Selection:</strong> Explore our wide range of toys to bring smiles and excitement to your child's world.
 </li>
 <li class="mb-2">
-  <strong>Lighting Insights:</strong> Let us provide you with expert lighting advice and insights to create the perfect ambiance.
+  <strong>Playtime Insights:</strong> Let us provide you with expert advice and ideas to make your child's playtime magical.
 </li>
 <li class="mb-2">
-  <strong>Chandelier Accessories:</strong> Find the perfect accessories to complement your lighting fixtures.
+  <strong>Toy Accessories:</strong> Find the perfect additions to your child's toy collection for endless playtime possibilities.
 </li>
 <li class="mb-2">
-  <strong>Expert Lighting Guidance:</strong> Learn how to illuminate your spaces with personalized advice from our experts.
+  <strong>Expert Playtime Guidance:</strong> Learn how to create unforgettable play experiences with personalized advice from our experts.
 </li>`,
-  featuresListCol1T: `Exquisite Chandeliers`,
-  featuresListCol1D: `ChandelierWorld guarantees exquisite chandelier designs to elevate your home's elegance.`,
-  featuresListCol2T: `Experienced Lighting Experts`,
-  featuresListCol2D: `Our skilled lighting experts are passionate about creating the perfect ambiance for your home.`,
-  featuresListCol3T: `Personalized Lighting Support`,
-  featuresListCol3D: `ChandelierWorld caters to your specific lighting needs, offering personalized solutions and expert guidance.`,
-  caseTitle: `Our Lighting Collections`,
-  caseTitleDesc: `Explore ChandelierWorld's Premium Lighting Fixtures`,
-  caseTitleDesc1T: `Crystal Chandeliers`,
-  caseTitleDesc1D: `Discover our range of crystal chandeliers for a touch of timeless elegance.`,
-  caseTitleDesc2T: `Modern Lighting Designs`,
-  caseTitleDesc2D: `Experience modern lighting fixtures designed to enhance your contemporary living spaces.`,
-  caseTitleDesc3T: `Vintage Chandeliers`,
-  caseTitleDesc3D: `Find vintage chandeliers to add a touch of nostalgia and charm to your home.`,
-  mob1Title: `Brighten Your Space<br />with ChandelierWorld!`,
-  mob1Desc: `ChandelierWorld offers a haven for lighting enthusiasts, where you can transform your home with exquisite chandelier designs.`,
-  mob1Desc2: `Join us and let the beauty and elegance of our chandeliers illuminate your life.`,
-  mob2Title: `Where Elegance Meets Illumination<br />Your Home, Your Style.`,
-  mob2Desc: `At ChandelierWorld, we believe that every room deserves personalized lighting. Let us help you achieve your unique ambiance goals.`,
-  mob2Desc2: `Transform your living spaces into inviting and stylish havens with our top-tier lighting solutions.`,
-  custTitle: `Customer Success Stories`,
-  custDesc: `Hear what our satisfied customers have to say about their ChandelierWorld lighting experiences.`,
-  cust1: `I'm always amazed by the elegance and warmth I get with ChandelierWorld's chandeliers. It's transformed my home.`,
-  cust1Name: `Sophia Anderson`,
-  cust1Prof: `Interior Design Enthusiast`,
-  cust2: `ChandelierWorld made choosing the right lighting effortless. It's a game-changer for any homeowner.`,
-  cust2Name: `William Davis`,
-  cust2Prof: `Homeowner`,
-  cust3: `I love recommending ChandelierWorld's lighting accessories to friends. It's the perfect way to enhance their living spaces.`,
-  cust3Name: `Olivia White`,
-  cust3Prof: `Lighting Advocate`,
-  contactTitle: `Ready to Illuminate Your Life? Contact ChandelierWorld Today`,
-  logo2: `ChandelierWorld`,
-  mail: `info@chandelierworld.com`,
+  featuresListCol1T: `Diverse Toy Collection`,
+  featuresListCol1D: `KidsPlayLand guarantees a wide variety of toys to fill your child's playtime with joy and excitement.`,
+  featuresListCol2T: `Experienced Playtime Experts`,
+  featuresListCol2D: `Our skilled playtime experts are passionate about making your child's world more magical and fun.`,
+  featuresListCol3T: `Personalized Playtime Support`,
+  featuresListCol3D: `KidsPlayLand caters to your child's specific playtime needs, offering personalized solutions and expert guidance.`,
+  caseTitle: `Our Toy Collections`,
+  caseTitleDesc: `Explore KidsPlayLand's Premium Toy Selection`,
+  caseTitleDesc1T: `Educational Toys`,
+  caseTitleDesc1D: `Discover our range of educational toys to inspire your child's learning and curiosity.`,
+  caseTitleDesc2T: `Outdoor Play Equipment`,
+  caseTitleDesc2D: `Experience outdoor play equipment designed to encourage active and imaginative adventures.`,
+  caseTitleDesc3T: `Plush Toy Collection`,
+  caseTitleDesc3D: `Find cuddly and adorable plush toys to become your child's new best friends.`,
+  mob1Title: `Spark Your Child's Imagination<br />with KidsPlayLand!`,
+  mob1Desc: `KidsPlayLand offers a world of joy for young adventurers, where you can nurture creativity and playtime happiness.`,
+  mob1Desc2: `Join us and let the magic and fun of our toys fill your child's days with laughter and wonder.`,
+  mob2Title: `Where Playtime Meets Adventure<br />Your Child's World, Their Way.`,
+  mob2Desc: `At KidsPlayLand, we believe that every child deserves personalized playtime. Let us help you create unforgettable moments.`,
+  mob2Desc2: `Transform your child's playtime into a world of imagination and exploration with our top-quality toy solutions.`,
+  custTitle: `Happy Kids, Happy Parents`,
+  custDesc: `Hear what our satisfied customers have to say about their KidsPlayLand playtime experiences.`,
+  cust1: `I'm always amazed by the creativity and joy my child experiences with KidsPlayLand's toys. It's transformed our playtime.`,
+  cust1Name: `Emma Johnson`,
+  cust1Prof: `Proud Parent`,
+  cust2: `KidsPlayLand made finding the perfect toys effortless. It's a game-changer for any parent.`,
+  cust2Name: `David Miller`,
+  cust2Prof: `Enthusiastic Dad`,
+  cust3: `I love recommending KidsPlayLand's playtime accessories to friends. It's the perfect way to brighten their child's day.`,
+  cust3Name: `Sophie White`,
+  cust3Prof: `Playtime Enthusiast`,
+  contactTitle: `Ready to Ignite Your Child's Imagination? Contact KidsPlayLand Today`,
+  logo2: `KidsPlayLand`,
+  mail: `info@kidsplayland.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © ChandelierWorld. All rights reserved.`,
+  logo3: `Copyright © KidsPlayLand. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
