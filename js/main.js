@@ -39,59 +39,59 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: `KidsPlayLand`,
-  heroTitle: `Explore Joy and Imagination at KidsPlayLand's Magical Toy Wonderland`,
-  heroDescription: `KidsPlayLand offers a captivating collection of toys to ignite your child's creativity and playtime fun.`,
-  featuresMainTitle: `Discover the KidsPlayLand Adventure`,
-  featuresMainDescription: `Our team of playtime experts is committed to enhancing your child's world with delightful toy choices.`,
+  logo: `PlantPowerPro`,
+  heroTitle: `Nurture Your Garden's Potential with PlantPowerPro's Premium Fertilizers`,
+  heroDescription: `PlantPowerPro offers a transformative range of fertilizers to cultivate your garden's beauty and vitality.`,
+  featuresMainTitle: `Discover the PlantPowerPro Difference`,
+  featuresMainDescription: `Our team of gardening experts is dedicated to enhancing your garden's growth with top-quality fertilizer choices.`,
   featuresList: `<li class="mb-2">
-  <strong>Diverse Toy Selection:</strong> Explore our wide range of toys to bring smiles and excitement to your child's world.
+  <strong>Diverse Fertilizer Selection:</strong> Explore our wide range of fertilizers to nourish your plants and maximize their potential.
 </li>
 <li class="mb-2">
-  <strong>Playtime Insights:</strong> Let us provide you with expert advice and ideas to make your child's playtime magical.
+  <strong>Gardening Insights:</strong> Let us provide you with expert advice and tips to create a thriving and lush garden.
 </li>
 <li class="mb-2">
-  <strong>Toy Accessories:</strong> Find the perfect additions to your child's toy collection for endless playtime possibilities.
+  <strong>Fertilizer Accessories:</strong> Find the perfect additions to optimize your gardening efforts and achieve stunning results.
 </li>
 <li class="mb-2">
-  <strong>Expert Playtime Guidance:</strong> Learn how to create unforgettable play experiences with personalized advice from our experts.
+  <strong>Expert Gardening Guidance:</strong> Learn how to cultivate a vibrant garden with personalized advice from our experts.
 </li>`,
-  featuresListCol1T: `Diverse Toy Collection`,
-  featuresListCol1D: `KidsPlayLand guarantees a wide variety of toys to fill your child's playtime with joy and excitement.`,
-  featuresListCol2T: `Experienced Playtime Experts`,
-  featuresListCol2D: `Our skilled playtime experts are passionate about making your child's world more magical and fun.`,
-  featuresListCol3T: `Personalized Playtime Support`,
-  featuresListCol3D: `KidsPlayLand caters to your child's specific playtime needs, offering personalized solutions and expert guidance.`,
-  caseTitle: `Our Toy Collections`,
-  caseTitleDesc: `Explore KidsPlayLand's Premium Toy Selection`,
-  caseTitleDesc1T: `Educational Toys`,
-  caseTitleDesc1D: `Discover our range of educational toys to inspire your child's learning and curiosity.`,
-  caseTitleDesc2T: `Outdoor Play Equipment`,
-  caseTitleDesc2D: `Experience outdoor play equipment designed to encourage active and imaginative adventures.`,
-  caseTitleDesc3T: `Plush Toy Collection`,
-  caseTitleDesc3D: `Find cuddly and adorable plush toys to become your child's new best friends.`,
-  mob1Title: `Spark Your Child's Imagination<br />with KidsPlayLand!`,
-  mob1Desc: `KidsPlayLand offers a world of joy for young adventurers, where you can nurture creativity and playtime happiness.`,
-  mob1Desc2: `Join us and let the magic and fun of our toys fill your child's days with laughter and wonder.`,
-  mob2Title: `Where Playtime Meets Adventure<br />Your Child's World, Their Way.`,
-  mob2Desc: `At KidsPlayLand, we believe that every child deserves personalized playtime. Let us help you create unforgettable moments.`,
-  mob2Desc2: `Transform your child's playtime into a world of imagination and exploration with our top-quality toy solutions.`,
-  custTitle: `Happy Kids, Happy Parents`,
-  custDesc: `Hear what our satisfied customers have to say about their KidsPlayLand playtime experiences.`,
-  cust1: `I'm always amazed by the creativity and joy my child experiences with KidsPlayLand's toys. It's transformed our playtime.`,
-  cust1Name: `Emma Johnson`,
-  cust1Prof: `Proud Parent`,
-  cust2: `KidsPlayLand made finding the perfect toys effortless. It's a game-changer for any parent.`,
-  cust2Name: `David Miller`,
-  cust2Prof: `Enthusiastic Dad`,
-  cust3: `I love recommending KidsPlayLand's playtime accessories to friends. It's the perfect way to brighten their child's day.`,
-  cust3Name: `Sophie White`,
-  cust3Prof: `Playtime Enthusiast`,
-  contactTitle: `Ready to Ignite Your Child's Imagination? Contact KidsPlayLand Today`,
-  logo2: `KidsPlayLand`,
-  mail: `info@kidsplayland.com`,
+  featuresListCol1T: `Diverse Fertilizer Collection`,
+  featuresListCol1D: `PlantPowerPro guarantees a wide variety of fertilizers to nourish your garden and promote its health and beauty.`,
+  featuresListCol2T: `Experienced Gardening Experts`,
+  featuresListCol2D: `Our skilled gardening experts are passionate about helping your garden thrive and flourish.`,
+  featuresListCol3T: `Personalized Gardening Support`,
+  featuresListCol3D: `PlantPowerPro caters to your specific gardening needs, offering personalized solutions and expert guidance.`,
+  caseTitle: `Our Fertilizer Collections`,
+  caseTitleDesc: `Explore PlantPowerPro's Premium Fertilizer Selection`,
+  caseTitleDesc1T: `Organic Plant Nutrients`,
+  caseTitleDesc1D: `Discover our range of organic plant nutrients to promote healthy and sustainable gardening.`,
+  caseTitleDesc2T: `Specialized Soil Enhancers`,
+  caseTitleDesc2D: `Experience soil enhancers designed to optimize your garden's growing conditions and yield.`,
+  caseTitleDesc3T: `Blossom Boosters`,
+  caseTitleDesc3D: `Find blossom boosters to enhance your flowers' vibrancy and bloom.`,
+  mob1Title: `Nurture Your Garden's Potential<br />with PlantPowerPro!`,
+  mob1Desc: `PlantPowerPro offers a haven for gardening enthusiasts, where you can cultivate a garden of beauty and vitality.`,
+  mob1Desc2: `Join us and let the power of our fertilizers transform your garden into a lush and thriving oasis.`,
+  mob2Title: `Where Growth Meets Beauty<br />Your Garden, Your Way.`,
+  mob2Desc: `At PlantPowerPro, we believe that every garden deserves personalized care. Let us help you achieve a stunning and vibrant garden.`,
+  mob2Desc2: `Transform your garden into a haven of lush greenery and flourishing blooms with our top-tier fertilizer solutions.`,
+  custTitle: `Happy Gardeners, Thriving Gardens`,
+  custDesc: `Hear what our satisfied customers have to say about their PlantPowerPro gardening experiences.`,
+  cust1: `I'm always amazed by the health and vitality my garden achieves with PlantPowerPro's fertilizers. It's transformed my gardening.`,
+  cust1Name: `Sarah Anderson`,
+  cust1Prof: `Proud Gardener`,
+  cust2: `PlantPowerPro made finding the perfect fertilizers effortless. It's a game-changer for any gardener.`,
+  cust2Name: `Michael Davis`,
+  cust2Prof: `Enthusiastic Gardener`,
+  cust3: `I love recommending PlantPowerPro's gardening accessories to friends. It's the perfect way to nurture their gardens.`,
+  cust3Name: `Sophie Green`,
+  cust3Prof: `Gardening Enthusiast`,
+  contactTitle: `Ready to Cultivate Your Garden's Beauty? Contact PlantPowerPro Today`,
+  logo2: `PlantPowerPro`,
+  mail: `info@plantpowerpro.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © KidsPlayLand. All rights reserved.`,
+  logo3: `Copyright © PlantPowerPro. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
