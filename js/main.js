@@ -39,61 +39,59 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: `TireProShop`,
-  heroTitle: `Rev Up Your Ride with Precision Tires<br />at TireProShop Tire Emporium.`,
-  heroDescription: `TireProShop offers an extensive range of top-notch tires and expert solutions to enhance your driving experience.`,
-  featuresMainTitle: `Discover the TireProShop Advantage`,
-  featuresMainDescription: `Our dedicated team of automotive experts is committed to optimizing your vehicle's performance through high-quality tires.`,
+  logo: `AlarmGuardian`,
+  heroTitle: `Secure Your Peace of Mind with AlarmGuardian Security Systems`,
+  heroDescription: `AlarmGuardian offers state-of-the-art security solutions to protect your home and loved ones.`,
+  featuresMainTitle: `Discover the AlarmGuardian Advantage`,
+  featuresMainDescription: `Our dedicated team of security experts is committed to safeguarding your property and providing peace of mind.`,
   featuresList: `<li class="mb-2">
-  <strong>Precision Tire Selection:</strong> Explore our diverse range of top-notch tires for a smoother and safer ride.
+  <strong>Advanced Security Systems:</strong> Explore our cutting-edge security systems for enhanced protection.
 </li>
 <li class="mb-2">
-  <strong>Tire Performance Insights:</strong> Let us provide you with in-depth tire data to maximize your driving comfort and safety.
+  <strong>Security Insights:</strong> Let us provide you with expert guidance and insights to ensure your safety and security.
 </li>
 <li class="mb-2">
-  <strong>Tire Accessories:</strong> Find the perfect accessories to complement your vehicle's tire needs.
+  <strong>Security Accessories:</strong> Find the perfect accessories to complement your security system.
 </li>
 <li class="mb-2">
-  <strong>Expert Automotive Guidance:</strong> Learn how to optimize your driving experience with personalized advice from our experts.
+  <strong>Expert Security Guidance:</strong> Learn how to optimize your home security with personalized advice from our experts.
 </li>`,
-  featuresListCol1T: `High-Performance Tires`,
-  featuresListCol1D: `TireProShop guarantees top-notch tires for a smoother and safer ride.`,
-  featuresListCol2T: `Experienced Automotive Experts`,
-  featuresListCol2D: `Our skilled automotive experts are passionate about enhancing your driving experience.`,
-  featuresListCol3T: `Personalized Vehicle Support`,
-  featuresListCol3D: `TireProShop caters to your specific vehicle needs, offering personalized solutions and expert guidance.`,
-  caseTitle: `Our Tire Collection`,
-  caseTitleDesc: `Explore TireProShop's Premium Tire Selection`,
-  caseTitleDesc1T: `Performance Tires`,
-  caseTitleDesc1D: `Discover our range of performance tires for enhanced grip and control.`,
-  caseTitleDesc2T: `All-Season Tires`,
-  caseTitleDesc2D: `Experience all-season tires designed for year-round safety and reliability.`,
-  caseTitleDesc3T: `Off-Road Tires`,
-  caseTitleDesc3D: `Find off-road tires for your adventurous journeys, ensuring traction on all terrains.`,
-  caseTitleDesc4T: `Tire Accessories`,
-  caseTitleDesc4D: `Explore our collection of tire accessories to enhance your vehicle's performance.`,
-  mob1Title: `Upgrade Your Drive<br />with TireProShop!`,
-  mob1Desc: `TireProShop offers a haven for automotive enthusiasts, where you can elevate your driving experience with precision tires.`,
-  mob1Desc2: `Join us and let the quality and performance of our tires take your ride to the next level.`,
-  mob2Title: `Where Quality Meets Excellence<br />Your Vehicle, Your Way.`,
-  mob2Desc: `At TireProShop, we believe that every drive should be personalized. Let us help you achieve your unique driving goals.`,
-  mob2Desc2: `Transform your journeys into smooth and enjoyable rides with our top-tier tire solutions.`,
+  featuresListCol1T: `High-Tech Security Systems`,
+  featuresListCol1D: `AlarmGuardian guarantees cutting-edge security systems for your peace of mind.`,
+  featuresListCol2T: `Experienced Security Experts`,
+  featuresListCol2D: `Our skilled security experts are passionate about enhancing your safety and security.`,
+  featuresListCol3T: `Personalized Security Support`,
+  featuresListCol3D: `AlarmGuardian caters to your specific security needs, offering personalized solutions and expert guidance.`,
+  caseTitle: `Our Security Solutions`,
+  caseTitleDesc: `Explore AlarmGuardian's Premium Security Systems`,
+  caseTitleDesc1T: `Home Security Systems`,
+  caseTitleDesc1D: `Discover our range of home security systems for ultimate protection.`,
+  caseTitleDesc2T: `Business Security Systems`,
+  caseTitleDesc2D: `Secure your business with our advanced security systems designed for commercial spaces.`,
+  caseTitleDesc3T: `Smart Security Accessories`,
+  caseTitleDesc3D: `Explore our collection of security accessories to enhance your overall safety.`,
+  mob1Title: `Upgrade Your Security<br />with AlarmGuardian!`,
+  mob1Desc: `AlarmGuardian offers a haven for security-conscious individuals, where you can elevate your safety and peace of mind.`,
+  mob1Desc2: `Join us and let the quality and performance of our security systems protect what matters most to you.`,
+  mob2Title: `Where Safety Meets Excellence<br />Your Protection, Your Way.`,
+  mob2Desc: `At AlarmGuardian, we believe that every property deserves personalized security. Let us help you achieve your unique safety goals.`,
+  mob2Desc2: `Transform your surroundings into a secure and worry-free environment with our top-tier security solutions.`,
   custTitle: `Customer Success Stories`,
-  custDesc: `Hear what our satisfied customers have to say about their TireProShop experiences.`,
-  cust1: `I'm always amazed by the performance and safety I get with TireProShop's tires. It's transformed my driving experience.`,
-  cust1Name: `Emily Turner`,
-  cust1Prof: `Automotive Enthusiast`,
-  cust2: `TireProShop made choosing the right tires for my vehicle effortless. It's a game-changer for any driver.`,
-  cust2Name: `Max Parker`,
-  cust2Prof: `Vehicle Owner`,
-  cust3: `I love recommending TireProShop's tire accessories to friends. It's the perfect way to enhance their driving experience.`,
-  cust3Name: `Christina Foster`,
-  cust3Prof: `Automotive Advocate`,
-  contactTitle: `Ready to Enhance Your Ride? Contact TireProShop Today`,
-  logo2: `TireProShop`,
-  mail: `info@tireproshop.com`,
+  custDesc: `Hear what our satisfied customers have to say about their AlarmGuardian security experiences.`,
+  cust1: `I'm always amazed by the security and peace of mind I get with AlarmGuardian's systems. It's transformed my sense of safety.`,
+  cust1Name: `Alexandra Smith`,
+  cust1Prof: `Security Enthusiast`,
+  cust2: `AlarmGuardian made securing my property effortless. It's a game-changer for any homeowner.`,
+  cust2Name: `Michael Johnson`,
+  cust2Prof: `Homeowner`,
+  cust3: `I love recommending AlarmGuardian's security accessories to friends. It's the perfect way to enhance their peace of mind.`,
+  cust3Name: `Ella Brown`,
+  cust3Prof: `Security Advocate`,
+  contactTitle: `Ready to Secure Your Peace of Mind? Contact AlarmGuardian Today`,
+  logo2: `AlarmGuardian`,
+  mail: `info@alarmguardian.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © TireProShop. All rights reserved.`,
+  logo3: `Copyright © AlarmGuardian. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
