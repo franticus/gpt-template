@@ -39,59 +39,59 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: `SneakPeakSports`,
-  heroTitle: `Elevate Your Style with SneakPeakSports' Trendy Sneaker Collection`,
-  heroDescription: `SneakPeakSports offers a diverse range of sneakers to boost your fashion game and performance.`,
-  featuresMainTitle: `Discover the SneakPeakSports Difference`,
-  featuresMainDescription: `Our team of sneaker enthusiasts is committed to elevating your shoe game with top-notch footwear choices.`,
+  logo: `TurboChillFans`,
+  heroTitle: `Experience Ultimate Cooling with TurboChillFans' Fan Selection`,
+  heroDescription: `TurboChillFans offers a diverse range of fans to keep you cool and comfortable.`,
+  featuresMainTitle: `Discover the TurboChillFans Advantage`,
+  featuresMainDescription: `Our team of cooling experts is committed to enhancing your comfort with top-notch fan choices.`,
   featuresList: `<li class="mb-2">
-    <strong>Diverse Sneaker Selection:</strong> Explore our wide range of sneakers to enhance your style and athletic performance.
+    <strong>Versatile Fan Selection:</strong> Explore our wide range of fans to keep your space comfortable and well-ventilated.
   </li>
   <li class="mb-2">
-    <strong>Fashion Insights:</strong> Let us provide you with expert fashion advice and tips to step up your sneaker game.
+    <strong>Cooling Insights:</strong> Let us provide you with expert advice and tips to create a refreshing environment with our fans.
   </li>
   <li class="mb-2">
-    <strong>Sneaker Accessories:</strong> Find the perfect additions to complete your sneaker collection and achieve a stylish look.
+    <strong>Fan Accessories:</strong> Find the perfect additions to optimize your fan's performance and achieve a comfortable atmosphere.
   </li>
   <li class="mb-2">
-    <strong>Expert Shoe Guidance:</strong> Learn how to make a fashion statement and excel in your favorite sports with personalized advice from our experts.
+    <strong>Expert Cooling Guidance:</strong> Learn how to keep cool and relaxed in any season with personalized advice from our experts.
   </li>`,
-  featuresListCol1T: `Diverse Sneaker Collection`,
-  featuresListCol1D: `SneakPeakSports guarantees a wide variety of sneakers to complement your style and boost your performance.`,
-  featuresListCol2T: `Experienced Sneaker Enthusiasts`,
-  featuresListCol2D: `Our skilled sneaker enthusiasts are passionate about helping you find the perfect pair to express yourself.`,
-  featuresListCol3T: `Personalized Shoe Support`,
-  featuresListCol3D: `SneakPeakSports caters to your specific footwear needs, offering personalized solutions and expert guidance.`,
-  caseTitle: `Our Sneaker Collections`,
-  caseTitleDesc: `Explore SneakPeakSports' Trendy Sneaker Selection`,
-  caseTitleDesc1T: `Fashion Forward Sneakers`,
-  caseTitleDesc1D: `Discover our range of fashion-forward sneakers to elevate your style and make a statement.`,
-  caseTitleDesc2T: `Performance Athletic Footwear`,
-  caseTitleDesc2D: `Experience athletic footwear designed to enhance your sports performance and comfort.`,
-  caseTitleDesc3T: `Casual Sneaker Collection`,
-  caseTitleDesc3D: `Find casual sneakers that combine style and comfort for everyday wear.`,
-  mob1Title: `Step Up Your Style Game<br />with SneakPeakSports!`,
-  mob1Desc: `SneakPeakSports offers a world of trendy sneakers, where you can express your unique style and athletic prowess.`,
-  mob1Desc2: `Join us and let the fashion and performance of our sneakers elevate your everyday look.`,
-  mob2Title: `Where Style Meets Performance<br />Your Sneaker Collection, Your Way.`,
-  mob2Desc: `At SneakPeakSports, we believe that every sneaker enthusiast deserves personalized advice. Let us help you find the perfect pair.`,
-  mob2Desc2: `Transform your shoe collection into a statement of style and comfort with our top-quality footwear solutions.`,
-  custTitle: `Happy Sneakerheads, Stylish Feet`,
-  custDesc: `Hear what our satisfied customers have to say about their SneakPeakSports sneaker experiences.`,
-  cust1: `I'm always amazed by the style and comfort SneakPeakSports' sneakers provide. It's transformed my fashion game.`,
-  cust1Name: `Olivia Taylor`,
-  cust1Prof: `Fashion Enthusiast`,
-  cust2: `SneakPeakSports made finding the perfect sneakers effortless. It's a game-changer for any sneakerhead.`,
-  cust2Name: `Daniel Jackson`,
-  cust2Prof: `Sneaker Collector`,
-  cust3: `I love recommending SneakPeakSports' shoe accessories to friends. It's the perfect way to complete their sneaker collection.`,
-  cust3Name: `Emily White`,
-  cust3Prof: `Style Influencer`,
-  contactTitle: `Ready to Elevate Your Sneaker Game? Contact SneakPeakSports Today`,
-  logo2: `SneakPeakSports`,
-  mail: `info@sneakpeaksports.com`,
+  featuresListCol1T: `Versatile Fan Collection`,
+  featuresListCol1D: `TurboChillFans guarantees a wide variety of fans to suit your needs and maintain a comfortable environment.`,
+  featuresListCol2T: `Experienced Cooling Enthusiasts`,
+  featuresListCol2D: `Our skilled cooling enthusiasts are passionate about helping you find the perfect fan to enhance your space.`,
+  featuresListCol3T: `Personalized Comfort Support`,
+  featuresListCol3D: `TurboChillFans caters to your specific cooling needs, offering personalized solutions and expert guidance.`,
+  caseTitle: `Our Fan Collections`,
+  caseTitleDesc: `Explore TurboChillFans' Fan Selection`,
+  caseTitleDesc1T: `Modern Cooling Fans`,
+  caseTitleDesc1D: `Discover our range of modern cooling fans to keep your space comfortable and stylish.`,
+  caseTitleDesc2T: `High-Performance Ventilation`,
+  caseTitleDesc2D: `Experience high-performance ventilation solutions designed to keep your environment fresh and cool.`,
+  caseTitleDesc3T: `Energy-Efficient Cooling`,
+  caseTitleDesc3D: `Find energy-efficient fans that provide comfort while helping you save on energy costs.`,
+  mob1Title: `Stay Cool and Comfortable<br />with TurboChillFans!`,
+  mob1Desc: `TurboChillFans offers a world of cooling solutions where you can create a refreshing atmosphere tailored to your needs.`,
+  mob1Desc2: `Join us and let the cooling performance of our fans keep you relaxed year-round.`,
+  mob2Title: `Where Comfort Meets Efficiency<br />Your Cooling Solutions, Your Way.`,
+  mob2Desc: `At TurboChillFans, we believe that everyone deserves a comfortable environment. Let us help you find the perfect fan.`,
+  mob2Desc2: `Transform your space into a haven of comfort and freshness with our top-quality fan solutions.`,
+  custTitle: `Satisfied Customers, Comfortable Spaces`,
+  custDesc: `Hear what our happy customers have to say about their TurboChillFans' fan experiences.`,
+  cust1: `I'm always amazed by the performance and style TurboChillFans' fans provide. It's transformed my living space.`,
+  cust1Name: `Michaela Davis`,
+  cust1Prof: `Homeowner`,
+  cust2: `TurboChillFans made finding the perfect fan effortless. It's a game-changer for any space.`,
+  cust2Name: `David Johnson`,
+  cust2Prof: `Interior Designer`,
+  cust3: `I love recommending TurboChillFans' fan accessories to friends. It's the perfect way to optimize any fan.`,
+  cust3Name: `Sarah Anderson`,
+  cust3Prof: `DIY Enthusiast`,
+  contactTitle: `Ready to Enhance Your Comfort? Contact TurboChillFans Today`,
+  logo2: `TurboChillFans`,
+  mail: `info@turbochillfans.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © SneakPeakSports. All rights reserved.`,
+  logo3: `Copyright © TurboChillFans. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
