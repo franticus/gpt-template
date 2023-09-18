@@ -39,59 +39,59 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: `PlantPowerPro`,
-  heroTitle: `Nurture Your Garden's Potential with PlantPowerPro's Premium Fertilizers`,
-  heroDescription: `PlantPowerPro offers a transformative range of fertilizers to cultivate your garden's beauty and vitality.`,
-  featuresMainTitle: `Discover the PlantPowerPro Difference`,
-  featuresMainDescription: `Our team of gardening experts is dedicated to enhancing your garden's growth with top-quality fertilizer choices.`,
+  logo: `SneakPeakSports`,
+  heroTitle: `Elevate Your Style with SneakPeakSports' Trendy Sneaker Collection`,
+  heroDescription: `SneakPeakSports offers a diverse range of sneakers to boost your fashion game and performance.`,
+  featuresMainTitle: `Discover the SneakPeakSports Difference`,
+  featuresMainDescription: `Our team of sneaker enthusiasts is committed to elevating your shoe game with top-notch footwear choices.`,
   featuresList: `<li class="mb-2">
-  <strong>Diverse Fertilizer Selection:</strong> Explore our wide range of fertilizers to nourish your plants and maximize their potential.
-</li>
-<li class="mb-2">
-  <strong>Gardening Insights:</strong> Let us provide you with expert advice and tips to create a thriving and lush garden.
-</li>
-<li class="mb-2">
-  <strong>Fertilizer Accessories:</strong> Find the perfect additions to optimize your gardening efforts and achieve stunning results.
-</li>
-<li class="mb-2">
-  <strong>Expert Gardening Guidance:</strong> Learn how to cultivate a vibrant garden with personalized advice from our experts.
-</li>`,
-  featuresListCol1T: `Diverse Fertilizer Collection`,
-  featuresListCol1D: `PlantPowerPro guarantees a wide variety of fertilizers to nourish your garden and promote its health and beauty.`,
-  featuresListCol2T: `Experienced Gardening Experts`,
-  featuresListCol2D: `Our skilled gardening experts are passionate about helping your garden thrive and flourish.`,
-  featuresListCol3T: `Personalized Gardening Support`,
-  featuresListCol3D: `PlantPowerPro caters to your specific gardening needs, offering personalized solutions and expert guidance.`,
-  caseTitle: `Our Fertilizer Collections`,
-  caseTitleDesc: `Explore PlantPowerPro's Premium Fertilizer Selection`,
-  caseTitleDesc1T: `Organic Plant Nutrients`,
-  caseTitleDesc1D: `Discover our range of organic plant nutrients to promote healthy and sustainable gardening.`,
-  caseTitleDesc2T: `Specialized Soil Enhancers`,
-  caseTitleDesc2D: `Experience soil enhancers designed to optimize your garden's growing conditions and yield.`,
-  caseTitleDesc3T: `Blossom Boosters`,
-  caseTitleDesc3D: `Find blossom boosters to enhance your flowers' vibrancy and bloom.`,
-  mob1Title: `Nurture Your Garden's Potential<br />with PlantPowerPro!`,
-  mob1Desc: `PlantPowerPro offers a haven for gardening enthusiasts, where you can cultivate a garden of beauty and vitality.`,
-  mob1Desc2: `Join us and let the power of our fertilizers transform your garden into a lush and thriving oasis.`,
-  mob2Title: `Where Growth Meets Beauty<br />Your Garden, Your Way.`,
-  mob2Desc: `At PlantPowerPro, we believe that every garden deserves personalized care. Let us help you achieve a stunning and vibrant garden.`,
-  mob2Desc2: `Transform your garden into a haven of lush greenery and flourishing blooms with our top-tier fertilizer solutions.`,
-  custTitle: `Happy Gardeners, Thriving Gardens`,
-  custDesc: `Hear what our satisfied customers have to say about their PlantPowerPro gardening experiences.`,
-  cust1: `I'm always amazed by the health and vitality my garden achieves with PlantPowerPro's fertilizers. It's transformed my gardening.`,
-  cust1Name: `Sarah Anderson`,
-  cust1Prof: `Proud Gardener`,
-  cust2: `PlantPowerPro made finding the perfect fertilizers effortless. It's a game-changer for any gardener.`,
-  cust2Name: `Michael Davis`,
-  cust2Prof: `Enthusiastic Gardener`,
-  cust3: `I love recommending PlantPowerPro's gardening accessories to friends. It's the perfect way to nurture their gardens.`,
-  cust3Name: `Sophie Green`,
-  cust3Prof: `Gardening Enthusiast`,
-  contactTitle: `Ready to Cultivate Your Garden's Beauty? Contact PlantPowerPro Today`,
-  logo2: `PlantPowerPro`,
-  mail: `info@plantpowerpro.com`,
+    <strong>Diverse Sneaker Selection:</strong> Explore our wide range of sneakers to enhance your style and athletic performance.
+  </li>
+  <li class="mb-2">
+    <strong>Fashion Insights:</strong> Let us provide you with expert fashion advice and tips to step up your sneaker game.
+  </li>
+  <li class="mb-2">
+    <strong>Sneaker Accessories:</strong> Find the perfect additions to complete your sneaker collection and achieve a stylish look.
+  </li>
+  <li class="mb-2">
+    <strong>Expert Shoe Guidance:</strong> Learn how to make a fashion statement and excel in your favorite sports with personalized advice from our experts.
+  </li>`,
+  featuresListCol1T: `Diverse Sneaker Collection`,
+  featuresListCol1D: `SneakPeakSports guarantees a wide variety of sneakers to complement your style and boost your performance.`,
+  featuresListCol2T: `Experienced Sneaker Enthusiasts`,
+  featuresListCol2D: `Our skilled sneaker enthusiasts are passionate about helping you find the perfect pair to express yourself.`,
+  featuresListCol3T: `Personalized Shoe Support`,
+  featuresListCol3D: `SneakPeakSports caters to your specific footwear needs, offering personalized solutions and expert guidance.`,
+  caseTitle: `Our Sneaker Collections`,
+  caseTitleDesc: `Explore SneakPeakSports' Trendy Sneaker Selection`,
+  caseTitleDesc1T: `Fashion Forward Sneakers`,
+  caseTitleDesc1D: `Discover our range of fashion-forward sneakers to elevate your style and make a statement.`,
+  caseTitleDesc2T: `Performance Athletic Footwear`,
+  caseTitleDesc2D: `Experience athletic footwear designed to enhance your sports performance and comfort.`,
+  caseTitleDesc3T: `Casual Sneaker Collection`,
+  caseTitleDesc3D: `Find casual sneakers that combine style and comfort for everyday wear.`,
+  mob1Title: `Step Up Your Style Game<br />with SneakPeakSports!`,
+  mob1Desc: `SneakPeakSports offers a world of trendy sneakers, where you can express your unique style and athletic prowess.`,
+  mob1Desc2: `Join us and let the fashion and performance of our sneakers elevate your everyday look.`,
+  mob2Title: `Where Style Meets Performance<br />Your Sneaker Collection, Your Way.`,
+  mob2Desc: `At SneakPeakSports, we believe that every sneaker enthusiast deserves personalized advice. Let us help you find the perfect pair.`,
+  mob2Desc2: `Transform your shoe collection into a statement of style and comfort with our top-quality footwear solutions.`,
+  custTitle: `Happy Sneakerheads, Stylish Feet`,
+  custDesc: `Hear what our satisfied customers have to say about their SneakPeakSports sneaker experiences.`,
+  cust1: `I'm always amazed by the style and comfort SneakPeakSports' sneakers provide. It's transformed my fashion game.`,
+  cust1Name: `Olivia Taylor`,
+  cust1Prof: `Fashion Enthusiast`,
+  cust2: `SneakPeakSports made finding the perfect sneakers effortless. It's a game-changer for any sneakerhead.`,
+  cust2Name: `Daniel Jackson`,
+  cust2Prof: `Sneaker Collector`,
+  cust3: `I love recommending SneakPeakSports' shoe accessories to friends. It's the perfect way to complete their sneaker collection.`,
+  cust3Name: `Emily White`,
+  cust3Prof: `Style Influencer`,
+  contactTitle: `Ready to Elevate Your Sneaker Game? Contact SneakPeakSports Today`,
+  logo2: `SneakPeakSports`,
+  mail: `info@sneakpeaksports.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © PlantPowerPro. All rights reserved.`,
+  logo3: `Copyright © SneakPeakSports. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
