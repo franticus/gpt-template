@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'BlossomBoutique',
-  heroTitle: `Discover the Beauty of Nature<br />at BlossomBoutique Flower Shop.`,
-  heroDescription: `BlossomBoutique offers a stunning collection of flowers and floral arrangements to brighten your day.`,
-  featuresMainTitle: 'Experience What BlossomBoutique Offers',
+  logo: 'ShadeBazaar',
+  heroTitle: `Transform Your Space with Elegance<br />at ShadeBazaar Curtain Emporium.`,
+  heroDescription: `ShadeBazaar offers an exquisite collection of curtains and window coverings to elevate your interior.`,
+  featuresMainTitle: 'Discover What Sets ShadeBazaar Apart',
   featuresMainDescription:
-    'Our dedicated team of florists is committed to bringing the beauty of nature into your life.',
+    'Our dedicated team of curtain experts is committed to enhancing the ambiance of your living spaces.',
   featuresList: `<li class="mb-2">
-  <strong>Exquisite Flower Selection:</strong> Explore our wide range of flowers, from classic roses to unique and exotic blooms.
+  <strong>Stunning Curtain Selection:</strong> Explore our wide range of curtains, from classic designs to unique and modern styles.
 </li>
 <li class="mb-2">
-  <strong>Custom Floral Arrangements:</strong> Let us create a personalized floral masterpiece for your special occasions.
+  <strong>Custom Window Solutions:</strong> Let us tailor window coverings to match your home's aesthetic perfectly.
 </li>
 <li class="mb-2">
-  <strong>Floral Gifts & Decor:</strong> Find the perfect floral gifts and decorations to add a touch of elegance to any event.
+  <strong>Home Decor & Accessories:</strong> Find the ideal home decor and accessories to complete your interior design.
 </li>
 <li class="mb-2">
-  <strong>Expert Floral Care Tips:</strong> Learn how to care for your flowers to keep them fresh and vibrant for longer.
+  <strong>Expert Curtain Care Tips:</strong> Learn how to maintain your curtains for long-lasting beauty and functionality.
 </li>`,
-  featuresListCol1T: `Fresh Blooms Daily`,
-  featuresListCol1D: `BlossomBoutique ensures a daily supply of fresh and vibrant flowers for our customers.`,
-  featuresListCol2T: `Talented Florists`,
-  featuresListCol2D: `Our skilled florists are passionate about creating stunning floral arrangements for every occasion.`,
-  featuresListCol3T: `Personalized Service`,
-  featuresListCol3D: `BlossomBoutique caters to your specific needs, offering personalized floral solutions and expert advice.`,
-  caseTitle: `Our Floral Selection`,
-  caseTitleDesc: `Explore BlossomBoutique's Diverse Floral Offerings`,
-  caseTitleDesc1T: `Classic Roses`,
-  caseTitleDesc1D: `Discover the timeless beauty of classic roses in various colors and arrangements.`,
-  caseTitleDesc2T: `Exotic Blooms`,
-  caseTitleDesc2D: `Experience the allure of exotic flowers from around the world, carefully curated for your enjoyment.`,
-  caseTitleDesc3T: `Special Occasion Flowers`,
-  caseTitleDesc3D: `Find the perfect flowers to celebrate life's special moments with style and grace.`,
-  caseTitleDesc4T: `Floral Decor & Gifts`,
-  caseTitleDesc4D: `Explore our collection of floral decorations and thoughtful gift options that make any occasion memorable.`,
-  mob1Title: `Experience Nature's Beauty<br />at BlossomBoutique!`,
-  mob1Desc: `BlossomBoutique offers a haven for flower enthusiasts, where you can immerse yourself in the beauty of nature.`,
-  mob1Desc2: `Join us and let the fragrance and colors of our flowers brighten your day.`,
-  mob2Title: `Where Flowers Speak<br />the Language of Love.`,
-  mob2Desc: `At BlossomBoutique, we believe that flowers convey emotions and sentiments. Let us help you express your feelings.`,
-  mob2Desc2: `Transform your moments into floral memories with our exquisite selections.`,
+  featuresListCol1T: `Quality Fabrics`,
+  featuresListCol1D: `ShadeBazaar guarantees top-quality fabrics and materials for all your curtain needs.`,
+  featuresListCol2T: `Experienced Designers`,
+  featuresListCol2D: `Our skilled designers are passionate about creating window coverings that elevate your space.`,
+  featuresListCol3T: `Personalized Assistance`,
+  featuresListCol3D: `ShadeBazaar caters to your specific requirements, offering personalized curtain solutions and expert advice.`,
+  caseTitle: `Our Curtain Collection`,
+  caseTitleDesc: `Explore ShadeBazaar's Diverse Curtain Offerings`,
+  caseTitleDesc1T: `Classic Drapery`,
+  caseTitleDesc1D: `Discover the timeless elegance of classic drapery in a variety of colors and designs.`,
+  caseTitleDesc2T: `Modern Window Treatments`,
+  caseTitleDesc2D: `Experience the allure of contemporary window treatments, carefully curated for your taste.`,
+  caseTitleDesc3T: `Custom Curtain Solutions`,
+  caseTitleDesc3D: `Find tailor-made curtains to fit your unique windows and interior design preferences.`,
+  caseTitleDesc4T: `Home Decor Accessories`,
+  caseTitleDesc4D: `Explore our collection of home decor accessories to complement your curtains and space.`,
+  mob1Title: `Elevate Your Interior<br />with ShadeBazaar!`,
+  mob1Desc: `ShadeBazaar offers a haven for curtain enthusiasts, where you can transform your living spaces with elegance.`,
+  mob1Desc2: `Join us and let the beauty and style of our curtains enhance your home.`,
+  mob2Title: `Where Curtains Reflect<br />Your Personal Style.`,
+  mob2Desc: `At ShadeBazaar, we believe that curtains should be an extension of your personality. Let us help you express your taste.`,
+  mob2Desc2: `Turn your living spaces into cozy retreats with our curated curtain collections.`,
   custTitle: `Customer Testimonials`,
-  custDesc: `Hear what our satisfied customers have to say about BlossomBoutique.`,
-  cust1: `I'm always amazed by the freshness and beauty of the flowers at BlossomBoutique. Their arrangements are a work of art.`,
-  cust1Name: `Linda Roberts`,
-  cust1Prof: `Flower Enthusiast`,
-  cust2: `BlossomBoutique made my wedding day truly special with their stunning floral arrangements. It was a dream come true.`,
-  cust2Name: `David Johnson`,
-  cust2Prof: `Happy Groom`,
-  cust3: `I love sending BlossomBoutique's floral gifts to my loved ones. It's the perfect way to brighten someone's day.`,
-  cust3Name: `Sophia Miller`,
-  cust3Prof: `Thoughtful Sender`,
-  contactTitle: `Ready to Embrace the Beauty of Blooms? Contact BlossomBoutique Today`,
-  logo2: `BlossomBoutique`,
-  mail: `info@blossomboutique.com`,
+  custDesc: `Hear what our satisfied customers have to say about ShadeBazaar.`,
+  cust1: `I'm always amazed by the quality and style of the curtains at ShadeBazaar. Their designs truly transformed my home.`,
+  cust1Name: `Emily Anderson`,
+  cust1Prof: `Interior Enthusiast`,
+  cust2: `ShadeBazaar made redecorating my office space a breeze with their custom curtain solutions. It's a game-changer.`,
+  cust2Name: `Michael Harris`,
+  cust2Prof: `Business Professional`,
+  cust3: `I love gifting ShadeBazaar's home decor accessories to friends. It's the perfect way to add a touch of elegance to their homes.`,
+  cust3Name: `Olivia Smith`,
+  cust3Prof: `Thoughtful Gift Giver`,
+  contactTitle: `Ready to Elevate Your Interior? Contact ShadeBazaar Today`,
+  logo2: `ShadeBazaar`,
+  mail: `info@shadebazaar.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © BlossomBoutique. All rights reserved.`,
+  logo3: `Copyright © ShadeBazaar. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
