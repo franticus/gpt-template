@@ -39,59 +39,59 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: `AlarmGuardian`,
-  heroTitle: `Secure Your Peace of Mind with AlarmGuardian Security Systems`,
-  heroDescription: `AlarmGuardian offers state-of-the-art security solutions to protect your home and loved ones.`,
-  featuresMainTitle: `Discover the AlarmGuardian Advantage`,
-  featuresMainDescription: `Our dedicated team of security experts is committed to safeguarding your property and providing peace of mind.`,
+  logo: `ChandelierWorld`,
+  heroTitle: `Illuminate Your Life with ChandelierWorld's Elegant Lighting`,
+  heroDescription: `ChandelierWorld offers a stunning selection of chandeliers to brighten your home with sophistication and style.`,
+  featuresMainTitle: `Discover the ChandelierWorld Experience`,
+  featuresMainDescription: `Our team of lighting experts is dedicated to enhancing your living spaces with exquisite chandelier designs.`,
   featuresList: `<li class="mb-2">
-  <strong>Advanced Security Systems:</strong> Explore our cutting-edge security systems for enhanced protection.
+  <strong>Elegant Chandelier Selection:</strong> Explore our exquisite range of chandeliers for a touch of luxury in your home.
 </li>
 <li class="mb-2">
-  <strong>Security Insights:</strong> Let us provide you with expert guidance and insights to ensure your safety and security.
+  <strong>Lighting Insights:</strong> Let us provide you with expert lighting advice and insights to create the perfect ambiance.
 </li>
 <li class="mb-2">
-  <strong>Security Accessories:</strong> Find the perfect accessories to complement your security system.
+  <strong>Chandelier Accessories:</strong> Find the perfect accessories to complement your lighting fixtures.
 </li>
 <li class="mb-2">
-  <strong>Expert Security Guidance:</strong> Learn how to optimize your home security with personalized advice from our experts.
+  <strong>Expert Lighting Guidance:</strong> Learn how to illuminate your spaces with personalized advice from our experts.
 </li>`,
-  featuresListCol1T: `High-Tech Security Systems`,
-  featuresListCol1D: `AlarmGuardian guarantees cutting-edge security systems for your peace of mind.`,
-  featuresListCol2T: `Experienced Security Experts`,
-  featuresListCol2D: `Our skilled security experts are passionate about enhancing your safety and security.`,
-  featuresListCol3T: `Personalized Security Support`,
-  featuresListCol3D: `AlarmGuardian caters to your specific security needs, offering personalized solutions and expert guidance.`,
-  caseTitle: `Our Security Solutions`,
-  caseTitleDesc: `Explore AlarmGuardian's Premium Security Systems`,
-  caseTitleDesc1T: `Home Security Systems`,
-  caseTitleDesc1D: `Discover our range of home security systems for ultimate protection.`,
-  caseTitleDesc2T: `Business Security Systems`,
-  caseTitleDesc2D: `Secure your business with our advanced security systems designed for commercial spaces.`,
-  caseTitleDesc3T: `Smart Security Accessories`,
-  caseTitleDesc3D: `Explore our collection of security accessories to enhance your overall safety.`,
-  mob1Title: `Upgrade Your Security<br />with AlarmGuardian!`,
-  mob1Desc: `AlarmGuardian offers a haven for security-conscious individuals, where you can elevate your safety and peace of mind.`,
-  mob1Desc2: `Join us and let the quality and performance of our security systems protect what matters most to you.`,
-  mob2Title: `Where Safety Meets Excellence<br />Your Protection, Your Way.`,
-  mob2Desc: `At AlarmGuardian, we believe that every property deserves personalized security. Let us help you achieve your unique safety goals.`,
-  mob2Desc2: `Transform your surroundings into a secure and worry-free environment with our top-tier security solutions.`,
+  featuresListCol1T: `Exquisite Chandeliers`,
+  featuresListCol1D: `ChandelierWorld guarantees exquisite chandelier designs to elevate your home's elegance.`,
+  featuresListCol2T: `Experienced Lighting Experts`,
+  featuresListCol2D: `Our skilled lighting experts are passionate about creating the perfect ambiance for your home.`,
+  featuresListCol3T: `Personalized Lighting Support`,
+  featuresListCol3D: `ChandelierWorld caters to your specific lighting needs, offering personalized solutions and expert guidance.`,
+  caseTitle: `Our Lighting Collections`,
+  caseTitleDesc: `Explore ChandelierWorld's Premium Lighting Fixtures`,
+  caseTitleDesc1T: `Crystal Chandeliers`,
+  caseTitleDesc1D: `Discover our range of crystal chandeliers for a touch of timeless elegance.`,
+  caseTitleDesc2T: `Modern Lighting Designs`,
+  caseTitleDesc2D: `Experience modern lighting fixtures designed to enhance your contemporary living spaces.`,
+  caseTitleDesc3T: `Vintage Chandeliers`,
+  caseTitleDesc3D: `Find vintage chandeliers to add a touch of nostalgia and charm to your home.`,
+  mob1Title: `Brighten Your Space<br />with ChandelierWorld!`,
+  mob1Desc: `ChandelierWorld offers a haven for lighting enthusiasts, where you can transform your home with exquisite chandelier designs.`,
+  mob1Desc2: `Join us and let the beauty and elegance of our chandeliers illuminate your life.`,
+  mob2Title: `Where Elegance Meets Illumination<br />Your Home, Your Style.`,
+  mob2Desc: `At ChandelierWorld, we believe that every room deserves personalized lighting. Let us help you achieve your unique ambiance goals.`,
+  mob2Desc2: `Transform your living spaces into inviting and stylish havens with our top-tier lighting solutions.`,
   custTitle: `Customer Success Stories`,
-  custDesc: `Hear what our satisfied customers have to say about their AlarmGuardian security experiences.`,
-  cust1: `I'm always amazed by the security and peace of mind I get with AlarmGuardian's systems. It's transformed my sense of safety.`,
-  cust1Name: `Alexandra Smith`,
-  cust1Prof: `Security Enthusiast`,
-  cust2: `AlarmGuardian made securing my property effortless. It's a game-changer for any homeowner.`,
-  cust2Name: `Michael Johnson`,
+  custDesc: `Hear what our satisfied customers have to say about their ChandelierWorld lighting experiences.`,
+  cust1: `I'm always amazed by the elegance and warmth I get with ChandelierWorld's chandeliers. It's transformed my home.`,
+  cust1Name: `Sophia Anderson`,
+  cust1Prof: `Interior Design Enthusiast`,
+  cust2: `ChandelierWorld made choosing the right lighting effortless. It's a game-changer for any homeowner.`,
+  cust2Name: `William Davis`,
   cust2Prof: `Homeowner`,
-  cust3: `I love recommending AlarmGuardian's security accessories to friends. It's the perfect way to enhance their peace of mind.`,
-  cust3Name: `Ella Brown`,
-  cust3Prof: `Security Advocate`,
-  contactTitle: `Ready to Secure Your Peace of Mind? Contact AlarmGuardian Today`,
-  logo2: `AlarmGuardian`,
-  mail: `info@alarmguardian.com`,
+  cust3: `I love recommending ChandelierWorld's lighting accessories to friends. It's the perfect way to enhance their living spaces.`,
+  cust3Name: `Olivia White`,
+  cust3Prof: `Lighting Advocate`,
+  contactTitle: `Ready to Illuminate Your Life? Contact ChandelierWorld Today`,
+  logo2: `ChandelierWorld`,
+  mail: `info@chandelierworld.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © AlarmGuardian. All rights reserved.`,
+  logo3: `Copyright © ChandelierWorld. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
