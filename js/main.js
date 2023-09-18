@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'ShadeBazaar',
-  heroTitle: `Transform Your Space with Elegance<br />at ShadeBazaar Curtain Emporium.`,
-  heroDescription: `ShadeBazaar offers an exquisite collection of curtains and window coverings to elevate your interior.`,
-  featuresMainTitle: 'Discover What Sets ShadeBazaar Apart',
+  logo: 'IntelliWeigh',
+  heroTitle: `Elevate Your Health Journey with Precision<br />at IntelliWeigh Smart Scale Emporium.`,
+  heroDescription: `IntelliWeigh offers a cutting-edge range of smart scales and health monitoring solutions to empower your wellness.`,
+  featuresMainTitle: 'Discover the IntelliWeigh Advantage',
   featuresMainDescription:
-    'Our dedicated team of curtain experts is committed to enhancing the ambiance of your living spaces.',
+    'Our dedicated team of health experts is committed to enhancing your well-being through intelligent technology.',
   featuresList: `<li class="mb-2">
-  <strong>Stunning Curtain Selection:</strong> Explore our wide range of curtains, from classic designs to unique and modern styles.
+  <strong>Precision Weight Tracking:</strong> Explore our advanced smart scales for accurate weight monitoring and insights.
 </li>
 <li class="mb-2">
-  <strong>Custom Window Solutions:</strong> Let us tailor window coverings to match your home's aesthetic perfectly.
+  <strong>Health Data Insights:</strong> Let us provide you with in-depth health metrics to support your fitness goals.
 </li>
 <li class="mb-2">
-  <strong>Home Decor & Accessories:</strong> Find the ideal home decor and accessories to complete your interior design.
+  <strong>Wellness Accessories:</strong> Find the perfect accessories to complement your health and fitness routines.
 </li>
 <li class="mb-2">
-  <strong>Expert Curtain Care Tips:</strong> Learn how to maintain your curtains for long-lasting beauty and functionality.
+  <strong>Expert Health Guidance:</strong> Learn how to optimize your well-being with personalized advice from our experts.
 </li>`,
-  featuresListCol1T: `Quality Fabrics`,
-  featuresListCol1D: `ShadeBazaar guarantees top-quality fabrics and materials for all your curtain needs.`,
-  featuresListCol2T: `Experienced Designers`,
-  featuresListCol2D: `Our skilled designers are passionate about creating window coverings that elevate your space.`,
-  featuresListCol3T: `Personalized Assistance`,
-  featuresListCol3D: `ShadeBazaar caters to your specific requirements, offering personalized curtain solutions and expert advice.`,
-  caseTitle: `Our Curtain Collection`,
-  caseTitleDesc: `Explore ShadeBazaar's Diverse Curtain Offerings`,
-  caseTitleDesc1T: `Classic Drapery`,
-  caseTitleDesc1D: `Discover the timeless elegance of classic drapery in a variety of colors and designs.`,
-  caseTitleDesc2T: `Modern Window Treatments`,
-  caseTitleDesc2D: `Experience the allure of contemporary window treatments, carefully curated for your taste.`,
-  caseTitleDesc3T: `Custom Curtain Solutions`,
-  caseTitleDesc3D: `Find tailor-made curtains to fit your unique windows and interior design preferences.`,
-  caseTitleDesc4T: `Home Decor Accessories`,
-  caseTitleDesc4D: `Explore our collection of home decor accessories to complement your curtains and space.`,
-  mob1Title: `Elevate Your Interior<br />with ShadeBazaar!`,
-  mob1Desc: `ShadeBazaar offers a haven for curtain enthusiasts, where you can transform your living spaces with elegance.`,
-  mob1Desc2: `Join us and let the beauty and style of our curtains enhance your home.`,
-  mob2Title: `Where Curtains Reflect<br />Your Personal Style.`,
-  mob2Desc: `At ShadeBazaar, we believe that curtains should be an extension of your personality. Let us help you express your taste.`,
-  mob2Desc2: `Turn your living spaces into cozy retreats with our curated curtain collections.`,
-  custTitle: `Customer Testimonials`,
-  custDesc: `Hear what our satisfied customers have to say about ShadeBazaar.`,
-  cust1: `I'm always amazed by the quality and style of the curtains at ShadeBazaar. Their designs truly transformed my home.`,
-  cust1Name: `Emily Anderson`,
-  cust1Prof: `Interior Enthusiast`,
-  cust2: `ShadeBazaar made redecorating my office space a breeze with their custom curtain solutions. It's a game-changer.`,
-  cust2Name: `Michael Harris`,
-  cust2Prof: `Business Professional`,
-  cust3: `I love gifting ShadeBazaar's home decor accessories to friends. It's the perfect way to add a touch of elegance to their homes.`,
-  cust3Name: `Olivia Smith`,
-  cust3Prof: `Thoughtful Gift Giver`,
-  contactTitle: `Ready to Elevate Your Interior? Contact ShadeBazaar Today`,
-  logo2: `ShadeBazaar`,
-  mail: `info@shadebazaar.com`,
+  featuresListCol1T: `High-Tech Sensors`,
+  featuresListCol1D: `IntelliWeigh guarantees state-of-the-art sensors and technology for precise health monitoring.`,
+  featuresListCol2T: `Experienced Health Advisors`,
+  featuresListCol2D: `Our skilled health advisors are passionate about helping you achieve your wellness goals.`,
+  featuresListCol3T: `Personalized Wellness Support`,
+  featuresListCol3D: `IntelliWeigh caters to your specific health needs, offering personalized solutions and expert guidance.`,
+  caseTitle: `Our Smart Scale Collection`,
+  caseTitleDesc: `Explore IntelliWeigh's Innovative Smart Scales`,
+  caseTitleDesc1T: `Body Composition Analysis`,
+  caseTitleDesc1D: `Discover our smart scales that provide comprehensive body composition insights for a healthier you.`,
+  caseTitleDesc2T: `Fitness Tracking`,
+  caseTitleDesc2D: `Experience advanced fitness tracking features to monitor your progress and achieve your goals.`,
+  caseTitleDesc3T: `Connected Wellness`,
+  caseTitleDesc3D: `Find smart scales that seamlessly integrate with your favorite health apps and devices for a holistic approach.`,
+  caseTitleDesc4T: `Wellness Accessories`,
+  caseTitleDesc4D: `Explore our collection of wellness accessories to enhance your health and fitness journey.`,
+  mob1Title: `Elevate Your Health<br />with IntelliWeigh!`,
+  mob1Desc: `IntelliWeigh offers a haven for health enthusiasts, where you can take control of your wellness journey with precision.`,
+  mob1Desc2: `Join us and let the intelligence and accuracy of our smart scales empower your health.`,
+  mob2Title: `Where Health Meets Intelligence<br />Your Wellness, Your Way.`,
+  mob2Desc: `At IntelliWeigh, we believe that health should be personalized. Let us help you achieve your unique wellness goals.`,
+  mob2Desc2: `Transform your health routines into smart and effective practices with our innovative health solutions.`,
+  custTitle: `Customer Success Stories`,
+  custDesc: `Hear what our satisfied customers have to say about their IntelliWeigh experiences.`,
+  cust1: `I'm always amazed by the accuracy and insights provided by IntelliWeigh's smart scales. They've transformed my health journey.`,
+  cust1Name: `Sarah Roberts`,
+  cust1Prof: `Fitness Enthusiast`,
+  cust2: `IntelliWeigh made tracking my health progress effortless with their intuitive app. It's a game-changer.`,
+  cust2Name: `David Johnson`,
+  cust2Prof: `Health Enthusiast`,
+  cust3: `I love recommending IntelliWeigh's wellness accessories to friends. It's the perfect way to level up their health and fitness.`,
+  cust3Name: `Jessica Lee`,
+  cust3Prof: `Wellness Advocate`,
+  contactTitle: `Ready to Elevate Your Health? Contact IntelliWeigh Today`,
+  logo2: `IntelliWeigh`,
+  mail: `info@intelliweigh.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © ShadeBazaar. All rights reserved.`,
+  logo3: `Copyright © IntelliWeigh. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
