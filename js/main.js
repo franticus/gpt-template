@@ -39,62 +39,62 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'IntelliWeigh',
-  heroTitle: `Elevate Your Health Journey with Precision<br />at IntelliWeigh Smart Scale Emporium.`,
-  heroDescription: `IntelliWeigh offers a cutting-edge range of smart scales and health monitoring solutions to empower your wellness.`,
-  featuresMainTitle: 'Discover the IntelliWeigh Advantage',
+  logo: 'FitPulseGym',
+  heroTitle: `Transform Your Fitness Journey with Precision<br />at FitPulseGym Equipment Emporium.`,
+  heroDescription: `FitPulseGym offers an innovative range of gym equipment and training solutions to supercharge your workouts.`,
+  featuresMainTitle: 'Discover the FitPulseGym Advantage',
   featuresMainDescription:
-    'Our dedicated team of health experts is committed to enhancing your well-being through intelligent technology.',
+    'Our dedicated team of fitness experts is committed to enhancing your well-being through cutting-edge equipment.',
   featuresList: `<li class="mb-2">
-  <strong>Precision Weight Tracking:</strong> Explore our advanced smart scales for accurate weight monitoring and insights.
+  <strong>Precision Training Gear:</strong> Explore our advanced gym equipment for effective workouts and results.
 </li>
 <li class="mb-2">
-  <strong>Health Data Insights:</strong> Let us provide you with in-depth health metrics to support your fitness goals.
+  <strong>Workout Data Insights:</strong> Let us provide you with in-depth training metrics to maximize your fitness goals.
 </li>
 <li class="mb-2">
-  <strong>Wellness Accessories:</strong> Find the perfect accessories to complement your health and fitness routines.
+  <strong>Fitness Accessories:</strong> Find the perfect accessories to complement your workout routines.
 </li>
 <li class="mb-2">
-  <strong>Expert Health Guidance:</strong> Learn how to optimize your well-being with personalized advice from our experts.
+  <strong>Expert Fitness Guidance:</strong> Learn how to optimize your fitness journey with personalized advice from our trainers.
 </li>`,
-  featuresListCol1T: `High-Tech Sensors`,
-  featuresListCol1D: `IntelliWeigh guarantees state-of-the-art sensors and technology for precise health monitoring.`,
-  featuresListCol2T: `Experienced Health Advisors`,
-  featuresListCol2D: `Our skilled health advisors are passionate about helping you achieve your wellness goals.`,
-  featuresListCol3T: `Personalized Wellness Support`,
-  featuresListCol3D: `IntelliWeigh caters to your specific health needs, offering personalized solutions and expert guidance.`,
-  caseTitle: `Our Smart Scale Collection`,
-  caseTitleDesc: `Explore IntelliWeigh's Innovative Smart Scales`,
-  caseTitleDesc1T: `Body Composition Analysis`,
-  caseTitleDesc1D: `Discover our smart scales that provide comprehensive body composition insights for a healthier you.`,
-  caseTitleDesc2T: `Fitness Tracking`,
-  caseTitleDesc2D: `Experience advanced fitness tracking features to monitor your progress and achieve your goals.`,
-  caseTitleDesc3T: `Connected Wellness`,
-  caseTitleDesc3D: `Find smart scales that seamlessly integrate with your favorite health apps and devices for a holistic approach.`,
-  caseTitleDesc4T: `Wellness Accessories`,
-  caseTitleDesc4D: `Explore our collection of wellness accessories to enhance your health and fitness journey.`,
-  mob1Title: `Elevate Your Health<br />with IntelliWeigh!`,
-  mob1Desc: `IntelliWeigh offers a haven for health enthusiasts, where you can take control of your wellness journey with precision.`,
-  mob1Desc2: `Join us and let the intelligence and accuracy of our smart scales empower your health.`,
-  mob2Title: `Where Health Meets Intelligence<br />Your Wellness, Your Way.`,
-  mob2Desc: `At IntelliWeigh, we believe that health should be personalized. Let us help you achieve your unique wellness goals.`,
-  mob2Desc2: `Transform your health routines into smart and effective practices with our innovative health solutions.`,
+  featuresListCol1T: `High-Performance Gear`,
+  featuresListCol1D: `FitPulseGym guarantees top-notch gym equipment and technology for effective training.`,
+  featuresListCol2T: `Experienced Trainers`,
+  featuresListCol2D: `Our skilled fitness trainers are passionate about helping you achieve your fitness goals.`,
+  featuresListCol3T: `Personalized Workout Support`,
+  featuresListCol3D: `FitPulseGym caters to your specific fitness needs, offering personalized solutions and expert guidance.`,
+  caseTitle: `Our Fitness Equipment Collection`,
+  caseTitleDesc: `Explore FitPulseGym's Cutting-Edge Fitness Equipment`,
+  caseTitleDesc1T: `Strength Training Machines`,
+  caseTitleDesc1D: `Discover our range of strength training machines for building muscle and endurance.`,
+  caseTitleDesc2T: `Cardiovascular Equipment`,
+  caseTitleDesc2D: `Experience advanced cardio equipment to improve your stamina and heart health.`,
+  caseTitleDesc3T: `Connected Fitness`,
+  caseTitleDesc3D: `Find fitness gear that seamlessly integrates with your favorite fitness apps and devices for a holistic approach.`,
+  caseTitleDesc4T: `Workout Accessories`,
+  caseTitleDesc4D: `Explore our collection of workout accessories to enhance your training sessions.`,
+  mob1Title: `Elevate Your Fitness<br />with FitPulseGym!`,
+  mob1Desc: `FitPulseGym offers a haven for fitness enthusiasts, where you can supercharge your fitness journey with precision equipment.`,
+  mob1Desc2: `Join us and let the precision and effectiveness of our gym gear take your fitness to the next level.`,
+  mob2Title: `Where Fitness Meets Excellence<br />Your Health, Your Way.`,
+  mob2Desc: `At FitPulseGym, we believe that fitness should be personalized. Let us help you achieve your unique fitness goals.`,
+  mob2Desc2: `Transform your workouts into efficient and effective routines with our cutting-edge fitness solutions.`,
   custTitle: `Customer Success Stories`,
-  custDesc: `Hear what our satisfied customers have to say about their IntelliWeigh experiences.`,
-  cust1: `I'm always amazed by the accuracy and insights provided by IntelliWeigh's smart scales. They've transformed my health journey.`,
-  cust1Name: `Sarah Roberts`,
+  custDesc: `Hear what our satisfied customers have to say about their FitPulseGym experiences.`,
+  cust1: `I'm always amazed by the performance and results achieved with FitPulseGym's fitness equipment. It's transformed my fitness journey.`,
+  cust1Name: `Sophie Mitchell`,
   cust1Prof: `Fitness Enthusiast`,
-  cust2: `IntelliWeigh made tracking my health progress effortless with their intuitive app. It's a game-changer.`,
-  cust2Name: `David Johnson`,
+  cust2: `FitPulseGym made tracking my workout progress effortless with their intuitive fitness app. It's a game-changer.`,
+  cust2Name: `Alex Davis`,
   cust2Prof: `Health Enthusiast`,
-  cust3: `I love recommending IntelliWeigh's wellness accessories to friends. It's the perfect way to level up their health and fitness.`,
-  cust3Name: `Jessica Lee`,
-  cust3Prof: `Wellness Advocate`,
-  contactTitle: `Ready to Elevate Your Health? Contact IntelliWeigh Today`,
-  logo2: `IntelliWeigh`,
-  mail: `info@intelliweigh.com`,
+  cust3: `I love recommending FitPulseGym's workout accessories to friends. It's the perfect way to enhance their fitness routines.`,
+  cust3Name: `Toma Reynolds`,
+  cust3Prof: `Fitness Advocate`,
+  contactTitle: `Ready to Elevate Your Fitness? Contact FitPulseGym Today`,
+  logo2: `FitPulseGym`,
+  mail: `info@fitpulsegym.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © IntelliWeigh. All rights reserved.`,
+  logo3: `Copyright © FitPulseGym. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
