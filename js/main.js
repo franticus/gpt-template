@@ -39,62 +39,61 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: 'FitPulseGym',
-  heroTitle: `Transform Your Fitness Journey with Precision<br />at FitPulseGym Equipment Emporium.`,
-  heroDescription: `FitPulseGym offers an innovative range of gym equipment and training solutions to supercharge your workouts.`,
-  featuresMainTitle: 'Discover the FitPulseGym Advantage',
-  featuresMainDescription:
-    'Our dedicated team of fitness experts is committed to enhancing your well-being through cutting-edge equipment.',
+  logo: `TireProShop`,
+  heroTitle: `Rev Up Your Ride with Precision Tires<br />at TireProShop Tire Emporium.`,
+  heroDescription: `TireProShop offers an extensive range of top-notch tires and expert solutions to enhance your driving experience.`,
+  featuresMainTitle: `Discover the TireProShop Advantage`,
+  featuresMainDescription: `Our dedicated team of automotive experts is committed to optimizing your vehicle's performance through high-quality tires.`,
   featuresList: `<li class="mb-2">
-  <strong>Precision Training Gear:</strong> Explore our advanced gym equipment for effective workouts and results.
+  <strong>Precision Tire Selection:</strong> Explore our diverse range of top-notch tires for a smoother and safer ride.
 </li>
 <li class="mb-2">
-  <strong>Workout Data Insights:</strong> Let us provide you with in-depth training metrics to maximize your fitness goals.
+  <strong>Tire Performance Insights:</strong> Let us provide you with in-depth tire data to maximize your driving comfort and safety.
 </li>
 <li class="mb-2">
-  <strong>Fitness Accessories:</strong> Find the perfect accessories to complement your workout routines.
+  <strong>Tire Accessories:</strong> Find the perfect accessories to complement your vehicle's tire needs.
 </li>
 <li class="mb-2">
-  <strong>Expert Fitness Guidance:</strong> Learn how to optimize your fitness journey with personalized advice from our trainers.
+  <strong>Expert Automotive Guidance:</strong> Learn how to optimize your driving experience with personalized advice from our experts.
 </li>`,
-  featuresListCol1T: `High-Performance Gear`,
-  featuresListCol1D: `FitPulseGym guarantees top-notch gym equipment and technology for effective training.`,
-  featuresListCol2T: `Experienced Trainers`,
-  featuresListCol2D: `Our skilled fitness trainers are passionate about helping you achieve your fitness goals.`,
-  featuresListCol3T: `Personalized Workout Support`,
-  featuresListCol3D: `FitPulseGym caters to your specific fitness needs, offering personalized solutions and expert guidance.`,
-  caseTitle: `Our Fitness Equipment Collection`,
-  caseTitleDesc: `Explore FitPulseGym's Cutting-Edge Fitness Equipment`,
-  caseTitleDesc1T: `Strength Training Machines`,
-  caseTitleDesc1D: `Discover our range of strength training machines for building muscle and endurance.`,
-  caseTitleDesc2T: `Cardiovascular Equipment`,
-  caseTitleDesc2D: `Experience advanced cardio equipment to improve your stamina and heart health.`,
-  caseTitleDesc3T: `Connected Fitness`,
-  caseTitleDesc3D: `Find fitness gear that seamlessly integrates with your favorite fitness apps and devices for a holistic approach.`,
-  caseTitleDesc4T: `Workout Accessories`,
-  caseTitleDesc4D: `Explore our collection of workout accessories to enhance your training sessions.`,
-  mob1Title: `Elevate Your Fitness<br />with FitPulseGym!`,
-  mob1Desc: `FitPulseGym offers a haven for fitness enthusiasts, where you can supercharge your fitness journey with precision equipment.`,
-  mob1Desc2: `Join us and let the precision and effectiveness of our gym gear take your fitness to the next level.`,
-  mob2Title: `Where Fitness Meets Excellence<br />Your Health, Your Way.`,
-  mob2Desc: `At FitPulseGym, we believe that fitness should be personalized. Let us help you achieve your unique fitness goals.`,
-  mob2Desc2: `Transform your workouts into efficient and effective routines with our cutting-edge fitness solutions.`,
+  featuresListCol1T: `High-Performance Tires`,
+  featuresListCol1D: `TireProShop guarantees top-notch tires for a smoother and safer ride.`,
+  featuresListCol2T: `Experienced Automotive Experts`,
+  featuresListCol2D: `Our skilled automotive experts are passionate about enhancing your driving experience.`,
+  featuresListCol3T: `Personalized Vehicle Support`,
+  featuresListCol3D: `TireProShop caters to your specific vehicle needs, offering personalized solutions and expert guidance.`,
+  caseTitle: `Our Tire Collection`,
+  caseTitleDesc: `Explore TireProShop's Premium Tire Selection`,
+  caseTitleDesc1T: `Performance Tires`,
+  caseTitleDesc1D: `Discover our range of performance tires for enhanced grip and control.`,
+  caseTitleDesc2T: `All-Season Tires`,
+  caseTitleDesc2D: `Experience all-season tires designed for year-round safety and reliability.`,
+  caseTitleDesc3T: `Off-Road Tires`,
+  caseTitleDesc3D: `Find off-road tires for your adventurous journeys, ensuring traction on all terrains.`,
+  caseTitleDesc4T: `Tire Accessories`,
+  caseTitleDesc4D: `Explore our collection of tire accessories to enhance your vehicle's performance.`,
+  mob1Title: `Upgrade Your Drive<br />with TireProShop!`,
+  mob1Desc: `TireProShop offers a haven for automotive enthusiasts, where you can elevate your driving experience with precision tires.`,
+  mob1Desc2: `Join us and let the quality and performance of our tires take your ride to the next level.`,
+  mob2Title: `Where Quality Meets Excellence<br />Your Vehicle, Your Way.`,
+  mob2Desc: `At TireProShop, we believe that every drive should be personalized. Let us help you achieve your unique driving goals.`,
+  mob2Desc2: `Transform your journeys into smooth and enjoyable rides with our top-tier tire solutions.`,
   custTitle: `Customer Success Stories`,
-  custDesc: `Hear what our satisfied customers have to say about their FitPulseGym experiences.`,
-  cust1: `I'm always amazed by the performance and results achieved with FitPulseGym's fitness equipment. It's transformed my fitness journey.`,
-  cust1Name: `Sophie Mitchell`,
-  cust1Prof: `Fitness Enthusiast`,
-  cust2: `FitPulseGym made tracking my workout progress effortless with their intuitive fitness app. It's a game-changer.`,
-  cust2Name: `Alex Davis`,
-  cust2Prof: `Health Enthusiast`,
-  cust3: `I love recommending FitPulseGym's workout accessories to friends. It's the perfect way to enhance their fitness routines.`,
-  cust3Name: `Toma Reynolds`,
-  cust3Prof: `Fitness Advocate`,
-  contactTitle: `Ready to Elevate Your Fitness? Contact FitPulseGym Today`,
-  logo2: `FitPulseGym`,
-  mail: `info@fitpulsegym.com`,
+  custDesc: `Hear what our satisfied customers have to say about their TireProShop experiences.`,
+  cust1: `I'm always amazed by the performance and safety I get with TireProShop's tires. It's transformed my driving experience.`,
+  cust1Name: `Emily Turner`,
+  cust1Prof: `Automotive Enthusiast`,
+  cust2: `TireProShop made choosing the right tires for my vehicle effortless. It's a game-changer for any driver.`,
+  cust2Name: `Max Parker`,
+  cust2Prof: `Vehicle Owner`,
+  cust3: `I love recommending TireProShop's tire accessories to friends. It's the perfect way to enhance their driving experience.`,
+  cust3Name: `Christina Foster`,
+  cust3Prof: `Automotive Advocate`,
+  contactTitle: `Ready to Enhance Your Ride? Contact TireProShop Today`,
+  logo2: `TireProShop`,
+  mail: `info@tireproshop.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © FitPulseGym. All rights reserved.`,
+  logo3: `Copyright © TireProShop. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
