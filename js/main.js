@@ -39,59 +39,59 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: `LensCrafters`,
-  heroTitle: `Discover Clear Vision with LensCrafters Eyewear`,
-  heroDescription: `LensCrafters offers a diverse range of eyeglasses to elevate your sight and style.`,
-  featuresMainTitle: `Experience the LensCrafters Difference`,
-  featuresMainDescription: `Our team of eyewear enthusiasts is dedicated to enhancing your vision with top-quality eyeglass choices.`,
+  logo: `SwimGear`,
+  heroTitle: `Dive into Crystal-Clear Waters with SwimGear's Swimwear`,
+  heroDescription: `SwimGear offers a diverse range of swimwear and accessories to elevate your aquatic adventures.`,
+  featuresMainTitle: `Experience the SwimGear Difference`,
+  featuresMainDescription: `Our team of water enthusiasts is dedicated to enhancing your swimming experience with top-quality gear choices.`,
   featuresList: `<li class="mb-2">
-    <strong>Stylish Eyeglass Collection:</strong> Explore our wide range of eyeglasses to elevate your look and enhance your vision.
+    <strong>Stylish Swimwear Collection:</strong> Explore our wide range of swimwear to elevate your look and enhance your water adventures.
   </li>
   <li class="mb-2">
-    <strong>Eye Health Insights:</strong> Let us provide you with expert advice and tips to keep your eyes healthy and stylish with our eyeglasses.
+    <strong>Aquatic Tips & Insights:</strong> Let us provide you with expert advice and tips to keep your swimming experience safe and stylish with our swim gear.
   </li>
   <li class="mb-2">
-    <strong>Eyeglass Accessories:</strong> Find the perfect additions to enhance your eyeglass performance and complete your fashionable ensemble.
+    <strong>Swimming Accessories:</strong> Find the perfect additions to enhance your swimming performance and complete your aquatic ensemble.
   </li>
   <li class="mb-2">
-    <strong>Expert Vision Support:</strong> Learn how to enjoy clear vision and eye protection in any situation with personalized advice from our experts.
+    <strong>Expert Water Support:</strong> Learn how to enjoy clear waters and aquatic fun in any situation with personalized advice from our experts.
   </li>`,
-  featuresListCol1T: `Fashionable Eyeglass Collection`,
-  featuresListCol1D: `LensCrafters guarantees a wide variety of eyeglasses to suit your style and enhance your vision.`,
-  featuresListCol2T: `Experienced Eyewear Enthusiasts`,
-  featuresListCol2D: `Our skilled eyewear enthusiasts are passionate about helping you find the perfect eyeglasses to elevate your look.`,
-  featuresListCol3T: `Personalized Vision Support`,
-  featuresListCol3D: `LensCrafters caters to your specific eyewear needs, offering personalized solutions and expert guidance.`,
-  caseTitle: `Our Eyeglass Collections`,
-  caseTitleDesc: `Explore LensCrafters' Eyeglass Selection`,
-  caseTitleDesc1T: `Contemporary Fashion Eyeglasses`,
-  caseTitleDesc1D: `Discover our range of contemporary fashion eyeglasses to elevate your style and enhance your vision with flair.`,
-  caseTitleDesc2T: `High-Performance Eye Enhancement`,
-  caseTitleDesc2D: `Experience high-performance eye enhancement solutions designed to keep your vision clear and fashionable.`,
-  caseTitleDesc3T: `Vision-Boosting Eyeglasses`,
-  caseTitleDesc3D: `Find vision-boosting eyeglasses that provide style and eye health while enjoying the best vision possible.`,
-  mob1Title: `See the World Brighter<br />with LensCrafters!`,
-  mob1Desc: `LensCrafters offers a world of eyewear solutions where you can see clearly and look stylish.`,
-  mob1Desc2: `Join us and let our eyeglasses enhance your vision and elevate your style.`,
-  mob2Title: `Where Style Meets Eye Health<br />Your Eyeglass Solutions, Your Way.`,
-  mob2Desc: `At LensCrafters, we believe that everyone deserves clear vision and fashionable eyewear. Let us help you find the perfect eyeglasses.`,
-  mob2Desc2: `Transform your look and protect your eyes with our top-quality eyeglass solutions.`,
-  custTitle: `Satisfied Customers, Stylish Vision`,
-  custDesc: `Hear what our happy customers have to say about their LensCrafters eyeglass experiences.`,
-  cust1: `I'm always amazed by the style and clarity LensCrafters eyeglasses provide. They've elevated my fashion game.`,
-  cust1Name: `Olivia Mitchell`,
-  cust1Prof: `Fashion Enthusiast`,
-  cust2: `LensCrafters made finding the perfect eyeglasses effortless. It's a game-changer for any day.`,
-  cust2Name: `Michael Anderson`,
-  cust2Prof: `Daily Commuter`,
-  cust3: `I love recommending LensCrafters eyeglass accessories to friends. They add the perfect finishing touch to any look.`,
-  cust3Name: `Emma Davis`,
+  featuresListCol1T: `Fashionable Swimwear Collection`,
+  featuresListCol1D: `SwimGear guarantees a wide variety of swimwear to suit your style and enhance your aquatic adventures.`,
+  featuresListCol2T: `Experienced Water Enthusiasts`,
+  featuresListCol2D: `Our skilled water enthusiasts are passionate about helping you find the perfect swim gear to elevate your aquatic look.`,
+  featuresListCol3T: `Personalized Water Support`,
+  featuresListCol3D: `SwimGear caters to your specific aquatic needs, offering personalized solutions and expert guidance.`,
+  caseTitle: `Our Swim Gear Collections`,
+  caseTitleDesc: `Explore SwimGear's Aquatic Selection`,
+  caseTitleDesc1T: `Contemporary Swimwear`,
+  caseTitleDesc1D: `Discover our range of contemporary swimwear to elevate your style and enhance your aquatic adventures with flair.`,
+  caseTitleDesc2T: `High-Performance Water Gear`,
+  caseTitleDesc2D: `Experience high-performance water gear designed to keep your swimming experience clear and fashionable.`,
+  caseTitleDesc3T: `Adventure-Ready Swim Gear`,
+  caseTitleDesc3D: `Find adventure-ready swim gear that provides style and safety while enjoying the best aquatic experiences.`,
+  mob1Title: `Dive into the World of Aquatic Fun<br />with SwimGear!`,
+  mob1Desc: `SwimGear offers a world of water solutions where you can swim confidently and look stylish.`,
+  mob1Desc2: `Join us and let our swim gear enhance your aquatic adventures and elevate your style.`,
+  mob2Title: `Where Style Meets Water Fun<br />Your Aquatic Solutions, Your Way.`,
+  mob2Desc: `At SwimGear, we believe that everyone deserves clear waters and fashionable swimwear. Let us help you find the perfect gear.`,
+  mob2Desc2: `Elevate your aquatic look and enjoy safe and stylish water experiences with our top-quality gear.`,
+  custTitle: `Satisfied Customers, Stylish Aquatic Adventures`,
+  custDesc: `Hear what our happy customers have to say about their SwimGear experiences.`,
+  cust1: `I'm always amazed by the style and functionality of SwimGear's swimwear. They've elevated my aquatic adventures.`,
+  cust1Name: `Sophia Turner`,
+  cust1Prof: `Water Enthusiast`,
+  cust2: `SwimGear made finding the perfect swim gear effortless. It's a game-changer for any water activity.`,
+  cust2Name: `Daniel Robinson`,
+  cust2Prof: `Beach Explorer`,
+  cust3: `I love recommending SwimGear accessories to friends. They add the perfect finishing touch to any aquatic look.`,
+  cust3Name: `Isabella Martinez`,
   cust3Prof: `Style Maven`,
-  contactTitle: `Ready to Enhance Your Vision? Contact LensCrafters Today`,
-  logo2: `LensCrafters`,
-  mail: `info@lenscrafters.com`,
+  contactTitle: `Ready to Dive into Stylish Aquatic Adventures? Contact SwimGear Today`,
+  logo2: `SwimGear`,
+  mail: `info@swimgear.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © LensCrafters. All rights reserved.`,
+  logo3: `Copyright © SwimGear. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
