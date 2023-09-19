@@ -39,59 +39,59 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: `TurboChillFans`,
-  heroTitle: `Experience Ultimate Cooling with TurboChillFans' Fan Selection`,
-  heroDescription: `TurboChillFans offers a diverse range of fans to keep you cool and comfortable.`,
-  featuresMainTitle: `Discover the TurboChillFans Advantage`,
-  featuresMainDescription: `Our team of cooling experts is committed to enhancing your comfort with top-notch fan choices.`,
+  logo: `SolarGaze`,
+  heroTitle: `Discover a Brighter World with SolarGaze Sunglasses`,
+  heroDescription: `SolarGaze offers a stunning selection of sunglasses to elevate your style and protect your eyes.`,
+  featuresMainTitle: `Experience the SolarGaze Difference`,
+  featuresMainDescription: `Our team of eyewear experts is dedicated to enhancing your vision with top-notch sunglass choices.`,
   featuresList: `<li class="mb-2">
-    <strong>Versatile Fan Selection:</strong> Explore our wide range of fans to keep your space comfortable and well-ventilated.
+    <strong>Stylish Sunglass Collection:</strong> Explore our wide range of sunglasses to elevate your look and shield your eyes from the sun.
   </li>
   <li class="mb-2">
-    <strong>Cooling Insights:</strong> Let us provide you with expert advice and tips to create a refreshing environment with our fans.
+    <strong>Eye Protection Insights:</strong> Let us provide you with expert advice and tips to keep your eyes safe and stylish with our sunglasses.
   </li>
   <li class="mb-2">
-    <strong>Fan Accessories:</strong> Find the perfect additions to optimize your fan's performance and achieve a comfortable atmosphere.
+    <strong>Sunglass Accessories:</strong> Find the perfect additions to enhance your sunglass performance and complete your fashionable ensemble.
   </li>
   <li class="mb-2">
-    <strong>Expert Cooling Guidance:</strong> Learn how to keep cool and relaxed in any season with personalized advice from our experts.
+    <strong>Expert Vision Support:</strong> Learn how to enjoy clear vision and sun protection in any situation with personalized advice from our experts.
   </li>`,
-  featuresListCol1T: `Versatile Fan Collection`,
-  featuresListCol1D: `TurboChillFans guarantees a wide variety of fans to suit your needs and maintain a comfortable environment.`,
-  featuresListCol2T: `Experienced Cooling Enthusiasts`,
-  featuresListCol2D: `Our skilled cooling enthusiasts are passionate about helping you find the perfect fan to enhance your space.`,
-  featuresListCol3T: `Personalized Comfort Support`,
-  featuresListCol3D: `TurboChillFans caters to your specific cooling needs, offering personalized solutions and expert guidance.`,
-  caseTitle: `Our Fan Collections`,
-  caseTitleDesc: `Explore TurboChillFans' Fan Selection`,
-  caseTitleDesc1T: `Modern Cooling Fans`,
-  caseTitleDesc1D: `Discover our range of modern cooling fans to keep your space comfortable and stylish.`,
-  caseTitleDesc2T: `High-Performance Ventilation`,
-  caseTitleDesc2D: `Experience high-performance ventilation solutions designed to keep your environment fresh and cool.`,
-  caseTitleDesc3T: `Energy-Efficient Cooling`,
-  caseTitleDesc3D: `Find energy-efficient fans that provide comfort while helping you save on energy costs.`,
-  mob1Title: `Stay Cool and Comfortable<br />with TurboChillFans!`,
-  mob1Desc: `TurboChillFans offers a world of cooling solutions where you can create a refreshing atmosphere tailored to your needs.`,
-  mob1Desc2: `Join us and let the cooling performance of our fans keep you relaxed year-round.`,
-  mob2Title: `Where Comfort Meets Efficiency<br />Your Cooling Solutions, Your Way.`,
-  mob2Desc: `At TurboChillFans, we believe that everyone deserves a comfortable environment. Let us help you find the perfect fan.`,
-  mob2Desc2: `Transform your space into a haven of comfort and freshness with our top-quality fan solutions.`,
-  custTitle: `Satisfied Customers, Comfortable Spaces`,
-  custDesc: `Hear what our happy customers have to say about their TurboChillFans' fan experiences.`,
-  cust1: `I'm always amazed by the performance and style TurboChillFans' fans provide. It's transformed my living space.`,
-  cust1Name: `Michaela Davis`,
-  cust1Prof: `Homeowner`,
-  cust2: `TurboChillFans made finding the perfect fan effortless. It's a game-changer for any space.`,
-  cust2Name: `David Johnson`,
-  cust2Prof: `Interior Designer`,
-  cust3: `I love recommending TurboChillFans' fan accessories to friends. It's the perfect way to optimize any fan.`,
-  cust3Name: `Sarah Anderson`,
-  cust3Prof: `DIY Enthusiast`,
-  contactTitle: `Ready to Enhance Your Comfort? Contact TurboChillFans Today`,
-  logo2: `TurboChillFans`,
-  mail: `info@turbochillfans.com`,
+  featuresListCol1T: `Fashionable Sunglass Collection`,
+  featuresListCol1D: `SolarGaze guarantees a wide variety of sunglasses to suit your style and protect your eyes from the sun's rays.`,
+  featuresListCol2T: `Experienced Eyewear Enthusiasts`,
+  featuresListCol2D: `Our skilled eyewear enthusiasts are passionate about helping you find the perfect sunglasses to elevate your look.`,
+  featuresListCol3T: `Personalized Vision Support`,
+  featuresListCol3D: `SolarGaze caters to your specific eyewear needs, offering personalized solutions and expert guidance.`,
+  caseTitle: `Our Sunglass Collections`,
+  caseTitleDesc: `Explore SolarGaze's Sunglass Selection`,
+  caseTitleDesc1T: `Modern Fashion Sunglasses`,
+  caseTitleDesc1D: `Discover our range of modern fashion sunglasses to elevate your style and protect your eyes with flair.`,
+  caseTitleDesc2T: `High-Performance Eye Protection`,
+  caseTitleDesc2D: `Experience high-performance eye protection solutions designed to keep your vision clear and fashionable.`,
+  caseTitleDesc3T: `Sun-Savvy Sunglasses`,
+  caseTitleDesc3D: `Find sun-savvy sunglasses that provide style and eye safety while enjoying the great outdoors.`,
+  mob1Title: `See the World Brighter<br />with SolarGaze!`,
+  mob1Desc: `SolarGaze offers a world of eyewear solutions where you can see clearly and look stylish.`,
+  mob1Desc2: `Join us and let our sunglasses enhance your vision and elevate your style.`,
+  mob2Title: `Where Style Meets Eye Safety<br />Your Sunglass Solutions, Your Way.`,
+  mob2Desc: `At SolarGaze, we believe that everyone deserves clear vision and fashionable eyewear. Let us help you find the perfect sunglasses.`,
+  mob2Desc2: `Transform your look and protect your eyes with our top-quality sunglass solutions.`,
+  custTitle: `Satisfied Customers, Stylish Vision`,
+  custDesc: `Hear what our happy customers have to say about their SolarGaze sunglass experiences.`,
+  cust1: `I'm always amazed by the style and clarity SolarGaze sunglasses provide. They've elevated my fashion game.`,
+  cust1Name: `Sophia Roberts`,
+  cust1Prof: `Fashion Blogger`,
+  cust2: `SolarGaze made finding the perfect sunglasses effortless. It's a game-changer for any sunny day.`,
+  cust2Name: `James Turner`,
+  cust2Prof: `Outdoor Enthusiast`,
+  cust3: `I love recommending SolarGaze sunglass accessories to friends. They add the perfect finishing touch to any look.`,
+  cust3Name: `Emily Walker`,
+  cust3Prof: `Style Influencer`,
+  contactTitle: `Ready to Enhance Your Vision? Contact SolarGaze Today`,
+  logo2: `SolarGaze`,
+  mail: `info@solarGaze.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © TurboChillFans. All rights reserved.`,
+  logo3: `Copyright © SolarGaze. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
