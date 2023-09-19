@@ -39,59 +39,61 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: `SilkenSecret`,
-  heroTitle: `Indulge in Elegance with SilkenSecret Lingerie`,
-  heroDescription: `SilkenSecret offers a captivating range of exquisite lingerie to elevate your intimate moments.`,
-  featuresMainTitle: `Discover the SilkenSecret Difference`,
-  featuresMainDescription: `Our team of lingerie enthusiasts is dedicated to enhancing your comfort and style with top-quality lingerie choices.`,
+  logo: `FastNet`,
+  heroTitle: `Experience Blazing Speed with FastNet Internet`,
+  heroDescription: `FastNet offers lightning-fast internet connections to supercharge your online experience.`,
+  featuresMainTitle: `Discover the FastNet Advantage`,
+  featuresMainDescription: `Our team of tech enthusiasts is committed to delivering top-notch internet services that redefine your online world.`,
   featuresList: `<li class="mb-2">
-    <strong>Luxurious Lingerie Collection:</strong> Explore our opulent lingerie to elevate your look and enrich your intimate experiences.
+    <strong>High-Speed Internet:</strong> Enjoy blazing-fast internet that keeps you connected without lag or interruptions.
   </li>
   <li class="mb-2">
-    <strong>Intimate Tips & Advice:</strong> Let us provide you with expert guidance and advice to enhance your moments of intimacy with our lingerie.
+    <strong>Technical Support & Solutions:</strong> Let us provide you with expert technical support and solutions to enhance your online experience.
   </li>
   <li class="mb-2">
-    <strong>Accessories for Sensuality:</strong> Find the perfect additions to enhance your intimate moments and complete your lingerie ensemble.
+    <strong>Enhanced Connectivity:</strong> Find the perfect internet plan to suit your needs and keep you connected 24/7.
   </li>
   <li class="mb-2">
-    <strong>Expert Intimacy Support:</strong> Learn how to create special moments with personalized advice from our experts.
+    <strong>Customer-Centric Approach:</strong> Experience customer-centric services with personalized solutions and expert guidance.
   </li>`,
-  featuresListCol1T: `Opulent Lingerie Collection`,
-  featuresListCol1D: `SilkenSecret guarantees a wide variety of luxurious lingerie to suit your style and enhance your intimate moments.`,
-  featuresListCol2T: `Lingerie Enthusiasts at Your Service`,
-  featuresListCol2D: `Our passionate lingerie enthusiasts are dedicated to helping you find the perfect lingerie to elevate your comfort and style.`,
-  featuresListCol3T: `Personalized Intimacy Support`,
-  featuresListCol3D: `SilkenSecret caters to your specific intimate needs, offering personalized solutions and expert guidance.`,
-  caseTitle: `Our Lingerie Collections`,
-  caseTitleDesc: `Explore SilkenSecret's Lingerie Selection`,
-  caseTitleDesc1T: `Sensual Lace Collection`,
-  caseTitleDesc1D: `Discover our range of sensual lace lingerie to enhance your intimate moments with elegance and allure.`,
-  caseTitleDesc2T: `Silk and Satin Elegance`,
-  caseTitleDesc2D: `Experience the luxurious feel of silk and satin lingerie designed to make your moments of intimacy truly special.`,
-  caseTitleDesc3T: `Seductive Accessories`,
-  caseTitleDesc3D: `Find seductive accessories that add the perfect finishing touch to your lingerie ensemble and create memorable moments.`,
-  mob1Title: `Elevate Your Intimate Moments<br />with SilkenSecret!`,
-  mob1Desc: `SilkenSecret offers a world of sensuality where you can indulge in elegance and create unforgettable intimate experiences.`,
-  mob1Desc2: `Join us and let our lingerie enhance your moments of intimacy and elevate your style.`,
-  mob2Title: `Where Comfort Meets Sensuality<br />Your Intimate Solutions, Your Way.`,
-  mob2Desc: `At SilkenSecret, we believe that everyone deserves luxurious and comfortable lingerie. Let us help you find the perfect pieces.`,
-  mob2Desc2: `Elevate your comfort and style during intimate moments with our top-quality lingerie.`,
-  custTitle: `Satisfied Customers, Memorable Intimate Moments`,
-  custDesc: `Hear what our happy customers have to say about their SilkenSecret lingerie experiences.`,
-  cust1: `I'm always amazed by the comfort and elegance of SilkenSecret's lingerie. They've made my intimate moments truly special.`,
-  cust1Name: `Sophia Turner`,
-  cust1Prof: `Lingerie Lover`,
-  cust2: `SilkenSecret made finding the perfect lingerie effortless. It's a game-changer for any romantic occasion.`,
-  cust2Name: `Daniel Robinson`,
-  cust2Prof: `Romantic Explorer`,
-  cust3: `I love recommending SilkenSecret accessories to friends. They add the perfect touch of sensuality to any intimate moment.`,
-  cust3Name: `Isabella Martinez`,
-  cust3Prof: `Sensuality Maven`,
-  contactTitle: `Ready to Elevate Your Intimate Moments? Contact SilkenSecret Today`,
-  logo2: `SilkenSecret`,
-  mail: `info@silkensecret.com`,
+  featuresListCol1T: `High-Speed Internet`,
+  featuresListCol1D: `FastNet guarantees lightning-fast internet to keep you connected without interruption.`,
+  featuresListCol2T: `Technical Support Experts`,
+  featuresListCol2D: `Our passionate tech experts are dedicated to solving your internet issues and enhancing your online experience.`,
+  featuresListCol3T: `Tailored Internet Plans`,
+  featuresListCol3D: `FastNet offers internet plans tailored to your needs, ensuring 24/7 connectivity.`,
+  caseTitle: `Our Internet Plans`,
+  caseTitleDesc: `Explore FastNet's Internet Services`,
+  caseTitleDesc1T: `Fiber Optic Internet`,
+  caseTitleDesc1D: `Experience the speed of fiber optic internet with FastNet's high-performance connectivity.`,
+  caseTitleDesc2T: `Wireless Broadband`,
+  caseTitleDesc2D: `Stay connected on the go with FastNet's reliable wireless broadband services.`,
+  caseTitleDesc3T: `Home Network Solutions`,
+  caseTitleDesc3D: `Discover our home network solutions to optimize your online experience and connectivity.`,
+  caseTitleDesc4T: `Smart Home Connectivity`,
+  caseTitleDesc4D: `Explore our smart home connectivity solutions to enhance your digital lifestyle and keep every device connected seamlessly.`,
+  mob1Title: `Surf the Web at Lightning Speed<br />with FastNet!`,
+  mob1Desc: `FastNet offers a world of high-speed internet where you can browse, stream, and game without slowdowns.`,
+  mob1Desc2: `Join us and let FastNet redefine your online world with super-fast internet.`,
+  mob2Title: `Where Connectivity Meets Convenience<br />Your Internet Solutions, Your Way.`,
+  mob2Desc: `At FastNet, we believe that everyone deserves lightning-fast internet. Let us help you choose the perfect plan.`,
+  mob2Desc2: `Experience uninterrupted connectivity with FastNet's top-quality internet services.`,
+  custTitle: `Satisfied Customers, Streamlined Internet Experience`,
+  custDesc: `Hear what our happy customers have to say about their FastNet internet experiences.`,
+  cust1: `I'm always amazed by the speed and reliability of FastNet's internet. They've transformed my online experience.`,
+  cust1Name: `Emily Smith`,
+  cust1Prof: `Tech Enthusiast`,
+  cust2: `FastNet made finding the perfect internet plan effortless. It's a game-changer for my online activities.`,
+  cust2Name: `John Davis`,
+  cust2Prof: `Online Gamer`,
+  cust3: `I love recommending FastNet to friends. Their internet plans keep us connected seamlessly.`,
+  cust3Name: `Alexandra Johnson`,
+  cust3Prof: `Digital Nomad`,
+  contactTitle: `Ready to Supercharge Your Online Experience? Contact FastNet Today`,
+  logo2: `FastNet`,
+  mail: `info@fastnet.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © SilkenSecret. All rights reserved.`,
+  logo3: `Copyright © FastNet. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
