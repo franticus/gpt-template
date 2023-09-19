@@ -70,6 +70,8 @@ const textData = {
   caseTitleDesc2D: `Experience high-performance eye enhancement solutions designed to keep your vision clear and fashionable.`,
   caseTitleDesc3T: `Vision-Boosting Eyeglasses`,
   caseTitleDesc3D: `Find vision-boosting eyeglasses that provide style and eye health while enjoying the best vision possible.`,
+  caseTitleDesc4T: `Fashionable Eyeglasses`,
+  caseTitleDesc4D: `Discover fashionable eyeglasses that combine style and eye health for crystal-clear vision and a trendy look.`,
   mob1Title: `See the World Brighter<br />with LensCrafters!`,
   mob1Desc: `LensCrafters offers a world of eyewear solutions where you can see clearly and look stylish.`,
   mob1Desc2: `Join us and let our eyeglasses enhance your vision and elevate your style.`,
