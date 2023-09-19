@@ -70,6 +70,8 @@ const textData = {
   caseTitleDesc2D: `Experience high-definition visuals designed to bring your favorite shows and movies to life.`,
   caseTitleDesc3T: `Cinema-Quality Home Theater`,
   caseTitleDesc3D: `Create a cinema-quality home theater with QuantumSight's top-quality TVs for the ultimate entertainment experience.`,
+  caseTitleDesc4T: `Premium Home Entertainment`,
+  caseTitleDesc4D: `Elevate your home entertainment with QuantumSight's premium TVs for an unparalleled cinematic experience.`,
   mob1Title: `Immerse Yourself in Entertainment<br />with QuantumSight!`,
   mob1Desc: `QuantumSight offers a world of entertainment solutions where you can enjoy stunning visuals and immersive sound.`,
   mob1Desc2: `Join us and let our TVs transform your entertainment experience.`,
