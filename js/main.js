@@ -70,6 +70,8 @@ const textData = {
   caseTitleDesc2D: `Experience the luxurious feel of silk and satin lingerie designed to make your moments of intimacy truly special.`,
   caseTitleDesc3T: `Seductive Accessories`,
   caseTitleDesc3D: `Find seductive accessories that add the perfect finishing touch to your lingerie ensemble and create memorable moments.`,
+  caseTitleDesc4T: `Enhance Your Lingerie Experience`,
+  caseTitleDesc4D: `Discover accessories that elevate your lingerie ensemble and make your intimate moments even more memorable.`,
   mob1Title: `Elevate Your Intimate Moments<br />with SilkenSecret!`,
   mob1Desc: `SilkenSecret offers a world of sensuality where you can indulge in elegance and create unforgettable intimate experiences.`,
   mob1Desc2: `Join us and let our lingerie enhance your moments of intimacy and elevate your style.`,
