@@ -70,6 +70,8 @@ const textData = {
   caseTitleDesc2D: `Experience high-performance eye protection solutions designed to keep your vision clear and fashionable.`,
   caseTitleDesc3T: `Sun-Savvy Sunglasses`,
   caseTitleDesc3D: `Find sun-savvy sunglasses that provide style and eye safety while enjoying the great outdoors.`,
+  caseTitleDesc4T: `Stylish Sunglasses`,
+  caseTitleDesc4D: `Discover stylish sunglasses that offer both fashion and protection for your outdoor adventures.`,
   mob1Title: `See the World Brighter<br />with SolarGaze!`,
   mob1Desc: `SolarGaze offers a world of eyewear solutions where you can see clearly and look stylish.`,
   mob1Desc2: `Join us and let our sunglasses enhance your vision and elevate your style.`,
