@@ -39,59 +39,59 @@ function easeInOutCubic(t, b, c, d) {
 }
 
 const textData = {
-  logo: `QuantumSight`,
-  heroTitle: `Experience Visual Brilliance with QuantumSight TVs`,
-  heroDescription: `QuantumSight offers a diverse range of cutting-edge televisions to transform your viewing experience.`,
-  featuresMainTitle: `Discover the QuantumSight Advantage`,
-  featuresMainDescription: `Our team of TV enthusiasts is dedicated to enhancing your entertainment with top-quality television choices.`,
+  logo: `SilkenSecret`,
+  heroTitle: `Indulge in Elegance with SilkenSecret Lingerie`,
+  heroDescription: `SilkenSecret offers a captivating range of exquisite lingerie to elevate your intimate moments.`,
+  featuresMainTitle: `Discover the SilkenSecret Difference`,
+  featuresMainDescription: `Our team of lingerie enthusiasts is dedicated to enhancing your comfort and style with top-quality lingerie choices.`,
   featuresList: `<li class="mb-2">
-    <strong>Innovative TV Technology:</strong> Explore our advanced television technology to elevate your visual experience.
+    <strong>Luxurious Lingerie Collection:</strong> Explore our opulent lingerie to elevate your look and enrich your intimate experiences.
   </li>
   <li class="mb-2">
-    <strong>Entertainment Tips & Insights:</strong> Let us provide you with expert advice and tips to enrich your viewing experience with our TVs.
+    <strong>Intimate Tips & Advice:</strong> Let us provide you with expert guidance and advice to enhance your moments of intimacy with our lingerie.
   </li>
   <li class="mb-2">
-    <strong>Home Theater Accessories:</strong> Find the perfect additions to enhance your home theater setup and complete your entertainment ensemble.
+    <strong>Accessories for Sensuality:</strong> Find the perfect additions to enhance your intimate moments and complete your lingerie ensemble.
   </li>
   <li class="mb-2">
-    <strong>Expert Entertainment Support:</strong> Learn how to enjoy immersive entertainment in any situation with personalized advice from our experts.
+    <strong>Expert Intimacy Support:</strong> Learn how to create special moments with personalized advice from our experts.
   </li>`,
-  featuresListCol1T: `Cutting-Edge TV Technology`,
-  featuresListCol1D: `QuantumSight guarantees the latest TV technology to transform your viewing experience.`,
-  featuresListCol2T: `TV Enthusiasts at Your Service`,
-  featuresListCol2D: `Our passionate TV enthusiasts are dedicated to helping you find the perfect television to elevate your entertainment.`,
-  featuresListCol3T: `Personalized Entertainment Support`,
-  featuresListCol3D: `QuantumSight caters to your specific entertainment needs, offering personalized solutions and expert guidance.`,
-  caseTitle: `Our TV Collections`,
-  caseTitleDesc: `Explore QuantumSight's TV Selection`,
-  caseTitleDesc1T: `Smart TV Selection`,
-  caseTitleDesc1D: `Discover our range of smart TVs to enhance your viewing experience with convenience and innovation.`,
-  caseTitleDesc2T: `High-Definition Visuals`,
-  caseTitleDesc2D: `Experience high-definition visuals designed to bring your favorite shows and movies to life.`,
-  caseTitleDesc3T: `Cinema-Quality Home Theater`,
-  caseTitleDesc3D: `Create a cinema-quality home theater with QuantumSight's top-quality TVs for the ultimate entertainment experience.`,
-  mob1Title: `Immerse Yourself in Entertainment<br />with QuantumSight!`,
-  mob1Desc: `QuantumSight offers a world of entertainment solutions where you can enjoy stunning visuals and immersive sound.`,
-  mob1Desc2: `Join us and let our TVs transform your entertainment experience.`,
-  mob2Title: `Where Quality Meets Entertainment Fun<br />Your Entertainment Solutions, Your Way.`,
-  mob2Desc: `At QuantumSight, we believe that everyone deserves cutting-edge entertainment. Let us help you find the perfect TV.`,
-  mob2Desc2: `Elevate your viewing experience and enjoy immersive entertainment with our top-quality TVs.`,
-  custTitle: `Satisfied Customers, Immersive Entertainment Experiences`,
-  custDesc: `Hear what our happy customers have to say about their QuantumSight TV experiences.`,
-  cust1: `I'm always amazed by the quality and features of QuantumSight's TVs. They've transformed my entertainment experience.`,
-  cust1Name: `Emily Mitchell`,
-  cust1Prof: `Home Entertainment Enthusiast`,
-  cust2: `QuantumSight made finding the perfect TV effortless. It's a game-changer for any movie night.`,
-  cust2Name: `David Reynolds`,
-  cust2Prof: `Film Buff`,
-  cust3: `I love recommending QuantumSight accessories to friends. They add the perfect finishing touch to any home theater setup.`,
-  cust3Name: `Jennifer Parker`,
-  cust3Prof: `Tech Enthusiast`,
-  contactTitle: `Ready to Elevate Your Entertainment? Contact QuantumSight Today`,
-  logo2: `QuantumSight`,
-  mail: `info@quantumsighttv.com`,
+  featuresListCol1T: `Opulent Lingerie Collection`,
+  featuresListCol1D: `SilkenSecret guarantees a wide variety of luxurious lingerie to suit your style and enhance your intimate moments.`,
+  featuresListCol2T: `Lingerie Enthusiasts at Your Service`,
+  featuresListCol2D: `Our passionate lingerie enthusiasts are dedicated to helping you find the perfect lingerie to elevate your comfort and style.`,
+  featuresListCol3T: `Personalized Intimacy Support`,
+  featuresListCol3D: `SilkenSecret caters to your specific intimate needs, offering personalized solutions and expert guidance.`,
+  caseTitle: `Our Lingerie Collections`,
+  caseTitleDesc: `Explore SilkenSecret's Lingerie Selection`,
+  caseTitleDesc1T: `Sensual Lace Collection`,
+  caseTitleDesc1D: `Discover our range of sensual lace lingerie to enhance your intimate moments with elegance and allure.`,
+  caseTitleDesc2T: `Silk and Satin Elegance`,
+  caseTitleDesc2D: `Experience the luxurious feel of silk and satin lingerie designed to make your moments of intimacy truly special.`,
+  caseTitleDesc3T: `Seductive Accessories`,
+  caseTitleDesc3D: `Find seductive accessories that add the perfect finishing touch to your lingerie ensemble and create memorable moments.`,
+  mob1Title: `Elevate Your Intimate Moments<br />with SilkenSecret!`,
+  mob1Desc: `SilkenSecret offers a world of sensuality where you can indulge in elegance and create unforgettable intimate experiences.`,
+  mob1Desc2: `Join us and let our lingerie enhance your moments of intimacy and elevate your style.`,
+  mob2Title: `Where Comfort Meets Sensuality<br />Your Intimate Solutions, Your Way.`,
+  mob2Desc: `At SilkenSecret, we believe that everyone deserves luxurious and comfortable lingerie. Let us help you find the perfect pieces.`,
+  mob2Desc2: `Elevate your comfort and style during intimate moments with our top-quality lingerie.`,
+  custTitle: `Satisfied Customers, Memorable Intimate Moments`,
+  custDesc: `Hear what our happy customers have to say about their SilkenSecret lingerie experiences.`,
+  cust1: `I'm always amazed by the comfort and elegance of SilkenSecret's lingerie. They've made my intimate moments truly special.`,
+  cust1Name: `Sophia Turner`,
+  cust1Prof: `Lingerie Lover`,
+  cust2: `SilkenSecret made finding the perfect lingerie effortless. It's a game-changer for any romantic occasion.`,
+  cust2Name: `Daniel Robinson`,
+  cust2Prof: `Romantic Explorer`,
+  cust3: `I love recommending SilkenSecret accessories to friends. They add the perfect touch of sensuality to any intimate moment.`,
+  cust3Name: `Isabella Martinez`,
+  cust3Prof: `Sensuality Maven`,
+  contactTitle: `Ready to Elevate Your Intimate Moments? Contact SilkenSecret Today`,
+  logo2: `SilkenSecret`,
+  mail: `info@silkensecret.com`,
   phone: `+123-456-7890`,
-  logo3: `Copyright © QuantumSight. All rights reserved.`,
+  logo3: `Copyright © SilkenSecret. All rights reserved.`,
 };
 
 const logo = document.querySelector('.text-logo');
