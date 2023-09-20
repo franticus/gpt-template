@@ -108,3 +108,12 @@ iframe {
   border-radius: 20px;
   backdrop-filter: blur(20px);
 }
+
+.img-fluid {
+  border-radius: 20px;
+}
+
+.info, .php-email-form {
+  padding: 20px;
+  border-radius: 20px;
+}
