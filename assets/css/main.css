@@ -102,3 +102,9 @@ iframe {
 #header {
   top: 0;
 }
+
+.blur {
+  padding: 20px;
+  border-radius: 20px;
+  background: #fff;
+}

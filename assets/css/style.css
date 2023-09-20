@@ -508,11 +508,11 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
-  background: #7fffd4;
+  background: #7ffffe;
 }
 
 .section-bg {
-  background-color: #10c186;
+  background-color: #bcffe9;
 }
 
 .section-title {
@@ -888,7 +888,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
-  background: #e7e7ff;
+  background: #fff;
 }
 
 .services .icon-box {
