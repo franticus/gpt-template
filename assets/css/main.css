@@ -106,5 +106,5 @@ iframe {
 .blur {
   padding: 20px;
   border-radius: 20px;
-  background: #fff;
+  backdrop-filter: blur(20px);
 }
