@@ -545,7 +545,9 @@ section {
   color: #fff;
 }
 
-.faq .section-title h2 {
+.faq .section-title h2,
+.team .section-title h2,
+.services .section-title h2 {
   color: #111;
 }
 
@@ -808,7 +810,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #fff;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1255,7 +1257,7 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #fff;
+  color: #111;
   margin: 0 10px;
   display: inline-block;
 }
@@ -1278,7 +1280,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #fff;
+  color: #111;
 }
 
 .team .member .member-info span {
