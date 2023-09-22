@@ -111,8 +111,8 @@ iframe {
 }
 
 .img-fluid {
-  border-radius: 10px;
-  border: 20px solid #fff;
+  border-radius: 100px;
+  border: 10px solid #fff;
 }
 
 .info,
