@@ -27,7 +27,7 @@ iframe {
 
 .case-studies .color-cards .card-contents {
   border-radius: 0px;
-  box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card {
@@ -36,11 +36,11 @@ iframe {
 
 .customer-feedback .customer-cards {
   border-radius: 0px;
-  box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact-us-bgimage {
-  box-shadow: inset 5px 5px 15px rgba(0,0,0, 0.1);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .warning {
@@ -111,11 +111,18 @@ iframe {
 }
 
 .img-fluid {
-  border-radius: 0px;
+  border-radius: 10px;
   border: 20px solid #fff;
 }
 
-.info, .php-email-form {
+.info,
+.php-email-form {
   padding: 20px;
   border-radius: 0px;
+}
+
+.contact .info,
+.contact .php-email-form {
+  padding: 20px;
+  border-radius: 20px;
 }
