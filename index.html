@@ -1,811 +1,1003 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>StringVibe</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+    <title>StrategicEdge</title>
+    <meta name="description" content />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Favicons -->
     <link href="./favicon.ico" rel="icon" />
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Dosis:300,400,500,,600,700,700i|Lato:300,300i,400,400i,700,700i"
-      rel="stylesheet"
-    />
-
-    <!-- Vendor CSS Files -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js"></script>
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
   </head>
 
   <body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
-      <div class="container d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo">StringVibe</a>
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li>
-              <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
-            </li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
-      </div>
-    </header>
-    <!-- End Header -->
-
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
-          >
-            <h1>Welcome to StringVibe</h1>
-            <h2>
-              Your ultimate destination for those seeking guitars that ignite
-              creativity. Join a diverse community of music enthusiasts,
-              musicians, and artists. Elevate your musical journey.
-            </h2>
-            <div>
-              <a href="#about" class="btn-get-started scrollto">Discover Now</a>
+    <div class="preloader">
+      <div class="loader">
+        <div class="ytp-spinner">
+          <div class="ytp-spinner-container">
+            <div class="ytp-spinner-rotator">
+              <div class="ytp-spinner-left">
+                <div class="ytp-spinner-circle"></div>
+              </div>
+              <div class="ytp-spinner-right">
+                <div class="ytp-spinner-circle"></div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-6 order-1 order-lg-2 hero-img"></div>
+        </div>
+      </div>
+    </div>
+
+    <header class="header-area">
+      <div class="navbar-area headroom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                  <img src="assets/images/logo.png" alt="Logo" /> StrategicEdge
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse sub-menu-bar"
+                  id="navbarSupportedContent"
+                >
+                  <ul id="nav" class="navbar-nav m-auto">
+                    <li class="nav-item active">
+                      <a href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#about">About </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="navbar-btn d-none d-sm-inline-block">
+                  <a class="main-btn" data-scroll-nav="0" href="#pricing"
+                    >Download</a
+                  >
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="home"
+        class="header-hero bg_cover d-lg-flex align-items-center"
+        style="background-image: url(assets/images/header-hero.jpg)"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="header-hero-content">
+                <h1
+                  class="hero-title wow fadeInUp"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.2s"
+                >
+                  <b>Your</b> <span>Consultancy</span> Partner for
+                  <b>Growth.</b>
+                </h1>
+                <p
+                  class="text wow fadeInUp"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.5s"
+                >
+                  Phasellus vel elit efficitur, gravida libero sit amet,
+                  scelerisque tortor arcu, commodo sit amet nulla sed.
+                </p>
+                <div
+                  class="header-singup wow fadeInUp"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.8s"
+                >
+                  <input type="text" placeholder="username@yourdomain.com" />
+                  <button class="main-btn">Sign Up</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="header-hero-image d-flex align-items-center wow fadeInRightBig"
+          data-wow-duration="1s"
+          data-wow-delay="1.1s"
+        >
+          <div class="image">
+            <img src="./assets/images/hero-image.png" alt="Hero Image" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="about-area pt-115">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div
+              class="about-title text-center wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="0.3s"
+            >
+              <h6 class="welcome">WELCOME</h6>
+              <h3 class="title">
+                <span>Our 10 years working experience to </span> take care of
+                your business goal.
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div
+              class="about-image mt-60 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <img src="assets/images/about.png" alt="about" />
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="about-content pt-45">
+              <p
+                class="text wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.4s"
+              >
+                Duis et metus et massa tempus lacinia. Class aptent taciti
+                sociosqu ad litora torquent per conubia nostra, per inceptos
+                himenaeos. Maecenas ultricies, orci molestie blandit interdum.
+                ipsum ante pellentesque nisl, eget mollis turpis quam nec eros.
+                ultricies, orci molestie blandit interdum.
+              </p>
+              <div class="about-counter pt-60">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div
+                      class="single-counter counter-color-1 mt-30 d-flex wow fadeInUp"
+                      data-wow-duration="1s"
+                      data-wow-delay="0.3s"
+                    >
+                      <div class="counter-shape">
+                        <span class="shape-1"></span>
+                        <span class="shape-2"></span>
+                      </div>
+                      <div class="counter-content media-body">
+                        <span class="counter-count"
+                          ><span class="counter">350</span></span
+                        >
+                        <p class="text">Clients</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div
+                      class="single-counter counter-color-2 mt-30 d-flex wow fadeInUp"
+                      data-wow-duration="1s"
+                      data-wow-delay="0.6s"
+                    >
+                      <div class="counter-shape">
+                        <span class="shape-1"></span>
+                        <span class="shape-2"></span>
+                      </div>
+                      <div class="counter-content media-body">
+                        <span class="counter-count"
+                          ><span class="counter">99</span>%</span
+                        >
+                        <p class="text">Satisfaction</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div
+                      class="single-counter counter-color-3 mt-30 d-flex wow fadeInUp"
+                      data-wow-duration="1s"
+                      data-wow-delay="0.9s"
+                    >
+                      <div class="counter-shape">
+                        <span class="shape-1"></span>
+                        <span class="shape-2"></span>
+                      </div>
+                      <div class="counter-content media-body">
+                        <span class="counter-count"
+                          ><span class="counter">870</span></span
+                        >
+                        <p class="text">Projects</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!-- End Hero -->
 
-    <main id="main">
-      <!-- ======= Clients Section ======= -->
-      <section id="clients" class="clients">
-        <div class="container">
-          <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-            <div class="col-lg-3 col-md-4 col-6">
-              <div class="client-logo">
-                <img
-                  src="assets/img/clients/client-1.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-6">
-              <div class="client-logo">
-                <img
-                  src="assets/img/clients/client-2.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-6">
-              <div class="client-logo">
-                <img
-                  src="assets/img/clients/client-3.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-6">
-              <div class="client-logo">
-                <img
-                  src="assets/img/clients/client-4.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-6">
-              <div class="client-logo">
-                <img
-                  src="assets/img/clients/client-5.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-6">
-              <div class="client-logo">
-                <img
-                  src="assets/img/clients/client-6.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-6">
-              <div class="client-logo">
-                <img
-                  src="assets/img/clients/client-7.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-6">
-              <div class="client-logo">
-                <img
-                  src="assets/img/clients/client-8.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Clients Section -->
-
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
-        <div class="container">
-          <div class="row">
+    <section id="services" class="our-services-area pt-115">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-5 col-lg-6 col-md-8 col-sm-9">
             <div
-              class="col-xl-5 col-lg-6 d-flex justify-content-center video-box align-items-stretch position-relative"
-            ></div>
-
-            <div
-              class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
+              class="section-title text-center wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="0.2s"
             >
-              <h3>Explore the StringVibe Difference</h3>
-              <p>
-                Immerse yourself in a world of musical inspiration and
-                excellence. Our vibrant community of music enthusiasts embraces
-                creativity and innovation. Discover the freedom to enhance your
-                musical journey.
+              <h6 class="sub-title">Our services</h6>
+              <h4 class="title">
+                Bunch of Services <span>to Rock Your Business</span>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="our-services-tab pt-30">
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="business"
+                  role="tabpanel"
+                  aria-labelledby="business-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="our-services-image mt-50">
+                        <img
+                          src="assets/images/our-service-1.jpg"
+                          alt="service"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="our-services-content mt-45">
+                        <h3 class="services-title">
+                          Business Consultancy
+                          <span>for Your Business Growth.</span>
+                        </h3>
+                        <p class="text">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Nam nec est arcu. Maecenas semper tortor. <br />
+                          <br />
+                          In elementum in risus sed commodo. Phasellus nisi
+                          ligula, luctus at tempor vitae, placerat at ante. Cras
+                          sed consequat justo. Curabitur laoreet eu est vel
+                          convallis.
+                        </p>
+                        <div
+                          class="our-services-progress d-flex align-items-center mt-55"
+                        >
+                          <div class="circle" id="circles-1"></div>
+                          <div class="progress-content">
+                            <h4 class="progress-title">
+                              Consultancy<br />
+                              Agency Skill.
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="service" class="service-area pt-105">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-8">
+            <div
+              class="section-title wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="0.2s"
+            >
+              <h6 class="sub-title">Why Us</h6>
+              <h4 class="title">
+                The reasons to choose us <span>as your business partner</span>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div
+          class="service-wrapper mt-60 wow fadeInUp"
+          data-wow-duration="1s"
+          data-wow-delay="0.6s"
+        >
+          <div class="row no-gutters justify-content-center">
+            <div class="col-lg-4 col-md-7">
+              <div class="single-service d-flex">
+                <div class="service-icon">
+                  <img src="assets/images/service-1.png" alt="Icon" />
+                </div>
+                <div class="service-content media-body">
+                  <h4 class="service-title">Highly Experienced</h4>
+                  <p class="text">
+                    Lorem Ipsum is simply dummy tex of the printing and
+                    typesetting industry. Lorem Ipsum .
+                  </p>
+                </div>
+                <div class="shape shape-1">
+                  <img src="assets/images/shape/shape-1.svg" alt="shape" />
+                </div>
+                <div class="shape shape-2">
+                  <img src="assets/images/shape/shape-2.svg" alt="shape" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-7">
+              <div class="single-service service-border d-flex">
+                <div class="service-icon">
+                  <img src="assets/images/service-2.png" alt="Icon" />
+                </div>
+                <div class="service-content media-body">
+                  <h4 class="service-title">Bunch of Services</h4>
+                  <p class="text">
+                    Lorem Ipsum is simply dummy tex of the printing and
+                    typesetting industry. Lorem Ipsum .
+                  </p>
+                </div>
+                <div class="shape shape-3">
+                  <img src="assets/images/shape/shape-3.svg" alt="shape" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-7">
+              <div class="single-service d-flex">
+                <div class="service-icon">
+                  <img src="assets/images/service-3.png" alt="Icon" />
+                </div>
+                <div class="service-content media-body">
+                  <h4 class="service-title">Quality Support</h4>
+                  <p class="text">
+                    Lorem Ipsum is simply dummy tex of the printing and
+                    typesetting industry. Lorem Ipsum .
+                  </p>
+                </div>
+                <div class="shape shape-4">
+                  <img src="assets/images/shape/shape-4.svg" alt="shape" />
+                </div>
+                <div class="shape shape-5">
+                  <img src="assets/images/shape/shape-5.svg" alt="shape" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="service-btn text-center pt-25 pb-15">
+                <a class="main-btn main-btn-2" href="#contact">All Services</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="project-masonry-area pt-115">
+      <div class="container">
+        <div class="row align-items-end">
+          <div class="col-lg-4">
+            <div
+              class="section-title pb-20 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.4s"
+            >
+              <h6 class="sub-title">Portfolio</h6>
+              <h4 class="title">Portfolio <span>Gallery.</span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="row grid">
+          <div class="col-lg-4 col-sm-6 grid-item apps creative laptop">
+            <div class="single-gallery gallery-masonry mt-30">
+              <div class="gallery-image">
+                <img src="assets/images/protfolio-1.jpg" alt="protfolio" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 grid-item branding creative">
+            <div class="single-gallery gallery-masonry mt-30">
+              <div class="gallery-image">
+                <img src="assets/images/protfolio-2.jpg" alt="protfolio" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 grid-item apps branding product">
+            <div class="single-gallery gallery-masonry mt-30">
+              <div class="gallery-image">
+                <img src="assets/images/protfolio-3.jpg" alt="protfolio" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 grid-item laptop product">
+            <div class="single-gallery gallery-masonry mt-30">
+              <div class="gallery-image">
+                <img src="assets/images/protfolio-5.jpg" alt="protfolio" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 grid-item branding creative">
+            <div class="single-gallery gallery-masonry mt-30">
+              <div class="gallery-image">
+                <img src="assets/images/protfolio-4.jpg" alt="protfolio" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 grid-item apps laptop product">
+            <div class="single-gallery gallery-masonry mt-30">
+              <div class="gallery-image">
+                <img src="assets/images/protfolio-6.jpg" alt="protfolio" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="gallery-btn mt-60 text-center">
+              <a class="main-btn" href="#contact">Load More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-scroll-index="0" id="pricing" class="pricing-area pt-115">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5 col-md-8 col-sm-9">
+            <div
+              class="section-title text-center pb-20 wow fadeInUpBig"
+              data-wow-duration="1s"
+              data-wow-delay="0.2s"
+            >
+              <h6 class="sub-title">Pricing Plans</h6>
+              <h4 class="title">
+                Providing Best Pricing <span>For Your Business.</span>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters justify-content-center">
+          <div class="col-lg-4 col-md-7 col-sm-9">
+            <div
+              class="single-pricing text-center pricing-color-1 mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.3s"
+            >
+              <div class="pricing-price">
+                <span class="price"
+                  ><b>50</b>/m.<span class="symbol">$</span></span
+                >
+              </div>
+              <div class="pricing-title mt-20">
+                <span class="btn">20% Off</span>
+                <h4 class="title">Basic</h4>
+              </div>
+              <div class="pricing-list pt-20">
+                <ul>
+                  <li>Full Access</li>
+                  <li>Unlimited Bandwidth</li>
+                  <li>50 gb Space</li>
+                  <li>1 Month Support</li>
+                </ul>
+              </div>
+              <div class="pricing-btn pt-70">
+                <a class="main-btn main-btn-2" href="#contact">Sign Up Now !</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-7 col-sm-9">
+            <div
+              class="single-pricing text-center pricing-active pricing-color-2 mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.6s"
+            >
+              <div class="pricing-price">
+                <span class="price"
+                  ><b>69</b>/m.<span class="symbol">$</span></span
+                >
+              </div>
+              <div class="pricing-title mt-20">
+                <span class="btn">Special</span>
+                <h4 class="title">Standard</h4>
+              </div>
+              <div class="pricing-list pt-20">
+                <ul>
+                  <li>Full Access</li>
+                  <li>Unlimited Bandwidth</li>
+                  <li>50 gb Space</li>
+                  <li>1 Month Support</li>
+                </ul>
+              </div>
+              <div class="pricing-btn pt-70">
+                <a class="main-btn" href="#contact">Sign Up Now !</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-7 col-sm-9">
+            <div
+              class="single-pricing text-center pricing-color-3 mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.9s"
+            >
+              <div class="pricing-price">
+                <span class="price"
+                  ><b>99</b>/m.<span class="symbol">$</span></span
+                >
+              </div>
+              <div class="pricing-title mt-20">
+                <span class="btn">New</span>
+                <h4 class="title">Premium</h4>
+              </div>
+              <div class="pricing-list pt-20">
+                <ul>
+                  <li>Full Access</li>
+                  <li>Unlimited Bandwidth</li>
+                  <li>50 gb Space</li>
+                  <li>1 Month Support</li>
+                </ul>
+              </div>
+              <div class="pricing-btn pt-70">
+                <a class="main-btn main-btn-2" href="#contact">Sign Up Now !</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial" class="testimonial-area pt-70 pb-120">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xl-5 col-lg-6">
+            <div
+              class="testimonial-left-content mt-45 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.3s"
+            >
+              <div class="section-title">
+                <h6 class="sub-title">Testimonials</h6>
+                <h4 class="title">What Client Says, About Us</h4>
+              </div>
+              <ul class="testimonial-line">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <p class="text">
+                Duis et metus et massa tempus lacinia. Class aptent taciti
+                sociosqu ad litora torquent per conubia nostra, per inceptos
+                himenaeos. Maecenas ultricies, orci molestie blandit interdum.
+                <br />
+                <br />
+                ipsum ante pellentesque nisl, eget mollis turpis quam nec eros.
+                ultricies, orci molestie blandit interdum.
               </p>
-
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                <h4 class="title"><a href="#">Customized Guitars</a></h4>
-                <p class="description">
-                  Personalize your guitar choices to match your unique playing
-                  style and preferences. We offer flexible options to ensure
-                  your musical comfort and satisfaction.
-                </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="testimonial-right-content mt-50 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.6s"
+            >
+              <div class="quota">
+                <i class="lni-quotation"></i>
               </div>
-
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-gift"></i></div>
-                <h4 class="title"><a href="#">Community of Musicians</a></h4>
-                <p class="description">
-                  Join a welcoming community of music enthusiasts who share
-                  their passion and create a culture of inspiration and
-                  collaboration.
-                </p>
+              <div class="testimonial-content-wrapper testimonial-active">
+                <div class="single-testimonial">
+                  <div class="testimonial-text">
+                    <p class="text">
+                      “Praesent scelerisque, odio eu fermentum malesuada, nisi
+                      arcu volutpat nisl, sit amet convallis nunc turp.”
+                    </p>
+                  </div>
+                  <div
+                    class="testimonial-author d-sm-flex justify-content-between"
+                  >
+                    <div class="author-info d-flex align-items-center">
+                      <div class="author-image">
+                        <img src="assets/images/author-1.jpg" alt="author" />
+                      </div>
+                      <div class="author-name media-body">
+                        <h5 class="name">John Doe</h5>
+                        <span class="sub-title">CEO, Alphabet</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-testimonial">
+                  <div class="testimonial-text">
+                    <p class="text">
+                      “Praesent scelerisque, odio eu fermentum malesuada, nisi
+                      arcu volutpat nisl, sit amet convallis nunc turp.”
+                    </p>
+                  </div>
+                  <div
+                    class="testimonial-author d-sm-flex justify-content-between"
+                  >
+                    <div class="author-info d-flex align-items-center">
+                      <div class="author-image">
+                        <img src="assets/images/author-2.jpg" alt="author" />
+                      </div>
+                      <div class="author-name media-body">
+                        <h5 class="name">John Doe</h5>
+                        <span class="sub-title">CEO, Alphabet</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-testimonial">
+                  <div class="testimonial-text">
+                    <p class="text">
+                      “Praesent scelerisque, odio eu fermentum malesuada, nisi
+                      arcu volutpat nisl, sit amet convallis nunc turp.”
+                    </p>
+                  </div>
+                  <div
+                    class="testimonial-author d-sm-flex justify-content-between"
+                  >
+                    <div class="author-info d-flex align-items-center">
+                      <div class="author-image">
+                        <img src="assets/images/author-3.jpg" alt="author" />
+                      </div>
+                      <div class="author-name media-body">
+                        <h5 class="name">John Doe</h5>
+                        <span class="sub-title">CEO, Alphabet</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-atom"></i></div>
-                <h4 class="title">
-                  <a href="#">Elevate Your Musical Experience</a>
+    <div id="brand" class="brand-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="brand-wrapper pt-70 clearfix">
+              <div
+                class="single-brand mt-50 text-md-left wow fadeIn"
+                data-wow-duration="1s"
+                data-wow-delay="0.2s"
+              >
+                <img src="assets/images/brand-1.png" alt="brand" />
+              </div>
+              <div
+                class="single-brand mt-50 wow fadeIn"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s"
+              >
+                <img src="assets/images/brand-2.png" alt="brand" />
+              </div>
+              <div
+                class="single-brand mt-50 wow fadeIn"
+                data-wow-duration="1s"
+                data-wow-delay="0.4s"
+              >
+                <img src="assets/images/brand-3.png" alt="brand" />
+              </div>
+              <div
+                class="single-brand mt-50 wow fadeIn"
+                data-wow-duration="1s"
+                data-wow-delay="0.5s"
+              >
+                <img src="assets/images/brand-4.png" alt="brand" />
+              </div>
+              <div
+                class="single-brand mt-50 text-md-right wow fadeIn"
+                data-wow-duration="1s"
+                data-wow-delay="0.6s"
+              >
+                <img src="assets/images/brand-5.png" alt="brand" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="blog" class="blog-area pt-115">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div
+              class="section-title text-center pb-20 wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="0.3s"
+            >
+              <h6 class="sub-title">Our Blog</h6>
+              <h4 class="title">Letest <span>News.</span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-8">
+            <div
+              class="single-blog mt-30 wow fadeInUpBig"
+              data-wow-duration="1s"
+              data-wow-delay="0.4s"
+            >
+              <div class="blog-image">
+                <a href="#contact"
+                  ><img src="assets/images/news-1.jpg" alt="news"
+                /></a>
+              </div>
+              <div class="blog-content">
+                <h4 class="blog-title">
+                  <a href="#contact"
+                    >Nulla eget urna at tortor turpi feugiat tristique in
+                    sit.</a
+                  >
                 </h4>
-                <p class="description">
-                  Experience guitars that elevate your musical aesthetics and
-                  performance. Explore new possibilities and enhance your
-                  musical environment.
-                </p>
+                <div class="blog-author d-flex align-items-center">
+                  <div class="author-image">
+                    <img src="assets/images/author-1.jpg" alt="author" />
+                  </div>
+                  <div class="author-content media-body">
+                    <h6 class="sub-title">Posted by</h6>
+                    <p class="text">Isabela Moreira</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-8">
+            <div
+              class="single-blog mt-30 wow fadeInUpBig"
+              data-wow-duration="1s"
+              data-wow-delay="0.7s"
+            >
+              <div class="blog-image">
+                <a href="#contact"
+                  ><img src="assets/images/news-2.jpg" alt="news"
+                /></a>
+              </div>
+              <div class="blog-content">
+                <h4 class="blog-title">
+                  <a href="#contact"
+                    >Nulla eget urna at tortor turpi feugiat tristique in
+                    sit.</a
+                  >
+                </h4>
+                <div class="blog-author d-flex align-items-center">
+                  <div class="author-image">
+                    <img src="assets/images/author-2.jpg" alt="author" />
+                  </div>
+                  <div class="author-content media-body">
+                    <h6 class="sub-title">Posted by</h6>
+                    <p class="text">Elon Musk</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-8">
+            <div
+              class="single-blog mt-30 wow fadeInUpBig"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
+            >
+              <div class="blog-image">
+                <a href="#contact"
+                  ><img src="assets/images/news-3.jpg" alt="news"
+                /></a>
+              </div>
+              <div class="blog-content">
+                <h4 class="blog-title">
+                  <a href="#contact"
+                    >Nulla eget urna at tortor turpi feugiat tristique in
+                    sit.</a
+                  >
+                </h4>
+                <div class="blog-author d-flex align-items-center">
+                  <div class="author-image">
+                    <img src="assets/images/author-3.jpg" alt="author" />
+                  </div>
+                  <div class="author-content media-body">
+                    <h6 class="sub-title">Posted by</h6>
+                    <p class="text">Fiona</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- End About Section -->
+      </div>
+    </section>
 
-      <!-- ======= Counts Section ======= -->
-      <section id="counts" class="counts">
-        <div class="container">
-          <div class="text-center title">
-            <h3>Our Achievements</h3>
-            <p>
-              Explore what distinguishes StringVibe as we share our journey and
-              milestones with you.
-            </p>
-          </div>
-
-          <div class="row counters position-relative">
-            <div class="col-lg-3 col-6 text-center">
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="232"
-                data-purecounter-duration="1"
-                class="purecounter"
-              ></span>
-              <p>Satisfied Musicians</p>
-            </div>
-
-            <div class="col-lg-3 col-6 text-center">
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="521"
-                data-purecounter-duration="1"
-                class="purecounter"
-              ></span>
-              <p>Unique Guitar Collections</p>
-            </div>
-
-            <div class="col-lg-3 col-6 text-center">
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="1463"
-                data-purecounter-duration="1"
-                class="purecounter"
-              ></span>
-              <p>Hours of Musical Inspiration</p>
-            </div>
-
-            <div class="col-lg-3 col-6 text-center">
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="15"
-                data-purecounter-duration="1"
-                class="purecounter"
-              ></span>
-              <p>Dedicated Team</p>
+    <section id="contact" class="contact-area pt-120 pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div
+              class="section-title text-center pb-20 wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="0.3s"
+            >
+              <h6 class="sub-title">Our Contact</h6>
+              <h4 class="title">Get In <span>Touch.</span></h4>
             </div>
           </div>
         </div>
-      </section>
-      <!-- End Counts Section -->
-
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2>Services</h2>
-            <p>
-              Welcome to StringVibe, your ultimate destination for guitars and
-              musical inspiration. Explore a world of possibilities where
-              creativity meets harmony. Discover our wide range of services
-              below.
-            </p>
-          </div>
-
+        <div class="contact-info pt-30">
           <div class="row">
             <div class="col-lg-4 col-md-6">
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bi bi-cash-stack" style="color: #ff689b"></i>
+              <div
+                class="single-contact-info contact-color-1 mt-30 d-flex wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s"
+              >
+                <div class="contact-info-icon">
+                  <i class="lni-map-marker"></i>
                 </div>
-                <h4 class="title"><a href="">Custom Guitar Solutions</a></h4>
-                <p class="description">
-                  Embrace the flexibility of our custom guitar offerings. Choose
-                  from a variety of options tailored to your unique style and
-                  musical needs.
-                </p>
+                <div class="contact-info-content media-body">
+                  <p class="text">
+                    820 GREENWICH ST NEW YORK NY 10014-5137 USA
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bi bi-calendar4-week" style="color: #e9bf06"></i>
+              <div
+                class="single-contact-info contact-color-2 mt-30 d-flex wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.6s"
+              >
+                <div class="contact-info-icon">
+                  <i class="lni-envelope"></i>
                 </div>
-                <h4 class="title"><a href="">Inspiring Showrooms</a></h4>
-                <p class="description">
-                  Visit our inspiring showrooms to explore the latest guitar
-                  collections. Find the perfect instruments to create lasting
-                  musical impressions.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6" data-wow-delay="0.1s">
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bi bi-chat-text" style="color: #3fcdc7"></i>
-                </div>
-                <h4 class="title"><a href="">Musician Consultations</a></h4>
-                <p class="description">
-                  Connect with our experienced musicians and expand your
-                  creative vision. StringVibe is your hub for meaningful musical
-                  collaborations.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6" data-wow-delay="0.1s">
-              <div class="icon-box">
-                <div class="icon">
-                  <i
-                    class="bi bi-credit-card-2-front"
-                    style="color: #41cf2e"
-                  ></i>
-                </div>
-                <h4 class="title"><a href="">Financing Options</a></h4>
-                <p class="description">
-                  Access flexible financing options to bring your dream
-                  instruments to life, from budget-friendly choices to premium
-                  selections.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6" data-wow-delay="0.2s">
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bi bi-globe" style="color: #d6ff22"></i>
-                </div>
-                <h4 class="title"><a href="">Worldwide Delivery</a></h4>
-                <p class="description">
-                  Join a community with global reach. Our diverse range of
-                  guitars brings the world's musical styles and inspirations to
-                  your doorstep.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6" data-wow-delay="0.2s">
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bi bi-clock" style="color: #4680ff"></i>
-                </div>
-                <h4 class="title"><a href="">Convenient Hours</a></h4>
-                <p class="description">
-                  Shop at your convenience with extended store hours. StringVibe
-                  adapts to your schedule, so you can find the perfect
-                  instrument when it suits you.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Services Section -->
-
-      <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio">
-        <div class="container">
-          <div class="section-title">
-            <h2>Discover Our Guitars</h2>
-            <p>
-              Immerse yourself in the world of StringVibe guitars. We offer
-              finely crafted instruments that elevate your musical journey with
-              style and precision. Join our community of music enthusiasts and
-              enhance your musical experience.
-            </p>
-          </div>
-
-          <div class="row portfolio-container">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-4.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-5.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-6.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Portfolio Section -->
-
-      <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials">
-        <div class="container position-relative">
-          <div
-            class="testimonials-slider swiper"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-3.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Mia Smith</h3>
-                  <h4>Music Enthusiast</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Shopping at StringVibe has transformed my musical
-                    experience. The quality and craftsmanship of their guitars
-                    have brought my music to life.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-4.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Oliver Johnson</h3>
-                  <h4>Aspiring Guitarist</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    StringVibe's guitars have made my music journey more
-                    enjoyable than ever. Their wide selection and reasonable
-                    prices made getting a new guitar a breeze.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-5.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Nathan White</h3>
-                  <h4>Music Instructor</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    StringVibe's guitar selections have been a valuable resource
-                    for my students. It's a place where quality and musicality
-                    come together seamlessly.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- End Testimonials Section -->
-
-      <!-- ======= Team Section ======= -->
-      <section id="team" class="team section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2>Our Crew</h2>
-            <p>
-              Get acquainted with the dedicated individuals driving success at
-              StringVibe. Each team member brings their unique expertise to our
-              guitar store.
-            </p>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <div class="member-img">
-                  <img
-                    src="assets/img/team/team-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Nathan Reed</h4>
-                  <span>Guitar Expert</span>
+                <div class="contact-info-content media-body">
+                  <p class="text">info@StrategicEdge.com</p>
                 </div>
               </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <div class="member-img">
-                  <img
-                    src="assets/img/team/team-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="single-contact-info contact-color-3 mt-30 d-flex wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.9s"
+              >
+                <div class="contact-info-icon">
+                  <i class="lni-phone"></i>
                 </div>
-                <div class="member-info">
-                  <h4>Olivia Collins</h4>
-                  <span>Marketing Guru</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <div class="member-img">
-                  <img
-                    src="assets/img/team/team-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Ethan Turner</h4>
-                  <span>Technical Support Specialist</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <div class="member-img">
-                  <img
-                    src="assets/img/team/team-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Sophie Harris</h4>
-                  <span>Financial Advisor</span>
+                <div class="contact-info-content media-body">
+                  <p class="text">+99 000 1111 555</p>
+                  <p class="text">+88 999 5555 444</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- End Team Section -->
-
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container">
-          <div class="section-title">
-            <h2>Get in Touch</h2>
-            <p>
-              Don't hesitate to contact the StringVibe team. We're here to
-              assist you with any questions or support you might need. Reach
-              out, and let us assist you in finding your perfect guitar.
-            </p>
-          </div>
-
-          <div class="row mt-5">
-            <div class="col-lg-4">
-              <div class="info">
-                <div class="address">
-                  <i class="bi bi-geo-alt"></i>
-                  <h4>Location:</h4>
-                  <p>205 HUDSON ST NEW YORK NY 10013-0476 USA</p>
-                </div>
-
-                <div class="email">
-                  <i class="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>info@stringvibe.com</p>
-                </div>
-
-                <div class="phone">
-                  <i class="bi bi-phone"></i>
-                  <h4>Call:</h4>
-                  <p>+1 4839 83635 76</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-8 mt-5 mt-lg-0">
+        <div class="row">
+          <div class="col-lg-12">
+            <div
+              class="contact-wrapper-form pt-115 wow fadeInUpBig"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.7405173777515!2d-74.0084371!3d40.72372839999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259f49bca9f41%3A0xe607262c93e78bb7!2zMjA1IEh1ZHNvbiBTdCwgTmV3IFlvcmssIE5ZIDEwMDEzLCDQodCo0JA!5e0!3m2!1sru!2sby!4v1695641384031!5m2!1sru!2sby"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.0770124770133!2d-74.0067978!3d40.7383309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259eaac824f93%3A0xc3e6304ac810ba45!2zODIwIEdyZWVud2ljaCBTdCwgTmV3IFlvcmssIE5ZIDEwMDE0LCDQodCo0JA!5e0!3m2!1sru!2sby!4v1695662910508!5m2!1sru!2sby"
                 width="100%"
-                height="600"
+                height="450"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact Section -->
-    </main>
-    <!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="footer-newsletter">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <h4>Stay Informed with StringVibe</h4>
-              <p>
-                Stay up to date with the latest guitar trends, exclusive offers,
-                and musical inspiration from StringVibe. Subscribe to our
-                newsletter for the newest updates and insights.
-              </p>
-
-              <form action="" method="post">
-                <input type="email" name="email" /><input
-                  type="submit"
-                  value="Subscribe"
-                />
+              <h4 class="contact-title pb-10">
+                <i class="lni-envelope"></i> Leave <span>A Message.</span>
+              </h4>
+              <form
+                id="contact-form"
+                action="./assets/contact.php"
+                method="post"
+              >
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="contact-form mt-45">
+                      <label>Enter Your Name</label>
+                      <input type="text" name="name" placeholder="Full Name" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="contact-form mt-45">
+                      <label>Enter Your Email</label>
+                      <input type="email" name="email" placeholder="Email" />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="contact-form mt-45">
+                      <label>Your Message</label>
+                      <textarea
+                        name="message"
+                        placeholder="Enter your message..."
+                      ></textarea>
+                    </div>
+                  </div>
+                  <p class="form-message"></p>
+                  <div class="col-md-12">
+                    <div class="contact-form mt-45">
+                      <button type="submit" class="main-btn">Send Now</button>
+                    </div>
+                  </div>
+                </div>
               </form>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="footer-top">
-        <div class="container">
+    <footer
+      id="footer"
+      class="footer-area bg_cover"
+      style="background-image: url(assets/images/footer-bg.jpg)"
+    >
+      <div class="container">
+        <div class="footer-widget pt-30 pb-70">
           <div class="row">
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>StringVibe</h3>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="./privacy/disclaimer.html">Disclaimer</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="./privacy/cookies.html">Cookies</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="./privacy/terms.html">Terms of service</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="./privacy/privacy.html">Privacy policy</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Connect with StringVibe</h4>
-              <p>
-                Immerse yourself in the realm of exceptional guitars at
-                StringVibe. Stay updated with our latest guitar collections, pro
-                tips, and music inspirations.
-              </p>
-
-              <div class="social-links mt-3">
-                <a href="#contact" class="twitter"
-                  ><i class="bx bxl-twitter"></i
-                ></a>
-                <a href="#contact" class="facebook"
-                  ><i class="bx bxl-facebook"></i
-                ></a>
-                <a href="#contact" class="instagram"
-                  ><i class="bx bxl-instagram"></i
-                ></a>
-                <a href="#contact" class="google-plus"
-                  ><i class="bx bxl-skype"></i
-                ></a>
-                <a href="#contact" class="linkedin"
-                  ><i class="bx bxl-linkedin"></i
-                ></a>
+            <div class="col-lg-3 col-sm-6 order-sm-3 order-lg-2">
+              <div class="footer-link pt-40">
+                <ul>
+                  <li><a href="./privacy/disclaimer.html">Disclaimer</a></li>
+                  <li><a href="./privacy/cookies.html">Cookies</a></li>
+                  <li><a href="./privacy/terms.html">Terms of use</a></li>
+                  <li><a href="./privacy/privacy.html">Privacy policy</a></li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="container py-4">
-        <div class="copyright">
-          &copy; Copyright <strong><span>StringVibe</span></strong
-          >. All Rights Reserved
+        <div class="footer-copyright text-center">
+          <p class="text">©2023 StrategicEdge. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
-    <!-- End Footer -->
-
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
 
     <div class="warning warning--active">
       <div class="warning__text">
@@ -835,20 +1027,24 @@
       }
     </script>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js"></script>
-
-    <!-- Template Main JS File -->
+    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/ajax-contact.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/circles.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/headroom.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/scrollIt.min.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
