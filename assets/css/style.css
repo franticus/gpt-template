@@ -1501,7 +1501,7 @@ section {
 
 #footer .copyright {
   float: left;
-  color: #111;
+  color: #fff;
 }
 
 @media (max-width: 575px) {
