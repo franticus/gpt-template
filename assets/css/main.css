@@ -8,11 +8,16 @@ iframe {
   border-radius: 0px;
 }
 
+#header .logo {
+  text-transform: none;
+}
+
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  text-transform: none;
 }
 
 .logo h4 {
@@ -111,7 +116,7 @@ iframe {
 }
 
 .img-fluid {
-  border-radius: 100px;
+  border-radius: 10px;
   border: 10px solid #fff;
 }
 
