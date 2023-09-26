@@ -6,7 +6,7 @@ body {
   font-style: normal;
   color: #111;
   overflow-X: hidden;
-  background-color: #ffe860;
+  background-color: #ecf7ff;
 }
 
 * {
@@ -19,6 +19,7 @@ body {
 
 img {
   max-width: 100%;
+  border-radius: 20px;
 }
 
 a:focus,
@@ -121,7 +122,7 @@ p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 2px solid #ee9300;
+  border: 2px solid #6c4eff;
   padding: 0 30px;
   font-size: 16px;
   height: 55px;
@@ -135,31 +136,31 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: #ee9300;
+  background-color: #6c4eff;
 }
 
 .main-btn:hover {
   background-color: #fff;
-  color: #ee9300;
-  border-color: #ee9300;
+  color: #6c4eff;
+  border-color: #6c4eff;
 }
 
 .main-btn.main-btn-2 {
   background-color: #fff;
-  color: #ee9300;
-  border-color: #ee9300;
+  color: #6c4eff;
+  border-color: #6c4eff;
 }
 
 .main-btn.main-btn-2:hover {
   background-color: #fff;
-  border-color: #ee9300;
+  border-color: #6c4eff;
 }
 
 /*===== All Section Title Style =====*/
 .section-title .sub-title {
   font-size: 18px;
   font-weight: 400;
-  color: #ee9300;
+  color: #6c4eff;
   text-transform: uppercase;
 }
 
@@ -276,7 +277,7 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #ee9300 #ee9300 #dedede4f;
+  border-color: #6c4eff #6c4eff #dedede4f;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -751,7 +752,7 @@ p {
 
 .navbar-nav .nav-item.active>a,
 .navbar-nav .nav-item:hover>a {
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .navbar-nav .nav-item:hover .sub-menu {
@@ -824,7 +825,7 @@ p {
 .navbar-nav .nav-item .sub-menu li a.active,
 .navbar-nav .nav-item .sub-menu li a:hover {
   padding-left: 25px;
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .navbar-nav .sub-nav-toggler {
@@ -1018,7 +1019,7 @@ p {
 }
 
 .header-hero-content .hero-title span {
-  color: #ee9300;
+  color: #6c4eff;
   display: contents;
 }
 
@@ -1103,12 +1104,18 @@ p {
 /*===========================
         03.ABOUT css 
 ===========================*/
+.about-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .about-title .welcome {
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #ee9300;
+  color: #6c4eff;
   font-family: "Nunito", sans-serif;
 }
 
@@ -1226,9 +1233,9 @@ p {
 
 .single-counter.counter-color-3 .counter-shape .shape-1,
 .single-counter.counter-color-3 .counter-shape .shape-2 {
-  background: -webkit-linear-gradient(left, #ee9300 0%, #ff9387 100%);
-  background: -o-linear-gradient(left, #ee9300 0%, #ff9387 100%);
-  background: linear-gradient(to right, #ee9300 0%, #ff9387 100%);
+  background: -webkit-linear-gradient(left, #6c4eff 0%, #ff9387 100%);
+  background: -o-linear-gradient(left, #6c4eff 0%, #ff9387 100%);
+  background: linear-gradient(to right, #6c4eff 0%, #ff9387 100%);
 }
 
 .single-counter.counter-color-4 .counter-shape .shape-1,
@@ -1286,7 +1293,7 @@ p {
 }
 
 .single-gallery .gallery-icon a {
-  background-color: #ee9300;
+  background-color: #6c4eff;
   width: 120px;
   height: 120px;
   position: absolute;
@@ -1823,7 +1830,7 @@ p {
   content: '';
   width: 100%;
   height: 2px;
-  background-color: #ee9300;
+  background-color: #6c4eff;
   left: 0;
   bottom: -2px;
   opacity: 0;
@@ -1870,7 +1877,7 @@ p {
 }
 
 .our-services-tab .nav .nav-item a.active {
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .our-services-tab .nav .nav-item a.active::before {
@@ -1927,9 +1934,9 @@ p {
   height: 50px;
   line-height: 50px;
   text-align: center;
-  border: 1px dashed #ee9300;
+  border: 1px dashed #6c4eff;
   font-size: 36px;
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .single-service-2 .service-content {
@@ -1986,7 +1993,7 @@ p {
 }
 
 .single-service-3 .service-content .service-title a:hover {
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .single-service-3 .service-content .text {
@@ -2005,7 +2012,7 @@ p {
 }
 
 .single-service-3 .service-content .more:hover {
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 /*===========================
@@ -2035,7 +2042,7 @@ p {
 
 .single-pricing .pricing-price .price .symbol {
   font-size: 18px;
-  color: #ee9300;
+  color: #6c4eff;
   font-weight: 700;
   font-family: "Nunito", sans-serif;
 }
@@ -2089,7 +2096,7 @@ p {
 }
 
 .single-pricing.pricing-color-2 .pricing-title .btn {
-  background-color: #ee9300;
+  background-color: #6c4eff;
 }
 
 .single-pricing.pricing-color-3 .pricing-title .btn {
@@ -2166,7 +2173,7 @@ p {
 .testimonial-right-content .quota i {
   font-size: 130px;
   line-height: 95px;
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .testimonial-content-wrapper {
@@ -2218,7 +2225,7 @@ p {
 .single-testimonial .testimonial-author .author-info .author-name .name {
   font-size: 16px;
   font-weight: 700;
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .single-testimonial .testimonial-author .author-info .author-name .sub-title {
@@ -2334,7 +2341,7 @@ p {
 }
 
 .single-blog .blog-content .blog-title a:hover {
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .single-blog .blog-content .blog-author {
@@ -2352,7 +2359,7 @@ p {
 
 .single-blog .blog-content .blog-author .author-content .sub-title {
   font-size: 14px;
-  color: #ee9300;
+  color: #6c4eff;
   font-weight: 400;
 }
 
@@ -2420,7 +2427,7 @@ p {
 }
 
 .contact-wrapper-form .contact-title i {
-  color: #ee9300;
+  color: #6c4eff;
   margin-right: 8px;
 }
 
@@ -2529,7 +2536,7 @@ p {
 }
 
 .footer-contact .social li a:hover {
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .footer-copyright {
@@ -2542,7 +2549,7 @@ p {
 }
 
 .footer-copyright .text a {
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 /*===== BACK TO TOP =====*/
@@ -2556,7 +2563,7 @@ p {
   height: 45px;
   line-height: 45px;
   border-radius: 50%;
-  background-color: #ee9300;
+  background-color: #6c4eff;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2569,7 +2576,7 @@ p {
 
 .back-to-top:hover {
   color: #fff;
-  background-color: #ee9300;
+  background-color: #6c4eff;
 }
 
 /*===========================
@@ -2617,7 +2624,7 @@ p {
 
 .page-banner-content .page-title span {
   font-weight: 700;
-  color: #ee9300;
+  color: #6c4eff;
   display: contents;
 }
 
@@ -2647,7 +2654,7 @@ p {
 
 .blog-details-content .blockquote {
   padding: 65px 50px;
-  background-color: #ee9300;
+  background-color: #6c4eff;
   position: relative;
   border-radius: 5px;
   margin-top: 45px;
@@ -2860,7 +2867,7 @@ p {
 }
 
 .single-comment-items .comment-content a:hover {
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .comment-reply {
@@ -2887,7 +2894,7 @@ p {
 }
 
 .blog-details-comment-form .comment-form-title i {
-  color: #ee9300;
+  color: #6c4eff;
   margin-right: 8px;
 }
 
@@ -2938,7 +2945,7 @@ p {
 }
 
 .blog-category .category-title .title i {
-  color: #ee9300;
+  color: #6c4eff;
   margin-right: 5px;
 }
 
@@ -2962,7 +2969,7 @@ p {
 }
 
 .blog-category .category-list ul li a:hover {
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .blog-category .category-list ul li a i {
@@ -2990,11 +2997,11 @@ p {
 }
 
 .blog-category .category-more a:hover {
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .blog-category .category-more a i {
-  color: #ee9300;
+  color: #6c4eff;
   margin-right: 5px;
 }
 
@@ -3032,7 +3039,7 @@ p {
 }
 
 .blog-tag .tag-list a:hover {
-  background-color: #ee9300;
+  background-color: #6c4eff;
   color: #fff;
   border-color: #111;
 }
@@ -3055,7 +3062,7 @@ p {
 }
 
 .blog-project .project-list ul li a:hover {
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .blog-project .project-list ul li a span {
@@ -3079,7 +3086,7 @@ p {
 }
 
 .blog-ratting .ratting-list ul li a:hover {
-  color: #ee9300;
+  color: #6c4eff;
 }
 
 .blog-ratting .ratting-list ul li a span {
