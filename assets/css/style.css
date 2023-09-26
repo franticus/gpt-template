@@ -4,8 +4,9 @@ body {
   font-family: "Nunito", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #798795;
+  color: #111;
   overflow-X: hidden;
+  background-color: #ffe860;
 }
 
 * {
@@ -95,7 +96,7 @@ p {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #798795;
+  color: #111;
   margin: 0px;
   font-family: "Nunito", sans-serif;
 }
@@ -937,8 +938,13 @@ p {
   position: absolute;
   top: 0;
   right: 0;
-  width: 47%;
+  width: 40%;
   height: 100%;
+}
+
+.header-hero-image .image {
+  border: 10px solid #fff;
+  border-radius: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1365,7 +1371,7 @@ p {
 .project-menu ul li {
   display: inline-block;
   font-size: 16px;
-  color: #798795;
+  color: #111;
   margin-left: 50px;
   cursor: pointer;
   position: relative;
@@ -1394,7 +1400,7 @@ p {
   content: '';
   width: 0;
   height: 2px;
-  background-color: #798795;
+  background-color: #111;
   bottom: 0;
   left: 0;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1418,6 +1424,8 @@ p {
       05.SERVICE css 
 ===========================*/
 .service-wrapper {
+  background: #fff;
+  border-radius: 10px;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
@@ -1772,7 +1780,7 @@ p {
 }
 
 .our-services-tab .nav .nav-item a {
-  color: #798795;
+  color: #111;
   padding: 17px 30px;
   display: -webkit-flex;
   display: -moz-flex;
@@ -1986,7 +1994,7 @@ p {
 }
 
 .single-service-3 .service-content .more {
-  color: #798795;
+  color: #111;
   font-size: 36px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -2005,6 +2013,8 @@ p {
 ===========================*/
 .single-pricing {
   padding: 65px 50px 70px;
+  border-radius: 20px;
+  background: #fff;
 }
 
 @media (max-width: 767px) {
@@ -2061,7 +2071,7 @@ p {
 
 .single-pricing .pricing-list ul li {
   font-size: 14px;
-  color: #798795;
+  color: #111;
   margin-top: 20px;
 }
 
@@ -2087,6 +2097,9 @@ p {
 }
 
 .single-pricing.pricing-active {
+  background: hsl(34, 100%, 99%);
+  border-radius: 20px;
+  padding: 65px 50px 100px;
   -webkit-box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.07);
   -moz-box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.07);
   box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.07);
@@ -2101,7 +2114,7 @@ p {
 
 .testimonial-left-content .testimonial-line li {
   height: 5px;
-  background-color: #fde4e1;
+  background-color: #000;
   display: inline-block;
   border-radius: 50px;
   margin-right: 3px;
@@ -2210,7 +2223,7 @@ p {
 
 .single-testimonial .testimonial-author .author-info .author-name .sub-title {
   font-size: 14px;
-  color: #798795;
+  color: #111;
   margin-top: 5px;
 }
 
@@ -2246,7 +2259,7 @@ p {
   left: -670px;
   font-size: 22px;
   cursor: pointer;
-  color: #798795;
+  color: #111;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -2267,6 +2280,7 @@ p {
 ===========================*/
 .brand-wrapper {
   border-top: 1px solid #dedede4f;
+  filter: brightness(0.5);
 }
 
 .brand-wrapper .single-brand {
@@ -2478,7 +2492,7 @@ p {
 
 .footer-link ul li a {
   font-size: 16px;
-  color: #798795;
+  color: #111;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -2506,7 +2520,7 @@ p {
 
 .footer-contact .social li a {
   font-size: 26px;
-  color: #798795;
+  color: #111;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -2699,7 +2713,7 @@ p {
 
 .blog-details-content .details-list li {
   font-size: 16px;
-  color: #798795;
+  color: #111;
   margin-top: 25px;
   list-style: decimal;
 }
@@ -2938,7 +2952,7 @@ p {
 
 .blog-category .category-list ul li a {
   font-size: 14px;
-  color: #798795;
+  color: #111;
   display: block;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -3012,7 +3026,7 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  color: #798795;
+  color: #111;
   font-size: 14px;
   margin-top: 10px;
 }
@@ -3020,7 +3034,7 @@ p {
 .blog-tag .tag-list a:hover {
   background-color: #f14836;
   color: #fff;
-  border-color: #798795;
+  border-color: #111;
 }
 
 .blog-project .project-list {
@@ -3029,7 +3043,7 @@ p {
 }
 
 .blog-project .project-list ul li a {
-  color: #798795;
+  color: #111;
   font-size: 14px;
   margin-top: 10px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -3053,7 +3067,7 @@ p {
 }
 
 .blog-ratting .ratting-list ul li a {
-  color: #798795;
+  color: #111;
   font-size: 14px;
   margin-top: 10px;
   -webkit-transition: all 0.3s ease-out 0s;
