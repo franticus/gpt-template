@@ -423,7 +423,8 @@ h6 {
 }
 
 #hero .hero-img {
-  max-width: 50%;
+  width: 100%;
+  width: 400px;
   margin-top: 40px;
 }
 
