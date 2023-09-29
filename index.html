@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>VoltRide</title>
+    <title>WebAlchemy</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -13,7 +13,7 @@
 
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Krub:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
 
@@ -45,16 +45,37 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js"></script>
 
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/main.css" rel="stylesheet" />
   </head>
 
   <body>
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="fixed-top d-flex align-items-center">
+      <div
+        class="container d-flex align-items-center justify-content-center justify-content-md-between"
+      >
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope-fill"></i
+          ><a href="mailto:contact@example.com">info@WebAlchemy.com</a>
+          <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
+        </div>
+        <div class="cta d-none d-md-block">
+          <a href="#about" class="scrollto">Get Started</a>
+        </div>
+      </div>
+    </div>
+
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
+    <header id="header" class="fixed-top d-flex align-items-center">
       <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo"><a href="index.html">VoltRide</a></h1>
+        <h1 class="logo"><a href="index.html">WebAlchemy</a></h1>
 
         <nav id="navbar" class="navbar">
           <ul>
@@ -67,9 +88,6 @@
             <li><a class="nav-link scrollto" href="#team">Team</a></li>
             <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            <li>
-              <a class="getstarted scrollto" href="#about">Get Started</a>
-            </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -79,439 +97,491 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
+    <section id="hero" class="d-flex justify-content-center align-items-center">
       <div
-        class="container d-flex flex-column align-items-center justify-content-center blur"
-        data-aos="fade-up"
+        id="heroCarousel"
+        data-bs-interval="5000"
+        class="container carousel carousel-fade"
+        data-bs-ride="carousel"
       >
-        <h1>Embark on an Electrifying Journey with VoltRide Scooters</h1>
-        <h2>
-          We are a team of scooter enthusiasts providing thrilling rides at
-          VoltRide
-        </h2>
-        <a href="#about" class="btn-get-started scrollto"
-          >Start Your Scooter Adventure</a
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">
+              Welcome to <span>WebAlchemy</span>
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              Unlock the secrets of online success with the masters of digital
+              wizardry. Join us on a journey through the art and science of
+              e-marketing, where you'll discover the alchemy behind web
+              promotion and the path to virtual mastery.
+            </p>
+            <a
+              href="#about"
+              class="btn-get-started animate__animated animate__fadeInUp scrollto"
+              >Read More</a
+            >
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">
+              Mastering Digital Marketing
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              Dive into the world of digital strategies and unveil the power of
+              online branding. Discover the secrets to e-marketing success as
+              you embark on a transformative journey with WebAlchemy.
+            </p>
+            <a
+              href="#about"
+              class="btn-get-started animate__animated animate__fadeInUp scrollto"
+              >Read More</a
+            >
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">
+              Unleash Your Online Potential
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              WebAlchemy is your gateway to unlocking the full potential of
+              online marketing. Join us and become a digital marketing
+              alchemist, creating virtual success like never before.
+            </p>
+            <a
+              href="#about"
+              class="btn-get-started animate__animated animate__fadeInUp scrollto"
+              >Read More</a
+            >
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="prev"
         >
+          <span
+            class="carousel-control-prev-icon bx bx-chevron-left"
+            aria-hidden="true"
+          ></span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bx bx-chevron-right"
+            aria-hidden="true"
+          ></span>
+        </a>
       </div>
     </section>
     <!-- End Hero -->
 
     <main id="main">
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
+      <!-- ======= Icon Boxes Section ======= -->
+      <section id="icon-boxes" class="icon-boxes">
         <div class="container">
-          <div class="row no-gutters">
+          <div class="row">
             <div
-              class="content col-xl-5 d-flex align-items-stretch"
-              data-aos="fade-right"
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              data-aos="fade-up"
             >
-              <div class="content">
-                <h3>Unlock Urban Adventures with VoltRide Scooters</h3>
-                <p>
-                  Embrace the thrill of urban exploration with VoltRide's
-                  expertise in providing electrifying scooter experiences that
-                  leave you wanting more.
+              <div class="icon-box">
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <h4 class="title"><a href="#contact">Lorem Ipsum</a></h4>
+                <p class="description">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
                 </p>
-                <a href="#contact" class="about-btn"
-                  >Discover More <i class="bx bx-chevron-right"></i
-                ></a>
               </div>
             </div>
+
             <div
-              class="col-xl-7 d-flex align-items-stretch"
-              data-aos="fade-left"
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="100"
             >
-              <div class="icon-boxes d-flex flex-column justify-content-center">
-                <div class="row">
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <h4>Electric Excitement</h4>
-                    <p>
-                      Experience the thrill of electric scooters as we redefine
-                      the future of urban mobility.
-                    </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <h4>Effortless Commutes</h4>
-                    <p>
-                      Effortlessly navigate your city with our convenient
-                      scooter rentals designed for urban commuters.
-                    </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                  >
-                    <h4>Safety First</h4>
-                    <p>
-                      Your safety is our priority. Ride confidently with our
-                      commitment to scooter security and rider protection.
-                    </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="400"
-                  >
-                    <h4>Convenient Payments</h4>
-                    <p>
-                      Enjoy hassle-free payments and transparent pricing as you
-                      embark on your VoltRide adventures.
-                    </p>
-                  </div>
-                </div>
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4 class="title"><a href="#contact">Sed ut perspiciatis</a></h4>
+                <p class="description">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4 class="title"><a href="#contact">Magni Dolores</a></h4>
+                <p class="description">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-layer"></i></div>
+                <h4 class="title"><a href="#contact">Nemo Enim</a></h4>
+                <p class="description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End About Section -->
+      <!-- End Icon Boxes Section -->
+
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>About Us</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div class="row content">
+            <div class="col-lg-6">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <ul>
+                <li>
+                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> Duis aute irure dolor in
+                  reprehenderit in voluptate velit
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </p>
+              <a href="#contact" class="btn-learn-more">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Us Section -->
 
       <!-- ======= Clients Section ======= -->
       <section id="clients" class="clients">
         <div class="container" data-aos="zoom-in">
-          <div class="row">
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-1.png"
-                class="img-fluid"
-                alt=""
-              />
+          <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-1.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-2.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-3.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-4.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-5.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-6.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-7.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-8.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
             </div>
-
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-2.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-3.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-4.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-5.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-6.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
       <!-- End Clients Section -->
 
-      <!-- ======= Steps Section ======= -->
-      <section id="steps" class="steps">
-        <div class="container">
-          <div class="row no-gutters" data-aos="fade-up">
+      <!-- ======= Why Us Section ======= -->
+      <section id="why-us" class="why-us">
+        <div class="container-fluid">
+          <div class="row">
             <div
-              class="col-lg-4 col-md-6 content-item"
-              data-aos="fade-up"
-              data-aos-delay="100"
+              class="col-lg-5 align-items-stretch position-relative video-box"
+              style="background-image: url('assets/img/why-us.jpg')"
+              data-aos="fade-right"
             >
-              <span>01</span>
-              <h4>Initial Scooter Consultation</h4>
-              <p>
-                Our team engages in a comprehensive discussion to understand
-                your scooter rental project's needs and objectives.
-              </p>
+              <a
+                href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+                class="glightbox play-btn mb-4"
+              ></a>
             </div>
 
             <div
-              class="col-lg-4 col-md-6 content-item"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <span>02</span>
-              <h4>Scooter Fleet Design</h4>
-              <p>
-                We design and customize scooter fleets that match the unique
-                style and branding of VoltRide.
-              </p>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 content-item"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <span>03</span>
-              <h4>Scooter Rental Operations</h4>
-              <p>
-                Our expert team ensures the smooth operation of VoltRide scooter
-                rentals, delivering top-notch experiences for riders.
-              </p>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 content-item"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <span>04</span>
-              <h4>Quality Assurance</h4>
-              <p>
-                Rigorous testing and quality checks guarantee the reliability
-                and excellence of VoltRide scooter services.
-              </p>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 content-item"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <span>05</span>
-              <h4>VoltRide Launch Day</h4>
-              <p>
-                We ensure a seamless launch, making VoltRide scooter rentals
-                accessible to the world.
-              </p>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 content-item"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <span>06</span>
-              <h4>Ongoing Support</h4>
-              <p>
-                Our team provides continuous support and updates to maintain the
-                excellence of VoltRide scooter services.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Steps Section -->
-
-      <!-- ======= Features Section ======= -->
-      <section id="features" class="features" data-aos="fade-up">
-        <div class="container">
-          <div class="section-title">
-            <h2>Unique Advantages</h2>
-            <p>
-              Explore the remarkable features of VoltRide's electric scooter
-              rentals that make us stand out. Discover how we can elevate your
-              urban commuting experience.
-            </p>
-          </div>
-
-          <div class="row content">
-            <div class="col-md-5" data-aos="fade-right" data-aos-delay="100">
-              <img src="assets/img/features-1.jpg" class="img-fluid" alt="" />
-            </div>
-            <div
-              class="col-md-7 pt-4"
+              class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch"
               data-aos="fade-left"
-              data-aos-delay="100"
             >
-              <h3>Enhancing Your City Adventures with Innovative Solutions</h3>
-              <p class="fst-italic">
-                Harness the power of VoltRide's innovative solutions to enhance
-                your urban commuting experience.
-              </p>
-              <ul>
-                <li>
-                  <i class="bi bi-check"></i> Customized scooter rental options.
-                </li>
-                <li>
-                  <i class="bi bi-check"></i> Stylish and efficient scooters.
-                </li>
-                <li><i class="bi bi-check"></i> Seamless rider experiences.</li>
-              </ul>
-            </div>
-          </div>
+              <div class="content">
+                <h3>
+                  Eum ipsam laborum deleniti
+                  <strong>velit pariatur architecto aut nihil</strong>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Duis aute irure dolor in reprehenderit
+                </p>
+              </div>
 
-          <div class="row content">
-            <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
-              <img src="assets/img/features-2.jpg" class="img-fluid" alt="" />
-            </div>
-            <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
-              <h3>Redefining Urban Mobility</h3>
-              <p class="fst-italic">
-                Experience a new era of urban mobility with VoltRide's expertise
-                and cutting-edge solutions.
-              </p>
-              <p>
-                Our solutions enable you to navigate the city effortlessly,
-                providing a superior commuting experience and transforming your
-                urban lifestyle.
-              </p>
-            </div>
-          </div>
+              <div class="accordion-list">
+                <ul>
+                  <li data-aos="fade-up" data-aos-delay="100">
+                    <a
+                      data-bs-toggle="collapse"
+                      class="collapse"
+                      data-bs-target="#accordion-list-1"
+                      ><span>01</span> Non consectetur a erat nam at lectus urna
+                      duis? <i class="bx bx-chevron-down icon-show"></i
+                      ><i class="bx bx-chevron-up icon-close"></i
+                    ></a>
+                    <div
+                      id="accordion-list-1"
+                      class="collapse show"
+                      data-bs-parent=".accordion-list"
+                    >
+                      <p>
+                        Feugiat pretium nibh ipsum consequat. Tempus iaculis
+                        urna id volutpat lacus laoreet non curabitur gravida.
+                        Venenatis lectus magna fringilla urna porttitor rhoncus
+                        dolor purus non.
+                      </p>
+                    </div>
+                  </li>
 
-          <div class="row content">
-            <div class="col-md-5" data-aos="fade-right">
-              <img src="assets/img/features-3.jpg" class="img-fluid" alt="" />
-            </div>
-            <div class="col-md-7 pt-5" data-aos="fade-left">
-              <h3>Unleash Your Urban Exploration with VoltRide</h3>
-              <p>
-                Explore the limitless possibilities of urban commuting with
-                VoltRide's imaginative solutions that make your city adventures
-                come to life.
-              </p>
-              <ul>
-                <li>
-                  <i class="bi bi-check"></i> Tailored scooter rental services.
-                </li>
-                <li>
-                  <i class="bi bi-check"></i> Stylish and captivating scooters.
-                </li>
-                <li>
-                  <i class="bi bi-check"></i> Personalized rider experiences.
-                </li>
-              </ul>
-            </div>
-          </div>
+                  <li data-aos="fade-up" data-aos-delay="200">
+                    <a
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-list-2"
+                      class="collapsed"
+                      ><span>02</span> Feugiat scelerisque varius morbi enim
+                      nunc? <i class="bx bx-chevron-down icon-show"></i
+                      ><i class="bx bx-chevron-up icon-close"></i
+                    ></a>
+                    <div
+                      id="accordion-list-2"
+                      class="collapse"
+                      data-bs-parent=".accordion-list"
+                    >
+                      <p>
+                        Dolor sit amet consectetur adipiscing elit pellentesque
+                        habitant morbi. Id interdum velit laoreet id donec
+                        ultrices. Fringilla phasellus faucibus scelerisque
+                        eleifend donec pretium. Est pellentesque elit
+                        ullamcorper dignissim. Mauris ultrices eros in cursus
+                        turpis massa tincidunt dui.
+                      </p>
+                    </div>
+                  </li>
 
-          <div class="row content">
-            <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
-              <img src="assets/img/features-4.jpg" class="img-fluid" alt="" />
-            </div>
-            <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
-              <h3>Elevate Your Urban Commuting Experience with VoltRide</h3>
-              <p class="fst-italic">
-                VoltRide offers comprehensive solutions to elevate your urban
-                commuting experience, ensuring a prominent and convenient way to
-                navigate the city.
-              </p>
-              <p>
-                Our services prioritize safety, enabling you to ride confidently
-                and focus on enjoying your urban adventures.
-              </p>
+                  <li data-aos="fade-up" data-aos-delay="300">
+                    <a
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-list-3"
+                      class="collapsed"
+                      ><span>03</span> Dolor sit amet consectetur adipiscing
+                      elit? <i class="bx bx-chevron-down icon-show"></i
+                      ><i class="bx bx-chevron-up icon-close"></i
+                    ></a>
+                    <div
+                      id="accordion-list-3"
+                      class="collapse"
+                      data-bs-parent=".accordion-list"
+                    >
+                      <p>
+                        Eleifend mi in nulla posuere sollicitudin aliquam
+                        ultrices sagittis orci. Faucibus pulvinar elementum
+                        integer enim. Sem nulla pharetra diam sit amet nisl
+                        suscipit. Rutrum tellus pellentesque eu tincidunt.
+                        Lectus urna duis convallis convallis tellus. Urna
+                        molestie at elementum eu facilisis sed odio morbi quis
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Features Section -->
+      <!-- End Why Us Section -->
 
       <!-- ======= Services Section ======= -->
       <section id="services" class="services">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Our VoltRide Services</h2>
+            <h2>Services</h2>
             <p>
-              Explore the range of services we offer for your VoltRide electric
-              scooter rental business. We turn your urban mobility dreams into
-              reality with expertise and innovation.
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
           </div>
 
           <div class="row">
             <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              class="col-md-6 d-flex align-items-stretch"
               data-aos="fade-up"
               data-aos-delay="100"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Unique Scooter Fleet</a>
-                </h4>
-                <p class="description">
-                  We curate distinctive and stylish electric scooter fleets
-                  tailored to your VoltRide brand, setting you apart in the
-                  urban mobility industry.
+                <i class="bi bi-card-checklist"></i>
+                <h4><a href="#contact">Lorem Ipsum</a></h4>
+                <p>
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
                 </p>
               </div>
             </div>
-
             <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
               data-aos="fade-up"
               data-aos-delay="200"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Scooter Rental App Development</a>
-                </h4>
-                <p class="description">
-                  Our expert developers bring functionality and innovation to
-                  your scooter rental app, ensuring a seamless and enjoyable
-                  user experience for urban commuters.
+                <i class="bi bi-bar-chart"></i>
+                <h4><a href="#contact">Dolor Sitema</a></h4>
+                <p>
+                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat tarad limino ata
                 </p>
               </div>
             </div>
-
             <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
               data-aos="fade-up"
               data-aos-delay="300"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Urban Mobility E-commerce Solutions</a>
-                </h4>
-                <p class="description">
-                  Elevate your urban mobility business with our e-commerce
-                  expertise, providing secure and efficient booking experiences
-                  for city commuters.
+                <i class="bi bi-binoculars"></i>
+                <h4><a href="#contact">Sed ut perspiciatis</a></h4>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur
                 </p>
               </div>
             </div>
-
             <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
               data-aos="fade-up"
               data-aos-delay="400"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-layer"></i></div>
-                <h4 class="title">
-                  <a href="#contact">VoltRide SEO Excellence</a>
-                </h4>
-                <p class="description">
-                  Enhance your online visibility and ranking with our SEO
-                  excellence, driving a surge of organic traffic to your
-                  VoltRide urban mobility business.
+                <i class="bi bi-brightness-high"></i>
+                <h4><a href="#contact">Nemo Enim</a></h4>
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="icon-box">
+                <i class="bi bi-calendar4-week"></i>
+                <h4><a href="#contact">Magni Dolore</a></h4>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="icon-box">
+                <i class="bi bi-briefcase"></i>
+                <h4><a href="#contact">Eiusmod Tempor</a></h4>
+                <p>
+                  Et harum quidem rerum facilis est et expedita distinctio. Nam
+                  libero tempore, cum soluta nobis est eligendi
                 </p>
               </div>
             </div>
@@ -520,282 +590,209 @@
       </section>
       <!-- End Services Section -->
 
-      <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio">
+      <!-- ======= Cta Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container">
+          <div class="row" data-aos="zoom-in">
+            <div class="col-lg-9 text-center text-lg-start">
+              <h3>Call To Action</h3>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="col-lg-3 cta-btn-container text-center">
+              <a class="cta-btn align-middle" href="#contact">Call To Action</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Cta Section -->
+
+      <!-- ======= Portfoio Section ======= -->
+      <section id="portfolio" class="portfoio">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>VoltRide's Electrifying Scooter Fleet</h2>
+            <h2>Portfoio</h2>
             <p>
-              Immerse yourself in our remarkable selection of electric scooters.
-              We take pride in showcasing our range, demonstrating our expertise
-              in providing extraordinary urban mobility solutions.
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
           </div>
 
           <div class="row portfolio-container">
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+              <img
+                src="assets/img/portfolio/portfolio-1.jpg"
+                class="img-fluid"
+                alt=""
+              />
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+              <img
+                src="assets/img/portfolio/portfolio-2.jpg"
+                class="img-fluid"
+                alt=""
+              />
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+              <img
+                src="assets/img/portfolio/portfolio-3.jpg"
+                class="img-fluid"
+                alt=""
+              />
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-4.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+              <img
+                src="assets/img/portfolio/portfolio-4.jpg"
+                class="img-fluid"
+                alt=""
+              />
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-5.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+              <img
+                src="assets/img/portfolio/portfolio-5.jpg"
+                class="img-fluid"
+                alt=""
+              />
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-6.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+              <img
+                src="assets/img/portfolio/portfolio-6.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img
+                src="assets/img/portfolio/portfolio-7.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img
+                src="assets/img/portfolio/portfolio-8.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img
+                src="assets/img/portfolio/portfolio-9.jpg"
+                class="img-fluid"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </section>
-      <!-- End Portfolio Section -->
-
-      <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>VoltRide Success Stories</h2>
-            <p>
-              Discover what our satisfied riders have to say about their journey
-              with VoltRide's Electric Scooter Rentals.
-            </p>
-          </div>
-
-          <div
-            class="testimonials-slider swiper"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    VoltRide revolutionized our urban commute, providing
-                    top-notch electric scooters that exceeded our expectations.
-                    Their commitment to sustainability and convenience is truly
-                    impressive.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/testimonials/testimonials-4.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Alex Turner</h3>
-                  <h4>City Explorer</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Renting electric scooters from VoltRide made navigating the
-                    city a breeze. Their dedication to sustainable urban
-                    mobility elevated our experience, resulting in efficient and
-                    enjoyable rides.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/testimonials/testimonials-2.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Emma Davis</h3>
-                  <h4>Urban Commuter</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    VoltRide's electric scooter rental service is exceptional.
-                    Their focus on user experience and sustainability resulted
-                    in a seamless ride that resonates with our urban lifestyle.
-                    Outstanding service!
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/testimonials/testimonials-3.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Liam Walker</h3>
-                  <h4>City Dweller</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- End Testimonials Section -->
+      <!-- End Portfoio Section -->
 
       <!-- ======= Team Section ======= -->
-      <section id="team" class="team">
+      <section id="team" class="team section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Meet the VoltRide Team</h2>
+            <h2>Team</h2>
             <p>
-              Get to know the talented individuals driving the success of
-              VoltRide's Electric Scooter Rentals. Our team is dedicated to
-              providing top-notch urban mobility solutions.
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
           </div>
 
           <div class="row">
-            <div
-              class="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="member">
-                <img
-                  src="assets/img/team/team-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
                 <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Emily Turner</h4>
-                    <span>Electric Mobility Expert</span>
-                  </div>
-                  <div class="social">
-                    <a href="#contact"><i class="bi bi-twitter"></i></a>
-                    <a href="#contact"><i class="bi bi-facebook"></i></a>
-                    <a href="#contact"><i class="bi bi-instagram"></i></a>
-                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
-                  </div>
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <p>
+                    Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                  </p>
                 </div>
               </div>
             </div>
 
             <div
-              class="col-xl-3 col-lg-4 col-md-6"
+              class="col-lg-6 mt-4 mt-lg-0"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <div class="member">
-                <img
-                  src="assets/img/team/team-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
                 <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Lucas Reynolds</h4>
-                    <span>Urban Mobility Specialist</span>
-                  </div>
-                  <div class="social">
-                    <a href="#contact"><i class="bi bi-twitter"></i></a>
-                    <a href="#contact"><i class="bi bi-facebook"></i></a>
-                    <a href="#contact"><i class="bi bi-instagram"></i></a>
-                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
-                  </div>
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <p>
+                    Aut maiores voluptates amet et quis praesentium qui senda
+                    para
+                  </p>
                 </div>
               </div>
             </div>
 
-            <div
-              class="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="member">
-                <img
-                  src="assets/img/team/team-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+            <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
                 <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>David Foster</h4>
-                    <span>Customer Experience Manager</span>
-                  </div>
-                  <div class="social">
-                    <a href="#contact"><i class="bi bi-twitter"></i></a>
-                    <a href="#contact"><i class="bi bi-facebook"></i></a>
-                    <a href="#contact"><i class="bi bi-instagram"></i></a>
-                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
-                  </div>
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <p>
+                    Quisquam facilis cum velit laborum corrupti fuga rerum quia
+                  </p>
                 </div>
               </div>
             </div>
 
-            <div
-              class="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="member">
-                <img
-                  src="assets/img/team/team-4.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+            <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="400">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
                 <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Sophia Harris</h4>
-                    <span>Financial Analyst</span>
-                  </div>
-                  <div class="social">
-                    <a href="#contact"><i class="bi bi-twitter"></i></a>
-                    <a href="#contact"><i class="bi bi-facebook"></i></a>
-                    <a href="#contact"><i class="bi bi-instagram"></i></a>
-                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
-                  </div>
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <p>
+                    Dolorum tempora officiis odit laborum officiis et et
+                    accusamus
+                  </p>
                 </div>
               </div>
             </div>
@@ -805,76 +802,100 @@
       <!-- End Team Section -->
 
       <!-- ======= Pricing Section ======= -->
-      <section id="pricing" class="pricing section-bg">
+      <section id="pricing" class="pricing">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Pricing</h2>
             <p>
-              Explore our flexible pricing plans for VoltRide's electric scooter
-              rentals. Choose the plan that best fits your needs and budget.
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
           </div>
 
           <div class="row">
             <div
-              class="col-lg-4 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <div class="box">
-                <h3>Basic</h3>
-                <h4><sup>$</sup>19<span> / ride</span></h4>
-                <ul>
-                  <li>Standard scooter rental</li>
-                  <li>Limited ride distance</li>
-                  <li>No accessories</li>
-                  <li class="na">Exclusive routes</li>
-                  <li class="na">Standard customer support</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Rent Now</a>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 mt-4 mt-md-0"
-              data-aos="zoom-in"
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
               data-aos-delay="100"
             >
-              <div class="box featured">
-                <h3>Premium</h3>
-                <h4><sup>$</sup>39<span> / ride</span></h4>
+              <div class="box">
+                <h3>Free</h3>
+                <h4><sup>$</sup>0<span> / month</span></h4>
                 <ul>
-                  <li>High-performance scooter</li>
-                  <li>Extended ride distance</li>
-                  <li>Optional accessories</li>
-                  <li>Exclusive routes</li>
-                  <li class="na">Priority customer support</li>
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li class="na">Pharetra massa</li>
+                  <li class="na">Massa ultricies mi</li>
                 </ul>
                 <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Rent Now</a>
+                  <a href="#contact" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
 
             <div
-              class="col-lg-4 col-md-6 mt-4 mt-lg-0"
-              data-aos="zoom-in"
+              class="col-lg-3 col-md-6 mt-4 mt-md-0"
+              data-aos="fade-up"
               data-aos-delay="200"
             >
-              <div class="box">
-                <h3>Elite</h3>
-                <h4><sup>$</sup>59<span> / ride</span></h4>
+              <div class="box featured">
+                <h3>Business</h3>
+                <h4><sup>$</sup>19<span> / month</span></h4>
                 <ul>
-                  <li>Luxury scooter experience</li>
-                  <li>Premium ride locations</li>
-                  <li>Customized accessories</li>
-                  <li>Scenic rides</li>
-                  <li>24/7 concierge support</li>
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li class="na">Massa ultricies mi</li>
                 </ul>
                 <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Rent Now</a>
+                  <a href="#contact" class="btn-buy">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 mt-4 mt-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="box">
+                <h3>Developer</h3>
+                <h4><sup>$</sup>29<span> / month</span></h4>
+                <ul>
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li>Massa ultricies mi</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#contact" class="btn-buy">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 mt-4 mt-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="box">
+                <span class="advanced">Advanced</span>
+                <h3>Ultimate</h3>
+                <h4><sup>$</sup>49<span> / month</span></h4>
+                <ul>
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li>Massa ultricies mi</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#contact" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -884,185 +905,251 @@
       <!-- End Pricing Section -->
 
       <!-- ======= Frequently Asked Questions Section ======= -->
-      <section id="faq" class="faq">
+      <section id="faq" class="faq section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Frequently Asked Questions</h2>
           </div>
 
-          <ul class="faq-list">
-            <li>
-              <div
-                data-bs-toggle="collapse"
-                class="collapsed question"
-                href="#faq1"
-              >
-                How can VoltRide enhance my scooter rental experience?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  VoltRide specializes in providing an exceptional scooter
-                  rental service. Our electric scooters are designed for comfort
-                  and convenience, making your rides enjoyable and efficient.
-                </p>
-              </div>
-            </li>
+          <div class="faq-list">
+            <ul>
+              <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  class="collapse"
+                  data-bs-target="#faq-list-1"
+                  >Non consectetur a erat nam at lectus urna duis?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-1"
+                  class="collapse show"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                    volutpat lacus laoreet non curabitur gravida. Venenatis
+                    lectus magna fringilla urna porttitor rhoncus dolor purus
+                    non.
+                  </p>
+                </div>
+              </li>
 
-            <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq2"
-                class="collapsed question"
-              >
-                What sets VoltRide's scooter rentals apart from others?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  At VoltRide, we stand out with our high-quality scooters,
-                  user-friendly app, and commitment to rider satisfaction. Our
-                  goal is to make your scooter rental experience exceptional and
-                  memorable.
-                </p>
-              </div>
-            </li>
+              <li data-aos="fade-up" data-aos-delay="200">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-2"
+                  class="collapsed"
+                  >Feugiat scelerisque varius morbi enim nunc?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-2"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque
+                    habitant morbi. Id interdum velit laoreet id donec ultrices.
+                    Fringilla phasellus faucibus scelerisque eleifend donec
+                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                    ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
 
-            <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq3"
-                class="collapsed question"
-              >
-                How long does it take to complete a VoltRide scooter rental?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  The duration of your VoltRide scooter rental depends on your
-                  chosen route. Our scooters are designed for efficiency,
-                  ensuring that you can explore your destination conveniently.
-                  Specific ride durations can be found in our app.
-                </p>
-              </div>
-            </li>
+              <li data-aos="fade-up" data-aos-delay="300">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-3"
+                  class="collapsed"
+                  >Dolor sit amet consectetur adipiscing elit?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-3"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                    sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                    nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                    pellentesque eu tincidunt. Lectus urna duis convallis
+                    convallis tellus. Urna molestie at elementum eu facilisis
+                    sed odio morbi quis
+                  </p>
+                </div>
+              </li>
 
-            <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq4"
-                class="collapsed question"
-              >
-                What kind of support does VoltRide provide for scooter rentals?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  VoltRide offers comprehensive support to ensure your scooter
-                  rental goes smoothly. We provide maintenance, troubleshooting,
-                  and assistance with any rental-related issues. Your
-                  satisfaction is our priority.
-                </p>
-              </div>
-            </li>
+              <li data-aos="fade-up" data-aos-delay="400">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-4"
+                  class="collapsed"
+                  >Tempus quam pellentesque nec nam aliquam sem et tortor
+                  consequat? <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-4"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Molestie a iaculis at erat pellentesque adipiscing commodo.
+                    Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                    viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                    bibendum est. Purus gravida quis blandit turpis cursus in.
+                  </p>
+                </div>
+              </li>
 
-            <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq5"
-                class="collapsed question"
-              >
-                Can VoltRide showcase and rent scooters online?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Absolutely! VoltRide excels at presenting and renting scooters
-                  online. We have a secure platform where you can browse our
-                  scooter options, check availability, and book your ride online
-                  for a seamless experience.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq6"
-                class="collapsed question"
-              >
-                Is the security of my VoltRide scooter rental guaranteed?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Security is a top priority at VoltRide. We implement robust
-                  measures to protect your information and ensure a safe riding
-                  experience. Rest assured, your scooter rental is in good hands
-                  with us.
-                </p>
-              </div>
-            </li>
-          </ul>
+              <li data-aos="fade-up" data-aos-delay="500">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-5"
+                  class="collapsed"
+                  >Tortor vitae purus faucibus ornare. Varius vel pharetra vel
+                  turpis nunc eget lorem dolor?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-5"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Laoreet sit amet cursus sit amet dictum sit amet justo.
+                    Mauris vitae ultricies leo integer malesuada nunc vel.
+                    Tincidunt eget nullam non nisi est sit amet. Turpis nunc
+                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate
+                    eu scelerisque.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <!-- End Frequently Asked Questions Section -->
 
       <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact section-bg">
+      <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Discover VoltRide Electric Scooter Rentals</h2>
-            <p>
-              Dive into the world of VoltRide, where we electrify your urban
-              commute. Experience the convenience of electric scooters. Let us
-              steer you through this electrifying journey.
-            </p>
+            <h2>Contact Us</h2>
           </div>
 
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="info-box">
-                    <i class="bx bx-map"></i>
-                    <h3>Our Address</h3>
-                    <p>12 MELENY RD LOCUST VALLEY NY 11560-1221 USA</p>
-                  </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.273340112446!2d-73.9919901!3d40.689977299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a4f079ae38b%3A0x94814819846048fa!2zMTI1IENvdXJ0IFN0LCBCcm9va2x5biwgTlkgMTEyMDEsINCh0KjQkA!5e0!3m2!1sru!2sby!4v1695971304270!5m2!1sru!2sby"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <div
+            class="row mt-1 d-flex justify-content-end"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
+            <div class="col-lg-5">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>A108 Adam Street, New York, NY 535022</p>
                 </div>
-                <div class="col-md-6">
-                  <div class="info-box mt-4">
-                    <i class="bx bx-envelope"></i>
-                    <h3>Email Us</h3>
-                    <p>info@VoltRide.com<br />contact@VoltRide.com</p>
-                  </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@WebAlchemy.com</p>
                 </div>
-                <div class="col-md-6">
-                  <div class="info-box mt-4">
-                    <i class="bx bx-phone-call"></i>
-                    <h3>Call Us</h3>
-                    <p>+1 5589 55488 55<br />+1 6678 254445 41</p>
-                  </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-6 mt-4 mt-md-0">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.5420040158515!2d-73.5824442!3d40.903860400000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c29b37e1bec255%3A0x2f63f533b460e141!2zMTIgTWVsZW55IFJkLCBMb2N1c3QgVmFsbGV5LCBOWSAxMTU2MCwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1695746713438!5m2!1sru!2sby"
-                width="100%"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
+            <div
+              class="col-lg-6 mt-5 mt-lg-0"
+              data-aos="fade-left"
+              data-aos-delay="100"
+            >
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="form-group mt-3">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -1073,19 +1160,33 @@
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h4>Stay Updated with WebAlchemy</h4>
+              <p>
+                Get exclusive insights and the latest trends in the world of
+                digital marketing. Join the ranks of our digital explorers and
+                embark on a journey of discovery led by our e-marketing gurus.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="footer-top">
         <div class="container">
           <div class="row">
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>VoltRide</h3>
-              <p>
-                12 MELENY RD LOCUST VALLEY NY 11560-1221 USA<br />
-                <strong>Phone:</strong> +1 5589 55488 55<br />
-                <strong>Email:</strong> info@VoltRide.com<br />
-              </p>
-            </div>
-
-            <div class="col-lg-2 col-md-6 footer-links">
+            <div class="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li>
@@ -1106,31 +1207,42 @@
                 </li>
               </ul>
             </div>
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                125 COURT ST BROOKLYN NY 11201-0171 USA<br />
+                <strong>Phone:</strong> +1 5589 55488 55<br />
+                <strong>Email:</strong> info@WebAlchemy.com<br />
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-info">
+              <h3>About WebAlchemy</h3>
+              <p>
+                Unlock the secrets of digital success with WebAlchemy, where the
+                art of online marketing transforms into a science. Dive into the
+                world of virtual strategists, discover the alchemists of web
+                promotion, and witness the evolution of e-marketing wizards.
+              </p>
+              <div class="social-links mt-3">
+                <a href="#contact" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#contact" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#contact" class="instagram"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <a href="#contact" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#contact" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="container d-md-flex py-4">
-        <div class="me-md-auto text-center text-md-start">
-          <div class="copyright">
-            &copy; Copyright <strong><span>VoltRide</span></strong
-            >. All Rights Reserved
-          </div>
-        </div>
-        <div class="social-links text-center text-md-right pt-3 pt-md-0">
-          <a href="#contact" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#contact" class="facebook"
-            ><i class="bx bxl-facebook"></i
-          ></a>
-          <a href="#contact" class="instagram"
-            ><i class="bx bxl-instagram"></i
-          ></a>
-          <a href="#contact" class="google-plus"
-            ><i class="bx bxl-skype"></i
-          ></a>
-          <a href="#contact" class="linkedin"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>WebAlchemy</span></strong
+          >. All Rights Reserved
         </div>
       </div>
     </footer>
