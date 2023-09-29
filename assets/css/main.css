@@ -111,7 +111,7 @@ iframe {
 
 .blur {
   padding: 10px;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(20px);
 }
 
 .img-fluid {
@@ -127,5 +127,5 @@ iframe {
 .contact .info,
 .contact .php-email-form {
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 0px;
 }
