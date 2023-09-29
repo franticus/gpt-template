@@ -1,9 +1,11 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: #f2ffe8;
+  background-color: #fdffdd;
   opacity: 1;
-  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #f2ffe8 10px), repeating-linear-gradient(#cfffc255, #cfffc2);
+  background-image: radial-gradient(#bcac00 0.5px, transparent 0.5px), radial-gradient(#bcac00 0.5px, #fdffdd 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
 }
 
 a {
@@ -132,7 +134,7 @@ h6 {
 }
 
 #topbar .contact-info i {
-  color: #f6b024;
+  color: #5c4c2d;
   line-height: 0;
   margin-right: 5px;
 }
@@ -147,7 +149,7 @@ h6 {
 
 #topbar .cta a {
   color: #fff;
-  background: #f6b024;
+  background: #5c4c2d;
   padding: 6px 24px 8px 24px;
   display: inline-block;
   transition: 0.3s;
@@ -170,7 +172,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgb(6 183 41 / 90%);
+  background: rgba(75, 55, 7, 0.7);
   top: 0;
 }
 
@@ -193,7 +195,7 @@ h6 {
 }
 
 .header-inner-pages {
-  background: rgb(6 183 41 / 90%);
+  background: rgb(6 183 41 / 30%);
   !important;
 }
 
@@ -256,7 +258,7 @@ h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #f6b024;
+  background-color: #5c4c2d;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -356,7 +358,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #f6b024;
+  color: #5c4c2d;
 }
 
 @media (max-width: 991px) {
@@ -376,7 +378,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgb(6 183 41 / 90%);
+  background: rgb(6 183 41 / 30%);
   transition: 0.3s;
   z-index: 999;
 }
@@ -421,7 +423,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #f6b024;
+  color: #5c4c2d;
 }
 
 .navbar-mobile .getstarted,
@@ -456,7 +458,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #f6b024;
+  color: #5c4c2d;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -468,20 +470,20 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 95vh;
   overflow: hidden;
   position: relative;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
-  margin-bottom: -90px;
+  margin-bottom: 40px;
   z-index: 99;
   transition: 0.3s;
 }
 
 #hero:before {
   content: "";
-  background: rgb(6 183 41 / 90%);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -542,11 +544,11 @@ h6 {
   margin: 10px;
   color: #fff;
   animation-delay: 0.8s;
-  border: 2px solid #f6b024;
+  border: 2px solid #5c4c2d;
 }
 
 #hero .btn-get-started:hover {
-  background: #f6b024;
+  background: #5c4c2d;
   color: #fff;
   text-decoration: none;
 }
@@ -583,7 +585,7 @@ section {
 }
 
 .section-bg {
-  background-color: #72ffb2;
+  background-color: #b7b7b7;
 }
 
 .section-title {
@@ -633,7 +635,7 @@ section {
 .icon-boxes .icon i {
   font-size: 36px;
   line-height: 1;
-  color: #f6b024;
+  color: #5c4c2d;
 }
 
 .icon-boxes .title {
@@ -804,7 +806,7 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us {
-  background: #f1f8ff;
+  background: #ffffff99;
   padding: 0;
 }
 
@@ -1010,14 +1012,14 @@ section {
 .services .icon-box {
   margin-bottom: 20px;
   padding: 50px 40px;
-  border-radius: 6px;
+  border-radius: 60px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .services .icon-box i {
   float: left;
-  color: #f6b024;
+  color: #5c4c2d;
   font-size: 40px;
   line-height: 0;
 }
@@ -1049,9 +1051,9 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(21, 154, 36, 0.8), rgba(39, 179, 44, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(21, 21, 21, 0.8), rgba(17, 23, 17, 0.2)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
-  padding: 20vh 0;
+  padding: 30vh 0;
 }
 
 .cta h3 {
@@ -1076,12 +1078,12 @@ section {
   transition: 0.5s;
   margin: 10px;
   border-radius: 50px;
-  border: 2px solid #f6b024;
+  border: 2px solid #5c4c2d;
   color: #fff;
 }
 
 .cta .cta-btn:hover {
-  background: #f6b024;
+  background: #5c4c2d;
 }
 
 @media (max-width: 1024px) {
@@ -1762,7 +1764,7 @@ section {
 }
 
 .blog .entry .entry-title a:hover {
-  color: #f6b024;
+  color: #5c4c2d;
 }
 
 .blog .entry .entry-meta {
@@ -1807,7 +1809,7 @@ section {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #f6b024;
+  background: #5c4c2d;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1871,7 +1873,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #f6b024;
+  color: #5c4c2d;
 }
 
 .blog .entry .entry-footer .cats {
@@ -1980,7 +1982,7 @@ section {
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: #f6b024;
+  color: #5c4c2d;
 }
 
 .blog .blog-comments .comment h5 .reply {
@@ -2081,7 +2083,7 @@ section {
 
 .blog .blog-pagination li.active,
 .blog .blog-pagination li:hover {
-  background: #f6b024;
+  background: #5c4c2d;
 }
 
 .blog .blog-pagination li.active a,
@@ -2132,7 +2134,7 @@ section {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: #f6b024;
+  background: #5c4c2d;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -2162,7 +2164,7 @@ section {
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #f6b024;
+  color: #5c4c2d;
 }
 
 .blog .sidebar .categories ul a span {
@@ -2192,7 +2194,7 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #f6b024;
+  color: #5c4c2d;
 }
 
 .blog .sidebar .recent-posts time {
@@ -2228,8 +2230,8 @@ section {
 
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  border: 1px solid #f6b024;
-  background: #f6b024;
+  border: 1px solid #5c4c2d;
+  background: #5c4c2d;
 }
 
 .blog .sidebar .tags ul a span {
@@ -2242,7 +2244,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: rgba(3, 86, 20, 0.9);
+  background: rgb(86, 64, 3);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -2250,7 +2252,7 @@ section {
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: rgb(6 183 41 / 90%);
+  background: rgb(96, 97, 3);
 }
 
 #footer .footer-newsletter h4 {
@@ -2285,7 +2287,7 @@ section {
   font-size: 16px;
   padding: 0 20px;
   margin: 3px;
-  background: #f6b024;
+  background: #5c4c2d;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -2296,7 +2298,7 @@ section {
 }
 
 #footer .footer-top {
-  background: rgba(6, 148, 34, 0.9);
+  background: rgba(141, 148, 6, 0.9);
   padding: 60px 0 30px 0;
 }
 
@@ -2336,7 +2338,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f6b024;
+  background: #5c4c2d;
   color: #fff;
   text-decoration: none;
 }
@@ -2409,5 +2411,5 @@ section {
 }
 
 #footer .credits a {
-  color: #f6b024;
+  color: #5c4c2d;
 }

@@ -106,7 +106,7 @@ iframe {
 }
 
 #header {
-  // top: 0;
+  top: 0;
 }
 
 .blur {
@@ -115,7 +115,7 @@ iframe {
 }
 
 .img-fluid {
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 .info,
