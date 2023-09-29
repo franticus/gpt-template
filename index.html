@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>SnapSpace</title>
+    <title>HomeHarmony</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -47,6 +47,15 @@
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -55,9 +64,9 @@
 
   <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center">
+    <header id="header" class="fixed-top header-inner-pages">
       <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo"><a href="index.html">SnapSpace</a></h1>
+        <h1 class="logo"><a href="index.html">HomeHarmony</a></h1>
 
         <nav id="navbar" class="navbar">
           <ul>
@@ -68,7 +77,6 @@
               <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
             </li>
             <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -79,68 +87,84 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex justify-content-center align-items-center">
+    <section id="hero">
       <div
         id="heroCarousel"
         data-bs-interval="5000"
-        class="container carousel carousel-fade"
+        class="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
-        <!-- Slide 1 -->
-        <div class="carousel-item active">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">
-              Welcome to <span>SnapSpace</span>
-            </h2>
-            <p class="animate__animated animate__fadeInUp">
-              Immerse yourself in the world of photography excellence with our
-              expert studio creators. Join us on a journey through the art and
-              science of studio rentals, where you'll uncover the genius behind
-              creative spaces and the path to photography mastery.
-            </p>
-            <a
-              href="#about"
-              class="btn-get-started animate__animated animate__fadeInUp scrollto"
-              >Learn More</a
-            >
-          </div>
-        </div>
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">
-              Mastering Studio Rentals
-            </h2>
-            <p class="animate__animated animate__fadeInUp">
-              Dive into the world of studio strategies and unveil the power of
-              creative space branding. Discover the secrets to studio rental
-              success as you embark on a transformative journey with SnapSpace.
-            </p>
-            <a
-              href="#about"
-              class="btn-get-started animate__animated animate__fadeInUp scrollto"
-              >Learn More</a
-            >
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide 1 -->
+          <div
+            class="carousel-item active"
+            style="background-image: url(assets/img/slide/slide-1.jpg)"
+          >
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animated fadeInDown">
+                  Welcome to <span>HomeHarmony</span>
+                </h2>
+                <p class="animated fadeInUp">
+                  Discover the art of interior design that blends functionality
+                  and beauty. Let our team of experts create your dream living
+                  spaces, where harmony meets style.
+                </p>
+                <a
+                  href="#about"
+                  class="btn-get-started animated fadeInUp scrollto"
+                  >Read More</a
+                >
+              </div>
+            </div>
           </div>
-        </div>
 
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">
-              Unleash Your Creative Potential
-            </h2>
-            <p class="animate__animated animate__fadeInUp">
-              SnapSpace is your gateway to unlocking the full potential of
-              creative space development. Join us and become a studio rental
-              genius, creating innovative spaces like never before.
-            </p>
-            <a
-              href="#about"
-              class="btn-get-started animate__animated animate__fadeInUp scrollto"
-              >Learn More</a
-            >
+          <!-- Slide 2 -->
+          <div
+            class="carousel-item"
+            style="background-image: url(assets/img/slide/slide-2.jpg)"
+          >
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animated fadeInDown">Elevate Your Spaces</h2>
+                <p class="animated fadeInUp">
+                  Let us transform your home into a masterpiece of design and
+                  comfort. Explore the world of interior possibilities with
+                  HomeHarmony.
+                </p>
+                <a
+                  href="#about"
+                  class="btn-get-started animated fadeInUp scrollto"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div
+            class="carousel-item"
+            style="background-image: url(assets/img/slide/slide-3.jpg)"
+          >
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animated fadeInDown">
+                  Where Beauty Meets Functionality
+                </h2>
+                <p class="animated fadeInUp">
+                  Immerse yourself in a world of design where every detail
+                  matters. HomeHarmony brings together form and function to
+                  create living spaces that inspire.
+                </p>
+                <a
+                  href="#about"
+                  class="btn-get-started animated fadeInUp scrollto"
+                  >Read More</a
+                >
+              </div>
+            </div>
           </div>
         </div>
 
@@ -151,11 +175,10 @@
           data-bs-slide="prev"
         >
           <span
-            class="carousel-control-prev-icon bx bx-chevron-left"
+            class="carousel-control-prev-icon bi bi-chevron-left"
             aria-hidden="true"
           ></span>
         </a>
-
         <a
           class="carousel-control-next"
           href="#heroCarousel"
@@ -163,7 +186,7 @@
           data-bs-slide="next"
         >
           <span
-            class="carousel-control-next-icon bx bx-chevron-right"
+            class="carousel-control-next-icon bi bi-chevron-right"
             aria-hidden="true"
           ></span>
         </a>
@@ -172,329 +195,258 @@
     <!-- End Hero -->
 
     <main id="main">
-      <!-- ======= About Us Section ======= -->
+      <!-- ======= About Section ======= -->
       <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>About SnapSpace</h2>
-            <p>
-              Embark on an exciting journey into the world of SnapSpace, where
-              we cater to the needs of photography enthusiasts. Discover the
-              secrets to creating the perfect creative space and unlock a realm
-              of photography studio innovations.
-            </p>
-          </div>
-
-          <div class="row content">
-            <div class="col-lg-6">
-              <p>
-                Join us on a photography-loving adventure and learn the art of
-                creating a professional studio. Make informed decisions about
-                studio rentals and ensure a productive and creative environment
-                for your photography projects.
-              </p>
-              <ul>
-                <li>
-                  <i class="bx bx-award"></i> Master the craft of studio rentals
-                  and services
-                </li>
-                <li>
-                  <i class="bx bx-award"></i> Dive deep into the world of
-                  photography equipment and setup
-                </li>
-                <li>
-                  <i class="bx bx-award"></i> Blaze a trail as a pioneer in the
-                  field of photography studio excellence
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-6 pt-4 pt-lg-0">
-              <p>
-                At SnapSpace, we are committed to providing you with the
-                knowledge and tools needed to enhance your photography
-                endeavors. Join us and become a SnapSpace studio genius.
-              </p>
-              <a href="#contact" class="btn-learn-more">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End About Us Section -->
-
-      <!-- ======= Icon Boxes Section ======= -->
-      <section id="icon-boxes" class="icon-boxes">
-        <div class="container">
-          <div class="row">
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-              data-aos="fade-up"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-badge-check"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Studio Rental Pros</a>
-                </h4>
-                <p class="description">
-                  Explore the world of studio rentals and unlock your creative
-                  potential with SnapSpace's rental experts.
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-chart"></i></div>
-                <h4 class="title"><a href="#contact">Studio Insights</a></h4>
-                <p class="description">
-                  Dive into the world of studio data and master the art of
-                  studio analytics with SnapSpace.
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-cog"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Studio Innovation Leaders</a>
-                </h4>
-                <p class="description">
-                  Join the ranks of studio innovation leaders and pave the way
-                  in creative space development with SnapSpace.
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-bar-chart-square"></i></div>
-                <h4 class="title"><a href="#contact">Studio Wizards</a></h4>
-                <p class="description">
-                  Become a studio wizard and enchant clients with SnapSpace's
-                  expertise in creative space solutions.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Icon Boxes Section -->
-
-      <!-- ======= Why Us Section ======= -->
-      <section id="why-us" class="why-us">
         <div class="container-fluid">
-          <div class="row">
+          <div class="row justify-content-center">
             <div
-              class="col-lg-5 align-items-stretch position-relative video-box"
-              style="background-image: url('assets/img/why-us.jpg')"
-              data-aos="fade-right"
+              class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative"
             ></div>
 
             <div
-              class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch"
-              data-aos="fade-left"
+              class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
             >
-              <div class="content">
-                <h3>
-                  Unlock the Excellence of
-                  <strong>SnapSpace Studio Rentals</strong>
-                </h3>
-                <p>
-                  Immerse yourself in the world of SnapSpace's studio rentals
-                  and become a master of creating the perfect photography
-                  environment. Delve into the art and science of studio
-                  innovation.
+              <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+              <p>
+                Esse voluptas cumque vel exercitationem. Reiciendis est hic
+                accusamus. Non ipsam et sed minima temporibus laudantium. Soluta
+                voluptate sed facere corporis dolores excepturi. Libero
+                laboriosam sint et id nulla tenetur. Suscipit aut voluptate.
+              </p>
+
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                <p class="description">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
                 </p>
               </div>
 
-              <div class="accordion-list">
-                <ul>
-                  <li data-aos="fade-up" data-aos-delay="100">
-                    <a
-                      data-bs-toggle="collapse"
-                      class="collapse"
-                      data-bs-target="#accordion-list-1"
-                      ><span>01</span> How can SnapSpace enhance my studio
-                      rental experience?
-                      <i class="bx bx-chevron-down icon-show"></i
-                      ><i class="bx bx-chevron-up icon-close"></i
-                    ></a>
-                    <div
-                      id="accordion-list-1"
-                      class="collapse show"
-                      data-bs-parent=".accordion-list"
-                    >
-                      <p>
-                        SnapSpace offers top-tier studio rentals and expert
-                        guidance to elevate your studio rental experience.
-                        Discover strategies for creating the perfect photography
-                        space.
-                      </p>
-                    </div>
-                  </li>
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-gift"></i></div>
+                <h4 class="title"><a href="">Nemo Enim</a></h4>
+                <p class="description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
 
-                  <li data-aos="fade-up" data-aos-delay="200">
-                    <a
-                      data-bs-toggle="collapse"
-                      data-bs-target="#accordion-list-2"
-                      class="collapsed"
-                      ><span>02</span> What features are available in
-                      SnapSpace's studios?
-                      <i class="bx bx-chevron-down icon-show"></i
-                      ><i class="bx bx-chevron-up icon-close"></i
-                    ></a>
-                    <div
-                      id="accordion-list-2"
-                      class="collapse"
-                      data-bs-parent=".accordion-list"
-                    >
-                      <p>
-                        SnapSpace offers a diverse range of studio features,
-                        including lighting, equipment, and creative spaces.
-                        Explore our studios for a comprehensive selection of
-                        amenities to cater to your photography needs.
-                      </p>
-                    </div>
-                  </li>
-
-                  <li data-aos="fade-up" data-aos-delay="300">
-                    <a
-                      data-bs-toggle="collapse"
-                      data-bs-target="#accordion-list-3"
-                      class="collapsed"
-                      ><span>03</span> Why choose SnapSpace for your photography
-                      studio needs? <i class="bx bx-chevron-down icon-show"></i
-                      ><i class="bx bx-chevron-up icon-close"></i
-                    ></a>
-                    <div
-                      id="accordion-list-3"
-                      class="collapse"
-                      data-bs-parent=".accordion-list"
-                    >
-                      <p>
-                        SnapSpace stands as the ideal choice for those seeking
-                        excellence in studio rentals. Our meticulously curated
-                        studios and expert guidance ensure a productive and
-                        creative environment for your photography projects.
-                      </p>
-                    </div>
-                  </li>
-                </ul>
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-atom"></i></div>
+                <h4 class="title"><a href="">Dine Pad</a></h4>
+                <p class="description">
+                  Explicabo est voluptatum asperiores consequatur magnam. Et
+                  veritatis odit. Sunt aut deserunt minus aut eligendi omnis
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Why Us Section -->
+      <!-- End About Section -->
+
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills">
+        <div class="container-fluid">
+          <div class="row justify-content-center skills-content">
+            <div class="col-xl-5 col-lg-6">
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">CSS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-5 col-lg-6">
+              <div class="progress">
+                <span class="skill">PHP <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Photoshop <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="55"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Skills Section -->
+
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts section-bg">
+        <div class="container-fluid">
+          <div class="row counters">
+            <div class="col-lg-3 col-6 text-center">
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="232"
+                data-purecounter-duration="1"
+                class="purecounter"
+              ></span>
+              <p>Clients</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="521"
+                data-purecounter-duration="1"
+                class="purecounter"
+              ></span>
+              <p>Projects</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="1463"
+                data-purecounter-duration="1"
+                class="purecounter"
+              ></span>
+              <p>Hours Of Support</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="15"
+                data-purecounter-duration="1"
+                class="purecounter"
+              ></span>
+              <p>Hard Workers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Counts Section -->
 
       <!-- ======= Services Section ======= -->
       <section id="services" class="services">
-        <div class="container" data-aos="fade-up">
+        <div class="container-fluid">
           <div class="section-title">
-            <h2>SnapSpace Studio Offerings</h2>
+            <h2>Services</h2>
+            <h3>Check our <span>Services</span></h3>
             <p>
-              Embark on a journey into the world of SnapSpace studio rentals and
-              discover the key to providing photographers with exceptional
-              spaces. Our carefully designed studios will equip you with
-              everything needed to elevate your photography experience.
+              Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+              adipisci expedita at voluptas atque vitae autem.
             </p>
           </div>
 
-          <div class="row">
-            <div
-              class="col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="icon-box">
-                <i class="bi bi-heart"></i>
-                <h4><a href="#contact">Creativity & Inspiration</a></h4>
-                <p>
-                  Foster creativity and find inspiration in our well-equipped
-                  studios designed to enhance your photography projects.
-                </p>
-              </div>
-            </div>
-            <div
-              class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="icon-box">
-                <i class="bi bi-circle"></i>
-                <h4><a href="#contact">Professional Equipment</a></h4>
-                <p>
-                  Access top-notch photography equipment, ensuring professional
-                  quality for your photoshoots.
-                </p>
-              </div>
-            </div>
-            <div
-              class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="icon-box">
-                <i class="bi bi-house-door"></i>
-                <h4><a href="#contact">Comfortable Setting</a></h4>
-                <p>
-                  Create a comfortable and functional setting for your
-                  photography sessions with our studio amenities.
-                </p>
-              </div>
-            </div>
-            <div
-              class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="icon-box">
-                <i class="bi bi-chat-dots"></i>
-                <h4><a href="#contact">Expert Photography Advice</a></h4>
-                <p>
-                  Benefit from expert advice and guidance from our team of
-                  photography professionals to enhance your skills and projects.
-                </p>
-              </div>
-            </div>
-            <div
-              class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <div class="icon-box">
-                <i class="bi bi-bag"></i>
-                <h4><a href="#contact">Tailored Photography Spaces</a></h4>
-                <p>
-                  Discover customized studio solutions to meet your specific
-                  photography needs, ensuring your projects shine.
-                </p>
-              </div>
-            </div>
-            <div
-              class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <div class="icon-box">
-                <i class="bi bi-truck"></i>
-                <h4><a href="#contact">Effortless Booking</a></h4>
-                <p>
-                  Experience the convenience of seamless studio booking, making
-                  it easier than ever to elevate your photography game.
-                </p>
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <div class="icon"><i class="ri-pie-chart-line"></i></div>
+                  <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                  <p class="description">
+                    Voluptatum deleniti atque corrupti quos dolores et quas
+                    molestias excepturi sint occaecati cupiditate non provident
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <div class="icon"><i class="ri-stack-line"></i></div>
+                  <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                  <p class="description">
+                    Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat tarad limino ata
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <div class="icon"><i class="ri-markup-line"></i></div>
+                  <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                  <p class="description">
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <div class="icon"><i class="ri-shape-line"></i></div>
+                  <h4 class="title"><a href="">Magni Dolores</a></h4>
+                  <p class="description">
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <div class="icon"><i class="ri-fingerprint-line"></i></div>
+                  <h4 class="title"><a href="">Nemo Enim</a></h4>
+                  <p class="description">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium voluptatum deleniti atque
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <div class="icon"><i class="ri-body-scan-line"></i></div>
+                  <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+                  <p class="description">
+                    Et harum quidem rerum facilis est et expedita distinctio.
+                    Nam libero tempore, cum soluta nobis est eligendi
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -505,191 +457,410 @@
       <!-- ======= Cta Section ======= -->
       <section id="cta" class="cta">
         <div class="container">
-          <div class="row" data-aos="zoom-in">
-            <div class="col-lg-9 text-center text-lg-start">
-              <h3>Unlock Infinite Creativity in Your Photography</h3>
-              <p>
-                Seize the opportunity to unleash boundless creativity in your
-                photography endeavors. Embrace top-tier studios and elevate your
-                photography journey to new heights. Transform your vision into
-                stunning visuals.
-              </p>
-            </div>
-            <div class="col-lg-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle" href="#contact"
-                >Start Capturing</a
-              >
-            </div>
+          <div class="text-center">
+            <h3>Call To Action</h3>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
+            </p>
+            <a class="cta-btn" href="#">Call To Action</a>
           </div>
         </div>
       </section>
       <!-- End Cta Section -->
 
-      <!-- ======= Portfoio Section ======= -->
-      <section id="portfolio" class="portfoio">
-        <div class="container" data-aos="fade-up">
-          <div class="container" data-aos="fade-up">
-            <div class="section-title">
-              <h2>SnapSpace Photography Studios</h2>
-              <p>
-                Immerse yourself in the world of SnapSpace Photography Studios
-                and embark on a transformative journey to capture moments like
-                never before. Our carefully designed spaces will equip you with
-                the tools required to elevate your photography in the dynamic
-                world of visual storytelling.
-              </p>
-            </div>
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio">
+        <div class="container-fluid">
+          <div class="section-title">
+            <h2>Portfolio</h2>
+            <h3>Check our <span>Portfolio</span></h3>
+            <p>
+              Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+              adipisci expedita at voluptas atque vitae autem.
+            </p>
           </div>
 
-          <div class="row portfolio-container">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img
-                src="assets/img/portfolio/portfolio-1.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+          <div class="row portfolio-container justify-content-center">
+            <div class="col-xl-10">
+              <div class="row">
+                <div
+                  class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app"
+                >
+                  <div class="portfolio-wrap">
+                    <img
+                      src="assets/img/portfolio/portfolio-1.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!-- End portfolio item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img
-                src="assets/img/portfolio/portfolio-2.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+                <div
+                  class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web"
+                >
+                  <div class="portfolio-wrap">
+                    <img
+                      src="assets/img/portfolio/portfolio-2.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!-- End portfolio item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img
-                src="assets/img/portfolio/portfolio-3.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+                <div
+                  class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app"
+                >
+                  <div class="portfolio-wrap">
+                    <img
+                      src="assets/img/portfolio/portfolio-3.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!-- End portfolio item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img
-                src="assets/img/portfolio/portfolio-4.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+                <div
+                  class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card"
+                >
+                  <div class="portfolio-wrap">
+                    <img
+                      src="assets/img/portfolio/portfolio-4.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!-- End portfolio item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img
-                src="assets/img/portfolio/portfolio-5.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+                <div
+                  class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web"
+                >
+                  <div class="portfolio-wrap">
+                    <img
+                      src="assets/img/portfolio/portfolio-5.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!-- End portfolio item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img
-                src="assets/img/portfolio/portfolio-6.jpg"
-                class="img-fluid"
-                alt=""
-              />
+                <div
+                  class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app"
+                >
+                  <div class="portfolio-wrap">
+                    <img
+                      src="assets/img/portfolio/portfolio-6.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!-- End portfolio item -->
+
+                <div
+                  class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card"
+                >
+                  <div class="portfolio-wrap">
+                    <img
+                      src="assets/img/portfolio/portfolio-7.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!-- End portfolio item -->
+
+                <div
+                  class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card"
+                >
+                  <div class="portfolio-wrap">
+                    <img
+                      src="assets/img/portfolio/portfolio-8.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!-- End portfolio item -->
+
+                <div
+                  class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web"
+                >
+                  <div class="portfolio-wrap">
+                    <img
+                      src="assets/img/portfolio/portfolio-9.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!-- End portfolio item -->
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Portfoio Section -->
+      <!-- End Portfolio Section -->
 
-      <!-- ======= Team Section ======= -->
-      <section id="team" class="team section-bg">
-        <div class="container" data-aos="fade-up">
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials section-bg">
+        <div class="container-fluid">
           <div class="section-title">
-            <h2>Meet Our Photography Pros</h2>
+            <h2>Testimonials</h2>
+            <h3>What They <span>Are Saying</span> About Us</h3>
             <p>
-              Get to know the passionate individuals who are dedicated to
-              ensuring the success of your projects at SnapSpace. Their
-              expertise and commitment will make a difference in your
-              photography journey.
+              Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+              adipisci expedita at voluptas atque vitae autem.
             </p>
           </div>
 
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="member d-flex align-items-start">
-                <div class="pic">
-                  <img
-                    src="assets/img/team/team-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="testimonial-item">
+                    <img
+                      src="assets/img/testimonials/testimonials-1.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo &amp; Founder</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Proin iaculis purus consequat sem cure digni ssim donec
+                      porttitora entum suscipit rhoncus. Accusantium quam,
+                      ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                      risus at semper.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
                 </div>
-                <div class="member-info">
-                  <h4>Alexandra Turner</h4>
-                  <span>Studio Manager</span>
-                  <p>
-                    With extensive knowledge in studio management, Alexandra
-                    will guide you in optimizing your photography space for the
-                    best results.
-                  </p>
+                <!-- End testimonial-item -->
+
+                <div class="col-lg-6">
+                  <div class="testimonial-item mt-4 mt-lg-0">
+                    <img
+                      src="assets/img/testimonials/testimonials-2.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Sara Wilsson</h3>
+                    <h4>Designer</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Export tempor illum tamen malis malis eram quae irure esse
+                      labore quem cillum quid cillum eram malis quorum velit
+                      fore eram velit sunt aliqua noster fugiat irure amet legam
+                      anim culpa.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
                 </div>
+                <!-- End testimonial-item -->
+
+                <div class="col-lg-6">
+                  <div class="testimonial-item mt-4">
+                    <img
+                      src="assets/img/testimonials/testimonials-3.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Jena Karlis</h3>
+                    <h4>Store Owner</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Enim nisi quem export duis labore cillum quae magna enim
+                      sint quorum nulla quem veniam duis minim tempor labore
+                      quem eram duis noster aute amet eram fore quis sint minim.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+                <!-- End testimonial-item -->
+
+                <div class="col-lg-6">
+                  <div class="testimonial-item mt-4">
+                    <img
+                      src="assets/img/testimonials/testimonials-4.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Matt Brandon</h3>
+                    <h4>Freelancer</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                      multos export minim fugiat minim velit minim dolor enim
+                      duis veniam ipsum anim magna sunt elit fore quem dolore
+                      labore illum veniam.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+                <!-- End testimonial-item -->
+
+                <div class="col-lg-6">
+                  <div class="testimonial-item mt-4">
+                    <img
+                      src="assets/img/testimonials/testimonials-5.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>John Larson</h3>
+                    <h4>Entrepreneur</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Quis quorum aliqua sint quem legam fore sunt eram irure
+                      aliqua veniam tempor noster veniam enim culpa labore duis
+                      sunt culpa nulla illum cillum fugiat legam esse veniam
+                      culpa fore nisi cillum quid.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+                <!-- End testimonial-item -->
+
+                <div class="col-lg-6">
+                  <div class="testimonial-item mt-4">
+                    <img
+                      src="assets/img/testimonials/testimonials-6.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Emily Harison</h3>
+                    <h4>Store Owner</h4>
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      Eius ipsam praesentium dolor quaerat inventore rerum odio.
+                      Quos laudantium adipisci eius. Accusamus qui iste
+                      cupiditate sed temporibus est aspernatur. Sequi officiis
+                      ea et quia quidem.
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div>
+                <!-- End testimonial-item -->
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
 
-            <div
-              class="col-lg-6 mt-4 mt-lg-0"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="member d-flex align-items-start">
-                <div class="pic">
-                  <img
-                    src="assets/img/team/team-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="member-info">
-                  <h4>Christopher Davis</h4>
-                  <span>Equipment Specialist</span>
-                  <p>
-                    Christopher's expertise in photography equipment will ensure
-                    you have the best tools for your creative endeavors.
-                  </p>
-                </div>
-              </div>
-            </div>
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+        <div class="container-fluid">
+          <div class="section-title">
+            <h2>Team</h2>
+            <h3>Our Hard Working <span>Team</span></h3>
+            <p>
+              Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+              adipisci expedita at voluptas atque vitae autem.
+            </p>
+          </div>
 
-            <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="300">
-              <div class="member d-flex align-items-start">
-                <div class="pic">
-                  <img
-                    src="assets/img/team/team-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                  <div class="member">
+                    <img
+                      src="assets/img/team/team-1.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <div class="member-info">
+                      <div class="member-info-content">
+                        <h4>Walter White</h4>
+                        <span>Chief Executive Officer</span>
+                      </div>
+                      <div class="social">
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="member-info">
-                  <h4>Natalie Miller</h4>
-                  <span>Lighting Specialist</span>
-                  <p>
-                    Natalie's expertise in lighting setups will help you achieve
-                    the perfect ambiance for your photography projects.
-                  </p>
-                </div>
-              </div>
-            </div>
+                <!-- End Member Item -->
 
-            <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="300">
-              <div class="member d-flex align-items-start">
-                <div class="pic">
-                  <img
-                    src="assets/img/team/team-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
+                  <div class="member">
+                    <img
+                      src="assets/img/team/team-2.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <div class="member-info">
+                      <div class="member-info-content">
+                        <h4>Sarah Jhonson</h4>
+                        <span>Product Manager</span>
+                      </div>
+                      <div class="social">
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="member-info">
-                  <h4>Jonathan Clark</h4>
-                  <span>Creative Director</span>
-                  <p>
-                    Jonathan will provide creative insights and direction to
-                    ensure your photography projects stand out.
-                  </p>
+                <!-- End Member Item -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
+                  <div class="member">
+                    <img
+                      src="assets/img/team/team-3.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <div class="member-info">
+                      <div class="member-info-content">
+                        <h4>William Anderson</h4>
+                        <span>CTO</span>
+                      </div>
+                      <div class="social">
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <!-- End Member Item -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
+                  <div class="member">
+                    <img
+                      src="assets/img/team/team-4.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <div class="member-info">
+                      <div class="member-info-content">
+                        <h4>Amanda Jepson</h4>
+                        <span>Accountant</span>
+                      </div>
+                      <div class="social">
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Member Item -->
               </div>
             </div>
           </div>
@@ -697,345 +868,115 @@
       </section>
       <!-- End Team Section -->
 
-      <!-- ======= Pricing Section ======= -->
-      <section id="pricing" class="pricing">
-        <div class="container" data-aos="fade-up">
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact section-bg">
+        <div class="container-fluid">
           <div class="section-title">
-            <h2>Studio Rental Plans</h2>
+            <h2>Contact Us</h2>
+            <h3>Connect With Our <span>Design Team</span></h3>
             <p>
-              Explore our tailored studio rental plans at SnapSpace. Choose the
-              package that suits your project's needs and your budget.
+              Feel free to reach out to our dedicated team of interior design
+              experts. We're here to bring your dream living spaces to life.
             </p>
           </div>
 
-          <div class="row">
-            <div
-              class="col-lg-3 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="box">
-                <h3>Basic Package</h3>
-                <h4><sup>$</sup>50<span> / day</span></h4>
-                <ul>
-                  <li>Studio Space</li>
-                  <li>Basic Lighting</li>
-                  <li>Equipment Rental</li>
-                  <li class="na">Photographer</li>
-                  <li class="na">24/7 Support</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Book Now</a>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-3 col-md-6 mt-4 mt-md-0"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="box featured">
-                <h3>Pro Package</h3>
-                <h4><sup>$</sup>100<span> / day</span></h4>
-                <ul>
-                  <li>Premium Studio Space</li>
-                  <li>Advanced Lighting Setup</li>
-                  <li>Full Equipment Suite</li>
-                  <li>Professional Photographer</li>
-                  <li class="na">24/7 Support</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Book Now</a>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-3 col-md-6 mt-4 mt-lg-0"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="box">
-                <h3>Premium Package</h3>
-                <h4><sup>$</sup>200<span> / day</span></h4>
-                <ul>
-                  <li>Custom Studio Setup</li>
-                  <li>Professional Lighting Design</li>
-                  <li>Full Equipment Access</li>
-                  <li>Photography Assistant</li>
-                  <li>24/7 Technical Support</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Book Now</a>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-3 col-md-6 mt-4 mt-lg-0"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="box">
-                <span class="advanced">Exclusive</span>
-                <h3>Custom Package</h3>
-                <h4><sup>$</sup>500<span> / day</span></h4>
-                <ul>
-                  <li>Dedicated Studio Concierge</li>
-                  <li>Creative Studio Design</li>
-                  <li>Full Equipment Suite</li>
-                  <li>Personal Photographer</li>
-                  <li>Premium 24/7 Support</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Book Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Pricing Section -->
-
-      <!-- ======= Frequently Asked Questions Section ======= -->
-      <section id="faq" class="faq section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Frequently Asked Questions</h2>
-          </div>
-
-          <div class="faq-list">
-            <ul>
-              <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  class="collapse"
-                  data-bs-target="#faq-list-1"
-                  >New to Studio Photography and Need Guidance?
-                  <i class="bx bx-chevron-down icon-show"></i
-                  ><i class="bx bx-chevron-up icon-close"></i
-                ></a>
-                <div
-                  id="faq-list-1"
-                  class="collapse show"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    If you're new to the world of studio photography and seeking
-                    expert advice, SnapSpace has you covered. We provide the
-                    expertise you need to kickstart your journey into the world
-                    of studio photography.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="200">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-2"
-                  class="collapsed"
-                  >Looking to Enhance Your Photography Skills with Advanced
-                  Techniques? <i class="bx bx-chevron-down icon-show"></i
-                  ><i class="bx bx-chevron-up icon-close"></i
-                ></a>
-                <div
-                  id="faq-list-2"
-                  class="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    If you're already familiar with the basics and want to take
-                    your photography skills to the next level, SnapSpace also
-                    offers advanced strategies and techniques to help you excel
-                    in the world of studio photography.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="300">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-3"
-                  class="collapsed"
-                  >Wondering if SnapSpace is Suitable for Your Photography
-                  Needs? <i class="bx bx-chevron-down icon-show"></i
-                  ><i class="bx bx-chevron-up icon-close"></i
-                ></a>
-                <div
-                  id="faq-list-3"
-                  class="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    Whether you're a professional photographer or an amateur
-                    looking to capture stunning images, SnapSpace caters to a
-                    wide range of photography needs.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="400">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-4"
-                  class="collapsed"
-                  >Curious about SnapSpace's Studio Rental Process?
-                  <i class="bx bx-chevron-down icon-show"></i
-                  ><i class="bx bx-chevron-up icon-close"></i
-                ></a>
-                <div
-                  id="faq-list-4"
-                  class="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    We understand your curiosity. Our studio rental process is
-                    designed to be transparent and hassle-free, ensuring that
-                    you have the perfect space for your photography projects.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="500">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-5"
-                  class="collapsed"
-                  >Interested in the Results You Can Achieve with SnapSpace's
-                  Studio? <i class="bx bx-chevron-down icon-show"></i
-                  ><i class="bx bx-chevron-up icon-close"></i
-                ></a>
-                <div
-                  id="faq-list-5"
-                  class="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    You can expect outstanding results from our studio, from
-                    breathtaking photos to unforgettable memories. SnapSpace
-                    empowers you to create stunning photography experiences.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!-- End Frequently Asked Questions Section -->
-
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Contact Us</h2>
-          </div>
-
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.2482532436375!2d-76.16146429999999!3d43.0782759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f23c18f95b13%3A0xe961bbe2cda54722!2zNzAxIEhpYXdhdGhhIEJsdmQsIFN5cmFjdXNlLCBOWSAxMzIwOCwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1695978735442!5m2!1sru!2sby"
-            width="100%"
-            height="400"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-
-          <div
-            class="row mt-1 d-flex justify-content-end"
-            data-aos="fade-right"
-            data-aos-delay="100"
-          >
-            <div class="col-lg-5">
-              <div class="info">
-                <div class="address">
-                  <i class="bi bi-geo-alt"></i>
-                  <h4>Location:</h4>
-                  <p>701 HIAWATHA BLVD SYRACUSE NY 13208-1231 USA</p>
-                </div>
-
-                <div class="email">
-                  <i class="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>info@SnapSpace.com</p>
-                </div>
-
-                <div class="phone">
-                  <i class="bi bi-phone"></i>
-                  <h4>Call:</h4>
-                  <p>+1 5589 55488 55</p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-6 mt-5 mt-lg-0"
-              data-aos="fade-left"
-              data-aos-delay="100"
-            >
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
-                      required
-                    />
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="row justify-content-center">
+                    <div
+                      class="col-md-6 info d-flex flex-column align-items-stretch"
+                    >
+                      <i class="bx bx-map"></i>
+                      <h4>Address</h4>
+                      <p>3132 32ND ST ASTORIA NY 11106-2547 USA</p>
+                    </div>
+                    <div
+                      class="col-md-6 info d-flex flex-column align-items-stretch"
+                    >
+                      <i class="bx bx-phone"></i>
+                      <h4>Call Us</h4>
+                      <p>+1 5589 55488 55<br />+1 5589 22548 64</p>
+                    </div>
+                    <div
+                      class="col-md-6 info d-flex flex-column align-items-stretch"
+                    >
+                      <i class="bx bx-envelope"></i>
+                      <h4>Email Us</h4>
+                      <p>contact@HomeHarmony.com<br />info@HomeHarmony.com</p>
+                    </div>
+                    <div
+                      class="col-md-6 info d-flex flex-column align-items-stretch"
+                    >
+                      <i class="bx bx-time-five"></i>
+                      <h4>Working Hours</h4>
+                      <p>Mon - Fri: 9AM to 5PM<br />Sunday: 9AM to 1PM</p>
+                    </div>
                   </div>
                 </div>
-                <div class="form-group mt-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    required
-                  />
+
+                <div class="col-lg-6">
+                  <form
+                    action="forms/contact.php"
+                    method="post"
+                    role="form"
+                    class="php-email-form"
+                  >
+                    <div class="row">
+                      <div class="col-md-6 form-group">
+                        <label for="name">Your Name</label>
+                        <input
+                          type="text"
+                          name="name"
+                          class="form-control"
+                          id="name"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <label for="email">Your Email</label>
+                        <input
+                          type="email"
+                          class="form-control"
+                          name="email"
+                          id="email"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group mt-3">
+                      <label for="subject">Subject</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="subject"
+                        id="subject"
+                        required
+                      />
+                    </div>
+                    <div class="form-group mt-3">
+                      <label for="message">Message</label>
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        rows="8"
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="my-3">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">
+                        Your message has been sent. Thank you!
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <button type="submit">Send Message</button>
+                    </div>
+                  </form>
                 </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
@@ -1050,18 +991,19 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
-              <h4>Explore the World of Photography with SnapSpace</h4>
+              <h4>Stay Inspired</h4>
               <p>
-                Dive into the latest trends and innovations in the realm of
-                photography studio rentals. Join our community of photography
-                enthusiasts and embark on a journey into the future of
-                photography technology, guided by our photography experts.
+                Discover the latest trends and design tips to elevate your
+                living spaces. Join our community of interior enthusiasts!
               </p>
             </div>
             <div class="col-lg-6">
               <form action="" method="post">
-                <input type="email" name="email" />
-                <input type="submit" value="Get Updates" />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                /><input type="submit" value="Subscribe" />
               </form>
             </div>
           </div>
@@ -1069,64 +1011,72 @@
       </div>
 
       <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="./privacy/disclaimer.html">Disclaimer</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="./privacy/cookies.html">Cookies</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="./privacy/terms.html">Terms of service</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="./privacy/privacy.html">Privacy policy</a>
-                </li>
-              </ul>
-            </div>
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li>
+                      <i class="bx bx-chevron-right"></i>
+                      <a href="./privacy/disclaimer.html">Disclaimer</a>
+                    </li>
+                    <li>
+                      <i class="bx bx-chevron-right"></i>
+                      <a href="./privacy/cookies.html">Cookies</a>
+                    </li>
+                    <li>
+                      <i class="bx bx-chevron-right"></i>
+                      <a href="./privacy/terms.html">Terms of service</a>
+                    </li>
+                    <li>
+                      <i class="bx bx-chevron-right"></i>
+                      <a href="./privacy/privacy.html">Privacy policy</a>
+                    </li>
+                  </ul>
+                </div>
 
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h4>Contact Us</h4>
-              <p>
-                701 HIAWATHA BLVD SYRACUSE NY 13208-1231 USA<br />
-                <strong>Phone:</strong> +1 5589 55488 55<br />
-                <strong>Email:</strong> info@SnapSpace.com<br />
-              </p>
-            </div>
+                <div class="col-lg-3 col-md-6 footer-contact">
+                  <h4>Contact Us</h4>
+                  <p>
+                    3132 32ND ST ASTORIA NY 11106-2547 USA<br />
+                    <strong>Phone:</strong> +1 5589 55488 55<br />
+                    <strong>Email:</strong> info@HomeHarmony.com<br />
+                  </p>
+                </div>
 
-            <div class="col-lg-3 col-md-6 footer-info">
-              <h3>About SnapSpace</h3>
-              <p>
-                Step into the world of photography innovation with SnapSpace,
-                where studio rental becomes an art form. Explore the domain of
-                studio architects, uncover the wizards of creative photography,
-                and witness the evolution of photography pioneers.
-              </p>
-
-              <div class="social-links mt-3">
-                <a href="#contact" class="twitter"
-                  ><i class="bx bxl-twitter"></i
-                ></a>
-                <a href="#contact" class="facebook"
-                  ><i class="bx bxl-facebook"></i
-                ></a>
-                <a href="#contact" class="instagram"
-                  ><i class="bx bxl-instagram"></i
-                ></a>
-                <a href="#contact" class="google-plus"
-                  ><i class="bx bxl-skype"></i
-                ></a>
-                <a href="#contact" class="linkedin"
-                  ><i class="bx bxl-linkedin"></i
-                ></a>
+                <div class="col-lg-3 col-md-6 footer-info">
+                  <h3>About HomeHarmony</h3>
+                  <p>
+                    At HomeHarmony, we specialize in creating interiors that
+                    resonate with your unique style and personality. Our team of
+                    experienced designers, including Emily Richardson, an
+                    award-winning interior architect, and Michael Thompson, a
+                    renowned color specialist, collaborate to bring your vision
+                    to life. With a passion for crafting spaces that blend
+                    functionality with aesthetics, we strive to make your home a
+                    harmonious haven. Trust HomeHarmony to transform your living
+                    space into a masterpiece.
+                  </p>
+                  <div class="social-links mt-3">
+                    <a href="#" class="twitter"
+                      ><i class="bx bxl-twitter"></i
+                    ></a>
+                    <a href="#" class="facebook"
+                      ><i class="bx bxl-facebook"></i
+                    ></a>
+                    <a href="#" class="instagram"
+                      ><i class="bx bxl-instagram"></i
+                    ></a>
+                    <a href="#" class="google-plus"
+                      ><i class="bx bxl-skype"></i
+                    ></a>
+                    <a href="#" class="linkedin"
+                      ><i class="bx bxl-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -1135,7 +1085,7 @@
 
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>SnapSpace</span></strong
+          &copy; Copyright <strong><span>HomeHarmony</span></strong
           >. All Rights Reserved
         </div>
       </div>
@@ -1189,6 +1139,10 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js"></script>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
