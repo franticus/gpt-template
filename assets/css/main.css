@@ -6,7 +6,7 @@ ul {
 
 iframe {
   margin-top: 60px;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 #header .logo {
@@ -116,23 +116,27 @@ iframe {
 }
 
 .img-fluid {
-  // border: 14px solid #fff;
-  border-radius: 0px;
+  border: 4px solid #fff;
+  border-radius: 10px;
 }
 
 .info,
 .php-email-form {
   padding: 20px;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 .contact .info,
 .contact .php-email-form {
   padding: 20px;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 .info-box {
-  border-radius: 0px;
+  border-radius: 10px;
   background: #fff;
+}
+
+.clients img {
+  border: none;
 }
