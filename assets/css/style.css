@@ -1,10 +1,15 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #eaf7e6;
+  opacity: 1;
+  background-image: radial-gradient(#95de88 1.25px, transparent 1.25px), radial-gradient(#95de88 1.25px, #eaf7e6 1.25px);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
 }
 
 a {
-  color: #ffc107;
+  color: #f292c6;
   text-decoration: none;
 }
 
@@ -32,7 +37,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffc107;
+  background: #f292c6;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -70,7 +75,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(55, 64, 85, 0.9);
+  background: rgba(55, 64, 8, 0.9);
   padding: 15px 0;
 }
 
@@ -137,7 +142,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffc107;
+  color: #f292c6;
 }
 
 .navbar .dropdown ul {
@@ -173,7 +178,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #ffc107;
+  color: #f292c6;
 }
 
 .navbar .dropdown:hover>ul {
@@ -268,7 +273,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #ffc107;
+  color: #f292c6;
 }
 
 .navbar-mobile .dropdown ul {
@@ -298,7 +303,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #ffc107;
+  color: #f292c6;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -318,7 +323,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(45, 53, 69, 0.7);
+  background: rgba(45, 53, 6, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -361,12 +366,12 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 40px;
-  border: 2px solid #ffc107;
+  border: 2px solid #f292c6;
   color: #fff;
 }
 
 #hero .btn-get-started:hover {
-  background: #ffc107;
+  background: #f292c6;
 }
 
 @media (min-width: 1024px) {
@@ -422,7 +427,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #ffc107;
+  background: #f292c6;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -430,7 +435,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   font-size: 14px;
-  color: #aab3c7;
+  color: #111;
 }
 
 /*--------------------------------------------------------------
@@ -699,7 +704,7 @@ section {
 .cta {
   background: #414c64;
   background-size: cover;
-  padding: 60px 0;
+  padding: 200px 0;
 }
 
 .cta h3 {
@@ -722,12 +727,12 @@ section {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #ffc107;
+  border: 2px solid #f292c6;
   color: #fff;
 }
 
 .cta .cta-btn:hover {
-  background: #ffc107;
+  background: #f292c6;
 }
 
 /*--------------------------------------------------------------
@@ -805,11 +810,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ffc107;
+  border: 1px solid #f292c6;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc107;
+  background-color: #f292c6;
 }
 
 /*--------------------------------------------------------------
@@ -840,7 +845,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #414c64;
-  background: #ffc107;
+  background: #f292c6;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -866,7 +871,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #ffc107;
+  background: #f292c6;
   padding: 15px 20px;
 }
 
@@ -931,11 +936,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ffc107;
+  border: 1px solid #f292c6;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc107;
+  background-color: #f292c6;
 }
 
 .portfolio-details .portfolio-info {
@@ -1021,7 +1026,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #ffc107;
+  color: #f292c6;
 }
 
 .team .member .social i {
@@ -1083,7 +1088,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #ffc107;
+  color: #f292c6;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1115,7 +1120,7 @@ section {
 }
 
 .pricing ul i {
-  color: #ffc107;
+  color: #f292c6;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1152,13 +1157,13 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #ffc107;
+  background: #f292c6;
 }
 
 .pricing .featured .btn-buy {
-  background: #ffc107;
+  background: #f292c6;
   color: #fff;
-  border: 2px solid #ffc107;
+  border: 2px solid #f292c6;
 }
 
 .pricing .featured .btn-buy:hover {
@@ -1174,7 +1179,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #ffc107;
+  background: #f292c6;
   color: #fff;
 }
 
@@ -1244,7 +1249,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #ffc107;
+  color: #f292c6;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1273,7 +1278,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #ffc107;
+  color: #f292c6;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #ffeeba;
@@ -1348,7 +1353,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #ffc107;
+  border-color: #f292c6;
 }
 
 .contact .php-email-form input {
@@ -1360,7 +1365,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ffc107;
+  background: #f292c6;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1436,7 +1441,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffc107;
+  color: #f292c6;
   font-size: 18px;
   line-height: 1;
 }
@@ -1460,7 +1465,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #ffc107;
+  color: #f292c6;
 }
 
 #footer .footer-newsletter {
@@ -1500,7 +1505,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ffc107;
+  background: #f292c6;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
