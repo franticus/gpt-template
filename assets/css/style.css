@@ -1,11 +1,14 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  background-color: #444;
+  background-color: #130e03;
+  opacity: 1;
+  background-image: radial-gradient(ellipse farthest-corner at 10px 10px, #1c1504, #1c1504 50%, #130e03 50%);
+  background-size: 10px 10px;
 }
 
 a {
-  color: #1b999e;
+  color: #e27100;
   text-decoration: none;
 }
 
@@ -33,7 +36,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1b999e;
+  background: #e27100;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -76,12 +79,12 @@ h6 {
 }
 
 #header .header-container {
-  // background: #555;
+  background: #000;
   border-radius: 40px;
 }
 
 #header.header-scrolled {
-  background: #555;
+  background: #000;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   top: 0;
 }
@@ -89,7 +92,7 @@ h6 {
 #header .logo {
   overflow: hidden;
   padding: 16px 30px 12px 30px;
-  background: #1b999e;
+  background: #e27100;
   border-radius: 40px;
 }
 
@@ -117,12 +120,12 @@ h6 {
   #header {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     top: 0;
-    background: #1b999e;
+    background: #e27100;
   }
 
   #header.header-scrolled,
   #header .header-container {
-    background: #1b999e;
+    background: #e27100;
   }
 
   #header .logo {
@@ -183,12 +186,12 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #1b999e;
+  color: #e27100;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #1b999e;
+  background: #e27100;
   padding: 10px 25px;
   margin-left: 30px;
   margin-right: 15px;
@@ -234,7 +237,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #1b999e;
+  color: #e27100;
 }
 
 .navbar .dropdown:hover>ul {
@@ -329,7 +332,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #1b999e;
+  color: #e27100;
 }
 
 .navbar-mobile .getstarted,
@@ -364,7 +367,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #1b999e;
+  color: #e27100;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -376,7 +379,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background: url("../img/hero-bg.jpg") center center;
   background-size: cover;
   position: relative;
@@ -388,7 +391,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.2);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -430,8 +433,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #1b999e;
-  border: 2px solid #1b999e;
+  background: #e27100;
+  border: 2px solid #e27100;
 }
 
 @media (min-width: 1024px) {
@@ -464,7 +467,10 @@ section {
 }
 
 .section-bg {
-  background-color: #333;
+  background-color: #302308;
+  opacity: 1;
+  background-image: radial-gradient(ellipse farthest-corner at 10px 10px, #130e02, #130e02 50%, #302308 50%);
+  background-size: 10px 10px;
 }
 
 .section-title {
@@ -486,7 +492,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #1b999e;
+  background: #e27100;
   bottom: 0;
   left: 0;
 }
@@ -499,9 +505,9 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background: #333;
+  background: #000;
   text-align: center;
-  padding: 20px 0;
+  padding: 60px 0;
 }
 
 .clients img {
@@ -549,7 +555,7 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #1b999e;
+  color: #e27100;
 }
 
 .about .content p:last-child {
@@ -560,7 +566,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #1b999e;
+  background: #e27100;
   padding: 40px 0 20px 0;
   color: #fff;
 }
@@ -584,8 +590,8 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #1b999e;
-  border-radius: 4px;
+  background: #e27100;
+  border-radius: 40px;
   color: #fff;
 }
 
@@ -613,13 +619,13 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #1b999e;
+  color: #e27100;
   background: #fff;
 }
 
 .why-us .icon-boxes .icon-box {
   text-align: center;
-  border-radius: 10px;
+  border-radius: 80px;
   background: #222;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 40px 30px;
@@ -629,7 +635,7 @@ section {
 
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #1b999e;
+  color: #e27100;
   margin-bottom: 30px;
 }
 
@@ -654,9 +660,9 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.8), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.4), rgba(0, 0, 0, 0.4)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
-  padding: 20vh 0;
+  padding: 30vh 0;
 }
 
 .cta h3 {
@@ -685,8 +691,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #1b999e;
-  border: 2px solid #1b999e;
+  background: #e27100;
+  border: 2px solid #e27100;
 }
 
 /*--------------------------------------------------------------
@@ -697,7 +703,7 @@ section {
   padding: 40px 20px;
   transition: all ease-in-out 0.3s;
   background: #222;
-  border-radius: 20px;
+  border-radius: 80px;
 }
 
 .services .icon-box .icon {
@@ -705,7 +711,7 @@ section {
   width: 64px;
   height: 64px;
   border-radius: 50px;
-  border: 1px solid #fff;
+  border: 1px solid #e27100;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -736,7 +742,7 @@ section {
 }
 
 .services .icon-box:hover {
-  border-color: #fff;
+  border-color: #e27100;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -746,7 +752,7 @@ section {
 
 .services .icon-box:hover .icon {
   color: #111;
-  background: #fff;
+  background: #e27100;
 }
 
 /*--------------------------------------------------------------
@@ -771,7 +777,7 @@ section {
   font-weight: 500;
   line-height: 1;
   text-transform: uppercase;
-  color: #444444;
+  color: #111111;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 50px;
@@ -781,7 +787,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #1b999e;
+  background: #e27100;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -893,11 +899,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1b999e;
+  border: 1px solid #e27100;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1b999e;
+  background-color: #e27100;
 }
 
 .portfolio-details .portfolio-info {
@@ -952,7 +958,7 @@ section {
   text-align: center;
   min-height: 350px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  background: #444;
+  background: #111;
   border-radius: 20px;
 }
 
@@ -1010,18 +1016,18 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1b999e;
+  border: 1px solid #e27100;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1b999e;
+  background-color: #e27100;
 }
 
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #333;
+  background: #000000;
 }
 
 .team .member {
@@ -1030,7 +1036,7 @@ section {
   padding: 30px;
   border-radius: 10px;
   text-align: center;
-  background-color: #444;
+  background-color: #111;
 }
 
 .team .member .pic {
@@ -1104,7 +1110,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #1b999e;
+  background: #e27100;
 }
 
 .team .member .social a+a {
@@ -1127,7 +1133,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #1b999e;
+  background: #e27100;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1218,7 +1224,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #1b999e;
+  background: #e27100;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1367,7 +1373,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #1b999e;
+  color: #e27100;
 }
 
 #footer .footer-newsletter {
@@ -1407,7 +1413,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1b999e;
+  background: #e27100;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1421,13 +1427,13 @@ section {
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
-  color: #444444;
+  color: #111111;
 }
 
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1b999e;
+  background: #e27100;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
