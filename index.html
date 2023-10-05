@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>SportGearX</title>
+    <title>Starclash</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -13,7 +13,7 @@
 
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
 
@@ -42,6 +42,10 @@
       href="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <script src="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js"></script>
 
     <!-- Vendor JS Files -->
@@ -49,6 +53,14 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js"></script>
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -59,356 +71,560 @@
     <!-- ======= Header ======= -->
     <header
       id="header"
-      class="fixed-top d-flex justify-content-center align-items-center header-transparent"
+      class="fixed-top d-flex align-items-center header-transparent"
     >
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-      <!-- .navbar -->
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <h1>
+            <a href="index.html"><span>Starclash</span></a>
+          </h1>
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#features">Features</a></li>
+            <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
     </header>
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
     <section id="hero">
-      <div class="hero-container">
-        <h1>SportGearX</h1>
-        <h2>We are a team of Athletic Gear Enthusiasts</h2>
-        <a href="#about" class="btn-scroll scrollto" title="Scroll Down"
-          ><i class="bx bx-chevron-down"></i
-        ></a>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div
+            class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center"
+          >
+            <div data-aos="zoom-out">
+              <h1>
+                Discover Excellence in Mobile Applications With
+                <span>Starclash</span>
+              </h1>
+              <h2>
+                Our skilled team of app developers and innovators are
+                revolutionizing the mobile space
+              </h2>
+              <div class="text-center text-lg-start">
+                <a href="#about" class="btn-get-started scrollto"
+                  >Begin your journey</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 order-1 order-lg-2 hero-img"
+            data-aos="zoom-out"
+            data-aos-delay="300"
+          >
+            <img
+              src="assets/img/hero-img.png"
+              class="img-fluid animated"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </section>
     <!-- End Hero -->
 
     <main id="main">
-      <!-- ======= Our Products ======= -->
-      <section id="services" class="services">
-        <div class="container">
-          <div class="section-title">
-            <span>Our Products</span>
-            <h2>Our Products</h2>
-            <p>
-              At SportGearX, we offer an impressive range of sports equipment to
-              optimize your workout and maximize your performance.
-            </p>
-          </div>
-
-          <div class="row">
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Workout Equipment</a>
-                </h4>
-                <p class="description">
-                  We provide a wide range of exercise tools designed to improve
-                  your strength, flexibility, and total fitness.
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Outdoor Gear</a>
-                </h4>
-                <p class="description">
-                  Embrace the great outdoors with our selection of high quality
-                  camping, hiking and adventure equipment.
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Sportswear</a>
-                </h4>
-                <p class="description">
-                  Stay stylish and comfortable with our line of trendy and
-                  functional sportswear for all your workout needs.
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Accessories</a>
-                </h4>
-                <p class="description">
-                  Explore our collection of fitness accessories from water
-                  bottles, sport bags, to fitness tracker devices.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Our Products -->
-
-      <!-- ======= Our Story ======= -->
+      <!-- ======= About Section ======= -->
       <section id="about" class="about">
-        <div class="container">
-          <div class="section-title">
-            <span>Our Story</span>
-            <h2>Our Story</h2>
-            <p>
-              SportGearX began with a love for sports and a passion for boosting
-              wellness in our community. We are committed to transforming
-              lifestyles and promoting fitness with our wide range of equipment
-              and unmatched services.
-            </p>
-          </div>
-
+        <div class="container-fluid">
           <div class="row">
             <div
-              class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"
+              class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch"
+              data-aos="fade-right"
             ></div>
-            <div class="col-lg-8 d-flex flex-column align-items-stretch">
-              <div
-                class="content ps-lg-4 d-flex flex-column justify-content-center"
-              >
-                <div class="row mt-n4">
-                  <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                      <i class="bi bi-emoji-smile" style="color: #11db74"></i>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="500"
-                        data-purecounter-duration="1"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Satisfied Customers</strong> who trust us for
-                        sourcing their sporting goods and equipment.
-                      </p>
-                    </div>
-                  </div>
 
-                  <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                      <i class="bi bi-circle" style="color: #ff4c4c"></i>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="120"
-                        data-purecounter-duration="1"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Categories of Equipment</strong> to cater to a
-                        variety of sports and fitness activities.
-                      </p>
-                    </div>
-                  </div>
+            <div
+              class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
+              data-aos="fade-left"
+            >
+              <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+              <p>
+                Esse voluptas cumque vel exercitationem. Reiciendis est hic
+                accusamus. Non ipsam et sed minima temporibus laudantium. Soluta
+                voluptate sed facere corporis dolores excepturi. Libero
+                laboriosam sint et id nulla tenetur. Suscipit aut voluptate.
+              </p>
 
-                  <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                      <i class="bi bi-clock" style="color: #43b649"></i>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="8"
-                        data-purecounter-duration="1"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Years of Dedicated Service</strong>, providing
-                        quality products to our community.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                      <i class="bi bi-award" style="color: #ffb459"></i>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="2"
-                        data-purecounter-duration="1"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Sports Industry Rewards</strong> demonstrating
-                        our commitment to the retail industry and the quality of
-                        our services.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                <h4 class="title"><a href="#contact">Lorem Ipsum</a></h4>
+                <p class="description">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
+                </p>
               </div>
-              <!-- End .content-->
 
-              <div class="skills-content ps-lg-4">
-                <div class="progress">
-                  <span class="skill"
-                    >Product Guidance <i class="val">100%</i></span
-                  >
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="100"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                <div class="icon"><i class="bx bx-gift"></i></div>
+                <h4 class="title"><a href="#contact">Nemo Enim</a></h4>
+                <p class="description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
 
-                <div class="progress">
-                  <span class="skill"
-                    >Customer Service <i class="val">98%</i></span
-                  >
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="98"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-
-                <div class="progress">
-                  <span class="skill"
-                    >Community Engagement <i class="val">95%</i></span
-                  >
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="95"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                <div class="icon"><i class="bx bx-atom"></i></div>
+                <h4 class="title"><a href="#contact">Dine Pad</a></h4>
+                <p class="description">
+                  Explicabo est voluptatum asperiores consequatur magnam. Et
+                  veritatis odit. Sunt aut deserunt minus aut eligendi omnis
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Our Story -->
+      <!-- End About Section -->
 
-      <!-- ======= About Us Section ======= -->
-      <section id="resume" class="resume">
+      <!-- ======= Features Section ======= -->
+      <section id="features" class="features">
         <div class="container">
-          <div class="section-title">
-            <span>About Us</span>
-            <h2>About Us</h2>
-            <p>
-              Crafting a healthier and stronger future with SportGearX,
-              enhancing lifestyles with our broad range of sporting goods.
-            </p>
+          <div class="section-title" data-aos="fade-up">
+            <h2>Features</h2>
+            <p>Check The Features</p>
           </div>
 
-          <div class="row">
-            <div class="col-lg-6">
-              <h3 class="resume-title">Our Vision</h3>
-              <div class="resume-item pb-0">
-                <p>
-                  <em
-                    >SportGrearX is a motivated team of sports enthusiasts and
-                    fitness experts dedicated to bringing innovative and
-                    high-quality sports equipment to every fitness enthusiast.
-                    We bring the best sports gears to your door.</em
-                  >
-                </p>
-              </div>
-
-              <h3 class="resume-title">Our Expertise</h3>
-              <div class="resume-item">
-                <p>
-                  Our passionate team members frequently undergo training to
-                  learn about the latest trends and advancements in sports and
-                  fitness gear. We are skilled in offering the best equipment
-                  for fitness and outdoor sporting enthusiasts.
-                </p>
-              </div>
-              <div class="resume-item">
-                <p>
-                  Armed with an intimate knowledge of sports and fitness gear,
-                  we bring a new approach to sports retail. This blend of
-                  knowledge and passion is the basis for our exceptional
-                  service.
-                </p>
+          <div class="row" data-aos="fade-left">
+            <div class="col-lg-3 col-md-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
+                <i class="ri-store-line" style="color: #ffbb2c"></i>
+                <h3><a href="#contact">Lorem Ipsum</a></h3>
               </div>
             </div>
-
-            <div class="col-lg-6">
-              <h3 class="resume-title">Our Services</h3>
-              <div class="resume-item">
-                <h4>Top-tier Product & Guidance</h4>
-                <ul>
-                  <li>
-                    We provide personalized sports and fitness solutions along
-                    with unparalleled customer service.
-                  </li>
-                  <li>
-                    We offer guidance on choosing the right equipment, ensuring
-                    they align with your fitness goals.
-                  </li>
-                  <li>
-                    We constantly update our service guidelines to maintain the
-                    highest standards of customer service.
-                  </li>
-                  <li>
-                    Through efficient management, we guarantee swift delivery
-                    and best use of resources.
-                  </li>
-                </ul>
+            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                <i class="ri-bar-chart-box-line" style="color: #5578ff"></i>
+                <h3><a href="#contact">Dolor Sitema</a></h3>
               </div>
-              <div class="resume-item">
-                <h4>Outstanding Customer Support</h4>
-                <ul>
-                  <li>
-                    We assist our customers in harnessing the full potential of
-                    the equipment they chose.
-                  </li>
-                  <li>
-                    We ensure the equipment you select matches your performance
-                    and convenience standards.
-                  </li>
-                  <li>
-                    We offer expert recommendation on maintenance and effective
-                    usage of sports gear.
-                  </li>
-                  <li>
-                    We are committed to providing value at every step of your
-                    fitness journey.
-                  </li>
-                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
+                <i class="ri-calendar-todo-line" style="color: #e80368"></i>
+                <h3><a href="#contact">Sed perspiciatis</a></h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                <i class="ri-paint-brush-line" style="color: #e361ff"></i>
+                <h3><a href="#contact">Magni Dolores</a></h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
+                <i class="ri-database-2-line" style="color: #47aeff"></i>
+                <h3><a href="#contact">Nemo Enim</a></h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                <i class="ri-gradienter-line" style="color: #ffa76e"></i>
+                <h3><a href="#contact">Eiusmod Tempor</a></h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="350">
+                <i class="ri-file-list-3-line" style="color: #11dbcf"></i>
+                <h3><a href="#contact">Midela Teren</a></h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                <i class="ri-price-tag-2-line" style="color: #4233ff"></i>
+                <h3><a href="#contact">Pira Neve</a></h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="450">
+                <i class="ri-anchor-line" style="color: #b2904f"></i>
+                <h3><a href="#contact">Dirada Pack</a></h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
+                <i class="ri-disc-line" style="color: #b20969"></i>
+                <h3><a href="#contact">Moton Ideal</a></h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="550">
+                <i class="ri-base-station-line" style="color: #ff5828"></i>
+                <h3><a href="#contact">Verdo Park</a></h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
+                <i class="ri-fingerprint-line" style="color: #29cc61"></i>
+                <h3><a href="#contact">Flavor Nivelanda</a></h3>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End About Us Section -->
+      <!-- End Features Section -->
+
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts">
+        <div class="container">
+          <div class="row" data-aos="fade-up">
+            <div class="col-lg-3 col-md-6">
+              <div class="count-box">
+                <i class="bi bi-emoji-smile"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="232"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+              <div class="count-box">
+                <i class="bi bi-journal-richtext"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="521"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Projects</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+              <div class="count-box">
+                <i class="bi bi-headset"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="1463"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Hours Of Support</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+              <div class="count-box">
+                <i class="bi bi-people"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="15"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Hard Workers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Counts Section -->
+
+      <!-- ======= Details Section ======= -->
+      <section id="details" class="details">
+        <div class="container">
+          <div class="row content">
+            <div class="col-md-4" data-aos="fade-right">
+              <img src="assets/img/details-1.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-8 pt-4" data-aos="fade-up">
+              <h3>
+                Voluptatem dignissimos provident quasi corporis voluptates sit
+                assumenda.
+              </h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat.
+                </li>
+                <li>
+                  <i class="bi bi-check"></i> Duis aute irure dolor in
+                  reprehenderit in voluptate velit.
+                </li>
+                <li>
+                  <i class="bi bi-check"></i> Iure at voluptas aspernatur
+                  dignissimos doloribus repudiandae.
+                </li>
+                <li>
+                  <i class="bi bi-check"></i> Est ipsa assumenda id facilis
+                  nesciunt placeat sed doloribus praesentium.
+                </li>
+              </ul>
+              <p>
+                Voluptas nisi in quia excepturi nihil voluptas nam et ut.
+                Expedita omnis eum consequatur non. Sed in asperiores aut
+                repellendus. Error quisquam ab maiores. Quibusdam sit in officia
+              </p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+              <img src="assets/img/details-2.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+              <h3>Corporis temporibus maiores provident</h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum
+              </p>
+              <p>
+                Inventore id enim dolor dicta qui et magni molestiae. Mollitia
+                optio officia illum ut cupiditate eos autem. Soluta dolorum
+                repellendus repellat amet autem rerum illum in. Quibusdam
+                occaecati est nisi esse. Saepe aut dignissimos distinctio id
+                enim.
+              </p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col-md-4" data-aos="fade-right">
+              <img src="assets/img/details-3.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-8 pt-5" data-aos="fade-up">
+              <h3>
+                Sunt consequatur ad ut est nulla consectetur reiciendis animi
+                voluptas
+              </h3>
+              <p>
+                Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus
+                quia minima quod. Sunt saepe odit aut quia voluptatem hic
+                voluptas dolor doloremque.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat.
+                </li>
+                <li>
+                  <i class="bi bi-check"></i> Duis aute irure dolor in
+                  reprehenderit in voluptate velit.
+                </li>
+                <li>
+                  <i class="bi bi-check"></i> Facilis ut et voluptatem aperiam.
+                  Autem soluta ad fugiat.
+                </li>
+              </ul>
+              <p>
+                Qui consequatur temporibus. Enim et corporis sit sunt harum
+                praesentium suscipit ut voluptatem. Et nihil magni debitis
+                consequatur est.
+              </p>
+              <p>
+                Suscipit enim et. Ut optio esse quidem quam reiciendis esse odit
+                excepturi. Vel dolores rerum soluta explicabo vel fugiat eum
+                non.
+              </p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+              <img src="assets/img/details-4.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+              <h3>
+                Quas et necessitatibus eaque impedit ipsum animi consequatur
+                incidunt in
+              </h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i> Et praesentium laboriosam
+                  architecto nam .
+                </li>
+                <li>
+                  <i class="bi bi-check"></i> Eius et voluptate. Enim earum
+                  tempore aliquid. Nobis et sunt consequatur. Aut repellat in
+                  numquam velit quo dignissimos et.
+                </li>
+                <li>
+                  <i class="bi bi-check"></i> Facilis ut et voluptatem aperiam.
+                  Autem soluta ad fugiat.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Details Section -->
+
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery" class="gallery">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Gallery</h2>
+            <p>Check our Gallery</p>
+          </div>
+
+          <div class="row g-0" data-aos="fade-left">
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                <a
+                  href="assets/img/gallery/gallery-1.jpg"
+                  class="gallery-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-1.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+                <a
+                  href="assets/img/gallery/gallery-2.jpg"
+                  class="gallery-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-2.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                <a
+                  href="assets/img/gallery/gallery-3.jpg"
+                  class="gallery-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-3.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+                <a
+                  href="assets/img/gallery/gallery-4.jpg"
+                  class="gallery-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-4.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                <a
+                  href="assets/img/gallery/gallery-5.jpg"
+                  class="gallery-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-5.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+                <a
+                  href="assets/img/gallery/gallery-6.jpg"
+                  class="gallery-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-6.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                <a
+                  href="assets/img/gallery/gallery-7.jpg"
+                  class="gallery-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-7.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+                <a
+                  href="assets/img/gallery/gallery-8.jpg"
+                  class="gallery-lightbox"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-8.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Gallery Section -->
 
       <!-- ======= Testimonials Section ======= -->
       <section id="testimonials" class="testimonials">
-        <div class="container position-relative">
+        <div class="container">
           <div
-            class="testimonials-slider swiper blur"
+            class="testimonials-slider swiper"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -416,18 +632,39 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-4.jpg"
+                    src="assets/img/testimonials/testimonials-1.jpg"
                     class="testimonial-img"
                     alt=""
                   />
-                  <h3>Tom Jenkins</h3>
-                  <h4>Fitness Coach</h4>
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Being connected with SportGearX has truly revolutionized my
-                    approach to fitness. I appreciate their dedication to
-                    providing quality equipment and a sincere focus on customer
-                    satisfaction.
+                    Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum suscipit rhoncus. Accusantium quam,
+                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                    risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-2.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse
+                    labore quem cillum quid cillum eram malis quorum velit fore
+                    eram velit sunt aliqua noster fugiat irure amet legam anim
+                    culpa.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -441,14 +678,34 @@
                     class="testimonial-img"
                     alt=""
                   />
-                  <h3>Janet Galbraith</h3>
-                  <h4>Outdoor Enthusiast</h4>
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Starting my outdoor adventures with SportGear's range of
-                    products has been amazing. What captivates me the most is
-                    their commitment to safety and quality which is of paramount
-                    importance in outdoor sports.
+                    Enim nisi quem export duis labore cillum quae magna enim
+                    sint quorum nulla quem veniam duis minim tempor labore quem
+                    eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-4.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                    multos export minim fugiat minim velit minim dolor enim duis
+                    veniam ipsum anim magna sunt elit fore quem dolore labore
+                    illum veniam.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -462,14 +719,14 @@
                     class="testimonial-img"
                     alt=""
                   />
-                  <h3>Samuel Hill</h3>
-                  <h4>Store Manager</h4>
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    The fulfillment at SportGearX comes from the formidable team
-                    spirit and the satisfaction of helping customers find the
-                    perfect gear, I truly couldn't ask for a better company to
-                    work with.
+                    Quis quorum aliqua sint quem legam fore sunt eram irure
+                    aliqua veniam tempor noster veniam enim culpa labore duis
+                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
+                    fore nisi cillum quid.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -482,177 +739,181 @@
       </section>
       <!-- End Testimonials Section -->
 
-      <!-- ======= Portfolio ======= -->
-      <section id="portfolio" class="portfolio">
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
         <div class="container">
-          <div class="section-title">
-            <span>Our Portfolio</span>
-            <h2>Our Portfolio</h2>
+          <div class="section-title" data-aos="fade-up">
+            <h2>Team</h2>
+            <p>Our Great Team</p>
           </div>
 
-          <div class="row portfolio-container">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-img">
-                <img
-                  src="assets/img/portfolio/portfolio-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+          <div class="row" data-aos="fade-left">
+            <div class="col-lg-3 col-md-6">
+              <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <div class="social">
+                    <a href="#contact"><i class="bi bi-twitter"></i></a>
+                    <a href="#contact"><i class="bi bi-facebook"></i></a>
+                    <a href="#contact"><i class="bi bi-instagram"></i></a>
+                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-img">
-                <img
-                  src="assets/img/portfolio/portfolio-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+            <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+              <div class="member" data-aos="zoom-in" data-aos-delay="200">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href="#contact"><i class="bi bi-twitter"></i></a>
+                    <a href="#contact"><i class="bi bi-facebook"></i></a>
+                    <a href="#contact"><i class="bi bi-instagram"></i></a>
+                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-img">
-                <img
-                  src="assets/img/portfolio/portfolio-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+              <div class="member" data-aos="zoom-in" data-aos-delay="300">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href="#contact"><i class="bi bi-twitter"></i></a>
+                    <a href="#contact"><i class="bi bi-facebook"></i></a>
+                    <a href="#contact"><i class="bi bi-instagram"></i></a>
+                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img">
-                <img
-                  src="assets/img/portfolio/portfolio-4.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-img">
-                <img
-                  src="assets/img/portfolio/portfolio-5.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-img">
-                <img
-                  src="assets/img/portfolio/portfolio-6.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img">
-                <img
-                  src="assets/img/portfolio/portfolio-7.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img">
-                <img
-                  src="assets/img/portfolio/portfolio-8.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+              <div class="member" data-aos="zoom-in" data-aos-delay="400">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <div class="social">
+                    <a href="#contact"><i class="bi bi-twitter"></i></a>
+                    <a href="#contact"><i class="bi bi-facebook"></i></a>
+                    <a href="#contact"><i class="bi bi-instagram"></i></a>
+                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Portfolio -->
+      <!-- End Team Section -->
 
       <!-- ======= Pricing Section ======= -->
       <section id="pricing" class="pricing">
         <div class="container">
-          <div class="section-title">
-            <span>Pricing</span>
+          <div class="section-title" data-aos="fade-up">
             <h2>Pricing</h2>
-            <p>
-              Explore our varied range of athletic gear for rentals designed to
-              elevate your sporting experiences.
-            </p>
+            <p>Check our Pricing</p>
           </div>
 
-          <div class="row">
+          <div class="row" data-aos="fade-left">
             <div class="col-lg-3 col-md-6">
-              <div class="box">
-                <h3>Fit Starter</h3>
-                <h4><sup>$</sup>10<span> / day</span></h4>
+              <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                <h3>Free</h3>
+                <h4><sup>$</sup>0<span> / month</span></h4>
                 <ul>
-                  <li>Access to basic equipments</li>
-                  <li>Weekly newsletter on gear arrivals</li>
-                  <li class="na">Expert gear maintenance</li>
-                  <li class="na">Custom equipment setup</li>
-                  <li class="na">Doorstep delivery service</li>
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li class="na">Pharetra massa</li>
+                  <li class="na">Massa ultricies mi</li>
                 </ul>
                 <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Start Renting</a>
+                  <a href="#contact" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-              <div class="box featured">
-                <h3>Pro Athlete Gear</h3>
-                <h4><sup>$</sup>30<span> / day</span></h4>
+              <div class="box featured" data-aos="zoom-in" data-aos-delay="200">
+                <h3>Business</h3>
+                <h4><sup>$</sup>19<span> / month</span></h4>
                 <ul>
-                  <li>Access to basic and premium equipments</li>
-                  <li>Weekly newsletter on gear arrivals</li>
-                  <li>Expert gear maintenance</li>
-                  <li class="na">Custom equipment setup</li>
-                  <li class="na">Doorstep delivery service</li>
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li class="na">Massa ultricies mi</li>
                 </ul>
                 <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Start Renting</a>
+                  <a href="#contact" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-              <div class="box">
-                <h3>Extreme Sport Collector</h3>
-                <h4><sup>$</sup>50<span> / day</span></h4>
+              <div class="box" data-aos="zoom-in" data-aos-delay="300">
+                <h3>Developer</h3>
+                <h4><sup>$</sup>29<span> / month</span></h4>
                 <ul>
-                  <li>Access to basic, premium and extreme equipments</li>
-                  <li>Weekly newsletter on gear arrivals</li>
-                  <li>Expert gear maintenance</li>
-                  <li>Custom equipment setup</li>
-                  <li class="na">Doorstep delivery service</li>
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li>Massa ultricies mi</li>
                 </ul>
                 <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Start Renting</a>
+                  <a href="#contact" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-              <div class="box">
-                <span class="advanced">Exclusive</span>
-                <h3>Xtreme Adventurer Elite</h3>
-                <h4><sup>$</sup>70<span> / day</span></h4>
+              <div class="box" data-aos="zoom-in" data-aos-delay="400">
+                <span class="advanced">Advanced</span>
+                <h3>Ultimate</h3>
+                <h4><sup>$</sup>49<span> / month</span></h4>
                 <ul>
-                  <li>Unlimited access to all categories of gear</li>
-                  <li>Weekly newsletter on gear arrivals</li>
-                  <li>Expert gear maintenance</li>
-                  <li>Personalized equipment setup</li>
-                  <li>Priority delivery service</li>
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li>Massa ultricies mi</li>
                 </ul>
                 <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Start Renting</a>
+                  <a href="#contact" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -661,58 +922,192 @@
       </section>
       <!-- End Pricing Section -->
 
-      <!-- ======= Contact ======= -->
+      <!-- ======= F.A.Q Section ======= -->
+      <section id="faq" class="faq section-bg">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>F.A.Q</h2>
+            <p>Frequently Asked Questions</p>
+          </div>
+
+          <div class="faq-list">
+            <ul>
+              <li data-aos="fade-up">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  class="collapse"
+                  data-bs-target="#faq-list-1"
+                  >Non consectetur a erat nam at lectus urna duis?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-1"
+                  class="collapse show"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                    volutpat lacus laoreet non curabitur gravida. Venenatis
+                    lectus magna fringilla urna porttitor rhoncus dolor purus
+                    non.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-2"
+                  class="collapsed"
+                  >Feugiat scelerisque varius morbi enim nunc?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-2"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque
+                    habitant morbi. Id interdum velit laoreet id donec ultrices.
+                    Fringilla phasellus faucibus scelerisque eleifend donec
+                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                    ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="200">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-3"
+                  class="collapsed"
+                  >Dolor sit amet consectetur adipiscing elit?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-3"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                    sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                    nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                    pellentesque eu tincidunt. Lectus urna duis convallis
+                    convallis tellus. Urna molestie at elementum eu facilisis
+                    sed odio morbi quis
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="300">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-4"
+                  class="collapsed"
+                  >Tempus quam pellentesque nec nam aliquam sem et tortor
+                  consequat? <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-4"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Molestie a iaculis at erat pellentesque adipiscing commodo.
+                    Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                    viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                    bibendum est. Purus gravida quis blandit turpis cursus in.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="400">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-5"
+                  class="collapsed"
+                  >Tortor vitae purus faucibus ornare. Varius vel pharetra vel
+                  turpis nunc eget lorem dolor?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-5"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Laoreet sit amet cursus sit amet dictum sit amet justo.
+                    Mauris vitae ultricies leo integer malesuada nunc vel.
+                    Tincidunt eget nullam non nisi est sit amet. Turpis nunc
+                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate
+                    eu scelerisque.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- End F.A.Q Section -->
+
+      <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact">
         <div class="container">
-          <div class="section-title">
-            <span>Contact Us</span>
-            <h2>Contact Us</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.873020662828!2d-76.4756945!3d43.4632481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d77d6a70f96ed7%3A0x2da29711bf7441fc!2zNDAxIE5ZIDEwNCwgT3N3ZWdvLCBOWSAxMzEyNiwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1696505780185!5m2!1sru!2sby"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <div class="section-title" data-aos="fade-up">
+            <h2>Contact</h2>
+            <p>Contact Us</p>
           </div>
 
           <div class="row">
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="info-box">
-                    <i class="bx bx-share-alt"></i>
-                    <h3>Social Profiles</h3>
-                    <div class="social-links">
-                      <a href="#contact" class="twitter"
-                        ><i class="bi bi-twitter"></i
-                      ></a>
-                      <a href="#contact" class="facebook"
-                        ><i class="bi bi-facebook"></i
-                      ></a>
-                      <a href="#contact" class="instagram"
-                        ><i class="bi bi-instagram"></i
-                      ></a>
-                      <a href="#contact" class="google-plus"
-                        ><i class="bi bi-skype"></i
-                      ></a>
-                      <a href="#contact" class="linkedin"
-                        ><i class="bi bi-linkedin"></i
-                      ></a>
-                    </div>
-                  </div>
+            <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>401 STATE ROUTE 104 OSWEGO NY 13126-2967 USA</p>
                 </div>
-                <div class="col-md-6">
-                  <div class="info-box mt-4">
-                    <i class="bx bx-envelope"></i>
-                    <h3>Email Me</h3>
-                    <p>contact@SportGearX.com</p>
-                  </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@Starclash.com</p>
                 </div>
-                <div class="col-md-6">
-                  <div class="info-box mt-4">
-                    <i class="bx bx-phone-call"></i>
-                    <h3>Call Me</h3>
-                    <p>+1 5589 55488 55</p>
-                  </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-6">
+            <div
+              class="col-lg-8 mt-5 mt-lg-0"
+              data-aos="fade-left"
+              data-aos-delay="200"
+            >
               <form
                 action="forms/contact.php"
                 method="post"
@@ -755,7 +1150,7 @@
                   <textarea
                     class="form-control"
                     name="message"
-                    rows="6"
+                    rows="5"
                     placeholder="Message"
                     required
                   ></textarea>
@@ -773,33 +1168,88 @@
               </form>
             </div>
           </div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2921.352900496691!2d-76.57313309999999!3d42.928686600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0ac226112de0b%3A0x3cd7409f67eca577!2zMTgzIEdlbmVzZWUgU3QsIEF1YnVybiwgTlkgMTMwMjEsINCh0KjQkA!5e0!3m2!1sru!2sby!4v1696489487147!5m2!1sru!2sby"
-            width="100%"
-            height="300"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
         </div>
       </section>
-      <!-- Contact -->
+      <!-- End Contact Section -->
     </main>
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
-      <div class="container">
-        <h3>SportGearX</h3>
-        <div class="social-links">
-          <a href="./privacy/disclaimer.html">Disclaimer</a>
-          <a href="./privacy/cookies.html">Cookies</a>
-          <a href="./privacy/terms.html">Terms and Conditions</a>
-          <a href="./privacy/privacy.html">Privacy</a>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-info">
+                <h3>Starclash</h3>
+                <p>
+                  401 STATE ROUTE 104 OSWEGO NY 13126-2967 USA<br />
+                  <strong>Phone:</strong> +1 5589 55488 55<br />
+                  <strong>Email:</strong> info@Starclash.com<br />
+                </p>
+                <div class="social-links mt-3">
+                  <a href="#contact" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#contact" class="facebook"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="#contact" class="instagram"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                  <a href="#contact" class="google-plus"
+                    ><i class="bx bxl-skype"></i
+                  ></a>
+                  <a href="#contact" class="linkedin"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="./privacy/disclaimer.html">Disclaimer</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="./privacy/cookies.html">Cookies</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="./privacy/terms.html">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="./privacy/privacy.html">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Our Newsletter</h4>
+              <p>
+                Join us on this thrilling journey as we continue to push the
+                boundaries of mobile game development. Be the first to hear
+                about our latest releases, exclusive offers, and special events
+                by subscribing to our newsletter below. Together, let's ignite
+                the galaxy with the power of "Starclash"!
+              </p>
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>SportGearX</span></strong
+          &copy; Copyright <strong><span>Starclash</span></strong
           >. All Rights Reserved
         </div>
       </div>
@@ -811,6 +1261,7 @@
       class="back-to-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
+    <div id="preloader"></div>
 
     <div class="warning warning--active">
       <div class="warning__text">
@@ -853,6 +1304,9 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
