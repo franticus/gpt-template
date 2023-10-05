@@ -311,7 +311,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 3, 91, 0.9);
+  background: rgb(2 161 63 / 91%);
   transition: 0.3s;
   z-index: 999;
 }
@@ -401,7 +401,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Hero
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -575,7 +575,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f5f5ff;
+  background-color: #149f6e;
 }
 
 .section-title {
@@ -613,6 +613,9 @@ section {
   color: #149f6e;
 }
 
+.faq .section-title p {
+  color: #fff;
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -747,18 +750,6 @@ section {
   min-height: 300px;
 }
 
-.about .play-btn {
-  width: 94px;
-  height: 94px;
-  background: radial-gradient(#3f43fd 50%, rgba(63, 67, 253, 0.4) 52%);
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  left: calc(50% - 47px);
-  top: calc(50% - 47px);
-  overflow: hidden;
-}
-
 .about .play-btn::after {
   content: "";
   position: absolute;
@@ -833,7 +824,8 @@ section {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #f5f5ff;
+  border-radius: 20px;
+  background: #fff;
   transition: ease-in-out 0.3s;
 }
 
@@ -861,14 +853,14 @@ section {
 }
 
 .features .icon-box:hover {
-  background: #ebebff;
+  background: #c8fef4;
 }
 
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #f5f5ff;
+  background: #149f6e;
   padding: 70px 0 60px;
 }
 
