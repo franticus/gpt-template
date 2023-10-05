@@ -1,17 +1,10 @@
-/**
-* Template Name: Bootslander
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #f6fff5;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(0deg, #e4f9e8, #e4f9e8 1px, #f6fff5 1px, #f6fff5);
 }
 
 a {
@@ -120,7 +113,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 4, 136, 0.9);
+  background: rgb(23 123 71 / 90%);
 }
 
 #header.header-transparent {
@@ -128,7 +121,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: rgb(23 123 71 / 90%);
   height: 60px;
 }
 
@@ -247,7 +240,7 @@ h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #01036f;
+  color: #1db636;
 }
 
 .navbar .dropdown ul a i {
@@ -414,12 +407,12 @@ h6 {
   width: 100%;
   background: url("../img/hero-bg.jpg");
   position: relative;
-  padding: 120px 0 0 0;
+  padding: 200px 0;
 }
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background: rgb(2 161 63 / 91%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -617,7 +610,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #010483;
+  color: #149f6e;
 }
 
 /*--------------------------------------------------------------
@@ -692,7 +685,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: #149f6e;
   margin-bottom: 15px;
 }
 
@@ -749,7 +742,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("../img/about.jpg") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
@@ -859,12 +852,12 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #010483;
+  color: #149f6e;
   transition: ease-in-out 0.3s;
 }
 
 .features .icon-box h3 a:hover {
-  color: #01036f;
+  color: #1db636;
 }
 
 .features .icon-box:hover {
@@ -909,7 +902,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #010483;
+  color: #149f6e;
 }
 
 .counts .count-box p {
@@ -929,7 +922,7 @@ section {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #010483;
+  color: #149f6e;
 }
 
 .details .content ul {
@@ -986,7 +979,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(1, 3, 111, 0.8);
+  background: rgb(15 49 14 / 80%);
 }
 
 .testimonials .section-header {
@@ -1117,7 +1110,7 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #01036f;
+  color: #1db636;
   position: relative;
   padding-bottom: 10px;
 }
@@ -1137,7 +1130,7 @@ section {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #01036f;
+  color: #1db636;
 }
 
 .team .member .social {
@@ -1146,7 +1139,7 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #01036f;
+  color: #1db636;
 }
 
 .team .member .social a:hover {
@@ -1377,7 +1370,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #010483;
+  color: #149f6e;
 }
 
 .contact .info p {
@@ -1491,7 +1484,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #010351;
+  background: #149f6e;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1503,7 +1496,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #010246;
+  background: #0c6143;
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
