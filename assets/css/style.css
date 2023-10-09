@@ -1,15 +1,11 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
-  background-color: #ffec7e;
-  opacity: 1;
-  background-image: linear-gradient(30deg, #ffe77c 12%, transparent 12.5%, transparent 87%, #ffe77c 87.5%, #ffe77c), linear-gradient(150deg, #ffe77c 12%, transparent 12.5%, transparent 87%, #ffe77c 87.5%, #ffe77c), linear-gradient(30deg, #ffe77c 12%, transparent 12.5%, transparent 87%, #ffe77c 87.5%, #ffe77c), linear-gradient(150deg, #ffe77c 12%, transparent 12.5%, transparent 87%, #ffe77c 87.5%, #ffe77c), linear-gradient(60deg, #ffe77c77 25%, transparent 25.5%, transparent 75%, #ffe77c77 75%, #ffe77c77), linear-gradient(60deg, #ffe77c77 25%, transparent 25.5%, transparent 75%, #ffe77c77 75%, #ffe77c77);
-  background-size: 40px 70px;
-  background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+  color: #fff;
+  background-color: #3b2816;
 }
 
 a {
-  color: #5a843e;
+  color: #b578c5;
   text-decoration: none;
 }
 
@@ -37,7 +33,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5a843e;
+  background: #b578c5;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -76,7 +72,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 22px 0;
-  background: #fff;
+  background: #3b2816;
 }
 
 #header.header-scrolled {
@@ -95,7 +91,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #222222;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -135,7 +131,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 400;
-  color: #555555;
+  color: #999;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -151,12 +147,12 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #5a843e;
+  color: #b578c5;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #5a843e;
+  background: #b578c5;
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 50px;
@@ -201,7 +197,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #5a843e;
+  color: #b578c5;
 }
 
 .navbar .dropdown:hover>ul {
@@ -237,7 +233,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #222222;
+  color: #fff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -301,7 +297,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #5a843e;
+  color: #b578c5;
 }
 
 .navbar-mobile .getstarted,
@@ -336,7 +332,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #5a843e;
+  color: #b578c5;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -348,8 +344,11 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   margin-top: 70px;
+  background: url("../img/hero-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #hero h1 {
@@ -357,11 +356,11 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  color: #fff;
 }
 
 #hero h2 {
-  color: #484848;
+  color: #fff;
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -375,12 +374,12 @@ h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #5a843e;
-  border: 2px solid #5a843e;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 #hero .btn-get-started:hover {
-  background: #5a843e;
+  background: #b578c5;
   color: #fff;
 }
 
@@ -458,7 +457,7 @@ section {
 }
 
 .section-bg {
-  background-color: lavender;
+  background-color: #241c0d;
 }
 
 .section-title {
@@ -471,7 +470,7 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
-  color: #222222;
+  color: #fff;
 }
 
 .section-title h2::before,
@@ -479,7 +478,7 @@ section {
   content: "";
   width: 50px;
   height: 2px;
-  background: #5a843e;
+  background: #b578c5;
   display: inline-block;
 }
 
@@ -562,7 +561,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #5a843e;
+  color: #b578c5;
   line-height: 1;
 }
 
@@ -580,14 +579,14 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #5a843e;
+  color: #b578c5;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #5a843e;
+  border: 2px solid #b578c5;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #5a843e;
+  background: #b578c5;
   color: #fff;
   text-decoration: none;
 }
@@ -621,7 +620,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #5a843e;
+  color: #b578c5;
   float: left;
   line-height: 0;
 }
@@ -631,7 +630,7 @@ section {
   line-height: 30px;
   display: block;
   font-weight: 700;
-  color: #222222;
+  color: #fff;
   margin-left: 50px;
 }
 
@@ -640,7 +639,8 @@ section {
   margin: 0 0 0 50px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #484848;
+  color: #fff;
+  opacity: 0.8;
 }
 
 .counts .content .count-box a {
@@ -683,7 +683,7 @@ section {
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
-  border-radius: 8px;
+  border-radius: 80px;
   z-index: 1;
 }
 
@@ -695,13 +695,13 @@ section {
   top: -40px;
   width: 100px;
   height: 100px;
-  border-radius: 50px;
+  border-radius: 80px;
   transition: all 0.3s;
   z-index: -1;
 }
 
 .services .icon-box:hover::before {
-  background: #5a843e;
+  background: #b578c5;
   right: 0;
   top: 0;
   width: 100%;
@@ -717,7 +717,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #5a843e;
+  background: #b578c5;
   transition: all 0.3s ease-in-out;
 }
 
@@ -741,6 +741,7 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  color: #111;
 }
 
 .services .icon-box:hover .title a,
@@ -753,7 +754,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #5a843e;
+  color: #b578c5;
 }
 
 /*--------------------------------------------------------------
@@ -764,7 +765,8 @@ section {
 }
 
 .more-services .card {
-  border: 0;
+  border: 4px solid #fff;
+  border-radius: 80px;
   padding: 160px 20px 20px 20px;
   position: relative;
   width: 100%;
@@ -810,7 +812,7 @@ section {
 }
 
 .more-services .card:hover .card-body {
-  background: #5a843e;
+  background: #b578c5;
 }
 
 .more-services .card:hover .read-more a,
@@ -827,6 +829,7 @@ section {
   display: flex;
   align-items: center;
   padding: 20px;
+  border-radius: 40px;
   background: #f6f6f6;
   transition: ease-in-out 0.3s;
 }
@@ -851,7 +854,7 @@ section {
 }
 
 .features .icon-box h3 a:hover {
-  color: #5a843e;
+  color: #b578c5;
 }
 
 .features .icon-box:hover {
@@ -873,6 +876,7 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px 30px 30px 60px;
+  border-radius: 40px;
   margin: 30px 15px;
   min-height: 200px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
@@ -882,7 +886,7 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
-  border-radius: 10px;
+  border-radius: 40px;
   border: 6px solid #fff;
   position: absolute;
   left: -45px;
@@ -923,6 +927,7 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
+  color: #111;
 }
 
 .testimonials .swiper-pagination {
@@ -935,11 +940,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #5a843e;
+  border: 1px solid #b578c5;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5a843e;
+  background-color: #b578c5;
 }
 
 @media (max-width: 767px) {
@@ -994,7 +999,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #5a843e;
+  background: #b578c5;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1070,7 +1075,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #5a843e;
+  color: #b578c5;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1106,11 +1111,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #5a843e;
+  border: 1px solid #b578c5;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5a843e;
+  background-color: #b578c5;
 }
 
 .portfolio-details .portfolio-info {
@@ -1195,7 +1200,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #5a843e;
+  color: #b578c5;
 }
 
 .team .member .social i {
@@ -1256,7 +1261,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #5a843e;
+  color: #b578c5;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1288,7 +1293,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: #5a843e;
+  color: #b578c5;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1307,8 +1312,8 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid #5a843e;
-  color: #5a843e;
+  border: 2px solid #b578c5;
+  color: #b578c5;
   font-size: 14px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -1317,16 +1322,16 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: #5a843e;
+  background: #b578c5;
   color: #fff;
 }
 
 .pricing .recommended {
-  border-color: #5a843e;
+  border-color: #b578c5;
 }
 
 .pricing .recommended .btn-buy {
-  background: #5a843e;
+  background: #b578c5;
   color: #fff;
 }
 
@@ -1368,6 +1373,10 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact {
+  background: #222;
+}
+
 .contact .contact-about h3 {
   font-size: 28px;
   margin: 0 0 10px 0;
@@ -1375,7 +1384,7 @@ section {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #222222;
+  color: #fff;
 }
 
 .contact .contact-about p {
@@ -1393,7 +1402,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #5a843e;
+  color: #b578c5;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1402,21 +1411,21 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #5a843e;
+  border: 1px solid #b578c5;
 }
 
 .contact .social-links a:hover {
-  background: #5a843e;
+  background: #b578c5;
   color: #fff;
 }
 
 .contact .info {
-  color: #444444;
+  color: #fff;
 }
 
 .contact .info i {
   font-size: 32px;
-  color: #5a843e;
+  color: #b578c5;
   float: left;
   line-height: 1;
 }
@@ -1482,11 +1491,11 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #5a843e;
+  border-color: #b578c5;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #5a843e;
+  background: #b578c5;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1574,21 +1583,21 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
+  background: #222222;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
-  color: #222222;
+  color: #fff;
   font-size: 14px;
 }
 
 #footer .credits {
   font-size: 13px;
   padding-top: 5px;
-  color: #222222;
+  color: #fff;
 }
 
 #footer .footer-links a {
-  color: #222222;
+  color: #fff;
   padding-left: 15px;
 }
 
@@ -1597,5 +1606,5 @@ section {
 }
 
 #footer .footer-links a:hover {
-  color: #5a843e;
+  color: #b578c5;
 }
