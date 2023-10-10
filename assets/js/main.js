@@ -61,10 +61,6 @@
     let header = select('#header')
     let offset = header.offsetHeight
 
-    if (!header.classList.contains('header-scrolled')) {
-      offset -= 20
-    }
-
     let elementPos = select(el).offsetTop
     window.scrollTo({
       top: elementPos - offset,
@@ -153,35 +149,6 @@
   });
 
   /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-
-      1200: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      }
-    }
-  });
-
-  /**
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
@@ -189,7 +156,6 @@
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
       });
 
       let portfolioFilters = select('#portfolio-flters li', true);
@@ -237,6 +203,35 @@
   });
 
   /**
+   * Testimonials slider
+   */
+  new Swiper('.testimonials-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      }
+    }
+  });
+
+  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {
@@ -247,10 +242,5 @@
       mirror: false
     })
   });
-
-  /**
-   * Initiate Pure Counter 
-   */
-  new PureCounter();
 
 })()
