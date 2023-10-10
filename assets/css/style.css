@@ -591,7 +591,8 @@ section {
 }
 
 .features .nav-link {
-  border: 1px solid #d4d6df;
+  border: 1px solid #111;
+  background: #fff;
   padding: 15px;
   transition: 0.3s;
   color: #2a2c39;
@@ -991,6 +992,8 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px 30px 0 30px;
+  border-radius: 20px;
+  border: 2px solid #111;
   margin: 30px 15px;
   text-align: center;
   background: #fff;
