@@ -807,7 +807,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .testimonials .quote-icon {
@@ -1366,6 +1366,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: url("../img/footer-bg.jpg") center center no-repeat;
+  background-size: cover;
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -1378,7 +1379,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
 
