@@ -523,7 +523,8 @@ section {
   min-height: 400px;
   padding: 10px;
   border-radius: 20px;
-  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.5);
+  border: 10px solid #fff;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
 }
 
 /*--------------------------------------------------------------
@@ -899,7 +900,12 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background: #444;
+  background-color: #1c1c1c;
+  opacity: 1;
+  background-image: linear-gradient(135deg, #111111 25%, transparent 25%), linear-gradient(225deg, #111111 25%, transparent 25%), linear-gradient(45deg, #111111 25%, transparent 25%), linear-gradient(315deg, #111111 25%, #1c1c1c 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
   padding: 15px 0;
   text-align: center;
 }
@@ -933,7 +939,12 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #444;
+  background-color: #1c1c1c;
+  opacity: 1;
+  background-image: linear-gradient(135deg, #111111 25%, transparent 25%), linear-gradient(225deg, #111111 25%, transparent 25%), linear-gradient(45deg, #111111 25%, transparent 25%), linear-gradient(315deg, #111111 25%, #1c1c1c 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
   padding: 60px 0;
 }
 
@@ -1022,7 +1033,7 @@ section {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
 }
 
 .pricing .box h3 {
@@ -1380,21 +1391,15 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #444;
+  background-color: #1c1c1c;
+  opacity: 1;
+  background-image: linear-gradient(135deg, #111111 25%, transparent 25%), linear-gradient(225deg, #111111 25%, transparent 25%), linear-gradient(45deg, #111111 25%, transparent 25%), linear-gradient(315deg, #111111 25%, #1c1c1c 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
   color: #fff;
   font-size: 14px;
   position: relative;
-}
-
-#footer::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 1;
 }
 
 #footer .footer-top {
