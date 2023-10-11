@@ -73,7 +73,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #fff;
+  background: #cadddf;
   box-shadow: 0 4px 10px -3px hsla(0, 0%, 75%, 0.5);
 }
 
@@ -825,11 +825,11 @@ section {
 }
 
 .testimonials .quote-icon i {
-  color: #173b4f;
+  color: #88d13a;
   font-size: 24px;
   padding: 18px;
   border-radius: 50px;
-  border: 2px solid #173b4f;
+  border: 2px solid #88d13a;
 }
 
 .testimonials .testimonials-carousel,
@@ -881,7 +881,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #173b4f;
+  background-color: #88d13a;
 }
 
 @media (min-width: 992px) {
