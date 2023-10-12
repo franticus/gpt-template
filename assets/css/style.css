@@ -795,7 +795,6 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
-  border-radius: 50%;
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
@@ -838,6 +837,7 @@ section {
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
+  min-height: 240px;
   position: relative;
   border-radius: 6px;
   position: relative;
@@ -906,6 +906,7 @@ section {
   background: #f2ffa3;
   padding: 20px 0;
   color: #111;
+  border-radius: 20px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   max-height: 95px;
   overflow: hidden;
