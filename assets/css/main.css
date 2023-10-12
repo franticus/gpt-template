@@ -140,6 +140,7 @@ iframe {
 
 .clients img {
   border: none;
+  border-radius: 0;
 }
 
 .imgSize {
