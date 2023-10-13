@@ -6,7 +6,7 @@ ul {
 
 iframe {
   margin-top: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 #header .logo {
@@ -32,16 +32,16 @@ iframe {
 }
 
 .case-studies .color-cards .card-contents {
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .customer-feedback .customer-cards {
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -62,7 +62,7 @@ iframe {
   box-sizing: border-box;
   background: #fff;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 20px;
   z-index: 999999;
 }
 
@@ -117,24 +117,24 @@ iframe {
 }
 
 .img-fluid {
-  // border: 1px solid #fffc7c;
-  border-radius: 10px;
+  border: 2px solid #eee;
+  border-radius: 20px;
 }
 
 .info,
 .php-email-form {
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .contact .info,
 .contact .php-email-form {
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .info-box {
-  border-radius: 10px;
+  border-radius: 20px;
   background: #fff;
 }
 
@@ -150,7 +150,7 @@ iframe {
 .portfolio .portfolio-wrap,
 .team .member,
 .pricing .box {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .features .img-fluid {

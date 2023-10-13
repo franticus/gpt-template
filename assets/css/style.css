@@ -1,11 +1,14 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
-  background: #81fff5;
+  color: #fff;
+  background-color: #472d5c;
+  opacity: 1;
+  background-image: radial-gradient(#5d60a0 0.5px, #472d5c 0.5px);
+  background-size: 10px 10px;
 }
 
 a {
-  color: #9d5249;
+  color: #f7fba9;
   text-decoration: none;
 }
 
@@ -33,7 +36,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #9d5249;
+  background: #f7fba9;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -42,7 +45,7 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #111;
   line-height: 0;
 }
 
@@ -72,7 +75,7 @@ h6 {
   height: 70px;
   transition: all 0.5s;
   z-index: 997;
-  background: #19635e;
+  background: #1e1963;
 }
 
 #header .logo h1 {
@@ -156,7 +159,7 @@ h6 {
   height: 2px;
   bottom: 3px;
   left: 0;
-  background-color: #9d5249;
+  background-color: #f7fba9;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -210,7 +213,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #9d5249;
+  color: #f7fba9;
 }
 
 .navbar .dropdown:hover>ul {
@@ -314,7 +317,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #9d5249;
+  color: #cd1414;
 }
 
 .navbar-mobile .getstarted,
@@ -349,7 +352,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #9d5249;
+  color: #f7fba9;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -361,7 +364,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(90vh - 70px);
+  height: calc(94vh - 70px);
   background: url("../img/hero-bg.jpg") center center;
   background-size: cover;
   position: relative;
@@ -371,7 +374,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(23, 94, 103, 0.6);
+  background: rgba(14, 9, 53, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -412,8 +415,9 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  border-color: #9d5249;
-  background: #9d5249;
+  border-color: #f7fba9;
+  background: #f7fba9;
+  color: #111;
 }
 
 @media (min-width: 1024px) {
@@ -451,10 +455,7 @@ section {
 }
 
 .section-bg {
-  background-color: #79d8de;
-  opacity: 1;
-  background-size: 10px 10px;
-  background-image: repeating-linear-gradient(45deg, #72ccd3 0, #72ccd3 1px, #79d8de 0, #79d8de 50%);
+  background-color: #473889;
 }
 
 .section-title {
@@ -465,7 +466,7 @@ section {
 .section-title h2 {
   font-size: 36px;
   font-weight: 300;
-  color: #21413c;
+  color: #eee;
 }
 
 .section-title p {
@@ -540,7 +541,7 @@ section {
 .about h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #21413c;
+  color: #eee;
 }
 
 .about .icon-box {
@@ -550,19 +551,19 @@ section {
 .about .icon-box i {
   font-size: 48px;
   float: left;
-  color: #9d5249;
+  color: #f7fba9;
 }
 
 .about .icon-box h4 {
   font-size: 22px;
   font-weight: 500;
   margin-left: 60px;
-  color: #21413c;
+  color: #eee;
 }
 
 .about .icon-box p {
   font-size: 15px;
-  color: #222;
+  color: #eee;
   margin-left: 60px;
 }
 
@@ -579,16 +580,16 @@ section {
 
 .steps .content-item {
   padding: 40px;
-  border-left: 1px solid #253735;
-  border-bottom: 1px solid #253735;
-  margin: -1px;
+  border-radius: 60px;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .steps .content-item span {
   display: block;
   font-size: 24px;
   font-weight: 400;
-  color: #222;
+  color: #eee;
 }
 
 .steps .content-item h4 {
@@ -596,11 +597,11 @@ section {
   font-weight: 400;
   padding: 0;
   margin: 20px 0;
-  color: #222;
+  color: #eee;
 }
 
 .steps .content-item p {
-  color: #222;
+  color: #eee;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -623,11 +624,11 @@ section {
   border: 0;
   padding: 20px;
   transition: 0.3s;
-  color: #21413c;
+  color: #eee;
 }
 
 .features .nav-link:hover {
-  color: #9d5249;
+  color: #f7fba9;
 }
 
 .features .nav-link h4 {
@@ -638,6 +639,7 @@ section {
 .features .nav-link p {
   font-size: 14px;
   margin-bottom: 0;
+  color: #fff;
 }
 
 .features .nav-link.active {
@@ -645,7 +647,11 @@ section {
 }
 
 .features .nav-link.active h4 {
-  color: #9d5249;
+  color: #111;
+}
+
+.features .nav-link.active p {
+  color: #111;
 }
 
 .features .tab-pane.active {
@@ -701,6 +707,7 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  color: #111;
 }
 
 .services .icon-box-pink .icon i {
@@ -745,12 +752,12 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #111;
+  color: #fff;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #222;
+  color: #eee;
   margin: 0 0 0 45px;
 }
 
@@ -778,6 +785,8 @@ section {
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
   background: #eff7f6;
+  color: #111;
+  min-height: 200px;
   position: relative;
   border-radius: 6px;
   position: relative;
@@ -794,11 +803,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #9d5249;
+  border: 1px solid #f7fba9;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #9d5249;
+  background-color: #f7fba9;
 }
 
 /*--------------------------------------------------------------
@@ -834,7 +843,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #9d5249;
+  color: #f7fba9;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -971,11 +980,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #9d5249;
+  border: 1px solid #f7fba9;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #9d5249;
+  background-color: #f7fba9;
 }
 
 .portfolio-details .portfolio-info {
@@ -1077,7 +1086,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #9d5249;
+  color: #f7fba9;
 }
 
 .team .member .social i {
@@ -1086,7 +1095,7 @@ section {
 }
 
 .team .member:hover .member-info {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(60, 42, 133, 0.8) 20%, rgba(43, 0, 255, 0) 100%);
   opacity: 1;
   transition: 0.4s;
 }
@@ -1155,10 +1164,15 @@ section {
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  color: #111;
 }
 
 .faq .faq-list .icon-show {
   display: none;
+}
+
+.faq .faq-list a {
+  color: #111;
 }
 
 .faq .faq-list a.collapsed {
@@ -1166,7 +1180,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #9d5249;
+  color: #bba9fb;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1195,7 +1209,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #9d5249;
+  color: #111;
   float: left;
   width: 44px;
   height: 44px;
@@ -1246,15 +1260,15 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #9d5249;
-  color: #fff;
+  background: #f7fba9;
+  color: #111;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #9d5249;
-  color: #fff;
+  background: #f7fba9;
+  color: #111;
 }
 
 .contact .php-email-form {
@@ -1325,10 +1339,10 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #9d5249;
+  background: #f7fba9;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #111;
   transition: 0.4s;
   border-radius: 4px;
 }
@@ -1358,7 +1372,7 @@ section {
 }
 
 #footer .footer-top {
-  background: #19635e;
+  background: #1e1963;
   border-bottom: 1px solid #999;
   padding: 60px 0 30px 0;
 }
@@ -1399,8 +1413,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #9d5249;
-  color: #fff;
+  background: #f7fba9;
+  color: #111;
   text-decoration: none;
 }
 
@@ -1472,8 +1486,8 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #9d5249;
-  color: #fff;
+  background: #f7fba9;
+  color: #111;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
