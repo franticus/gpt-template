@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>RoyalBijoux</title>
+    <title>LeafSculpt</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -54,6 +54,7 @@
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -63,19 +64,20 @@
   <body>
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top d-flex align-items-center">
-      <div class="container d-flex align-items-center">
-        <div class="logo me-auto">
-          <h1><a href="index.html">RoyalBijoux</a></h1>
+      <div class="container d-flex justify-content-between">
+        <div class="logo">
+          <h1><a href="index.html">LeafSculpt</a></h1>
         </div>
 
-        <nav id="navbar" class="navbar order-last order-lg-0">
+        <nav id="navbar" class="navbar">
           <ul>
             <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
             <li>
               <a class="nav-link scrollto" href="#portfolio">Gallery</a>
             </li>
-            <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+            <li><a class="nav-link scrollto" href="#team">Team</a></li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -86,177 +88,202 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
-            data-aos="fade-up"
-          >
-            <div>
-              <h1>
-                Welcome to RoyalBijoux: Your Gateway to Exquisite Adornments
-              </h1>
-              <h2>
-                Precise artisan jewelers dedicated to bringing you the supreme
-                quality, exclusive jewelry and personal adornments
-              </h2>
-              <a href="#about" class="btn-get-started scrollto"
-                >Begin Your Luxurious Expedition</a
-              >
-            </div>
-          </div>
-        </div>
+    <section
+      id="hero"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="container text-center text-md-left blur" data-aos="fade-up">
+        <h1>Welcome to LeafSculpt</h1>
+        <h2>
+          We are a crew of skilled landscapers shaping your outdoor spaces with
+          artistic flair
+        </h2>
+        <a href="#about" class="btn-get-started scrollto"
+          >Embark on the Journey</a
+        >
       </div>
     </section>
-
     <!-- End Hero -->
 
     <main id="main">
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
         <div class="container">
           <div class="row">
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-              data-aos="zoom-in"
-            >
-              <div class="icon-box icon-box-pink">
-                <div class="icon"><i class="bx bx-bulb"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Jewelry Design Consultation</a>
-                </h4>
-                <p class="description">
-                  Seize the opportunity to consult with our veteran jewelry
-                  designers for customizing your distinct pieces.
+            <div class="col-xl-6 col-lg-7" data-aos="fade-right">
+              <img src="assets/img/about-img.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+              <h3 data-aos="fade-up">Voluptatem dignissimos provident</h3>
+              <p data-aos="fade-up">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="icon-box" data-aos="fade-up">
+                <i class="bx bx-receipt"></i>
+                <h4>Corporis voluptates sit</h4>
+                <p>
+                  Consequuntur sunt aut quasi enim aliquam quae harum pariatur
+                  laboris nisi ut aliquip
                 </p>
               </div>
-            </div>
 
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box icon-box-cyan">
-                <div class="icon"><i class="bx bx-compass"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Precious Gems Selection</a>
-                </h4>
-                <p class="description">
-                  Delve into our extensive collection of stunning gems, ideal
-                  for adorning your personalized jewelry.
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-cube-alt"></i>
+                <h4>Ullamco laboris nisi</h4>
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt
                 </p>
               </div>
-            </div>
 
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <div class="icon-box icon-box-green">
-                <div class="icon"><i class="bx bx-shopping-bag"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Exclusive Accessories</a>
-                </h4>
-                <p class="description">
-                  Explore our unique range of exclusive accessories to pair with
-                  your one-of-a-kind jewelry pieces.
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
-              <div class="icon-box icon-box-blue">
-                <div class="icon"><i class="bx bx-support"></i></div>
-                <h4 class="title">
-                  <a href="#contact">Customer Care</a>
-                </h4>
-                <p class="description">
-                  Our diligent and attentive customer care team is always
-                  prepared to assist you with your shopping queries.
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                <i class="bx bx-cube-alt"></i>
+                <h4>Ullamco laboris nisi</h4>
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Services Section -->
+      <!-- End About Section -->
+
+      <!-- ======= Steps Section ======= -->
+      <section id="steps" class="steps section-bg">
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
+              <span>01</span>
+              <h4>Lorem Ipsum</h4>
+              <p>
+                Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et
+                consectetur ducimus vero placeat
+              </p>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 content-item"
+              data-aos="fade-in"
+              data-aos-delay="100"
+            >
+              <span>02</span>
+              <h4>Repellat Nihil</h4>
+              <p>
+                Dolorem est fugiat occaecati voluptate velit esse. Dicta
+                veritatis dolor quod et vel dire leno para dest
+              </p>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 content-item"
+              data-aos="fade-in"
+              data-aos-delay="200"
+            >
+              <span>03</span>
+              <h4>Ad ad velit qui</h4>
+              <p>
+                Molestiae officiis omnis illo asperiores. Aut doloribus vitae
+                sunt debitis quo vel nam quis
+              </p>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 content-item"
+              data-aos="fade-in"
+              data-aos-delay="300"
+            >
+              <span>04</span>
+              <h4>Repellendus molestiae</h4>
+              <p>
+                Inventore quo sint a sint rerum. Distinctio blanditiis deserunt
+                quod soluta quod nam mider lando casa
+              </p>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 content-item"
+              data-aos="fade-in"
+              data-aos-delay="400"
+            >
+              <span>05</span>
+              <h4>Sapiente Magnam</h4>
+              <p>
+                Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui
+                possimus est repellendus est quibusdam
+              </p>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 content-item"
+              data-aos="fade-in"
+              data-aos-delay="500"
+            >
+              <span>06</span>
+              <h4>Facilis Impedit</h4>
+              <p>
+                Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut
+                nostrum repudiandae voluptatibus corporis sequi
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Steps Section -->
 
       <!-- ======= Features Section ======= -->
       <section id="features" class="features">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 mt-2 mb-tg-0 order-2 order-lg-1">
+            <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
               <ul class="nav nav-tabs flex-column">
-                <li class="nav-item" data-aos="fade-up">
+                <li class="nav-item">
                   <a
                     class="nav-link active show"
                     data-bs-toggle="tab"
                     href="#tab-1"
                   >
-                    <h4>Sophisticated Shopping Experience</h4>
+                    <h4>Modi sit est</h4>
                     <p>
-                      RoyalBijoux prioritizes your ease and comfort while
-                      shopping online. We aspire to make your jewelry purchase
-                      enjoyable and easy.
+                      Quis excepturi porro totam sint earum quo nulla
+                      perspiciatis eius.
                     </p>
                   </a>
                 </li>
-                <li
-                  class="nav-item mt-2"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                >
+                <li class="nav-item mt-2">
                   <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-                    <h4>Quality Exclusive Jewelry</h4>
-                    <p>
-                      We offer an expansive array of high-quality, exclusive
-                      jewelry, bringing luxury and elegance within reach.
-                    </p>
+                    <h4>Unde praesentium sed</h4>
+                    <p>Voluptas vel esse repudiandae quo excepturi.</p>
                   </a>
                 </li>
-                <li
-                  class="nav-item mt-2"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
+                <li class="nav-item mt-2">
                   <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-                    <h4>Expert Jewelry Design Advice</h4>
+                    <h4>Pariatur explicabo vel</h4>
                     <p>
-                      Take advantage of our seasoned jewelry designers equipped
-                      to help you shape your vision into an exquisite piece of
-                      jewelry.
+                      Velit veniam ipsa sit nihil blanditiis mollitia natus.
                     </p>
                   </a>
                 </li>
-                <li
-                  class="nav-item mt-2"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
+                <li class="nav-item mt-2">
                   <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-                    <h4>Fast, Secure Delivery</h4>
+                    <h4>Nostrum qui quasi</h4>
                     <p>
-                      With our fast and secure delivery service, your exclusive
-                      items are safely delivered to your doorstep in no time.
+                      Ratione hic sapiente nostrum doloremque illum nulla
+                      praesentium id
                     </p>
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in">
+            <div class="col-lg-7 ml-auto" data-aos="fade-left">
               <div class="tab-content">
                 <div class="tab-pane active show" id="tab-1">
                   <figure>
                     <img
                       src="assets/img/features-1.jpg"
-                      alt="Sophisticated shopping experience"
+                      alt=""
                       class="img-fluid"
                     />
                   </figure>
@@ -265,7 +292,7 @@
                   <figure>
                     <img
                       src="assets/img/features-2.jpg"
-                      alt="Quality exclusive jewelry"
+                      alt=""
                       class="img-fluid"
                     />
                   </figure>
@@ -274,7 +301,7 @@
                   <figure>
                     <img
                       src="assets/img/features-3.jpg"
-                      alt="Expert jewelry design advice"
+                      alt=""
                       class="img-fluid"
                     />
                   </figure>
@@ -283,7 +310,7 @@
                   <figure>
                     <img
                       src="assets/img/features-4.jpg"
-                      alt="Fast, secure delivery"
+                      alt=""
                       class="img-fluid"
                     />
                   </figure>
@@ -295,239 +322,222 @@
       </section>
       <!-- End Features Section -->
 
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6" data-aos="zoom-in">
-              <img src="assets/img/about.jpg" class="img-fluid" alt="" />
-            </div>
-            <div
-              class="col-lg-6 d-flex flex-column justify-contents-center"
-              data-aos="fade-left"
-            >
-              <div class="content pt-4 pt-lg-0">
-                <h3>Insight into RoyalBijoux</h3>
-                <p class="fst-italic">
-                  At RoyalBijoux, we believe that every individual should have
-                  access to exclusive jewelry that enhances their elegance and
-                  class. We focus on delivering pieces that add charm and luxury
-                  to your personality.
-                </p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check-circle"></i> High-end, environmentally
-                    responsible jewelry.
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> A wide range of
-                    offerings, from custom designs to elegant accessories.
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Our customers are our
-                    priority, ensuring a personalized and exclusive shopping
-                    experience.
-                  </li>
-                </ul>
-                <p>
-                  RoyalBijoux is dedicated to transforming your jewelry
-                  experience, delivering unmatched quality and exclusive designs
-                  tailored to your unique style and preference.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End About Section -->
-
-      <!-- ======= Clients Section ======= -->
-      <section id="clients" class="clients">
-        <div class="container">
-          <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo" data-aos="zoom-in">
-                <img
-                  src="assets/img/clients/client-1.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
-                <img
-                  src="assets/img/clients/client-2.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
-                <img
-                  src="assets/img/clients/client-3.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
-                <img
-                  src="assets/img/clients/client-4.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo" data-aos="zoom-in" data-aos-delay="250">
-                <img
-                  src="assets/img/clients/client-5.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo" data-aos="zoom-in" data-aos-delay="300">
-                <img
-                  src="assets/img/clients/client-6.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo" data-aos="zoom-in" data-aos-delay="350">
-                <img
-                  src="assets/img/clients/client-7.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div
-              class="col-lg-3 col-md-4 col-xs-6"
-              data-aos="zoom-in"
-              data-aos-delay="400"
-            >
-              <div class="client-logo">
-                <img
-                  src="assets/img/clients/client-8.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Clients Section -->
-
-      <!-- ======= Pricing Section ======= -->
-      <section id="pricing" class="pricing section-bg">
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services section-bg">
         <div class="container">
           <div class="section-title" data-aos="fade-up">
-            <h2>Our Luxury Collection</h2>
+            <h2>Services</h2>
             <p>
-              RoyalBijoux offers an exquisite selection of luxury jewelry and
-              accessories, designed with sheer craftsmanship and world-class
-              design. Each exclusive piece resonates with elegance,
-              sophistication, and fashion-forward styling. Discover our bespoke
-              collection designed to cater to the elite.
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
           </div>
+
           <div class="row">
-            <div class="col-lg-3 col-md-6">
-              <div class="box" data-aos="zoom-in">
-                <h3>Diamond Jewelry</h3>
-                <h4><sup>$</sup>5000<span> / item</span></h4>
-                <ul>
-                  <li>Necklaces</li>
-                  <li>Rings</li>
-                  <li>Earrings</li>
-                  <li class="na">Bespoke Sets</li>
-                  <li class="na">Custom Designs</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Buy Now</a>
-                </div>
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              data-aos="fade-up"
+            >
+              <div class="icon-box icon-box-pink">
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <h4 class="title"><a href="#contact">Lorem Ipsum</a></h4>
+                <p class="description">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate
+                </p>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-              <div class="box featured" data-aos="zoom-in" data-aos-delay="100">
-                <h3>Precious Gemstones</h3>
-                <h4><sup>$</sup>3000<span> / piece</span></h4>
-                <ul>
-                  <li>Ruby</li>
-                  <li>Emerald</li>
-                  <li>Sapphire</li>
-                  <li>Alexandrite</li>
-                  <li class="na">Custom-cut</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Buy Now</a>
-                </div>
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon-box icon-box-cyan">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4 class="title">
+                  <a href="#contact">Sed ut perspiciatis</a>
+                </h4>
+                <p class="description">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla
+                </p>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-              <div class="box" data-aos="zoom-in" data-aos-delay="200">
-                <h3>Gold Collectibles</h3>
-                <h4><sup>$</sup>2000<span> / item</span></h4>
-                <ul>
-                  <li>Bracelets</li>
-                  <li>Bangles</li>
-                  <li>Charms</li>
-                  <li>Coins</li>
-                  <li>Watches</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Buy Now</a>
-                </div>
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon-box icon-box-green">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4 class="title"><a href="#contact">Magni Dolores</a></h4>
+                <p class="description">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim
+                </p>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-              <div class="box" data-aos="zoom-in" data-aos-delay="300">
-                <span class="advanced">Elite</span>
-                <h3>Royal Collection</h3>
-                <h4><sup>$</sup>10,000<span> / item</span></h4>
-                <ul>
-                  <li>Tiaras</li>
-                  <li>Crown Jewels</li>
-                  <li>Signature Seriers</li>
-                  <li>Heirloom Collections</li>
-                  <li>Exceptional Diamonds</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">Buy Now</a>
-                </div>
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="icon-box icon-box-blue">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4 class="title"><a href="#contact">Nemo Enim</a></h4>
+                <p class="description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Pricing Section -->
+      <!-- End Services Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Testimonials</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div
+            class="testimonials-slider swiper"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum suscipit rhoncus. Accusantium quam,
+                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                    risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/man-1.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse
+                    labore quem cillum quid cillum eram malis quorum velit fore
+                    eram velit sunt aliqua noster fugiat irure amet legam anim
+                    culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/woman-2.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim
+                    sint quorum nulla quem veniam duis minim tempor labore quem
+                    eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/woman-3.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                    multos export minim fugiat minim velit minim dolor enim duis
+                    veniam ipsum anim magna sunt elit fore quem dolore labore
+                    illum veniam.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/man-4.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure
+                    aliqua veniam tempor noster veniam enim culpa labore duis
+                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
+                    fore nisi cillum quid.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/man-5.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
 
       <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio">
+      <section id="portfolio" class="portfolio section-bg">
         <div class="container">
-          <div
-            class="row portfolio-container"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <div class="section-title" data-aos="fade-up">
+            <h2>Gallery</h2>
+          </div>
+
+          <div class="row portfolio-container" data-aos="fade-up">
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
                 <img
@@ -587,333 +597,63 @@
                 />
               </div>
             </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-7.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-8.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-9.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!-- End Portfolio Section -->
 
-      <!-- ======= Cta Section ======= -->
-      <section id="cta" class="cta">
-        <div class="container">
-          <div class="row" data-aos="zoom-in">
-            <div class="col-lg-9 text-center text-lg-start">
-              <h3>Experience Opulent Elegance!</h3>
-              <p>
-                Elevate your style with RoyalBijoux. We transform every ensemble
-                into a statement of sophistication with our exclusive range of
-                luxurious and aesthetically enchanting jewelry. Don't miss out,
-                let RoyalBijoux add a regal touch to your collection.
-              </p>
-            </div>
-            <div class="col-lg-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle" href="#contact"
-                >Start Shopping Now</a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Cta Section -->
-
-      <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials">
-        <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <h2>Testimonials</h2>
-            <p>
-              Embrace the luxury of RoyalBijoux, your ultimate destination for
-              exclusive jewelry and accessories. Explore our curated selection
-              of high-quality items designed to add a royal touch to your
-              persona. Hear what our esteemed customers have to say about their
-              experiences with RoyalBijoux.
-            </p>
-          </div>
-          <div
-            class="testimonials-slider swiper"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    RoyalBijoux is my go-to destination for luxury adornments.
-                    Their products exude top-tier quality and elegance. Their
-                    wide range of options leaves me spoilt for choice every
-                    time.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/testimonials/man-1.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Anthony Bridges</h3>
-                  <h4>Investment Banker</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    RoyalBijoux has the finest collection of jewelry. It’s my
-                    top choice when I need that special piece to complete my
-                    outfit. Their products always add a touch of royalty to my
-                    ensemble.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/testimonials/woman-1.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Victoria Dawson</h3>
-                  <h4>Fashion Editor</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Shopping at RoyalBijoux has always been an absolute delight.
-                    Their customer service is commendable, and they go out of
-                    their way to ensure I'm pleased with my purchase.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/testimonials/woman-2.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Isabella Murphy</h3>
-                  <h4>Celebrity Stylist</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    I can’t recommend RoyalBijoux enough. Their products are of
-                    unparalleled quality and make the perfect addition to my
-                    jewelry collection. I look forward to shopping with them
-                    again soon.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/testimonials/man-2.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>William Foster</h3>
-                  <h4>Private Equity Advisor</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    The passion and dedication that RoyalBijoux puts into their
-                    products show in every piece I've bought. They've become a
-                    beloved part of my personal style.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/testimonials/man-3.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Henry Parker</h3>
-                  <h4>Event Organiser</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- End Testimonials Section -->
-
-      <!-- ======= F.A.Q Section ======= -->
-      <section id="faq" class="faq">
-        <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <h2>FAQs</h2>
-          </div>
-
-          <ul class="faq-list">
-            <li>
-              <div
-                data-bs-toggle="collapse"
-                class="collapsed question"
-                href="#faq1"
-              >
-                Do you provide jewellery care and maintenance advice?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Absolutely! Our jewelry experts are available to guide you on
-                  how best to take care of your RoyalBijoux pieces to ensure
-                  their longevity.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq2"
-                class="collapsed question"
-              >
-                Can I purchase items online?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Yes, we offer a sophisticated online platform. Select your
-                  desired items, add them to your cart, and proceed with a
-                  secure checkout process.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq3"
-                class="collapsed question"
-              >
-                What if I need to cancel my order?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  If a cancellation is necessary, please reach out to our
-                  customer service within 24 hours of your purchase. We'll do
-                  our utmost to assist with your request.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq4"
-                class="collapsed question"
-              >
-                Where do you source your materials?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  At RoyalBijoux, all our materials are ethically sourced from
-                  reputed suppliers passionate about quality, sustainability,
-                  and fair-trade practices.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq5"
-                class="collapsed question"
-              >
-                Can I have custom jewelry made?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Yes, we offer a bespoke service. If you desire unique or
-                  custom pieces, feel free to consult with our design team for a
-                  tailored experience.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq6"
-                class="collapsed question"
-              >
-                Do you also have men's collections?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Certainly! RoyalBijoux takes pride in offering a wide range of
-                  jewelry pieces designed with a masculine touch, highlighting
-                  both elegance and robust charm.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- End Frequently Asked Questions Section -->
-
       <!-- ======= Team Section ======= -->
       <section id="team" class="team">
         <div class="container">
           <div class="section-title" data-aos="fade-up">
-            <h2>Our Team</h2>
+            <h2>Team</h2>
             <p>
-              Meet the dedicated team behind RoyalBijoux. Each of our
-              professionals is committed to the craft, working diligently to
-              create stunning pieces of art that evoke a sense of royal
-              elegance.
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
           </div>
+
           <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="member" data-aos="zoom-in">
-                <div class="pic">
-                  <img
-                    src="assets/img/team/man-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
+            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
+              <div class="member">
+                <img src="assets/img/team/man-1.jpg" class="img-fluid" alt="" />
                 <div class="member-info">
-                  <h4>Howard Stone</h4>
-                  <span>Founder & CEO</span>
-                  <div class="social">
-                    <a href="#contact"><i class="bi bi-twitter"></i></a>
-                    <a href="#contact"><i class="bi bi-facebook"></i></a>
-                    <a href="#contact"><i class="bi bi-instagram"></i></a>
-                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
+                  <div class="member-info-content">
+                    <h4>Walter White</h4>
+                    <span>Chief Executive Officer</span>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <div class="pic">
-                  <img
-                    src="assets/img/team/woman-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="member-info">
-                  <h4>Suzanne Harper</h4>
-                  <span>Chief Artisan</span>
                   <div class="social">
                     <a href="#contact"><i class="bi bi-twitter"></i></a>
                     <a href="#contact"><i class="bi bi-facebook"></i></a>
@@ -924,18 +664,70 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
-              <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                <div class="pic">
-                  <img
-                    src="assets/img/team/man-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
+            <div
+              class="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member">
+                <img
+                  src="assets/img/team/woman-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
                 <div class="member-info">
-                  <h4>Richard Loft</h4>
-                  <span>Marketing Manager</span>
+                  <div class="member-info-content">
+                    <h4>Sarah Jhonson</h4>
+                    <span>Product Manager</span>
+                  </div>
+                  <div class="social">
+                    <a href="#contact"><i class="bi bi-twitter"></i></a>
+                    <a href="#contact"><i class="bi bi-facebook"></i></a>
+                    <a href="#contact"><i class="bi bi-instagram"></i></a>
+                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="member">
+                <img src="assets/img/team/man-3.jpg" class="img-fluid" alt="" />
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>William Anderson</h4>
+                    <span>CTO</span>
+                  </div>
+                  <div class="social">
+                    <a href="#contact"><i class="bi bi-twitter"></i></a>
+                    <a href="#contact"><i class="bi bi-facebook"></i></a>
+                    <a href="#contact"><i class="bi bi-instagram"></i></a>
+                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member">
+                <img
+                  src="assets/img/team/woman-4.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Amanda Jepson</h4>
+                    <span>Accountant</span>
+                  </div>
                   <div class="social">
                     <a href="#contact"><i class="bi bi-twitter"></i></a>
                     <a href="#contact"><i class="bi bi-facebook"></i></a>
@@ -950,53 +742,196 @@
       </section>
       <!-- End Team Section -->
 
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact section-bg">
+      <!-- ======= F.A.Q Section ======= -->
+      <section id="faq" class="faq section-bg">
         <div class="container">
           <div class="section-title" data-aos="fade-up">
-            <h2>Contact Us</h2>
+            <h2>F.A.Q</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
           </div>
 
-          <div class="row">
-            <div
-              class="col-lg-5 d-flex align-items-stretch"
-              data-aos="fade-right"
-            >
+          <div class="faq-list">
+            <ul>
+              <li data-aos="fade-up">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  class="collapse"
+                  data-bs-target="#faq-list-1"
+                  >Non consectetur a erat nam at lectus urna duis?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-1"
+                  class="collapse show"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                    volutpat lacus laoreet non curabitur gravida. Venenatis
+                    lectus magna fringilla urna porttitor rhoncus dolor purus
+                    non.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-2"
+                  class="collapsed"
+                  >Feugiat scelerisque varius morbi enim nunc?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-2"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque
+                    habitant morbi. Id interdum velit laoreet id donec ultrices.
+                    Fringilla phasellus faucibus scelerisque eleifend donec
+                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                    ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="200">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-3"
+                  class="collapsed"
+                  >Dolor sit amet consectetur adipiscing elit?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-3"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                    sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                    nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                    pellentesque eu tincidunt. Lectus urna duis convallis
+                    convallis tellus. Urna molestie at elementum eu facilisis
+                    sed odio morbi quis
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="300">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-4"
+                  class="collapsed"
+                  >Tempus quam pellentesque nec nam aliquam sem et tortor
+                  consequat? <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-4"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Molestie a iaculis at erat pellentesque adipiscing commodo.
+                    Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                    viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                    bibendum est. Purus gravida quis blandit turpis cursus in.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="400">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-5"
+                  class="collapsed"
+                  >Tortor vitae purus faucibus ornare. Varius vel pharetra vel
+                  turpis nunc eget lorem dolor?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-5"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Laoreet sit amet cursus sit amet dictum sit amet justo.
+                    Mauris vitae ultricies leo integer malesuada nunc vel.
+                    Tincidunt eget nullam non nisi est sit amet. Turpis nunc
+                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate
+                    eu scelerisque.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- End F.A.Q Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Contact</h2>
+          </div>
+
+          <div class="row no-gutters justify-content-center" data-aos="fade-up">
+            <div class="col-lg-5 d-flex align-items-stretch">
               <div class="info">
                 <div class="address">
                   <i class="bi bi-geo-alt"></i>
                   <h4>Location:</h4>
-                  <p>1228 S LELAND AVE WEST COVINA CA 91790-2429 USA</p>
+                  <p>909 MONTANA AVE SANTA MONICA CA 90403-1512 USA</p>
                 </div>
 
-                <div class="email">
+                <div class="email mt-4">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>info@RoyalBijoux.com</p>
+                  <p>info@LeafSculpt.com</p>
                 </div>
 
-                <div class="phone">
+                <div class="phone mt-4">
                   <i class="bi bi-phone"></i>
                   <h4>Call:</h4>
                   <p>+1 5589 55488 55</p>
                 </div>
-
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.0491419285395!2d-117.9577015!3d34.06825450000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2d7ba8d2e7279%3A0x7dd26f4f7c8ddb32!2zMTIyOCBTIExlbGFuZCBBdmUsIFdlc3QgQ292aW5hLCBDQSA5MTc5MCwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1697109491632!5m2!1sru!2sby"
-                  width="100%"
-                  height="400"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
               </div>
             </div>
 
-            <div
-              class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch"
-              data-aos="fade-left"
-            >
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.5894377204854!2d-118.49985210000001!3d34.0287481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4b98df0c23d%3A0xb9ffddf51f4a12d7!2zOTA5IE1vbnRhbmEgQXZlLCBTYW50YSBNb25pY2EsIENBIDkwNDAzLCDQodCo0JA!5e0!3m2!1sru!2sby!4v1697182806322!5m2!1sru!2sby"
+                width="100%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="row mt-5 justify-content-center" data-aos="fade-up">
+            <div class="col-lg-10">
               <form
                 action="forms/contact.php"
                 method="post"
@@ -1004,43 +939,43 @@
                 class="php-email-form"
               >
                 <div class="row">
-                  <div class="form-group col-md-6">
-                    <label for="name">Your Name</label>
+                  <div class="col-md-6 form-group">
                     <input
                       type="text"
                       name="name"
                       class="form-control"
                       id="name"
+                      placeholder="Your Name"
                       required
                     />
                   </div>
-                  <div class="form-group col-md-6 mt-3 mt-md-0">
-                    <label for="name">Your Email</label>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
                     <input
                       type="email"
                       class="form-control"
                       name="email"
                       id="email"
+                      placeholder="Your Email"
                       required
                     />
                   </div>
                 </div>
                 <div class="form-group mt-3">
-                  <label for="name">Subject</label>
                   <input
                     type="text"
                     class="form-control"
                     name="subject"
                     id="subject"
+                    placeholder="Subject"
                     required
                   />
                 </div>
                 <div class="form-group mt-3">
-                  <label for="name">Message</label>
                   <textarea
                     class="form-control"
                     name="message"
-                    rows="10"
+                    rows="5"
+                    placeholder="Message"
                     required
                   ></textarea>
                 </div>
@@ -1070,11 +1005,11 @@
           <div class="row">
             <div class="col-lg-3 col-md-6">
               <div class="footer-info">
-                <h3>RoyalBijoux</h3>
+                <h3>LeafSculpt</h3>
                 <p>
-                  1228 S LELAND AVE WEST COVINA CA 91790-2429 USA<br />
+                  909 MONTANA AVE SANTA MONICA CA 90403-1512 USA<br />
                   <strong>Phone:</strong> +1 5589 55488 55<br />
-                  <strong>Email:</strong> info@RoyalBijoux.com<br />
+                  <strong>Email:</strong> info@LeafSculpt.com<br />
                 </p>
                 <div class="social-links mt-3">
                   <a href="#contact" class="twitter"
@@ -1133,7 +1068,7 @@
 
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>RoyalBijoux</span></strong
+          &copy; Copyright <strong><span>LeafSculpt</span></strong
           >. All Rights Reserved
         </div>
       </div>
