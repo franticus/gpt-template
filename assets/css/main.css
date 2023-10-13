@@ -5,7 +5,7 @@ ul {
 }
 
 iframe {
-  margin-top: 20px;
+  // margin-top: 20px;
   border-radius: 20px;
 }
 
@@ -117,7 +117,7 @@ iframe {
 }
 
 .img-fluid {
-  border: 2px solid #eee;
+  border: 6px solid #18d26e;
   border-radius: 20px;
 }
 
