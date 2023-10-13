@@ -1,7 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background: #67ddb6;
+  background: #81fff5;
 }
 
 a {
@@ -371,7 +371,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(17, 71, 78, 0.4);
+  background: rgba(23, 94, 103, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -451,7 +451,10 @@ section {
 }
 
 .section-bg {
-  background-color: #64ffe9;
+  background-color: #79d8de;
+  opacity: 1;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(45deg, #72ccd3 0, #72ccd3 1px, #79d8de 0, #79d8de 50%);
 }
 
 .section-title {
