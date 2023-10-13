@@ -366,7 +366,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(94vh - 70px);
+  height: calc(100vh - 70px);
   background: url("../img/hero-bg.jpg") center center;
   background-size: cover;
   position: relative;
@@ -376,7 +376,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(14, 9, 53, 0.7);
+  background: rgba(0, 0, 0, 0.9);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -398,8 +398,9 @@ h6 {
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 35px;
+  margin: 40px auto;
   font-size: 24px;
+  max-width: 800px;
 }
 
 #hero .btn-get-started {
@@ -677,7 +678,6 @@ section {
   position: relative;
   overflow: hidden;
   margin: 0;
-  background: #fff;
   transition: all 0.3s ease-in-out;
   border-radius: 15px;
   text-align: center;
@@ -701,14 +701,14 @@ section {
 }
 
 .services .title a {
-  color: #111;
+  color: #fff;
 }
 
 .services .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
-  color: #111;
+  color: #fff;
 }
 
 .services .icon-box-pink .icon i {
@@ -742,11 +742,10 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
-  border-radius: 50%;
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
-  border: 6px solid #fff;
+  border: 2px solid #fff;
 }
 
 .testimonials .testimonial-item h3 {
@@ -785,8 +784,7 @@ section {
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background: #eff7f6;
-  color: #111;
+  color: #fff;
   min-height: 200px;
   position: relative;
   border-radius: 6px;
@@ -1096,7 +1094,7 @@ section {
 }
 
 .team .member:hover .member-info {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(60, 42, 133, 0.8) 20%, rgba(43, 0, 255, 0) 100%);
+  background: linear-gradient(0deg, rgba(24, 63, 50, 0.9) 0%, rgba(42, 133, 77, 0.8) 20%, rgba(43, 0, 255, 0) 100%);
   opacity: 1;
   transition: 0.4s;
 }
@@ -1129,9 +1127,9 @@ section {
 
 .faq .faq-list li {
   padding: 20px;
-  background: #fff;
   border-radius: 4px;
   position: relative;
+  color: #fff;
 }
 
 .faq .faq-list a {
@@ -1165,7 +1163,7 @@ section {
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
-  color: #111;
+  color: #fff;
 }
 
 .faq .faq-list .icon-show {
@@ -1173,15 +1171,15 @@ section {
 }
 
 .faq .faq-list a {
-  color: #111;
+  color: #fff;
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: #eee;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #bba9fb;
+  color: #18d26e;
 }
 
 .faq .faq-list a.collapsed .icon-show {
