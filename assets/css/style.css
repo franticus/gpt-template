@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #222;
+  color: #000;
   background-color: #f7f1e6;
   opacity: 1;
   background-image: radial-gradient(circle at center center, #fffcf0, #f7f1e6), repeating-radial-gradient(circle at center center, #fffcf0, #fffcf0, 10px, transparent 20px, transparent 10px);
@@ -118,7 +118,7 @@ h6 {
   height: 70px;
   transition: all 0.5s;
   z-index: 997;
-  background: #fff;
+  background: #ffe9a4;
 }
 
 #header.header-fixed {
