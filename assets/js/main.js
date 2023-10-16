@@ -1,3 +1,10 @@
+/**
+* Template Name: Flexor
+* Updated: Sep 18 2023 with Bootstrap v5.3.2
+* Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 (function() {
   "use strict";
 
@@ -69,6 +76,26 @@
   }
 
   /**
+   * Header fixed top on scroll
+   */
+  let selectHeader = select('#header')
+  if (selectHeader) {
+    let headerOffset = selectHeader.offsetTop
+    let nextElement = selectHeader.nextElementSibling
+    const headerFixed = () => {
+      if ((headerOffset - window.scrollY) <= 0) {
+        selectHeader.classList.add('fixed-top')
+        nextElement.classList.add('scrolled-offset')
+      } else {
+        selectHeader.classList.remove('fixed-top')
+        nextElement.classList.remove('scrolled-offset')
+      }
+    }
+    window.addEventListener('load', headerFixed)
+    onscroll(document, headerFixed)
+  }
+
+  /**
    * Back to top button
    */
   let backtotop = select('.back-to-top')
@@ -133,6 +160,49 @@
   });
 
   /**
+   * Initiate glightbox 
+   */
+  const glightbox = GLightbox({
+    selector: '.glightbox'
+  });
+
+  /**
+   * Clients Slider
+   */
+  new Swiper('.clients-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 40
+      },
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 60
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 80
+      },
+      992: {
+        slidesPerView: 6,
+        spaceBetween: 120
+      }
+    }
+  });
+
+  /**
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
@@ -147,17 +217,6 @@
       el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-
-      1200: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      }
     }
   });
 

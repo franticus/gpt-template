@@ -5,8 +5,8 @@ ul {
 }
 
 iframe {
-  // margin-top: 20px;
-  border-radius: 20px;
+  margin-top: 40px;
+  border-radius: 0px;
 }
 
 #header .logo {
@@ -32,16 +32,16 @@ iframe {
 }
 
 .case-studies .color-cards .card-contents {
-  border-radius: 20px;
+  border-radius: 0px;
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card {
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 .customer-feedback .customer-cards {
-  border-radius: 20px;
+  border-radius: 0px;
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -53,17 +53,25 @@ iframe {
   position: fixed;
   bottom: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -10%);
   display: none;
   justify-content: center;
   width: 90%;
   max-width: 1000px;
   padding: 30px;
   box-sizing: border-box;
-  background: #fff;
-  border: 1px solid black;
-  border-radius: 20px;
+  background-color: #000000;
+  opacity: 1;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #0e173f 8px), repeating-linear-gradient(#22155055, #19064e);
+  border: 4px solid black;
+  border-radius: 12px;
   z-index: 999999;
+  transition: all 0.3s;
+}
+
+.warning:hover {
+  transform: translate(-50%, -10%) scale(1.05);
+  border: 4px solid #41aa4c;
 }
 
 .warning--active {
@@ -72,7 +80,7 @@ iframe {
 
 .warning__text {
   margin-right: 30px;
-  color: #111;
+  color: #fff;
 }
 
 .warning__read {
@@ -81,14 +89,19 @@ iframe {
 }
 
 .warning__apply {
-  border: 1px solid black;
+  border: none;
   border-radius: 12px;
-  background: #fff;
+  background: #222;
+  color: #fff;
   padding: 0 20px;
+  transition: all 0.3s;
 }
 
 .warning__apply:hover {
-  background: #cbffd0;
+  background: #41aa4c;
+  color: #fff;
+  transform: scale(1.1);
+  border: 4px solid #41aa4c;
 }
 
 @media (max-width: 756px) {
@@ -117,24 +130,24 @@ iframe {
 }
 
 .img-fluid {
-  border: 6px solid #18d26e;
-  border-radius: 20px;
+  // border: 6px solid #18d26e;
+  border-radius: 0px;
 }
 
 .info,
 .php-email-form {
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 .contact .info,
 .contact .php-email-form {
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 .info-box {
-  border-radius: 20px;
+  border-radius: 0px;
   background: #fff;
 }
 
@@ -150,9 +163,13 @@ iframe {
 .portfolio .portfolio-wrap,
 .team .member,
 .pricing .box {
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 .features .img-fluid {
   width: 100vw;
+}
+
+#footer .footer-newsletter form {
+  margin-top: 0;
 }

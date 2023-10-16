@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>ZoomCar</title>
+    <title>LittleWonders</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -35,10 +35,6 @@
       rel="stylesheet"
     />
     <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link
       href="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css"
       rel="stylesheet"
     />
@@ -48,13 +44,13 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js"></script>
 
-    <!-- Vendor JS Files -->
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js"></script>
-
-    <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -62,11 +58,33 @@
   </head>
 
   <body>
+    <!-- ======= Top Bar ======= -->
+    <section id="topbar" class="d-flex align-items-center">
+      <div
+        class="container d-flex justify-content-center justify-content-md-between"
+      >
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"
+            ><a href="mailto:contact@example.com"
+              >contact@LittleWonders.com</a
+            ></i
+          >
+          <i class="bi bi-phone d-flex align-items-center ms-4"
+            ><span>+1 5589 55488 55</span></i
+          >
+        </div>
+
+        <div class="cta d-none d-md-flex align-items-center">
+          <a href="#about" class="scrollto">Get Started</a>
+        </div>
+      </div>
+    </section>
+
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center">
-      <div class="container d-flex justify-content-between">
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
         <div class="logo">
-          <h1><a href="index.html">ZoomCar</a></h1>
+          <h1><a href="index.html">LittleWonders</a></h1>
         </div>
 
         <nav id="navbar" class="navbar">
@@ -74,7 +92,10 @@
             <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
             <li><a class="nav-link scrollto" href="#about">About</a></li>
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>
             <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -89,64 +110,140 @@
       id="hero"
       class="d-flex flex-column justify-content-center align-items-center"
     >
-      <div class="container text-center text-md-left" data-aos="zoom-in-right">
-        <h1>Welcome to ZoomCar</h1>
+      <div class="container" data-aos="fade-in">
+        <h1>Welcome to Flexor</h1>
         <h2>
-          Step into a world of comfort and convenience, where every journey is a
-          memorable voyage. Discover the freedom and flexibility our quality
-          cars can bring into your life.
+          We are team of talented designers making websites with Bootstrap
         </h2>
-        <a href="#about" class="btn-get-started scrollto"
-          >Start Your Driving Adventure</a
-        >
+        <div class="d-flex align-items-center">
+          <i class="bx bxs-right-arrow-alt get-started-icon"></i>
+          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        </div>
       </div>
     </section>
     <!-- End Hero -->
 
     <main id="main">
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
+      <!-- ======= Why Us Section ======= -->
+      <section id="why-us" class="why-us">
         <div class="container">
           <div class="row">
-            <div class="col-xl-6 col-lg-7" data-aos="fade-right">
-              <img
-                src="assets/img/about-img.jpg"
-                class="img-fluid"
-                alt="ZoomCar Luxury Vehicles"
-              />
-            </div>
-            <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
-              <h3 data-aos="fade-up">Drive with Elegance and Comfort</h3>
-              <p data-aos="fade-up">
-                At ZoomCar, we elevate your travel experience with our diverse
-                range of luxury vehicles that exude style and comfort.
-              </p>
-              <div class="icon-box" data-aos="fade-up">
-                <i class="bx bx-car"></i>
-                <h4>Exceptional Range of Vehicles</h4>
+            <div class="col-xl-4 col-lg-5" data-aos="fade-up">
+              <div class="content">
+                <h3>Why Choose Flexor for your company website?</h3>
                 <p>
-                  From sleek sports cars to spacious SUVs, ZoomCar offers an
-                  impeccable selection of vehicles that cater to all your travel
-                  needs.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Asperiores dolores sed et. Tenetur quia eos. Autem tempore
+                  quibusdam vel necessitatibus optio ad corporis.
+                </p>
+                <div class="text-center">
+                  <a href="#" class="more-btn"
+                    >Learn More <i class="bx bx-chevron-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-8 col-lg-7 d-flex">
+              <div class="icon-boxes d-flex flex-column justify-content-center">
+                <div class="row">
+                  <div
+                    class="col-xl-4 d-flex align-items-stretch"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="icon-box mt-4 mt-xl-0">
+                      <i class="bx bx-receipt"></i>
+                      <h4>Corporis voluptates sit</h4>
+                      <p>
+                        Consequuntur sunt aut quasi enim aliquam quae harum
+                        pariatur laboris nisi ut aliquip
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="col-xl-4 d-flex align-items-stretch"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <div class="icon-box mt-4 mt-xl-0">
+                      <i class="bx bx-cube-alt"></i>
+                      <h4>Ullamco laboris ladore pan</h4>
+                      <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="col-xl-4 d-flex align-items-stretch"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <div class="icon-box mt-4 mt-xl-0">
+                      <i class="bx bx-images"></i>
+                      <h4>Labore consequatur</h4>
+                      <p>
+                        Aut suscipit aut cum nemo deleniti aut omnis. Doloribus
+                        ut maiores omnis facere
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Why Us Section -->
+
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about section-bg">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative"
+              data-aos="fade-right"
+            ></div>
+
+            <div
+              class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
+            >
+              <h4 data-aos="fade-up">About us</h4>
+              <h3 data-aos="fade-up">
+                Enim quis est voluptatibus aliquid consequatur fugiat
+              </h3>
+              <p data-aos="fade-up">
+                Esse voluptas cumque vel exercitationem. Reiciendis est hic
+                accusamus. Non ipsam et sed minima temporibus laudantium. Soluta
+                voluptate sed facere corporis dolores excepturi. Libero
+                laboriosam sint et id nulla tenetur. Suscipit aut voluptate.
+              </p>
+
+              <div class="icon-box" data-aos="fade-up">
+                <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                <p class="description">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
                 </p>
               </div>
 
               <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <i class="bx bx-check-circle"></i>
-                <h4>Easy and Expedited Booking</h4>
-                <p>
-                  Our simplified booking process and dedicated team ensures a
-                  swift and customer-centric rental experience.
+                <div class="icon"><i class="bx bx-gift"></i></div>
+                <h4 class="title"><a href="">Nemo Enim</a></h4>
+                <p class="description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
                 </p>
               </div>
 
               <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                <i class="bx bx-shield"></i>
-                <h4>Safety and Assurance</h4>
-                <p>
-                  Each ZoomCar vehicle goes through an extensive care and
-                  maintenance system, ensuring safe and reliable rides for all
-                  our customers.
+                <div class="icon"><i class="bx bx-atom"></i></div>
+                <h4 class="title"><a href="">Dine Pad</a></h4>
+                <p class="description">
+                  Explicabo est voluptatum asperiores consequatur magnam. Et
+                  veritatis odit. Sunt aut deserunt minus aut eligendi omnis
                 </p>
               </div>
             </div>
@@ -155,219 +252,73 @@
       </section>
       <!-- End About Section -->
 
-      <!-- ======= Steps Section ======= -->
-      <section id="steps" class="steps section-bg">
-        <div class="container">
-          <div class="row no-gutters">
-            <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
-              <span>01</span>
-              <h4>Choose Your Vehicle</h4>
-              <p>
-                Browse through our exceptional range of luxury vehicles to find
-                the right fit for your journey.
-              </p>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 content-item"
-              data-aos="fade-in"
-              data-aos-delay="100"
-            >
-              <span>02</span>
-              <h4>Make a Reservation</h4>
-              <p>
-                Book your preferred vehicle online or over the phone swiftly and
-                simply.
-              </p>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 content-item"
-              data-aos="fade-in"
-              data-aos-delay="200"
-            >
-              <span>03</span>
-              <h4>Pick Up Your Vehicle</h4>
-              <p>
-                Collect your ZoomCar from our local branch or have it
-                conveniently delivered to your location.
-              </p>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 content-item"
-              data-aos="fade-in"
-              data-aos-delay="300"
-            >
-              <span>04</span>
-              <h4>Drive Smoothly</h4>
-              <p>
-                Enjoy a seamless driving experience with our well-maintained and
-                fully equipped vehicles.
-              </p>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 content-item"
-              data-aos="fade-in"
-              data-aos-delay="400"
-            >
-              <span>05</span>
-              <h4>Return Your Vehicle</h4>
-              <p>
-                Return your ZoomCar at one of our drop-off points or schedule a
-                pickup from your location.
-              </p>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 content-item"
-              data-aos="fade-in"
-              data-aos-delay="500"
-            >
-              <span>06</span>
-              <h4>Exemplary Service</h4>
-              <p>
-                Benefit from our exceptional customer service that aims to
-                provide an enriching rental experience.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Steps Section -->
-
-      <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio section-bg">
-        <div class="container">
-          <div class="row portfolio-container" data-aos="fade-up">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
+      <!-- ======= Clients Section ======= -->
+      <section id="clients" class="clients">
+        <div class="container" data-aos="fade-up">
+          <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
                 <img
-                  src="assets/img/portfolio/portfolio-4.jpg"
+                  src="assets/img/clients/client-1.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-2.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-3.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-4.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-5.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-6.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-7.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-8.png"
                   class="img-fluid"
                   alt=""
                 />
               </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-5.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-6.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
-      <!-- End Portfolio Section -->
-
-      <!-- ======= Features Section ======= -->
-      <section id="features" class="features">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
-              <ul class="nav nav-tabs flex-column">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active show"
-                    data-bs-toggle="tab"
-                    href="#tab-1"
-                  >
-                    <h4>Impressive Fleet</h4>
-                    <p>
-                      Our diverse fleet of vehicles ensures a luxurious drive
-                      for every trip, be it business or pleasure.
-                    </p>
-                  </a>
-                </li>
-                <li class="nav-item mt-2">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-                    <h4>Smooth Reservations</h4>
-                    <p>
-                      We prioritize convenience and speed in our booking
-                      process, ensuring an effortless reservation experience.
-                    </p>
-                  </a>
-                </li>
-                <li class="nav-item mt-2">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-                    <h4>Safety First</h4>
-                    <p>
-                      Committed to safety, all our vehicles undergo regular
-                      checks and maintenance to assure a worry-free journey.
-                    </p>
-                  </a>
-                </li>
-                <li class="nav-item mt-2">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-                    <h4>Premium Customer Service</h4>
-                    <p>
-                      Our dedicated team of customer service professionals is
-                      always ready to assist you for a seamless rental
-                      experience.
-                    </p>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-7 ml-auto" data-aos="fade-left">
-              <div class="tab-content">
-                <div class="tab-pane active show" id="tab-1">
-                  <figure>
-                    <img
-                      src="assets/img/features-1.jpg"
-                      alt="Impressive Fleet"
-                      class="img-fluid"
-                    />
-                  </figure>
-                </div>
-                <div class="tab-pane" id="tab-2">
-                  <figure>
-                    <img
-                      src="assets/img/features-2.jpg"
-                      alt="Smooth Reservations"
-                      class="img-fluid"
-                    />
-                  </figure>
-                </div>
-                <div class="tab-pane" id="tab-3">
-                  <figure>
-                    <img
-                      src="assets/img/features-3.jpg"
-                      alt="Safety First"
-                      class="img-fluid"
-                    />
-                  </figure>
-                </div>
-                <div class="tab-pane" id="tab-4">
-                  <figure>
-                    <img
-                      src="assets/img/features-4.jpg"
-                      alt="Premium Customer Service"
-                      class="img-fluid"
-                    />
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Features Section -->
+      <!-- End Clients Section -->
 
       <!-- ======= Services Section ======= -->
       <section id="services" class="services section-bg">
@@ -375,67 +326,91 @@
           <div class="section-title" data-aos="fade-up">
             <h2>Services</h2>
             <p>
-              Enjoy the benefits of ZoomCar's extensive services designed to
-              cater to your personalized travel needs.
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
           </div>
 
           <div class="row">
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-              data-aos="fade-up"
-            >
-              <div class="icon-box icon-box-pink">
-                <div class="icon"><i class="bx bx-car"></i></div>
-                <h4 class="title"><a href="">Extensive Vehicle Range</a></h4>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-briefcase"></i></div>
+                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
                 <p class="description">
-                  Choose from our broad selection of high-performance vehicles
-                  for an unparalleled driving experience.
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
                 </p>
               </div>
             </div>
-
             <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              class="col-lg-4 col-md-6"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <div class="icon-box icon-box-cyan">
-                <div class="icon"><i class="bx bx-calendar-edit"></i></div>
-                <h4 class="title"><a href="">Flexible Booking</a></h4>
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                <h4 class="title"><a href="">Dolor Sitema</a></h4>
                 <p class="description">
-                  Schedule your vehicle booking as per your convenience with our
-                  easy and user-friendly reservation process.
+                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat tarad limino ata
                 </p>
               </div>
             </div>
-
             <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              class="col-lg-4 col-md-6"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <div class="icon-box icon-box-green">
-                <div class="icon"><i class="bx bx-support"></i></div>
-                <h4 class="title"><a href="">24/7 Customer Support</a></h4>
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-bar-chart"></i></div>
+                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
                 <p class="description">
-                  Our dedicated customer service is available round the clock to
-                  assist you with any rental inquiries.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur
                 </p>
               </div>
             </div>
-
             <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+              class="col-lg-4 col-md-6"
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              <div class="icon-box icon-box-blue">
-                <div class="icon"><i class="bx bx-drop"></i></div>
-                <h4 class="title"><a href="">Comprehensive Insurance</a></h4>
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-binoculars"></i></div>
+                <h4 class="title"><a href="">Magni Dolores</a></h4>
                 <p class="description">
-                  We ensure all our vehicles are covered under comprehensive
-                  insurance for the complete peace of mind of our clients.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-brightness-high"></i></div>
+                <h4 class="title"><a href="">Nemo Enim</a></h4>
+                <p class="description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+                <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+                <p class="description">
+                  Et harum quidem rerum facilis est et expedita distinctio. Nam
+                  libero tempore, cum soluta nobis est eligendi
                 </p>
               </div>
             </div>
@@ -444,108 +419,86 @@
       </section>
       <!-- End Services Section -->
 
-      <!-- ======= Team Section ======= -->
-      <section id="team" class="team">
+      <!-- ======= Values Section ======= -->
+      <section id="values" class="values">
         <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <h2>Our Team</h2>
-            <p>
-              At ZoomCar, our dedicated team of professionals aligns passion,
-              industry knowledge, and experience to ensure the best-in-class car
-              rental experience for our customers. With our commitment to
-              excellence, we guarantee complete customer satisfaction - every
-              ride, every time.
-            </p>
-          </div>
-
           <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
-              <div class="member">
-                <img src="assets/img/team/man-1.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>James Peterson</h4>
-                    <span>CEO and Founder</span>
-                  </div>
-                  <div class="social">
-                    <a href="#contact"><i class="bi bi-twitter"></i></a>
-                    <a href="#contact"><i class="bi bi-facebook"></i></a>
-                    <a href="#contact"><i class="bi bi-instagram"></i></a>
-                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
+            <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+              <div
+                class="card"
+                style="background-image: url(assets/img/values-1.jpg)"
+              >
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">Our Mission</a></h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                    tempor ut labore et dolore magna aliqua.
+                  </p>
+                  <div class="read-more">
+                    <a href="#"><i class="bi bi-arrow-right"></i> Read More</a>
                   </div>
                 </div>
               </div>
             </div>
-
             <div
-              class="col-xl-3 col-lg-4 col-md-6"
+              class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <div class="member">
-                <img
-                  src="assets/img/team/woman-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Lisa Harper</h4>
-                    <span>Customer Service Manager</span>
-                  </div>
-                  <div class="social">
-                    <a href="#contact"><i class="bi bi-twitter"></i></a>
-                    <a href="#contact"><i class="bi bi-facebook"></i></a>
-                    <a href="#contact"><i class="bi bi-instagram"></i></a>
-                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
+              <div
+                class="card"
+                style="background-image: url(assets/img/values-2.jpg)"
+              >
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">Our Plan</a></h5>
+                  <p class="card-text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem doloremque laudantium, totam rem.
+                  </p>
+                  <div class="read-more">
+                    <a href="#"><i class="bi bi-arrow-right"></i> Read More</a>
                   </div>
                 </div>
               </div>
             </div>
-
             <div
-              class="col-xl-3 col-lg-4 col-md-6"
+              class="col-md-6 d-flex align-items-stretch mt-4"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <div class="member">
-                <img src="assets/img/team/man-3.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mark Johnson</h4>
-                    <span>Fleet Manager</span>
-                  </div>
-                  <div class="social">
-                    <a href="#contact"><i class="bi bi-twitter"></i></a>
-                    <a href="#contact"><i class="bi bi-facebook"></i></a>
-                    <a href="#contact"><i class="bi bi-instagram"></i></a>
-                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
+              <div
+                class="card"
+                style="background-image: url(assets/img/values-3.jpg)"
+              >
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">Our Vision</a></h5>
+                  <p class="card-text">
+                    Nemo enim ipsam voluptatem quia voluptas sit aut odit aut
+                    fugit, sed quia magni dolores.
+                  </p>
+                  <div class="read-more">
+                    <a href="#"><i class="bi bi-arrow-right"></i> Read More</a>
                   </div>
                 </div>
               </div>
             </div>
-
             <div
-              class="col-xl-3 col-lg-4 col-md-6"
+              class="col-md-6 d-flex align-items-stretch mt-4"
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              <div class="member">
-                <img
-                  src="assets/img/team/woman-4.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Susan Williams</h4>
-                    <span>Car Maintenance Head</span>
-                  </div>
-                  <div class="social">
-                    <a href="#contact"><i class="bi bi-twitter"></i></a>
-                    <a href="#contact"><i class="bi bi-facebook"></i></a>
-                    <a href="#contact"><i class="bi bi-instagram"></i></a>
-                    <a href="#contact"><i class="bi bi-linkedin"></i></a>
+              <div
+                class="card"
+                style="background-image: url(assets/img/values-4.jpg)"
+              >
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">Our Care</a></h5>
+                  <p class="card-text">
+                    Nostrum eum sed et autem dolorum perspiciatis. Magni porro
+                    quisquam laudantium voluptatem.
+                  </p>
+                  <div class="read-more">
+                    <a href="#"><i class="bi bi-arrow-right"></i> Read More</a>
                   </div>
                 </div>
               </div>
@@ -553,161 +506,11 @@
           </div>
         </div>
       </section>
-      <!-- End Team Section -->
-
-      <!-- ======= F.A.Q Section ======= -->
-      <section id="faq" class="faq section-bg">
-        <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <h2>Frequently Asked Questions</h2>
-            <p>
-              Renting a car can sometimes bring up a lot of questions - that's
-              why we've compiled a list of FAQs to help you understand the
-              ZoomCar process better.
-            </p>
-          </div>
-
-          <div class="faq-list">
-            <ul>
-              <li data-aos="fade-up">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  class="collapse"
-                  data-bs-target="#faq-list-1"
-                >
-                  Which types of cars does ZoomCar provide for renting?
-                  <i class="bx bx-chevron-down icon-show"></i>
-                  <i class="bx bx-chevron-up icon-close"></i>
-                </a>
-                <div
-                  id="faq-list-1"
-                  class="collapse show"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    ZoomCar has a wide range of vehicles to suit your needs.
-                    From economy cars to luxury vehicles and SUVs, we have you
-                    covered. For specific models available, please refer to our
-                    fleet page or contact us.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="100">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-2"
-                  class="collapsed"
-                >
-                  How long in advance should I reserve a car?
-                  <i class="bx bx-chevron-down icon-show"></i>
-                  <i class="bx bx-chevron-up icon-close"></i>
-                </a>
-                <div
-                  id="faq-list-2"
-                  class="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    We recommend booking as early as possible, but we also cater
-                    to last-minute requests. Availability tends to decrease
-                    closer to the date, particularly during holiday periods.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="200">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-3"
-                  class="collapsed"
-                >
-                  Can I rent a car for someone else?
-                  <i class="bx bx-chevron-down icon-show"></i>
-                  <i class="bx bx-chevron-up icon-close"></i>
-                </a>
-                <div
-                  id="faq-list-3"
-                  class="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    While the reservation can be made by a different person, the
-                    individual listed as the driver on the rental agreement must
-                    present a valid driver's license at the time of rental.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="300">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-4"
-                  class="collapsed"
-                >
-                  Do you provide hourly/daily/weekly rentals?
-                  <i class="bx bx-chevron-down icon-show"></i>
-                  <i class="bx bx-chevron-up icon-close"></i>
-                </a>
-                <div
-                  id="faq-list-4"
-                  class="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    Yes, at ZoomCar we offer flexible rental solutions &
-                    options. You can rent hourly, for a few days, or even for
-                    several weeks to best fit your needs.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="400">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-5"
-                  class="collapsed"
-                >
-                  What policies do you have for fuel and mileage?
-                  <i class="bx bx-chevron-down icon-show"></i>
-                  <i class="bx bx-chevron-up icon-close"></i>
-                </a>
-                <div
-                  id="faq-list-5"
-                  class="collapse"
-                  data-bs-parent=".faq-list"
-                >
-                  <p>
-                    Most of our rentals include unlimited mileage but this can
-                    vary for some special vehicles or offers. As for fuel,
-                    vehicles need to be returned with the same fuel level at
-                    which they were rented.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!-- End F.A.Q Section -->
+      <!-- End Values Section -->
 
       <!-- ======= Testimonials Section ======= -->
       <section id="testimonials" class="testimonials">
-        <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <h2>Testimonials</h2>
-            <p>
-              At ZoomCar, we believe the best testament to our service is found
-              in the accolades of our satisfied customers. Here it is, directly
-              from the clients who experienced the ZoomCar difference:
-            </p>
-          </div>
-
+        <div class="container position-relative" data-aos="fade-up">
           <div
             class="testimonials-slider swiper"
             data-aos="fade-up"
@@ -716,77 +519,104 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Kudos to ZoomCar for providing a smooth, hassle-free rental
-                    experience. I won't hesitate to use their service again!
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
                   <img
                     src="assets/img/testimonials/man-1.jpg"
                     class="testimonial-img"
-                    alt="testimonial 1"
+                    alt=""
                   />
-                  <h3>Frank Hopkins</h3>
-                  <h4>Entrepreneur</h4>
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum suscipit rhoncus. Accusantium quam,
+                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                    risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
                 </div>
               </div>
               <!-- End testimonial item -->
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    I used ZoomCar for my business trip, and the car was
-                    comfortable, and the team was super supportive!
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
                   <img
                     src="assets/img/testimonials/woman-2.jpg"
                     class="testimonial-img"
-                    alt="testimonial 2"
+                    alt=""
                   />
-                  <h3>Martha Stewart</h3>
-                  <h4>Corporate Executive</h4>
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse
+                    labore quem cillum quid cillum eram malis quorum velit fore
+                    eram velit sunt aliqua noster fugiat irure amet legam anim
+                    culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
                 </div>
               </div>
               <!-- End testimonial item -->
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    ZoomCar saved our vacation when we had trouble with our
-                    personal car. Their rental process was quick, and the car
-                    quality was top-notch!
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
                   <img
                     src="assets/img/testimonials/woman-3.jpg"
                     class="testimonial-img"
-                    alt="testimonial 3"
+                    alt=""
                   />
-                  <h3>Amy Rodriguez</h3>
-                  <h4>Happy Customer</h4>
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim
+                    sint quorum nulla quem veniam duis minim tempor labore quem
+                    eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
                 </div>
               </div>
               <!-- End testimonial item -->
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    I've been using ZoomCar for my business trips frequently,
-                    and they've never let me down. Excellent service!
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
                   <img
                     src="assets/img/testimonials/man-4.jpg"
                     class="testimonial-img"
-                    alt="testimonial 4"
+                    alt=""
                   />
-                  <h3>Richard Evans</h3>
-                  <h4>Travel Agent</h4>
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                    multos export minim fugiat minim velit minim dolor enim duis
+                    veniam ipsum anim magna sunt elit fore quem dolore labore
+                    illum veniam.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/man-5.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure
+                    aliqua veniam tempor noster veniam enim culpa labore duis
+                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
+                    fore nisi cillum quid.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
                 </div>
               </div>
               <!-- End testimonial item -->
@@ -798,88 +628,504 @@
       <!-- End Testimonials Section -->
 
       <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio section-bg">
+      <section id="portfolio" class="portfolio">
         <div class="container">
-          <div class="row portfolio-container" data-aos="fade-up">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
+          <div class="section-title">
+            <h2 data-aos="fade-up">Gallery</h2>
+          </div>
 
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+              <img
+                src="assets/img/portfolio/portfolio-1.jpg"
+                class="img-fluid"
+                alt=""
+              />
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+              <img
+                src="assets/img/portfolio/portfolio-2.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img
+                src="assets/img/portfolio/portfolio-3.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img
+                src="assets/img/portfolio/portfolio-4.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img
+                src="assets/img/portfolio/portfolio-5.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img
+                src="assets/img/portfolio/portfolio-6.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img
+                src="assets/img/portfolio/portfolio-7.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img
+                src="assets/img/portfolio/portfolio-8.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img
+                src="assets/img/portfolio/portfolio-9.jpg"
+                class="img-fluid"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </section>
       <!-- End Portfolio Section -->
 
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team section-bg">
         <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <h2>Contact</h2>
+          <div class="section-title">
+            <h2 data-aos="fade-up">Team</h2>
+            <p data-aos="fade-up">
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
           </div>
 
-          <div class="row no-gutters justify-content-center" data-aos="fade-up">
-            <div class="col-lg-5 d-flex align-items-stretch">
-              <div class="info">
-                <div class="address">
-                  <i class="bi bi-geo-alt"></i>
-                  <h4>Location:</h4>
-                  <p>6000 TICKNOR CT SAN DIEGO CA 92114-5523 USA</p>
+          <div class="row">
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/man-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
                 </div>
-
-                <div class="email mt-4">
-                  <i class="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>info@ZoomCar.com</p>
-                </div>
-
-                <div class="phone mt-4">
-                  <i class="bi bi-phone"></i>
-                  <h4>Call:</h4>
-                  <p>+1 5589 55488 55</p>
+                <div class="member-info">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-5 d-flex align-items-stretch">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3357.3921802354284!2d-117.0675416!3d32.702205000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d95170845ccc05%3A0xa047c755e061913f!2zNjAwMCBUaWNrbm9yIEN0LCBTYW4gRGllZ28sIENBIDkyMTE0LCDQodCo0JA!5e0!3m2!1sru!2sby!4v1697190496163!5m2!1sru!2sby"
-                width="100%"
-                height="300"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/woman-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/man-3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/woman-4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+
+      <!-- ======= Pricing Section ======= -->
+      <section id="pricing" class="pricing">
+        <div class="container">
+          <div class="section-title">
+            <h2 data-aos="fade-up">Pricing</h2>
+            <p data-aos="fade-up">
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up">
+              <div class="box">
+                <h3>Free</h3>
+                <h4><sup>$</sup>0<span> / month</span></h4>
+                <ul>
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li class="na">Pharetra massa</li>
+                  <li class="na">Massa ultricies mi</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 mt-4 mt-md-0"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="box featured">
+                <h3>Business</h3>
+                <h4><sup>$</sup>19<span> / month</span></h4>
+                <ul>
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li class="na">Massa ultricies mi</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 mt-4 mt-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="box">
+                <h3>Developer</h3>
+                <h4><sup>$</sup>29<span> / month</span></h4>
+                <ul>
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li>Massa ultricies mi</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 mt-4 mt-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="box">
+                <span class="advanced">Advanced</span>
+                <h3>Ultimate</h3>
+                <h4><sup>$</sup>49<span> / month</span></h4>
+                <ul>
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li>Massa ultricies mi</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Pricing Section -->
+
+      <!-- ======= F.A.Q Section ======= -->
+      <section id="faq" class="faq section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2 data-aos="fade-up">F.A.Q</h2>
+            <p data-aos="fade-up">
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div class="faq-list">
+            <ul>
+              <li data-aos="fade-up">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  class="collapse"
+                  data-bs-target="#faq-list-1"
+                  >Non consectetur a erat nam at lectus urna duis?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-1"
+                  class="collapse show"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                    volutpat lacus laoreet non curabitur gravida. Venenatis
+                    lectus magna fringilla urna porttitor rhoncus dolor purus
+                    non.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-2"
+                  class="collapsed"
+                  >Feugiat scelerisque varius morbi enim nunc?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-2"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque
+                    habitant morbi. Id interdum velit laoreet id donec ultrices.
+                    Fringilla phasellus faucibus scelerisque eleifend donec
+                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                    ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="200">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-3"
+                  class="collapsed"
+                  >Dolor sit amet consectetur adipiscing elit?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-3"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                    sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                    nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                    pellentesque eu tincidunt. Lectus urna duis convallis
+                    convallis tellus. Urna molestie at elementum eu facilisis
+                    sed odio morbi quis
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="300">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-4"
+                  class="collapsed"
+                  >Tempus quam pellentesque nec nam aliquam sem et tortor
+                  consequat? <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-4"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Molestie a iaculis at erat pellentesque adipiscing commodo.
+                    Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                    viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                    bibendum est. Purus gravida quis blandit turpis cursus in.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="400">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-5"
+                  class="collapsed"
+                  >Tortor vitae purus faucibus ornare. Varius vel pharetra vel
+                  turpis nunc eget lorem dolor?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-5"
+                  class="collapse"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Laoreet sit amet cursus sit amet dictum sit amet justo.
+                    Mauris vitae ultricies leo integer malesuada nunc vel.
+                    Tincidunt eget nullam non nisi est sit amet. Turpis nunc
+                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate
+                    eu scelerisque.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- End F.A.Q Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2 data-aos="fade-up">Contact</h2>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up">
+              <div class="info-box">
+                <i class="bx bx-map"></i>
+                <h3>Our Address</h3>
+                <p>10255 SAMOA AVE TUJUNGA CA 91042-2365 USA</p>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-lg-4 mt-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="info-box">
+                <i class="bx bx-envelope"></i>
+                <h3>Email Us</h3>
+                <p>info@LittleWonders.com<br />contact@LittleWonders.com</p>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-lg-4 mt-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="info-box">
+                <i class="bx bx-phone-call"></i>
+                <h3>Call Us</h3>
+                <p>+1 5589 55488 55<br />+1 6678 25445 41</p>
+              </div>
             </div>
           </div>
 
-          <div class="row mt-5 justify-content-center" data-aos="fade-up">
-            <div class="col-lg-10">
+          <div
+            class="row justify-content-center"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="col-xl-9 col-lg-12 mt-4">
               <form
                 action="forms/contact.php"
                 method="post"
@@ -940,6 +1186,16 @@
               </form>
             </div>
           </div>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3297.7220701264473!2d-118.28753539999998!3d34.255634900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2eb5a096f0339%3A0xa6587cef1042bd5c!2zMTAyNTUgU2Ftb2EgQXZlLCBUdWp1bmdhLCBDQSA5MTA0Miwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1697455800790!5m2!1sru!2sby"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </section>
       <!-- End Contact Section -->
@@ -951,32 +1207,13 @@
       <div class="footer-top">
         <div class="container">
           <div class="row">
-            <div class="col-lg-3 col-md-6">
-              <div class="footer-info">
-                <h3>ZoomCar</h3>
-                <p>
-                  6000 TICKNOR CT SAN DIEGO CA 92114-5523 USA<br />
-                  <strong>Phone:</strong> +1 5589 55488 55<br />
-                  <strong>Email:</strong> info@ZoomCar.com<br />
-                </p>
-                <div class="social-links mt-3">
-                  <a href="#contact" class="twitter"
-                    ><i class="bx bxl-twitter"></i
-                  ></a>
-                  <a href="#contact" class="facebook"
-                    ><i class="bx bxl-facebook"></i
-                  ></a>
-                  <a href="#contact" class="instagram"
-                    ><i class="bx bxl-instagram"></i
-                  ></a>
-                  <a href="#contact" class="google-plus"
-                    ><i class="bx bxl-skype"></i
-                  ></a>
-                  <a href="#contact" class="linkedin"
-                    ><i class="bx bxl-linkedin"></i
-                  ></a>
-                </div>
-              </div>
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>LittleWonders</h3>
+              <p>
+                10255 SAMOA AVE TUJUNGA CA 91042-2365 USA<br />
+                <strong>Phone:</strong> +1 5589 55488 55<br />
+                <strong>Email:</strong> info@LittleWonders.com<br />
+              </p>
             </div>
 
             <div class="col-lg-2 col-md-6 footer-links">
@@ -1002,7 +1239,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
+              <h4>Join Our Newsletter</h4>
               <form action="" method="post">
                 <input type="email" name="email" /><input
                   type="submit"
@@ -1014,10 +1251,19 @@
         </div>
       </div>
 
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>ZoomCar</span></strong
-          >. All Rights Reserved
+      <div class="container d-lg-flex py-4">
+        <div class="me-lg-auto text-center text-lg-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>LittleWonders</span></strong
+            >. All Rights Reserved
+          </div>
+        </div>
+        <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
     </footer>
@@ -1030,11 +1276,12 @@
     ></a>
 
     <div class="warning warning--active">
-      <div class="warning__text">
-        We use cookies to improve the website and your interaction with users.
-        By continuing to use the site, you agree to the use of cookies. You can
-        always disable cookies in your browser settings.
-      </div>
+      <p class="warning__text">
+        Our site employs cookies in order to optimize your user experience and
+        interaction. Continuing to browse our site implies your agreement with
+        our cookie policy. Should you wish to discontinue the use of cookies,
+        you are able to adjust this in your browser settings.
+      </p>
       <button class="warning__apply" type="button">Accept</button>
     </div>
 
