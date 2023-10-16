@@ -6,7 +6,7 @@ ul {
 
 iframe {
   margin-top: 40px;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 #header .logo {
@@ -32,16 +32,16 @@ iframe {
 }
 
 .case-studies .color-cards .card-contents {
-  border-radius: 0px;
+  border-radius: 10px;
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card {
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 .customer-feedback .customer-cards {
-  border-radius: 0px;
+  border-radius: 10px;
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -130,24 +130,25 @@ iframe {
 }
 
 .img-fluid {
-  // border: 6px solid #18d26e;
-  border-radius: 0px;
+  border: 2px solid #fff;
+  border-radius: 20px;
 }
 
 .info,
 .php-email-form {
   padding: 20px;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 .contact .info,
 .contact .php-email-form {
   padding: 20px;
-  border-radius: 0px;
+  border-radius: 10px;
+  background: #fff;
 }
 
 .info-box {
-  border-radius: 0px;
+  border-radius: 10px;
   background: #fff;
 }
 
@@ -163,7 +164,7 @@ iframe {
 .portfolio .portfolio-wrap,
 .team .member,
 .pricing .box {
-  border-radius: 0px;
+  border-radius: 20px;
 }
 
 .features .img-fluid {
@@ -172,4 +173,8 @@ iframe {
 
 #footer .footer-newsletter form {
   margin-top: 0;
+}
+
+.contact .section-title {
+  padding: 0;
 }
