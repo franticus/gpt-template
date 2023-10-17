@@ -126,13 +126,13 @@ iframe {
 .blur {
   padding: 10px;
   // backdrop-filter: blur(10px);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+  // background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
   border-radius: 20px;
   text-align: center;
 }
 
 .img-fluid {
-  border: 2px solid #fff;
+  border: 6px solid #fff;
   border-radius: 10px;
 }
 
@@ -151,7 +151,11 @@ iframe {
 
 .info-box {
   border-radius: 20px;
-  background: #fff;
+  background: #ddd9f7;
+}
+
+.contact .info, .contact .php-email-form {
+  background: #ddd9f7;
 }
 
 .clients img {
@@ -173,8 +177,8 @@ iframe {
   width: 100vw;
 }
 
-#footer .footer-newsletter form {
-  margin-top: 0;
+.contact .php-email-form input {
+  border-radius: 10px;
 }
 
 .contact .section-title {
@@ -185,4 +189,13 @@ iframe {
   padding: 10px;
   border-radius: 4px;
   margin-right: 10px;
+  border: 2px solid #000;
+}
+
+.form-check-label {
+  color: #000000;
+}
+
+.about img {
+  border: none;
 }

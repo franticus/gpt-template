@@ -1,7 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #111;
-  background: #faebd7;
+  color: #eee;
+  background: #171226;
 }
 
 a {
@@ -114,7 +114,7 @@ h6,
 --------------------------------------------------------------*/
 #header {
   height: 80px;
-  background: #ffa278;
+  background: #0b082d;
   z-index: 997;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06);
 }
@@ -131,7 +131,7 @@ h6,
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #1c5c93;
+  color: #eee;
   text-decoration: none;
 }
 
@@ -175,7 +175,7 @@ h6,
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
-  color: #444;
+  color: #999;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -191,7 +191,7 @@ h6,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #555;
+  color: #eee;
 }
 
 .navbar .dropdown ul {
@@ -260,7 +260,7 @@ h6,
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #1f3548;
+  color: #eee;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -370,7 +370,7 @@ h6,
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 110px);
+  height: calc(80vh - 110px);
   padding: 0;
   overflow: hidden;
   background: #000;
@@ -378,7 +378,7 @@ h6,
 
 #hero .carousel-item {
   width: 100%;
-  height: calc(100vh - 110px);
+  height: calc(80vh - 110px);
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
@@ -387,7 +387,7 @@ h6,
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(13, 30, 45, 0.2);
+  background-color: rgba(13, 30, 45, 0.8);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -539,7 +539,7 @@ section {
 }
 
 .section-bg {
-  background-color: #ffdcc5;
+  background-color: #15393a;
 }
 
 .section-title {
@@ -552,7 +552,7 @@ section {
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #444;
+  color: #eee;
 }
 
 .section-title p {
@@ -612,7 +612,6 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding-bottom: 30px;
-  background: #fff;
 }
 
 .about .container {
@@ -626,7 +625,7 @@ section {
 .about .section-title p {
   text-align: left;
   font-style: italic;
-  color: #666;
+  color: #eee;
 }
 
 .about .about-content {
@@ -645,7 +644,7 @@ section {
   width: 72px;
   height: 72px;
   background: #f1f7fb;
-  border-radius: 6px;
+  border-radius: 50%;
   transition: 0.5s;
 }
 
@@ -655,7 +654,7 @@ section {
 }
 
 .about .icon-box:hover .icon {
-  background: #555;
+  background: #073743;
 }
 
 .about .icon-box:hover .icon i {
@@ -671,7 +670,7 @@ section {
 }
 
 .about .icon-box .title a {
-  color: #343a40;
+  color: #eee;
   transition: 0.3s;
 }
 
@@ -783,7 +782,7 @@ section {
   padding: 40px;
   border-left: 1px solid #ff9500;
   border-bottom: 1px solid #ff9500;
-  margin: -1px;
+  border-radius: 20px;
 }
 
 .about-lists .content-item span {
@@ -801,7 +800,7 @@ section {
 }
 
 .about-lists .content-item p {
-  color: #222;
+  color: #fff;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -823,7 +822,7 @@ section {
 .counts .count-box {
   box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
   padding: 30px;
-  background: #fff;
+  background: #0b240f;
   border-radius: 20px;
   margin-bottom: 30px;
 }
@@ -838,7 +837,7 @@ section {
   font-size: 42px;
   display: block;
   font-weight: 700;
-  color: #1c5c93;
+  color: #eee;
 }
 
 .counts .count-box p {
@@ -893,12 +892,12 @@ section {
 }
 
 .services .title a {
-  color: #444;
+  color: #eee;
   transition: 0.3s;
 }
 
 .services .title a:hover {
-  color: #555;
+  color: #fff;
 }
 
 .services .title::after {
@@ -1103,7 +1102,6 @@ section {
 # Our Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
   padding: 60px 0 30px 0;
 }
 
@@ -1131,7 +1129,7 @@ section {
   bottom: -48px;
   left: 20px;
   right: 20px;
-  background: linear-gradient(360deg, rgb(141, 99, 92) 0%, rgba(141, 96, 92, 0.9) 35%, rgba(191, 167, 140, 0.9)100%);
+  background: linear-gradient(360deg, rgb(92, 141, 134) 0%, rgba(92, 141, 134, 0.9) 35%, rgba(140, 187, 191, 0.9)100%);
   padding: 15px 0;
   border-radius: 4px;
 }
@@ -1333,14 +1331,14 @@ section {
 }
 
 #footer {
-  background: #333;
+  background: #111;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #444;
+  background: #052222;
   border-top: 1px solid #768fa6;
   border-bottom: 1px solid #67839c;
   padding: 60px 0 30px 0;
