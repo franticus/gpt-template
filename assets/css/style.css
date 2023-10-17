@@ -612,6 +612,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding-bottom: 30px;
+  background: #0b240f;
 }
 
 .about .container {
@@ -1201,7 +1202,7 @@ section {
   line-height: 28px;
   font-weight: 600;
   margin-bottom: 15px;
-  color: #1f3548;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
