@@ -178,3 +178,9 @@ iframe {
 .contact .section-title {
   padding: 0;
 }
+
+#flexCheckDefault {
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
