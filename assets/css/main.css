@@ -151,11 +151,20 @@ iframe {
 
 .info-box {
   border-radius: 40px;
-  background: #ddd9f7;
+  background: transparent;
+  color: #fff;
 }
 
 .contact .info, .contact .php-email-form {
-  background: #ddd9f7;
+  background: transparent;
+}
+
+.contact .info, .contact .php-email-form a {
+  color: #dbdbdb;
+}
+
+.contact .info, .contact .php-email-form a:hover {
+  color: #a4a3a3;
 }
 
 .clients img {
@@ -193,9 +202,10 @@ iframe {
 }
 
 .form-check-label {
-  color: #000000;
+  color: #fff;
 }
 
 .about img {
   border: none;
+  border-radius: 100px;
 }
