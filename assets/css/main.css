@@ -6,7 +6,7 @@ ul {
 
 iframe {
   margin-top: 40px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 #header .logo {
@@ -32,16 +32,16 @@ iframe {
 }
 
 .case-studies .color-cards .card-contents {
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .customer-feedback .customer-cards {
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -125,7 +125,9 @@ iframe {
 
 .blur {
   padding: 10px;
-  backdrop-filter: blur(10px);
+  // backdrop-filter: blur(10px);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
+  border-radius: 20px;
   text-align: center;
 }
 
@@ -137,24 +139,24 @@ iframe {
 .info,
 .php-email-form {
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .contact .info,
 .contact .php-email-form {
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   background: #fff;
 }
 
 .info-box {
-  border-radius: 10px;
+  border-radius: 20px;
   background: #fff;
 }
 
 .clients img {
   border: none;
-  border-radius: 0;
+  border-radius: 10;
 }
 
 .imgSize {
