@@ -130,8 +130,8 @@ iframe {
 }
 
 .img-fluid {
-  border: 2px solid #fff;
-  border-radius: 20px;
+  // border: 2px solid #fff;
+  border-radius: 0px;
 }
 
 .info,
@@ -164,7 +164,7 @@ iframe {
 .portfolio .portfolio-wrap,
 .team .member,
 .pricing .box {
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 .features .img-fluid {
