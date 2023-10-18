@@ -784,6 +784,7 @@ section {
 .pricing .featured {
   z-index: 10;
   margin: -30px -5px 0 -5px;
+  border: 2px solid #fff;
 }
 
 .pricing .featured .get-started-btn {
