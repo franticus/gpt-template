@@ -1,11 +1,11 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #222;
-  background: #ffe4c4;
+  background: #0c3017;
 }
 
 a {
-  color: #881111;
+  color: #82db23;
   text-decoration: none;
 }
 
@@ -33,7 +33,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #881111;
+  background: #82db23;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -81,7 +81,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(255, 187, 85, 0.95);
+  background: rgba(6, 43, 4, 0.95);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -95,7 +95,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #881111;
+  color: #82db23;
   text-decoration: none;
 }
 
@@ -134,7 +134,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
-  color: #881111;
+  color: #82db23;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -150,12 +150,12 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #881111;
+  color: #82db23;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #881111;
+  background: #82db23;
   color: #fff;
   padding: 12px 25px;
   margin-left: 30px;
@@ -204,7 +204,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #881111;
+  color: #82db23;
 }
 
 .navbar .dropdown:hover>ul {
@@ -240,7 +240,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #881111;
+  color: #82db23;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -298,13 +298,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #881111;
+  color: #82db23;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #881111;
+  color: #82db23;
 }
 
 .navbar-mobile .getstarted,
@@ -339,7 +339,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #881111;
+  color: #82db23;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -351,21 +351,12 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("../img/hero-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
   position: relative;
   overflow: hidden;
-  padding: 200px 0;
-}
-
-#hero::before {
-  content: "";
-  position: absolute;
-  right: -50%;
-  top: 30%;
-  width: 250%;
-  height: 200%;
-  z-index: -1;
-  background-color: #002489;
-  transform: skewY(15deg);
+  padding: 32vh 0;
 }
 
 #hero h1 {
@@ -386,18 +377,18 @@ h6 {
 #hero .download-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 14px 24px;
   border-radius: 3px;
   transition: 0.5s;
   color: #fff;
-  background: #a03a3a;
+  background: #0a3a43;
   position: relative;
 }
 
 #hero .download-btn:hover {
-  background: #881111;
+  background: #82db23;
 }
 
 #hero .download-btn i {
@@ -461,7 +452,11 @@ section {
 }
 
 .section-bg {
-  background-color: #ffc390;
+  background-color: #14362b;
+  opacity: 1;
+  background-image: radial-gradient(#2e7339 0.8px, transparent 0.8px), radial-gradient(#2e7339 0.8px, #14362b 0.8px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
 }
 
 .section-title {
@@ -474,12 +469,13 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #881111;
+  color: #82db23;
   font-family: "Poppins", sans-serif;
 }
 
 .section-title p {
   margin-bottom: 0;
+  color: #ddd;
 }
 
 /*--------------------------------------------------------------
@@ -552,17 +548,18 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
+  color: #eee;
 }
 
 .features .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #881111;
+  color: #82db23;
 }
 
 .features .content .icon-box p {
   font-size: 15px;
-  color: #222;
+  color: #ddd;
   margin-left: 60px;
 }
 
@@ -592,7 +589,7 @@ section {
 .details .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #881111;
+  color: #82db23;
 }
 
 .details .content ul {
@@ -607,58 +604,17 @@ section {
 .details .content ul i {
   font-size: 24px;
   padding-right: 2px;
-  color: #881111;
+  color: #82db23;
   line-height: 0;
+}
+
+.details p,
+.details .content ul li {
+  color: #ddd;
 }
 
 .details .content p:last-child {
   margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# Gallery
---------------------------------------------------------------*/
-.gallery {
-  overflow: hidden;
-}
-
-.gallery .swiper-slide {
-  transition: 0.3s;
-}
-
-.gallery .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.gallery .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #ddd;
-  opacity: 1;
-  // border: 1px solid #881111;
-}
-
-.gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #881111;
-}
-
-.gallery .swiper-slide-active {
-  text-align: center;
-}
-
-@media (min-width: 992px) {
-  .gallery .swiper-wrapper {
-    padding: 40px 0;
-  }
-
-  .gallery .swiper-slide-active {
-    border: none;
-    background: #fff;
-    z-index: 1;
-    transform: scale(1.2);
-    margin-top: 10px;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -677,6 +633,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
+  border-radius: 20px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -734,11 +691,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #881111;
+  border: 1px solid #82db23;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #881111;
+  background-color: #82db23;
 }
 
 /*--------------------------------------------------------------
@@ -760,11 +717,12 @@ section {
   font-weight: 300;
   margin-bottom: 15px;
   font-size: 28px;
+  color: #eee;
 }
 
 .pricing h4 {
   font-size: 46px;
-  color: #881111;
+  color: #82db23;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 25px;
@@ -789,7 +747,7 @@ section {
 }
 
 .pricing ul i {
-  color: #881111;
+  color: #82db23;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -807,7 +765,7 @@ section {
 }
 
 .pricing .get-started-btn {
-  background: #881111;
+  background: #82db23;
   display: inline-block;
   padding: 8px 30px;
   border-radius: 20px;
@@ -820,7 +778,7 @@ section {
 }
 
 .pricing .get-started-btn:hover {
-  background: #881111;
+  background: #82db23;
 }
 
 .pricing .featured {
@@ -829,7 +787,7 @@ section {
 }
 
 .pricing .featured .get-started-btn {
-  background: #881111;
+  background: #82db23;
 }
 
 .pricing .featured .get-started-btn:hover {
@@ -875,8 +833,8 @@ section {
 
 .faq .accordion-list li {
   padding: 20px;
-  background: #fff;
-  border-radius: 4px;
+  background: #133743;
+  border-radius: 20px;
   position: relative;
 }
 
@@ -897,7 +855,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #b1c0df;
+  color: #fff;
 }
 
 .faq .accordion-list .icon-show,
@@ -911,6 +869,7 @@ section {
 .faq .accordion-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  color: #fff;
 }
 
 .faq .accordion-list .icon-show {
@@ -918,11 +877,11 @@ section {
 }
 
 .faq .accordion-list a.collapsed {
-  color: #343a40;
+  color: #eee;
 }
 
 .faq .accordion-list a.collapsed:hover {
-  color: #881111;
+  color: #82db23;
 }
 
 .faq .accordion-list a.collapsed .icon-show {
@@ -944,10 +903,10 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   padding: 20px 40px;
-  background: #f1f3f6;
-  color: #881111;
+  background: #0b351c;
+  color: #fff;
   text-align: center;
-  border: 1px solid #fff;
+  border: 1px solid #124a52;
 }
 
 .contact .info i {
@@ -1017,7 +976,7 @@ section {
 .contact .php-email-form label {
   font-family: "Poppins", sans-serif;
   margin-bottom: 5px;
-  color: #111;
+  color: #fff;
 }
 
 .contact .php-email-form input,
@@ -1029,7 +988,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #881111;
+  border-color: #82db23;
 }
 
 .contact .php-email-form input {
@@ -1042,16 +1001,16 @@ section {
 
 .contact .php-email-form button[type=submit] {
   background: #fff;
-  border: 2px solid #881111;
+  border: 2px solid #82db23;
   padding: 10px 24px;
-  color: #881111;
+  color: #82db23;
   transition: 0.4s;
   border-radius: 50px;
   margin-top: 5px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #881111;
+  background: #82db23;
   color: #fff;
 }
 
@@ -1083,14 +1042,13 @@ section {
 #footer {
   background: #fff;
   padding: 0 0 30px 0;
-  color: #881111;
+  color: #82db23;
   font-size: 14px;
-  background: #5c281a;
+  background: #072426;
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
-  background: #f8b67b;
+  padding: 30px 0 0;
 }
 
 #footer .footer-top .footer-contact {
@@ -1103,7 +1061,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-  color: #881111;
+  color: #82db23;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1111,13 +1069,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #111;
+  color: #eee;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #881111;
+  color: #82db23;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1134,7 +1092,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #111;
+  color: #eee;
   font-size: 18px;
   line-height: 1;
 }
@@ -1150,7 +1108,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #111;
+  color: #eee;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1158,13 +1116,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #881111;
+  color: #82db23;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #881111;
+  background: #82db23;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
