@@ -62,7 +62,7 @@ iframe {
   box-sizing: border-box;
   background-color: #2e1313;
   opacity: 1;
-  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #3f0e20 2px), repeating-linear-gradient(#50153c55, #73224d);
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #3f0e20 10px), repeating-linear-gradient(#50153c55, #73224d);
   border-right: 40px solid rgb(67, 23, 23);
   border-radius: 2px;
   z-index: 999999;
@@ -137,9 +137,9 @@ iframe {
 }
 
 .img-fluid-slide {
-  // border: 2px solid #fff;
-  border-radius: 0px;
-  max-width: 30vw;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  max-width: 20vw;
   min-width: 300px;
 }
 
