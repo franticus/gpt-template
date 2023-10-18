@@ -637,8 +637,8 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
-  border-radius: 10px;
-  border: 6px solid #fff;
+  border-radius: 100px;
+  border: 2px solid #fff;
   position: absolute;
   left: -45px;
 }
@@ -833,7 +833,7 @@ section {
 
 .faq .accordion-list li {
   padding: 20px;
-  background: #133743;
+  background: #221602;
   border-radius: 20px;
   position: relative;
 }
