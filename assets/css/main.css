@@ -60,11 +60,7 @@ iframe {
   max-width: 1000px;
   padding: 30px;
   box-sizing: border-box;
-  background-color: #2e1313;
-  opacity: 1;
-  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #3f0e20 10px), repeating-linear-gradient(#50153c55, #73224d);
-  border-right: 40px solid rgb(67, 23, 23);
-  border-radius: 2px;
+  background-color: #0b3044;
   z-index: 999999;
   transition: all 0.3s;
 }
