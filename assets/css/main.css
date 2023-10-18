@@ -60,18 +60,18 @@ iframe {
   max-width: 1000px;
   padding: 30px;
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #2e1313;
   opacity: 1;
-  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #0e173f 8px), repeating-linear-gradient(#22155055, #382273);
-  border: 4px solid black;
-  border-radius: 12px;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #3f0e20 2px), repeating-linear-gradient(#50153c55, #73224d);
+  border-right: 40px solid rgb(67, 23, 23);
+  border-radius: 2px;
   z-index: 999999;
   transition: all 0.3s;
 }
 
 .warning:hover {
   transform: translate(-50%, -10%) scale(1.05);
-  border: 2px solid #6abe73;
+  border-right: 40px solid #b91e4c;
 }
 
 .warning--active {
