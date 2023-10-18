@@ -36,15 +36,16 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        background-image: linear-gradient(#e9d78f, #e7b74e);
+        background-image: linear-gradient(#042430, #0a3a1b);
         color: #ffffff;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #d26a14;
+        background: #074252;
         color: #ffffff;
         border-left: 10px solid #fff4e3;
-        border-radius: 10px;
+        border-right: 10px solid #fff4e3;
+        border-radius: 40px;
       }
 
       body {
