@@ -136,6 +136,13 @@ iframe {
   border-radius: 0px;
 }
 
+.img-fluid-slide {
+  // border: 2px solid #fff;
+  border-radius: 0px;
+  max-width: 30vw;
+  min-width: 300px;
+}
+
 .info,
 .php-email-form {
   padding: 20px;
