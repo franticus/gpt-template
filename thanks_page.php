@@ -36,19 +36,15 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        background-image: linear-gradient(
-          to bottom,
-          #ffffff,
-          #c9bae0,
-          #ffffff
-        );
+        background-image: linear-gradient(#e9d78f, #e7b74e);
         color: #ffffff;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #184467;
+        background: #d26a14;
         color: #ffffff;
-        border-left: 4px solid #045757;
+        border-left: 10px solid #fff4e3;
+        border-radius: 10px;
       }
 
       body {
@@ -231,4 +227,3 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
-Ï
