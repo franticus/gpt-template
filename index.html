@@ -390,9 +390,11 @@
                 >
                 <br />
                 <strong>Email:</strong>
-                <a href="mailto:info@mysticmuse.com" target="_blank"
-                  >info@mysticmuse.com</a
-                >
+                <span id="email_list">
+                  <a href="mailto:info@mysticmuse.com" target="_blank"
+                    >info@mysticmuse.com</a
+                  >
+                </span>
                 <br />
               </p>
             </div>
@@ -959,5 +961,12 @@
         cookieText.style.width = '100%';
       }
     }
+  </script>
+  <script>
+    var domainElement = document.getElementById('email_list');
+    var domainElement2 = document.getElementById('email_list2');
+    var hostname = window.location.hostname;
+    domainElement.innerHTML = `<a href="mailto:info@${hostname}" target="_blank">info@${hostname}</a>`;
+    domainElement2.innerHTML = `<a href="mailto:info@${hostname}" target="_blank">info@${hostname}</a>`;
   </script>
 </html>

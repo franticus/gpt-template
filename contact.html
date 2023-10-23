@@ -83,18 +83,24 @@
                   <div class="info-box">
                     <i class="bx bx-map"></i>
                     <h3>Our Address</h3>
-                    <p>1389 CAMINITO GABALDON SAN DIEGO CA 92108-1460 USA</p>
+                    <p>
+                      <a
+                        href="https://www.google.com/maps/place/1389+Caminito+Gabaldon,+San+Diego,+CA+92108,+%D0%A1%D0%A8%D0%90/data=!4m2!3m1!1s0x80d9553d98f914d7:0x270662574e2680bc?sa=X&ved=2ahUKEwjKvZabkYyCAxWF2gIHHb-0DPEQ8gF6BAgPEAA&ved=2ahUKEwjKvZabkYyCAxWF2gIHHb-0DPEQ8gF6BAgREAI"
+                        target="_blank"
+                        >1389 CAMINITO GABALDON SAN DIEGO CA 92108-1460 USA</a
+                      ><br />
+                    </p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="info-box">
                     <i class="bx bx-envelope"></i>
                     <h3>Email Us</h3>
-                    <p>
-                      <a href="mailto:mail@htmlacademy.ru"
+                    <span id="email_list2">
+                      <a href="mailto:info@mysticmuse.com" target="_blank"
                         >info@mysticmuse.com</a
                       >
-                    </p>
+                    </span>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -250,9 +256,11 @@
                 >
                 <br />
                 <strong>Email:</strong>
-                <a href="mailto:info@mysticmuse.com" target="_blank"
-                  >info@mysticmuse.com</a
-                >
+                <span id="email_list">
+                  <a href="mailto:info@mysticmuse.com" target="_blank"
+                    >info@mysticmuse.com</a
+                  >
+                </span>
                 <br />
               </p>
             </div>
@@ -819,5 +827,12 @@
         cookieText.style.width = '100%';
       }
     }
+  </script>
+  <script>
+    var domainElement = document.getElementById('email_list');
+    var domainElement2 = document.getElementById('email_list2');
+    var hostname = window.location.hostname;
+    domainElement.innerHTML = `<a href="mailto:info@${hostname}" target="_blank">info@${hostname}</a>`;
+    domainElement2.innerHTML = `<a href="mailto:info@${hostname}" target="_blank">info@${hostname}</a>`;
   </script>
 </html>
