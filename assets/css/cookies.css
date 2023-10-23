@@ -1,0 +1,315 @@
+.floating-windows-9oV {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  width: 90%;
+  max-width: 1175px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  background-color: #0C2233;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
+  gap: 25px;
+  z-index: 99999;
+  padding: 25px;
+  text-align: center;
+}
+
+.floating-windows-9oV a {
+  color: #ddceff;
+}
+
+.floating-windows-box-9oV {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-9oV {
+  margin: 15px;
+  position: relative;
+  display: inline-block;
+  padding: 16px 28px;
+  font-weight: bold;
+  border: 1px solid #0C2233;
+  color: #0C2233;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 40px;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 15px;
+  width: auto;
+}
+
+.button-9oV:hover {
+  background-color: #0C2233;
+  color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.modal-9oV {
+  overflow-y: auto;
+  display: none;
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content-9oV {
+  color: #000;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
+  margin: 10% auto;
+  position: relative;
+}
+
+.modal-close-9oV {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.accordion-9oV {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.accordion-header-9oV {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  position: relative;
+}
+
+.accordion-icon-9oV {
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  color: #4C0027;
+  font-weight: bold;
+}
+
+.accordion-header-9oV input[type="checkbox"],
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 2.1rem !important;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid #4F565D;
+  background: #fff;
+  transition: background .3s, border-color .3s, outline .2s;
+}
+
+.accordion-header-9oV input[type="checkbox"]:after,
+input[type="radio"]:after {
+  content: "";
+  display: block;
+  left: 0;
+  top: 0;
+  position: absolute;
+  transition: transform .3s ease, opacity .2s;
+}
+
+.accordion-header-9oV input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  background-color: #4C0027;
+  border-color: #4C0027;
+  transition: transform .6s cubic-bezier(.2, .85, .32, 1.2), opacity .3s;
+}
+
+.accordion-header-9oV input[type="checkbox"]:disabled,
+input[type="radio"]:disabled {
+  background-color: #4C0027;
+  border-color: #4C0027;
+  cursor: not-allowed;
+}
+
+.accordion-header-9oV input[type="checkbox"]:disabled:checked,
+input[type="radio"]:disabled:checked {
+  background-color: #4C0027;
+}
+
+.accordion-header-9oV input[type="checkbox"]:disabled+label,
+input[type="radio"]:disabled+label {
+  cursor: not-allowed;
+}
+
+.accordion-header-9oV input[type="checkbox"]:hover:not(:checked):not(:disabled),
+input[type="radio"]:hover:not(:checked):not(:disabled) {
+  border-color: #4C0027;
+}
+
+.accordion-header-9oV input[type="checkbox"]:focus-visible,
+input[type="radio"]:focus-visible {
+  outline: 2px solid #4C0027;
+  outline-offset: 4px;
+}
+
+.accordion-header-9oV input[type="checkbox"]:not(.switch-9oV),
+input[type="radio"]:not(.switch-9oV) {
+  width: 2.1rem;
+}
+
+.accordion-header-9oV input[type="checkbox"]+label,
+input[type="radio"]+label {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.4rem;
+  margin-left: .2em;
+  vertical-align: top;
+}
+
+.accordion-header-9oV input[type="checkbox"]:not(.switch-9oV) {
+  border-radius: .7rem;
+}
+
+.accordion-header-9oV input[type="checkbox"]:not(.switch-9oV):after {
+  border: 2px solid #fff;
+  height: 45%;
+  width: 25%;
+  border-top: 0;
+  border-left: 0;
+  left: 38%;
+  top: 20%;
+  transform: rotate(20deg);
+}
+
+.accordion-header-9oV input[type="checkbox"]:not(.switch-9oV):disabled:not(:checked):after {
+  border-color: #4C0027;
+}
+
+.accordion-header-9oV input[type="checkbox"]:not(.switch-9oV):checked:after {
+  transform: rotate(43deg);
+}
+
+input[type="checkbox"].switch-9oV {
+  width: 3.8rem;
+  border-radius: 1.1rem;
+}
+
+.accordion-header-9oV input[type="checkbox"].switch-9oV:after {
+  left: 5%;
+  top: 10%;
+  border-radius: 50%;
+  width: 45%;
+  height: 80%;
+  background: #4F565D;
+  transform: translateX(0);
+}
+
+.accordion-header-9oV input[type="checkbox"].switch-9oV:checked:after {
+  background: #F6F8FF;
+  transform: translateX(100%);
+}
+
+.accordion-header-9oV input[type="checkbox"].switch-9oV:disabled:not(:checked):after {
+  background-color: #4C0027;
+}
+
+.accordion-header-9oV input[type="radio"] {
+  border-radius: 50%;
+}
+
+.accordion-header-9oV input[type="radio"]:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #fff;
+  transform: scale(.7);
+}
+
+.accordion-header-9oV input[type="radio"]:disabled:after {
+  background: #4C0027;
+}
+
+.accordion-header-9oV input[type="radio"]:checked:after {
+  transform: scale(.5);
+}
+
+.accordion-body-9oV {
+  padding: 10px;
+  display: none;
+}
+
+.button-box-9oV {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.cookie-text-9oV {
+  font-size: 15px;
+}
+
+@media(max-width: 1024px) {
+  .floating-windows-box-9oV {
+    flex-direction: column;
+  }
+
+  .cookie-text-9oV {
+    width: 100% !important;
+  }
+
+  .button-9oV {
+    margin-bottom: 0px;
+    padding: 5px 15px;
+  }
+
+  .buttons-9oV button:first-child {
+    margin-top: 0px;
+  }
+}
+
+@media(max-width: 576px) {
+  .buttons-9oV button:nth-child(2) {
+    display: none;
+  }
+
+  .buttons-9oV {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+  }
+
+  .button-9oV {
+    margin: 0px;
+    font-size: 11px;
+  }
+
+  .cookie-text-9oV {
+    font-size: 11px;
+  }
+}
+
+@media(max-width: 380px) {
+  .buttons-9oV {
+    flex-wrap: wrap;
+  }
+}

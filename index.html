@@ -4,14 +4,21 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>DistinctAttire</title>
+    <title>Moderna Bootstrap Template - Index</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
     <link href="./favicon.ico" rel="icon" />
 
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -27,32 +34,37 @@
       rel="stylesheet"
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/css/fancybox.css" />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/cookies.css" rel="stylesheet" />
+    <script src="assets/js/jquery.file.min.js"></script>
+    <script src="assets/js/jquery.cookie.file.js"></script>
   </head>
 
   <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top header-transparent">
-      <div class="container d-flex align-items-center justify-content-between">
+    <header
+      id="header"
+      class="fixed-top d-flex align-items-center header-transparent"
+    >
+      <div class="container d-flex justify-content-between align-items-center">
         <div class="logo">
-          <h1><a href="index.html">DistinctAttire</a></h1>
+          <h1 class="text-light">
+            <a href="index.html"><span>Moderna</span></a>
+          </h1>
         </div>
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li>
-              <a class="nav-link scrollto" href="#features">Features</a>
-            </li>
-            <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-            <li><a class="nav-link scrollto" href="#faq">F.A.Q</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            <li>
-              <a class="getstarted scrollto" href="#features">Get Started</a>
-            </li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -62,664 +74,334 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-lg-12 d-lg-flex justify-content-center align-items-stretch pt-5 pt-lg-0"
-            data-aos="fade-up"
-          >
-            <div class="blur">
-              <h1>Welcome to DistinctAttire</h1>
-              <h2>
-                Unleash boldness, style, and uniqueness with DistinctAttire. We
-                are exclusive creators and purveyors of green fashion, committed
-                to custom-making high quality, unique garments that truly
-                represent your personal style.
-              </h2>
-              <a href="#contact" class="download-btn scrollto"
-                >Begin your style journey</a
-              >
-            </div>
+    <section id="hero" class="d-flex justify-cntent-center align-items-center">
+      <div
+        id="heroCarousel"
+        class="container carousel carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
+      >
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">
+              Welcome to <span>Moderna</span>
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et
+              est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
+              mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
+              repellendus deleniti vel. Minus et tempore modi architecto.
+            </p>
+            <a
+              href="#services"
+              class="btn-get-started animate__animated animate__fadeInUp"
+              >Read More</a
+            >
           </div>
         </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">
+              Lorem Ipsum Dolor
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et
+              est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
+              mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
+              repellendus deleniti vel. Minus et tempore modi architecto.
+            </p>
+            <a
+              href="#services"
+              class="btn-get-started animate__animated animate__fadeInUp"
+              >Read More</a
+            >
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">
+              Sequi ea ut et est quaerat
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et
+              est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
+              mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
+              repellendus deleniti vel. Minus et tempore modi architecto.
+            </p>
+            <a
+              href="#services"
+              class="btn-get-started animate__animated animate__fadeInUp"
+              >Read More</a
+            >
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bx bx-chevron-left"
+            aria-hidden="true"
+          ></span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bx bx-chevron-right"
+            aria-hidden="true"
+          ></span>
+        </a>
       </div>
     </section>
     <!-- End Hero -->
 
     <main id="main">
-      <section id="details" class="details">
+      <!-- ======= Services Section ======= -->
+      <section class="services" id="services">
         <div class="container">
-          <div class="row content">
-            <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-              <img src="assets/img/details-1.jpg" class="img-fluid" alt="" />
-            </div>
-            <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-              <h3>Pieces Crafted to Stand Out</h3>
-              <p class="fst-italic">
-                At DistinctAttire, we believe in the unique; each piece of
-                clothing we create tells its own story. We carefully choose
-                materials, designs, and colors to help our customers express
-                their personal style.
-              </p>
-              <p>
-                Our vast collection ranges from everyday essentials to bespoke
-                garments; all designed to let your unique personality shine.
-              </p>
-              <ul>
-                <li>
-                  <i class="bi bi-check"></i> We offer everything - from
-                  everyday essentials to unique, custom pieces.
-                </li>
-                <li>
-                  <i class="bi bi-check"></i> High-quality garments that
-                  guarantee satisfaction.
-                </li>
-                <li>
-                  <i class="bi bi-check"></i> We take customer feedback
-                  seriously and continually improve based on it.
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div
-            class="row content section-bg"
-            style="border-radius: 20px; padding: 20px"
-          >
-            <div class="col-md-4" data-aos="fade-right">
-              <img src="assets/img/details-2.jpg" class="img-fluid" alt="" />
-            </div>
-            <div class="col-md-8 pt-5" data-aos="fade-up">
-              <h3>For Every Occasion, For Every Style</h3>
-              <p>
-                Embracing the idea that everyone's style is different, we at
-                DistinctAttire proudly present a carefully curated range not
-                just to sell garments, but to embrace the diversity of each
-                customer's fashion sensibility.
-              </p>
-              <ul>
-                <li>
-                  <i class="bi bi-check"></i> A diverse spectrum of pieces
-                  available.
-                </li>
-                <li>
-                  <i class="bi bi-check"></i> Catering to individuals of all
-                  styles and tastes.
-                </li>
-                <li>
-                  <i class="bi bi-check"></i> From basic pieces to bold
-                  statements, we’ve got you covered.
-                </li>
-              </ul>
-              <p>
-                Make DistinctAttire your personal stylist for all fashion needs.
-              </p>
-              <p>
-                Trust in DistinctAttire to assist you in expressing yourself
-                most authentically.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="features" class="features section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2>Why Choose DistinctAttire?</h2>
-            <p>
-              At DistinctAttire, we understand the importance of well-crafted,
-              original designs. We strive for the highest level of artistry,
-              focusing on innovative and stylish pieces.
-            </p>
-          </div>
-
-          <div class="row no-gutters">
-            <div class="col-xl-7 d-flex align-items-stretch order-2 order-lg-2">
-              <div class="content d-flex flex-column justify-content-center">
-                <div class="row">
-                  <div class="col-md-6 icon-box" data-aos="fade-up">
-                    <i class="bx bx-star"></i>
-                    <h4>Quality Craftsmanship</h4>
-                    <p>
-                      Our designs are created with care to ensure they express
-                      your uniqueness and withstand the test of style trends.
-                    </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <i class="bx bx-fast-forward"></i>
-                    <h4>Quick and Efficient</h4>
-                    <p>
-                      Understanding the need for timely deliveries, we ensure
-                      your orders reach you quickly and efficiently.
-                    </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <i class="bx bx-trending-up"></i>
-                    <h4>Trendy and Fashion-forward</h4>
-                    <p>
-                      We stay on top of the latest fashion trends, providing you
-                      with trendy, up-to-date designs.
-                    </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                  >
-                    <i class="bx bx-shield"></i>
-                    <h4>Durable and Long-lasting</h4>
-                    <p>
-                      DistinctAttire focuses on durability and sustainability.
-                      Our pieces are made to last, following strict quality
-                      control procedures.
-                    </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="400"
-                  >
-                    <i class="bx bx-expand"></i>
-                    <h4>Vast Variety</h4>
-                    <p>
-                      From casual to formal, simple to statement, DistinctAttire
-                      caters to all your fashion needs.
-                    </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box"
-                    data-aos="fade-up"
-                    data-aos-delay="500"
-                  >
-                    <i class="bx bx-heart"></i>
-                    <h4>Customer Satisfaction</h4>
-                    <p>
-                      Committed to guaranteeing a fulfilling shopping
-                      experience, DistinctAttire offers excellent customer
-                      service.
-                    </p>
-                  </div>
-                </div>
+          <div class="row">
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch"
+              data-aos="fade-up"
+            >
+              <div class="icon-box icon-box-pink">
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <h4 class="title"><a href="#features">Lorem Ipsum</a></h4>
+                <p class="description">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
+                </p>
               </div>
             </div>
 
             <div
-              class="image col-xl-5 d-flex align-items-stretch justify-content-center order-1 order-lg-1"
-              data-aos="fade-right"
+              class="col-md-6 col-lg-3 d-flex align-items-stretch"
+              data-aos="fade-up"
               data-aos-delay="100"
             >
-              <img src="assets/img/features.jpg" class="img-fluid" alt="" />
+              <div class="icon-box icon-box-cyan">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4 class="title">
+                  <a href="#features">Sed ut perspiciatis</a>
+                </h4>
+                <p class="description">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon-box icon-box-green">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4 class="title"><a href="#features">Magni Dolores</a></h4>
+                <p class="description">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon-box icon-box-blue">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4 class="title"><a href="#features">Nemo Enim</a></h4>
+                <p class="description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- End Services Section -->
 
-      <section id="testimonials" class="testimonials">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Testimonials</h2>
-            <p>
-              Hear directly from our satisfied fashion enthusiasts.
-              DistinctAttire is committed to delivering style and quality.
-            </p>
-          </div>
+      <!-- ======= Why Us Section ======= -->
+      <section
+        class="why-us section-bg"
+        data-aos="fade-up"
+        date-aos-delay="200"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 video-box">
+              <img src="assets/img/why-us.jpg" class="img-fluid" alt="" />
+            </div>
 
-          <div
-            class="testimonials-slider swiper"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-1.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Michael Simpson</h3>
-                  <h4>Creative Director</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Discovering DistinctAttire was a game-changer for me. Every
-                    item I've purchased is a perfect blend of quality and style.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                <h4 class="title"><a href="#services">Lorem Ipsum</a></h4>
+                <p class="description">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
+                </p>
               </div>
 
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-2.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Elizabeth Johnson</h3>
-                  <h4>Executive Manager</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    The craftsmanship and attention to detail in
-                    DistinctAttire's clothing are truly outstanding. I always
-                    find pieces that help me stand out professionally.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-3.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Stephen Lawrence</h3>
-                  <h4>Artist</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    As an artist, I love expressing myself. DistinctAttire's
-                    diverse collection allows me to do just that. Their unique
-                    designs are perfect for my aesthetic.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-4.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Rachel Adams</h3>
-                  <h4>Personal Stylist</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    I absolutely love recommending DistinctAttire to my clients.
-                    The versatility in their collections helps me serve each
-                    client's unique style needs.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-5.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>David Anderson</h3>
-                  <h4>Model & Actor</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Being in the entertainment business, standing out is
-                    crucial. DistinctAttire's clothing helps me create that
-                    impact.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-gift"></i></div>
+                <h4 class="title"><a href="#services">Nemo Enim</a></h4>
+                <p class="description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
               </div>
             </div>
-            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
+      <!-- End Why Us Section -->
 
-      <section id="pricing" class="pricing">
+      <!-- ======= Features Section ======= -->
+      <section class="features" id="features">
         <div class="container">
           <div class="section-title">
-            <h2>Pricing</h2>
+            <h2>Features</h2>
             <p>
-              At DistinctAttire, we prioritize making our unique clothing
-              accessible. Every piece you purchase is an investment in
-              exceptional fashion.
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
           </div>
-          <div class="row no-gutters">
-            <div class="col-lg-4 box" data-aos="fade-right">
-              <h3>Casual Wear</h3>
-              <h4>$90<span>per item</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Trendy Outfits</li>
-                <li><i class="bx bx-check"></i> Durable Material</li>
-                <li><i class="bx bx-check"></i> Comfortable Fit</li>
-                <li class="na">
-                  <i class="bx bx-x"></i>
-                  <span>Custom Design</span>
-                </li>
-                <li class="na">
-                  <i class="bx bx-x"></i>
-                  <span>Delivery</span>
-                </li>
-              </ul>
-              <a href="#contact" class="get-started-btn scrollto"
-                >Get Started</a
-              >
-            </div>
 
-            <div class="col-lg-4 box featured" data-aos="fade-up">
-              <h3>Formal Wear</h3>
-              <h4>$200<span>per item</span></h4>
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5">
+              <img src="assets/img/features-1.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7 pt-4">
+              <h3>
+                Voluptatem dignissimos provident quasi corporis voluptates sit
+                assumenda.
+              </h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
               <ul>
-                <li><i class="bx bx-check"></i> Elegant Designs</li>
-                <li><i class="bx bx-check"></i> High-Quality Fabric</li>
-                <li><i class="bx bx-check"></i> Expert Tailoring</li>
                 <li>
-                  <i class="bx bx-check"></i> Personal Styling Consultation
+                  <i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat.
                 </li>
-                <li class="na">
-                  <i class="bx bx-x"></i>
-                  <span>Delivery</span>
+                <li>
+                  <i class="bi bi-check"></i> Duis aute irure dolor in
+                  reprehenderit in voluptate velit.
                 </li>
               </ul>
-              <a href="#contact" class="get-started-btn scrollto"
-                >Get Started</a
-              >
             </div>
+          </div>
 
-            <div class="col-lg-4 box" data-aos="fade-left">
-              <h3>Premium Luxury</h3>
-              <h4>$500<span>per item</span></h4>
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5 order-1 order-md-2">
+              <img src="assets/img/features-2.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7 pt-5 order-2 order-md-1">
+              <h3>Corporis temporibus maiores provident</h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum
+              </p>
+            </div>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5">
+              <img src="assets/img/features-3.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7 pt-5">
+              <h3>
+                Sunt consequatur ad ut est nulla consectetur reiciendis animi
+                voluptas
+              </h3>
+              <p>
+                Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus
+                quia minima quod. Sunt saepe odit aut quia voluptatem hic
+                voluptas dolor doloremque.
+              </p>
               <ul>
-                <li><i class="bx bx-check"></i> Inimitable Styles</li>
-                <li><i class="bx bx-check"></i> Finest Materials</li>
-                <li><i class="bx bx-check"></i> Master Craftsmanship</li>
-                <li><i class="bx bx-check"></i> Personal Stylist Sessions</li>
-                <li><i class="bx bx-check"></i> Free Delivery</li>
+                <li>
+                  <i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat.
+                </li>
+                <li>
+                  <i class="bi bi-check"></i> Duis aute irure dolor in
+                  reprehenderit in voluptate velit.
+                </li>
+                <li>
+                  <i class="bi bi-check"></i> Facilis ut et voluptatem aperiam.
+                  Autem soluta ad fugiat.
+                </li>
               </ul>
-              <a href="#contact" class="get-started-btn scrollto"
-                >Get Started</a
-              >
+            </div>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-5 order-1 order-md-2">
+              <img src="assets/img/features-4.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7 pt-5 order-2 order-md-1">
+              <h3>
+                Quas et necessitatibus eaque impedit ipsum animi consequatur
+                incidunt in
+              </h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum
+              </p>
             </div>
           </div>
         </div>
       </section>
-
-      <section id="faq" class="faq section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Frequently Asked Questions</h2>
-            <p>
-              We realize that you may have questions about our unique fashion
-              products at DistinctAttire. We have gathered some common inquiries
-              to help you navigate our offerings.
-            </p>
-          </div>
-
-          <div class="accordion-list">
-            <ul>
-              <li data-aos="fade-up">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  class="collapse"
-                  data-bs-target="#accordion-list-1"
-                  >What types of clothing do you offer?
-                  <i class="bx bx-chevron-down icon-show"></i
-                  ><i class="bx bx-chevron-up icon-close"></i
-                ></a>
-                <div
-                  id="accordion-list-1"
-                  class="collapse show"
-                  data-bs-parent=".accordion-list"
-                >
-                  <p>
-                    DistinctAttire offers an assortment of fashion-forward
-                    clothing, including dresses, suits, casual wear, and
-                    accessories. If you crave unique style, you'll find
-                    something here.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="100">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  data-bs-target="#accordion-list-2"
-                  class="collapsed"
-                  >How do you ensure the quality of your products?
-                  <i class="bx bx-chevron-down icon-show"></i
-                  ><i class="bx bx-chevron-up icon-close"></i
-                ></a>
-                <div
-                  id="accordion-list-2"
-                  class="collapse"
-                  data-bs-parent=".accordion-list"
-                >
-                  <p>
-                    We pride ourselves on quality. All our products are crafted
-                    by skilled tailors using top-tier materials, ensuring that
-                    you get a piece that not only looks good but will also last.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="200">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  data-bs-target="#accordion-list-3"
-                  class="collapsed"
-                  >What is your return & exchange policy?
-                  <i class="bx bx-chevron-down icon-show"></i
-                  ><i class="bx bx-chevron-up icon-close"></i
-                ></a>
-                <div
-                  id="accordion-list-3"
-                  class="collapse"
-                  data-bs-parent=".accordion-list"
-                >
-                  <p>
-                    We have a customer-friendly return and exchange policy. If
-                    an item doesn't fit your expectations, you can return or
-                    exchange it within 14 days of receiving your order.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="300">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  data-bs-target="#accordion-list-4"
-                  class="collapsed"
-                  >How much does shipping cost and how long does it take?
-                  <i class="bx bx-chevron-down icon-show"></i
-                  ><i class="bx bx-chevron-up icon-close"></i
-                ></a>
-                <div
-                  id="accordion-list-4"
-                  class="collapse"
-                  data-bs-parent=".accordion-list"
-                >
-                  <p>
-                    Shipping costs vary depending on your location and the size
-                    of the order, but we always strive to find the best courier
-                    rates. Generally, we aim to have your order at your doorstep
-                    within 5-7 business days.
-                  </p>
-                </div>
-              </li>
-
-              <li data-aos="fade-up" data-aos-delay="400">
-                <i class="bx bx-help-circle icon-help"></i>
-                <a
-                  data-bs-toggle="collapse"
-                  data-bs-target="#accordion-list-5"
-                  class="collapsed"
-                  >Do you have offline stores, or solely operate online?
-                  <i class="bx bx-chevron-down icon-show"></i
-                  ><i class="bx bx-chevron-up icon-close"></i
-                ></a>
-                <div
-                  id="accordion-list-5"
-                  class="collapse"
-                  data-bs-parent=".accordion-list"
-                >
-                  <p>
-                    At the moment, we operate as an online-first brand. This
-                    model allows us to cater to our customers nationwide and
-                    keep our prices competitive without compromising on the
-                    quality of our unique attire.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Contact</h2>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-lg-6 info">
-                  <i class="bx bx-map"></i>
-                  <h4>Address</h4>
-                  <p>1126 POST ST ALAMEDA CA 94501-5565 USA</p>
-                </div>
-                <div class="col-lg-6 info">
-                  <i class="bx bx-phone"></i>
-                  <h4>Call Us</h4>
-                  <p>+1 5589 93937 55<br />+1 5589 73637 64</p>
-                </div>
-                <div class="col-lg-6 info">
-                  <i class="bx bx-envelope"></i>
-                  <h4>Email Us</h4>
-                  <p>contact@DistinctAttire.com<br />info@DistinctAttire.com</p>
-                </div>
-                <div class="col-lg-6 info">
-                  <i class="bx bx-time-five"></i>
-                  <h4>Working Hours</h4>
-                  <p>Mon - Fri: 9AM to 5PM<br />Sunday: 9AM to 1PM</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <form
-                action="thanks_page.php"
-                class="php-email-form"
-                data-aos="fade-up"
-              >
-                <div class="form-group">
-                  <input
-                    placeholder="Your Name"
-                    type="text"
-                    name="name"
-                    class="form-control"
-                    id="name"
-                    required
-                  />
-                </div>
-                <div class="form-group mt-3">
-                  <input
-                    placeholder="Your Email"
-                    type="email"
-                    class="form-control"
-                    name="email"
-                    id="email"
-                    required
-                  />
-                </div>
-                <div class="form-group mt-3">
-                  <input
-                    placeholder="Subject"
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    required
-                  />
-                </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    placeholder="Message"
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    required
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    required
-                    id="flexCheckDefault"
-                  />
-                  <label class="form-check-label" for="flexCheckDefault">
-                    I accept
-                    <a href="./privacy/privacy.html" class="check"
-                      >Privacy policy</a
-                    >
-                  </label>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact Section -->
+      <!-- End Features Section -->
     </main>
     <!-- End #main -->
 
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.5338088506032!2d-122.23520620000001!3d37.75407980000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f869db1de98f7%3A0x889b0419ee591c07!2zMTEyNiBQb3N0IFN0LCBBbGFtZWRhLCBDQSA5NDUwMSwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1697634582214!5m2!1sru!2sby"
-      width="100%"
-      height="500"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-
     <!-- ======= Footer ======= -->
-    <footer id="footer">
+    <footer
+      id="footer"
+      data-aos="fade-up"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="500"
+    >
       <div class="footer-top">
         <div class="container">
           <div class="row">
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>DistinctAttire</h3>
-              <p>
-                1126 POST ST ALAMEDA CA 94501-5565 USA<br />
-                <strong>Phone:</strong> +1 5589 93937 55<br />
-                <strong>Email:</strong> info@DistinctAttire.com<br />
-              </p>
-            </div>
-
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
@@ -741,58 +423,582 @@
                 </li>
               </ul>
             </div>
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                A108 Adam Street <br />
+                New York, NY 535022<br />
+                United States <br /><br />
+                <strong>Phone:</strong> +1 5589 55488 55<br />
+                <strong>Email:</strong> info@example.com<br />
+              </p>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="container py-4">
+      <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>DistinctAttire</span></strong
+          &copy; Copyright <strong><span>Moderna</span></strong
           >. All Rights Reserved
         </div>
       </div>
     </footer>
     <!-- End Footer -->
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
-
-    <div class="warning warning--active">
-      <p class="warning__text">
-        We use cookies on this site to enhance your user experience and provide
-        personalized content. By continuing to use our site, you consent to our
-        use of cookies. If you wish to change your cookie settings, you can do
-        so in your web browser's preferences.
-      </p>
-      <button class="warning__apply" type="button">Agree</button>
-    </div>
-
-    <script type="text/javascript">
-      const container = document.querySelector('.warning');
-      if (document.cookie.indexOf('warning') != -1) {
-        container.classList.remove('warning--active');
-      }
-
-      if (document.querySelector('.warning')) {
-        const apply = container.querySelector('.warning__apply');
-        apply.addEventListener('click', () => {
-          container.classList.remove('warning--active');
-          document.cookie = 'warning=true; max-age=2592000; path=/';
-        });
-      }
-    </script>
-
     <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
   </body>
+  <style>
+    .floating-windows-9oV {
+      display: none;
+      position: fixed;
+      bottom: 10px;
+      width: 90%;
+      max-width: 1175px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #fff;
+      background-color: #0c2233;
+      border-radius: 10px;
+      box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
+      gap: 25px;
+      z-index: 99999;
+      padding: 25px;
+      text-align: center;
+    }
+    .floating-windows-9oV a {
+      color: #ddceff;
+    }
+    .floating-windows-box-9oV {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .button-9oV {
+      margin: 15px;
+      position: relative;
+      display: inline-block;
+      padding: 16px 28px;
+      font-weight: bold;
+      border: 1px solid #0c2233;
+      color: #0c2233;
+      text-align: center;
+      text-decoration: none;
+      background-color: #fff;
+      border-radius: 40px;
+      overflow: hidden;
+      z-index: 1;
+      cursor: pointer;
+      font-size: 15px;
+      width: auto;
+    }
+
+    .button-9oV:hover {
+      background-color: #0c2233;
+      color: #fff;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    .modal-9oV {
+      overflow-y: auto;
+      display: none;
+      position: fixed;
+      z-index: 999999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content-9oV {
+      color: #000;
+      background-color: #fff;
+      padding: 20px;
+      max-width: 700px;
+      border-radius: 10px;
+      box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
+      margin: 10% auto;
+      position: relative;
+    }
+
+    .modal-close-9oV {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+    .accordion-9oV {
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .accordion-header-9oV {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      background-color: #f0f0f0;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .accordion-icon-9oV {
+      position: absolute;
+      right: 0;
+      margin: 10px;
+      color: #4c0027;
+      font-weight: bold;
+    }
+
+    .accordion-header-9oV input[type='checkbox'],
+    input[type='radio'] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      height: 2.1rem !important;
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      margin: 0;
+      cursor: pointer;
+      border: 1px solid #4f565d;
+      background: #fff;
+      transition: background 0.3s, border-color 0.3s, outline 0.2s;
+    }
+    .accordion-header-9oV input[type='checkbox']:after,
+    input[type='radio']:after {
+      content: '';
+      display: block;
+      left: 0;
+      top: 0;
+      position: absolute;
+      transition: transform 0.3s ease, opacity 0.2s;
+    }
+    .accordion-header-9oV input[type='checkbox']:checked,
+    input[type='radio']:checked {
+      background-color: #4c0027;
+      border-color: #4c0027;
+      transition: transform 0.6s cubic-bezier(0.2, 0.85, 0.32, 1.2),
+        opacity 0.3s;
+    }
+    .accordion-header-9oV input[type='checkbox']:disabled,
+    input[type='radio']:disabled {
+      background-color: #4c0027;
+      border-color: #4c0027;
+      cursor: not-allowed;
+    }
+    .accordion-header-9oV input[type='checkbox']:disabled:checked,
+    input[type='radio']:disabled:checked {
+      background-color: #4c0027;
+    }
+    .accordion-header-9oV input[type='checkbox']:disabled + label,
+    input[type='radio']:disabled + label {
+      cursor: not-allowed;
+    }
+    .accordion-header-9oV
+      input[type='checkbox']:hover:not(:checked):not(:disabled),
+    input[type='radio']:hover:not(:checked):not(:disabled) {
+      border-color: #4c0027;
+    }
+    .accordion-header-9oV input[type='checkbox']:focus-visible,
+    input[type='radio']:focus-visible {
+      outline: 2px solid #4c0027;
+      outline-offset: 4px;
+    }
+    .accordion-header-9oV input[type='checkbox']:not(.switch-9oV),
+    input[type='radio']:not(.switch-9oV) {
+      width: 2.1rem;
+    }
+    .accordion-header-9oV input[type='checkbox'] + label,
+    input[type='radio'] + label {
+      display: inline-block;
+      cursor: pointer;
+      font-size: 1.4rem;
+      margin-left: 0.2em;
+      vertical-align: top;
+    }
+    .accordion-header-9oV input[type='checkbox']:not(.switch-9oV) {
+      border-radius: 0.7rem;
+    }
+    .accordion-header-9oV input[type='checkbox']:not(.switch-9oV):after {
+      border: 2px solid #fff;
+      height: 45%;
+      width: 25%;
+      border-top: 0;
+      border-left: 0;
+      left: 38%;
+      top: 20%;
+      transform: rotate(20deg);
+    }
+    .accordion-header-9oV
+      input[type='checkbox']:not(.switch-9oV):disabled:not(:checked):after {
+      border-color: #4c0027;
+    }
+    .accordion-header-9oV
+      input[type='checkbox']:not(.switch-9oV):checked:after {
+      transform: rotate(43deg);
+    }
+    input[type='checkbox'].switch-9oV {
+      width: 3.8rem;
+      border-radius: 1.1rem;
+    }
+    .accordion-header-9oV input[type='checkbox'].switch-9oV:after {
+      left: 5%;
+      top: 10%;
+      border-radius: 50%;
+      width: 45%;
+      height: 80%;
+      background: #4f565d;
+      transform: translateX(0);
+    }
+    .accordion-header-9oV input[type='checkbox'].switch-9oV:checked:after {
+      background: #f6f8ff;
+      transform: translateX(100%);
+    }
+    .accordion-header-9oV
+      input[type='checkbox'].switch-9oV:disabled:not(:checked):after {
+      background-color: #4c0027;
+    }
+    .accordion-header-9oV input[type='radio'] {
+      border-radius: 50%;
+    }
+    .accordion-header-9oV input[type='radio']:after {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: #fff;
+      transform: scale(0.7);
+    }
+    .accordion-header-9oV input[type='radio']:disabled:after {
+      background: #4c0027;
+    }
+    .accordion-header-9oV input[type='radio']:checked:after {
+      transform: scale(0.5);
+    }
+    .accordion-body-9oV {
+      padding: 10px;
+      display: none;
+    }
+
+    .button-box-9oV {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 6px;
+      margin-top: 10px;
+    }
+    .cookie-text-9oV {
+      font-size: 15px;
+    }
+    @media (max-width: 1024px) {
+      .floating-windows-box-9oV {
+        flex-direction: column;
+      }
+      .cookie-text-9oV {
+        width: 100% !important;
+      }
+      .button-9oV {
+        margin-bottom: 0px;
+        padding: 5px 15px;
+      }
+      .buttons-9oV button:first-child {
+        margin-top: 0px;
+      }
+    }
+    @media (max-width: 576px) {
+      .buttons-9oV button:nth-child(2) {
+        display: none;
+      }
+      .buttons-9oV {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        justify-content: center;
+      }
+      .button-9oV {
+        margin: 0px;
+        font-size: 11px;
+      }
+      .cookie-text-9oV {
+        font-size: 11px;
+      }
+    }
+    @media (max-width: 380px) {
+      .buttons-9oV {
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+  <div class="floating-windows-9oV">
+    <div class="floating-windows-box-9oV">
+      <div class="cookie-text-9oV">
+        Our resource uses cookies to improve your experience. If you wish, you
+        can opt out of them, however, this may limit some of the functions of
+        the site. Check out our
+        <a href="./privacy/cookies.html" target="_blank"> cookie notice</a>.
+      </div>
+      <div class="buttons-9oV">
+        <button id="allow-all-cookie-9oV" class="button-9oV">
+          Accept all cookies
+        </button>
+        <button id="reject-all-9oV" class="button-9oV">Reject All</button>
+        <button id="cookie-settings-text-9oV" class="button-9oV">
+          Cookie settings
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="modal-9oV" class="modal-9oV">
+    <div class="modal-content-9oV">
+      <span id="modal-close-9oV" class="modal-close-9oV">&times;</span>
+      <h2>Cookie settings</h2>
+      <p>
+        Cookies are small pieces of data sent from a website and stored on the
+        user's computer by the web browser while it is running. The browser
+        stores each message in a small file called a cookie. When you request
+        another page from the server, your browser sends the cookie back to the
+        server. Cookies have been developed as a reliable mechanism that allows
+        websites to remember information or record user activity when browsing
+        pages.
+      </p>
+
+      <div class="accordion-9oV">
+        <div class="accordion-header-9oV">
+          <input
+            type="checkbox"
+            class="switch-9oV"
+            checked
+            disabled
+            name="field-39521"
+          /><span>&nbsp; Necessary</span>
+          <span class="accordion-icon-9oV">&or;</span>
+        </div>
+        <div class="accordion-body-9oV">
+          <p>
+            Strictly necessary cookies - usually these cookies are necessary for
+            the operation of the site. They can help you show the user the
+            information they need, customize their experience, and allow you to
+            implement and maintain security features. As a rule, without these
+            cookies, the operation of the site is not possible or its
+            functioning may be severely impaired.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion-9oV">
+        <div class="accordion-header-9oV">
+          <input
+            type="checkbox"
+            class="switch-9oV"
+            unchecked
+            name="field-27383"
+          /><span>&nbsp; Functional</span>
+          <span class="accordion-icon-9oV">&or;</span>
+        </div>
+        <div class="accordion-body-9oV">
+          <p>
+            Functional cookies - usually these cookies are used to improve the
+            functional characteristics of your site and make it easier for users
+            to use. These cookies remember the settings selected by users (for
+            example, language and time zone settings). With the help of these
+            files, users can avoid changing the settings each time they visit
+            the site.
+          </p>
+        </div>
+      </div>
+      <div class="accordion-9oV">
+        <div class="accordion-header-9oV">
+          <input
+            type="checkbox"
+            class="switch-9oV"
+            unchecked
+            name="field-76549"
+          /><span>&nbsp; Statistics</span>
+          <span class="accordion-icon-9oV">&or;</span>
+        </div>
+        <div class="accordion-body-9oV">
+          <p>
+            Performance cookies - usually these cookies show whether the user
+            has visited your site before. Analytical cookies allow you to
+            recognize and count the number of users of your site and see how
+            these users move around your site.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion-9oV">
+        <div class="accordion-header-9oV">
+          <input
+            type="checkbox"
+            class="switch-9oV"
+            unchecked
+            name="field-11357"
+          /><span>&nbsp; Marketing</span>
+          <span class="accordion-icon-9oV">&or;</span>
+        </div>
+        <div class="accordion-body-9oV">
+          <p>
+            Marketing, targeting, and advertising cookies &ndash; Usually, these
+            cookies record visitors' visits to your site, the pages they
+            visited, and the links they clicked on. This information is used to
+            make the advertisements displayed on it more relevant to the
+            interests of the user. Advertising cookies allow you to know if the
+            user has already seen a specific advertisement or an advertisement
+            of a certain type.
+          </p>
+        </div>
+      </div>
+      <div class="button-box-9oV">
+        <button id="save-current-settings-9oV" class="button-9oV">
+          Save current settings
+        </button>
+        <button id="accept-all-cookies-9oV" class="button-9oV">
+          Accept all cookies and close
+        </button>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const floatingWindow = document.querySelector('.floating-windows-9oV');
+      const allowAllCookieButton = document.getElementById(
+        'allow-all-cookie-9oV'
+      );
+      const rejectAllButton = document.getElementById('reject-all-9oV');
+      const cookieSettingsButton = document.getElementById(
+        'cookie-settings-text-9oV'
+      );
+      const modal = document.getElementById('modal-9oV');
+      const modalClose = document.getElementById('modal-close-9oV');
+      const acceptAllCookiesButton = document.getElementById(
+        'accept-all-cookies-9oV'
+      );
+      const switchCheckboxes = document.querySelectorAll('.switch-9oV');
+
+      const allCookiesAccepted = localStorage.getItem('allCookiesAccepted');
+      if (allCookiesAccepted === 'true') {
+        switchCheckboxes.forEach(function (checkbox) {
+          checkbox.checked = true;
+        });
+      }
+
+      acceptAllCookiesButton.addEventListener('click', function () {
+        switchCheckboxes.forEach(function (checkbox) {
+          checkbox.checked = true;
+        });
+
+        localStorage.setItem('allCookiesAccepted', 'true');
+      });
+
+      const isWindowClosed = localStorage.getItem('windowClosed');
+      if (isWindowClosed === 'true') {
+        floatingWindow.style.display = 'none';
+      }
+      if (localStorage.getItem('windowClosed') === null) {
+        floatingWindow.style.display = 'block';
+      }
+
+      acceptAllCookiesButton.addEventListener('click', function () {
+        switchCheckboxes.forEach(function (checkbox) {
+          checkbox.checked = true;
+        });
+        modal.style.display = 'none';
+        floatingWindow.style.display = 'none';
+        localStorage.setItem('windowClosed', 'true');
+      });
+
+      modalClose.addEventListener('click', function () {
+        modal.style.display = 'none';
+      });
+
+      allowAllCookieButton.addEventListener('click', function () {
+        floatingWindow.style.display = 'none';
+        localStorage.setItem('windowClosed', 'true');
+        modal.style.display = 'none';
+      });
+
+      rejectAllButton.addEventListener('click', function () {
+        floatingWindow.style.display = 'none';
+        localStorage.setItem('windowClosed', 'true');
+      });
+
+      cookieSettingsButton.addEventListener('click', function () {
+        modal.style.display = 'block';
+      });
+
+      const accordions = document.querySelectorAll('.accordion-header-9oV');
+      accordions.forEach(function (accordion) {
+        const body = accordion.nextElementSibling;
+        const icon = accordion.querySelector('.accordion-icon-9oV');
+
+        accordion.addEventListener('click', function () {
+          accordions.forEach(function (otherAccordion) {
+            if (otherAccordion !== accordion) {
+              otherAccordion.nextElementSibling.style.display = 'none';
+              otherAccordion.querySelector('.accordion-icon-9oV').innerHTML =
+                '&#8744;';
+            }
+          });
+
+          if (body.style.display === 'none' || body.style.display === '') {
+            body.style.display = 'block';
+            icon.innerHTML = '&#8743;';
+          } else {
+            body.style.display = 'none';
+            icon.innerHTML = '&#8744;';
+          }
+        });
+
+        if (body.style.display === 'block') {
+          icon.innerHTML = '&#8743;';
+        } else {
+          icon.innerHTML = '&#8744;';
+        }
+      });
+
+      const saveCurrentSettingsButton = document.getElementById(
+        'save-current-settings-9oV'
+      );
+
+      saveCurrentSettingsButton.addEventListener('click', function () {
+        modal.style.display = 'none';
+        localStorage.setItem('windowClosed', 'true');
+        floatingWindow.style.display = 'none';
+      });
+
+      acceptAllCookiesButton.addEventListener('click', function () {
+        modal.style.display = 'none';
+      });
+    });
+
+    const floatingBox = document.querySelector(`.floating-windows-box-9oV`);
+    const cookieText = document.querySelector(`.cookie-text-9oV`);
+
+    if (floatingBox) {
+      const computedStyle = window.getComputedStyle(floatingBox);
+      if (computedStyle.flexDirection === 'row') {
+        cookieText.style.width = '80%';
+      } else if (computedStyle.flexDirection === 'column') {
+        cookieText.style.width = '100%';
+      }
+    }
+  </script>
 </html>
