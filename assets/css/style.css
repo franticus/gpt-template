@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
+  background: #ffeff8;
 }
 
 a {
@@ -304,7 +305,8 @@ h6,
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgb(86, 30, 76), rgba(68, 30, 86, 0.8)), url("../img/hero-bg.jpg") center top no-repeat;
+  background-size: cover;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -1007,6 +1009,7 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
+  max-width: 500px;
 }
 
 .testimonials .swiper-pagination {
