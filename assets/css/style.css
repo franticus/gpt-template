@@ -32,7 +32,7 @@ h6,
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #1e4356;
+  background: #401e56;
 }
 
 #header.header-transparent {
@@ -40,7 +40,7 @@ h6,
 }
 
 #header.header-scrolled {
-  background: rgba(30, 67, 86, 0.8);
+  background: rgba(55, 30, 86, 0.8);
   height: 60px;
 }
 
@@ -989,7 +989,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #fbfcfd;
+  color: #111;
   font-size: 26px;
 }
 
@@ -1594,7 +1594,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: #260b2d;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1649,7 +1649,7 @@ section {
 }
 
 #footer .footer-top {
-  background: #0d2735;
+  background: #220d35;
   border-top: 1px solid #17455e;
   border-bottom: 1px solid #123649;
   padding: 60px 0 30px 0;
