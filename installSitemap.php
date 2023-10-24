@@ -1,6 +1,6 @@
 <?php
     $domen = $_SERVER['HTTP_HOST'];
-    $sitemap = file_get_contents(__DIR__.'/sitemap.xml');
+    $sitemap = file_get_contents(__DIR__.'/sitemap.txt');
     if($sitemap){
         $sitemap = str_replace('{REPLACE_URL}', $domen, $sitemap);
         file_put_contents(__DIR__.'/sitemap.xml' , $sitemap);
