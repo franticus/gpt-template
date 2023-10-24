@@ -506,71 +506,71 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-.features-nw .row+.row {
+.features-ntg .row+.row {
   margin-top: 100px;
 }
 
-.features-nw h3 {
+.features-ntg h3 {
   font-weight: 400;
   font-size: 24px;
 }
 
-.features-nw ul {
+.features-ntg ul {
   list-style: none;
   padding: 0;
 }
 
-.features-nw ul li {
+.features-ntg ul li {
   padding-bottom: 10px;
 }
 
-.features-nw ul i {
+.features-ntg ul i {
   font-size: 20px;
   padding-right: 4px;
   color: #be5606;
 }
 
-.features-nw p:last-child {
+.features-ntg p:last-child {
   margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about-top h3 {
+.about-hhgh h3 {
   font-weight: 400;
   font-size: 26px;
 }
 
-.about-top ul {
+.about-hhgh ul {
   list-style: none;
   padding: 0;
 }
 
-.about-top ul li {
+.about-hhgh ul li {
   padding-bottom: 10px;
 }
 
-.about-top ul i {
+.about-hhgh ul i {
   font-size: 20px;
   padding-right: 4px;
   color: #be5606;
 }
 
-.about-top p:last-child {
+.about-hhgh p:last-child {
   margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
-# facts-pets
+# facts-ghgh
 --------------------------------------------------------------*/
-.facts-pets .counters span {
+.facts-ghgh .counters span {
   font-size: 48px;
   display: block;
   color: #be5606;
 }
 
-.facts-pets .counters p {
+.facts-ghgh .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Roboto", sans-serif;
@@ -580,29 +580,29 @@ section {
 /*--------------------------------------------------------------
 # Our Skills
 --------------------------------------------------------------*/
-.skills-paw {
+.skills-photo {
   padding: 60px 0;
 }
 
-.skills-paw .progress {
+.skills-photo .progress {
   height: 35px;
   margin-bottom: 10px;
 }
 
-.skills-paw .progress .skill {
+.skills-photo .progress .skill {
   line-height: 35px;
   padding: 0;
   margin: 0 0 0 20px;
   text-transform: uppercase;
 }
 
-.skills-paw .progress .skill .val {
+.skills-photo .progress .skill .val {
   float: right;
   font-style: normal;
   margin: 0 20px 0 0;
 }
 
-.skills-paw .progress-bar {
+.skills-photo .progress-bar {
   width: 1px;
   text-align: left;
   transition: 0.9s;
@@ -612,69 +612,69 @@ section {
 # Tetstimonials
 --------------------------------------------------------------*/
 
-.testimonials-pepl .section-header {
+.testimonials-fkfl .section-header {
   margin-bottom: 40px;
 }
 
-.testimonials-pepl .testimonials-carousel {
+.testimonials-fkfl .testimonials-carousel {
   overflow: hidden;
 }
 
-.testimonials-pepl .testimonial-item {
+.testimonials-fkfl .testimonial-item {
   text-align: center;
 }
 
-.testimonials-pepl .testimonial-item .testimonial-img {
+.testimonials-fkfl .testimonial-item .testimonial-img {
   width: 120px;
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
 }
 
-.testimonials-pepl .testimonial-item h3 {
+.testimonials-fkfl .testimonial-item h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
 }
 
-.testimonials-pepl .testimonial-item h4 {
+.testimonials-fkfl .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0 0 15px 0;
 }
 
-.testimonials-pepl .testimonial-item .quote-icon-left,
-.testimonials-pepl .testimonial-item .quote-icon-right {
+.testimonials-fkfl .testimonial-item .quote-icon-left,
+.testimonials-fkfl .testimonial-item .quote-icon-right {
   color: #111;
   font-size: 26px;
 }
 
-.testimonials-pepl .testimonial-item .quote-icon-left {
+.testimonials-fkfl .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-.testimonials-pepl .testimonial-item .quote-icon-right {
+.testimonials-fkfl .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
 }
 
-.testimonials-pepl .testimonial-item p {
+.testimonials-fkfl .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
   max-width: 800px;
 }
 
-.testimonials-pepl .swiper-pagination {
+.testimonials-fkfl .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.testimonials-pepl .swiper-pagination .swiper-pagination-bullet {
+.testimonials-fkfl .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -682,18 +682,18 @@ section {
   border: 1px solid #be5606;
 }
 
-.testimonials-pepl .swiper-pagination .swiper-pagination-bullet-active {
+.testimonials-fkfl .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #be5606;
 }
 
 /*--------------------------------------------------------------
 # Service Details
 --------------------------------------------------------------*/
-.service-details-cards {
+.service-details-caan {
   padding-bottom: 10px;
 }
 
-.service-details-cards .card {
+.service-details-caan .card {
   border-radius: 40px;
   padding: 0 30px;
   margin-bottom: 60px;
@@ -701,7 +701,7 @@ section {
   background: transparent;
 }
 
-.service-details-cards .card-img {
+.service-details-caan .card-img {
   width: calc(100% + 60px);
   margin-left: -30px;
   overflow: hidden;
@@ -709,13 +709,13 @@ section {
   border-radius: 10px;
 }
 
-.service-details-cards .card-img img {
+.service-details-caan .card-img img {
   max-width: 100%;
   transition: all 0.3s ease-in-out;
   border-radius: 40px;
 }
 
-.service-details-cards .card-body {
+.service-details-caan .card-body {
   z-index: 10;
   border-bottom: 4px solid #fff;
   border-radius: 40px;
@@ -725,42 +725,42 @@ section {
   transition: 0.3s;
 }
 
-.service-details-cards .card-title {
+.service-details-caan .card-title {
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
   color: #eee;
 }
 
-.service-details-cards .card-title a {
+.service-details-caan .card-title a {
   color: #1e4356;
   transition: 0.3s;
 }
 
-.service-details-cards .card-text {
+.service-details-caan .card-text {
   color: #eee;
 }
 
-.service-details-cards .card:hover img {
+.service-details-caan .card:hover img {
   transform: scale(1.1);
 }
 
-.service-details-cards .card:hover .card-body {
+.service-details-caan .card:hover .card-body {
   border-color: #065b70;
 }
 
-.service-details-cards .card:hover .card-body .card-title a {
+.service-details-caan .card:hover .card-body .card-title a {
   color: #be5606;
 }
 
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-.pricing-values .row {
+.pricing-deitals .row {
   padding-top: 40px;
 }
 
-.pricing-values .box {
+.pricing-deitals .box {
   padding: 40px;
   margin-bottom: 30px;
   box-shadow: 0px 10px 30px rgba(73, 78, 92, 0.15);
@@ -768,13 +768,13 @@ section {
   text-align: center;
 }
 
-.pricing-values h3 {
+.pricing-deitals h3 {
   font-weight: 300;
   margin-bottom: 15px;
   font-size: 28px;
 }
 
-.pricing-values h4 {
+.pricing-deitals h4 {
   font-size: 46px;
   color: #be5606;
   font-weight: 400;
@@ -782,13 +782,13 @@ section {
   margin-bottom: 25px;
 }
 
-.pricing-values h4 span {
+.pricing-deitals h4 span {
   color: #bababa;
   font-size: 18px;
   display: block;
 }
 
-.pricing-values ul {
+.pricing-deitals ul {
   padding: 0;
   list-style: none;
   color: #999;
@@ -796,29 +796,29 @@ section {
   line-height: 20px;
 }
 
-.pricing-values ul li {
+.pricing-deitals ul li {
   padding-bottom: 12px;
 }
 
-.pricing-values ul i {
+.pricing-deitals ul i {
   color: #be5606;
   font-size: 18px;
   padding-right: 4px;
 }
 
-.pricing-values ul .na {
+.pricing-deitals ul .na {
   color: #ccc;
 }
 
-.pricing-values ul .na i {
+.pricing-deitals ul .na i {
   color: #ccc;
 }
 
-.pricing-values ul .na span {
+.pricing-deitals ul .na span {
   text-decoration: line-through;
 }
 
-.pricing-values .get-started-btn {
+.pricing-deitals .get-started-btn {
   background: #1e4356;
   display: inline-block;
   padding: 6px 30px;
@@ -831,41 +831,41 @@ section {
   transition: 0.3s;
 }
 
-.pricing-values .get-started-btn:hover {
+.pricing-deitals .get-started-btn:hover {
   background: #be5606;
 }
 
-.pricing-values .featured {
+.pricing-deitals .featured {
   z-index: 10;
   border: 1px solid #fff;
   margin: -30px -5px 0 -5px;
   border-radius: 10px;
 }
 
-.pricing-values .featured .get-started-btn {
+.pricing-deitals .featured .get-started-btn {
   background: #be5606;
 }
 
-.pricing-values .featured .get-started-btn:hover {
+.pricing-deitals .featured .get-started-btn:hover {
   background: #85b6cf;
 }
 
 @media (max-width: 992px) {
-  .pricing-values .box {
+  .pricing-deitals .box {
     max-width: 60%;
     margin: 0 auto 30px auto;
   }
 }
 
 @media (max-width: 767px) {
-  .pricing-values .box {
+  .pricing-deitals .box {
     max-width: 80%;
     margin: 0 auto 30px auto;
   }
 }
 
 @media (max-width: 420px) {
-  .pricing-values .box {
+  .pricing-deitals .box {
     max-width: 100%;
     margin: 0 auto 30px auto;
   }
@@ -875,11 +875,11 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact-form {
+.contact-view {
   padding-bottom: 30px;
 }
 
-.contact-form .info-box {
+.contact-view .info-box {
   color: #444;
   text-align: center;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
@@ -888,7 +888,7 @@ section {
   border-radius: 10px;
 }
 
-.contact-form .info-box i {
+.contact-view .info-box i {
   font-size: 32px;
   color: #be5606;
   border-radius: 50%;
@@ -896,26 +896,26 @@ section {
   border: 2px dotted #009ecf;
 }
 
-.contact-form .info-box h3 {
+.contact-view .info-box h3 {
   font-size: 20px;
   color: #eee;
   font-weight: 700;
   margin: 10px 0;
 }
 
-.contact-form .info-box p {
+.contact-view .info-box p {
   padding: 0;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.contact-form .php-email-form {
+.contact-view .php-email-form {
   padding: 30px;
   margin-bottom: 30px;
 }
 
-.contact-form .php-email-form .error-message {
+.contact-view .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -924,11 +924,11 @@ section {
   font-weight: 600;
 }
 
-.contact-form .php-email-form .error-message br+br {
+.contact-view .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
-.contact-form .php-email-form .sent-message {
+.contact-view .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -937,14 +937,14 @@ section {
   font-weight: 600;
 }
 
-.contact-form .php-email-form .loading {
+.contact-view .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact-form .php-email-form .loading:before {
+.contact-view .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -956,27 +956,27 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact-form .php-email-form input,
-.contact-form .php-email-form textarea {
+.contact-view .php-email-form input,
+.contact-view .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact-form .php-email-form input::focus,
-.contact-form .php-email-form textarea::focus {
+.contact-view .php-email-form input::focus,
+.contact-view .php-email-form textarea::focus {
   background-color: #be5606;
 }
 
-.contact-form .php-email-form input {
+.contact-view .php-email-form input {
   padding: 10px 15px;
 }
 
-.contact-form .php-email-form textarea {
+.contact-view .php-email-form textarea {
   padding: 12px 15px;
 }
 
-.contact-form .php-email-form button[type=submit] {
+.contact-view .php-email-form button[type=submit] {
   background: #009ecf;
   border: 0;
   padding: 10px 24px;
@@ -984,7 +984,7 @@ section {
   transition: 0.4s;
 }
 
-.contact-form .php-email-form button[type=submit]:hover {
+.contact-view .php-email-form button[type=submit]:hover {
   background: #d77607;
 }
 
@@ -1020,18 +1020,18 @@ section {
   font-size: 14px;
 }
 
-#footer .footer-main {
+#footer .footer-bot {
   background: #181301;
   border-top: 1px solid #17455e;
   border-bottom: 1px solid #123649;
   padding: 40px 0 0;
 }
 
-#footer .footer-main .footer-info {
+#footer .footer-bot .footer-info {
   margin-bottom: 30px;
 }
 
-#footer .footer-main .footer-info h3 {
+#footer .footer-bot .footer-info h3 {
   font-size: 18px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
@@ -1040,7 +1040,7 @@ section {
   font-weight: 600;
 }
 
-#footer .footer-main .footer-info p {
+#footer .footer-bot .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
@@ -1048,7 +1048,7 @@ section {
   color: #fff;
 }
 
-#footer .footer-main .social-links a {
+#footer .footer-bot .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #1e4356;
@@ -1063,13 +1063,13 @@ section {
   transition: 0.3s;
 }
 
-#footer .footer-main .social-links a:hover {
+#footer .footer-bot .social-links a:hover {
   background: #be5606;
   color: #fff;
   text-decoration: none;
 }
 
-#footer .footer-main h4 {
+#footer .footer-bot h4 {
   font-size: 18px;
   font-weight: 600;
   color: #fac994;
@@ -1077,49 +1077,49 @@ section {
   padding-bottom: 12px;
 }
 
-#footer .footer-main .footer-links {
+#footer .footer-bot .footer-links {
   margin-bottom: 30px;
 }
 
-#footer .footer-main .footer-links ul {
+#footer .footer-bot .footer-links ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-#footer .footer-main .footer-links ul i {
+#footer .footer-bot .footer-links ul i {
   padding-right: 2px;
   color: rgb(194, 164, 105);
   font-size: 18px;
   line-height: 1;
 }
 
-#footer .footer-main .footer-links ul li {
+#footer .footer-bot .footer-links ul li {
   padding: 10px 0;
   display: flex;
   align-items: center;
 }
 
-#footer .footer-main .footer-links ul li:first-child {
+#footer .footer-bot .footer-links ul li:first-child {
   padding-top: 0;
 }
 
-#footer .footer-main .footer-links ul a {
+#footer .footer-bot .footer-links ul a {
   color: #fff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
-#footer .footer-main .footer-links ul a:hover {
+#footer .footer-bot .footer-links ul a:hover {
   color: #009ecf;
 }
 
-#footer .footer-main .footer-contact {
+#footer .footer-bot .footer-contact {
   margin-bottom: 30px;
 }
 
-#footer .footer-main .footer-contact p {
+#footer .footer-bot .footer-contact p {
   line-height: 26px;
 }
 
