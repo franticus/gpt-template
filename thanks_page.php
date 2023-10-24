@@ -35,22 +35,15 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        background-color: #ffd86c;
-        opacity: 1;
-        background-image: repeating-radial-gradient(
-            circle at 0 0,
-            transparent 0,
-            #ffd86c 10px
-          ),
-          repeating-linear-gradient(#f1c35955, #f1c359);
+        background-color: #222;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #522507;
+        background: #021d2f;
         color: #ffffff;
-        border-left: 10px solid #fff4e3;
-        border-right: 10px solid #fff4e3;
-        border-radius: 4px;
+        border-top: 40px solid #01111b;
+        border-right: 10px solid #01111b;
+        border-radius: 40px;
       }
 
       body {
@@ -156,34 +149,37 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            Dear Cherished Customer, We cannot express how much we appreciate
-            your ongoing trust in our team and products. Your wise choice in
-            investing in our pet supply store, PetPicks, amps up our zeal and
-            dedication to persistently ameliorate the quality of the pet care
-            items we provide.
+            Dear Valued User, we are effusively grateful for your unerring faith
+            in our professional team and services. Your discerning decision of
+            choosing Lens Loft, our esteemed photography studio, intensifies our
+            resolve and commitment to consistently enhance and tailor the
+            quality of our photo shoot environment and equipment.
           </p>
           <p>
-            We assure you that we tirelessly work towards offering a range of
-            pet products designed to meet your pets' needs, reflect their
-            distinctive personalities, and guarantee their comfort and
-            happiness. The well-being and satisfaction of you and your adorable
-            pets are the primary motives driving our service.
+            We pledge to continuously strive in providing a diverse array of
+            settings, backgrounds, and equipment that cater to your unique
+            photography goals, mirror your creative vision, and assure premium
+            and efficient photo sessions. Your satisfaction and your clients'
+            delight, gained from the finalized splendid images, are the primary
+            incentives that fuel our service.
           </p>
           <p>
-            Always know that every response, feedback, or idea you submit steers
-            our trajectory of growth and refinement. Should you have any
-            inquiries, suggestions, or thoughts, please do not hesitate to
-            connect with us. Our amiable team stands ever-ready to assist you
-            with the aim of delivering superior pet care products that you and
-            your pets love.
+            Rest assured every comment, user authentication, or input you
+            provide guides our path toward improvement and expansion. If you
+            have any queries, recommendations, or comments, please feel free to
+            reach out to us. Our amicable and skilled team is always prepared to
+            assist you, with the objective of delivering superior photo
+            presenting solutions you and your clients admire.
           </p>
 
           <p>
-            We appreciate your unwavering support and your decision to join the
-            PetPicks family.
+            We highly value your steadfast support and your decision to join the
+            Lens Loft community.
           </p>
-          <p class="cBlock-fgZSxP4y">Warm regards and heartfelt thanks,</p>
-          <p class="cBlock-fgZSxP4y"><span class="domain-fgZSxP4y"></span></p>
+          <p class="cBlock-fgZSxP4y">With warm regards and deep gratitude,</p>
+          <p class="cBlock-fgZSxP4y">
+            <span class="domain-fgZSxP4y">Lens Loft Team</span>
+          </p>
         </div>
       </div>
     </div>
@@ -248,4 +244,5 @@ if(mail($to, $subject, $message, $headers)) {
       // ]]>
     </script>
   </body>
-</html>Ï
+</html>
+Ï
