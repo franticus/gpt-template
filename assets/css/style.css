@@ -153,7 +153,7 @@ h6,
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #68A4C4;
+  color: #be5606;
 }
 
 .navbar .dropdown:hover>ul {
@@ -247,7 +247,7 @@ h6,
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #68A4C4;
+  color: #be5606;
 }
 
 .navbar-mobile .getstarted,
@@ -282,7 +282,7 @@ h6,
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #68A4C4;
+  color: #be5606;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -471,11 +471,11 @@ h6,
   margin: 10px;
   color: #fff;
   animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
+  border: 2px solid #be5606;
 }
 
 #hero-no-slider .btn-start:hover {
-  background: #68A4C4;
+  background: #be5606;
   color: #fff;
   text-decoration: none;
 }
@@ -527,7 +527,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #68A4C4;
+  background: #be5606;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -660,12 +660,12 @@ section {
 }
 
 .why-us .icon-box .icon i {
-  color: #68A4C4;
+  color: #be5606;
   font-size: 32px;
 }
 
 .why-us .icon-box:hover .icon {
-  background: #68A4C4;
+  background: #be5606;
 }
 
 .why-us .icon-box:hover .icon i {
@@ -686,7 +686,7 @@ section {
 }
 
 .why-us .icon-box .title a:hover {
-  color: #68A4C4;
+  color: #be5606;
 }
 
 .why-us .icon-box .description {
@@ -707,7 +707,7 @@ section {
 .why-us .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#68A4C4 50%, rgba(104, 164, 196, 0.4) 52%);
+  background: radial-gradient(#be5606 50%, rgba(104, 164, 196, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -750,7 +750,7 @@ section {
 }
 
 .why-us .play-btn:hover::after {
-  border-left: 15px solid #68A4C4;
+  border-left: 15px solid #be5606;
   transform: scale(20);
 }
 
@@ -807,7 +807,7 @@ section {
 .htjuk-features ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #68A4C4;
+  color: #be5606;
 }
 
 .htjuk-features p:last-child {
@@ -838,7 +838,7 @@ section {
 .kbls-about ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #68A4C4;
+  color: #be5606;
 }
 
 .kbls-about p:last-child {
@@ -851,7 +851,7 @@ section {
 .sdn-facts .counters span {
   font-size: 48px;
   display: block;
-  color: #68A4C4;
+  color: #be5606;
 }
 
 .sdn-facts .counters p {
@@ -963,11 +963,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #68A4C4;
+  border: 1px solid #be5606;
 }
 
 .wjnjb-testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #68A4C4;
+  background-color: #be5606;
 }
 
 /*--------------------------------------------------------------
@@ -1029,11 +1029,11 @@ section {
 }
 
 .hbksdf-service-details .card:hover .card-body {
-  border-color: #68A4C4;
+  border-color: #be5606;
 }
 
 .hbksdf-service-details .card:hover .card-body .card-title a {
-  color: #68A4C4;
+  color: #be5606;
 }
 
 /*--------------------------------------------------------------
@@ -1060,7 +1060,7 @@ section {
 
 .jbkbs-pricing h4 {
   font-size: 46px;
-  color: #68A4C4;
+  color: #be5606;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 25px;
@@ -1085,7 +1085,7 @@ section {
 }
 
 .jbkbs-pricing ul i {
-  color: #68A4C4;
+  color: #be5606;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1116,7 +1116,7 @@ section {
 }
 
 .jbkbs-pricing .get-started-btn:hover {
-  background: #68A4C4;
+  background: #be5606;
 }
 
 .jbkbs-pricing .featured {
@@ -1126,7 +1126,7 @@ section {
 }
 
 .jbkbs-pricing .featured .get-started-btn {
-  background: #68A4C4;
+  background: #be5606;
 }
 
 .jbkbs-pricing .featured .get-started-btn:hover {
@@ -1191,11 +1191,12 @@ section {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
   margin-bottom: 30px;
+  border-radius: 100px;
 }
 
 .kjdsbf-contact .info-box i {
   font-size: 32px;
-  color: #68A4C4;
+  color: #be5606;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #a2cce3;
@@ -1216,7 +1217,6 @@ section {
 }
 
 .kjdsbf-contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
   margin-bottom: 30px;
 }
@@ -1271,7 +1271,7 @@ section {
 
 .kjdsbf-contact .php-email-form input::focus,
 .kjdsbf-contact .php-email-form textarea::focus {
-  background-color: #68A4C4;
+  background-color: #be5606;
 }
 
 .kjdsbf-contact .php-email-form input {
@@ -1283,7 +1283,7 @@ section {
 }
 
 .kjdsbf-contact .php-email-form button[type=submit] {
-  background: #68A4C4;
+  background: #ae591d;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1291,7 +1291,7 @@ section {
 }
 
 .kjdsbf-contact .php-email-form button[type=submit]:hover {
-  background: #8dbad2;
+  background: #d77607;
 }
 
 @keyframes animate-loading {
@@ -1308,13 +1308,12 @@ section {
 # Map
 --------------------------------------------------------------*/
 .map {
-  padding: 0;
   margin-bottom: -6px;
 }
 
 .map iframe {
   width: 100%;
-  height: 380px;
+  height: 200px;
 }
 
 /*--------------------------------------------------------------
@@ -1371,7 +1370,7 @@ section {
 }
 
 #footer .hfbks-footer-top .social-links a:hover {
-  background: #68A4C4;
+  background: #be5606;
   color: #fff;
   text-decoration: none;
 }
