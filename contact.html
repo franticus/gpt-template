@@ -57,7 +57,128 @@
     </header>
 
     <main id="main">
-      <section class="map mt-2 padtop">
+      <section
+        class="contact-form padtop"
+        data-aos-easing="ease-in-out"
+        data-aos="fade-up"
+        data-aos-duration="500"
+      >
+        <div class="container">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <h3>Our Address</h3>
+                  <p>
+                    <a
+                      href="https://www.google.com/maps/place/1122+Grant+Ave,+Novato,+CA+94945,+%D0%A1%D0%A8%D0%90/@38.1082132,-122.5721576,17z/data=!3m1!4b1!4m6!3m5!1s0x8085bb7cc447b91f:0x8bcf87a4ad47dba!8m2!3d38.1082132!4d-122.5721576!16s%2Fg%2F11cncmzskw?entry=ttu"
+                      target="_blank"
+                      >1122 GRANT AVE NOVATO CA 94945-3172 USA</a
+                    ><br />
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <h3>Email Us</h3>
+                  <span id="email_list2">
+                    <a href="mailto:info@mysticmuse.com" target="_blank"
+                      >info@mysticmuse.com</a
+                    >
+                  </span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <h3>Call Us</h3>
+                  <p>
+                    <a href="tel:+91-74749-73636" target="_blank"
+                      >+91 74749 73636</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <form
+              action="thanks_page.php"
+              method="post"
+              role="form"
+              class="php-email-form"
+            >
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="form-group mt-3">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="5"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">
+                  Your message has been sent. Thank you!
+                </div>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  required
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault" required>
+                  I accept
+                  <a href="./privacy/privacy.html" class="check"
+                    >Privacy policy</a
+                  >
+                </label>
+              </div>
+              <div class="text-center">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="map mt-2">
         <div class="container-fluid p-0">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.7400903114617!2d-117.15242619999998!3d32.772630400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9553d98f914d7%3A0x270662574e2680bc!2zMTM4OSBDYW1pbml0byBHYWJhbGRvbiwgU2FuIERpZWdvLCBDQSA5MjEwOCwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1698061692505!5m2!1sru!2sby"
@@ -66,130 +187,6 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-        </div>
-      </section>
-
-      <section
-        class="contact-form"
-        data-aos-easing="ease-in-out"
-        data-aos="fade-up"
-        data-aos-duration="500"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <form
-                action="thanks_page.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-group mt-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    required
-                    id="flexCheckDefault"
-                  />
-                  <label class="form-check-label" for="flexCheckDefault">
-                    I accept
-                    <a href="./privacy/privacy.html" class="check"
-                      >Privacy policy</a
-                    >
-                  </label>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
-                </div>
-              </form>
-            </div>
-            
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="info-box">
-                    <h3>Our Address</h3>
-                    <p>
-                      <a
-                        href="https://www.google.com/maps/place/1122+Grant+Ave,+Novato,+CA+94945,+%D0%A1%D0%A8%D0%90/@38.1082132,-122.5721576,17z/data=!3m1!4b1!4m6!3m5!1s0x8085bb7cc447b91f:0x8bcf87a4ad47dba!8m2!3d38.1082132!4d-122.5721576!16s%2Fg%2F11cncmzskw?entry=ttu"
-                        target="_blank"
-                        >1122 GRANT AVE NOVATO CA 94945-3172 USA</a
-                      ><br />
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="info-box">
-                    <h3>Email Us</h3>
-                    <span id="email_list2">
-                      <a href="mailto:info@mysticmuse.com" target="_blank"
-                        >info@mysticmuse.com</a
-                      >
-                    </span>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="info-box">
-                    <h3>Call Us</h3>
-                    <p>
-                      <a href="tel:+91-74749-73636" target="_blank"
-                        >+91 74749 73636</a
-                      >
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </main>

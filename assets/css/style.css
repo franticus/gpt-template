@@ -32,11 +32,11 @@ h6,
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 90px;
+  height: 84px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #453005;
+  background: #061314;
 }
 
 #header.header-transparent {
@@ -44,8 +44,8 @@ h6,
 }
 
 #header.header-scrolled {
-  background: rgba(75, 39, 8, 0.8);
-  height: 50px;
+  background: rgba(10, 14, 16, 0.8);
+  height: 67px;
 }
 
 #header .main-logo h1 {
@@ -114,7 +114,7 @@ h6,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #da7b38;
+  color: #009ecf;
 }
 
 .navbar .dropdown ul {
@@ -229,7 +229,7 @@ h6,
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #222;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -238,13 +238,13 @@ h6,
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #1e4356;
+  color: #fff;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #be5606;
+  color: #0684be;
 }
 
 .navbar-mobile .getstarted,
@@ -319,18 +319,18 @@ h6,
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 22px 42px;
-  border-radius: 4px;
+  padding: 50px 40px;
+  border-radius: 40px;
   transition: 0.5s;
   line-height: 1;
   margin: 10px auto;
   color: #fff;
   animation-delay: 0.8s;
-  border: 2px solid #e29d1d;
+  border: 1px solid #00b1d0;
 }
 
 #hero .btn-start:hover {
-  background: #e4b005;
+  background: #00b1d0;
   color: #222;
   text-decoration: none;
 }
@@ -455,7 +455,13 @@ section {
 }
 
 .section-bg {
-  background-color: #ffc555;
+  background-color: #171717;
+  opacity: 1;
+  background-image: linear-gradient(135deg, #0b0b0b 25%, transparent 25%), linear-gradient(225deg, #0b0b0b 25%, transparent 25%), linear-gradient(45deg, #0b0b0b 25%, transparent 25%), linear-gradient(315deg, #0b0b0b 25%, #171717 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
+  ;
 }
 
 .section-title {
@@ -498,104 +504,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our bgh-Services
---------------------------------------------------------------*/
-.servicesfjfj {
-  padding-bottom: 20px;
-}
-
-.servicesfjfj .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  margin: 0 0 40px 0;
-  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
-  transition: all 0.3s ease-in-out;
-  text-align: center;
-  border: 4px solid #000000;
-  border-radius: 40px;
-}
-
-.servicesfjfj .icon {
-  margin: 0 auto 20px auto;
-  padding-top: 17px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 72px;
-  height: 72px;
-}
-
-.servicesfjfj .icon i {
-  font-size: 36px;
-  line-height: 1;
-}
-
-.servicesfjfj .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.servicesfjfj .title a {
-  color: #111;
-}
-
-.servicesfjfj .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
-}
-
-.servicesfjfj .icon-box-pink .icon {
-  background: #fceef3;
-}
-
-.servicesfjfj .icon-box-pink .icon i {
-  color: #ff689b;
-}
-
-.servicesfjfj .icon-box-pink:hover {
-  border-color: #ff689b;
-}
-
-.servicesfjfj .icon-box-cyan .icon {
-  background: #e6fdfc;
-}
-
-.servicesfjfj .icon-box-cyan .icon i {
-  color: #3fcdc7;
-}
-
-.servicesfjfj .icon-box-cyan:hover {
-  border-color: #3fcdc7;
-}
-
-.servicesfjfj .icon-box-green .icon {
-  background: #eafde7;
-}
-
-.servicesfjfj .icon-box-green .icon i {
-  color: #41cf2e;
-}
-
-.servicesfjfj .icon-box-green:hover {
-  border-color: #41cf2e;
-}
-
-.servicesfjfj .icon-box-blue .icon {
-  background: #e1eeff;
-}
-
-.servicesfjfj .icon-box-blue .icon i {
-  color: #2282ff;
-}
-
-.servicesfjfj .icon-box-blue:hover {
-  border-color: #2282ff;
-}
-
-/*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
 .features-nw .row+.row {
@@ -624,10 +532,6 @@ section {
 
 .features-nw p:last-child {
   margin-bottom: 0;
-}
-
-.features-nw img {
-  max-width: 200px;
 }
 
 /*--------------------------------------------------------------
@@ -794,6 +698,7 @@ section {
   padding: 0 30px;
   margin-bottom: 60px;
   position: relative;
+  background: transparent;
 }
 
 .service-details-cards .card-img {
@@ -801,7 +706,7 @@ section {
   margin-left: -30px;
   overflow: hidden;
   z-index: 9;
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
 .service-details-cards .card-img img {
@@ -812,12 +717,11 @@ section {
 
 .service-details-cards .card-body {
   z-index: 10;
-  background: #fff;
   border-top: 4px solid #fff;
   border-radius: 40px;
   padding: 30px;
+  margin-top: 20px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  margin-top: -60px;
   transition: 0.3s;
 }
 
@@ -825,6 +729,7 @@ section {
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
+  color: #eee;
 }
 
 .service-details-cards .card-title a {
@@ -833,7 +738,7 @@ section {
 }
 
 .service-details-cards .card-text {
-  color: #5e5e5e;
+  color: #eee;
 }
 
 .service-details-cards .card:hover img {
@@ -841,7 +746,7 @@ section {
 }
 
 .service-details-cards .card:hover .card-body {
-  border-color: #be5606;
+  border-color: #065b70;
 }
 
 .service-details-cards .card:hover .card-body .card-title a {
@@ -860,7 +765,6 @@ section {
   margin-bottom: 30px;
   box-shadow: 0px 10px 30px rgba(73, 78, 92, 0.15);
   border-radius: 100px;
-  background: #fff5a6;
   text-align: center;
 }
 
@@ -977,10 +881,10 @@ section {
 .contact-form .info-box {
   color: #444;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
   padding: 20px 0 30px 0;
   margin-bottom: 30px;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 
 .contact-form .info-box i {
@@ -988,12 +892,12 @@ section {
   color: #be5606;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #da7b38;
+  border: 2px dotted #009ecf;
 }
 
 .contact-form .info-box h3 {
   font-size: 20px;
-  color: #666;
+  color: #eee;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1072,7 +976,7 @@ section {
 }
 
 .contact-form .php-email-form button[type=submit] {
-  background: #da7b38;
+  background: #009ecf;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1131,7 +1035,7 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  color: #da7b38;
+  color: #009ecf;
   font-weight: 600;
 }
 
@@ -1207,7 +1111,7 @@ section {
 }
 
 #footer .footer-main .footer-links ul a:hover {
-  color: #da7b38;
+  color: #009ecf;
 }
 
 #footer .footer-main .footer-contact {
