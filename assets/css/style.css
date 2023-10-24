@@ -895,9 +895,6 @@ section {
 /*--------------------------------------------------------------
 # Tetstimonials
 --------------------------------------------------------------*/
-.wjnjb-testimonials {
-  padding: 60px 0;
-}
 
 .wjnjb-testimonials .section-header {
   margin-bottom: 40px;
@@ -953,7 +950,7 @@ section {
 .wjnjb-testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
-  max-width: 500px;
+  max-width: 800px;
 }
 
 .wjnjb-testimonials .swiper-pagination {
