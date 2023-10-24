@@ -717,7 +717,7 @@ section {
 
 .service-details-cards .card-body {
   z-index: 10;
-  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
   border-radius: 40px;
   padding: 30px;
   margin-top: 20px;
