@@ -51,8 +51,8 @@ iframe {
   border-radius: 0px;
 }
 
-.contact .info,
-.contact .php-email-form {
+.contact-formys .info,
+.contact-formys .php-email-form {
   padding: 20px;
   border-radius: 0px;
   // background: #fff;
@@ -62,7 +62,7 @@ iframe {
   border-radius: 0px;
 }
 
-.clients img {
+.clients-gfyds img {
   border: none;
   border-radius: 0px;
 }
@@ -79,7 +79,7 @@ iframe {
   margin-top: 0;
 }
 
-.contact .section-title {
+.contact-formys .section-title-main {
   padding: 0;
 }
 
