@@ -749,7 +749,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #6b7b8d;
+  background-color: #18d26e;
 }
 
 /*--------------------------------------------------------------
@@ -1054,7 +1054,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #222;
+  color: #eee;
 }
 
 .contact-formys .info p {
