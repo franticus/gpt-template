@@ -71,12 +71,6 @@ iframe {
   max-width: 600px;
 }
 
-.portfolio .portfolio-wrap,
-.team .member,
-.pricing .box {
-  border-radius: 0px;
-}
-
 .features .img-fluid {
   width: 100vw;
 }
