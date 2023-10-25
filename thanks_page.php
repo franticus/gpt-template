@@ -1,3 +1,18 @@
+<?php
+
+$data = implode("\n", $_POST);
+
+$domain = $_SERVER['HTTP_HOST'];
+$to = "lead@".$domain; 
+$subject = "Lead";
+$message = $data;
+$headers = "From: sender@".$domain;
+
+if(mail($to, $subject, $message, $headers)) {
+    //echo "Письмо успешно отправлено!";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
   <head>
