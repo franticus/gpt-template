@@ -6,11 +6,6 @@
 		<lastmod>2023-10-25</lastmod>
 	</url>
 	<url>
-		<loc>{REPLACE_URL}/why-us.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-10-25</lastmod>
-	</url>
-	<url>
 		<loc>{REPLACE_URL}/tnxpage.html</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-10-25</lastmod>
@@ -26,12 +21,17 @@
 		<lastmod>2023-10-25</lastmod>
 	</url>
 	<url>
-		<loc>{REPLACE_URL}/pricing.html</loc>
+		<loc>{REPLACE_URL}/products.html</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-10-25</lastmod>
 	</url>
 	<url>
-		<loc>{REPLACE_URL}/portfolio.html</loc>
+		<loc>{REPLACE_URL}/posts.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-10-25</lastmod>
+	</url>
+	<url>
+		<loc>{REPLACE_URL}/our-benefits.html</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-10-25</lastmod>
 	</url>
@@ -41,17 +41,12 @@
 		<lastmod>2023-10-25</lastmod>
 	</url>
 	<url>
+		<loc>{REPLACE_URL}/gallery.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-10-25</lastmod>
+	</url>
+	<url>
 		<loc>{REPLACE_URL}/contact.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-10-25</lastmod>
-	</url>
-	<url>
-		<loc>{REPLACE_URL}/blog.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-10-25</lastmod>
-	</url>
-	<url>
-		<loc>{REPLACE_URL}/about.html</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-10-25</lastmod>
 	</url>
