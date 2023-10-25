@@ -4,13 +4,12 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Lens Loft</title>
-    <meta content="" name="keywords" />
+    <title>TastyTacos</title>
     <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-    <link href="./favicon.ico" rel="icon" />
+    <link href="favicon.ico" rel="icon" />
 
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
     <link
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -25,296 +24,430 @@
       href="assets/vendor/glightbox/css/glightbox.min.css"
       rel="stylesheet"
     />
-    <link href="assets/css/fancybox.css" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-    <link href="assets/css/main.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/cookies.css" rel="stylesheet" />
-    <script src="assets/js/jquery.cookie.file.js"></script>
-    <script src="assets/js/jquery.file.min.js"></script>
+    <link href="assets/css/fancybox.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
   </head>
 
   <body>
-    <header
-      id="header"
-      class="fixed-top align-items-center d-flex header-transparent"
-    >
-      <div class="container d-flex align-items-center justify-content-between">
-        <div class="main-logo">
-          <h1 class="text-light gtd">
-            <a href="index.html"><span>Lens Loft</span></a>
-          </h1>
-        </div>
-
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto"><a href="index.html">TastyTacos</a></h1>
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="about.html">About</a></li>
-
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html" class="getstarted">Get Started</a></li>
           </ul>
-          <i class="mobile-nav-toggle bi bi-list"></i>
+          <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
       </div>
     </header>
 
-    <section id="hero" class="d-flex align-items-center justify-content-center">
-      <div class="container">
-        <h2
-          class="animate__animated animate__fadeInDown d-flex align-items-center justify-content-center"
-        >
-          Unleash Creativity with Lens Loft
-        </h2>
-        <p
-          class="animate__animated animate__fadeInUp d-flex align-items-center justify-content-center"
-        >
-          Step into the world of quality, convenience, and freedom with Lens
-          Loft, your all-in-one solution for professional studio rental.
-          Perfectly designed for photographers, directors, trendsetters and
-          visionaries, our studios are equipped with top-notch gear and spacious
-          attributes to amplify your creations. Cherish the power of control
-          over light, space, and composition, allowing your art to flourish.
-          Focus on your vision, let us take care of the rest.
-        </p>
-        <div
-          class="animate__animated animate__fadeInUp d-flex align-items-center justify-content-center"
-        >
-          <a
-            href="contact.html"
-            class="btn-start animate__animated animate__fadeInUp"
-            >Book A Studio Now</a
+    <section id="hero">
+      <div
+        id="heroCarousel"
+        data-bs-interval="5000"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+          <div
+            class="carousel-item active"
+            style="background-image: url(assets/img/slide/slide-1.jpg)"
           >
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">
+                  Welcome to <span>Sailor</span>
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                  Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut
+                  et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
+                  mollitia ut. Similique ea voluptatem. Esse doloremque
+                  accusamus repellendus deleniti vel. Minus et tempore modi
+                  architecto.
+                </p>
+                <a
+                  href="#about"
+                  class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item"
+            style="background-image: url(assets/img/slide/slide-2.jpg)"
+          >
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">
+                  Lorem Ipsum Dolor
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                  Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut
+                  et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
+                  mollitia ut. Similique ea voluptatem. Esse doloremque
+                  accusamus repellendus deleniti vel. Minus et tempore modi
+                  architecto.
+                </p>
+                <a
+                  href="#about"
+                  class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item"
+            style="background-image: url(assets/img/slide/slide-3.jpg)"
+          >
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">
+                  Sequi ea ut et est quaerat
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                  Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut
+                  et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
+                  mollitia ut. Similique ea voluptatem. Esse doloremque
+                  accusamus repellendus deleniti vel. Minus et tempore modi
+                  architecto.
+                </p>
+                <a
+                  href="#about"
+                  class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bi bi-chevron-left"
+            aria-hidden="true"
+          ></span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bi bi-chevron-right"
+            aria-hidden="true"
+          ></span>
+        </a>
       </div>
     </section>
 
     <main id="main">
-      <section class="features-ntg" id="features">
+      <section id="about" class="about">
         <div class="container">
-          <div class="section-title">
-            <h2>Studio Features</h2>
-            <p>
-              Discover the reason why Lens Loft is highly regarded by countless
-              photographers worldwide. Relish the splendor of our refined
-              photography studio rental services.
-            </p>
-          </div>
-
-          <div class="row" data-aos="fade-up">
-            <div class="col-md-5">
-              <img src="assets/img/feat-1.jpg" class="img-fluid" alt="" />
+          <div class="row content">
+            <div class="col-lg-6">
+              <h2>Eum ipsam laborum deleniti velitena</h2>
+              <h3>
+                Voluptatem dignissimos provident quasi corporis voluptates sit
+                assum perenda sruen jonee trave
+              </h3>
             </div>
-            <div class="col-md-7">
-              <h3>State-of-art Equipment</h3>
-              <p class="fst-italic">
-                We provide top-of-the-line photography equipment, carefully
-                curated to boost the creativity and productivity of your shoots,
-                guaranteeing impeccable results, every time.
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum
               </p>
               <ul>
                 <li>
-                  <i class="bi bi-check"></i> Includes high-resolution cameras,
-                  lenses of various focal lengths, and professional lighting
-                  equipment.
+                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequa
                 </li>
                 <li>
-                  <i class="bi bi-check"></i> Serviced and maintained routinely
-                  to ensure optimal performance.
+                  <i class="ri-check-double-line"></i> Duis aute irure dolor in
+                  reprehenderit in voluptate velit
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in
                 </li>
               </ul>
-            </div>
-          </div>
-
-          <div class="row" data-aos="fade-up">
-            <div class="col-md-12">
-              <h3>Embrace Creativity at Lens Loft</h3>
               <p class="fst-italic">
-                Lens Loft, a haven for creative minds, presents a remarkable
-                collection of uniquely designed studio spaces, intricately
-                crafted to cater every imaginable photographic aesthetic and
-                ambition. Our studios deliver more than just a backdrop for your
-                shoots - they offer environments that spark creativity, ensuring
-                each shot captures the essence of your artistic vision. Whether
-                it's an uncluttered, monochromatic setup you're seeking, or an
-                opulent arrangement teeming with colour and character, Lens Loft
-                provides the ideal space for you.
-              </p>
-              <p>
-                Our studios offer much more than just a location for your
-                photography. Each space is thoughtfully designed with the
-                professional in mind - equipped with state-of-the-art
-                technology, convenient amenities, and versatile features to
-                support a diverse set of shooting scenarios. Dive into our
-                generous spectrum of studio spaces, each revealing a unique
-                melody of ambiance and comfort, thereby promising an inspiring
-                environment for your creative efforts.
-              </p>
-              <p>
-                Lens Loft is not just about physical space, it's about providing
-                an atmosphere that stirs the creative spirit. Our team of
-                experienced professionals, all passionate about photography,
-                understand the prerequisites that make a great shoot. From
-                perfect lighting solutions to accessories and props, we are
-                equipped to meet the intricate details of your photography
-                requirements, ensuring that every project you undertake within
-                our walls is synonymous with success.
-              </p>
-              <p>
-                But that’s not all. Lens Loft also takes pride in fostering a
-                community of creatives. Our studio spaces serve as a gathering
-                point for photographers of all caliber, where knowledge and
-                inspiration can be exchanged freely. Along with the beautifully
-                designed room layouts, we also provide an array of workshops and
-                events that encourage the cross-pollination of ideas and the
-                honing of craftsmanship. Come, be part of the Lens Loft family,
-                and discover a space that truly resonates with your creativity.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div class="row" data-aos="fade-up">
-            <div class="col-md-5">
-              <img src="assets/img/feat-3.jpg" class="img-fluid" alt="" />
+      <section id="clients" class="clients section-bg">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/img/clients/client-1.png"
+                class="img-fluid"
+                alt=""
+              />
             </div>
-            <div class="col-md-7">
-              <h3>Eco-Friendly and Community-Focused</h3>
-              <p>
-                At Lens Loft, we’re as serious about supporting our community
-                and planet as we are about photography. Our studios are
-                eco-friendly, and we partner with organizations that promote
-                sustainability in the field of art and photography.
-              </p>
-              <ul>
-                <li>
-                  <i class="bi bi-check"></i> Use of green energy and
-                  environmentally-conscious maintenance practices.
-                </li>
-                <li>
-                  <i class="bi bi-check"></i> Recyclable and reusable studio
-                  materials whenever possible.
-                </li>
-                <li>
-                  <i class="bi bi-check"></i> Frequent community programs
-                  advocating for sustainability in creative arts.
-                </li>
-              </ul>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/img/clients/client-2.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/img/clients/client-3.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/img/clients/client-4.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/img/clients/client-5.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/img/clients/client-6.png"
+                class="img-fluid"
+                alt=""
+              />
             </div>
           </div>
+        </div>
+      </section>
 
-          <div class="row" data-aos="fade-up">
-            <div class="col-md-12">
-              <h2>Your Creative Haven - Lens Loft</h2>
-              <h3>Streamlined, Personalized Booking Services</h3>
-              <p class="fst-italic">
-                The world is rich with moments waiting to be captured, and at
-                Lens Loft, we strive to make every one of them shine. We believe
-                that booking a photography studio should be an experience
-                defined by convenience, personalization, and top-tier service.
-                With us, you can enjoy access to a myriad of studios equipped
-                for your specific needs. Be it a small-scale personal project or
-                a larger professional production, we position you for success
-                with a smooth and satisfying booking process.
-              </p>
-              <h3>Heritage of Quality & Versatility</h3>
-              <p>
-                With a catalogue of studios spanning various styles and
-                aesthetics, Lens Loft presents an unmatched range of options.
-                Whether you're envisioning a minimalistic setup or a more
-                elaborate backdrop, we've got you covered. Each studio is
-                meticulously maintained, designed to inspire creativity, and
-                equipped with state-of-the-art technology. By choosing Lens
-                Loft, you're securing a commitment to quality and versatility.
-              </p>
-              <h3>Nurturing Connections</h3>
-              <p>
-                But what makes Lens Loft more than just a photography studio is
-                our community. Dedicated to nurturing connections, we provide
-                spaces that instigate collaboration, and stimulate growth. We
-                value the power of relationships and work closely with
-                photographers, production houses, and creatives who all
-                contribute to the dynamic energy within our walls.
-              </p>
-              <h3>Unparalleled Customer Support</h3>
-              <p>
-                Lens Loft stands on the foundation of our extraordinary customer
-                support. We value each individual client, always ready to go the
-                extra mile to ensure your satisfaction. From the moment you
-                express interest to the wrap-up of your shoot, our team provides
-                you with quick responses, useful guidance, and tailored
-                solutions for any queries you might have.
-              </p>
-              <h3>Exceptional Value</h3>
-              <p>
-                We strike a balance between quality and cost, ensuring that you
-                receive exceptional value with every booking. We believe in
-                transparency, maintaining competitive rates without compromising
-                on the range, quality, and distinctiveness of our services. When
-                you choose Lens Loft, you invest in an experience carefully
-                crafted to bring your vision to life.
-              </p>
-              <p>
-                Dive into this unique experience - partner with Lens Loft for
-                all your photography studio needs and enjoy the peace of mind
-                that comes with knowing you have chosen the best.
-              </p>
+      <section id="team" class="team">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <p>Explicabo voluptatem mollitia et repellat</p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""><i class="ri-facebook-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <p>Aut maiores voluptates amet et quis</p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""><i class="ri-facebook-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <p>Quisquam facilis cum velit laborum corrupti</p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""><i class="ri-facebook-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <p>Dolorum tempora officiis odit laborum officiis</p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""><i class="ri-facebook-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer
-      id="footer"
-      data-aos="fade-up"
-      data-aos-easing="ease-in-out"
-      data-aos-duration="500"
-    >
-      <div class="footer-bot">
+    <footer id="footer">
+      <div class="footer-top">
         <div class="container">
-          <div class="row d-flex justify-content-between">
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h4>Contact Us</h4>
-              <p>
-                <strong>Phone:</strong>
-                <a href="tel:+91-63524-23453" target="_blank"
-                  >+91 63524 23453</a
-                >
-                <br />
-                <strong>Email:</strong>
-                <span id="email_list">
-                  <a href="mailto:info@petpicks.com" target="_blank"
-                    >info@petpicks.com</a
-                  >
-                </span>
-                <br />
-                <strong>Address:</strong>
-                <a
-                  href="https://www.google.com/maps/place/24300+Crestview+Dr,+Santa+Clarita,+CA+91321,+%D0%A1%D0%A8%D0%90/@34.3667893,-118.5440401,17z/data=!3m1!4b1!4m5!3m4!1s0x80c28684c7114427:0x9ebea38f9d556032!8m2!3d34.3667893!4d-118.5440401?entry=ttu"
-                  target="_blank"
-                  >24300 CRESTVIEW DR NEWHALL CA 91321-3547 USA</a
-                >
-              </p>
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                <h3>Sailor</h3>
+                <p>
+                  A108 Adam Street <br />
+                  NY 535022, USA<br /><br />
+                  <strong>Phone:</strong> +1 5589 55488 55<br />
+                  <strong>Email:</strong> info@example.com<br />
+                </p>
+                <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="#" class="instagram"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                  <a href="#" class="google-plus"
+                    ><i class="bx bxl-skype"></i
+                  ></a>
+                  <a href="#" class="linkedin"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Links</h4>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
               <ul>
-                 <li>
-                  <i class="bx bx-coin"></i>
-                  <a href="./privacy/disclaimer.html">Disclaimer</a>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="privacy/cookies.html">Cookies</a>
                 </li>
                 <li>
-                  <i class="bx bx-coin"></i>
-                  <a href="./privacy/privacy.html">Privacy policy</a>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="privacy/disclaimer.html">Disclaimer</a>
                 </li>
                 <li>
-                  <i class="bx bx-coin"></i>
-                  <a href="./privacy/terms.html">Terms of service</a>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="privacy/terms.html">Terms of service</a>
                 </li>
                 <li>
-                  <i class="bx bx-coin"></i>
-                  <a href="./privacy/cookies.html">Cookies</a>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="privacy/privacy.html">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Pages</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Why us</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Product Management</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Marketing</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Graphic Design</a>
                 </li>
               </ul>
             </div>
@@ -324,7 +457,7 @@
 
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>Lens Loft</span></strong
+          &copy; Copyright <strong><span>TastyTacos</span></strong
           >. All Rights Reserved
         </div>
       </div>
@@ -460,16 +593,15 @@
       </div>
     </div>
 
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-    <script src="assets/js/jquery.fancybox.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.cookie.file.js"></script>
+    <script src="assets/js/jquery.file.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Lens Loft</title>
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <link href="./favicon.ico" rel="icon" />
+
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/fancybox.css" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/cookies.css" rel="stylesheet" />
+    <script src="assets/js/jquery.cookie.file.js"></script>
+    <script src="assets/js/jquery.file.min.js"></script>
+  </head>
+
+  <body>
+    <header id="header" class="fixed-top align-items-center d-flex">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="main-logo">
+          <h1 class="text-light gtd">
+            <a href="index.html"><span>Lens Loft</span></a>
+          </h1>
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="contact.html">Contact Us</a></li>
+          </ul>
+          <i class="mobile-nav-toggle bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section
+        class="contact-view padtop"
+        data-aos-easing="ease-in-out"
+        data-aos="fade-up"
+        data-aos-duration="500"
+      >
+        <div class="container">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <h3>Our Address</h3>
+                  <p>
+                    <a
+                      href="https://www.google.com/maps/place/1122+Grant+Ave,+Novato,+CA+94945,+%D0%A1%D0%A8%D0%90/@38.1082132,-122.5721576,17z/data=!3m1!4b1!4m6!3m5!1s0x8085bb7cc447b91f:0x8bcf87a4ad47dba!8m2!3d38.1082132!4d-122.5721576!16s%2Fg%2F11cncmzskw?entry=ttu"
+                      target="_blank"
+                      >1122 GRANT AVE NOVATO CA 94945-3172 USA</a
+                    ><br />
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <h3>Email Us</h3>
+                  <span id="email_list2">
+                    <a href="mailto:info@mysticmuse.com" target="_blank"
+                      >info@mysticmuse.com</a
+                    >
+                  </span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <h3>Call Us</h3>
+                  <p>
+                    <a href="tel:+91-63524-23453" target="_blank"
+                      >+91 63524 23453</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <form
+              action="thanks_page.php"
+              method="post"
+              role="form"
+              class="php-email-form"
+            >
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="form-group mt-3">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="5"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">
+                  Your message has been sent. Thank you!
+                </div>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  required
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault" required>
+                  I accept
+                  <a href="./privacy/privacy.html" class="check"
+                    >Privacy policy</a
+                  >
+                </label>
+              </div>
+              <div class="text-center">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="map mt-2">
+        <div class="container-fluid p-0">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3293.3589654391717!2d-118.5440401!3d34.36678929999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c28684c7114427%3A0x9ebea38f9d556032!2zMjQzMDAgQ3Jlc3R2aWV3IERyLCBTYW50YSBDbGFyaXRhLCBDQSA5MTMyMSwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1698162204332!5m2!1sru!2sby"
+            width="100%"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      id="footer"
+      data-aos="fade-up"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="500"
+    >
+      <div class="footer-bot">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                <strong>Phone:</strong>
+                <a href="tel:+91-63524-23453" target="_blank"
+                  >+91 63524 23453</a
+                >
+                <br />
+                <strong>Email:</strong>
+                <span id="email_list">
+                  <a href="mailto:info@petpicks.com" target="_blank"
+                    >info@petpicks.com</a
+                  >
+                </span>
+                <br />
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps/place/24300+Crestview+Dr,+Santa+Clarita,+CA+91321,+%D0%A1%D0%A8%D0%90/@34.3667893,-118.5440401,17z/data=!3m1!4b1!4m5!3m4!1s0x80c28684c7114427:0x9ebea38f9d556032!8m2!3d34.3667893!4d-118.5440401?entry=ttu"
+                  target="_blank"
+                  >24300 CRESTVIEW DR NEWHALL CA 91321-3547 USA</a
+                >
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-coin"></i>
+                  <a href="./privacy/disclaimer.html">Disclaimer</a>
+                </li>
+                <li>
+                  <i class="bx bx-coin"></i>
+                  <a href="./privacy/privacy.html">Privacy policy</a>
+                </li>
+                <li>
+                  <i class="bx bx-coin"></i>
+                  <a href="./privacy/terms.html">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bx bx-coin"></i>
+                  <a href="./privacy/cookies.html">Cookies</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Lens Loft</span></strong
+          >. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+
+    <div class="floating-windows-9oV">
+      <div class="floating-windows-box-9oV">
+        <div class="cookie-text-9oV">
+          Our resource uses cookies to improve your experience. If you wish, you
+          can opt out of them, however, this may limit some of the functions of
+          the site. Check out our
+          <a href="./privacy/cookies.html" target="_blank"> cookie notice</a>.
+        </div>
+        <div class="buttons-9oV">
+          <button id="allow-all-cookie-9oV" class="button-9oV">
+            Accept all cookies
+          </button>
+          <button id="reject-all-9oV" class="button-9oV">Reject All</button>
+          <button id="cookie-settings-text-9oV" class="button-9oV">
+            Cookie settings
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="modal-9oV" class="modal-9oV">
+      <div class="modal-content-9oV">
+        <span id="modal-close-9oV" class="modal-close-9oV">&times;</span>
+        <h2>Cookie settings</h2>
+        <p>
+          Cookies are small pieces of data sent from a website and stored on the
+          user's computer by the web browser while it is running. The browser
+          stores each message in a small file called a cookie. When you request
+          another page from the server, your browser sends the cookie back to
+          the server. Cookies have been developed as a reliable mechanism that
+          allows websites to remember information or record user activity when
+          browsing pages.
+        </p>
+
+        <div class="accordion-9oV">
+          <div class="accordion-header-9oV">
+            <input
+              type="checkbox"
+              class="switch-9oV"
+              checked
+              disabled
+              name="field-39521"
+            /><span>&nbsp; Necessary</span>
+            <span class="accordion-icon-9oV">&or;</span>
+          </div>
+          <div class="accordion-body-9oV">
+            <p>
+              Strictly necessary cookies - usually these cookies are necessary
+              for the operation of the site. They can help you show the user the
+              information they need, customize their experience, and allow you
+              to implement and maintain security features. As a rule, without
+              these cookies, the operation of the site is not possible or its
+              functioning may be severely impaired.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-9oV">
+          <div class="accordion-header-9oV">
+            <input
+              type="checkbox"
+              class="switch-9oV"
+              unchecked
+              name="field-27383"
+            /><span>&nbsp; Functional</span>
+            <span class="accordion-icon-9oV">&or;</span>
+          </div>
+          <div class="accordion-body-9oV">
+            <p>
+              Functional cookies - usually these cookies are used to improve the
+              functional characteristics of your site and make it easier for
+              users to use. These cookies remember the settings selected by
+              users (for example, language and time zone settings). With the
+              help of these files, users can avoid changing the settings each
+              time they visit the site.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-9oV">
+          <div class="accordion-header-9oV">
+            <input
+              type="checkbox"
+              class="switch-9oV"
+              unchecked
+              name="field-76549"
+            /><span>&nbsp; Statistics</span>
+            <span class="accordion-icon-9oV">&or;</span>
+          </div>
+          <div class="accordion-body-9oV">
+            <p>
+              Performance cookies - usually these cookies show whether the user
+              has visited your site before. Analytical cookies allow you to
+              recognize and count the number of users of your site and see how
+              these users move around your site.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-9oV">
+          <div class="accordion-header-9oV">
+            <input
+              type="checkbox"
+              class="switch-9oV"
+              unchecked
+              name="field-11357"
+            /><span>&nbsp; Marketing</span>
+            <span class="accordion-icon-9oV">&or;</span>
+          </div>
+          <div class="accordion-body-9oV">
+            <p>
+              Marketing, targeting, and advertising cookies &ndash; Usually,
+              these cookies record visitors' visits to your site, the pages they
+              visited, and the links they clicked on. This information is used
+              to make the advertisements displayed on it more relevant to the
+              interests of the user. Advertising cookies allow you to know if
+              the user has already seen a specific advertisement or an
+              advertisement of a certain type.
+            </p>
+          </div>
+        </div>
+        <div class="button-box-9oV">
+          <button id="save-current-settings-9oV" class="button-9oV">
+            Save current settings
+          </button>
+          <button id="accept-all-cookies-9oV" class="button-9oV">
+            Accept all cookies and close
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
