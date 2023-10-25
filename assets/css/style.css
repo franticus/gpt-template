@@ -263,6 +263,7 @@ h6 {
 #hero p {
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
+  max-width: 600px;
   color: #fff;
 }
 
@@ -337,11 +338,11 @@ h6 {
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 14px 32px;
-  border-radius: 4px;
+  padding: 32px;
+  border-radius: 40px;
   transition: 0.5s;
   line-height: 1;
   color: #fff;
