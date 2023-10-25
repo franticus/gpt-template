@@ -98,3 +98,7 @@ iframe {
 .form-check {
   margin-bottom: 20px;
 }
+
+.footer-info a {
+  color: #fff;
+}
