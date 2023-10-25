@@ -5,7 +5,8 @@ ul {
 }
 
 iframe {
-  border-radius: 0px;
+  margin-top: 40px;
+  border-radius: 60px;
 }
 
 #header .logo {
@@ -54,29 +55,16 @@ iframe {
 .contact-formys .info,
 .contact-formys .php-email-form {
   padding: 20px;
-  border-radius: 0px;
-  // background: #fff;
+  border-radius: 40px;
+  background: #eee;
 }
 
 .info-box {
   border-radius: 0px;
 }
 
-.clients-gfyds img {
-  border: none;
-  border-radius: 0px;
-}
-
-.imgSize {
-  max-width: 600px;
-}
-
 .features .img-fluid {
-  width: 100vw;
-}
-
-#footer .footer-newsletter form {
-  margin-top: 0;
+  width: 100%;
 }
 
 .contact-formys .section-title-main {

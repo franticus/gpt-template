@@ -27,15 +27,15 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        background-color: #222;
+        background-color: #0b324a;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #021d2f;
-        color: #ffffff;
-        border-top: 40px solid #01111b;
-        border-right: 10px solid #01111b;
-        border-radius: 40px;
+        background: #fff;
+        color: #000;
+        border-top: 10px solid #01111b;
+        border-right: 0px solid #01111b;
+        border-radius: 0px;
       }
 
       body {
@@ -141,36 +141,41 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            Dear Valued User, we are effusively grateful for your unerring faith
-            in our professional team and services. Your discerning decision of
-            choosing Lens Loft, our esteemed photography studio, intensifies our
-            resolve and commitment to consistently enhance and tailor the
-            quality of our photo shoot environment and equipment.
+            Dear Valued Store Owner, we genuinely appreciate the consistent
+            confidence you show in our proficient team and services. Your
+            insightful decision to collaborate with ActiveLuxe, our
+            highly-regarded sports equipment retail chain, further galvanizes
+            our commitment and promise to continually enhance and personalize
+            your store experience.
           </p>
           <p>
-            We pledge to continuously strive in providing a diverse array of
-            settings, backgrounds, and equipment that cater to your unique
-            photography goals, mirror your creative vision, and assure premium
-            and efficient photo sessions. Your satisfaction and your clients'
-            delight, gained from the finalized splendid images, are the primary
-            incentives that fuel our service.
+            We vouch to continuously work towards providing a diversified
+            portfolio of product lines, store layouts, and support services that
+            are aligned with your unique business aspirations, reflect your
+            entrepreneurial energy, and ensure an exceptional and well-organized
+            operation. Your contentment and the pleasure your clients' derive
+            from the world-class sports and workout utility we offer are the
+            primary incentives behind our services.
           </p>
           <p>
-            Rest assured every comment, user authentication, or input you
-            provide guides our path toward improvement and expansion. If you
-            have any queries, recommendations, or comments, please feel free to
-            reach out to us. Our amicable and skilled team is always prepared to
-            assist you, with the objective of delivering superior photo
-            presenting solutions you and your clients admire.
+            Rest assured your feedback, store validation, or any suggestions you
+            offer navigate our path towards improvement and expansion. Should
+            you have any queries, recommendations, or comments, please don't
+            hesitate to get in touch with us. Our courteous and capable team is
+            always prepared to offer assistance with an aim to deliver
+            unsurpassed sports retail solutions that captivate you, your team,
+            and your customers.
           </p>
 
           <p>
-            We highly value your steadfast support and your decision to join the
-            Lens Loft community.
+            We deeply value your unwavering trust and your decision to be part
+            of the ActiveLuxe network.
           </p>
-          <p class="cBlock-fgZSxP4y">With warm regards and deep gratitude,</p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">Lens Loft Team</span>
+            With warm sentiments and heartfelt acknowledgment,
+          </p>
+          <p class="cBlock-fgZSxP4y">
+            <span class="domain-fgZSxP4y">The ActiveLuxe Team</span>
           </p>
         </div>
       </div>
@@ -237,3 +242,4 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
