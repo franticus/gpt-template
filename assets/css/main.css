@@ -5,8 +5,8 @@ ul {
 }
 
 iframe {
-  margin-top: 40px;
-  border-radius: 60px;
+  margin-top: 0px;
+  border-radius: 0px;
 }
 
 #header .logo {
@@ -55,8 +55,8 @@ iframe {
 .contact-formys .info,
 .contact-formys .php-email-form {
   padding: 20px;
-  border-radius: 40px;
-  background: #17497a;
+  border-radius: 0px;
+  background: transparent;
 }
 
 .clients-gfyds img {
