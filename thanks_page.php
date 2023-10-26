@@ -27,14 +27,14 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        background-color: #0b324a;
+        background-color: #201f06;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #fff;
-        color: #000;
-        border-top: 10px solid #01111b;
-        border-right: 0px solid #01111b;
+        background: #523709;
+        color: #fff;
+        border-top: 100px solid #111;
+        border-left: 40px solid #111;
         border-radius: 0px;
       }
 
@@ -52,7 +52,7 @@ if(mail($to, $subject, $message, $headers)) {
       }
       .bodyClass3-fgZSxP4y {
         background: #fff;
-        color: #111;
+        color: #411206;
       }
       .wrapage {
         background-size: 100%;
@@ -94,7 +94,7 @@ if(mail($to, $subject, $message, $headers)) {
         font-weight: bold;
       }
       .mainBlock-fgZSxP4y {
-        max-width: 600px;
+        max-width: 1000px;
         margin: 0 auto;
         padding: 40px;
         background: #7b7d008c;
@@ -141,41 +141,40 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            Dear Valued Store Owner, we genuinely appreciate the consistent
-            confidence you show in our proficient team and services. Your
-            insightful decision to collaborate with ActiveLuxe, our
-            highly-regarded sports equipment retail chain, further galvanizes
-            our commitment and promise to continually enhance and personalize
-            your store experience.
+            Esteemed Gastronomad Representative, our heartfelt appreciation for
+            the unwavering faith you place in our able team and dedicated
+            services. Your decision to join hands with our renowned
+            non-traditional cuisine hospitality chain, Gastronomad, serves to
+            fortify our commitment to enhancing and customizing your gastronomic
+            journey with us.
           </p>
           <p>
-            We vouch to continuously work towards providing a diversified
-            portfolio of product lines, store layouts, and support services that
-            are aligned with your unique business aspirations, reflect your
-            entrepreneurial energy, and ensure an exceptional and well-organized
-            operation. Your contentment and the pleasure your clients' derive
-            from the world-class sports and workout utility we offer are the
-            primary incentives behind our services.
+            Our pledge is to perpetually endeavor to offer a varied array of
+            menu offerings, innovative dine-in themes, and tailored services
+            that resonate with your unique culinary vision. They aim to mirror
+            your zest for the culinary arts and assure a top-notch and
+            meticulously executed dining experience. The fulfillment you obtain
+            and the joy experienced by patrons due to our fine gourmet
+            adventures are the fundamental motivators behind our efforts.
           </p>
           <p>
-            Rest assured your feedback, store validation, or any suggestions you
-            offer navigate our path towards improvement and expansion. Should
-            you have any queries, recommendations, or comments, please don't
-            hesitate to get in touch with us. Our courteous and capable team is
-            always prepared to offer assistance with an aim to deliver
-            unsurpassed sports retail solutions that captivate you, your team,
-            and your customers.
+            We assure you that your feedback, validation of our restaurant, or
+            any advice is integral in shaping our journey for bettering our
+            offerings and growing. Should you have any questions, suggestions,
+            or sentiments to share, please feel free to contact us. Our polite
+            and skilled team stands ready to confer unrivaled restaurant
+            experience solutions for you, your staff, and your clientele.
           </p>
 
           <p>
-            We deeply value your unwavering trust and your decision to be part
-            of the ActiveLuxe network.
+            We deeply cherish your steadfast confidence and your choice to be a
+            part of the Gastronomad hospitality network.
           </p>
           <p class="cBlock-fgZSxP4y">
-            With warm sentiments and heartfelt acknowledgment,
+            With warm regards and sincere gratitude,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The ActiveLuxe Team</span>
+            <span class="domain-fgZSxP4y">The Gastronomad Team</span>
           </p>
         </div>
       </div>
@@ -242,4 +241,5 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+Ï
 
