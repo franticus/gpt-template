@@ -377,6 +377,8 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
+  border: 2px solid #0b4f0e;
+  background: #fff;
 }
 
 .whyus-sdhbfks .icon-box i {
@@ -536,11 +538,25 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing-sdjbkshfvk .box {
-  padding: 20px;
+  padding: 60px 20px;
   text-align: center;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
   position: relative;
   overflow: hidden;
+  background: #fff;
+  min-height: 600px;
+}
+
+.pricing-sdjbkshfvk .featured {
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+  border: 2px solid #149d51;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  background: #fff;
+  min-height: 600px;
 }
 
 .pricing-sdjbkshfvk h3 {
@@ -582,7 +598,7 @@ section {
 
 .pricing-sdjbkshfvk ul li {
   padding-bottom: 16px;
-  color: #fff;
+  color: #111;
 }
 
 .pricing-sdjbkshfvk ul i {
@@ -643,6 +659,7 @@ section {
 --------------------------------------------------------------*/
 .faq-smdfhvkds {
   color: #eee;
+  background: #0a6828;
 }
 
 .faq-smdfhvkds p {
@@ -651,7 +668,7 @@ section {
 
 .faq-smdfhvkds .faq-item-qaf {
   margin: 20px 0;
-  border-bottom: 1px solid #ffd300;
+  border-bottom: 1px dashed #ffd300;
 }
 
 .faq-smdfhvkds .faq-item-qaf i {
@@ -1114,6 +1131,24 @@ section {
   width: 100vw;
   height: 68vh;
   animation: scroll-img 15s ease-in-out infinite;
+}
+
+.cta2-dskhbf {
+  background: url("../img/cta2.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+  width: 100vw;
+  height: 58vh;
+  animation: scroll-img 14s ease-in-out infinite;
+}
+
+.cta3-dskhbf {
+  background: url("../img/cta3.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+  width: 100vw;
+  height: 62vh;
+  animation: scroll-img 13s ease-in-out infinite;
 }
 
 @keyframes scroll-img {
