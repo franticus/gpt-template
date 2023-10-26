@@ -304,7 +304,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #ffd300;
+  color: #111;
   font-family: "Poppins", sans-serif;
 }
 
@@ -313,7 +313,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #fff;
+  background: #111;
   margin: 4px 10px;
 }
 
@@ -478,7 +478,7 @@ section {
 }
 
 .features-uovlvdd p {
-  color: #eee;
+  color: #111;
 }
 
 .features-uovlvdd .nav-tabs {
@@ -516,11 +516,11 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #eee;
+  color: #111;
 }
 
 .features-uovlvdd .details p {
-  color: #eee;
+  color: #111;
 }
 
 .features-uovlvdd .details p:last-child {
