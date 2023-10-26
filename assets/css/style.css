@@ -33,7 +33,7 @@ h6 {
   background: #221106;
   transition: all 0.5s;
   z-index: 997;
-  padding: 16px 0;
+  padding: 24px 0;
 }
 
 #header.header-scrolled {
@@ -392,7 +392,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fff;
+  color: #f4ff2f;
   font-family: "Poppins", sans-serif;
 }
 
@@ -799,11 +799,6 @@ section {
     border: 0;
     padding: 15px;
   }
-
-  .features-kblvks .nav-link.active {
-    color: #fff;
-    background: #f4ff2f;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -927,7 +922,7 @@ section {
 
 .faq-qaf .faq-item-qaf {
   margin: 20px 0;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #f4ff2f;
 }
 
 .faq-qaf .faq-item-qaf i {
@@ -964,8 +959,12 @@ section {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   border-radius: 20px;
-  text-align: center;
+  text-align: right;
   color: #eee;
+}
+
+.testimonials-people .testimonial-item h2 {
+  color: #f4ff2f;
 }
 
 .testimonials-people .testimonial-item .testimonial-img {
