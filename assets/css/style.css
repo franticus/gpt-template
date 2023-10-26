@@ -760,6 +760,11 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact-sdkjfbls {
+  width: 100%;
+  background: #0b4f0e !important;
+}
+
 .contact-sdkjfbls .info {
   width: 100%;
   background: #fff;
@@ -1166,4 +1171,12 @@ section {
     background-position: 50% 0%;
 
   }
+}
+
+.mapframe-img {
+  width: 100vw;
+  height: 40vh;
+  background: url("/assets/img/map.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0% 50%;
 }
