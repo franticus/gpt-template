@@ -3,17 +3,17 @@
 	<url>
 		<loc>{REPLACE_URL}</loc>
 		<priority>1.00</priority>
-		<lastmod>2023-10-25</lastmod>
+		<lastmod>2023-10-26</lastmod>
 	</url>
 	<url>
 		<loc>{REPLACE_URL}/tnxpage.html</loc>
 		<priority>0.67</priority>
-		<lastmod>2023-10-25</lastmod>
+		<lastmod>2023-10-26</lastmod>
 	</url>
 	<url>
 		<loc>{REPLACE_URL}/thanks_page.php</loc>
 		<priority>0.67</priority>
-		<lastmod>2023-10-25</lastmod>
+		<lastmod>2023-10-26</lastmod>
 	</url>
 	<url>
 		<loc>{REPLACE_URL}/testimonials.html</loc>
@@ -21,19 +21,14 @@
 		<lastmod>2023-10-25</lastmod>
 	</url>
 	<url>
-		<loc>{REPLACE_URL}/products.html</loc>
+		<loc>{REPLACE_URL}/our-photos.html</loc>
 		<priority>0.67</priority>
-		<lastmod>2023-10-25</lastmod>
+		<lastmod>2023-10-26</lastmod>
 	</url>
 	<url>
-		<loc>{REPLACE_URL}/posts.html</loc>
+		<loc>{REPLACE_URL}/our-offers.html</loc>
 		<priority>0.67</priority>
-		<lastmod>2023-10-25</lastmod>
-	</url>
-	<url>
-		<loc>{REPLACE_URL}/our-benefits.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-10-25</lastmod>
+		<lastmod>2023-10-26</lastmod>
 	</url>
 	<url>
 		<loc>{REPLACE_URL}/installSitemap.php</loc>
@@ -41,33 +36,33 @@
 		<lastmod>2023-10-25</lastmod>
 	</url>
 	<url>
-		<loc>{REPLACE_URL}/gallery.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-10-25</lastmod>
-	</url>
-	<url>
 		<loc>{REPLACE_URL}/contact.html</loc>
 		<priority>0.67</priority>
-		<lastmod>2023-10-25</lastmod>
+		<lastmod>2023-10-26</lastmod>
+	</url>
+	<url>
+		<loc>{REPLACE_URL}/about-us.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-10-26</lastmod>
 	</url>
 	<url>
 		<loc>{REPLACE_URL}/privacy/terms.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-10-25</lastmod>
+		<lastmod>2023-10-26</lastmod>
 	</url>
 	<url>
 		<loc>{REPLACE_URL}/privacy/privacy.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-10-25</lastmod>
+		<lastmod>2023-10-26</lastmod>
 	</url>
 	<url>
 		<loc>{REPLACE_URL}/privacy/disclaimer.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-10-25</lastmod>
+		<lastmod>2023-10-26</lastmod>
 	</url>
 	<url>
 		<loc>{REPLACE_URL}/privacy/cookies.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-10-25</lastmod>
+		<lastmod>2023-10-26</lastmod>
 	</url>
 </urlset>
