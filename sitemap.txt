@@ -16,17 +16,12 @@
 		<lastmod>2023-10-26</lastmod>
 	</url>
 	<url>
-		<loc>{REPLACE_URL}/testimonials.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-10-25</lastmod>
-	</url>
-	<url>
-		<loc>{REPLACE_URL}/our-photos.html</loc>
+		<loc>{REPLACE_URL}/prices.html</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-10-26</lastmod>
 	</url>
 	<url>
-		<loc>{REPLACE_URL}/our-offers.html</loc>
+		<loc>{REPLACE_URL}/pictures.html</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-10-26</lastmod>
 	</url>
@@ -36,12 +31,12 @@
 		<lastmod>2023-10-25</lastmod>
 	</url>
 	<url>
-		<loc>{REPLACE_URL}/contact.html</loc>
+		<loc>{REPLACE_URL}/faq.html</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-10-26</lastmod>
 	</url>
 	<url>
-		<loc>{REPLACE_URL}/about-us.html</loc>
+		<loc>{REPLACE_URL}/contact.html</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-10-26</lastmod>
 	</url>
