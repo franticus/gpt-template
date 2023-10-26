@@ -1056,7 +1056,7 @@ section {
 .mapframe-img {
   width: 100vw;
   height: 40vh;
-  background: url("/assets/img/map.jpg") no-repeat;
+  background: url("../img/map.jpg") no-repeat;
   background-size: cover;
   background-position: 0% 50%;
 }
