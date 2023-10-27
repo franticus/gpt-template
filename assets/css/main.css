@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #ffc732;
+  color: #3240ff;
   text-decoration: none;
 }
 
@@ -648,7 +648,7 @@ section {
 }
 
 .get-started .php-email-form button[type=submit]:hover {
-  background: rgba(254, 185, 0, 0.8);
+  background: #3240ff;
 }
 
 @keyframes animate-loading {
@@ -783,7 +783,7 @@ section {
   cursor: pointer;
   height: 100%;
   border: 0;
-  border-bottom: 4px solid #e2e4e6;
+  border-bottom: 4px solid #fff;
 }
 
 .features .nav-link i {
@@ -1738,7 +1738,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(254, 185, 0, 0.8);
+  background: #3240ff;
 }
 
 @keyframes animate-loading {
@@ -2338,7 +2338,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: rgba(254, 185, 0, 0.8);
+  background: #3240ff;
 }
 
 .blog .sidebar .categories ul {
@@ -2516,7 +2516,7 @@ section {
 
 .blog .comments .reply-form input:focus {
   box-shadow: none;
-  border-color: rgba(254, 185, 0, 0.8);
+  border-color: #3240ff;
 }
 
 .blog .comments .reply-form textarea {
@@ -2527,7 +2527,7 @@ section {
 
 .blog .comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: rgba(254, 185, 0, 0.8);
+  border-color: #3240ff;
 }
 
 .blog .comments .reply-form .form-group {
