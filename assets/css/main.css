@@ -648,6 +648,12 @@ section {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.services {
+  background: linear-gradient(rgba(3, 20, 4, 0.9), rgba(7, 16, 2, 1)), url("../img/bg-2.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .services .service-item-sdfsd {
   padding: 20px;
   // background: #fff;
@@ -827,6 +833,14 @@ section {
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
+.testimonials-kshdf {
+  padding-left: 50px;
+  background: linear-gradient(rgba(3, 20, 4, 0.8), rgba(7, 16, 2, 0.9)), url("../img/bg-1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+}
+
 .testimonials-kshdf .testimonial-wrap {
   padding-left: 50px;
 }
@@ -928,6 +942,12 @@ section {
 /*--------------------------------------------------------------
 # Alt Services Section
 --------------------------------------------------------------*/
+.alt-services {
+  background: linear-gradient(rgba(3, 20, 4, 0.9), rgba(7, 16, 2, 0.9)), url("../img/bg-2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .alt-services .img-bg {
   background-size: cover;
   background-position: center center;
@@ -1114,6 +1134,13 @@ section {
 /*--------------------------------------------------------------
 # Our Team Section
 --------------------------------------------------------------*/
+.team-jsblns {
+  position: relative;
+  background: linear-gradient(rgba(3, 20, 4, 0.8), rgba(7, 16, 2, 0.9)), url("../img/bg-2.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .team-jsblns .member {
   position: relative;
 }
@@ -1193,6 +1220,10 @@ section {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.contact-skjdfb {
+  background: #051902;
+}
+
 .contact-skjdfb .info-item {
   box-shadow: 0 0 20px var(--color-primary);
   padding: 20px 0 30px 0;
