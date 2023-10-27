@@ -42,8 +42,8 @@ iframe {
 }
 
 .img-fluid {
-  // border: 10px solid #fff;
-  border-radius: 0px;
+  border: 10px solid #fff;
+  border-radius: 20px;
 }
 
 .info,
@@ -83,7 +83,8 @@ iframe {
 
 .form-check {
   margin-bottom: 20px;
-  color: #fff;
+  color: #111;
+  text-align: left;
 }
 
 .footer-info a {
