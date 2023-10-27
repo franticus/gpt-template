@@ -107,7 +107,7 @@ section {
 }
 
 .breadcrumbs-sdfsdf h2 {
-  font-size: 56px;
+  font-size: 36px;
   font-weight: 500;
   color: #fff;
   font-family: var(--font-secondary);
@@ -618,14 +618,12 @@ section {
 # Constructions Section
 --------------------------------------------------------------*/
 .constructions-sdkfaqw .card-item {
-  border: 2px dashed var(--color-primary);
-  // background: #fff;
   position: relative;
   border-radius: 4px;
 }
 
 .constructions-sdkfaqw .card-item .card-bg {
-  min-height: 300px;
+  min-height: 400px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -730,14 +728,14 @@ section {
   padding: 15px 0;
   transition: 0.3s;
   color: var(--color-secondary);
-  border-radius: 0;
+  border-radius: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   height: 100%;
   border: 0;
-  border-bottom: 4px solid #fff;
+  border-bottom: 20px solid #fff;
 }
 
 .features-ksjfbk .nav-link i {
@@ -1024,7 +1022,6 @@ section {
 .about .our-story-kbjsb {
   padding: 40px;
   border-radius: 0px;
-  border: 2px solid var(--color-primary);
 }
 
 @media (min-width: 991px) {
@@ -1520,7 +1517,7 @@ section {
   color: #fff;
   background: #051902;
   font-size: 14px;
-  padding: 80px 0 60px 0;
+  padding: 80px 0 30px 0;
   position: relative;
 }
 
@@ -1583,14 +1580,14 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .footer .footer-content-jlsdblsj .footer-links-sdlfj ul li {
   padding: 8px 0;
-}
-
-.footer .footer-content-jlsdblsj .footer-links-sdlfj ul li:first-child {
-  padding-top: 0;
+  white-space: nowrap;
 }
 
 .footer .footer-content-jlsdblsj .footer-links-sdlfj ul a {
