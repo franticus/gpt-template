@@ -27,23 +27,15 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        color: #111;
-        background-color: #d9dbff;
-        opacity: 1;
-        background-image: linear-gradient(#cfd1ff 2px, transparent 2px),
-          linear-gradient(90deg, #cfd1ff 2px, transparent 2px),
-          linear-gradient(#cfd1ff 1px, transparent 1px),
-          linear-gradient(90deg, #cfd1ff 1px, #d9dbff 1px);
-        background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
-        background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+        background: linear-gradient(rgba(3, 20, 4, 0.9), rgba(7, 16, 2, 1));
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #092b70;
+        background: #042c1f;
         color: #fff;
-        border-right: 40px solid #093c6b;
-        border-left: 40px solid #093c6b;
-        border-radius: 100px;
+        border-right: 40px dashed #0b9135;
+        border-left: 40px solid #0b9135;
+        border-radius: 0px;
       }
 
       body {
@@ -149,40 +141,38 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            Esteemed BuildWise Collaborator, we express our heartfelt gratitude
-            for the solid faith you have placed in our skilled workforce and
-            devoted services. Your decision to engage with our esteemed
-            construction and planning company, BuildWise, amplifies our
-            commitment to enhancing and personalizing your experience with us.
+            Honored VeggieDelight Patron, we warmly thank you for the profound
+            trust you've shown in our dedicated team and our bespoke services.
+            Your decision to choose our well-regarded vegetarian grocery store,
+            VeggieDelight, strengthens our resolution to augment and personalize
+            your shopping experience with us.
           </p>
           <p>
-            Our pledge is to continually endeavor to supply distinct and vast
-            building solutions, innovative construction strategies, and
-            customized services that align with your unique vision for modern
-            structures. Our goals mirror your passion for superior quality
-            construction, ensuring top-notch and carefully designed engagements
-            with our projects. The satisfaction you gain and the joy experienced
-            by clients owing to our construction services are the primary
-            motivations behind all our efforts.
+            Our promise is to ceaselessly strive to provide a diverse and unique
+            selection of vegetarian products, pioneering approaches to healthy
+            eating, and tailored services that coincide with your distinctive
+            tastes and needs. Our ambitions reflect your enthusiasm for optimum
+            quality meals, guaranteeing top-tier and thoughtful interactions
+            with our assortment. The pleasure you derive and the happiness
+            experienced by customers due to our shopping services are the
+            fundamental driving forces of our efforts.
           </p>
           <p>
-            We assure that your feedback, endorsement of our company, or any
-            guidance is essential in charting our course towards improving our
-            services and broad expansion. If you have any queries, feedback, or
-            thoughts to share, please do not hesitate to reach out. Our cordial
-            and capable team is ready to provide second-to-none solutions for
-            you, your team, and your clients' construction needs.
+            We confirm that your feedback, endorsement of our store, or any
+            advice is crucial in setting our direction towards enhancing our
+            services and broad expansion. If you have any questions, feedback,
+            or thoughts you'd like to share, don't hesitate to reach out. Our
+            friendly and proficient team is always ready to offer unmatched
+            solutions for you, your team, and your clients' vegetarian shopping
+            needs.
           </p>
           <p>
-            We sincerely value your unwavering confidence in our service and
-            your choice to be a part of the BuildWise construction and planning
-            network.
+            We sincerely recognize your steadfast conviction in our service and
+            your choice to be part of VeggieDelight's shopping community.
           </p>
+          <p class="cBlock-fgZSxP4y">With warm wishes and genuine gratitude,</p>
           <p class="cBlock-fgZSxP4y">
-            With warm regards and genuine appreciation,
-          </p>
-          <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The BuildWise Team</span>
+            <span class="domain-fgZSxP4y">The VeggieDelight Team</span>
           </p>
         </div>
       </div>
@@ -249,6 +239,5 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
-Ï
 
 
