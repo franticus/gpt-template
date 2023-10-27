@@ -42,8 +42,8 @@ iframe {
 }
 
 .img-fluid {
-  border: 10px solid #fff;
-  border-radius: 20px;
+  border: 2px solid #78ff91;
+  border-radius: 4px;
 }
 
 .info,
@@ -85,6 +85,11 @@ iframe {
   margin-bottom: 20px;
   color: #111;
   text-align: left;
+}
+
+.form-check a {
+  color: #1a710e;
+  text-decoration: underline;
 }
 
 .footer-info-ksdbfk a {
