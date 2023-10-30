@@ -27,15 +27,20 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        background: linear-gradient(rgba(3, 20, 4, 0.9), rgba(7, 16, 2, 1));
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        background-color: #0f0f38;
+        opacity: 1;
+        background-image: radial-gradient(#9499ff 0.5px, #0f0f38 0.5px);
+        background-size: 10px 10px;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #042c1f;
+        background: #02110c;
         color: #fff;
-        border-right: 40px dashed #0b9135;
-        border-left: 40px solid #0b9135;
-        border-radius: 0px;
+        border-right: 0px dashed #0b0b91;
+        border-left: 40px solid #0b0b91;
+        border-radius: 20px;
       }
 
       body {
@@ -141,38 +146,39 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            Honored VeggieDelight Patron, we warmly thank you for the profound
-            trust you've shown in our dedicated team and our bespoke services.
-            Your decision to choose our well-regarded vegetarian grocery store,
-            VeggieDelight, strengthens our resolution to augment and personalize
-            your shopping experience with us.
+            Esteemed travelers and valued patrons of Excursia, we extend our
+            heartfelt gratitude for your unwavering trust in our dedicated team
+            and our tailored travel services. Your choice to explore the world
+            with Excursia fuels our commitment to enhancing and personalizing
+            your travel experiences.
           </p>
           <p>
-            Our promise is to ceaselessly strive to provide a diverse and unique
-            selection of vegetarian products, pioneering approaches to healthy
-            eating, and tailored services that coincide with your distinctive
-            tastes and needs. Our ambitions reflect your enthusiasm for optimum
-            quality meals, guaranteeing top-tier and thoughtful interactions
-            with our assortment. The pleasure you derive and the happiness
-            experienced by customers due to our shopping services are the
-            fundamental driving forces of our efforts.
+            Our pledge is to continuously strive to offer a diverse array of
+            travel experiences, pioneering approaches to unforgettable journeys,
+            and customized services that align with your unique preferences and
+            desires. Our aspirations mirror your passion for extraordinary
+            adventures, ensuring top-quality and meaningful interactions with
+            our offerings. The joy you find and the memories you create through
+            our travel services are the driving force behind our endeavors.
           </p>
           <p>
-            We confirm that your feedback, endorsement of our store, or any
-            advice is crucial in setting our direction towards enhancing our
-            services and broad expansion. If you have any questions, feedback,
-            or thoughts you'd like to share, don't hesitate to reach out. Our
-            friendly and proficient team is always ready to offer unmatched
-            solutions for you, your team, and your clients' vegetarian shopping
-            needs.
+            We affirm that your feedback, endorsements, or any suggestions are
+            invaluable in guiding our path towards improving our services and
+            expanding our horizons. Should you have any questions, feedback, or
+            thoughts to share, please do not hesitate to reach out. Our friendly
+            and proficient team is always ready to provide exceptional solutions
+            for your travel needs, as well as those of your companions and
+            clients.
           </p>
           <p>
-            We sincerely recognize your steadfast conviction in our service and
-            your choice to be part of VeggieDelight's shopping community.
+            We genuinely appreciate your unwavering trust in our service and
+            your decision to be a part of Excursia's travel community.
           </p>
-          <p class="cBlock-fgZSxP4y">With warm wishes and genuine gratitude,</p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The VeggieDelight Team</span>
+            With warm regards and heartfelt appreciation,
+          </p>
+          <p class="cBlock-fgZSxP4y">
+            <span class="domain-fgZSxP4y">The Excursia Team</span>
           </p>
         </div>
       </div>
@@ -239,5 +245,6 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
