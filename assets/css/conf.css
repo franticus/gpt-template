@@ -42,8 +42,8 @@ iframe {
 }
 
 .img-fluid {
-  border: 2px solid #78ff91;
-  border-radius: 4px;
+  // border: 2px solid #78ff91;
+  border-radius: 50%;
 }
 
 .info,

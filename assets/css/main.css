@@ -23,9 +23,8 @@ body {
   overflow-x: hidden;
   background-color: #0f0f38;
   opacity: 1;
-  background-image: radial-gradient(#2833ff 0.5px, transparent 0.5px), radial-gradient(#2833ff 0.5px, #0f0f38 0.5px);
-  background-size: 20px 20px;
-  background-position: 0 0, 10px 10px;
+  background-image: radial-gradient(#9499ff 0.5px, #0f0f38 0.5px);
+  background-size: 10px 10px;
 }
 
 a {
@@ -34,7 +33,7 @@ a {
 }
 
 a:hover {
-  color: #155e06;
+  color: #a7c4a1;
   text-decoration: none;
 }
 
@@ -96,54 +95,6 @@ section {
   .section-header-kjsdb p {
     max-width: 60%;
   }
-}
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs-jvbbsd {
-  padding: 100px 0 60px 0;
-  min-height: 10vh;
-  position: relative;
-  background: #051902;
-}
-
-.breadcrumbs-jvbbsd h2 {
-  font-size: 36px;
-  font-weight: 500;
-  color: #fff;
-  font-family: var(--font-secondary);
-}
-
-.breadcrumbs-jvbbsd ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 10px 0;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--color-primary);
-}
-
-.breadcrumbs-jvbbsd ol a {
-  color: rgba(255, 255, 255, 0.8);
-  transition: 0.3s;
-}
-
-.breadcrumbs-jvbbsd ol a:hover {
-  text-decoration: underline;
-}
-
-.breadcrumbs-jvbbsd ol li+li {
-  padding-left: 10px;
-}
-
-.breadcrumbs-jvbbsd ol li+li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #fff;
-  content: "/";
 }
 
 /*--------------------------------------------------------------
@@ -212,7 +163,12 @@ section {
 }
 
 .header .logo h1 span {
-  color: var(--color-primary);
+  color: #eee;
+  border-radius: 20px;
+  background-color: #cf4813;
+  font-style: italic;
+  text-transform: uppercase;
+  padding: 20px 40px;
 }
 
 /*--------------------------------------------------------------
@@ -250,7 +206,6 @@ section {
     font-size: 14px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.6);
-    text-transform: uppercase;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -1007,9 +962,9 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter-sdmfbskf .stats-item-sdfbssf {
-  box-shadow: 0px 0 10px var(--color-primary);
-  padding: 30px;
-  border-radius: 100px;
+  // box-shadow: 0px 0 10px var(--color-primary);
+  padding: 60px;
+  border-radius: 0px;
 }
 
 .stats-counter-sdmfbskf .stats-item-sdfbssf i {
@@ -1265,6 +1220,20 @@ section {
   justify-content: center;
 }
 
+@keyframes blik {
+  0% {
+    background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/hero-bg.jpg") no-repeat;
+  }
+
+  50% {
+    background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/hero-bg.jpg") no-repeat;
+  }
+
+  100% {
+    background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/hero-bg.jpg") no-repeat;
+  }
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 0 50px;
@@ -1374,7 +1343,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: #051902;
+  background: #020419;
   font-size: 14px;
   padding: 80px 0 30px 0;
   position: relative;
