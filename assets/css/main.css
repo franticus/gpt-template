@@ -1230,6 +1230,8 @@ section {
 
 .blog .posts-list .post-img img {
   transition: 0.5s;
+  height: 200px;
+  border-radius: 0;
 }
 
 .blog .posts-list .post-date {
@@ -1245,7 +1247,7 @@ section {
 }
 
 .blog .posts-list .post-content {
-  padding: 30px;
+  padding: 0px;
 }
 
 .blog .posts-list .post-title {
