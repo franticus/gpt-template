@@ -89,6 +89,7 @@ section {
 
 .section-header-kjsdb p {
   margin: 0 auto 0 auto;
+  color: #fff;
 }
 
 @media (min-width: 1199px) {
@@ -433,6 +434,12 @@ section {
 /*--------------------------------------------------------------
 # Get Started Section
 --------------------------------------------------------------*/
+.get-started-sdjfbsls {
+  background: linear-gradient(rgba(6, 13, 40, 0.9), rgba(43, 20, 80, 0.9)), url("../img/bg-2.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .get-started-sdjfbsls .content {
   padding: 30px 0;
 }
@@ -505,51 +512,19 @@ section {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+
 .services {
-  background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/bg-2.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
+  color: #020419;
 }
 
 .services .service-item-sdfhbkfsdf {
   padding: 20px;
-  // background: #fff;
-  border-radius: 0px;
-  border: 2px dashed #78ff91;
+  background: #fff;
+  border-radius: 10px;
   height: 100%;
 }
 
-.services .service-item-sdfhbkfsdf .icon {
-  width: 48px;
-  height: 48px;
-  position: relative;
-  margin-bottom: 50px;
-}
-
-.services .service-item-sdfhbkfsdf .icon i {
-  color: #ff0000;
-  font-size: 40px;
-  transition: ease-in-out 0.3s;
-  z-index: 2;
-  position: relative;
-  line-height: 1.8;
-}
-
-.services .service-item-sdfhbkfsdf .icon:before {
-  position: absolute;
-  content: "";
-  height: 70%;
-  width: 70%;
-  background: #fff;
-  border-radius: 50px;
-  z-index: 1;
-  top: 10px;
-  right: -15px;
-  transition: 0.3s;
-}
-
 .services .service-item-sdfhbkfsdf h3 {
-  color: var(--color-default);
   font-weight: 700;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
@@ -671,23 +646,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Projects Section
---------------------------------------------------------------*/
-
-.projects-sdfhbdskf .portfolio-content {
-  position: relative;
-  overflow: hidden;
-}
-
-.projects-sdfhbdskf .portfolio-content img {
-  transition: 0.3s;
-}
-
-.projects-sdfhbdskf .portfolio-content:hover img {
-  transform: scale(1.1);
-}
-
-/*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials-sdfdksfbkds {
@@ -695,7 +653,7 @@ section {
   background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/bg-1.jpg") no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 200px 0;
+  padding: 64px 0;
 }
 
 .testimonials-sdfdksfbkds .testimonial-wrap {
@@ -713,6 +671,8 @@ section {
   margin: 0 15px 30px 0;
   min-height: 200px;
   border: 2px dashed var(--color-primary);
+  background: #ebebed;
+  border-radius: 10px;
   position: relative;
 }
 
@@ -720,12 +680,12 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: #111;
 }
 
 .testimonials-sdfdksfbkds .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #111;
   margin: 0;
 }
 
@@ -762,6 +722,7 @@ section {
 .testimonials-sdfdksfbkds .testimonial-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
+  color: #111;
 }
 
 .testimonials-sdfdksfbkds .swiper-pagination {
@@ -946,7 +907,7 @@ section {
   min-height: 600px;
   background-size: cover;
   background-position: center;
-  border-radius: 0px;
+  border-radius: 50%;
   border: 2px solid var(--color-primary);
 }
 
