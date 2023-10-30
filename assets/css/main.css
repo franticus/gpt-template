@@ -6,8 +6,8 @@
 
 :root {
   --color-default: #fff;
-  --color-primary: #78ff91;
-  --color-secondary: #78ff91;
+  --color-primary: #e2f4c3;
+  --color-secondary: #e2f4c3;
 }
 
 :root {
@@ -21,7 +21,11 @@ body {
   font-family: var(--font-default);
   color: var(--color-default);
   overflow-x: hidden;
-  background: #2b364a;
+  background-color: #0f0f38;
+  opacity: 1;
+  background-image: radial-gradient(#2833ff 0.5px, transparent 0.5px), radial-gradient(#2833ff 0.5px, #0f0f38 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
 }
 
 a {
@@ -52,9 +56,7 @@ section {
 }
 
 .section-bg {
-  background-color: #42425d;
-  opacity: 1;
-  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #42425d 10px), repeating-linear-gradient(#4c4d6455, #4c4d64);
+  background: #1f1744;
 }
 
 .section-header-kjsdb {
@@ -193,7 +195,8 @@ section {
 --------------------------------------------------------------*/
 .header {
   z-index: 997;
-  position: absolute;
+  position: fixed;
+  background: #1e1746;
   padding: 30px 0;
   top: 0;
   left: 0;
@@ -503,107 +506,6 @@ section {
   font-size: 14px;
 }
 
-.get-started-sdjfbsls .php-email-form-sdfsfkb {
-  color: #fff;
-  padding: 30px;
-  height: 100%;
-  border-radius: 0px;
-  border: 2px solid #78ff91;
-}
-
-@media (max-width: 575px) {
-  .get-started-sdjfbsls .php-email-form-sdfsfkb {
-    padding: 20px;
-  }
-}
-
-.get-started-sdjfbsls .php-email-form-sdfsfkb h3 {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.get-started-sdjfbsls .php-email-form-sdfsfkb p {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-.get-started-sdjfbsls .php-email-form-sdfsfkb .error-message {
-  display: none;
-  color: #fff;
-  background: #df1529;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.get-started-sdjfbsls .php-email-form-sdfsfkb .sent-message {
-  display: none;
-  color: #fff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.get-started-sdjfbsls .php-email-form-sdfsfkb .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-}
-
-.get-started-sdjfbsls .php-email-form-sdfsfkb .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #059652;
-  border-top-color: #fff;
-  animation: animate-loading 1s linear infinite;
-}
-
-.get-started-sdjfbsls .php-email-form-sdfsfkb input,
-.get-started-sdjfbsls .php-email-form-sdfsfkb textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  border-radius: 0;
-}
-
-.get-started-sdjfbsls .php-email-form-sdfsfkb input:focus,
-.get-started-sdjfbsls .php-email-form-sdfsfkb textarea:focus {
-  border-color: var(--color-primary);
-}
-
-.get-started-sdjfbsls .php-email-form-sdfsfkb input {
-  padding: 12px 15px;
-}
-
-.get-started-sdjfbsls .php-email-form-sdfsfkb textarea {
-  padding: 12px 15px;
-}
-
-.get-started-sdjfbsls .php-email-form-sdfsfkb button[type=submit] {
-  background: var(--color-primary);
-  border: 0;
-  padding: 10px 30px;
-  color: #111;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.get-started-sdjfbsls .php-email-form-sdfsfkb button[type=submit]:hover {
-  background: #155e06;
-  color: #fff;
-}
-
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -649,7 +551,7 @@ section {
 # Services Section
 --------------------------------------------------------------*/
 .services {
-  background: linear-gradient(rgba(3, 20, 4, 0.9), rgba(7, 16, 2, 1)), url("../img/bg-2.jpg") no-repeat;
+  background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/bg-2.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -835,7 +737,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials-sdfdksfbkds {
   padding-left: 50px;
-  background: linear-gradient(rgba(3, 20, 4, 0.8), rgba(7, 16, 2, 0.9)), url("../img/bg-1.jpg") no-repeat;
+  background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/bg-1.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   padding: 200px 0;
@@ -943,7 +845,7 @@ section {
 # Alt Services Section
 --------------------------------------------------------------*/
 .alt-services {
-  background: linear-gradient(rgba(3, 20, 4, 0.9), rgba(7, 16, 2, 0.9)), url("../img/bg-2.jpg") no-repeat;
+  background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/bg-2.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -1136,7 +1038,7 @@ section {
 --------------------------------------------------------------*/
 .team-sdfjbskf {
   position: relative;
-  background: linear-gradient(rgba(3, 20, 4, 0.8), rgba(7, 16, 2, 0.9)), url("../img/bg-2.jpg") no-repeat;
+  background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/bg-2.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -1354,73 +1256,38 @@ section {
 .hero {
   overflow-x: hidden;
   padding: 0;
-  height: 100vh;
-  background: linear-gradient(rgba(6, 40, 9, 0.6), rgba(7, 16, 2, 0.9)), url("../img/hero-bg.jpg") no-repeat;
+  height: 86vh;
+  background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/hero-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.hero .info {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
-  .hero .info {
+  .hero {
     padding: 0 50px;
   }
 }
 
-.hero .info h2 {
+.hero h2 {
   color: #fff;
   margin-bottom: 30px;
   padding-bottom: 30px;
   font-size: 56px;
   font-weight: 700;
-  position: relative;
-}
-
-.hero .info h2:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 80px;
-  height: 4px;
-  background: var(--color-primary);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
 }
 
 @media (max-width: 768px) {
-  .hero .info h2 {
+  .hero h2 {
     font-size: 36px;
   }
 }
 
-.hero .info p {
-  color: rgba(255, 255, 255, 0.8);
+.hero p {
+  color: #eee;
   font-size: 18px;
-}
-
-.hero .info .btn-get-started-sdfjksbsdf {
-  font-family: var(--font-primary);
-  font-weight: 500;
-  font-size: 26px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 42px 80px;
-  border-radius: 100px;
-  margin: 10px;
-  color: #fff;
-  border: 2px dashed var(--color-primary);
-}
-
-.hero .info .btn-get-started-sdfjksbsdf:hover {
-  background: var(--color-primary);
-  color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -1561,7 +1428,8 @@ section {
   font-weight: 600;
   color: #fff;
   position: relative;
-  padding-bottom: 12px;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 .footer .footer-content-sdfkbskf .footer-links-sdlfj {
