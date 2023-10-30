@@ -6,8 +6,8 @@
 
 :root {
   --color-default: #fff;
-  --color-primary: #e2f4c3;
-  --color-secondary: #e2f4c3;
+  --color-primary: #111;
+  --color-secondary: #111;
 }
 
 :root {
@@ -19,12 +19,12 @@
 --------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
-  color: var(--color-default);
-  overflow-x: hidden;
-  background-color: #0f0f38;
+  background-color: #ffe3fb;
   opacity: 1;
-  background-image: radial-gradient(#9499ff 0.5px, #0f0f38 0.5px);
-  background-size: 10px 10px;
+  background-image: radial-gradient(#d1b3da 0.4px, transparent 0.4px), radial-gradient(#d1b3da 0.4px, #ffe3fb 0.4px);
+  background-size: 16px 16px;
+  background-position: 0 0, 8px 8px;
+  color: #111;
 }
 
 a {
@@ -55,7 +55,7 @@ section {
 }
 
 .section-bg {
-  background: #1f1744;
+  background: #883475;
 }
 
 .section-header-sdlfjdbs {
@@ -75,7 +75,7 @@ section {
   content: "";
   width: 50px;
   height: 2px;
-  background: var(--color-primary);
+  background: #fff;
   display: inline-block;
 }
 
@@ -92,6 +92,16 @@ section {
   color: #fff;
 }
 
+.constructions-sdfnsd .section-header-sdlfjdbs p {
+  margin: 0 auto 0 auto;
+  color: #111;
+}
+
+.team-rrue .section-header-sdlfjdbs p {
+  margin: 0 auto 0 auto;
+  color: #111;
+}
+
 @media (min-width: 1199px) {
   .section-header-sdlfjdbs p {
     max-width: 60%;
@@ -106,7 +116,7 @@ section {
   inset: 0;
   z-index: 999999;
   overflow: hidden;
-  background: #0a042c;
+  background: #370744;
   transition: all 0.6s ease-out;
 }
 
@@ -148,7 +158,7 @@ section {
 .header {
   z-index: 997;
   position: fixed;
-  background: #1e1746;
+  background: #f7c6ff;
   padding: 30px 0;
   top: 0;
   left: 0;
@@ -164,12 +174,12 @@ section {
 }
 
 .header .logo h1 span {
-  color: #eee;
-  border-radius: 20px;
-  background-color: #cf4813;
+  color: #0014d0;
+  border-radius: 1px;
+  background-color: #fff;
   font-style: italic;
-  text-transform: uppercase;
   padding: 20px 40px;
+  border: 2px solid #0014d0;
 }
 
 /*--------------------------------------------------------------
@@ -206,7 +216,7 @@ section {
     font-family: var(--font-primary);
     font-size: 14px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.6);
+    color: #111;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -243,7 +253,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #0014d0;
   }
 
   .navbar .dropdown ul {
@@ -341,7 +351,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(164, 102, 168);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -356,7 +366,7 @@ section {
     font-family: var(--font-primary);
     font-size: 15px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.7);
+    color: #0014d0;
     white-space: nowrap;
     text-transform: uppercase;
     transition: 0.3s;
@@ -393,7 +403,7 @@ section {
 
   .mobile-nav-show {
     position: relative;
-    color: #fff;
+    color: #0014d0;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -434,11 +444,7 @@ section {
 /*--------------------------------------------------------------
 # Get Started Section
 --------------------------------------------------------------*/
-.get-started-sdjfbsfs {
-  background: linear-gradient(rgba(6, 13, 40, 0.9), rgba(43, 20, 80, 0.9)), url("../img/bg-2.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+
 
 .get-started-sdjfbsfs .content {
   padding: 30px 0;
@@ -515,12 +521,23 @@ section {
 
 .services {
   color: #020419;
+  background: linear-gradient(rgba(93, 21, 101, 0.8), rgba(79, 20, 80, 0.9)), url("../img/bg-3.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services h2 {
+  color: #fff;
 }
 
 .services .service-item-dskjfgksdf {
-  padding: 20px;
+  padding: 40px;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 100px;
   height: 100%;
 }
 
@@ -650,9 +667,6 @@ section {
 --------------------------------------------------------------*/
 .testimonials-sdfsf {
   padding-left: 50px;
-  background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/bg-1.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
   padding: 64px 0;
 }
 
@@ -670,10 +684,18 @@ section {
   padding: 30px 30px 30px 60px;
   margin: 0 15px 30px 0;
   min-height: 200px;
-  border: 2px dashed var(--color-primary);
+  border-top: 20px solid #fff;
+  border-left: 20px solid #fff;
   background: #ebebed;
-  border-radius: 10px;
   position: relative;
+}
+
+.testimonials-sdfsf h2 {
+  color: #111;
+}
+
+.testimonials-sdfsf p {
+  color: #111;
 }
 
 .testimonials-sdfsf .testimonial-item h3 {
@@ -761,7 +783,7 @@ section {
 # Alt Services Section
 --------------------------------------------------------------*/
 .alt-services {
-  background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/bg-2.jpg") no-repeat;
+  background: url("../img/bg-2.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -771,27 +793,15 @@ section {
   background-position: center center;
   min-height: 400px;
   border-radius: 0px;
-  border: 2px solid #78ff91;
 }
 
 .alt-services h3 {
   font-size: 28px;
   font-weight: 700;
-  color: var(--color-secondary);
+  color: #fff;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-}
-
-.alt-services h3:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: var(--color-primary);
-  left: 0;
-  bottom: 0;
 }
 
 .alt-services .testimonials-sdfssf {
@@ -802,7 +812,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-primary);
+  color: #fff;
   margin-right: 25px;
   font-size: 28px;
   width: 56px;
@@ -810,19 +820,23 @@ section {
   border-radius: 4px;
   line-height: 0;
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
-  // background-color: #fff;
   transition: 0.3s;
 }
 
 .alt-services .testimonials-sdfssf:hover i {
   background-color: var(--color-primary);
-  color: #111;
+  color: #fff;
 }
 
-.alt-services .testimonials-sdfssf h4 {
+.alt-services h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
+  color: #fff;
+}
+
+.alt-services p {
+  color: #fff;
 }
 
 .alt-services .testimonials-sdfssf h4 a {
@@ -831,7 +845,7 @@ section {
 }
 
 .alt-services .testimonials-sdfssf h4 a:hover {
-  color: var(--color-primary);
+  color: #fff;
 }
 
 .alt-services .testimonials-sdfssf p {
@@ -846,7 +860,7 @@ section {
 .about h2 {
   font-size: 48px;
   font-weight: 700;
-  color: #78ff91;
+  color: #fff;
   margin: 30px 0;
 }
 
@@ -878,7 +892,11 @@ section {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: var(--color-secondary);
+  color: #fff;
+}
+
+.about .our-story-sdfsfs p {
+  color: #fff;
 }
 
 .about .our-story-sdfsfs p:last-child {
@@ -907,7 +925,8 @@ section {
   min-height: 600px;
   background-size: cover;
   background-position: center;
-  border-radius: 40%;
+  border-top: 10px solid #fff;
+  border-left: 10px solid #fff;
 }
 
 @media (min-width: 992px) {
@@ -922,9 +941,9 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter-qwewq .stats-item-fjjgf {
-  // box-shadow: 0px 0 10px var(--color-primary);
   padding: 60px;
   border-radius: 0px;
+  background: #fff;
 }
 
 .stats-counter-qwewq .stats-item-fjjgf i {
@@ -1031,16 +1050,18 @@ section {
 # Contact Section
 --------------------------------------------------------------*/
 .contact-ggwe {
-  background: #060219;
-  background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/bg-3.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: #f5e6f7;
+  opacity: 1;
+  background-image: linear-gradient(135deg, #fcd7ff 25%, transparent 25%), linear-gradient(225deg, #fcd7ff 25%, transparent 25%), linear-gradient(45deg, #fcd7ff 25%, transparent 25%), linear-gradient(315deg, #fcd7ff 25%, #f5e6f7 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
 }
 
 .contact-ggwe .info-item {
   padding: 20px 0 30px 0;
   border-radius: 1px;
-  background: #1e1746;
+  background: #fff;
 }
 
 .contact-ggwe .info-item i {
@@ -1058,7 +1079,7 @@ section {
 
 .contact-ggwe .info-item h3 {
   font-size: 20px;
-  color: #fff;
+  color: #111;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1072,8 +1093,13 @@ section {
 
 .contact-ggwe .php-email-form-sdfgrr {
   width: 100%;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   padding: 30px;
+  background: #fff;
+  margin-bottom: 40px;
+}
+
+.form-check-label {
+  color: #000;
 }
 
 .contact-ggwe .php-email-form-sdfgrr .form-group {
@@ -1123,7 +1149,7 @@ section {
 
 .contact-ggwe .php-email-form-sdfgrr input,
 .contact-ggwe .php-email-form-sdfgrr textarea {
-  border-radius: 0;
+  border-radius: 10px;
   box-shadow: none;
   font-size: 14px;
 }
@@ -1138,8 +1164,8 @@ section {
 }
 
 .contact-ggwe .php-email-form-sdfgrr button[type=submit] {
-  background: var(--color-primary);
-  border: 0;
+  background: #fff;
+  border: 1px solid #0014d0;
   padding: 10px 35px;
   color: #111;
   transition: 0.4s;
@@ -1147,7 +1173,7 @@ section {
 }
 
 .contact-ggwe .php-email-form-sdfgrr button[type=submit]:hover {
-  background: #155e06;
+  background: #3e065e;
   color: #fff;
 }
 
@@ -1168,13 +1194,14 @@ section {
   overflow-x: hidden;
   padding: 0;
   height: 86vh;
-  background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/hero-bg.jpg") no-repeat;
+  background: linear-gradient(rgba(153, 33, 147, 0.6), rgba(114, 24, 114, 0.4)), url("../img/hero-bg.jpg") no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   display: flex;
   align-items: center;
   justify-content: center;
   animation: blik 5s ease-in-out infinite;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -1183,16 +1210,14 @@ section {
   }
 }
 
-.hero h2 {
+.hero h1 {
   color: #fff;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
   font-size: 56px;
   font-weight: 700;
 }
 
 @media (max-width: 768px) {
-  .hero h2 {
+  .hero h1 {
     font-size: 36px;
   }
 }
@@ -1200,6 +1225,7 @@ section {
 .hero p {
   color: #eee;
   font-size: 18px;
+  margin: 0 auto;
 }
 
 /*--------------------------------------------------------------
@@ -1288,9 +1314,9 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: #020419;
+  background: #3b0f4a;
   font-size: 14px;
-  padding: 80px 0 30px 0;
+  padding: 50px 0 30px 0;
   position: relative;
 }
 
@@ -1360,7 +1386,6 @@ section {
 }
 
 .footer .footer-content-sdggewe .footer-links-sdlfj ul li {
-  padding: 8px 0;
   white-space: nowrap;
 }
 

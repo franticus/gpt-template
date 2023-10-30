@@ -5,7 +5,7 @@ ul {
 }
 
 iframe {
-  margin-top: 0px;
+  margin-top: 40px;
   border-radius: 0px;
 }
 
@@ -34,16 +34,15 @@ iframe {
 }
 
 .blur {
-  padding: 10px;
+  padding: 40px 20px;
   // backdrop-filter: blur(40px);
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
   border-radius: 0px;
-  text-align: center;
 }
 
 .img-fluid {
-  // border: 2px solid #78ff91;
-  border-radius: 50%;
+  border: 10px solid #fff;
+  border-radius: 60px;
 }
 
 .info,
@@ -56,7 +55,7 @@ iframe {
 .contact-ggwe-sdfnln .php-email-form-sdfgrr {
   padding: 20px;
   border-radius: 0px;
-  background: transparent;
+  background: #351142;
 }
 
 .clients-gfyds img {
@@ -88,7 +87,7 @@ iframe {
 }
 
 .form-check a {
-  color: #78ff91;
+  color: #111;
   text-decoration: underline;
 }
 
@@ -102,4 +101,28 @@ iframe {
 
 .team-rrue .member .member-img img {
   border-radius: 4px;
+}
+
+.cta {
+  background: url("../img/bg-1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 60vh;
+}
+
+.cta2 {
+  background: url("../img/bg-2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 60vh;
+}
+
+.cta3 {
+  background: url("../img/bg-3.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 60vh;
 }
