@@ -907,8 +907,7 @@ section {
   min-height: 600px;
   background-size: cover;
   background-position: center;
-  border-radius: 50%;
-  border: 2px solid var(--color-primary);
+  border-radius: 40%;
 }
 
 @media (min-width: 992px) {
@@ -952,13 +951,6 @@ section {
 /*--------------------------------------------------------------
 # Our Team Section
 --------------------------------------------------------------*/
-.team-sdfjbskf {
-  position: relative;
-  background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/bg-2.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .team-sdfjbskf .member {
   position: relative;
 }
@@ -1040,12 +1032,15 @@ section {
 --------------------------------------------------------------*/
 .contact-sdfhjgdsf {
   background: #060219;
+  background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/bg-3.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .contact-sdfhjgdsf .info-item {
-  box-shadow: 0 0 20px var(--color-primary);
   padding: 20px 0 30px 0;
-  border-radius: 20px;
+  border-radius: 1px;
+  background: #1e1746;
 }
 
 .contact-sdfhjgdsf .info-item i {
@@ -1179,20 +1174,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@keyframes blik {
-  0% {
-    background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/hero-bg.jpg") no-repeat;
-  }
-
-  50% {
-    background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/hero-bg.jpg") no-repeat;
-  }
-
-  100% {
-    background: linear-gradient(rgba(6, 13, 40, 0.8), rgba(43, 20, 80, 0.9)), url("../img/hero-bg.jpg") no-repeat;
-  }
+  animation: blik 5s ease-in-out infinite;
 }
 
 @media (max-width: 768px) {
