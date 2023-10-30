@@ -105,7 +105,7 @@ section {
   inset: 0;
   z-index: 999999;
   overflow: hidden;
-  background: #042c10;
+  background: #0a042c;
   transition: all 0.6s ease-out;
 }
 
@@ -1078,7 +1078,7 @@ section {
 # Contact Section
 --------------------------------------------------------------*/
 .contact-sdfhjgdsf {
-  background: #051902;
+  background: #060219;
 }
 
 .contact-sdfhjgdsf .info-item {
