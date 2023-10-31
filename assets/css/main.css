@@ -789,7 +789,7 @@ section {
 # Alt Services Section
 --------------------------------------------------------------*/
 .alt-services {
-  background: linear-gradient(rgba(15, 49, 69, 0.4), rgba(6, 47, 57, 0.8)), url("../img/bg-2.jpg") no-repeat;
+  background: linear-gradient(rgba(15, 49, 69, 0.4), rgba(6, 47, 57, 0.8)), url("../img/bg-4.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -1220,6 +1220,14 @@ section {
   justify-content: center;
   animation: blik 5s ease-in-out infinite;
   text-align: center;
+}
+
+.hero .text {
+  padding: 40px 20px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
 }
 
 @media (max-width: 768px) {
