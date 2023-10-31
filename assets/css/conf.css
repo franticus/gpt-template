@@ -42,9 +42,9 @@ iframe {
 }
 
 .img-fluid {
-  // border: 10px solid #fff;
+  border: 1px solid #ff8c00;
   padding: 40px;
-  border-radius: 4px 60px 4px 60px;
+  border-radius: 60px 60px 4px 60px;
 }
 
 .info,
@@ -145,7 +145,7 @@ iframe {
 }
 
 .gradient-anim {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #ff8c00, #b313ab, #f39c18, #d56723);
 	background-size: 400% 400%;
   animation: gradient-anim 10s ease-in-out infinite;
 }

@@ -19,10 +19,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
-  background-color: #ffffff;
-  opacity: 1;
-  background-size: 20px 20px;
-  background-image: repeating-linear-gradient(0deg, #f3feff, #f3feff 1px, #ffffff 1px, #ffffff);
+  background-color: #111;
 }
 
 a {
@@ -156,7 +153,7 @@ section {
 .header {
   z-index: 997;
   position: fixed;
-  background: #154847;
+  background: #000000;
   padding: 20px 0;
   top: 0;
   left: 0;
@@ -169,17 +166,14 @@ section {
   color: #fff;
   margin-bottom: 0;
   font-family: var(--font-primary);
-  text-decoration: underline;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: -1px;
 }
 
 .header .logo h1 span {
   color: #fff;
-  border-radius: 40px 40px 10px 10px;
-  background-color: #c72020;
   padding: 10px 40px;
-  border: 2px solid #c72020;
+  border: 2px solid #ff8c00;
 }
 
 /*--------------------------------------------------------------
@@ -236,7 +230,7 @@ section {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: #eee;
+    background-color: #ff8c00;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -253,7 +247,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #ffb700;
+    color: #ff8c00;
   }
 
   .navbar .dropdown ul {
@@ -578,6 +572,10 @@ section {
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
+.features-uiwerytei {
+  color: #fff;
+}
+
 .features-uiwerytei .nav-tabs {
   border: 0;
 }
@@ -633,6 +631,7 @@ section {
   position: relative;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  color: #ff8c00;
 }
 
 .features-uiwerytei .tab-pane h3:after {
@@ -658,7 +657,7 @@ section {
 .features-uiwerytei .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--color-primary);
+  color: #ff8c00;
 }
 
 .features-uiwerytei .tab-pane p:last-child {
@@ -785,10 +784,11 @@ section {
 /*--------------------------------------------------------------
 # Alt Services Section
 --------------------------------------------------------------*/
-.alt-services {
-  background: linear-gradient(rgba(15, 49, 69, 0.4), rgba(6, 47, 57, 0.8)), url("../img/bg-4.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+.alt-services .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .alt-services .img-bg {
@@ -810,8 +810,17 @@ section {
 .alt-services .testimonials-asdmhfv {
   margin-top: 50px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 300px;
+  min-width: 200px;
+  min-height: 300px;
+  padding: 20px;
+}
+
+.testimonials-asdmhfv h4 a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .alt-services .testimonials-asdmhfv i {
@@ -950,9 +959,8 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter-skjdhf .stats-item-fjjgf {
-  padding: 60px;
-  border-radius: 40px;
-  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 100px;
   flex-direction: column;
   justify-content: center;
 }
@@ -967,6 +975,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
+  text-align: center;
   color: var(--color-secondary);
 }
 
@@ -1043,8 +1052,8 @@ section {
 .scard {
   padding: 20px;
   border-radius: 20px;
-  border-top: 4px solid #347588;
-  border-right: 4px solid #347588;
+  border-bottom: 1px dashed #ff8c00;
+  color: #fff;
 }
 
 .services-cards-werwrw p {
@@ -1060,7 +1069,7 @@ section {
 
 .services-cards-werwrw ul li i {
   font-size: 16px;
-  color: var(--color-primary);
+  color: #ff8c00;
   margin-right: 6px;
 }
 
@@ -1208,8 +1217,8 @@ section {
 .hero {
   overflow-x: hidden;
   padding: 0;
-  height: 100vh;
-  background: linear-gradient(rgba(9, 33, 44, 1), rgba(6, 31, 32, 0.2)), url("../img/hero-bg.jpg") no-repeat;
+  height: 54vh;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url("../img/hero-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center top;
   display: flex;
@@ -1221,10 +1230,13 @@ section {
 
 .hero .text {
   padding: 40px 20px;
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
+  border-bottom: 2px dashed #ff8c00;
+  background: rgba(255, 255, 255, 0.01);
+  border-radius: 0px;
+}
+
+.hero span {
+  color: #ff8c00;
 }
 
 @media (max-width: 768px) {
@@ -1337,7 +1349,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: #154847;
+  background: #222;
   font-size: 14px;
   padding: 50px 0 30px 0;
   position: relative;
