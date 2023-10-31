@@ -3,56 +3,56 @@
 	<url>
 		<loc>{REPLACE_URL}</loc>
 		<priority>1.00</priority>
-		<lastmod>2023-10-30</lastmod>
+		<lastmod>2023-10-31</lastmod>
 	</url>
 	<url>
-		<loc>https://www.dsfsfds/tnxpage.html</loc>
+		<loc>{REPLACE_URL}/tnxpage.html</loc>
 		<priority>0.67</priority>
-		<lastmod>2023-10-30</lastmod>
+		<lastmod>2023-10-31</lastmod>
 	</url>
 	<url>
-		<loc>https://www.dsfsfds/thanks_page.php</loc>
+		<loc>{REPLACE_URL}/thanks_page.php</loc>
 		<priority>0.67</priority>
-		<lastmod>2023-10-30</lastmod>
+		<lastmod>2023-10-31</lastmod>
 	</url>
 	<url>
-		<loc>https://www.dsfsfds/our-benefits.html</loc>
+		<loc>{REPLACE_URL}/resources.html</loc>
 		<priority>0.67</priority>
-		<lastmod>2023-10-30</lastmod>
+		<lastmod>2023-10-31</lastmod>
 	</url>
 	<url>
-		<loc>https://www.dsfsfds/installSitemap.php</loc>
+		<loc>{REPLACE_URL}/our-programs.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-10-31</lastmod>
+	</url>
+	<url>
+		<loc>{REPLACE_URL}/installSitemap.php</loc>
 		<priority>0.67</priority>
 		<lastmod>2023-10-25</lastmod>
 	</url>
 	<url>
-		<loc>https://www.dsfsfds/contact.html</loc>
+		<loc>{REPLACE_URL}/contact.html</loc>
 		<priority>0.67</priority>
-		<lastmod>2023-10-30</lastmod>
+		<lastmod>2023-10-31</lastmod>
 	</url>
 	<url>
-		<loc>https://www.dsfsfds/articles.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2023-10-30</lastmod>
-	</url>
-	<url>
-		<loc>https://www.dsfsfds/privacy/terms.html</loc>
+		<loc>{REPLACE_URL}/privacy/terms.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-10-30</lastmod>
+		<lastmod>2023-10-31</lastmod>
 	</url>
 	<url>
-		<loc>https://www.dsfsfds/privacy/privacy.html</loc>
+		<loc>{REPLACE_URL}/privacy/privacy.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-10-30</lastmod>
+		<lastmod>2023-10-31</lastmod>
 	</url>
 	<url>
-		<loc>https://www.dsfsfds/privacy/disclaimer.html</loc>
+		<loc>{REPLACE_URL}/privacy/disclaimer.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-10-30</lastmod>
+		<lastmod>2023-10-31</lastmod>
 	</url>
 	<url>
-		<loc>https://www.dsfsfds/privacy/cookies.html</loc>
+		<loc>{REPLACE_URL}/privacy/cookies.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2023-10-30</lastmod>
+		<lastmod>2023-10-31</lastmod>
 	</url>
 </urlset>
