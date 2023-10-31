@@ -28,15 +28,24 @@ if(mail($to, $subject, $message, $headers)) {
 
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
-        color: #fff;
-        background-color: #7b238f;
+        color: #000000;
+        background-color: #ffffff;
+        opacity: 1;
+        background-size: 20px 20px;
+        background-image: repeating-linear-gradient(
+          0deg,
+          #f3feff,
+          #f3feff 1px,
+          #ffffff 1px,
+          #ffffff
+        );
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #3b0942;
-        color: #fff;
+        background: #ffffff;
+        color: #111;
         border-right: 0px dashed #0b0b91;
-        border-left: 40px solid #0b0b91;
+        border-left: 10px solid #0b5791;
         border-radius: 20px;
       }
 
@@ -143,40 +152,40 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            Dear plant enthusiasts and valued customers of NatureNook, we extend
-            our heartfelt appreciation for your unwavering trust in our
-            dedicated team and our handpicked selection of botanical treasures.
-            Your choice to explore the world of plants with NatureNook fuels our
-            commitment to enhancing and personalizing your botanical
-            experiences.
+            Dear parents, students, and cherished members of the ChildU
+            community, we want to express our heartfelt gratitude for your
+            unwavering trust in our dedicated team and our carefully curated
+            selection of educational experiences. Your decision to embark on a
+            learning adventure with ChildU fuels our commitment to enriching and
+            personalizing your educational journeys.
           </p>
           <p>
-            Our pledge is to continuously strive to offer a diverse array of
-            plant varieties, innovative approaches to gardening, and customized
-            services that align with your unique preferences and desires. Our
-            aspirations mirror your passion for green adventures, ensuring
-            top-quality and meaningful interactions with our offerings. The joy
-            you find and the gardens you create through our plant selections are
-            the driving force behind our endeavors.
+            Our promise is to continually strive to offer a wide range of
+            courses, innovative teaching methods, and customized services that
+            align with your unique interests and aspirations. Our goals align
+            with your passion for learning, ensuring top-quality and meaningful
+            interactions with our educational offerings. The joy you experience
+            and the knowledge you gain through our courses drive our educational
+            initiatives.
           </p>
           <p>
-            We affirm that your feedback, endorsements, or any suggestions are
-            invaluable in guiding our path towards improving our services and
-            expanding our botanical horizons. Should you have any questions,
-            feedback, or thoughts to share, please do not hesitate to reach out.
-            Our friendly and proficient team is always ready to provide
-            exceptional solutions for your plant needs, as well as those of your
-            fellow gardeners and customers.
+            We value your feedback, endorsements, or any suggestions as
+            invaluable guidance for improving our services and expanding the
+            horizons of education. If you have any questions, feedback, or
+            thoughts to share, please don't hesitate to get in touch. Our
+            friendly and proficient team is always ready to provide exceptional
+            solutions for your educational needs and those of your fellow
+            students and parents.
           </p>
           <p>
-            We genuinely appreciate your unwavering trust in our plant sanctuary
-            and your decision to be a part of NatureNook's green community.
+            We sincerely appreciate your unwavering trust in ChildU and your
+            decision to be part of our educational community.
           </p>
           <p class="cBlock-fgZSxP4y">
             With warm regards and heartfelt gratitude,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The NatureNook Team</span>
+            <span class="domain-fgZSxP4y">The ChildU Team</span>
           </p>
         </div>
       </div>
@@ -243,6 +252,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
