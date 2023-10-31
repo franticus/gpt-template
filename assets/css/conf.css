@@ -102,11 +102,11 @@ iframe {
 }
 
 .team-rrue .member .member-img img {
-  border-radius: 4px;
+  border-radius: 50%;
 }
 
 .cta {
-  background: url("../img/bg-1.jpg") no-repeat;
+  // background: url("../img/bg-1.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100vw;
@@ -119,7 +119,7 @@ iframe {
 }
 
 .cta2 {
-  background: url("../img/bg-2.jpg") no-repeat;
+  // background: url("../img/bg-2.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100vw;
@@ -132,7 +132,7 @@ iframe {
 }
 
 .cta3 {
-  background: url("../img/bg-3.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/bg-3.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100vw;
@@ -146,7 +146,7 @@ iframe {
 
 .gradient-anim {
   background: linear-gradient(-45deg, #ff8c00, #b313ab, #f39c18, #d56723);
-	background-size: 400% 400%;
+  background-size: 400% 400%;
   animation: gradient-anim 10s ease-in-out infinite;
 }
 
@@ -165,13 +165,15 @@ iframe {
 }
 
 @keyframes gradient-anim {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }

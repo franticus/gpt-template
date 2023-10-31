@@ -20,6 +20,7 @@
 body {
   font-family: var(--font-default);
   background-color: #111;
+  color: #fff;
 }
 
 a {
@@ -62,7 +63,7 @@ section {
   font-size: 32px;
   font-weight: 700;
   position: relative;
-  color: var(--color-primary);
+  color: #ff8c00;
 }
 
 .section-header-sjkdfbk h2:before,
@@ -89,12 +90,12 @@ section {
 
 .constructions-skdfj .section-header-sjkdfbk p {
   margin: 0 auto 0 auto;
-  color: #111;
+  color: #eee;
 }
 
 .team-rrue .section-header-sjkdfbk p {
   margin: 0 auto 0 auto;
-  color: #111;
+  color: #eee;
 }
 
 @media (min-width: 1199px) {
@@ -111,7 +112,7 @@ section {
   inset: 0;
   z-index: 999999;
   overflow: hidden;
-  background: #f6fdff;
+  background: #222;
   transition: all 0.6s ease-out;
 }
 
@@ -487,13 +488,13 @@ section {
 }
 
 .constructions-skdfj .card-item .card-bg {
-  min-height: 340px;
+  min-height: 400px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-top: 10px solid #347588;
-  border-right: 10px solid #347588;
-  border-radius: 0px 100px 0px 100px;
+  border-top: 1px solid #ff8c00;
+  border-right: 4px solid #ff8c00;
+  border-radius: 60px 100px 0px 100px;
 }
 
 .constructions-skdfj .card-item .card-body {
@@ -504,11 +505,11 @@ section {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 15px;
-  color: var(--color-secondary);
+  color: #ff8c00;
 }
 
 .constructions-skdfj .card-item p {
-  color: var(--color-secondary);
+  color: #eee;
   margin: 0;
 }
 
@@ -518,10 +519,10 @@ section {
 
 .services {
   color: #020419;
-  background: linear-gradient(rgba(7, 53, 82, 0.8), rgba(26, 80, 109, 0.9)), url("../img/bg-3.jpg") no-repeat;
+  background: linear-gradient(rgb(0, 0, 0), rgba(28, 29, 29, 0.6)), url("../img/bg-3.jpg") no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 60vh;
+  min-height: 67vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -532,10 +533,10 @@ section {
 }
 
 .services .service-item-sdfkjh {
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 4px 20px 4px 20px;
+  padding: 20px;
+  border-radius: 60px 4px 4px 20px;
   height: 100%;
+  color: #fff;
 }
 
 .services .service-item-sdfkjh h3 {
@@ -687,29 +688,29 @@ section {
   margin: 0 15px 30px 0;
   border-radius: 10px;
   min-height: 200px;
-  border-top: 10px solid #347588;
-  border-left: 20px solid #347588;
+  border-top: 1px solid #ff8c00;
+  border-bottom: 2px solid #ff8c00;
   position: relative;
 }
 
 .testimonials-ksdb h2 {
-  color: #111;
+  color: #ff8c00;
 }
 
 .testimonials-ksdb p {
-  color: #111;
+  color: #eee;
 }
 
 .testimonials-ksdb .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #ff8c00;
 }
 
 .testimonials-ksdb .testimonial-item h4 {
   font-size: 14px;
-  color: #111;
+  color: #eee;
   margin: 0;
 }
 
@@ -746,7 +747,7 @@ section {
 .testimonials-ksdb .testimonial-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
-  color: #111;
+  color: #eee;
 }
 
 .testimonials-ksdb .swiper-pagination {
@@ -757,12 +758,12 @@ section {
 .testimonials-ksdb .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #347588;
+  background-color: #ff8c00;
   opacity: 1;
 }
 
 .testimonials-ksdb .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background-color: #eee;
 }
 
 @media (max-width: 767px) {
@@ -996,9 +997,8 @@ section {
 .team-rrue .member .member-img {
   border-radius: 4px;
   overflow: hidden;
-  border-top: 4px solid #347588;
-  border-right: 4px solid #347588;
   position: relative;
+  border-radius: 50%;
 }
 
 @media (max-width: 1024px) {
@@ -1024,14 +1024,14 @@ section {
   font-weight: 700;
   margin-bottom: 6px;
   font-size: 18px;
-  color: var(--color-secondary);
+  color: #ff8c00;
 }
 
 .team-rrue .member .member-info-sjhsdbf span {
   font-style: italic;
   display: block;
   font-size: 15px;
-  color: #838893;
+  color: #eee;
   margin-bottom: 10px;
 }
 
@@ -1083,27 +1083,13 @@ section {
 .contact-sdjfk .info-item {
   padding: 20px 0 30px 0;
   border-radius: 1px;
-  background: #fff;
-  border-left: 4px solid #347588;
-  border-right: 4px solid #347588;
-}
-
-.contact-sdjfk .info-item i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 56px;
-  height: 56px;
-  font-size: 24px;
-  line-height: 0;
-  color: var(--color-primary);
-  border-radius: 50%;
-  border: 2px dotted #ffd565;
+  border-left: 4px solid #ff8c00;
+  border-right: 4px solid #ff8c00;
 }
 
 .contact-sdjfk .info-item h3 {
   font-size: 20px;
-  color: #111;
+  color: #ff8c00;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1112,6 +1098,23 @@ section {
   padding: 0;
   line-height: 24px;
   font-size: 14px;
+  color: #eee;
+  margin-bottom: 0;
+}
+
+.contact-sdjfk .info-item a {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  color: #eee;
+  margin-bottom: 0;
+}
+
+.contact-sdjfk .info-item a:hover {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  color: #ff8c00;
   margin-bottom: 0;
 }
 
@@ -1349,7 +1352,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: #222;
+  background: #111;
   font-size: 14px;
   padding: 50px 0 30px 0;
   position: relative;
