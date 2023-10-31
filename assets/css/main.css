@@ -496,10 +496,13 @@ section {
 }
 
 .constructions-skdfj .card-item .card-bg {
-  min-height: 400px;
+  min-height: 340px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-top: 10px solid #347588;
+  border-right: 10px solid #347588;
+  border-radius: 0px 100px 0px 100px;
 }
 
 .constructions-skdfj .card-item .card-body {
@@ -524,7 +527,7 @@ section {
 
 .services {
   color: #020419;
-  background: linear-gradient(rgba(93, 21, 101, 0.8), rgba(79, 20, 80, 0.9)), url("../img/bg-3.jpg") no-repeat;
+  background: linear-gradient(rgba(7, 53, 82, 0.8), rgba(26, 80, 109, 0.9)), url("../img/bg-3.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 60vh;
@@ -538,9 +541,9 @@ section {
 }
 
 .services .service-item-sdfkjh {
-  padding: 40px;
-  background: #fff;
-  border-radius: 100px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px 20px 4px 20px;
   height: 100%;
 }
 
@@ -686,10 +689,10 @@ section {
   box-sizing: content-box;
   padding: 30px 30px 30px 60px;
   margin: 0 15px 30px 0;
+  border-radius: 10px;
   min-height: 200px;
-  border-top: 20px solid #fff;
-  border-left: 20px solid #fff;
-  background: #ebebed;
+  border-top: 10px solid #347588;
+  border-left: 20px solid #347588;
   position: relative;
 }
 
@@ -758,7 +761,7 @@ section {
 .testimonials-ksdb .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #347588;
   opacity: 1;
 }
 
@@ -786,7 +789,7 @@ section {
 # Alt Services Section
 --------------------------------------------------------------*/
 .alt-services {
-  background: url("../img/bg-2.jpg") no-repeat;
+  background: linear-gradient(rgba(15, 49, 69, 0.4), rgba(6, 47, 57, 0.8)), url("../img/bg-2.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -809,6 +812,9 @@ section {
 
 .alt-services .testimonials-asdmhfv {
   margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .alt-services .testimonials-asdmhfv i {
@@ -855,6 +861,8 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 /*--------------------------------------------------------------
@@ -928,8 +936,9 @@ section {
   min-height: 600px;
   background-size: cover;
   background-position: center;
-  border-top: 10px solid #fff;
-  border-left: 10px solid #fff;
+  border-bottom: 10px solid #343434;
+  border-right: 10px solid #343434;
+  border-radius: 100px;
 }
 
 @media (min-width: 992px) {
@@ -945,14 +954,15 @@ section {
 --------------------------------------------------------------*/
 .stats-counter-skjdhf .stats-item-fjjgf {
   padding: 60px;
-  border-radius: 0px;
-  background: #fff;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  flex-direction: column;
+  justify-content: center;
 }
 
 .stats-counter-skjdhf .stats-item-fjjgf i {
   font-size: 42px;
   line-height: 0;
-  margin-right: 20px;
   color: var(--color-primary);
 }
 
@@ -978,9 +988,10 @@ section {
 }
 
 .team-rrue .member .member-img {
-  margin: 0 80px;
   border-radius: 4px;
   overflow: hidden;
+  border-top: 4px solid #347588;
+  border-right: 4px solid #347588;
   position: relative;
 }
 
@@ -1032,6 +1043,13 @@ section {
   color: var(--color-secondary);
 }
 
+.scard {
+  padding: 20px;
+  border-radius: 20px;
+  border-top: 4px solid #347588;
+  border-right: 4px solid #347588;
+}
+
 .services-cards-werwrw p {
   font-size: 15px;
 }
@@ -1060,6 +1078,8 @@ section {
   padding: 20px 0 30px 0;
   border-radius: 1px;
   background: #fff;
+  border-left: 4px solid #347588;
+  border-right: 4px solid #347588;
 }
 
 .contact-sdjfk .info-item i {
@@ -1171,7 +1191,7 @@ section {
 }
 
 .contact-sdjfk .php-email-form-sdfgrr button[type=submit]:hover {
-  background: #3e065e;
+  background: #347588;
   color: #fff;
 }
 
@@ -1400,5 +1420,16 @@ section {
 
 .footer .footer-legal .copyright {
   padding-top: 30px;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-info-ksdbfk a,
+.policy-links a {
+  color: #fff;
+  font-style: italic;
+}
+
+.footer-info-ksdbfk a:hover,
+.policy-links a:hover {
+  color: #ffcaca;
+  font-style: italic;
 }
