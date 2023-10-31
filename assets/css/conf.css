@@ -89,8 +89,16 @@ iframe {
 }
 
 .form-check a {
-  color: #f39c18;
+  color: #1bbd36;
   text-decoration: underline;
+}
+
+.form-check .form-check-label {
+  color: #111;
+}
+
+.custom-check {
+  height: 20px !important;
 }
 
 .footer-info-sdwww a {
