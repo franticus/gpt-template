@@ -19,12 +19,10 @@
 --------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
-  background-color: #ffe3fb;
+  background-color: #ffffff;
   opacity: 1;
-  background-image: radial-gradient(#d1b3da 0.4px, transparent 0.4px), radial-gradient(#d1b3da 0.4px, #ffe3fb 0.4px);
-  background-size: 16px 16px;
-  background-position: 0 0, 8px 8px;
-  color: #111;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(0deg, #f3feff, #f3feff 1px, #ffffff 1px, #ffffff);
 }
 
 a {
@@ -55,7 +53,7 @@ section {
 }
 
 .section-bg {
-  background: #883475;
+  background: #347588;
 }
 
 .section-header-sjkdfbk {
@@ -116,7 +114,7 @@ section {
   inset: 0;
   z-index: 999999;
   overflow: hidden;
-  background: #370744;
+  background: #f6fdff;
   transition: all 0.6s ease-out;
 }
 
@@ -158,8 +156,11 @@ section {
 .header {
   z-index: 997;
   position: fixed;
-  background: #f7c6ff;
-  padding: 30px 0;
+  background-color: #c1fdff;
+  opacity: 1;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(to right, #b8f8ff, #b8f8ff 1px, #c1fdff 1px, #c1fdff);
+  padding: 20px 0;
   top: 0;
   left: 0;
   right: 0;
@@ -171,15 +172,17 @@ section {
   color: #fff;
   margin-bottom: 0;
   font-family: var(--font-primary);
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 .header .logo h1 span {
-  color: #0014d0;
-  border-radius: 1px;
-  background-color: #fff;
-  font-style: italic;
-  padding: 20px 40px;
-  border: 2px solid #0014d0;
+  color: #fff;
+  border-radius: 40px 40px 10px 10px;
+  background-color: #c72020;
+  padding: 10px 40px;
+  border: 2px solid #c72020;
 }
 
 /*--------------------------------------------------------------
@@ -253,7 +256,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #0014d0;
+    color: #c72020;
   }
 
   .navbar .dropdown ul {
@@ -366,7 +369,7 @@ section {
     font-family: var(--font-primary);
     font-size: 15px;
     font-weight: 500;
-    color: #0014d0;
+    color: #c72020;
     white-space: nowrap;
     text-transform: uppercase;
     transition: 0.3s;
@@ -403,7 +406,7 @@ section {
 
   .mobile-nav-show {
     position: relative;
-    color: #0014d0;
+    color: #c72020;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -1050,12 +1053,7 @@ section {
 # Contact Section
 --------------------------------------------------------------*/
 .contact-sdjfk {
-  background-color: #f5e6f7;
   opacity: 1;
-  background-image: linear-gradient(135deg, #fcd7ff 25%, transparent 25%), linear-gradient(225deg, #fcd7ff 25%, transparent 25%), linear-gradient(45deg, #fcd7ff 25%, transparent 25%), linear-gradient(315deg, #fcd7ff 25%, #f5e6f7 25%);
-  background-position: 10px 0, 10px 0, 0 0, 0 0;
-  background-size: 10px 10px;
-  background-repeat: repeat;
 }
 
 .contact-sdjfk .info-item {
@@ -1165,7 +1163,7 @@ section {
 
 .contact-sdjfk .php-email-form-sdfgrr button[type=submit] {
   background: #fff;
-  border: 1px solid #0014d0;
+  border: 1px solid #c72020;
   padding: 10px 35px;
   color: #111;
   transition: 0.4s;
@@ -1193,8 +1191,8 @@ section {
 .hero {
   overflow-x: hidden;
   padding: 0;
-  height: 86vh;
-  background: linear-gradient(rgba(153, 33, 147, 0.6), rgba(114, 24, 114, 0.4)), url("../img/hero-bg.jpg") no-repeat;
+  height: 100vh;
+  background: linear-gradient(rgba(9, 33, 44, 1), rgba(6, 31, 32, 0.2)), url("../img/hero-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center top;
   display: flex;
@@ -1314,7 +1312,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: #3b0f4a;
+  background: #154847;
   font-size: 14px;
   padding: 50px 0 30px 0;
   position: relative;
