@@ -156,10 +156,7 @@ section {
 .header {
   z-index: 997;
   position: fixed;
-  background-color: #c1fdff;
-  opacity: 1;
-  background-size: 20px 20px;
-  background-image: repeating-linear-gradient(to right, #b8f8ff, #b8f8ff 1px, #c1fdff 1px, #c1fdff);
+  background: #154847;
   padding: 20px 0;
   top: 0;
   left: 0;
@@ -219,7 +216,7 @@ section {
     font-family: var(--font-primary);
     font-size: 14px;
     font-weight: 500;
-    color: #111;
+    color: #eee;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -239,7 +236,7 @@ section {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: var(--color-primary);
+    background-color: #eee;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -256,7 +253,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #c72020;
+    color: #ffb700;
   }
 
   .navbar .dropdown ul {
