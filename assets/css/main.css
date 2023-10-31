@@ -1121,12 +1121,11 @@ section {
 .contact-sdjfk .php-email-form-sdfgrr {
   width: 100%;
   padding: 30px;
-  background: #fff;
   margin-bottom: 40px;
 }
 
 .form-check-label {
-  color: #000;
+  color: #fff;
 }
 
 .contact-sdjfk .php-email-form-sdfgrr .form-group {
@@ -1200,7 +1199,7 @@ section {
 }
 
 .contact-sdjfk .php-email-form-sdfgrr button[type=submit]:hover {
-  background: #347588;
+  background: #ff8c00;
   color: #fff;
 }
 
