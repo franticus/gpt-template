@@ -42,10 +42,10 @@ iframe {
 }
 
 .img-fluid {
-  // border: 1px solid #ff8c00;
-  padding: 10px;
+  border: 4px solid #eda115;
+  padding: 4px;
   background-color: #ffffff;
-  // border-radius: 60px 60px 4px 60px;
+  border-radius: 4px 100px 4px 10px;
 }
 
 .info,
@@ -90,12 +90,12 @@ iframe {
 }
 
 .form-check a {
-  color: #e84b1b;
+  color: #eda115;
   text-decoration: underline;
 }
 
 .form-check .form-check-label {
-  color: #111;
+  color: #eee;
 }
 
 .custom-check {
@@ -191,4 +191,5 @@ iframe {
   border-radius: 0;
   border: none;
   padding: 0;
+  background: transparent;
 }
