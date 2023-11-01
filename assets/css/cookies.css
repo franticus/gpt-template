@@ -7,10 +7,10 @@
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
-  background-color: #111;
+  background-color: #333;
   border-radius: 80px 80px 40px 40px;
-  border-left: 10px solid #2d7aff;
-  border-right: 10px solid #2d7aff;
+  border-left: 10px solid #e84b1b;
+  border-right: 10px solid #e84b1b;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
   gap: 25px;
   z-index: 99999;
@@ -49,7 +49,7 @@
 }
 
 .button-9oV:hover {
-  background-color: #2d7aff;
+  background-color: #e84b1b;
   color: #fff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
