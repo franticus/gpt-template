@@ -1277,7 +1277,7 @@ section {
 .faq .faq-list li {
   padding: 20px;
   background: #fff;
-  border-radius: 4px;
+  border-radius: 40px;
   position: relative;
 }
 
@@ -1355,6 +1355,7 @@ section {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   border-right: 20px solid #ff5828;
+  border-radius: 10px;
   background: #fff;
 }
 
