@@ -29,15 +29,15 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #eee;
-        background-color: #222;
+        background-color: #eee;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #111;
+        background: #222;
         color: #eee;
-        border-right: 100px solid #ff8c00;
-        border-left: 10px solid #ff8c00;
-        border-radius: 20px;
+        border-bottom: 100px solid #2d7aff;
+        border-left: 10px solid #2d7aff;
+        border-radius: 2px;
       }
 
       body {
@@ -143,40 +143,38 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            Dear clients, partners, and valued members of the ImmoNex community,
-            we wish to extend our heartfelt appreciation for your enduring trust
-            in our dedicated team and our thoughtfully curated selection of real
-            estate experiences. Your choice to embark on a real estate journey
-            with ImmoNex fuels our commitment to enriching and customizing your
-            property adventures.
+            Dear patrons, tech enthusiasts, and esteemed members of the
+            GigaGoods community, we want to express our deep gratitude for your
+            unwavering support and trust in our devoted team and our
+            meticulously curated array of cutting-edge tech offerings. Your
+            decision to embark on a tech exploration journey with GigaGoods
+            ignites our dedication to enhancing and tailoring your tech
+            adventures.
           </p>
           <p>
-            Our commitment is to continuously offer a wide array of properties,
-            innovative real estate solutions, and personalized services that
-            align with your unique preferences and dreams. Our goals are aligned
-            with your passion for real estate, ensuring top-quality and
-            meaningful interactions with our property offerings. The
-            satisfaction you gain and the success you achieve in your real
-            estate endeavors drive our commitment to excellence.
+            Our commitment remains steadfast in presenting a diverse spectrum of
+            tech products, pioneering solutions, and personalized services that
+            resonate with your distinctive preferences and aspirations. Our
+            mission harmonizes with your love for technology, ensuring superior
+            quality and meaningful engagements with our tech selections. The
+            satisfaction you derive and the milestones you achieve in your tech
+            pursuits propel our pursuit of excellence.
           </p>
           <p>
-            We highly value your feedback, endorsements, or any suggestions as
-            invaluable guidance for improving our services and expanding the
-            horizons of the real estate industry. If you have any questions,
-            feedback, or thoughts to share, please do not hesitate to reach out.
-            Our friendly and proficient team is always ready to provide
-            exceptional solutions for your real estate needs and those of our
-            fellow clients and partners.
+            Your feedback, endorsements, or suggestions are invaluable for
+            refining our services and broadening the horizons of the tech
+            industry. Should you have any inquiries, feedback, or insights to
+            share, please feel free to connect with us. Our approachable and
+            skilled team is always prepared to offer outstanding solutions for
+            your tech requisites and those of our fellow patrons and partners.
           </p>
           <p>
-            We genuinely appreciate your unwavering trust in ImmoNex and your
-            choice to be part of our real estate community.
+            We genuinely value your unyielding confidence in GigaGoods and your
+            decision to be a part of our tech community.
           </p>
+          <p class="cBlock-fgZSxP4y">Warm regards and sincere appreciation,</p>
           <p class="cBlock-fgZSxP4y">
-            With warm regards and heartfelt gratitude,
-          </p>
-          <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The ImmoNex Team</span>
+            <span class="domain-fgZSxP4y">The GigaGoods Team</span>
           </p>
         </div>
       </div>
@@ -243,6 +241,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
