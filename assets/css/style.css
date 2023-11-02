@@ -560,8 +560,8 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 60px 0;
-  background: rgba(0, 0, 0, 0.1);
+  padding: 40px 0 10px 0;
+  background: #1f1d3a;
   min-height: 40px;
   margin-top: 80px;
 }
@@ -569,7 +569,7 @@ section {
 .breadcrumbs h2 {
   font-size: 26px;
   font-weight: 300;
-  color: #fff;
+  color: #007a6b;
 }
 
 .breadcrumbs ol {
@@ -578,11 +578,11 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #fff;
+  color: #007a6b;
 }
 
 .breadcrumbs ol a {
-  color: #fff;
+  color: #007a6b;
 }
 
 .breadcrumbs ol li+li {
@@ -592,7 +592,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #fff;
+  color: #007a6b;
   content: "/";
 }
 
