@@ -1150,9 +1150,10 @@ section {
 
 .faq .faq-list li {
   padding: 40px;
-  background: rgba(0, 0, 0, 0.1);
-  border-radius: 40px;
-  border: 2px solid #e2810a;
+  background: #fff;
+  border-radius: 4px;
+  border-left: 2px solid #e2810a;
+  border-right: 2px solid #e2810a;
   position: relative;
 }
 
@@ -1194,7 +1195,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #eee;
+  color: #111;
   transition: 0.3s;
 }
 
