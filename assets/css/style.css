@@ -987,17 +987,22 @@ section {
 .features .icon-box {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 40px 20px;
   box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.4);
+  background: #fff;
   transition: ease-in-out 0.3s;
   border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
   border-radius: 10px;
+  text-align: center;
   color: #eee;
 }
 
 .features .icon-box:hover {
   border-top: 4px solid #e2810a;
-  border-radius: 20px;
+  border-bottom: 4px solid #e2810a;
+  border-radius: 2px;
 }
 
 .features .icon-box i {
@@ -1015,7 +1020,7 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #eee;
+  color: #111;
   transition: ease-in-out 0.3s;
 }
 
@@ -1029,9 +1034,9 @@ section {
 .pricing .box {
   padding: 20px;
   background: #eee;
-  border-radius: 100px;
+  border-radius: 1px;
   text-align: center;
-  box-shadow: 0px 0px 4px rgba(224, 123, 14, 0.12);
+  box-shadow: 0px 0px 40px rgba(255, 132, 0, 0.4);
   position: relative;
   overflow: hidden;
 }
