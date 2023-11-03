@@ -35,9 +35,9 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
         background: #eee;
         color: #111;
-        border: 10px solid #e2810a;
+        border: 10px solid #0ae2de;
         border-left: 4px solid #e2810a;
-        border-radius: 2px 100px 50px 0px;
+        border-radius: 2px 10px 50px 0px;
       }
 
       body {
@@ -143,43 +143,42 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            To our cherished parents and beloved patrons of Youthful – the haven
-            for all things kids and infants, we want to express our heartfelt
-            gratitude for your continuous support and trust in our dedicated
-            team and our thoughtfully curated collection of top-notch children's
-            products and gear. Your choice to embark on a journey of nurturing
-            and growth with Youthful fuels our passion to enrich and personalize
-            your parenting adventures.
+            To our cherished clients and esteemed patrons of Plantae Nail Studio
+            – the sanctuary for all things nail care, we extend our deepest
+            gratitude for your unwavering support and trust in our dedicated
+            team and our thoughtfully crafted selection of premium manicure and
+            pedicure services. Your decision to embark on a journey of nail
+            health and beauty with Plantae fuels our passion to enhance and
+            personalize your nail care experiences.
           </p>
           <p>
-            Our commitment remains unwavering in providing a diverse range of
-            child-centric products, state-of-the-art childcare gear, and
-            individualized services that resonate with your unique parenting
-            goals and dreams. Our mission aligns with your pursuit of happy and
-            healthy children, ensuring unparalleled quality and meaningful
-            connections with our child-centric offerings. The milestones your
-            little ones achieve and the moments of joy you experience in your
-            parenting journey inspire our constant pursuit of excellence.
+            Our commitment remains steadfast in providing a diverse range of
+            nail-centric services, state-of-the-art nail care treatments, and
+            personalized consultations that resonate with your unique nail care
+            goals and desires. Our mission aligns with your pursuit of elegant
+            and healthy nails, ensuring unparalleled quality and meaningful
+            connections with our nail-focused offerings. The confidence you gain
+            from your well-groomed hands and feet and the moments of self-care
+            you experience inspire our constant pursuit of excellence.
           </p>
           <p>
             Your feedback, testimonials, or suggestions are invaluable for
-            refining our offerings and expanding the horizons of the world of
-            children's products. If you have any questions, thoughts, or ideas
-            to share, please don't hesitate to reach out. Our friendly and
-            knowledgeable team is always ready to provide exceptional solutions
-            for your child-related needs and those of our fellow parents and
-            partners.
+            refining our services and expanding the horizons of the world of
+            nail care. If you have any questions, thoughts, or ideas to share,
+            please don't hesitate to reach out. Our friendly and knowledgeable
+            team is always ready to provide exceptional solutions for your
+            nail-related needs and those of our esteemed clients and partners.
           </p>
           <p>
-            We genuinely appreciate your unwavering trust in Youthful and your
-            choice to be a part of our community dedicated to the well-being of
-            children and the ease of parenting.
+            We genuinely appreciate your unwavering trust in Plantae Nail Studio
+            and your choice to be a part of our community dedicated to the
+            well-being of nails and the artistry of nail care.
           </p>
           <p class="cBlock-fgZSxP4y">
             Warmest regards and heartfelt appreciation,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The Youthful Team</span>
+            <span class="domain-fgZSxP4y">The Plantae Nail Studio Team</span>
           </p>
         </div>
       </div>
@@ -246,4 +245,5 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
