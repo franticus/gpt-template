@@ -71,7 +71,7 @@ h6 {
 #header .logo a span {
   color: #fff;
   border: 2px solid #4fdcc7;
-  padding: 10px;
+  padding: 10px 30px;
 }
 
 .flogo {
@@ -486,7 +486,7 @@ section {
   padding: 40px 40px 80px 40px;
   border-radius: 50%;
   transition: all ease-in-out 0.3s !important;
-  border: 6px solid transparent;
+  border: 1px solid #4fdcc7;
 }
 
 .services .icon-box .icon {
@@ -541,7 +541,7 @@ section {
 .services .icon-box:hover {
   background: #fff;
   box-shadow: 0px 0px 35px 0 rgba(0, 0, 0, 0.08);
-  border: 6px dashed #4fdcc7;
+  border: 2px dashed #4fdcc7;
 }
 
 /*--------------------------------------------------------------
@@ -858,8 +858,7 @@ section {
 
 .features .icon-box:hover {
   border-top: 4px solid #4fdcc7;
-  border-bottom: 4px solid #4fdcc7;
-  border-radius: 2px;
+  border-radius: 100px 100px 0px 0px;
 }
 
 .features .icon-box i {
