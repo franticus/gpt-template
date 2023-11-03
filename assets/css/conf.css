@@ -37,15 +37,15 @@ iframe {
   padding: 40px 20px;
   backdrop-filter: blur(40px);
   // background: linear-gradient(rgba(9, 51, 61, 0.8), rgba(0, 0, 0, 1));
-  border-radius: 0px 100px 0px 100px;
+  border-radius: 0px 0px 0px 0px;
   text-align: center;
 }
 
 .img-fluid {
-  border: 4px solid #fff;
+  // border: 4px solid #fff;
   padding: 1px;
   background-color: #00c9bc;
-  border-radius: 100px;
+  // border-radius: 100px;
 }
 
 .info,
@@ -192,4 +192,20 @@ iframe {
   border: none;
   padding: 0;
   background: transparent;
+}
+
+.useful {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding: 10px 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  white-space: nowrap;
 }
