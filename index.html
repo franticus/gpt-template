@@ -2,20 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Plantae - Elevate Your Glamour</title>
+    <title>Sonata Lux Music Store - Home</title>
     <meta
+      content="Welcome to Sonata Lux, your one-stop destination for premium musical instruments and equipment."
       name="description"
-      content="Plantae presents an oasis of exquisite hand and foot care services. Our skilled artisans are dedicated to crafting a rejuvenating experience with the finest treatments for your nails and toes."
     />
     <meta
+      content="music store, musical instruments, equipment, Sonata Lux"
       name="keywords"
-      content="Plantae, nail care, foot treatment, hand and foot services, glamour"
     />
 
-    <link href="favicon.ico" rel="icon" />
+    <link href="./favicon.ico" rel="icon" />
 
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
     <link
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,7 +25,6 @@
       href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link
       href="assets/vendor/glightbox/css/glightbox.min.css"
@@ -38,449 +38,556 @@
   </head>
 
   <body>
-    <header id="header" class="fixed-top">
-      <div class="container d-flex align-items-center">
-        <h1 class="logo me-auto">
-          <a href="index.html"><span class="flogo">Plantae</span></a>
-        </h1>
-        <nav id="navbar" class="navbar order-last order-lg-0">
+    <!-- ======= Top Bar ======= -->
+    <section id="topbar" class="d-flex align-items-center">
+      <div
+        class="container d-flex justify-content-center justify-content-md-between"
+      >
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"
+            ><a href="mailto:contact@example.com">contact@example.com</a></i
+          >
+          <i class="bi bi-phone d-flex align-items-center ms-4"
+            ><span>+1 5589 55488 55</span></i
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <h1><a href="index.html">Eterna</a></h1>
+        </div>
+
+        <nav id="navbar" class="navbar">
           <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">Our Craftsmen</a></li>
-            <li><a href="deals.html">Services</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="#">Drop Down 1</a></li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Deep Drop Down</span>
+                    <i class="bi bi-chevron-right"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Drop Down 2</a></li>
+                <li><a href="#">Drop Down 3</a></li>
+                <li><a href="#">Drop Down 4</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
+        <!-- .navbar -->
       </div>
     </header>
+    <!-- End Header -->
 
-    <section id="hero"></section>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div class="hero-container">
+        <div
+          id="heroCarousel"
+          data-bs-interval="5000"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div
+              class="carousel-item active"
+              style="background-image: url(assets/img/slide/slide-1.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Welcome to <span>Eterna</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                    ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                    dolorem mollitia ut. Similique ea voluptatem. Esse
+                    doloremque accusamus repellendus deleniti vel. Minus et
+                    tempore modi architecto.
+                  </p>
+                  <a
+                    href=""
+                    class="btn-get-started animate__animated animate__fadeInUp"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/img/slide/slide-2.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated fanimate__adeInDown">
+                    Lorem <span>Ipsum Dolor</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                    ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                    dolorem mollitia ut. Similique ea voluptatem. Esse
+                    doloremque accusamus repellendus deleniti vel. Minus et
+                    tempore modi architecto.
+                  </p>
+                  <a
+                    href=""
+                    class="btn-get-started animate__animated animate__fadeInUp"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/img/slide/slide-3.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Sequi ea <span>Dime Lara</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                    ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                    dolorem mollitia ut. Similique ea voluptatem. Esse
+                    doloremque accusamus repellendus deleniti vel. Minus et
+                    tempore modi architecto.
+                  </p>
+                  <a
+                    href=""
+                    class="btn-get-started animate__animated animate__fadeInUp"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bi bi-chevron-left"
+              aria-hidden="true"
+            ></span>
+          </a>
+
+          <a
+            class="carousel-control-next"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bi bi-chevron-right"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
 
     <main id="main">
-      <section id="about-us-kjsdfb" class="about-us-kjsdfb">
-        <div class="container" data-aos="fade-up">
-          <div class="row content">
-            <div class="col-lg-6" data-aos="fade-right">
-              <h2>Welcome to Plantae Nail & Spa</h2>
-              <h3>Indulge in the Art of Nail and Foot Care.</h3>
+      <!-- ======= Featured Section ======= -->
+      <section id="featured" class="featured">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon-box">
+                <i class="bi bi-card-checklist"></i>
+                <h3><a href="">Lorem Ipsum</a></h3>
+                <p>
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
+                </p>
+              </div>
             </div>
-            <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-              <p>
-                Plantae Nail & Spa is your premier destination for a wide range
-                of nail and foot care services. Our skilled artisans are
-                dedicated to providing a rejuvenating experience with the finest
-                treatments for your nails and toes.
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="icon-box">
+                <i class="bi bi-bar-chart"></i>
+                <h3><a href="">Dolor Sitema</a></h3>
+                <p>
+                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat tarad limino ata
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="icon-box">
+                <i class="bi bi-binoculars"></i>
+                <h3><a href="">Sed ut perspiciatis</a></h3>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Featured Section -->
+
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="assets/img/about.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content">
+              <h3>
+                Voluptatem dignissimos provident quasi corporis voluptates sit
+                assumenda.
+              </h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <ul>
                 <li>
-                  <i class="ri-check-double-line"></i> Explore our diverse range
-                  of nail and foot treatments.
+                  <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat.
                 </li>
                 <li>
-                  <i class="ri-check-double-line"></i> We're committed to
-                  delivering unique and high-quality nail and foot care
-                  solutions.
+                  <i class="bi bi-check-circle"></i> Duis aute irure dolor in
+                  reprehenderit in voluptate velit.
                 </li>
                 <li>
-                  <i class="ri-check-double-line"></i> Our team is passionate
-                  about crafting the perfect experience for your hands and feet.
+                  <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate trideta storacalaperda mastiro
+                  dolore eu fugiat nulla pariatur.
                 </li>
               </ul>
-              <p class="fst-italic">
-                At Plantae Nail & Spa, we believe in the art of nail and foot
-                care. Experience our range of services and elevate your glamour.
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum
               </p>
             </div>
           </div>
         </div>
       </section>
+      <!-- End About Section -->
 
-      <section id="services" class="services section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title-sdjfbskd">
-            <h2>Our Service Categories</h2>
-          </div>
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
           <div class="row">
-            <div
-              class="col-lg-4 col-md-6 icon-box-kjsdfbk"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="icon"><i class="bi bi-star"></i></div>
-              <h4 class="title">Nail Art & Design</h4>
-              <p class="description">
-                Explore our diverse range of nail art and design options,
-                tailored for style and elegance.
-              </p>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <h4><a href="">Lorem Ipsum</a></h4>
+                <p>
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi
+                </p>
+              </div>
             </div>
+
             <div
-              class="col-lg-4 col-md-6 icon-box-kjsdfbk"
-              data-aos="fade-up"
-              data-aos-delay="200"
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
             >
-              <div class="icon"><i class="bi bi-gear"></i></div>
-              <h4 class="title">Foot Spa & Relaxation</h4>
-              <p class="description">
-                Discover foot spa and relaxation treatments that rejuvenate your
-                feet and soothe your senses.
-              </p>
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4><a href="">Sed ut perspiciatis</a></h4>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore
+                </p>
+              </div>
             </div>
+
             <div
-              class="col-lg-4 col-md-6 icon-box-kjsdfbk"
-              data-aos="fade-up"
-              data-aos-delay="300"
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
             >
-              <div class="icon"><i class="bi bi-award"></i></div>
-              <h4 class="title">Manicure & Pedicure Packages</h4>
-              <p class="description">
-                Find exclusive packages for manicures and pedicures, perfect for
-                pampering and self-care.
-              </p>
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4><a href="">Magni Dolores</a></h4>
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4><a href="">Nemo Enim</a></h4>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4><a href="">Dele cardo</a></h4>
+                <p>
+                  Quis consequatur saepe eligendi voluptatem consequatur dolor
+                  consequuntur
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-arch"></i></div>
+                <h4><a href="">Divera don</a></h4>
+                <p>
+                  Modi nostrum vel laborum. Porro fugit error sit minus sapiente
+                  sit aspernatur
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- End Services Section -->
 
-      <section id="blog" class="blog">
-        <div class="container" data-aos="fade-up">
-          <div class="entries">
-            <article class="entry">
-              <div class="entry-img">
-                <img
-                  src="assets/img/blog/blog-1.jpg"
-                  alt=""
-                  class="img-fluid"
-                />
-              </div>
-
-              <h2 class="entry-title">
-                <a href="contact.html"
-                  >Elevate Your Glamour with Plantae Nail & Spa</a
-                >
-              </h2>
-
-              <div class="entry-meta">
-                <ul>
-                  <li class="d-flex align-items-center">
-                    <i class="bi bi-person"></i>
-                    <a href="contact.html">Alice Johnson</a>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <i class="bi bi-clock"></i>
-                    <a href="contact.html"
-                      ><time datetime="2023-11-02">Nov 02, 2023</time></a
-                    >
-                  </li>
-                </ul>
-              </div>
-
-              <div class="entry-content-kshdfb">
-                <p>
-                  Immerse yourself in the world of nail and foot care at Plantae
-                  Nail & Spa. Explore our wide range of high-quality services
-                  designed to enhance your glamour. Discover the art of nail and
-                  foot care at "Plantae" and elevate your beauty.
-                </p>
-                <div class="read-more">
-                  <a href="contact.html">Explore Our Services</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="entry">
-              <div class="entry-img">
-                <img
-                  src="assets/img/blog/blog-2.jpg"
-                  alt=""
-                  class="img-fluid"
-                />
-              </div>
-
-              <h2 class="entry-title">
-                <a href="contact.html">The Beauty of Well-Groomed Nails</a>
-              </h2>
-
-              <div class="entry-meta">
-                <ul>
-                  <li class="d-flex align-items-center">
-                    <i class="bi bi-person"></i>
-                    <a href="contact.html">David Anderson</a>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <i class="bi bi-clock"></i>
-                    <a href="contact.html"
-                      ><time datetime="2023-11-02">Nov 02, 2023</time></a
-                    >
-                  </li>
-                </ul>
-              </div>
-
-              <div class="entry-content-kshdfb">
-                <p>
-                  Experience the beauty of well-groomed nails and pampered feet.
-                  Our commitment to delivering top-notch nail and foot care
-                  makes you feel refreshed and rejuvenated. Discover the joy of
-                  self-care and beauty at "Plantae."
-                </p>
-                <div class="read-more">
-                  <a href="contact.html">Discover Beauty and Care</a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="features-skdfjb" class="features-skdfjb section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title-sdjfbskd">
-            <h2>Our Exclusive Manicure and Pedicure Services</h2>
+      <!-- ======= Clients Section ======= -->
+      <section id="clients" class="clients">
+        <div class="container">
+          <div class="section-title">
+            <h2>Clients</h2>
             <p>
-              Explore what makes Plantae Nail & Spa exceptional with its unique
-              nail and foot care services.
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
           </div>
 
-          <div class="row">
-            <div class="col-lg-3 col-md-4">
-              <div class="icon-box-kjsdfbk">
-                <h3><a href="contact.html">Artistic Nail Designs</a></h3>
+          <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-1.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-2.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-3.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-4.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-5.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-6.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-7.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-8.png"
+                  class="img-fluid"
+                  alt=""
+                />
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-              <div class="icon-box-kjsdfbk">
-                <h3><a href="contact.html">Luxurious Foot Spa</a></h3>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-              <div class="icon-box-kjsdfbk">
-                <h3><a href="contact.html">Relaxing Hand Treatments</a></h3>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-              <div class="icon-box-kjsdfbk">
-                <h3><a href="contact.html">Skilled Nail Artisans</a></h3>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4">
-              <div class="icon-box-kjsdfbk">
-                <h3><a href="contact.html">Pampering Packages</a></h3>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4">
-              <div class="icon-box-kjsdfbk">
-                <h3><a href="contact.html">Aesthetic Nail Care</a></h3>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4">
-              <div class="icon-box-kjsdfbk">
-                <h3><a href="contact.html">Hygienic Practices</a></h3>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mt-4">
-              <div class="icon-box-kjsdfbk">
-                <h3><a href="contact.html">Gorgeous Nail Enhancements</a></h3>
-              </div>
-            </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
+      <!-- End Clients Section -->
     </main>
+    <!-- End #main -->
 
+    <!-- ======= Footer ======= -->
     <footer id="footer">
-      <div class="footer-top-sdkfjb">
+      <div class="footer-newsletter">
         <div class="container">
           <div class="row">
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>Plantae</h3>
+            <div class="col-lg-6">
+              <h4>Our Newsletter</h4>
               <p>
-                <strong>Phone:</strong>&nbsp;
-                <a href="tel:+91-63525-74735" target="_blank">+91-63525-74735</a
-                ><br />
-                <strong>Email:</strong>&nbsp;
-                <span id="email_list">
-                  <a href="mailto:info@example.com" target="_blank"
-                    >info@example.com</a
-                  ></span
-                ><br />
+                Tamen quem nulla quae legam multos aute sint culpa legam noster
+                magna
               </p>
             </div>
-
-            <div class="col-lg-2 col-md-6 footer-links-sdkfjhb">
-              <h4>Links</h4>
-              <ul class="useful">
-                <li>
-                  <i class="bx bx-award"></i>
-                  <a href="cookies.html" target="_blank">Cookies</a>
-                </li>
-                <li>
-                  <i class="bx bx-award"></i>
-                  <a href="disclaimer.html" target="_blank">Disclaimer</a>
-                </li>
-                <li>
-                  <i class="bx bx-award"></i>
-                  <a href="privacy.html" target="_blank">Privacy</a>
-                </li>
-                <li>
-                  <i class="bx bx-award"></i>
-                  <a href="terms.html" target="_blank">Terms of use</a>
-                </li>
-              </ul>
+            <div class="col-lg-6">
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="container d-md-flex py-4">
-        <div class="me-md-auto text-center text-md-start">
-          <div class="copyright">
-            &copy; Copyright <strong><span>Plantae</span></strong
-            >. All Rights Reserved
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Web Design</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Web Development</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Product Management</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Marketing</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Graphic Design</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                A108 Adam Street <br />
+                New York, NY 535022<br />
+                United States <br /><br />
+                <strong>Phone:</strong> +1 5589 55488 55<br />
+                <strong>Email:</strong> info@example.com<br />
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-info">
+              <h3>About Eterna</h3>
+              <p>
+                Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
+                nada terra videa magna derita valies darta donna mare fermentum
+                iaculis eu non diam phasellus.
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Eterna</span></strong
+          >. All Rights Reserved
         </div>
       </div>
     </footer>
+    <!-- End Footer -->
 
-    <div class="floating-windows-9oV">
-      <div class="floating-windows-box-9oV">
-        <div class="cookie-text-9oV">
-          This site uses cookies to improve your user experience. You may choose
-          not to use them, but this may limit some functionality of the site.
-          You can read more about cookies in our
-          <a href="privacy/cookies.html" target="_blank"> cookie notice</a>.
-        </div>
-        <div class="buttons-9oV">
-          <button id="allow-all-cookie-9oV" class="button-9oV">
-            Accept all cookies
-          </button>
-          <button id="reject-all-9oV" class="button-9oV">Reject All</button>
-          <button id="cookie-settings-text-9oV" class="button-9oV">
-            Cookie settings
-          </button>
-        </div>
-      </div>
-    </div>
-    <div id="modal-9oV" class="modal-9oV">
-      <div class="modal-content-9oV">
-        <span id="modal-close-9oV" class="modal-close-9oV">&times;</span>
-        <h2>Cookie settings</h2>
-        <p>
-          Cookies are small pieces of data sent from a website and stored on the
-          user's computer by the web browser while it is running. The browser
-          stores each message in a small file called a cookie. When you request
-          another page from the server, your browser sends the cookie back to
-          the server. Cookies have been developed as a reliable mechanism that
-          allows websites to remember information or record user activity when
-          browsing pages.
-        </p>
-
-        <div class="accordion-9oV">
-          <div class="accordion-header-9oV">
-            <input
-              type="checkbox"
-              class="switch-9oV"
-              checked
-              disabled
-              name="field-39521"
-            /><span>&nbsp; Necessary</span>
-            <span class="accordion-icon-9oV">&or;</span>
-          </div>
-          <div class="accordion-body-9oV">
-            <p>
-              Strictly necessary cookies - usually these cookies are necessary
-              for the operation of the site. They can help you show the user the
-              information they need, customize their experience, and allow you
-              to implement and maintain security features-skdfjb. As a rule, without
-              these cookies, the operation of the site is not possible or its
-              functioning may be severely impaired.
-            </p>
-          </div>
-        </div>
-
-        <div class="accordion-9oV">
-          <div class="accordion-header-9oV">
-            <input
-              type="checkbox"
-              class="switch-9oV"
-              unchecked
-              name="field-27383"
-            /><span>&nbsp; Functional</span>
-            <span class="accordion-icon-9oV">&or;</span>
-          </div>
-          <div class="accordion-body-9oV">
-            <p>
-              Functional cookies - usually these cookies are used to improve the
-              functional characteristics of your site and make it easier for
-              users to use. These cookies remember the settings selected by
-              users (for example, language and time zone settings). With the
-              help of these files, users can avoid changing the settings each
-              time they visit the site.
-            </p>
-          </div>
-        </div>
-        <div class="accordion-9oV">
-          <div class="accordion-header-9oV">
-            <input
-              type="checkbox"
-              class="switch-9oV"
-              unchecked
-              name="field-76549"
-            /><span>&nbsp; Statistics</span>
-            <span class="accordion-icon-9oV">&or;</span>
-          </div>
-          <div class="accordion-body-9oV">
-            <p>
-              Performance cookies - usually these cookies show whether the user
-              has visited your site before. Analytical cookies allow you to
-              recognize and count the number of users of your site and see how
-              these users move around your site.
-            </p>
-          </div>
-        </div>
-
-        <div class="accordion-9oV">
-          <div class="accordion-header-9oV">
-            <input
-              type="checkbox"
-              class="switch-9oV"
-              unchecked
-              name="field-11357"
-            /><span>&nbsp; Marketing</span>
-            <span class="accordion-icon-9oV">&or;</span>
-          </div>
-          <div class="accordion-body-9oV">
-            <p>
-              Marketing, targeting, and advertising cookies &ndash; Usually,
-              these cookies record visitors' visits to your site, the pages they
-              visited, and the links they clicked on. This information is used
-              to make the advertisements displayed on it more relevant to the
-              interests of the user. Advertising cookies allow you to know if
-              the user has already seen a specific advertisement or an
-              advertisement of a certain type.
-            </p>
-          </div>
-        </div>
-        <div class="button-box-9oV">
-          <button id="save-current-settings-9oV" class="button-9oV">
-            Save current settings
-          </button>
-          <button id="accept-all-cookies-9oV" class="button-9oV">
-            Accept all cookies and close
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <script src="assets/vendor/aos/aos.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
+    <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/jquery.cookie.file.js"></script>
-    <script src="assets/js/jquery.file.min.js"></script>
-    <script src="assets/js/mscript.js"></script>
   </body>
 </html>
