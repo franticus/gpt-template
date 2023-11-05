@@ -6,11 +6,11 @@
   max-width: 1175px;
   left: 50%;
   transform: translateX(-50%);
-  color: #fff;
-  background-color: #103647;
+  color: #111;
+  background-color: #fff;
   border-radius: 80px 80px 40px 40px;
-  border-top: 10px solid #4fdcc7;
-  border-right: 10px solid #4fdcc7;
+  border-top: 10px solid #fff0e5;
+  border-right: 10px solid #fff0e5;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
   gap: 25px;
   z-index: 99999;
@@ -19,7 +19,7 @@
 }
 
 .floating-windows-9oV a {
-  color: #fff;
+  color: #be2525;
 }
 
 .floating-windows-box-9oV {
@@ -49,8 +49,8 @@
 }
 
 .button-9oV:hover {
-  background-color: #4fdcc7;
-  color: #fff;
+  background-color: #fff0e5;
+  color: #222;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
