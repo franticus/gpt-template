@@ -43,9 +43,13 @@ iframe {
 
 .img-fluid {
   // border: 4px solid #fff;
-  padding: 1px;
+  // padding: 1px;
   // background-color: #00c9bc;
-  border-radius: 20px;
+  border-radius: 0px;
+}
+
+.entry .img-fluid {
+  max-width: 500px;
 }
 
 .info,
