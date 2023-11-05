@@ -120,15 +120,9 @@ if (floatingBox) {
   }
 }
 
-var domainElement = document.getElementById('email_list') || '';
-var domainElement2 = document.getElementById('email_list2') || '';
+var domainElement = document.querySelectorAll('#email_list');
 var hostname = window.location.hostname;
 
-domainElement.innerHTML = `<a href="mailto:info@${hostname}" target="_blank">info@${hostname}</a>`;
-if (domainElement !== '') {
-  domainElement.innerHTML = `<a href="mailto:info@${hostname}" target="_blank">info@${hostname}</a>`;
-}
-
-if (domainElement2 !== '') {
-  domainElement2.innerHTML = `<a href="mailto:info@${hostname}" target="_blank">info@${hostname}</a>`;
-}
+domainElement.forEach((elem) => {
+  elem.innerHTML = `<a href="mailto:info@${hostname}" target="_blank">info@${hostname}</a>`;
+});
