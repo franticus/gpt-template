@@ -38,23 +38,29 @@
   </head>
 
   <body>
-    <!-- ======= Top Bar ======= -->
     <section id="topbar" class="d-flex align-items-center">
       <div
         class="container d-flex justify-content-center justify-content-md-between"
       >
         <div class="contact-info d-flex align-items-center">
           <i class="bi bi-envelope d-flex align-items-center"
-            ><a href="mailto:contact@example.com">contact@example.com</a></i
-          >
+            ><span id="email_list2">
+              <a href="mailto:info@example.com" target="_blank"
+                >info@example.com</a
+              ></span
+            ><br
+          /></i>
           <i class="bi bi-phone d-flex align-items-center ms-4"
-            ><span>+1 5589 55488 55</span></i
+            ><span
+              ><a href="tel:+91-34747-47872" target="_blank"
+                >+91-34747-47872</a
+              ></span
+            ></i
           >
         </div>
       </div>
     </section>
 
-    <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center">
       <div class="container d-flex justify-content-between align-items-center">
         <div class="logo">
@@ -70,40 +76,13 @@
             <li><a href="team.html">Team</a></li>
             <li><a href="pricing.html">Pricing</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li class="dropdown">
-              <a href="#"
-                ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>Deep Drop Down</span>
-                    <i class="bi bi-chevron-right"></i
-                  ></a>
-                  <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                    <li><a href="#">Deep Drop Down 2</a></li>
-                    <li><a href="#">Deep Drop Down 3</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Drop Down 2</a></li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-              </ul>
-            </li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
-        <!-- .navbar -->
       </div>
     </header>
-    <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
     <section id="hero">
       <div class="hero-container">
         <div
@@ -220,7 +199,6 @@
         </div>
       </div>
     </section>
-    <!-- End Hero -->
 
     <main id="main">
       <!-- ======= Featured Section ======= -->
@@ -463,78 +441,29 @@
       </section>
       <!-- End Clients Section -->
     </main>
-    <!-- End #main -->
 
-    <!-- ======= Footer ======= -->
     <footer id="footer">
-      <div class="footer-newsletter">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <h4>Our Newsletter</h4>
-              <p>
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
-              </p>
-            </div>
-            <div class="col-lg-6">
-              <form action="" method="post">
-                <input type="email" name="email" /><input
-                  type="submit"
-                  value="Subscribe"
-                />
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div class="footer-top">
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
-              <ul>
+              <ul class="usefull">
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
+                  <i class="bx bx-circle"></i>
+                  <a href="cookies.html" target="_blank">Cookies</a>
                 </li>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
+                  <i class="bx bx-circle"></i>
+                  <a href="disclaimer.html" target="_blank">Disclaimer</a>
                 </li>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
+                  <i class="bx bx-circle"></i>
+                  <a href="privacy.html" target="_blank">Privacy</a>
                 </li>
                 <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Privacy policy</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Web Design</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Web Development</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Product Management</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Marketing</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Graphic Design</a>
+                  <i class="bx bx-circle"></i>
+                  <a href="terms.html" target="_blank">Terms of use</a>
                 </li>
               </ul>
             </div>
@@ -542,30 +471,27 @@
             <div class="col-lg-3 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>
-                A108 Adam Street <br />
-                New York, NY 535022<br />
-                United States <br /><br />
-                <strong>Phone:</strong> +1 5589 55488 55<br />
-                <strong>Email:</strong> info@example.com<br />
+                1240 E SAN ANTONIO DR LONG BEACH CA 90807-1796 USA<br />
+                <strong>Phone:</strong>
+                <a href="tel:+91-34747-47872" target="_blank">+91-34747-47872</a
+                ><br />
+                <strong>Email:</strong>
+                <span id="email_list">
+                  <a href="mailto:info@example.com" target="_blank"
+                    >info@example.com</a
+                  ></span
+                ><br />
               </p>
             </div>
 
             <div class="col-lg-3 col-md-6 footer-info">
-              <h3>About Eterna</h3>
+              <h3>About Symphony Lux</h3>
               <p>
-                Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-                nada terra videa magna derita valies darta donna mare fermentum
-                iaculis eu non diam phasellus.
+                Symphony Lux Music Store is dedicated to providing musicians of
+                all levels with a wide range of high-quality musical instruments
+                and equipment. Our passion for music drives us to offer
+                exceptional products and services to our valued customers.
               </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"
-                  ><i class="bx bxl-instagram"></i
-                ></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
             </div>
           </div>
         </div>
@@ -573,21 +499,151 @@
 
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>Eterna</span></strong
+          &copy; Copyright <strong><span>Sonata Lux</span></strong
           >. All Rights Reserved
         </div>
       </div>
     </footer>
-    <!-- End Footer -->
 
-    <!-- Vendor JS Files -->
+    <div class="floating-windows-9oV">
+      <div class="floating-windows-box-9oV">
+        <div class="cookie-text-9oV">
+          This site uses cookies to improve your user experience. You may choose
+          not to use them, but this may limit some functionality of the site.
+          You can read more about cookies in our
+          <a href="privacy/cookies.html" target="_blank"> cookie notice</a>.
+        </div>
+        <div class="buttons-9oV">
+          <button id="allow-all-cookie-9oV" class="button-9oV">
+            Accept all cookies
+          </button>
+          <button id="reject-all-9oV" class="button-9oV">Reject All</button>
+          <button id="cookie-settings-text-9oV" class="button-9oV">
+            Cookie settings
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="modal-9oV" class="modal-9oV">
+      <div class="modal-content-9oV">
+        <span id="modal-close-9oV" class="modal-close-9oV">&times;</span>
+        <h2>Cookie settings</h2>
+        <p>
+          Cookies are small pieces of data sent from a website and stored on the
+          user's computer by the web browser while it is running. The browser
+          stores each message in a small file called a cookie. When you request
+          another page from the server, your browser sends the cookie back to
+          the server. Cookies have been developed as a reliable mechanism that
+          allows websites to remember information or record user activity when
+          browsing pages.
+        </p>
+
+        <div class="accordion-9oV">
+          <div class="accordion-header-9oV">
+            <input
+              type="checkbox"
+              class="switch-9oV"
+              checked
+              disabled
+              name="field-39521"
+            /><span>&nbsp; Necessary</span>
+            <span class="accordion-icon-9oV">&or;</span>
+          </div>
+          <div class="accordion-body-9oV">
+            <p>
+              Strictly necessary cookies - usually these cookies are necessary
+              for the operation of the site. They can help you show the user the
+              information they need, customize their experience, and allow you
+              to implement and maintain security features-skdfjb. As a rule, without
+              these cookies, the operation of the site is not possible or its
+              functioning may be severely impaired.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-9oV">
+          <div class="accordion-header-9oV">
+            <input
+              type="checkbox"
+              class="switch-9oV"
+              unchecked
+              name="field-27383"
+            /><span>&nbsp; Functional</span>
+            <span class="accordion-icon-9oV">&or;</span>
+          </div>
+          <div class="accordion-body-9oV">
+            <p>
+              Functional cookies - usually these cookies are used to improve the
+              functional characteristics of your site and make it easier for
+              users to use. These cookies remember the settings selected by
+              users (for example, language and time zone settings). With the
+              help of these files, users can avoid changing the settings each
+              time they visit the site.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-9oV">
+          <div class="accordion-header-9oV">
+            <input
+              type="checkbox"
+              class="switch-9oV"
+              unchecked
+              name="field-76549"
+            /><span>&nbsp; Statistics</span>
+            <span class="accordion-icon-9oV">&or;</span>
+          </div>
+          <div class="accordion-body-9oV">
+            <p>
+              Performance cookies - usually these cookies show whether the user
+              has visited your site before. Analytical cookies allow you to
+              recognize and count the number of users of your site and see how
+              these users move around your site.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-9oV">
+          <div class="accordion-header-9oV">
+            <input
+              type="checkbox"
+              class="switch-9oV"
+              unchecked
+              name="field-11357"
+            /><span>&nbsp; Marketing</span>
+            <span class="accordion-icon-9oV">&or;</span>
+          </div>
+          <div class="accordion-body-9oV">
+            <p>
+              Marketing, targeting, and advertising cookies &ndash; Usually,
+              these cookies record visitors' visits to your site, the pages they
+              visited, and the links they clicked on. This information is used
+              to make the advertisements displayed on it more relevant to the
+              interests of the user. Advertising cookies allow you to know if
+              the user has already seen a specific advertisement or an
+              advertisement of a certain type.
+            </p>
+          </div>
+        </div>
+        <div class="button-box-9oV">
+          <button id="save-current-settings-9oV" class="button-9oV">
+            Save current settings
+          </button>
+          <button id="accept-all-cookies-9oV" class="button-9oV">
+            Accept all cookies and close
+          </button>
+        </div>
+      </div>
+    </div>
+
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.file.min.js"></script>
+    <script src="assets/js/jquery.cookie.file.js"></script>
+    <script src="assets/js/mscript.js"></script>
   </body>
 </html>
