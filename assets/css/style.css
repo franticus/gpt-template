@@ -1130,7 +1130,6 @@ section {
 }
 
 .blog .entry .entry-img {
-  max-height: 440px;
   margin: -30px -30px 20px -30px;
   overflow: hidden;
 }
@@ -1246,14 +1245,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #160c2e;
+  background: #13120b;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top-ksdfb {
-  background: #0f1439;
+  background: #1e190a;
   border-top: 1px solid #474747;
   border-bottom: 1px solid #474747;
   padding: 60px 0 30px 0;
