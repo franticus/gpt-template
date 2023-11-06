@@ -28,15 +28,15 @@ if(mail($to, $subject, $message, $headers)) {
 
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
-        color: #222;
-        background-color: #b9b9ff;
+        color: #eee;
+        background-color: #322313;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #b9b9ff;
-        border: 10px solid #eee;
-        border-left: 4px solid #eee;
+        border: 10px solid #eca71d;
+        border-left: 4px solid #eca71d;
         border-radius: 20px 10px 50px 0px;
+        background: #392407;
       }
 
       body {
@@ -48,7 +48,6 @@ if(mail($to, $subject, $message, $headers)) {
         font-size: 16px;
       }
       .bodyClass2-fgZSxP4y {
-        background: #045757;
         color: #fff;
       }
       .bodyClass3-fgZSxP4y {
@@ -98,7 +97,6 @@ if(mail($to, $subject, $message, $headers)) {
         max-width: 1000px;
         margin: 0 auto;
         padding: 40px;
-        background: #7b7d008c;
         border-radius: 0px;
       }
       .mainBlock-fgZSxP4y .cBlock-fgZSxP4y {
@@ -142,33 +140,32 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            To all our valued customers and esteemed supporters of "Loculus" -
-            your ultimate destination for top-quality office furniture, we
-            extend our heartfelt gratitude for your unwavering trust in our
-            dedicated team and our carefully curated collection of premium
-            office solutions. Your decision to enhance your workspace with
-            Loculus fuels our passion to create the perfect office ambiance for
-            you.
+            To all our valued customers and esteemed supporters of "Wohntraum" -
+            your ultimate destination for top-quality furniture, we extend our
+            heartfelt gratitude for your unwavering trust in our dedicated team
+            and our carefully curated collection of premium home solutions. Your
+            decision to furnish your living space with Wohntraum fuels our
+            passion to create the perfect ambiance for you.
           </p>
           <p>
             Your feedback, testimonials, or suggestions are invaluable for us to
             continuously improve our services and broaden the horizons of the
-            office furniture world. If you have any questions, thoughts, or
-            ideas to share, please don't hesitate to reach out. Our friendly and
+            furniture world. If you have any questions, thoughts, or ideas to
+            share, please don't hesitate to reach out. Our friendly and
             knowledgeable team is always ready to provide exceptional solutions
-            for your office needs and those of our esteemed customers and
+            for your furniture needs and those of our esteemed customers and
             partners.
           </p>
           <p>
-            We genuinely appreciate your unwavering trust in Loculus and your
-            choice to be a part of our community devoted to the elegance and
-            functionality of office furniture.
+            We genuinely appreciate your unwavering trust in Wohntraum and your
+            choice to be a part of our community devoted to the beauty and
+            functionality of furniture.
           </p>
           <p class="cBlock-fgZSxP4y">
             Warmest regards and heartfelt appreciation,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The Loculus Team</span>
+            <span class="domain-fgZSxP4y">The Wohntraum Team</span>
           </p>
         </div>
       </div>
@@ -235,6 +232,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
