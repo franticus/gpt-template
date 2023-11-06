@@ -42,14 +42,14 @@ iframe {
 }
 
 .img-fluid {
-  // border: 4px solid #fff;
+  border: 4px solid #eca71d;
   // padding: 1px;
   // background-color: #00c9bc;
   border-radius: 0px;
 }
 
-.entry .img-fluid {
-  max-width: 500px;
+.clients .swiper-slide img {
+  border: none;
 }
 
 .info,
