@@ -117,7 +117,7 @@ iframe {
   border-radius: 50%;
 }
 
-.cta {
+.mcta {
   // background: url("../img/bg-1.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -130,7 +130,7 @@ iframe {
   animation: ctascroll 10s ease-in-out infinite;
 }
 
-.cta2 {
+.mcta2 {
   // background: url("../img/bg-2.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -143,7 +143,7 @@ iframe {
   animation: ctascroll 10s ease-in-out infinite;
 }
 
-.cta3 {
+.mcta3 {
   // background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/bg-3.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
