@@ -33,9 +33,9 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        border: 10px solid #3d4fa9;
-        border-left: 0px solid #3d4fa9;
-        border-radius: 20px 10px 50px 0px;
+        border: 4px solid #3ca61e;
+        border-left: 0px solid #3ca61e;
+        border-radius: 20px 100px 30px 0px;
         background: #fff;
       }
 
@@ -140,33 +140,31 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            To all our valued customers and esteemed supporters of "Leihauto" -
-            your premier choice for reliable and hassle-free car rentals, we
-            extend our heartfelt gratitude for your unwavering trust in our
-            dedicated team and our wide range of quality vehicle rental
-            services. Your decision to choose Leihauto for your mobility needs
-            inspires our commitment to providing the perfect travel solutions
-            for you.
+            To all our valued students and esteemed supporters of "WeltIdioma" -
+            your ultimate choice for comprehensive and user-friendly online
+            language learning, we extend our deepest gratitude for your
+            unwavering faith in our dedicated educators and our vast array of
+            high-quality language courses. Your decision to choose WeltIdioma
+            for your language learning journey stimulates our commitment to
+            providing the perfect educational solutions for you.
           </p>
           <p>
-            Your feedback, testimonials, or suggestions are invaluable for us to
-            continuously enhance our services and redefine the car rental
-            experience. If you have any questions, thoughts, or ideas to share,
-            please do not hesitate to reach out. Our friendly and knowledgeable
-            team is always ready to provide exceptional solutions for your
-            transportation needs and those of our esteemed customers and
-            partners.
+            Your feedback, testimonials, or suggestions are crucial for us to
+            continuously improve our pedagogy and reshape the experience of
+            learning languages online. If you have any enquiries, thoughts, or
+            proposals to share, please do not hesitate to contact us. Our
+            friendly and informed team is always ready to provide exceptional
+            solutions for your educational needs and those of our respected
+            learners and collaborators.
           </p>
           <p>
-            We sincerely appreciate your unwavering trust in Leihauto and your
-            choice to be a part of our community devoted to the convenience and
-            freedom of travel.
+            We sincerely appreciate your unwavering trust in WeltIdioma and your
+            choice to be a part of our community, devoted to the mastery and joy
+            of language learning.
           </p>
+          <p class="cBlock-fgZSxP4y">Warmest regards and sincerest thanks,</p>
           <p class="cBlock-fgZSxP4y">
-            Warmest regards and heartfelt appreciation,
-          </p>
-          <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The Leihauto Team</span>
+            <span class="domain-fgZSxP4y">The WeltIdioma Team</span>
           </p>
         </div>
       </div>
