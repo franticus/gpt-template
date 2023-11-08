@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-  color: #fd5c28;
+  color: #25b024;
   text-decoration: none;
 }
 
@@ -1254,7 +1254,7 @@ section {
 }
 
 .pricing .featured {
-  background: #fd5c28;
+  background: #25b024;
   box-shadow: none;
 }
 
@@ -1502,7 +1502,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #fd5c28;
+  background: #25b024;
 }
 
 @keyframes animate-loading {
@@ -2151,7 +2151,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #fd5c28;
+  background: #25b024;
 }
 
 #footer .credits {
@@ -2176,7 +2176,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #fd5c28;
+  background: #25b024;
   color: #fff;
   text-decoration: none;
 }
