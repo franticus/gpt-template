@@ -5,8 +5,8 @@ ul {
 }
 
 iframe {
-  margin-top: 40px;
-  border-radius: 20px;
+  // margin-top: 40px;
+  // border-radius: 20px;
 }
 
 #header .logo {
@@ -45,7 +45,7 @@ iframe {
   // border: 1px solid #eca71d;
   // padding: 1px;
   // background-color: #00c9bc;
-  border-radius: 100px 20px 40px 20px;
+  // border-radius: 100px 20px 40px 20px;
 }
 
 .clients .swiper-slide img {
@@ -93,7 +93,7 @@ iframe {
 }
 
 .form-check a {
-  color: #616eff;
+  color: #25b024;
   text-decoration: underline;
 }
 
