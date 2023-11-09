@@ -9,8 +9,8 @@
   color: #111;
   background-color: #fff;
   border-radius: 10px;
-  border-top: 20px solid #25b024;
-  border-right: 1px solid #25b024;
+  border-top: 20px solid #3ebad8;
+  border-right: 1px solid #3ebad8;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
   gap: 25px;
   z-index: 99999;
@@ -19,7 +19,7 @@
 }
 
 .floating-windows-9oV a {
-  color: #25b024;
+  color: #3ebad8;
 }
 
 .floating-windows-box-9oV {
