@@ -42,10 +42,10 @@ iframe {
 }
 
 .img-fluid {
-  border: 10px solid #3ebad8;
+  // border: 10px solid #3ebad8;
   // padding: 1px;
   // background-color: #00c9bc;
-  // border-radius: 100px 20px 40px 20px;
+  border-radius: 0px;
 }
 
 .clients .swiper-slide img {
@@ -118,7 +118,7 @@ iframe {
 }
 
 .mcta {
-  // background: url("../img/bg-1.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../img/bg-1.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100vw;
@@ -127,7 +127,7 @@ iframe {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  animation: ctascroll 10s ease-in-out infinite;
+  animation: ctascroll 30s ease-in-out infinite;
 }
 
 .mcta2 {
