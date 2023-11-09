@@ -98,20 +98,21 @@
     <h2>Contact Us</h2>
     <p>
       For further information about our Cookie Policy, feel free to contact us
-      at info@
-      <span id="domaintextname-PowerPlaceCookiePolicy">powerplace.com</span>.
+      at 
+      <span id="email_list">powerplace.com</span>.
     </p>
 
     <p>
       Proudly presented by
-      <span id="domaintextname-PowerPlaceCookiePolicy">powerplace.com</span>.
+      <span id="email_list">powerplace.com</span>.
     </p>
     <script>
-      var domainElement = document.getElementById(
-        'domaintextname-PowerPlaceCookiePolicy'
-      );
+      var domainElement = document.querySelectorAll('#email_list');
       var hostname = window.location.hostname;
-      domainElement.innerHTML = hostname;
+
+      domainElement.forEach((elem) => {
+        elem.innerHTML = `<a href="mailto:info@${hostname}" target="_blank">info@${hostname}</a>`;
+      });
     </script>
   </body>
 </html>
