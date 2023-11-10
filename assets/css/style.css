@@ -346,7 +346,7 @@ h6 {
 
 #hero .carousel-container {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-start;
   position: absolute;
   bottom: 60px;
@@ -916,6 +916,7 @@ section {
   border-bottom: 2px solid #c1a124;
   position: relative;
   overflow: hidden;
+  background: #551f1f;
 }
 
 .pricing h3 {
