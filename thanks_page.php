@@ -28,15 +28,16 @@ if(mail($to, $subject, $message, $headers)) {
 
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
-        color: #eee;
-        background: #222;
+        color: #222;
+        background: #eee;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        border: 4px solid #d8893e;
-        border-bottom: 40px solid #d8893e;
-        border-radius: 20px 10px 3px 0px;
-        background: #222;
+        border: 4px solid #259c3f;
+        border-bottom: 20px solid #259c3f;
+        border-right: 20px solid #259c3f;
+        border-radius: 20px 100px 3px 0px;
+        background: #fff;
       }
 
       body {
@@ -140,33 +141,31 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            To all our cherished customers and esteemed enthusiasts of
-            "PassoFermo" - your exceptional destination for personalized and
-            responsive online shoe shopping solutions, we express our deepest
-            appreciation for your unwavering support to our committed team and
-            our extensive collection of high-quality footwear. Your choice to
-            trust PassoFermo as your shoe shopping destination fuels our
-            determination to present the best footwear collections for you.
+            We, at "PassoFermo", wish to extend our heartfelt gratitude to each
+            one of our esteemed customers and passionate shoe lovers who have
+            made us their preferred destination for custom-made,
+            customer-centric online shoe shopping. The trust that you place in
+            us is precisely what fuels our resolve to continually bring the most
+            unique collections of high-quality footwear for you.
           </p>
           <p>
-            Your comments, insights, or novel suggestions are crucial for us to
-            continuously improve our collections and revolutionize the
-            experience of online shoe shopping. If you have any questions,
-            ideas, or proposals to share, please do not hesitate to get in touch
-            with us. Our skilled and affable team is always ready to provide
-            excellent advice for your footwear needs and those of our esteemed
-            customers and partners.
+            To ensure we retain our position as a leader in the industry and
+            maintain the highest standards in our offerings, your feedback,
+            original ideas, and innovative suggestions are invaluable. If you
+            have any thoughts or questions you would like to share with us, we
+            encourage you to reach out. Our expert and friendly team eagerly
+            awaits to assist you in your quest for the perfect footwear.
           </p>
           <p>
-            We sincerely value your steadfast faith in PassoFermo and your
-            decision to be a part of our community, committed to the art and
-            spirit of high-end footwear fashion.
+            We deeply appreciate your unfaltering trust in PassoFermo, and your
+            choice to join and contribute to our vibrant community focused on
+            artistry and contemporary trends in high-end footwear fashion.
           </p>
           <p class="cBlock-fgZSxP4y">
-            With deepest gratitude and warmest regards,
+            With sincere thankfulness and warm wishes,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The PassoFermo Team</span>
+            <span class="domain-fgZSxP4y">The PassoFermo Family</span>
           </p>
         </div>
       </div>
