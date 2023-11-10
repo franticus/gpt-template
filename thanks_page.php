@@ -29,14 +29,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #eee;
-        background: #3ebad8;
+        background: #222;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        border: 4px solid #222;
-        border-left: 100px solid #222;
-        border-radius: 20px 100px 30px 0px;
-        background: #3ebad8;
+        border: 4px solid #d8893e;
+        border-bottom: 40px solid #d8893e;
+        border-radius: 20px 10px 3px 0px;
+        background: #222;
       }
 
       body {
@@ -140,31 +140,33 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            To all our valued customers and esteemed patrons of "FreshFace" -
-            your ultimate destination for comprehensive and customer-friendly
-            online cosmetics shopping, we extend our deepest gratitude for your
-            unwavering loyalty to our dedicated team and our vast range of
-            high-quality cosmetic products. Your decision to choose FreshFace
-            for your skincare regime fuels our commitment to providing the
-            perfect beauty solutions for you.
+            To all our cherished customers and esteemed enthusiasts of
+            "PassoFermo" - your exceptional destination for personalized and
+            responsive online shoe shopping solutions, we express our deepest
+            appreciation for your unwavering support to our committed team and
+            our extensive collection of high-quality footwear. Your choice to
+            trust PassoFermo as your shoe shopping destination fuels our
+            determination to present the best footwear collections for you.
           </p>
           <p>
-            Your suggestions, reviews, or ideas are crucial for us to
-            continuously improve our products and reshape the experience of
-            purchasing cosmetics online. If you have any queries, thoughts, or
-            suggestions to share, please do not hesitate to reach out to us. Our
-            friendly and knowledgeable team is always ready to provide
-            exceptional solutions for your skincare needs and those of our
-            respected customers and partners.
+            Your comments, insights, or novel suggestions are crucial for us to
+            continuously improve our collections and revolutionize the
+            experience of online shoe shopping. If you have any questions,
+            ideas, or proposals to share, please do not hesitate to get in touch
+            with us. Our skilled and affable team is always ready to provide
+            excellent advice for your footwear needs and those of our esteemed
+            customers and partners.
           </p>
           <p>
-            We sincerely appreciate your unwavering faith in FreshFace and your
-            choice to be a part of our community, devoted to the art and essence
-            of skincare and beauty.
+            We sincerely value your steadfast faith in PassoFermo and your
+            decision to be a part of our community, committed to the art and
+            spirit of high-end footwear fashion.
           </p>
-          <p class="cBlock-fgZSxP4y">Warmest regards and sincerest thanks,</p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The FreshFace Team</span>
+            With deepest gratitude and warmest regards,
+          </p>
+          <p class="cBlock-fgZSxP4y">
+            <span class="domain-fgZSxP4y">The PassoFermo Team</span>
           </p>
         </div>
       </div>
