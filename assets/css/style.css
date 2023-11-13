@@ -55,6 +55,7 @@ h6 {
   line-height: 0;
   font-weight: 600;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 #header .logo h1 a,
@@ -258,7 +259,7 @@ h6 {
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 18px 38px;
