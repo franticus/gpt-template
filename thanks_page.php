@@ -29,14 +29,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #222;
-        background: #fffae0;
+        background: #999;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        border: 4px solid #e6c214;
-        border-bottom: 20px solid #e6c214;
-        border-right: 20px solid #e6c214;
-        border-radius: 20px 100px 3px 0px;
+        border: 4px solid #000;
+        border-top: 20px solid #000;
+        border-right: 0px solid #000;
+        border-radius: 20px 10px 30px 0px;
         background: #fff;
       }
 
@@ -141,33 +141,33 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            We, at "FocusDen", wish to express our profound gratitude to each
-            one of our valued clients and ardent photography enthusiasts who
-            have chosen us as their premier destination for customized,
-            client-oriented online photo studio rentals. The confidence that you
-            invest in us is exactly what motivates our determination to
-            continually provide the most exclusive selections of high-quality
-            photo studio setups for you.
+            We, at "Dettaglix", would like to express our immense gratitude to
+            each one of our esteemed clients and ardent interior design
+            connoisseurs who have selected us as their primary source for
+            bespoke, client-centric online interior design services. The faith
+            that you place in us forms the bedrock of our resolve to
+            persistently offer an unparalleled range of top-of-the-line interior
+            design concepts for you.
           </p>
           <p>
-            To make certain we hold our place as a forerunner in the industry
-            and uphold the loftiest standards in our services, your feedback,
-            original ideas, and pioneering suggestions are priceless. If you
-            harbour any thoughts or queries you'd like to discuss with us, we
-            are all ears. Our proficient and cordial team is keen to assist you
-            in your pursuit of the optimal photo studio setup.
+            To assure we retain our position as a market leader in the industry
+            and maintain the highest benchmarks in our services, your feedback,
+            original insights, and innovative proposals are invaluable. If you
+            hold any contemplations or queries you'd like to communicate with
+            us, we are all ears. Our adept and amiable team is eager to assist
+            you in your pursuit of the impeccable interior design solution.
           </p>
           <p>
-            We deeply value your unwavering trust in FocusDen and your decision
-            to become a part of and contribute to our dynamic community centered
-            around mastery and current trends in top-tier photography studio
-            solutions.
+            We deeply appreciate your unwavering trust in Dettaglix and your
+            decision to become a significant part and contribute to our
+            entrancing community focused on excellence and current trends in
+            superior interior design solutions.
           </p>
           <p class="cBlock-fgZSxP4y">
-            With sincere gratitude and best regards,
+            With heartfelt appreciation and best regards,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The FocusDen Family</span>
+            <span class="domain-fgZSxP4y">The Dettaglix Family</span>
           </p>
         </div>
       </div>
@@ -234,3 +234,4 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
