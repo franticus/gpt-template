@@ -837,7 +837,7 @@ section {
 }
 
 .hero-section.inner-page {
-  height: 34vh;
+  height: 44vh;
   min-height: 0;
 }
 
@@ -1036,4 +1036,26 @@ section {
   text-align: center;
   padding-top: 100px;
   height: 200px;
+}
+
+.list-unstyled2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.list-unstyled2 li {
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  border: 1px dashed #18ffb1;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.list-unstyled2 li a {
+  color: #eee;
+}
+
+.list-unstyled2 li a:hover {
+  color: #18ffb1;
 }
