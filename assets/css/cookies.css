@@ -9,8 +9,8 @@
   color: #111;
   background-color: #fff;
   border-radius: 40px;
-  border-bottom: 10px solid #a98d2b;
-  border-right: 20px solid #a98d2b;
+  border-bottom: 10px solid #18ffb1;
+  border-right: 20px solid #18ffb1;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
   gap: 25px;
   z-index: 99999;
@@ -19,7 +19,7 @@
 }
 
 .floating-windows-9oV a {
-  color: #a98d2b;
+  color: #18ffb1;
   text-decoration: underline;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .button-9oV:hover {
-  background: #a98d2b;
+  background: #18ffb1;
   color: #eee;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -71,7 +71,7 @@
 }
 
 .modal-content-9oV {
-  color: #a98d2b;
+  color: #18ffb1;
   background-color: #fff;
   padding: 20px;
   max-width: 700px;
