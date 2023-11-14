@@ -29,7 +29,7 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #222;
-        background: #31bb9d;
+        background: #a98d2b;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
@@ -37,7 +37,7 @@ if(mail($to, $subject, $message, $headers)) {
         border-top: 20px solid #000;
         border-right: 0px solid #000;
         border-radius: 20px 10px 30px 0px;
-        background: #fff;
+        background: #eee;
       }
 
       body {
@@ -141,31 +141,31 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            We, at "SunnyFields", want to extend our deepest thanks to all our
-            valued customers and passionate fruit enthusiasts who have chosen us
-            as their primary provider for fresh, farm-to-table fruits. Your
-            trust fuels our commitment to continuously provide premium quality
-            fruit, harvested at the zenith of ripeness, for you to enjoy.
+            Мы, в "FestiveFun", хотим выразить свою глубокую благодарность всем
+            нашим ценным клиентам и энтузиастам праздников, которые выбрали нас
+            как своего основного организатора праздничных событий. Ваше доверие
+            подстегивает нашу приверженность к непрерывному предоставлению
+            идеально спланированных, креативных и незабываемых праздников.
           </p>
           <p>
-            To ensure we remain the go-to choice for farm fresh produce in the
-            market and uphold our high standards, your feedback, insights and
-            suggestions are critical. If you have any thoughts or questions
-            you'd like to discuss with us, we're more than happy to listen. Our
-            skilled and friendly team is always at hand to assist you in your
-            quest for the perfect fresh fruit solution.
+            Чтобы сохранить наше лидирующее положение на рынке праздничных услуг
+            и поддерживать наши высокие стандарты, важны ваши отзывы, замечания
+            и предложения. Если у вас есть какие-то мысли или вопросы, которыми
+            вы хотели бы поделиться с нами, мы всегда готовы прислушаться. Наша
+            опытная и дружелюбная команда всегда готова помочь вам с
+            организацией незабываемого праздника.
           </p>
           <p>
-            We greatly value your steadfast trust in SunnyFields and your choice
-            to become a substantial part of our vibrant community passionately
-            centered around excellence and current best practices in sustainable
-            farming and fresh produce supply.
+            Мы очень ценим вашу неизменную веру в FestiveFun и ваш выбор стать
+            значимой частью нашего активного сообщества, страстно увлеченного
+            достижением совершенства в организации праздничных событий и
+            мероприятий.
           </p>
           <p class="cBlock-fgZSxP4y">
-            With genuine gratitude and warm regards,
+            С искренней благодарностью и теплыми пожеланиями,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The SunnyFields Family</span>
+            <span class="domain-fgZSxP4y">Семья FestiveFun</span>
           </p>
         </div>
       </div>
