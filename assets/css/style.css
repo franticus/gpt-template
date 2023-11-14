@@ -402,21 +402,21 @@ section {
 
 .post-entry .post-text h3 {
   font-size: 20px;
-  color: #000000;
+  color: #18d26e;
 }
 
 .post-entry .post-text h3 a {
   text-decoration: none;
-  color: #000000;
+  color: #18d26e;
 }
 
 .post-entry .post-text h3 a:hover {
   text-decoration: none;
-  color: #2d71a1;
+  color: #18ffb1;
 }
 
 .post-entry .post-text .readmore {
-  color: #2d71a1;
+  color: #18ffb1;
 }
 
 .sidebar-box {
