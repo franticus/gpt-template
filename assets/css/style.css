@@ -243,18 +243,15 @@ section {
 /* Pricing */
 .pricing {
   padding: 50px;
-  background: linear-gradient(-45deg, #1391a5, #274685);
   color: #fff;
   padding-bottom: 12rem !important;
   position: relative;
   border-radius: 40px;
-  color: #000000;
-  background: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
 }
 
 .pricing h3 {
-  color: #2d71a1;
+  color: #18ffb1;
 }
 
 .pricing .price-cta {
@@ -290,23 +287,18 @@ section {
 }
 
 .pricing .btn-white {
-  background: #fff;
-  border: 2px solid rgb(241, 241, 241);
-  border-radius: 4px;
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  color: #fff;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.9);
 }
 
 .pricing .btn-white:hover {
-  color: #2d71a1;
+  color: #18ffb1;
 }
 
 .pricing.popular {
-  background: #fff;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
-  color: #000000;
-  background: linear-gradient(-45deg, #ffab0e, #6497ff);
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.9);
+  border: 2px dashed #18ffb1;
   color: #fff;
-  box-shadow: none;
 }
 
 .pricing.popular .popularity {
@@ -314,41 +306,8 @@ section {
 }
 
 .pricing.popular h3 {
-  color: #fff;
+  color: #18d26e;
   background: none;
-}
-
-.pricing.popular .btn-white {
-  border: 2px solid #2d71a1;
-}
-
-/* CTA Section */
-.cta-section {
-  background: linear-gradient(to right, rgb(212 155 14) 0%, rgb(79 74 213) 100%);
-  color: #fff;
-}
-
-.cta-section h2 {
-  color: #fff;
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-@media screen and (max-width: 768px) {
-  .cta-section h2 {
-    font-size: 2rem;
-  }
-}
-
-.cta-section .btn {
-  background: #000000;
-  color: #fff;
-}
-
-.cta-section .btn i {
-  margin-right: 5px;
-  font-size: 24px;
-  line-height: 0;
 }
 
 /* Contact Form */
