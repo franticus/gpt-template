@@ -119,11 +119,11 @@ iframe {
 }
 
 .mcta {
-  // background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../img/bg-1.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../img/bg-1.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100vw;
-  height: 74vh;
+  height: 44vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,11 +132,11 @@ iframe {
 }
 
 .mcta2 {
-  // background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../img/bg-2.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../img/bg-2.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100vw;
-  height: 67vh;
+  height: 57vh;
   display: flex;
   align-items: center;
   justify-content: center;
