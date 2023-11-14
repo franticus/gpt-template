@@ -42,10 +42,10 @@ iframe {
 }
 
 .img-fluid {
-  border: 4px solid #fff;
+  border: 8px solid #ffe063;
   // padding: 10px;
   // background-color: #fff;
-  border-radius: 50%;
+  border-radius: 40px;
 }
 
 .clients .swiper-slide img {
@@ -89,16 +89,17 @@ iframe {
 
 .form-check {
   margin-bottom: 20px;
+  margin-left: 20px;
   text-align: left;
 }
 
 .form-check a {
-  color: #eee;
+  color: #111;
   text-decoration: underline;
 }
 
 .form-check .form-check-label {
-  color: #fff;
+  color: #222;
 }
 
 .custom-check {
