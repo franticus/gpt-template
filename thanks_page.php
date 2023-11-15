@@ -29,14 +29,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #222;
-        background: #999;
+        background: #fdff9a;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
         border: 4px solid #000;
         border-top: 20px solid #000;
-        border-right: 0px solid #000;
-        border-radius: 20px 10px 30px 0px;
+        border-right: 10px solid #000;
+        border-radius: 20px;
         background: #fff;
       }
 
@@ -141,33 +141,31 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            We, at "Dettaglix", would like to express our immense gratitude to
-            each one of our esteemed clients and ardent interior design
-            connoisseurs who have selected us as their primary source for
-            bespoke, client-centric online interior design services. The faith
-            that you place in us forms the bedrock of our resolve to
-            persistently offer an unparalleled range of top-of-the-line interior
-            design concepts for you.
+            We, at "TheVegDen", want to extend our profound thanks to each and
+            every customer and devoted vegetarian enthusiast that have chosen us
+            as their premier agency for holistic, user-based online vegetarian
+            grocery services. Your trust in us is the foundation of our
+            determination to continuously deliver an unparalleled quality of
+            fresh organic vegetables and vegan products for you.
           </p>
           <p>
-            To assure we retain our position as a market leader in the industry
-            and maintain the highest benchmarks in our services, your feedback,
-            original insights, and innovative proposals are invaluable. If you
-            hold any contemplations or queries you'd like to communicate with
-            us, we are all ears. Our adept and amiable team is eager to assist
-            you in your pursuit of the impeccable interior design solution.
+            To ensure we sustain our hierarchy as a leading entity in the
+            industry and safeguard the highest standards in our services, your
+            feedback, initiate ideas, and inventive suggestions are of prime
+            importance. If there's anything you'd like to discuss with us or any
+            questions you might have, we're all ears. Our proficient and
+            friendly team is looking forward to helping you in your quest for
+            the ultimate vegetarian grocery solution.
           </p>
           <p>
-            We deeply appreciate your unwavering trust in Dettaglix and your
-            decision to become a significant part and contribute to our
-            entrancing community focused on excellence and current trends in
-            superior interior design solutions.
+            We sincerely appreciate your consistent faith in TheVegDen and the
+            decision to play a significant part in our vibrant community
+            focusing on superiority and current trends in the vegetarian grocery
+            space.
           </p>
+          <p class="cBlock-fgZSxP4y">With genuine gratitude and warm wishes,</p>
           <p class="cBlock-fgZSxP4y">
-            With heartfelt appreciation and best regards,
-          </p>
-          <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The Dettaglix Family</span>
+            <span class="domain-fgZSxP4y">The TheVegDen Team</span>
           </p>
         </div>
       </div>
@@ -234,4 +232,3 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
-
