@@ -42,10 +42,10 @@ iframe {
 }
 
 .img-fluid {
-  // border: 8px solid #eee;
+  border: 8px solid #4659ab;
   // padding: 10px;
   // background-color: #fff;
-  border-radius: 100px;
+  border-radius: 100px 10px 30px 10px;
 }
 
 .clients .swiper-slide img {
@@ -93,12 +93,12 @@ iframe {
 }
 
 .form-check a {
-  color: #36da2d;
+  color: #4659ab;
   text-decoration: underline;
 }
 
 .form-check .form-check-label {
-  color: #36da2d;
+  color: #4659ab;
 }
 
 .custom-check {
