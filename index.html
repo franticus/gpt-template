@@ -60,48 +60,66 @@
         class="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
         <div class="carousel-inner" role="listbox">
           <div
             class="carousel-item active"
-            style="background-image: url(assets/img/slide/slide-1.jpg)"
-          ></div>
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url(assets/img/slide/slide-1.jpg);
+            "
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Welcome to TheVegDen</h3>
+              <p>
+                Discover a wealth of fruits, veggies and grains straight from
+                Mother Earth. Non-GMO, completely natural and absolutely tasty!
+              </p>
+            </div>
+          </div>
 
           <div
             class="carousel-item"
-            style="background-image: url(assets/img/slide/slide-2.jpg)"
-          ></div>
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url(assets/img/slide/slide-2.jpg);
+            "
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Quality, Freshness and Value</h3>
+              <p>
+                Our farm-to-fork promise ensures that you get the best quality
+                produce, packed with health and flavor, at great prices every
+                day.
+              </p>
+            </div>
+          </div>
 
           <div
             class="carousel-item"
-            style="background-image: url(assets/img/slide/slide-3.jpg)"
-          ></div>
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url(assets/img/slide/slide-3.jpg);
+            "
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Start Your Vegetarian Journey Today</h3>
+              <p>
+                Join us in creating healthier habits, sustainable living, and
+                contributing towards a greener earth. It's a tasty way to make a
+                change!
+              </p>
+            </div>
+          </div>
         </div>
-
-        <a
-          class="carousel-control-prev"
-          href="#heroCarousel"
-          role="button"
-          data-bs-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon bi bi-chevron-left"
-            aria-hidden="true"
-          ></span>
-        </a>
-
-        <a
-          class="carousel-control-next"
-          href="#heroCarousel"
-          role="button"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon bi bi-chevron-right"
-            aria-hidden="true"
-          ></span>
-        </a>
       </div>
     </section>
 
@@ -129,16 +147,13 @@
               </p>
               <ul>
                 <li>
-                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat
+                  - Ullamco laboris nisi ut aliquip ex ea commodo consequat
                 </li>
                 <li>
-                  <i class="ri-check-double-line"></i> Duis aute irure dolor in
-                  reprehenderit in voluptate velit
+                  - Duis aute irure dolor in reprehenderit in voluptate velit
                 </li>
                 <li>
-                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat
+                  - Ullamco laboris nisi ut aliquip ex ea commodo consequat
                 </li>
               </ul>
               <p>
@@ -154,7 +169,7 @@
         </div>
       </section>
 
-      <section id="features" class="features">
+      <section id="features" class="features section-bg">
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-6 icon-box">
@@ -312,14 +327,62 @@
 
     <footer id="footer">
       <div class="container">
-        <h3>MeFamily</h3>
-        <p>
-          Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
-          eligendi fuga maxime saepe commodi placeat.
-        </p>
-        <div class="copyright">
-          &copy; Copyright <strong><span>MeFamily</span></strong
-          >. All Rights Reserved
+        <div class="social-links">
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>TheVegDen</h3>
+            <p>
+              TheVegDen is your green sanctuary for all things vegetarian. We
+              offer a diverse range of vegetarian products to satisfy your
+              plant-based cravings. Consider us a friendly guide to your healthy
+              lifestyle, whether you're exploring vegetarianism or an
+              experienced herbivore. For inquiries, advice, or simply to explore
+              our variety, please do not hesitate to reach out.
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a target="_blank" href="disclaimer.html">Disclaimer</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a target="_blank" href="cookies.html">Cookies</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a target="_blank" href="terms.html">Terms of service</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a target="_blank" href="privacy.html">Privacy policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <strong>Address:</strong>
+            <p>
+              <a
+                href="https://www.google.com/maps/place/3901+Walnut+Ave,+Long+Beach,+CA+90807,+%D0%A1%D0%A8%D0%90/@33.8292344,-118.1723935,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd33a5413d5663:0x5cf05256fcea064e!8m2!3d33.8292344!4d-118.1723935?entry=ttu"
+                target="_blank"
+                >3901 WALNUT AVE LONG BEACH CA 90807-3745 USA</a
+              >
+            </p>
+            <strong>Phone:</strong>
+            <p>
+              <a href="tel:+91-65548-99788" target="_blank">+91-65548-99788</a>
+            </p>
+            <strong>Email:</strong>
+            <p id="email_list">
+              <a href="mailto:info@example.com" target="_blank"
+                >info@example.com</a
+              >
+            </p>
+          </div>
         </div>
       </div>
     </footer>
