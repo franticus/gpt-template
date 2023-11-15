@@ -34,18 +34,17 @@ iframe {
 }
 
 .blur {
-  padding: 40px 20px;
+  padding: 80px 20px;
   // backdrop-filter: blur(40px);
-  background: linear-gradient(rgba(9, 51, 61, 0.8), rgba(0, 0, 0, 0.8));
-  border-radius: 4px 30px 40px 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
   text-align: center;
 }
 
 .img-fluid {
-  border: 8px solid #4659ab;
+  border: 2px dashed #f8ff55;
   // padding: 10px;
   // background-color: #fff;
-  border-radius: 100px 10px 30px 10px;
+  border-radius: 50%;
 }
 
 .recent-photos-slider .img-fluid {
@@ -53,6 +52,11 @@ iframe {
   // padding: 10px;
   // background-color: #fff;
   border-radius: 0;
+}
+
+.member-img .img-fluid {
+  border-radius: 20px;
+  width: 40%;
 }
 
 .clients .swiper-slide img {
@@ -100,12 +104,12 @@ iframe {
 }
 
 .form-check a {
-  color: #69aeec;
+  color: #f8ff55;
   text-decoration: underline;
 }
 
 .form-check .form-check-label {
-  color: #69aeec;
+  color: #fff;
 }
 
 .custom-check {
