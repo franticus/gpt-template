@@ -29,15 +29,15 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #222;
-        background: #fdff9a;
+        background: #999;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        border: 4px solid #000;
+        border: 40px solid #000;
         border-top: 20px solid #000;
         border-right: 10px solid #000;
         border-radius: 20px;
-        background: #fff;
+        background: #eee;
       }
 
       body {
@@ -141,31 +141,31 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            We, at "TheVegDen", want to extend our profound thanks to each and
-            every customer and devoted vegetarian enthusiast that have chosen us
-            as their premier agency for holistic, user-based online vegetarian
-            grocery services. Your trust in us is the foundation of our
-            determination to continuously deliver an unparalleled quality of
-            fresh organic vegetables and vegan products for you.
+            We, at "WoonVisie", would like to express our deep gratitude to each
+            and every client and real estate advocate who has chosen us as their
+            trusted agency for comprehensive, user-centric real estate services.
+            Your confidence in us fuels our commitment to persistently provide
+            the best quality of real estate properties and services for you.
           </p>
           <p>
-            To ensure we sustain our hierarchy as a leading entity in the
-            industry and safeguard the highest standards in our services, your
-            feedback, initiate ideas, and inventive suggestions are of prime
-            importance. If there's anything you'd like to discuss with us or any
-            questions you might have, we're all ears. Our proficient and
-            friendly team is looking forward to helping you in your quest for
-            the ultimate vegetarian grocery solution.
+            To ensure that we maintain our stature as a leading entity in the
+            real estate industry and uphold the highest standards in our
+            services, your feedback, pioneering ideas, and creative suggestions
+            are of utmost importance. Whether you have any issues to discuss
+            with us or queries to be answered, we're ready to listen. Our
+            skilled and cordial team eagerly awaits to assist you in finding
+            your ultimate real estate solution.
           </p>
           <p>
-            We sincerely appreciate your consistent faith in TheVegDen and the
-            decision to play a significant part in our vibrant community
-            focusing on superiority and current trends in the vegetarian grocery
-            space.
+            We truly appreciate your unwavering trust in WoonVisie and your
+            choice to be an integral part of our dynamic community focused on
+            excellence and current trends in the real estate market.
           </p>
-          <p class="cBlock-fgZSxP4y">With genuine gratitude and warm wishes,</p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The TheVegDen Team</span>
+            With sincere gratitude and best regards,
+          </p>
+          <p class="cBlock-fgZSxP4y">
+            <span class="domain-fgZSxP4y">The WoonVisie Team</span>
           </p>
         </div>
       </div>
@@ -232,3 +232,4 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
