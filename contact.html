@@ -60,21 +60,150 @@
       </div>
     </header>
 
-    <main id="main">
-      <div class="breadcrumbs d-flex align-items-center">
-        <div
-          class="container position-relative d-flex flex-column align-items-center"
-          data-aos="fade"
-        >
-          <h2>Connect</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Connect</li>
-          </ol>
-        </div>
-      </div>
+    <main id="main" class="padtop">
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center"
+              >
+                <i class="bi bi-map"></i>
+                <h3>Our Address</h3>
+                <p>
+                  <a
+                    href="https://www.google.com/maps/place/3500+Lebon+Dr,+San+Diego,+CA+92122,+%D0%A1%D0%A8%D0%90/@32.8682573,-117.2246363,17z/data=!3m1!4b1!4m6!3m5!1s0x80dc06d4f2a60087:0x988efad99c553049!8m2!3d32.8682573!4d-117.2246363!16s%2Fg%2F11c1y0c34p?entry=ttu"
+                    target="_blank"
+                    >3500 LEBON DR SAN DIEGO CA 92122-4502 USA</a
+                  >
+                </p>
+              </div>
+            </div>
 
-      <section id="team" class="team">
+            <div class="col-lg-3 col-md-6">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center"
+              >
+                <i class="bi bi-envelope"></i>
+                <h3>Email Us</h3>
+                <p id="email_list">
+                  <a href="mailto:info@example.com" target="_blank"
+                    >info@example.com</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center"
+              >
+                <i class="bi bi-telephone"></i>
+                <h3>Call Us</h3>
+                <p>
+                  <a href="tel:+91-76785-32212" target="_blank"
+                    >+91-76785-32212</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row gy-4 mt-1">
+            <div class="col-lg-12">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.1308459074025!2d-117.22463629999999!3d32.868257299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06d4f2a60087%3A0x988efad99c553049!2zMzUwMCBMZWJvbiBEciwgU2FuIERpZWdvLCBDQSA5MjEyMiwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1700223113717!5m2!1sru!2sby"
+                width="100%"
+                height="450"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
+            <div class="col-lg-12">
+              <form
+                action="thanks_page.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row gy-4">
+                  <div class="col-lg-6 form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-lg-6 form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input custom-check"
+                    type="checkbox"
+                    value=""
+                    required
+                    id="flexCheckDefault"
+                  />
+                  <label
+                    class="form-check-label"
+                    for="flexCheckDefault"
+                    required
+                  >
+                    I accept
+                    <a href="privacy.html" target="_blank" class="check"
+                      >Privacy policy</a
+                    >
+                  </label>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="team  section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Our Green Team</h2>
@@ -177,150 +306,7 @@
         </div>
       </section>
 
-      <section id="contact" class="contact section-bg">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4 mt-1">
-            <div class="col-lg-6">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.429036524134!2d-118.42959049999999!3d34.212061999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c296db151b829f%3A0x21487b1c2298a5ce!2zNzgwMCBXb29kbWFuIEF2ZSwgUGFub3JhbWEgQ2l0eSwgQ0EgOTE0MDIsINCh0KjQkA!5e0!3m2!1sru!2sby!4v1700215225356!5m2!1sru!2sby"
-                width="100%"
-                height="100%"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-
-            <div class="col-lg-6">
-              <form
-                action="thanks_page.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
-                <div class="row gy-4">
-                  <div class="col-lg-6 form-group">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                  <div class="col-lg-6 form-group">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </div>
-                <div class="form-group">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input custom-check"
-                    type="checkbox"
-                    value=""
-                    required
-                    id="flexCheckDefault"
-                  />
-                  <label
-                    class="form-check-label"
-                    for="flexCheckDefault"
-                    required
-                  >
-                    I accept
-                    <a href="privacy.html" target="_blank" class="check"
-                      >Privacy policy</a
-                    >
-                  </label>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="row gy-4">
-            <div class="col-lg-6">
-              <div
-                class="info-item d-flex flex-column justify-content-center align-items-center"
-              >
-                <i class="bi bi-map"></i>
-                <h3>Our Address</h3>
-                <p>
-                  <a
-                    href="https://www.google.com/maps/place/7800+Woodman+Ave,+Panorama+City,+CA+91402,+%D0%A1%D0%A8%D0%90/@34.212062,-118.4295905,17z/data=!3m1!4b1!4m6!3m5!1s0x80c296db151b829f:0x21487b1c2298a5ce!8m2!3d34.212062!4d-118.4295905!16s%2Fg%2F11c4dcpbby?entry=ttu"
-                    target="_blank"
-                    >7800 WOODMAN AVE PANORAMA CITY CA 91402-6254 USA</a
-                  >
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div
-                class="info-item d-flex flex-column justify-content-center align-items-center"
-              >
-                <i class="bi bi-envelope"></i>
-                <h3>Email Us</h3>
-                <p id="email_list">
-                  <a href="mailto:info@example.com" target="_blank"
-                    >info@example.com</a
-                  >
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div
-                class="info-item d-flex flex-column justify-content-center align-items-center"
-              >
-                <i class="bi bi-telephone"></i>
-                <h3>Call Us</h3>
-                <p>
-                  <a href="tel:+91-77476-00990" target="_blank"
-                    >+91-77476-00990</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="testimonials" class="testimonials section-bg">
+      <section id="testimonials" class="testimonials">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Flammula Reviews</h2>
@@ -458,15 +444,15 @@
                 <strong>Address:</strong>
                 <p>
                   <a
-                    href="https://www.google.com/maps/place/7800+Woodman+Ave,+Panorama+City,+CA+91402,+%D0%A1%D0%A8%D0%90/@34.212062,-118.4295905,17z/data=!3m1!4b1!4m6!3m5!1s0x80c296db151b829f:0x21487b1c2298a5ce!8m2!3d34.212062!4d-118.4295905!16s%2Fg%2F11c4dcpbby?entry=ttu"
+                    href="https://www.google.com/maps/place/3500+Lebon+Dr,+San+Diego,+CA+92122,+%D0%A1%D0%A8%D0%90/@32.8682573,-117.2246363,17z/data=!3m1!4b1!4m6!3m5!1s0x80dc06d4f2a60087:0x988efad99c553049!8m2!3d32.8682573!4d-117.2246363!16s%2Fg%2F11c1y0c34p?entry=ttu"
                     target="_blank"
-                    >7800 WOODMAN AVE PANORAMA CITY CA 91402-6254 USA</a
+                    >3500 LEBON DR SAN DIEGO CA 92122-4502 USA</a
                   >
                 </p>
                 <strong>Phone:</strong>
                 <p>
-                  <a href="tel:+91-77476-00990" target="_blank"
-                    >+91-77476-00990</a
+                  <a href="tel:+91-76785-32212" target="_blank"
+                    >+91-76785-32212</a
                   >
                 </p>
                 <strong>Email:</strong>
