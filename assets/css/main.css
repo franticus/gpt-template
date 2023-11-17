@@ -1016,7 +1016,7 @@ section {
 .alt-services h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #fff;
+  color: #ebff3f;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -1263,13 +1263,12 @@ section {
   background-size: cover;
   background-position: center;
   padding: 20vh 20px;
-  text-align: center;
-}
+  }
 
 .services-cards h3 {
   font-size: 20px;
   font-weight: 700;
-  color: #fff;
+  color: #ebff3f;
 }
 
 .services-cards p {
