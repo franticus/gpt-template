@@ -29,15 +29,15 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #222;
-        background: #999;
+        background: #fff;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        border: 40px solid #000;
-        border-top: 20px solid #000;
-        border-right: 10px solid #000;
-        border-radius: 20px;
-        background: #eee;
+        border: 4px solid #000;
+        border-top: 2px solid #000;
+        border-right: 1px solid #000;
+        border-radius: 2px;
+        background: #fff;
       }
 
       body {
@@ -141,31 +141,31 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            We, at "WoonVisie", would like to express our deep gratitude to each
-            and every client and real estate advocate who has chosen us as their
-            trusted agency for comprehensive, user-centric real estate services.
-            Your confidence in us fuels our commitment to persistently provide
-            the best quality of real estate properties and services for you.
+            We, at "Flammula Plants", want to extend our heartfelt appreciation
+            to each and every customer and plant enthusiast who has chosen us as
+            their go-to source for premium, nature-inspired flora. Your trust in
+            us propels our commitment to consistently deliver the highest
+            quality plants and services tailored to your botanical needs.
           </p>
           <p>
-            To ensure that we maintain our stature as a leading entity in the
-            real estate industry and uphold the highest standards in our
-            services, your feedback, pioneering ideas, and creative suggestions
-            are of utmost importance. Whether you have any issues to discuss
-            with us or queries to be answered, we're ready to listen. Our
-            skilled and cordial team eagerly awaits to assist you in finding
-            your ultimate real estate solution.
+            To ensure that we continue to be a leading authority in the plant
+            industry and maintain the utmost standards in our offerings, your
+            feedback, innovative ideas, and suggestions are invaluable. Whether
+            you have any concerns to discuss or queries to be answered, we're
+            here to listen. Our knowledgeable and friendly team is eager to
+            assist you in finding your perfect botanical solution.
           </p>
           <p>
-            We truly appreciate your unwavering trust in WoonVisie and your
-            choice to be an integral part of our dynamic community focused on
-            excellence and current trends in the real estate market.
+            We genuinely appreciate your unwavering trust in Flammula Plants and
+            your decision to be an integral part of our vibrant community
+            dedicated to excellence and the latest trends in the world of
+            plants.
           </p>
           <p class="cBlock-fgZSxP4y">
             With sincere gratitude and best regards,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The WoonVisie Team</span>
+            <span class="domain-fgZSxP4y">The Flammula Plants Team</span>
           </p>
         </div>
       </div>
@@ -232,4 +232,5 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
