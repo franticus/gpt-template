@@ -1146,7 +1146,7 @@ section {
 }
 
 .about .about-img {
-  min-height: 500px;
+  min-height: 800px;
   background-size: cover;
   background-position: center;
   border: 2px solid #3affda;
