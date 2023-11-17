@@ -7,7 +7,7 @@
 /* Colors */
 :root {
   --color-default: #eee;
-  --color-primary: #3affda;
+  --color-primary: #ebff3f;
   --color-secondary: #52565e;
 }
 
@@ -22,7 +22,12 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background: #1c333f;
+  background-color: #090909;
+  opacity: 1;
+  background-image: linear-gradient(135deg, #141414 25%, transparent 25%), linear-gradient(225deg, #141414 25%, transparent 25%), linear-gradient(45deg, #141414 25%, transparent 25%), linear-gradient(315deg, #141414 25%, #090909 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
 }
 
 a {
@@ -53,9 +58,7 @@ section {
 }
 
 .section-bg {
-  background-color: #226892;
-  background-image: linear-gradient(to right, #176081, #176081 5px, #226892 5px, #226892);
-  background-size: 10px 100%;
+  background-color: #000;
   color: #fff;
 }
 
@@ -211,7 +214,8 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  background: #314664;
+  background: #000;
+  border-bottom: 1px solid #ebff3f;
 }
 
 .header .logo img {
@@ -303,7 +307,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #3fffeb;
+    color: #ebff3f;
   }
 
   .navbar .dropdown ul {
@@ -633,15 +637,13 @@ section {
 # Constructions Section
 --------------------------------------------------------------*/
 .constructions .card-item {
-  border: 1px solid rgba(82, 86, 94, 0.2);
-  background: #fff;
   position: relative;
   border-radius: 20px 40px;
   overflow: hidden;
 }
 
 .constructions .card-item .card-bg {
-  min-height: 400px;
+  min-height: 800px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -655,22 +657,33 @@ section {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 15px;
-  color: var(--color-secondary);
+  color: #fff;
 }
 
 .constructions .card-item p {
-  color: var(--color-secondary);
+  color: #eee;
   margin: 0;
 }
 
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.services {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.99)), url("../img/ser2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .services .service-item {
   padding: 40px;
   height: 100%;
-  border-left: 2px solid #eee;
-  border-radius: 20px 40px;
+  border-bottom: 2px solid #eee;
+}
+
+.services .service-item:hover {
+  padding: 40px;
+  height: 100%;
+  border-bottom: 2px solid #ebff3f;
 }
 
 .services .service-item .icon {
@@ -878,7 +891,6 @@ section {
   padding: 30px 30px 30px 60px;
   margin: 0 15px 30px 0;
   min-height: 200px;
-  box-shadow: 0px 2px 20px rgba(82, 86, 94, 0.8);
   position: relative;
   border-radius: 20px;
 }
@@ -1079,31 +1091,20 @@ section {
 @media (min-width: 991px) {
   .about h2 {
     max-width: 65%;
-    margin: 0 0 80px 0;
-  }
-}
-
-.about .our-story {
-  padding: 40px;
-}
-
-@media (min-width: 991px) {
-  .about .our-story {
-    padding-right: 35%;
   }
 }
 
 .about .our-story h4 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #3affda;
+  color: #ebff3f;
 }
 
 .about .our-story h3 {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #3affda;
+  color: #ebff3f;
 }
 
 .about .our-story p:last-child {
@@ -1146,10 +1147,10 @@ section {
 }
 
 .about .about-img {
-  min-height: 800px;
+  min-height: 600px;
   background-size: cover;
   background-position: center;
-  border: 2px solid #3affda;
+  border: 2px solid #ebff3f;
   border-radius: 20px 40px;
   animation: aboutctascroll 50s infinite;
 }
@@ -1228,7 +1229,6 @@ section {
   position: relative;
   z-index: 1;
   padding: 40px;
-  border-radius: 20px 40px;
 }
 
 .team .member .member-info {
@@ -1258,6 +1258,14 @@ section {
 /*--------------------------------------------------------------
 # Servie Cards Section
 --------------------------------------------------------------*/
+.services-cards {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.99)), url("../img/ser.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20vh 20px;
+  text-align: center;
+}
+
 .services-cards h3 {
   font-size: 20px;
   font-weight: 700;
@@ -1287,7 +1295,6 @@ section {
 .contact .info-item {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   padding: 20px 0 30px 0;
-  background: #09071c;
   padding: 20px;
   border-radius: 40px;
 }
@@ -1321,7 +1328,6 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #09071c;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   padding: 30px;
   border-radius: 40px;
@@ -1518,10 +1524,11 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background-color: #09071c;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../img/footer.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
   font-size: 14px;
-  padding: 80px 0 60px 0;
+  padding: 200px 0 100px 0;
   position: relative;
 }
 
