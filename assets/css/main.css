@@ -1396,7 +1396,7 @@ section {
   background: var(--color-primary);
   border: 0;
   padding: 10px 35px;
-  color: #fff;
+  color: #111;
   transition: 0.4s;
   border-radius: 5px;
 }
