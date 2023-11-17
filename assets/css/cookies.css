@@ -7,10 +7,10 @@
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
-  background-color: #1c333f;
+  background-color: #222;
   border-radius: 10px 40px;
-  border-right: 10px solid #3fffeb;
-  border-left: 20px solid #3fffeb;
+  border-right: 10px solid #ebff3f;
+  border-left: 20px solid #ebff3f;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
   gap: 25px;
   z-index: 99999;
@@ -19,7 +19,7 @@
 }
 
 .floating-windows-9oV a {
-  color: #3fffeb;
+  color: #ebff3f;
   text-decoration: underline;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .button-9oV:hover {
-  background-color: #3fffeb;
+  background-color: #ebff3f;
   color: #111;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -71,7 +71,7 @@
 }
 
 .modal-content-9oV {
-  color: #3fffeb;
+  color: #ebff3f;
   background-color: #fff;
   padding: 20px;
   max-width: 700px;
