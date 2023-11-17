@@ -103,7 +103,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 140px 0 60px 0;
+  padding: 200px 0 60px 0;
   min-height: 20vh;
   position: relative;
   background-size: cover;
@@ -641,7 +641,7 @@ section {
 }
 
 .constructions .card-item .card-bg {
-  min-height: 300px;
+  min-height: 400px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1012,13 +1012,13 @@ section {
 .alt-services .img-bg {
   background-size: cover;
   background-position: center center;
-  min-height: 400px;
+  min-height: 900px;
 }
 
 .alt-services h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #fff;
+  color: #111;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -1285,6 +1285,7 @@ section {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   padding: 20px 0 30px 0;
   background: #071c15;
+  padding: 20px;
 }
 
 .contact .info-item i {
