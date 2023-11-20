@@ -3,18 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>FormFokus Gym - Fitness Hub</title>
+
+    <title>
+      Mobiliaris Furniture Store - The Ultimate Destination for High-End Luxury
+      Furniture for Your Ideal Home
+    </title>
     <meta
-      content="Explore the energy of fitness at FormFokus. Immerse yourself in our diverse range of workout equipment and training programs to elevate your fitness experience."
+      content="Discover Mobiliaris, your go-to high-quality designer furniture store. Browse through our exclusive selection of furniture and accessories that combine elegance with functionality. Create the perfect ambiance in your home with our stunning collection. Match your unique style with our wide range of furniture sourced from the best manufacturers worldwide."
       name="description"
     />
     <meta
-      content="FormFokus, fitness, gym, workout, health, exercise, studio, performance"
+      content="Furniture, Designer, Luxury, Sofa, Chair, Table, Shelving, Bedroom, Living room, Dining room"
       name="keywords"
     />
 
-    <link href="favicon.ico" rel="icon" />
+    <link href="./favicon.ico" rel="icon" />
 
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
     <link
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,463 +28,401 @@
       href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <link
-      href="assets/vendor/fontawesome-free/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link
       href="assets/vendor/glightbox/css/glightbox.min.css"
       rel="stylesheet"
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/cookies.css" rel="stylesheet" />
     <link href="assets/css/conf.css" rel="stylesheet" />
   </head>
 
   <body>
-    <header id="header" class="header d-flex align-items-center">
-      <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-between"
-      >
-        <a href="index.html" class="logo d-flex align-items-center">
-          <h1><span>Form</span>Fokus</h1>
-        </a>
-        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <h1><a href="index.html">Mobiliaris</a></h1>
+        </div>
+
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="projects.html">Gallery</a></li>
-            <li><a href="contact.html">Get in touch</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
       </div>
     </header>
 
-    <main id="main" class="padtop">
-      <section id="get-started" class="get-started section-bg">
-        <div class="container">
-          <div class="row justify-content-between gy-4">
-            <div class="col-lg-12 d-flex align-items-center" data-aos="fade-up">
-              <div class="content">
-                <h3>Welcome to FormFokus</h3>
-                <p>
-                  At FormFokus, we recognize that the path to fitness is as
-                  diverse and individual as the journey itself. When you're
-                  ready to sculpt your body, our extensive range of workout
-                  equipment and training programs awaits. From discovering
-                  options that align with your fitness goals, selecting the
-                  perfect regimen for a health-conscious friend, to elevating
-                  your professional workout routine, we offer guidance and
-                  support at every step of your fitness journey.
-                </p>
-                <p>
-                  Our dedicated team, comprising seasoned fitness trainers and
-                  health experts, ensures a personalized and professional
-                  service tailored to meet your specific needs, helping your
-                  fitness endeavors to be as seamless and rewarding as possible.
-                  Whether you are just starting your fitness journey or a
-                  seasoned athlete, join us at FormFokus and let's shape your
-                  wellness goals into a vibrant reality.
-                </p>
-                <p>
-                  From traditional to cutting-edge, our collection spans across
-                  various workout categories and preferences. We believe that
-                  the beat of your heart should resonate in every rep you
-                  perform. Our array of fitness equipment is carefully sourced
-                  from reputable manufacturers globally, guaranteeing top-notch
-                  quality, sustainable practices, and fair trade.
-                </p>
-                <p>
-                  At FormFokus, we resonate with your passion for fitness and
-                  strive to provide the platform for your transformative
-                  journey. So, come along, dive into the world of strength and
-                  vitality, and sculpt your inspiring fitness story.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div class="hero-container">
+        <div
+          id="heroCarousel"
+          data-bs-interval="5000"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-      <section id="services-cards" class="services-cards">
-        <div class="container" data-aos="fade-up">
-          <div class="row gy-4">
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
             <div
-              class="col-lg-3 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
+              class="carousel-item active"
+              style="background-image: url(assets/img/slide/slide-1.jpg)"
             >
-              <h3>Diverse Workout Gear</h3>
-              <p>
-                Offering an extensive range of workout gear suitable for both
-                personal training and group workout sessions.
-              </p>
-              <ul class="list-unstyled">
-                <li>
-                  <i class="bi bi-check2"></i
-                  ><span>Wide variety of workout gear</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i
-                  ><span>Customized gear recommendations</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i
-                  ><span>Hassle-free workout gear selection</span>
-                </li>
-              </ul>
-            </div>
-
-            <div
-              class="col-lg-3 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <h3>Workout Regimen Assistance</h3>
-              <p>
-                Guidance and support for maintaining workout schedules, from
-                tailored exercise routines to performance benchmarks.
-              </p>
-
-              <ul class="list-unstyled">
-                <li>
-                  <i class="bi bi-check2"></i
-                  ><span>Comprehensive workout guides</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i><span>Expert fitness advice</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i
-                  ><span>Performance improvement guidance</span>
-                </li>
-              </ul>
-            </div>
-
-            <div
-              class="col-lg-3 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
-              <h3>Personalized Training Sessions</h3>
-              <p>
-                Tailoring workout programs to fit personal fitness goals, from
-                home workouts to professional fitness plans.
-              </p>
-              <ul class="list-unstyled">
-                <li>
-                  <i class="bi bi-check2"></i
-                  ><span>Customized training support</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i
-                  ><span>Live workout session tips</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i
-                  ><span>Optimum workout setups</span>
-                </li>
-              </ul>
-            </div>
-
-            <div
-              class="col-lg-3 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="400"
-            >
-              <h3>Fitness Mindfulness Coaching</h3>
-              <p>
-                Harnessing the mindfulness aspect of fitness, we provide
-                guidance on fitness-based mindfulness techniques and stress
-                alleviation.
-              </p>
-              <ul class="list-unstyled">
-                <li>
-                  <i class="bi bi-check2"></i
-                  ><span>Mindful fitness coaching sessions</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i
-                  ><span>Harmonize for mental tranquility</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2"></i
-                  ><span
-                    >Elevate mental well-being through fitness practices</span
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Welcome to <span>Eterna</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                    ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                    dolorem mollitia ut. Similique ea voluptatem. Esse
+                    doloremque accusamus repellendus deleniti vel. Minus et
+                    tempore modi architecto.
+                  </p>
+                  <a
+                    href=""
+                    class="btn-get-started animate__animated animate__fadeInUp"
+                    >Read More</a
                   >
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/img/slide/slide-2.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated fanimate__adeInDown">
+                    Lorem <span>Ipsum Dolor</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                    ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                    dolorem mollitia ut. Similique ea voluptatem. Esse
+                    doloremque accusamus repellendus deleniti vel. Minus et
+                    tempore modi architecto.
+                  </p>
+                  <a
+                    href=""
+                    class="btn-get-started animate__animated animate__fadeInUp"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/img/slide/slide-3.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Sequi ea <span>Dime Lara</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                    ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                    dolorem mollitia ut. Similique ea voluptatem. Esse
+                    doloremque accusamus repellendus deleniti vel. Minus et
+                    tempore modi architecto.
+                  </p>
+                  <a
+                    href=""
+                    class="btn-get-started animate__animated animate__fadeInUp"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bi bi-chevron-left"
+              aria-hidden="true"
+            ></span>
+          </a>
+
+          <a
+            class="carousel-control-next"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bi bi-chevron-right"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= Featured Section ======= -->
+      <section id="featured" class="featured">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon-box">
+                <i class="bi bi-card-checklist"></i>
+                <h3><a href="">Lorem Ipsum</a></h3>
+                <p>
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="icon-box">
+                <i class="bi bi-bar-chart"></i>
+                <h3><a href="">Dolor Sitema</a></h3>
+                <p>
+                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat tarad limino ata
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="icon-box">
+                <i class="bi bi-binoculars"></i>
+                <h3><a href="">Sed ut perspiciatis</a></h3>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Featured Section -->
+
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="assets/img/about.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content">
+              <h3>
+                Voluptatem dignissimos provident quasi corporis voluptates sit
+                assumenda.
+              </h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat.
+                </li>
+                <li>
+                  <i class="bi bi-check-circle"></i> Duis aute irure dolor in
+                  reprehenderit in voluptate velit.
+                </li>
+                <li>
+                  <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate trideta storacalaperda mastiro
+                  dolore eu fugiat nulla pariatur.
                 </li>
               </ul>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum
+              </p>
             </div>
           </div>
         </div>
       </section>
+      <!-- End About Section -->
 
-      <section id="alt-services" class="alt-services">
-        <div class="container" data-aos="fade-up">
-          <div class="row justify-content-around gy-4">
-            <div class="col-lg-4 d-flex flex-column justify-content-center">
-              <h3>Experience Fitness Harmony with FormFokus</h3>
-              <p>
-                Offering a diverse range of fitness equipment and personalized
-                training with unparalleled service. Our dedicated team handles
-                all your fitness needs proficiently.
-              </p>
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div>
-                  <h4>
-                    <a href="contact.html" class="stretched-link"
-                      >Reliable Workout Gear</a
-                    >
-                  </h4>
-                  <p>
-                    Quality fitness equipment at affordable prices. We ensure
-                    complete transparency in all transactions.
-                  </p>
-                </div>
-              </div>
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div>
-                  <h4>
-                    <a href="contact.html" class="stretched-link"
-                      >Accurate Fitness Assessment</a
-                    >
-                  </h4>
-                  <p>
-                    Precise assessments by our experienced trainers. Enhance
-                    your fitness journey.
-                  </p>
-                </div>
-              </div>
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div>
-                  <h4>
-                    <a href="contact.html" class="stretched-link"
-                      >Effortless Gym Access</a
-                    >
-                  </h4>
-                  <p>
-                    Prompt entry services to get you into the gym quickly and
-                    safely.
-                  </p>
-                </div>
-              </div>
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <div>
-                  <h4>
-                    <a href="contact.html" class="stretched-link"
-                      >Exciting Fitness Challenges</a
-                    >
-                  </h4>
-                  <p>
-                    Participate in fitness challenges to stay motivated. Start
-                    your stress-free fitness journey.
-                  </p>
-                </div>
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <h4><a href="">Lorem Ipsum</a></h4>
+                <p>
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi
+                </p>
               </div>
             </div>
+
             <div
-              class="col-lg-8 img-bg"
-              style="background-image: url(assets/img/alt-services.jpg)"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            ></div>
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4><a href="">Sed ut perspiciatis</a></h4>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4><a href="">Magni Dolores</a></h4>
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4><a href="">Nemo Enim</a></h4>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4><a href="">Dele cardo</a></h4>
+                <p>
+                  Quis consequatur saepe eligendi voluptatem consequatur dolor
+                  consequuntur
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-arch"></i></div>
+                <h4><a href="">Divera don</a></h4>
+                <p>
+                  Modi nostrum vel laborum. Porro fugit error sit minus sapiente
+                  sit aspernatur
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="alt-services-2" class="alt-services section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="row justify-content-around gy-4">
-            <div class="col-lg-10 d-flex flex-column justify-content-center">
-              <h3>Explore FormFokus's World of Fitness Excellence</h3>
-              <p>
-                Embark on your fitness journey with FormFokus. Benefit from our
-                world-class services, equipment range, and in-depth knowledge of
-                the fitness industry. Harness your fitness potential and enrich
-                your workout experiences with our expert guidance.
-              </p>
+      <section id="clients" class="clients">
+        <div class="container">
+          <div class="section-title">
+            <h2>Clients</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
 
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div>
-                  <h4>
-                    <a href="contact.html" class="stretched-link"
-                      >Wide Equipment Selection</a
-                    >
-                  </h4>
-                  <p>
-                    Browse through our extensive collection of fitness equipment
-                    and pick the perfect ones for you. From cardio machines to
-                    strength training tools, we have everything you need to
-                    create your fitness routine.
-                  </p>
-                </div>
+          <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-1.png"
+                  class="img-fluid"
+                  alt=""
+                />
               </div>
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div>
-                  <h4>
-                    <a href="contact.html" class="stretched-link"
-                      >Expert Fitness Advice</a
-                    >
-                  </h4>
-                  <p>
-                    Our expert team is always ready to guide you on your fitness
-                    journey. Whether you're a beginner or a seasoned
-                    professional, our tailored advice and helpful tips will help
-                    you embark on a rewarding fitness journey.
-                  </p>
-                </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-2.png"
+                  class="img-fluid"
+                  alt=""
+                />
               </div>
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div>
-                  <h4>
-                    <a href="contact.html" class="stretched-link"
-                      >Fitness Lessons & Workshops</a
-                    >
-                  </h4>
-                  <p>
-                    Take your fitness skills to the next level with our private
-                    lessons and workshops. From basic exercises to advanced
-                    workout routines, you can learn it all under one roof.
-                  </p>
-                </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-3.png"
+                  class="img-fluid"
+                  alt=""
+                />
               </div>
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <div>
-                  <h4>
-                    <a href="contact.html" class="stretched-link"
-                      >Equipment Maintenance & Repairs</a
-                    >
-                  </h4>
-                  <p>
-                    At FormFokus, we understand the importance of keeping your
-                    fitness equipment in top-notch condition. We offer
-                    professional maintenance and repair services to ensure your
-                    equipment always performs at its best.
-                  </p>
-                </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-4.png"
+                  class="img-fluid"
+                  alt=""
+                />
               </div>
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="500"
-              >
-                <div>
-                  <h4>
-                    <a href="contact.html" class="stretched-link"
-                      >Rental Services</a
-                    >
-                  </h4>
-                  <p>
-                    Whether you need equipment for a workout event or want to
-                    try out a new fitness tool before purchasing, our rental
-                    services provide flexible solutions for all your fitness
-                    needs.
-                  </p>
-                </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-5.png"
+                  class="img-fluid"
+                  alt=""
+                />
               </div>
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="600"
-              >
-                <div>
-                  <h4>
-                    <a href="contact.html" class="stretched-link"
-                      >Custom Gym Installations</a
-                    >
-                  </h4>
-                  <p>
-                    We collaborate with gym owners to create custom fitness
-                    installations that can transform any space into a workout
-                    haven. From equipment setups to flooring solutions, we can
-                    help you create an immersive fitness experience right in
-                    your gym.
-                  </p>
-                </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-6.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-7.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/clients/client-8.png"
+                  class="img-fluid"
+                  alt=""
+                />
               </div>
             </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer id="footer" class="footer">
-      <div class="footer-content position-relative">
+    <footer id="footer">
+      <div class="footer-top">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="footer-info">
-                <h4>Contact Us</h4>
-                <strong>Address:</strong>
-                <p>
-                  <a
-                    href="https://www.google.com/maps/place/801+Monserate+Ave,+Chula+Vista,+CA+91910,+%D0%A1%D0%A8%D0%90/@32.6300099,-117.0526016,17z/data=!3m1!4b1!4m5!3m4!1s0x80d94e43d515a8f3:0x95ef4094e7c71f8e!8m2!3d32.6300099!4d-117.0526016?entry=ttu"
-                    target="_blank"
-                    >801 MONSERATE AVE CHULA VISTA CA 91911-1528 USA</a
-                  >
-                </p>
-                <strong>Phone:</strong>
-                <p>
-                  <a href="tel:+91-99889-99083" target="_blank"
-                    >+91-99889-99083</a
-                  >
-                </p>
-                <strong>Email:</strong>
-                <p id="email_list">
-                  <a href="mailto:info@example.com" target="_blank"
-                    >info@example.com</a
-                  >
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-2 col-md-3 footer-links">
+            <div class="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li>
@@ -500,16 +443,44 @@
                 </li>
               </ul>
             </div>
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <div class="footer-info">
+                <h4>Contact Us</h4>
+                <strong>Address:</strong>
+                <p>
+                  <a
+                    href="https://www.google.com/maps/place/115+Bowery,+New+York,+NY+10002,+%D0%A1%D0%A8%D0%90/@40.7179183,-73.9947857,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25987e29abd73:0x9cf960c298879904!8m2!3d40.7179183!4d-73.9947857!16s%2Fg%2F11bw3xwb2x?entry=ttu"
+                    target="_blank"
+                    >115 BOWERY NEW YORK NY 10002-4948 USA</a
+                  >
+                </p>
+                <strong>Phone:</strong>
+                <p>
+                  <a href="tel:+91-88837-99988" target="_blank"
+                    >+91-88837-99988</a
+                  >
+                </p>
+                <strong>Email:</strong>
+                <p id="email_list">
+                  <a href="mailto:info@example.com" target="_blank"
+                    >info@example.com</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-info">
+              <h3>Mobiliaris</h3>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="footer-legal text-center position-relative">
-        <div class="container">
-          <div class="copyright">
-            &copy; Copyright <strong><span>FormFokus</span></strong
-            >. All Rights Reserved
-          </div>
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Mobiliaris</span></strong
+          >. All Rights Reserved
         </div>
       </div>
     </footer>
@@ -644,14 +615,12 @@
       </div>
     </div>
 
-    <div id="preloader"></div>
-
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
     <script src="assets/js/main.js"></script>
     <script src="assets/js/jquery.file.min.js"></script>
