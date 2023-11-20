@@ -36,7 +36,7 @@ iframe {
 .blur {
   padding: 40px 20px;
   // backdrop-filter: blur(40px);
-  background: linear-gradient(rgba(14, 14, 14, 0.6), rgba(0, 0, 0, 0.8));
+  // background: linear-gradient(rgba(14, 14, 14, 0.6), rgba(0, 0, 0, 0.8));
   // border-radius: 4px 30px 40px 0px;
   text-align: center;
 }
@@ -45,7 +45,7 @@ iframe {
   border: 1px solid #222;
   // padding: 10px;
   // background-color: #fff;
-  border-radius: 20px;
+  border-radius: 50%;
 }
 
 .clients .swiper-slide img {
@@ -85,7 +85,7 @@ iframe {
 }
 
 .padtop {
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 .mcta {
