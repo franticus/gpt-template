@@ -30,13 +30,13 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #111;
-        background: #311717;
+        background: #3a2d0f;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        border: 4px solid #000;
-        border-top: 2px solid #000;
-        border-right: 1px solid #000;
+        border: 4px solid #af7a1c;
+        border-top: 20px solid #af7a1c;
+        border-right: 1px solid #af7a1c;
         border-radius: 2px;
         background: #eee;
       }
@@ -142,33 +142,32 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            At "Mobiliaris," we would like to extend our heartfelt thanks to
-            each and every one of our esteemed customers and home décor
-            enthusiasts for making us their top choice for superior,
-            high-quality furniture and services. Your trust in our brand
-            fortifies our commitment to continuously provide the best in
-            furniture solutions tailored to your home or office needs.
+            At "Passioni Vintage," we wish to deeply express our gratitude to
+            each and every one of our cherished customers and vintage fashion
+            enthusiasts for making us their premier pick for exceptional,
+            top-tier vintage clothing and accessories. Your faith in our brand
+            strengthens our resolve to continually supply only the finest in
+            vintage style offerings tailored to your unique needs and tastes.
           </p>
           <p>
-            To ensure that we stay at the forefront of the furniture industry
-            and sustain the highest level of quality in our products and
-            services, your ideas, feedback, and recommendations are most
-            welcome. Whether you have any issues to discuss or questions that
-            need to be answered, we are here for you. Our knowledgeable and
-            amicable team is ready to help you choose the best furniture
-            solution.
+            To secure our position as leaders in the world of vintage fashion
+            and maintain the supreme quality of our offerings, your thoughts,
+            feedback, and suggestions are greatly appreciated. Whether you have
+            concerns to share or queries that seek resolution, we are at your
+            service. Our skilled and friendly team is prepared to assist you
+            with choosing the ideal vintage piece.
           </p>
           <p>
-            We sincerely value your steadfast trust in Mobiliaris and the choice
-            you've made to be an integral part of our dynamic community
-            committed to excellence and the latest trends in the furniture
-            world.
+            We sincerely value your unwavering trust in Passioni Vintage and the
+            decision you've made to be an essential part of our vibrant
+            community, committed to excellence and the latest trends in the
+            vintage fashion realm.
           </p>
           <p class="cBlock-fgZSxP4y">
-            With sincere gratitude and warm regards,
+            With heartfelt thanks and warmest regards,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The Mobiliaris Team</span>
+            <span class="domain-fgZSxP4y">The Passioni Vintage Team</span>
           </p>
         </div>
       </div>
