@@ -36,16 +36,16 @@ iframe {
 .blur {
   padding: 40px 20px;
   // backdrop-filter: blur(40px);
-  background: linear-gradient(rgba(9, 51, 61, 0.8), rgba(0, 0, 0, 0.8));
-  border-radius: 4px 30px 40px 0px;
+  background: linear-gradient(rgba(14, 14, 14, 0.6), rgba(0, 0, 0, 0.8));
+  // border-radius: 4px 30px 40px 0px;
   text-align: center;
 }
 
 .img-fluid {
-  border: 1px solid #ebff3f;
+  border: 1px solid #222;
   // padding: 10px;
   // background-color: #fff;
-  border-radius: 80px 0 20px;
+  border-radius: 20px;
 }
 
 .clients .swiper-slide img {
@@ -129,8 +129,8 @@ iframe {
 
 .gradient-anim {
   background: linear-gradient(-45deg, #ff8c00, #b313ab, #f39c18, #d56723);
-  background-size: 400% 400%;
-  animation: gradient-anim 10s ease-in-out infinite;
+  background-size: 300% 300%;
+  animation: gradient-anim 3s ease-in-out infinite;
 }
 
 @keyframes ctascroll {
