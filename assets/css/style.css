@@ -792,6 +792,56 @@ iframe {
   height: 32px;
 }
 
+/*Getapp*/
+.getapp_container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  background-image: linear-gradient(135deg, #FE5181 0%, #FF34DF 100%);
+  padding: 40px 40px 0;
+  border-radius: 20px;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+#getapp h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.getapp_left {
+  text-align: center;
+  max-width: 540px;
+  letter-spacing: 2px;
+}
+
+.getapp_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.getapp_right img {
+  width: 100%;
+}
+
+.getapp_btn {
+  text-transform: uppercase;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 14px 40px;
+  color: #fe5181;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.getapp_btn:hover {
+  background: #57d16f;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -1695,10 +1745,10 @@ section {
   color: #fff;
   transition: 0.3s;
   background-color: transparent;
-  background-image: linear-gradient(220deg,#FE5181 0%,#FF34DF 100%);
+  background-image: linear-gradient(220deg, #FE5181 0%, #FF34DF 100%);
   border-radius: 12px 12px 12px 12px;
   overflow: hidden;
-  box-shadow: 0 10px 30px -15px rgba(0,0,0,.35);
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, .35);
   width: 40vw;
   max-width: 600px;
 }
