@@ -7,6 +7,12 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background: #0f0c1b;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -707,6 +713,83 @@ iframe {
 .faq_content_bottom {
   display: flex;
   justify-content: space-between;
+}
+
+/*--------------------------------------------------------------
+# testim Section
+--------------------------------------------------------------*/
+#testim {
+  width: 100%;
+  background-color: #0f0c1b;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+#testim h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 40px 0;
+}
+
+#testim p {
+  letter-spacing: 0.8px;
+  line-height: 30px;
+}
+
+.testim_content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testim_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/testim.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 660px;
+  width: 560px;
+  border-radius: 20px;
+}
+
+.testim_right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 660px;
+  width: 560px;
+  border-radius: 20px;
+  text-align: left;
+  background-color: #191A1E;
+}
+
+.testim_item {
+  padding: 32px;
+}
+
+.testim_border {
+  height: 1px;
+  background: #353434;
+}
+
+.testim_name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.testim_right img {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
 }
 
 /*--------------------------------------------------------------
