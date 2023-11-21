@@ -58,11 +58,14 @@
             <li>
               <a class="nav-link scrollto" href="#getapp">Contact Us</a>
             </li>
+            <li>
+              <a href="#contact" class="appointment-btn scrollto"
+                >Download app</a
+              >
+            </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
-
-        <a href="#contact" class="appointment-btn scrollto">Download app</a>
       </div>
     </header>
 
@@ -235,6 +238,10 @@
             <div class="slider_logo">Cric Gamer</div>
             <h1>CRIC GAMER APP PREVIEWS</h1>
           </div>
+          <div class="slider_nav">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
         </div>
         <section id="testimonials" class="testimonials">
           <div class="container" data-aos="fade-up">
@@ -275,8 +282,6 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
             </div>
           </div>
         </section>
@@ -552,7 +557,7 @@
       </section>
 
       <section id="getapp">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
           <div class="getapp_container">
             <div class="getapp_left">
               <h1>DOWNLOAD THE CRIC GAMER FANTASY APP.</h1>
@@ -565,7 +570,7 @@
         </div>
       </section>
 
-      <footer id="footer">
+      <footer id="footer" data-aos="fade-up">
         <div class="footer-top">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -645,6 +650,19 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const swiper = new Swiper('.swiper', {
+          slidesPerView: 4,
+          spaceBetween: 10,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      });
+    </script>
 
     <script src="assets/js/main.js"></script>
   </body>
