@@ -589,7 +589,7 @@ iframe {
 
 .downl_block.grad {
   background-color: transparent;
-  background-image: linear-gradient(180deg,#FE5181 0%,#FF34DF 100%);
+  background-image: linear-gradient(180deg, #FE5181 0%, #FF34DF 100%);
 }
 
 .downl_block img {
@@ -601,26 +601,71 @@ iframe {
 --------------------------------------------------------------*/
 #guide {
   width: 100%;
-  padding: 100px 0 80px;
-  height: 40vh;
+  padding: 100px 0 100px;
   background-color: #0f0c1b;
   overflow: hidden;
   position: relative;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 #guide h1 {
   font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
+  margin: 20px 0 80px 0;
 }
 
 #guide p {
   letter-spacing: 0.8px;
 }
 
-.guide_text p {
+.guide_num {
+  padding: 35px 40px;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #FE5181 0%, #FF34DF 100%);
+  border-radius: 100% 100% 100% 100%;
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, .1);
+  font-size: 42px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#guide ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  list-style: none;
+}
+
+#guide ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  width: 20vw;
+}
+
+#guide ul li p {
+  padding: 0;
+  margin: 0;
+}
+
+.guide_step {
   color: #fe5181;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
