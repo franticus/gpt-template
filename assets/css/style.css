@@ -378,10 +378,12 @@ iframe {
   font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 #about p {
   letter-spacing: 0.8px;
+  margin-bottom: 20px;
 }
 
 .about_text {
@@ -437,6 +439,7 @@ iframe {
 
 #why p {
   letter-spacing: 0.8px;
+  margin-bottom: 20px;
 }
 
 .why_btn {
@@ -525,7 +528,6 @@ iframe {
 #slider {
   width: 100%;
   padding: 100px 0 80px;
-  height: 40vh;
   background-color: #0f0c1b;
   overflow: hidden;
   position: relative;
@@ -700,6 +702,7 @@ iframe {
 
 .faq_img {
   width: 50%;
+  height: fit-content;
 }
 
 .faq_content {
@@ -793,6 +796,7 @@ iframe {
 }
 
 /*Getapp*/
+
 .getapp_container {
   display: flex;
   align-items: center;
@@ -840,6 +844,10 @@ iframe {
 
 .getapp_btn:hover {
   background: #57d16f;
+}
+
+#getapp svg {
+  opacity: 0.6;
 }
 
 /*--------------------------------------------------------------
@@ -1407,7 +1415,11 @@ section {
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  min-height: 320px;
+  min-height: 660px;
+}
+
+.testimonials .testimonial-item img {
+  width: 100%;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1916,142 +1928,55 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #eeeeee;
+  background-color: #0f0c1b;
   padding: 0 0 30px 0;
-  color: #555555;
+  color: #fff;
   font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+}
+
+#footer .footer_bold {
+  font-weight: 600;
+}
+
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1140px;
+}
+
+#footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#footer a {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+}
+
+#footer a:hover {
+  color: #36c688;
 }
 
 #footer .footer-top {
-  background: #f6f6f6;
-  padding: 60px 0 30px 0;
-}
-
-#footer .footer-top .footer-info {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-info h3 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
-}
-
-#footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
-}
-
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #3fbbc0;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 4px;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #65c9cd;
-  text-decoration: none;
-}
-
-#footer .footer-top h4 {
-  font-size: 16px;
-  font-weight: 600;
-  position: relative;
-  padding-bottom: 12px;
-}
-
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#footer .footer-top .footer-links ul i {
-  padding-right: 2px;
-  color: #3fbbc0;
-  font-size: 18px;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-
-#footer .footer-top .footer-links ul a {
-  color: #555555;
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul a:hover {
-  color: #3fbbc0;
-}
-
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border: 1px solid #d5d5d5;
-  border-radius: 4px;
-}
-
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: -1px;
-  right: -1px;
-  bottom: -1px;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #3fbbc0;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #65c9cd;
+  padding: 0 0 30px 0;
+  background-color: transparent;
+  background-image: linear-gradient(135deg, #FE5181 0%, #FF34DF 100%);
 }
 
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-}
-
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
 }
