@@ -95,6 +95,7 @@ iframe {
 #header.header-scrolled {
   top: 0;
   background: #0F0C1B;
+  padding: 20px 0;
 }
 
 #header .logo {
@@ -601,7 +602,6 @@ iframe {
 --------------------------------------------------------------*/
 #guide {
   width: 100%;
-  padding: 100px 0 100px;
   background-color: #0f0c1b;
   overflow: hidden;
   position: relative;
@@ -666,6 +666,47 @@ iframe {
   color: #fe5181;
   font-weight: 600;
   font-size: 18px;
+}
+
+/*--------------------------------------------------------------
+# faq Section
+--------------------------------------------------------------*/
+#faq {
+  width: 100%;
+  background-color: #0f0c1b;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+#faq h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#faq p {
+  letter-spacing: 0.8px;
+}
+
+.faq_img {
+  width: 50%;
+}
+
+.faq_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.faq_content_bottom {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*--------------------------------------------------------------
@@ -1545,6 +1586,7 @@ section {
 --------------------------------------------------------------*/
 .faq {
   padding: 60px 0;
+  color: #fff;
 }
 
 .faq .faq-list {
@@ -1553,34 +1595,44 @@ section {
 }
 
 .faq .faq-list li {
-  border-bottom: 1px solid #d9f1f2;
-  margin-bottom: 20px;
   padding-bottom: 20px;
+  color: #fff;
 }
 
 .faq .faq-list .question {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: relative;
-  font-family: #3fbbc0;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  padding-left: 25px;
+  padding: 16px 25px;
   cursor: pointer;
-  color: #32969a;
+  color: #fff;
   transition: 0.3s;
+  background-color: transparent;
+  background-image: linear-gradient(220deg,#FE5181 0%,#FF34DF 100%);
+  border-radius: 12px 12px 12px 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px -15px rgba(0,0,0,.35);
+  width: 40vw;
+  max-width: 600px;
 }
 
 .faq .faq-list i {
   font-size: 16px;
-  position: absolute;
-  left: 0;
-  top: -2px;
+  font-size: 30px;
+  font-style: normal;
 }
 
 .faq .faq-list p {
   margin-bottom: 0;
-  padding: 10px 0 0 25px;
+  padding: 25px;
+  opacity: 0.6;
+  font-weight: 400;
+  width: 100%;
+  max-width: 600px;
 }
 
 .faq .faq-list .icon-show {
@@ -1588,11 +1640,12 @@ section {
 }
 
 .faq .faq-list .collapsed {
-  color: black;
+  color: #fff;
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #3fbbc0;
+  cursor: pointer;
+  color: #fff;
 }
 
 .faq .faq-list .collapsed .icon-show {
