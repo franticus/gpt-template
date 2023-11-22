@@ -671,6 +671,17 @@ iframe {
   width: 100%;
 }
 
+@media (max-width: 1026px) {
+  .downl_content {
+    flex-direction: column;
+  }
+
+  .downl_blocks {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
 /*--------------------------------------------------------------
 # downl Section
 --------------------------------------------------------------*/
