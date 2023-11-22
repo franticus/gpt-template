@@ -809,6 +809,95 @@ iframe {
   justify-content: space-between;
 }
 
+.faq {
+  padding: 60px 0;
+  color: #fff;
+}
+
+.faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li {
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.faq .faq-list .question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 16px 25px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s;
+  background-color: transparent;
+  background-image: linear-gradient(220deg, #FE5181 0%, #FF34DF 100%);
+  border-radius: 12px 12px 12px 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, .35);
+  width: 40vw;
+  max-width: 600px;
+}
+
+.faq .faq-list i {
+  font-size: 16px;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 25px;
+  opacity: 0.6;
+  font-weight: 400;
+  width: 100%;
+  max-width: 600px;
+}
+
+.faq .faq-list .icon-show {
+  display: none;
+}
+
+.faq .faq-list .collapsed {
+  color: #fff;
+}
+
+.faq .faq-list .collapsed:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.faq .faq-list .collapsed .icon-show {
+  display: inline-block;
+  transition: 0.6s;
+}
+
+.faq .faq-list .collapsed .icon-close {
+  display: none;
+  transition: 0.6s;
+}
+
+@media (max-width: 1026px) {
+  .faq_content_bottom {
+    flex-direction: column;
+  }
+
+  .faq .faq-list .question {
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  .faq_img {
+    width: 100%;
+  }
+}
+
 /*--------------------------------------------------------------
 # testim Section
 --------------------------------------------------------------*/
@@ -1052,84 +1141,6 @@ section {
   position: static;
   margin: 0;
   padding: 0;
-}
-
-
-/*--------------------------------------------------------------
-# Frequently Asked Questioins
---------------------------------------------------------------*/
-.faq {
-  padding: 60px 0;
-  color: #fff;
-}
-
-.faq .faq-list {
-  padding: 0;
-  list-style: none;
-}
-
-.faq .faq-list li {
-  padding-bottom: 20px;
-  color: #fff;
-}
-
-.faq .faq-list .question {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  padding: 16px 25px;
-  cursor: pointer;
-  color: #fff;
-  transition: 0.3s;
-  background-color: transparent;
-  background-image: linear-gradient(220deg, #FE5181 0%, #FF34DF 100%);
-  border-radius: 12px 12px 12px 12px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, .35);
-  width: 40vw;
-  max-width: 600px;
-}
-
-.faq .faq-list i {
-  font-size: 16px;
-  font-size: 30px;
-  font-style: normal;
-}
-
-.faq .faq-list p {
-  margin-bottom: 0;
-  padding: 25px;
-  opacity: 0.6;
-  font-weight: 400;
-  width: 100%;
-  max-width: 600px;
-}
-
-.faq .faq-list .icon-show {
-  display: none;
-}
-
-.faq .faq-list .collapsed {
-  color: #fff;
-}
-
-.faq .faq-list .collapsed:hover {
-  cursor: pointer;
-  color: #fff;
-}
-
-.faq .faq-list .collapsed .icon-show {
-  display: inline-block;
-  transition: 0.6s;
-}
-
-.faq .faq-list .collapsed .icon-close {
-  display: none;
-  transition: 0.6s;
 }
 
 /*--------------------------------------------------------------
