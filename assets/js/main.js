@@ -208,24 +208,26 @@
 })();
 
 var modal = document.getElementById('modal');
-var button = document.getElementById('download');
+var button = document.getElementById('download') || null;
 var span = document.getElementsByClassName('close')[0];
 var sendButton = document.getElementById('sendButton');
 
-button.onclick = function () {
-  modal.style.display = 'block';
-};
+if (button) {
+  button.onclick = function () {
+    modal.style.display = 'block';
+  };
 
-span.onclick = function () {
-  modal.style.display = 'none';
-};
-
-window.onclick = function (event) {
-  if (event.target === modal) {
+  span.onclick = function () {
     modal.style.display = 'none';
-  }
-};
+  };
 
-sendButton.onclick = function () {
-  var phoneNumber = document.getElementById('phoneNumber').value;
-};
+  window.onclick = function (event) {
+    if (event.target === modal) {
+      modal.style.display = 'none';
+    }
+  };
+
+  sendButton.onclick = function () {
+    var phoneNumber = document.getElementById('phoneNumber').value;
+  };
+}
