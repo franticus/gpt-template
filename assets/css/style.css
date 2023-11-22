@@ -975,6 +975,17 @@ iframe {
   height: 32px;
 }
 
+@media (max-width: 1026px) {
+  .testim_content {
+    flex-direction: column;
+  }
+
+  .testim_left,
+  .testim_right {
+    width: 100%;
+  }
+}
+
 /*Getapp*/
 
 .getapp_container {
