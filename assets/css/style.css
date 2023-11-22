@@ -387,12 +387,12 @@ iframe {
 
   .hero_bot ul {
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .hero_bot ul li {
     flex-direction: column;
-    width: 20vw;
+    width: 40%;
     white-space: nowrap;
   }
 }
@@ -687,6 +687,7 @@ iframe {
 --------------------------------------------------------------*/
 #guide {
   width: 100%;
+  padding: 40px;
   background-color: #0f0c1b;
   overflow: hidden;
   position: relative;
@@ -730,6 +731,7 @@ iframe {
   align-items: flex-start;
   justify-content: center;
   list-style: none;
+  gap: 40px;
 }
 
 #guide ul li {
@@ -751,6 +753,18 @@ iframe {
   color: #fe5181;
   font-weight: 600;
   font-size: 18px;
+}
+
+@media (max-width: 1026px) {
+  #guide ul {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  #guide ul li {
+    width: 40%;
+    min-width: 260px;
+  }
 }
 
 /*--------------------------------------------------------------
