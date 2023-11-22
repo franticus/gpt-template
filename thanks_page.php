@@ -141,7 +141,7 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            At "EsportsEdge," we would like to express our deepest gratitude to
+            At "CricWinnerTop," we would like to express our deepest gratitude to
             all our esteemed users and esports betting enthusiasts for choosing
             us as their leading choice for top-tier cyber sports betting
             platform. Your trust in our model fuels our dedication to
@@ -157,14 +157,14 @@ if(mail($to, $subject, $message, $headers)) {
             with your esports betting needs.
           </p>
           <p>
-            We genuinely treasure your consistent faith in EsportsEdge and your
+            We genuinely treasure your consistent faith in CricWinnerTop and your
             choice to be a critical part of our vibrant community, dedicated to
             excellency and the latest tendencies in the esports betting
             landscape.
           </p>
           <p class="cBlock-fgZSxP4y">With sincere gratitude and best wishes,</p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The EsportsEdge Team</span>
+            <span class="domain-fgZSxP4y">The CricWinnerTop Team</span>
           </p>
         </div>
       </div>
