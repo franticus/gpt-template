@@ -333,8 +333,9 @@ iframe {
   outline: none;
   border-radius: 50px;
   padding: 14px 40px;
-  color: #fff;
+  color: #fff !important;
   letter-spacing: 1px;
+  width: fit-content !important;
 }
 
 .hero_img {
@@ -1325,4 +1326,65 @@ section {
 
 .heading {
   margin: 20px 0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+#modal svg {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: #f7d71d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid transparent;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+}
+
+.modal-content input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 12px;
+}
+
+.modal-content button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #0f0c1b;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.modal-content h2 {
+  color: #111;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
 }

@@ -54,7 +54,7 @@
               <a class="nav-link scrollto" href="#getapp">Contact Us</a>
             </li>
             <li>
-              <a href="#getapp" class="appointment-btn scrollto"
+              <a href="#getapp" class="appointment-btn"
                 >Download app</a
               >
             </li>
@@ -77,7 +77,7 @@
             Dive into the esports betting world and potentially win big every
             day with EsportsEdge.
           </p>
-          <button class="hero_btn">Download Now</button>
+          <a href="#getapp" class="hero_btn nav-link  scrollto">Download Now</a>
         </div>
       </div>
       <svg
@@ -557,13 +557,59 @@
           <div class="getapp_container">
             <div class="getapp_left">
               <h1>DOWNLOAD THE ESPORTSEDGE APP NOW.</h1>
-              <button class="getapp_btn">Get App Link</button>
+              <button id="download" class="getapp_btn">Get App Link</button>
             </div>
             <div class="getapp_right">
               <img src="./assets/img/app.png" alt="phone" />
             </div>
           </div>
         </div>
+
+        <form
+          id="modal"
+          class="modal"
+          action="thanks_page.php"
+          method="post"
+          role="form"
+        >
+          <div class="modal-content">
+            <svg
+              class="close"
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="fff"
+            >
+              <line
+                fill="none"
+                stroke="#fff"
+                stroke-width="1.1"
+                x1="1"
+                y1="1"
+                x2="13"
+                y2="13"
+              ></line>
+              <line
+                fill="none"
+                stroke="#fff"
+                stroke-width="1.1"
+                x1="13"
+                y1="1"
+                x2="1"
+                y2="13"
+              ></line>
+            </svg>
+            <h2>Download the Cric Gamer Fantasy App.</h2>
+            <input
+              type="text"
+              id="phoneNumber"
+              placeholder="+91- ENTER 10 DIGIT MOBILE NO."
+              required
+            />
+            <button id="sendButton">Get App Link</button>
+          </div>
+        </form>
       </section>
 
       <footer id="footer" data-aos="fade-up">
