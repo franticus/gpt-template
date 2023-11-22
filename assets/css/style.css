@@ -821,6 +821,8 @@ iframe {
 
 #faq p {
   letter-spacing: 0.8px;
+  max-width: 600px;
+  width: 40vw;
 }
 
 .faq_img {
@@ -921,6 +923,11 @@ iframe {
   }
 
   .faq .faq-list .question {
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  #faq p {
     width: 100%;
     max-width: 100vw;
   }
