@@ -1318,6 +1318,11 @@ section {
   line-height: 30px;
 }
 
+.priv-content ul {
+  color: #656871;
+  line-height: 30px;
+}
+
 .heading {
   margin: 20px 0;
 }
