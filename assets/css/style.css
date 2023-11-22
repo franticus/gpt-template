@@ -424,6 +424,10 @@ iframe {
   color: #fff;
 }
 
+.about_logo img {
+  width: 100px;
+}
+
 #about h1 {
   font-size: 40px;
   font-weight: 600;
@@ -1159,6 +1163,10 @@ section {
   gap: 20px;
 }
 
+.slider_logo img {
+  width: 100px;
+}
+
 .slider_nav {
   display: flex;
   align-items: center;
@@ -1243,6 +1251,10 @@ section {
 #footer img {
   width: 100%;
   max-width: 600px;
+}
+
+#footer .footer_logo img {
+  width: 200px;
 }
 
 @media (max-width: 1026px) {
