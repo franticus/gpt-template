@@ -384,6 +384,17 @@ iframe {
   .hero_img {
     width: 80vw;
   }
+
+  .hero_bot ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .hero_bot ul li {
+    flex-direction: column;
+    width: 20vw;
+    white-space: nowrap;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -440,6 +451,20 @@ iframe {
   align-items: center;
   justify-content: center;
   gap: 40px;
+}
+
+@media (max-width: 1026px) {
+  .about_content {
+    flex-direction: column;
+  }
+
+  .about_img {
+    width: 80vw;
+  }
+
+  .about_text {
+    padding: 0;
+  }
 }
 
 /*--------------------------------------------------------------
