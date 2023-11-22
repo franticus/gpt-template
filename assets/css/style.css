@@ -1041,6 +1041,13 @@ iframe {
   opacity: 0.6;
 }
 
+@media (max-width: 1026px) {
+  .getapp_container {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
