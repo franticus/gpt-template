@@ -541,7 +541,7 @@ section {
 }
 
 .featured-services .service-item .icon i {
-  color: #001f8d;
+  color: #358172;
   font-size: 48px;
   transition: 0.3s;
 }
@@ -590,7 +590,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   font-family: var(--font-secondary);
-  color: #001f8d;
+  color: #358172;
 }
 
 .about .content ul {
@@ -1028,7 +1028,7 @@ section {
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 80px 0;
+  padding: 200px 0;
   background: url("../img/hero-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1039,7 +1039,7 @@ section {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(14, 29, 52, 0.7);
+  background: rgb(16 40 26 / 70%);
 }
 
 .testimonials .section-header {
