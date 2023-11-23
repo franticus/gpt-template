@@ -19,6 +19,7 @@ if(mail($to, $subject, $message, $headers)) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thank you!</title>
+    <link href="./favicon.ico" rel="icon" />
 
     <style>
       * {
@@ -29,7 +30,7 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #222;
-        background: #fff;
+        background: #ffe5c3;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
@@ -141,31 +142,30 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            We, at "Flammula Plants", want to extend our heartfelt appreciation
-            to each and every customer and plant enthusiast who has chosen us as
-            their go-to source for premium, nature-inspired flora. Your trust in
-            us propels our commitment to consistently deliver the highest
-            quality plants and services tailored to your botanical needs.
+            We, at "Kidtopia Toys", want to extend our heartfelt appreciation to
+            each and every customer and toy enthusiast who has chosen us as
+            their go-to source for premium, fun-filled toys. Your trust in us
+            propels our commitment to consistently deliver the highest quality
+            toys and services tailored to your children's needs.
           </p>
           <p>
-            To ensure that we continue to be a leading authority in the plant
+            To ensure that we continue to be a leading authority in the toy
             industry and maintain the utmost standards in our offerings, your
             feedback, innovative ideas, and suggestions are invaluable. Whether
             you have any concerns to discuss or queries to be answered, we're
             here to listen. Our knowledgeable and friendly team is eager to
-            assist you in finding your perfect botanical solution.
+            assist you in finding the perfect toy for your child.
           </p>
           <p>
-            We genuinely appreciate your unwavering trust in Flammula Plants and
+            We genuinely appreciate your unwavering trust in Kidtopia Toys and
             your decision to be an integral part of our vibrant community
-            dedicated to excellence and the latest trends in the world of
-            plants.
+            dedicated to excellence and the latest trends in the world of toys.
           </p>
           <p class="cBlock-fgZSxP4y">
             With sincere gratitude and best regards,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The Flammula Plants Team</span>
+            <span class="domain-fgZSxP4y">The Kidtopia Toys Team</span>
           </p>
         </div>
       </div>
@@ -232,5 +232,4 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
-
-
+Ï
