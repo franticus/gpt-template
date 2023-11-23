@@ -445,7 +445,7 @@ iframe {
 
 #about p {
   letter-spacing: 0.8px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .about_text {
@@ -464,6 +464,10 @@ iframe {
   background-color: transparent;
   border-style: solid;
   border-color: #fe5151;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
 }
 
 .about_img {
@@ -529,6 +533,10 @@ iframe {
   background-color: transparent;
   border-style: solid;
   border-color: #fe5151;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
 }
 
 .why_img {
