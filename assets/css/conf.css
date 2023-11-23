@@ -5,7 +5,7 @@ ul {
 }
 
 iframe {
-  margin: 0 auto;
+  margin-top: 40px;
   border: 2px solid #000;
 }
 
@@ -42,10 +42,10 @@ iframe {
 }
 
 .img-fluid {
-  // border: 8px solid #eee;
+  border: 8px solid #358172;
   // padding: 10px;
   // background-color: #fff;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 
 .clients .swiper-slide img {
@@ -110,7 +110,7 @@ iframe {
 }
 
 .padtop {
-  padding-top: 140px;
+  padding-top: 100px;
 }
 
 .team-jsdhv-weq .member .member-img img {

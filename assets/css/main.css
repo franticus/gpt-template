@@ -7,8 +7,8 @@
 /* Colors */
 :root {
   --color-default: #0a0d13;
-  --color-primary: #96adff;
-  --color-secondary: #30425d;
+  --color-primary: #358172;
+  --color-secondary: #182d32;
 }
 
 /* Smooth scroll behavior */
@@ -22,7 +22,9 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background: #ffe5c3;
+  background-color: #f3f3fd;
+  background-image: linear-gradient(#d3d5ff 0.4px, transparent 0.4px), linear-gradient(to right, #d3d5ff 0.4px, #f3f3fd 0.4px);
+  background-size: 8px 8px;
 }
 
 a {
@@ -64,7 +66,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #001973;
+  color: #358172;
   position: relative;
   z-index: 2;
   margin-bottom: 20px;
@@ -241,10 +243,11 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 30px 0;
+  background: #358172;
 }
 
 .header.sticked {
-  background: rgb(51 71 103 / 90%);
+  background: rgb(51 100 103 / 90%);
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
 }
@@ -421,7 +424,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(14, 29, 52, 0.9);
+    background: rgb(26 84 75 / 90%);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -707,7 +710,7 @@ section {
 --------------------------------------------------------------*/
 .services .card {
   border: 1px solid rgba(14, 29, 52, 0.15);
-  background: #fff;
+  background: transparent;
   position: relative;
   border-radius: 0;
   height: 100%;
@@ -732,7 +735,7 @@ section {
 }
 
 .services .card a {
-  color: #001973;
+  color: #358172;
   transition: 0.3;
 }
 
@@ -815,7 +818,7 @@ section {
 .features .features-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #001973;
+  color: #358172;
 }
 
 .features .features-item ul {
@@ -967,6 +970,8 @@ section {
 .faq .accordion-item {
   border: 0;
   margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .faq .accordion-collapse {
@@ -980,7 +985,7 @@ section {
   font-size: 18px;
   color: var(--color-default);
   text-align: left;
-  background: rgba(14, 29, 52, 0.03);
+  background: rgba(255, 255, 255, 0.01);
   border-radius: 5px;
 }
 
@@ -1011,7 +1016,7 @@ section {
 .faq .accordion-body {
   padding: 0 30px 25px 60px;
   border: 0;
-  background: rgba(14, 29, 52, 0.03);
+  background: rgba(255, 255, 255, 0.03);
   border-radius: 5px;
 }
 
@@ -1171,7 +1176,8 @@ section {
 .team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #fff;
+  padding: 40px 80px;
+  // background: #fff;  
   border: 1px solid rgba(14, 29, 52, 0.15);
 }
 
@@ -1537,7 +1543,7 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 60vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../img/hero-bg.jpg");
   background-size: cover;
   background-position: center;
