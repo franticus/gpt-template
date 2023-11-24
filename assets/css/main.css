@@ -6,8 +6,8 @@
 
 /* Colors */
 :root {
-  --color-default: #fff;
-  --color-primary: #b3c732;
+  --color-default: #111;
+  --color-primary: #5c40ff;
   --color-secondary: #eee;
 }
 
@@ -22,7 +22,11 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color: #2b2b33;
+  background-color: #f3f3ff;
+  opacity: 1;
+  background-image: repeating-linear-gradient(45deg, #ffffff 25%, transparent 25%, transparent 75%, #ffffff 75%, #ffffff), repeating-linear-gradient(45deg, #ffffff 25%, #f3f3ff 25%, #f3f3ff 75%, #ffffff 75%, #ffffff);
+  background-position: 0 0, 4px 4px;
+  background-size: 8px 8px;
 }
 
 a {
@@ -64,7 +68,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #b3c732;
+  color: #5c40ff;
   position: relative;
   z-index: 2;
   margin-bottom: 20px;
@@ -241,12 +245,12 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 30px 0;
-  background: #19181a;
-  border-bottom: 1px solid #b3c732;
+  background: #fff;
+  border-bottom: 1px solid #5c40ff;
 }
 
 .header.sticked {
-  background: #19181a;
+  background: #fff;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
 }
@@ -260,13 +264,11 @@ section {
   font-size: 30px;
   margin: 0;
   font-weight: 700;
-  color: #fff;
+  color: #111;
+  border-bottom: 10px solid #5c40ff;
   font-family: var(--font-primary);
 }
 
-/*--------------------------------------------------------------
-# Desktop Navigation
---------------------------------------------------------------*/
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;
@@ -293,7 +295,7 @@ section {
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: #111;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -309,7 +311,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #5c40ff;
   }
 
   .navbar .get-a-quote,
@@ -423,7 +425,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgb(26 84 75 / 90%);
+    background: rgb(26 34 84 / 90%);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -488,7 +490,7 @@ section {
   }
 
   .mobile-nav-show {
-    color: #fff;
+    color: #111;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -533,7 +535,7 @@ section {
   position: relative;
   height: 100%;
   margin-bottom: 20px;
-  border-left: 2px solid #b3c732;
+  border-bottom: 2px solid #5c40ff;
   padding: 40px;
   border-radius: 40px;
 
@@ -544,7 +546,7 @@ section {
 }
 
 .featured-services .service-item .icon i {
-  color: #b3c732;
+  color: #5c40ff;
   font-size: 48px;
   transition: 0.3s;
 }
@@ -563,14 +565,14 @@ section {
 
 .featured-services .service-item .description {
   font-size: 15px;
-  color: #b3c732;
+  color: #5c40ff;
   margin-bottom: 10px;
 }
 
 .featured-services .service-item .readmore {
   display: flex;
   align-items: center;
-  color: var(--color-secondary);
+  color: #111;
   transition: 0.3s;
   font-weight: 700;
   font-size: 14px;
@@ -593,7 +595,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   font-family: var(--font-secondary);
-  color: #b3c732;
+  color: #5c40ff;
 }
 
 .about .content ul {
@@ -618,7 +620,7 @@ section {
 .about .content ul h5 {
   font-size: 18px;
   font-weight: 700;
-  color: #b3c732;
+  color: #5c40ff;
 }
 
 .about .content ul p {
@@ -712,17 +714,17 @@ section {
 # Services Section
 --------------------------------------------------------------*/
 .services .card {
-  border: 1px solid rgba(14, 29, 52, 0.15);
   background: transparent;
   position: relative;
-  border-radius: 0;
+  border-radius: 40px;
+  border: none;
   height: 100%;
 }
 
 .services .card .card-img {
   overflow: hidden;
   margin-bottom: 15px;
-  border-radius: 0;
+  border-radius: 100px;
 }
 
 .services .card .card-img img {
@@ -738,7 +740,7 @@ section {
 }
 
 .services .card a {
-  color: #b3c732;
+  color: #5c40ff;
   transition: 0.3;
 }
 
@@ -749,7 +751,7 @@ section {
 .services .card p {
   padding: 0 30px;
   margin-bottom: 30px;
-  color: var(--color-secondary);
+  color: #111;
   font-size: 15px;
 }
 
@@ -761,7 +763,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  padding: 200px 0;
+  padding: 30vh 0;
   background: url("../img/hero-bg.jpg") no-repeat;
   background-size: cover;
 }
@@ -821,7 +823,7 @@ section {
 .features .features-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #b3c732;
+  color: #5c40ff;
 }
 
 .features .features-item ul {
@@ -858,15 +860,15 @@ section {
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
   height: 100%;
-  border-top: 4px solid #fff;
-  border-radius: 50px;
+  border-top: 40px solid #fff;
+  text-align: center;
 }
 
 .pricing h3 {
   font-weight: 600;
   margin-bottom: 15px;
   font-size: 20px;
-  color: var(--color-secondary);
+  color: #111;
 }
 
 .pricing h4 {
@@ -978,7 +980,7 @@ section {
   margin-bottom: 10px;
   border-radius: 20px;
   padding: 20px;
-  background: #2b2b33;
+  background: #fff;
 }
 
 .faq .accordion-collapse {
@@ -1025,7 +1027,7 @@ section {
   border: 0;
   background: rgba(255, 255, 255, 0.03);
   border-radius: 5px;
-  color: #fff;
+  color: #111;
 }
 
 /*--------------------------------------------------------------
@@ -1033,6 +1035,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 100px 0;
+  background: #5d40ff8d;
 }
 
 .testimonials .section-header {
@@ -1138,7 +1141,7 @@ section {
 .stats-counter .stats-item span {
   font-size: 48px;
   display: block;
-  color: var(--color-secondary);
+  color: #5c40ff;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -1161,10 +1164,9 @@ section {
 .stats-counter .stats-item p {
   padding: 0;
   margin: 0;
-  font-family: var(--font-primary);
   font-size: 15px;
   font-weight: 500;
-  color: var(--color-secondary);
+  color: #111;
 }
 
 /*--------------------------------------------------------------
@@ -1177,9 +1179,7 @@ section {
 .team .member {
   text-align: center;
   margin-bottom: 20px;
-  padding: 40px 80px;
   // background: #fff;  
-  border: 1px solid rgba(14, 29, 52, 0.15);
 }
 
 .team .member img {
@@ -1207,7 +1207,7 @@ section {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
-  color: #eee;
+  color: #111;
 }
 
 .team .member .social {
@@ -1376,7 +1376,7 @@ section {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: var(--color-secondary);
+  color: #111;
 }
 
 .contact .info-item p {
@@ -1645,7 +1645,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: #161212;
+  background-color: #252357;
   padding: 50px 0;
   color: white;
 }
