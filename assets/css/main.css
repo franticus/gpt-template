@@ -766,8 +766,6 @@ section {
 --------------------------------------------------------------*/
 .call-to-action {
   padding: 30vh 0;
-  background: url("../img/hero-bg.jpg") no-repeat;
-  background-size: cover;
 }
 
 @media (min-width: 1365px) {
