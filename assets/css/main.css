@@ -6,9 +6,9 @@
 
 /* Colors */
 :root {
-  --color-default: #0a0d13;
-  --color-primary: #358172;
-  --color-secondary: #182d32;
+  --color-default: #fff;
+  --color-primary: #b3c732;
+  --color-secondary: #eee;
 }
 
 /* Smooth scroll behavior */
@@ -22,9 +22,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color: #f3f3fd;
-  background-image: linear-gradient(#d3d5ff 0.4px, transparent 0.4px), linear-gradient(to right, #d3d5ff 0.4px, #f3f3fd 0.4px);
-  background-size: 8px 8px;
+  background-color: #2b2b33;
 }
 
 a {
@@ -66,7 +64,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #358172;
+  color: #b3c732;
   position: relative;
   z-index: 2;
   margin-bottom: 20px;
@@ -243,11 +241,12 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 30px 0;
-  background: #358172;
+  background: #19181a;
+  border-bottom: 1px solid #b3c732;
 }
 
 .header.sticked {
-  background: rgb(51 100 103 / 90%);
+  background: #19181a;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
 }
@@ -534,6 +533,10 @@ section {
   position: relative;
   height: 100%;
   margin-bottom: 20px;
+  border-left: 2px solid #b3c732;
+  padding: 40px;
+  border-radius: 40px;
+
 }
 
 .featured-services .service-item .icon {
@@ -541,7 +544,7 @@ section {
 }
 
 .featured-services .service-item .icon i {
-  color: #358172;
+  color: #b3c732;
   font-size: 48px;
   transition: 0.3s;
 }
@@ -560,7 +563,7 @@ section {
 
 .featured-services .service-item .description {
   font-size: 15px;
-  color: #132848;
+  color: #b3c732;
   margin-bottom: 10px;
 }
 
@@ -590,7 +593,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   font-family: var(--font-secondary);
-  color: #358172;
+  color: #b3c732;
 }
 
 .about .content ul {
@@ -615,7 +618,7 @@ section {
 .about .content ul h5 {
   font-size: 18px;
   font-weight: 700;
-  color: #19335c;
+  color: #b3c732;
 }
 
 .about .content ul p {
@@ -735,7 +738,7 @@ section {
 }
 
 .services .card a {
-  color: #358172;
+  color: #b3c732;
   transition: 0.3;
 }
 
@@ -758,8 +761,6 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgb(14 52 17 / 60%), rgb(4 15 12 / 80%)), url(../img/cta-bg.jpg) center center;
-  background-size: cover;
   padding: 200px 0;
 }
 
@@ -818,7 +819,7 @@ section {
 .features .features-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #358172;
+  color: #b3c732;
 }
 
 .features .features-item ul {
@@ -854,10 +855,9 @@ section {
 .pricing .pricing-item {
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
-  background: #fff;
   height: 100%;
   border-top: 4px solid #fff;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 .pricing h3 {
@@ -976,6 +976,7 @@ section {
   margin-bottom: 10px;
   border-radius: 20px;
   padding: 20px;
+  background: #2b2b33;
 }
 
 .faq .accordion-collapse {
@@ -1008,7 +1009,7 @@ section {
   top: 14px;
   left: 25px;
   font-size: 20px;
-  color: var(--color-primary);
+  color: #fff;
 }
 
 .faq .accordion-button:after {
@@ -1022,24 +1023,14 @@ section {
   border: 0;
   background: rgba(255, 255, 255, 0.03);
   border-radius: 5px;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 200px 0;
-  background: url("../img/hero-bg.jpg") no-repeat;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-}
-
-.testimonials::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgb(16 40 26 / 70%);
+  padding: 100px 0;
 }
 
 .testimonials .section-header {
@@ -1177,6 +1168,10 @@ section {
 /*--------------------------------------------------------------
 # Our Team Section
 --------------------------------------------------------------*/
+.team {
+  padding-bottom: 0;
+}
+
 .team .member {
   text-align: center;
   margin-bottom: 20px;
@@ -1210,7 +1205,7 @@ section {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
-  color: #6c757d;
+  color: #eee;
 }
 
 .team .member .social {
@@ -1547,8 +1542,8 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 60vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../img/hero-bg.jpg");
+  min-height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../img/hero-bg.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1648,7 +1643,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: var(--color-secondary);
+  background-color: #161212;
   padding: 50px 0;
   color: white;
 }

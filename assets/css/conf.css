@@ -6,7 +6,8 @@ ul {
 
 iframe {
   margin-top: 40px;
-  border: 2px solid #000;
+  border: 2px solid #b3c732;
+  border-radius: 20px;
 }
 
 #header .logo {
@@ -42,10 +43,10 @@ iframe {
 }
 
 .img-fluid {
-  border: 8px solid #358172;
+  border: 2px solid #b3c732;
   // padding: 10px;
   // background-color: #fff;
-  border-radius: 10px;
+  border-radius: 10px 40px 100px;
 }
 
 .clients .swiper-slide img {
@@ -93,12 +94,12 @@ iframe {
 }
 
 .form-check a {
-  color: #111;
+  color: #fff;
   text-decoration: underline;
 }
 
 .form-check .form-check-label {
-  color: #111;
+  color: #fff;
 }
 
 .custom-check {
