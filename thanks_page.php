@@ -31,7 +31,7 @@ if(mail($to, $subject, $message, $headers)) {
         font-family: 'Open Sans', sans-serif;
         color: #111;
         background-color: transparent;
-        background-image: linear-gradient(139deg, #fe5181 12%, #ff34df 70%);
+        background-image: linear-gradient(139deg, #fe5151 12%, #ffca34 70%);
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
@@ -141,28 +141,29 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            At "CricWinnerTop," we would like to express our deepest gratitude to
-            all our esteemed users and esports betting enthusiasts for choosing
-            us as their leading choice for top-tier cyber sports betting
-            platform. Your trust in our model fuels our dedication to
-            continually provide only the best esports betting experiences
-            tailored to your distinct preferences.
+            We at "CricWinnerTop" are incredibly thankful to all our dedicated
+            users and fantasy sports enthusiasts for selecting us as their
+            premier destination for managing their fantasy sports teams. Your
+            confidence in our platform propels our commitment to consistently
+            offer the best fantasy gaming experiences, crafted to meet your
+            unique sports insights and preferences.
           </p>
           <p>
-            To solidify our standing as leaders in the world of esports betting
-            and ensure the highest quality of our services, your comments,
-            feedback, and recommendations are immensely valued. Whether you have
-            points to discuss or questions that need answers, we are here to
-            help. Our knowledgeable and amicable team is ready to assist you
-            with your esports betting needs.
+            As we strive to maintain our elite status in the realm of fantasy
+            sports gaming and to guarantee the excellence of our offerings, we
+            hold your opinions, feedback, and suggestions in high regard.
+            Whether you're looking to discuss strategies or seek answers to your
+            queries, we stand ready to support you. Our informed and friendly
+            team is on hand to ensure that your fantasy sports gaming journey is
+            seamless and thoroughly enjoyable.
           </p>
           <p>
-            We genuinely treasure your consistent faith in CricWinnerTop and your
-            choice to be a critical part of our vibrant community, dedicated to
-            excellency and the latest tendencies in the esports betting
-            landscape.
+            We greatly value the steadfast trust you have placed in
+            CricWinnerTop, and your decision to join and enrich our dynamic
+            community, driven by a shared commitment to excellence and the
+            evolving trends in fantasy sports gaming.
           </p>
-          <p class="cBlock-fgZSxP4y">With sincere gratitude and best wishes,</p>
+          <p class="cBlock-fgZSxP4y">With heartfelt thanks and best wishes,</p>
           <p class="cBlock-fgZSxP4y">
             <span class="domain-fgZSxP4y">The CricWinnerTop Team</span>
           </p>
@@ -231,4 +232,3 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
-Ï
