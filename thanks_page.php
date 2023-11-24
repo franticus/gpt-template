@@ -30,16 +30,13 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #222;
-        background-color: #f3f3fd;
-        background-image: linear-gradient(#d3d5ff 0.4px, transparent 0.4px),
-          linear-gradient(to right, #d3d5ff 0.4px, #f3f3fd 0.4px);
-        background-size: 8px 8px;
+        background-color: #222;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        border: 4px solid #000;
-        border-top: 2px solid #000;
-        border-right: 1px solid #000;
+        border: 4px solid #b3c732;
+        border-top: 20px solid #b3c732;
+        border-right: 1px solid #b3c732;
         border-radius: 2px;
         background: #fff;
       }
@@ -145,33 +142,32 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            We, at "DeskDelights Furniture", want to express our sincere
-            gratitude to each and every customer and office furniture enthusiast
-            who has chosen us as their trusted destination for premium, stylish
-            office furnishings. Your trust in us drives our commitment to
-            consistently deliver the highest quality furniture and services
-            tailored to your professional needs.
+            At "EliteBling Jewelry", we wish to extend our deepest appreciation
+            to each cherished customer and enthusiast of exclusive jewelry who
+            has selected us as their preferred source for luxurious, bespoke
+            pieces. Your confidence in our brand propels our dedication to not
+            only meet but exceed expectations with the finest quality jewelry
+            that perfectly complements your unique style.
           </p>
           <p>
-            To ensure that we continue to be a leading authority in the office
-            furniture industry and maintain the highest standards in our
-            offerings, your feedback, innovative ideas, and suggestions are
-            invaluable. Whether you have any concerns to discuss or queries to
-            be answered, we're here to listen. Our knowledgeable and friendly
-            team is eager to assist you in finding the perfect office furniture
-            for your workspace.
+            Our commitment to remaining at the forefront of the jewelry industry
+            drives us to uphold nothing but the highest standards in our
+            collection. Your invaluable input, creative suggestions, and
+            feedback are the cornerstone of our growth and excellence. Should
+            you have any issues or questions, please know that we are here to
+            engage. Our experienced and approachable team looks forward to
+            helping you find those quintessential pieces that resonate with your
+            personal flair and elegance.
           </p>
           <p>
-            We genuinely appreciate your unwavering trust in DeskDelights
-            Furniture and your decision to be an integral part of our vibrant
-            community dedicated to excellence and the latest trends in the world
-            of office furnishings.
+            We are genuinely thankful for your steadfast trust in EliteBling
+            Jewelry and for choosing to become an essential part of our
+            distinguished circle passionate about fine jewelry and the latest
+            vogues in the realm of high-end adornments.
           </p>
+          <p class="cBlock-fgZSxP4y">With heartfelt thanks and warm regards,</p>
           <p class="cBlock-fgZSxP4y">
-            With sincere gratitude and best regards,
-          </p>
-          <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The DeskDelights Furniture Team</span>
+            <span class="domain-fgZSxP4y">The EliteBling Jewelry Team</span>
           </p>
         </div>
       </div>
