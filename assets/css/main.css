@@ -298,6 +298,8 @@ section {
     color: #111;
     white-space: nowrap;
     transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 600;
   }
 
   .navbar a i,
