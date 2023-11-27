@@ -30,13 +30,16 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #111;
-        background-color: #fff;
+        background-color: background-color: #ffffff;
+        opacity: 1;
+        background-image: linear-gradient(#f2f2ff 1px, transparent 1px), linear-gradient(to right, #f2f2ff 1px, #ffffff 1px);
+        background-size: 20px 20px;;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        border: 4px solid #5c40ff;
-        border-top: 20px solid #5c40ff;
-        border-right: 1px solid #5c40ff;
+        border: 4px solid #40ff98;
+        border-top: 20px solid #40ff98;
+        border-right: 1px solid #40ff98;
         border-radius: 2px;
         background: #fff;
       }
@@ -142,36 +145,37 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            At "DriveFleet", we wish to express our sincerest gratitude to each
-            valued customer and aficionado of premium car rentals who has made
-            us their top choice for discovering and enjoying the ultimate in
-            vehicular luxury and comfort. Your trust in our brand fuels our
+            At "TalkTrek", we wish to express our sincerest gratitude to each
+            valued learner and enthusiast of language learning who has made us
+            their top choice for discovering and enjoying the ultimate in
+            mastering foreign languages. Your trust in our platform fuels our
             passion for delivering an exceptional service that not only meets
-            but surpasses your expectations with a fleet that aligns with your
-            distinct driving preferences.
+            but surpasses your expectations with courses that align with your
+            distinct learning preferences.
           </p>
           <p>
-            Our dedication to maintaining a leading position in the car rental
-            industry motivates us to adhere to the utmost standards in our
-            vehicle selection and customer care. Your valuable feedback,
-            inventive suggestions, and insights are the foundation of our
-            continual improvement and distinction. Should you encounter any
-            concerns or have any inquiries, please rest assured that our
-            responsive and knowledgeable team is eager to assist. We look
-            forward to guiding you to the perfect vehicle that enhances your
-            journey and reflects your sophistication and style.
+            Our dedication to maintaining a leading position in the online
+            language learning industry motivates us to adhere to the utmost
+            standards in our course offerings and customer support. Your
+            valuable feedback, inventive suggestions, and insights are the
+            foundation of our continual improvement and distinction. Should you
+            encounter any concerns or have any inquiries, please rest assured
+            that our responsive and knowledgeable team is eager to assist. We
+            look forward to guiding you to the perfect language learning
+            experience that enhances your skills and reflects your dedication
+            and enthusiasm.
           </p>
           <p>
-            We are deeply appreciative of your loyal patronage to DriveFleet and
-            for choosing us to be an integral part of your travel experiences,
-            unified by a shared passion for exceptional vehicles and the latest
-            trends in automotive luxury.
+            We are deeply appreciative of your commitment to TalkTrek and for
+            choosing us to be an integral part of your language learning
+            journey, unified by a shared passion for mastering foreign languages
+            and exploring diverse cultures.
           </p>
           <p class="cBlock-fgZSxP4y">
             With heartfelt thanks and warmest wishes,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The DriveFleet Team</span>
+            <span class="domain-fgZSxP4y">The TalkTrek Team</span>
           </p>
         </div>
       </div>
