@@ -42,9 +42,9 @@ iframe {
 }
 
 .img-fluid {
-  // padding: 10px;
-  // background-color: #fff;
-  border-radius: 60px;
+  padding: 20px;
+  background-color: #fff;
+  // border-radius: 60px;
 }
 
 .clients .swiper-slide img {
