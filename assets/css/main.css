@@ -22,6 +22,10 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: linear-gradient(#f2f2ff 1px, transparent 1px), linear-gradient(to right, #f2f2ff 1px, #ffffff 1px);
+  background-size: 20px 20px;
 }
 
 a {
@@ -481,7 +485,7 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 70vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -495,6 +499,7 @@ section {
     content: "";
     width: 40%;
     background: var(--color-secondary);
+    background: transparent;
     top: 0;
     bottom: 0;
   }
@@ -503,7 +508,7 @@ section {
 .hero:before {
   position: absolute;
   content: "";
-  background: rgba(27, 47, 69, 0.6);
+  background: rgba(27, 47, 69, 0.9);
   inset: 0;
 }
 
@@ -520,6 +525,12 @@ section {
 @media (min-width: 1365px) {
   .hero {
     background-attachment: fixed;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    height: 100vh;
   }
 }
 
@@ -600,6 +611,7 @@ section {
 .why-us .img-bg {
   min-height: 500px;
   background-size: cover;
+  background-position: center;
 }
 
 .why-us .slides {
@@ -746,7 +758,7 @@ section {
 .call-to-action {
   background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url("../img/cta-bg.jpg") center center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 200px 0;
 }
 
 @media (min-width: 1365px) {
