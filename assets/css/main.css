@@ -1054,6 +1054,7 @@ section {
 .services-cards .card-item .card-bg {
   min-height: 300px;
   background-size: cover;
+  background-position: center 30%;
   background-repeat: no-repeat;
 }
 
