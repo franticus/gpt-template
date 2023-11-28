@@ -391,13 +391,6 @@ section {
   }
 }
 
-.hero:before {
-  position: absolute;
-  content: "";
-  background: rgb(255 170 34 / 0%);
-  inset: 0;
-}
-
 .hero .container {
   z-index: 1;
 }
