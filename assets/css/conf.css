@@ -11,9 +11,9 @@ ul {
 }
 
 iframe {
-  margin-top: 40px;
-  // border: 2px solid #b3c732;
-  // border-radius: 20px;
+  margin-bottom: 40px;
+  border: 10px solid #ffee4f;
+  border-radius: 20px;
 }
 
 #header .logo {
@@ -50,8 +50,8 @@ iframe {
 .img-fluid {
   // padding: 20px;
   // background-color: #fff;
-  // border: 2px solid #fff;
-  border-radius: 0px;
+  border: 10px solid #ffee4f;
+  border-radius: 4px;
 }
 
 .clients .swiper-slide img {

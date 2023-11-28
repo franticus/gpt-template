@@ -7,8 +7,8 @@
 /* Colors */
 :root {
   --color-default: #fff;
-  --color-primary: #fdff46;
-  --color-secondary: #fffcb7;
+  --color-primary: #ffee4f;
+  --color-secondary: #ffee4f;
 }
 
 /* Smooth scroll behavior */
@@ -22,9 +22,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color: #5c4d4d;
-  opacity: 1;
-  background: repeating-linear-gradient(45deg, #594c4c, #594c4c 5px, #5c4d4d 5px, #5c4d4d 25px);
+  background: #432e09;
 }
 
 a {
@@ -56,7 +54,12 @@ section {
 }
 
 .section-bg {
-  background-color: #333;
+  background-color: #252321;
+  opacity: 1;
+  background-image: linear-gradient(135deg, #2c2723 25%, transparent 25%), linear-gradient(225deg, #2c2723 25%, transparent 25%), linear-gradient(45deg, #2c2723 25%, transparent 25%), linear-gradient(315deg, #2c2723 25%, #252321 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  background-repeat: repeat;
 }
 
 .section-header {
@@ -105,8 +108,8 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 24px 0;
-  background: #000;
-  border-bottom: 2px solid #fffcb7;
+  background: #473310;
+  border-bottom: 1px solid #fffcb7;
 }
 
 @media (max-width: 1200px) {
@@ -116,7 +119,7 @@ section {
 }
 
 .header.sticked {
-  background: #000;
+  background: #222;
   padding: 12px 0;
 }
 
@@ -128,12 +131,10 @@ section {
 .header .logo h1 {
   font-size: 30px;
   font-weight: 700;
-  color: #fff;
+  color: #ffee4f;
   font-family: var(--font-secondary);
   margin: 0;
   padding: 0 10px;
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
   border-radius: 10px;
 }
 
@@ -365,114 +366,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-.hero {
-  width: 100%;
-  min-height: 70vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-bg.jpg") top center;
-  background-size: cover;
-  padding: 120px 0;
-  z-index: 3;
-  animation: heroscroll 30s ease-in-out;
-}
-
-@keyframes heroscroll {
-  0% {
-    background-position: 50% 100%;
-  }
-
-  50% {
-    background-position: 50% 0%;
-  }
-
-  100% {
-    background-position: 50% 100%;
-  }
-}
-
-.hero .container {
-  z-index: 1;
-}
-
-@media (max-width: 1000px) {
-  .hero {
-    height: 100vh;
-  }
-}
-
-.hero h2 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.2;
-  color: #fff;
-  font-family: var(--font-secondary);
-}
-
-.hero blockquote {
-  color: #fff;
-  padding-left: 20px;
-  font-size: 15px;
-  font-family: var(--font-default);
-  border-left: 2px solid var(--color-primary);
-  margin: 40px 0;
-}
-
-.hero .btn-get-started {
-  font-family: var(--font-secondary);
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-  color: #fff;
-  background: var(--color-primary);
-}
-
-.hero .btn-get-started:hover {
-  background: rgba(86, 184, 230, 0.8);
-}
-
-.hero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  color: rgba(255, 255, 255, 0.7);
-  font-weight: 600;
-}
-
-.hero .btn-watch-video i {
-  color: var(--color-primary);
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
-}
-
-.hero .btn-watch-video:hover {
-  color: #fff;
-}
-
-.hero .btn-watch-video:hover i {
-  color: #82cbed;
-}
-
-@media (max-width: 640px) {
-  .hero h2 {
-    font-size: 36px;
-    line-height: 1;
-  }
-
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
-    font-size: 13px;
-  }
-}
-
-/*--------------------------------------------------------------
 # Why Choose Us Section
 --------------------------------------------------------------*/
 .why-us .img-bg {
@@ -496,59 +389,6 @@ section {
   font-weight: 400;
   color: #fff;
   font-family: var(--font-secondary);
-}
-
-.why-us .swiper {
-  margin: 0px 140px 0px 140px;
-  overflow: hidden;
-}
-
-.why-us .swiper-button-prev:after,
-.why-us .swiper-button-next:after {
-  font-size: 24px;
-  color: var(--color-secondary);
-}
-
-.why-us .swiper-button-prev {
-  left: 80px;
-}
-
-.why-us .swiper-button-next {
-  right: 80px;
-}
-
-.why-us .swiper-pagination {
-  margin-top: 30px;
-  position: relative;
-}
-
-.why-us .swiper-pagination .swiper-pagination-bullet {
-  background-color: var(--color-secondary);
-}
-
-.why-us .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
-}
-
-@media (max-width: 1200px) {
-  .why-us .swiper {
-    margin: 60px 60px 40px 60px;
-  }
-
-  .why-us .swiper-button-prev,
-  .why-us .swiper-button-next {
-    display: none;
-  }
-}
-
-@media (max-width: 575px) {
-  .why-us .swiper {
-    margin: 40px 40px 20px 40px;
-  }
-}
-
-.page-about .why-us {
-  padding: 0 0 80px 0;
 }
 
 /*--------------------------------------------------------------
@@ -625,13 +465,8 @@ section {
 .call-to-action {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpg") center center;
   background-size: cover;
-  padding: 200px 0;
-}
-
-@media (min-width: 1365px) {
-  .call-to-action {
-    background-attachment: fixed;
-  }
+  padding: 20vh 0;
+  animation: ctascroll 30s ease-in-out;
 }
 
 .call-to-action h3 {
@@ -865,11 +700,12 @@ section {
 }
 
 .services-cards .card-item .card-bg {
-  min-height: 600px;
+  min-height: 300px;
   border-radius: 40px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  animation: ctascroll 20s ease-in-out;
 }
 
 .services-cards .card-item .card-body {
@@ -884,7 +720,6 @@ section {
 }
 
 .services-cards .card-item p {
-  color: var(--color-secondary);
   margin: 0;
 }
 
@@ -1005,7 +840,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 5px;
-  color: #1c88ba;
+  color: #fff;
 }
 
 .contact .info-item p {
@@ -1676,7 +1511,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: #000;
+  background-color: #2f2409;
 }
 
 .footer .footer-content {
