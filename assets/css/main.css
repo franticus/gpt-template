@@ -120,7 +120,7 @@ section {
 
 .header.sticked {
   background: #222;
-  padding: 12px 0;
+  padding: 20px 0;
 }
 
 .header .logo img {
@@ -466,7 +466,7 @@ section {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpg") center center;
   background-size: cover;
   padding: 20vh 0;
-  animation: ctascroll 30s ease-in-out;
+  animation: ctascroll 30s ease-in-out infinite;
 }
 
 .call-to-action h3 {
@@ -705,7 +705,7 @@ section {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  animation: ctascroll 20s ease-in-out;
+  animation: ctascroll 20s ease-in-out infinite;
 }
 
 .services-cards .card-item .card-body {
