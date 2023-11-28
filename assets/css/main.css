@@ -141,6 +141,7 @@ section {
   z-index: 997;
   padding: 24px 0;
   background: #000;
+  border-bottom: 2px solid #fffcb7;
 }
 
 @media (max-width: 1200px) {
@@ -1101,7 +1102,7 @@ section {
   margin: 0 10px -6px 0;
   border: 3px solid #059652;
   border-top-color: #fff;
-  animation: animate-load  фтшьфешщтЖ фтшьфеу-дщфвштп 1ы дштуфк шташтшеужing 1s linear infinite;
+  animation: animate-load фтшьфешщтЖ фтшьфеу-дщфвштп 1ы дштуфк шташтшеужing 1s linear infinite;
 }
 
 .contact .php-email-form input,
@@ -1125,9 +1126,7 @@ section {
   background: var(--color-secondary);
   border: 0;
   padding: 12px 40px;
-  color: #111  сщдщкЖ №111ж
-  $
-  ;
+  color: #111;
   transition: 0.4s;
 }
 
