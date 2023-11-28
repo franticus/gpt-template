@@ -1,15 +1,33 @@
 <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Проверка существования данных в $_POST
+    if (isset($_POST['name'], $_POST['email'], $_POST['subject'])) {
+        $domain = $_SERVER['HTTP_HOST'];
+        $to = "info@".$domain;
+        
+        // Фильтрация и валидация данных
+        $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+        $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+        $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
+        $message = implode("\n", $_POST);
+        
+        // Дополнительные проверки и валидация могут быть добавлены здесь
+        
+        $headers = "From: ".$email;
 
-$data = implode("\n", $_POST);
+        // Попытка отправки письма
+        $mailResult = mail($to, $subject, $message, $headers);
 
-$domain = $_SERVER['HTTP_HOST'];
-$to = "lead@".$domain; 
-$subject = "Lead";
-$message = $data;
-$headers = "From: sender@".$domain;
-
-if(mail($to, $subject, $message, $headers)) {
-    //echo "Письмо успешно отправлено!";
+        if ($mailResult) {
+            echo "Письмо успешно отправлено!";
+        } else {
+            echo "Ошибка при отправке письма.";
+        }
+    } else {
+        echo "Отсутствуют необходимые данные.";
+    }
+} else {
+    echo "Доступ запрещен.";
 }
 ?>
 
