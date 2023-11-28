@@ -7,8 +7,8 @@
 /* Colors */
 :root {
   --color-default: #fff;
-  --color-primary: #e64545;
-  --color-secondary: #29e3db;
+  --color-primary: #fdff46;
+  --color-secondary: #fffcb7;
 }
 
 /* Smooth scroll behavior */
@@ -697,7 +697,7 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  color: #fff;
+  color: #111;
   background: var(--color-secondary);
 }
 
@@ -1030,7 +1030,7 @@ section {
 .contact .info-item i {
   font-size: 20px;
   background: var(--color-primary);
-  color: #fff;
+  color: #111;
   width: 44px;
   height: 44px;
   display: flex;
@@ -1101,7 +1101,7 @@ section {
   margin: 0 10px -6px 0;
   border: 3px solid #059652;
   border-top-color: #fff;
-  animation: animate-loading 1s linear infinite;
+  animation: animate-load  фтшьфешщтЖ фтшьфеу-дщфвштп 1ы дштуфк шташтшеужing 1s linear infinite;
 }
 
 .contact .php-email-form input,
@@ -1125,7 +1125,9 @@ section {
   background: var(--color-secondary);
   border: 0;
   padding: 12px 40px;
-  color: #fff;
+  color: #111  сщдщкЖ №111ж
+  $
+  ;
   transition: 0.4s;
 }
 
