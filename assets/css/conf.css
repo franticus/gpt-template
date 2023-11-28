@@ -44,8 +44,8 @@ iframe {
 .img-fluid {
   // padding: 20px;
   // background-color: #fff;
-  border: 2px solid #fff;
-  border-radius: 80px;
+  // border: 2px solid #fff;
+  border-radius: 0px;
 }
 
 .clients .swiper-slide img {
