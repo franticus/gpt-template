@@ -626,6 +626,7 @@ section {
 
 .trainers .member img {
   margin: -1px -1px 30px -1px;
+  padding: 40px;
 }
 
 .trainers .member .member-content {
@@ -971,8 +972,8 @@ section {
   padding: 20px;
   background: #fff;
   text-align: center;
-  border: 1px solid #eef0ef;
-  border-radius: 40px;
+  border: 8px solid #fff;
+  border-radius: 40px 10px;
   position: relative;
   overflow: hidden;
 }

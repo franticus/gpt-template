@@ -48,13 +48,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #111;
-        background-color: #fff;
+        background-color: #524b43;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        border: 4px solid #452ed3;
-        border-top: 30px solid #452ed3;
-        border-right: px solid #452ed3;
+        border: 4px solid #f3d29d;
+        border-top: 30px solid #f3d29d;
+        border-right: px solid #f3d29d;
         border-radius: 20px;
         background: #fff;
       }
@@ -160,36 +160,36 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            At "CatalystArt," we extend our heartfelt gratitude to every valued
-            patron and art enthusiast who has chosen us as their go-to
-            destination for uncovering and securing the perfect blend of
-            creativity and innovation. Your confidence in our platform propels
-            our dedication to providing an extraordinary artistic journey that
-            not only meets but surpasses your expectations with styles curated
-            to your distinct tastes.
+            At "Dresinog Fashion Hub," we extend our sincere appreciation to
+            every cherished patron and fashion enthusiast who has chosen us as
+            their ultimate destination for discovering and securing the perfect
+            fusion of style and innovation. Your trust in our platform propels
+            our commitment to providing an exceptional fashion journey that not
+            only aligns with but surpasses your expectations, presenting styles
+            tailored to your unique preferences.
           </p>
           <p>
-            Our commitment to maintaining a prominent position in the art and
-            design realm motivates us to uphold the highest standards in our
-            creative offerings and user support. Your invaluable input,
-            imaginative suggestions, and perspectives serve as the foundation
-            for our ongoing enhancement and distinction. Should you encounter
-            any queries or have concerns, rest assured that our responsive and
-            knowledgeable team is poised to assist. We eagerly look forward to
-            guiding you through the world of 3D graphics, ensuring your artistic
-            vision comes to life.
+            Our dedication to maintaining a leading position in the fashion and
+            design realm drives us to uphold the highest standards in our
+            creative offerings and customer support. Your invaluable feedback,
+            creative suggestions, and perspectives form the cornerstone of our
+            continuous improvement and distinction. Should you have any queries
+            or concerns, be assured that our responsive and knowledgeable team
+            is ready to assist. We eagerly anticipate guiding you through the
+            world of cutting-edge fashion, ensuring your stylistic vision comes
+            to life.
           </p>
           <p>
-            We express profound gratitude for your dedication to CatalystArt and
-            for selecting us as a vital companion on your artistic journey,
-            united by a shared passion for creative excellence and exploring the
-            realm of innovative design.
+            We express deep gratitude for your commitment to Dresinog Fashion
+            Hub and for choosing us as an essential companion on your fashion
+            journey, united by a shared passion for creative excellence and
+            exploring the realm of innovative design.
           </p>
           <p class="cBlock-fgZSxP4y">
             With sincere appreciation and warm regards,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The CatalystArt Team</span>
+            <span class="domain-fgZSxP4y">The Dresinog Team</span>
           </p>
         </div>
       </div>
