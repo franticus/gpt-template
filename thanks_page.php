@@ -48,15 +48,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       .bodyClass1-fgZSxP4y {
         font-family: 'Open Sans', sans-serif;
         color: #111;
-        background-color: #432e09;
+        background-color: #fff;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        border: 4px solid #fffcb7;
-        border-top: 0px solid #fffcb7;
-        border-right: px solid #fffcb7;
+        border: 4px solid #452ed3;
+        border-top: 30px solid #452ed3;
+        border-right: px solid #452ed3;
         border-radius: 20px;
-        background: #c5a05f;
+        background: #fff;
       }
 
       body {
@@ -160,36 +160,36 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            At "Barekube," we express our sincere appreciation to each valued
-            customer and footwear enthusiast who has chosen us as their
-            preferred destination for discovering and securing the perfect pair
-            of shoes. Your trust in our platform fuels our commitment to
-            delivering an exceptional shopping experience that not only meets
-            but exceeds your fashion expectations with styles tailored to your
-            unique preferences.
+            At "CatalystArt," we extend our heartfelt gratitude to every valued
+            patron and art enthusiast who has chosen us as their go-to
+            destination for uncovering and securing the perfect blend of
+            creativity and innovation. Your confidence in our platform propels
+            our dedication to providing an extraordinary artistic journey that
+            not only meets but surpasses your expectations with styles curated
+            to your distinct tastes.
           </p>
           <p>
-            Our dedication to maintaining a leading position in the footwear
-            industry inspires us to uphold the highest standards in our product
-            offerings and customer support. Your invaluable feedback, creative
-            suggestions, and insights form the basis of our continuous
-            improvement and distinction. Should you encounter any concerns or
-            have inquiries, please be assured that our responsive and
-            knowledgeable team is ready to assist. We eagerly anticipate guiding
-            you to the perfect pair that enhances your style and reflects your
-            dedication and passion for fashionable footwear.
+            Our commitment to maintaining a prominent position in the art and
+            design realm motivates us to uphold the highest standards in our
+            creative offerings and user support. Your invaluable input,
+            imaginative suggestions, and perspectives serve as the foundation
+            for our ongoing enhancement and distinction. Should you encounter
+            any queries or have concerns, rest assured that our responsive and
+            knowledgeable team is poised to assist. We eagerly look forward to
+            guiding you through the world of 3D graphics, ensuring your artistic
+            vision comes to life.
           </p>
           <p>
-            We are profoundly grateful for your commitment to Barekube and for
-            choosing us to be an essential part of your fashion journey, united
-            by a shared passion for stylish excellence and exploring the world
-            of innovative footwear.
+            We express profound gratitude for your dedication to CatalystArt and
+            for selecting us as a vital companion on your artistic journey,
+            united by a shared passion for creative excellence and exploring the
+            realm of innovative design.
           </p>
           <p class="cBlock-fgZSxP4y">
-            With sincere thanks and warmest regards,
+            With sincere appreciation and warm regards,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The Barekube Team</span>
+            <span class="domain-fgZSxP4y">The CatalystArt Team</span>
           </p>
         </div>
       </div>
