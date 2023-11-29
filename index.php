@@ -19,6 +19,16 @@ function current_url_protocol() {
     $current_url .= $server_name;
     return $current_url;
 }
+//Вывод текущего домена
+function current_url() {
+    // $current_url  = 'http';
+    $server_https = $_SERVER["HTTPS"];
+    $server_name  = $_SERVER["SERVER_NAME"];
+    // if ($server_https == "on") $current_url .= "s";
+    // $current_url .= "://";
+    $current_url .= $server_name;
+    return $current_url;
+}
 //Вывод текущего протокола https или http
 function current_protocol() {
     $current_url  = 'http';
@@ -88,6 +98,7 @@ function renameIndexHtml(){
 						height: 100vh;
 						align-items: center;
 						flex-direction: column;
+						overflow: auto;
 					}
 					.php_file{
 						padding: 5px;
@@ -105,7 +116,7 @@ function renameIndexHtml(){
 			$sitemapArray .= '
 			<url>';
 				$sitemapArray .= '
-				<loc>https://' . current_url_protocol() . '/</loc>';
+				<loc>https://' . current_url() . '/</loc>';
 				$sitemapArray .= '
 				<lastmod>' . date("Y-m-d") . '</lastmod>';
 				$sitemapArray .= '
@@ -126,7 +137,7 @@ function renameIndexHtml(){
 			$sitemapArray .= '
 			<url>';
 				$sitemapArray .= '
-				<loc>https://' . current_url_protocol() . '/' . $file_path . '/</loc>';
+				<loc>https://' . current_url() . '/' . $file_path . '/</loc>';
 				$sitemapArray .= '
 				<lastmod>' . date("Y-m-d") . '</lastmod>';
 				$sitemapArray .= '
@@ -156,11 +167,16 @@ function renameIndexHtml(){
 			echo '<p class="php_file">Ошибка генерации sitemap.xml</p>';
 		}
 
-
-        $robots = file_get_contents(__DIR__.'/robots.txt');
+		// $robots = file_get_contents(__DIR__.'/robots.txt');
+		// if($robots !== false){
+			// echo 'Файл открыт';
+		// }else{
+			// echo 'Файла нет';
+		// }
+        
         $new_robots = 'User-agent: *
 Allow: /
-Sitemap: '. current_url_protocol() .'/sitemap.xml';
+Sitemap: https://'. current_url() .'/sitemap.xml';
         
 		if(file_put_contents(__DIR__.'/robots.txt' , $new_robots)){
 			echo '<p class="php_file">Файл robots.txt сгенерирован</p>';
