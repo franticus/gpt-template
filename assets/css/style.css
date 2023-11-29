@@ -482,7 +482,7 @@ section {
   padding: 40px 30px;
   width: 100%;
   border-radius: 40px;
-  border: 1px solid #eef0ef;
+  border: 2px solid #fff;
 }
 
 .why-us .icon-boxes .icon-box i {
@@ -574,7 +574,7 @@ section {
 
 .courses .course-content p {
   font-size: 14px;
-  color: #777777;
+  color: #111;
 }
 
 .courses .course-content h4 {
@@ -873,7 +873,7 @@ section {
 }
 
 .cource-details-tabs .details p {
-  color: #777777;
+  color: #111;
 }
 
 .cource-details-tabs .details p:last-child {
@@ -1083,7 +1083,6 @@ section {
 
 .contact .info {
   width: 100%;
-  background: #fff;
 }
 
 .contact .info i {
