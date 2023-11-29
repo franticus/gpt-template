@@ -124,7 +124,7 @@ iframe {
 }
 
 .mcta {
-  // background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../img/bg-1.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg-1.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100vw;
