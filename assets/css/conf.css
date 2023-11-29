@@ -52,6 +52,7 @@ iframe {
   // background-color: #fff;
   border: 10px solid #fff;
   border-radius: 10px;
+  min-width: 100%;
 }
 
 .clients .swiper-slide img {
