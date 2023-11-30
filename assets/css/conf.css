@@ -95,7 +95,7 @@ iframe {
   background-size: cover;
   background-position: 50% 50%;
   width: 100vw;
-  height: 50vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,16 +104,16 @@ iframe {
 }
 
 .mcta2 {
-  // background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../img/bg-2.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../img/bg-2.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100vw;
-  height: 30vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  animation: ctascroll 60s ease-in-out infinite;
+  animation: ctascroll 40s ease-in-out infinite;
 }
 
 .mcta3 {
