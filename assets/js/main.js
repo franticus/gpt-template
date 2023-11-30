@@ -35,6 +35,22 @@
   }
 
   /**
+   * Toggle .navbar-reduce
+   */
+  let selectHNavbar = select('.navbar-default')
+  if (selectHNavbar) {
+    onscroll(document, () => {
+      if (window.scrollY > 100) {
+        selectHNavbar.classList.add('navbar-reduce')
+        selectHNavbar.classList.remove('navbar-trans')
+      } else {
+        selectHNavbar.classList.remove('navbar-reduce')
+        selectHNavbar.classList.add('navbar-trans')
+      }
+    })
+  }
+
+  /**
    * Back to top button
    */
   let backtotop = select('.back-to-top')
@@ -51,25 +67,6 @@
   }
 
   /**
-   * Mobile nav toggle
-   */
-  on('click', '.mobile-nav-toggle', function(e) {
-    select('#navbar').classList.toggle('navbar-mobile')
-    this.classList.toggle('bi-list')
-    this.classList.toggle('bi-x')
-  })
-
-  /**
-   * Mobile nav dropdowns activate
-   */
-  on('click', '.navbar .dropdown > a', function(e) {
-    if (select('#navbar').classList.contains('navbar-mobile')) {
-      e.preventDefault()
-      this.nextElementSibling.classList.toggle('dropdown-active')
-    }
-  }, true)
-
-  /**
    * Preloader
    */
   let preloader = select('#preloader');
@@ -80,9 +77,43 @@
   }
 
   /**
-   * Testimonials slider
+   * Search window open/close
    */
-  new Swiper('.testimonials-slider', {
+  let body = select('body');
+  on('click', '.navbar-toggle-box', function(e) {
+    e.preventDefault()
+    body.classList.add('box-collapse-open')
+    body.classList.remove('box-collapse-closed')
+  })
+
+  on('click', '.close-box-collapse', function(e) {
+    e.preventDefault()
+    body.classList.remove('box-collapse-open')
+    body.classList.add('box-collapse-closed')
+  })
+
+  /**
+   * Intro Carousel
+   */
+  new Swiper('.intro-carousel', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
+
+  /**
+   * Property carousel
+   */
+  new Swiper('#property-carousel', {
     speed: 600,
     loop: true,
     autoplay: {
@@ -91,7 +122,7 @@
     },
     slidesPerView: 'auto',
     pagination: {
-      el: '.swiper-pagination',
+      el: '.propery-carousel-pagination',
       type: 'bullets',
       clickable: true
     },
@@ -102,27 +133,74 @@
       },
 
       1200: {
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 20
       }
     }
   });
 
   /**
-   * Animation on scroll
+   * News carousel
    */
-  window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    })
+  new Swiper('#news-carousel', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.news-carousel-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      }
+    }
   });
 
   /**
-   * Initiate Pure Counter 
+   * Testimonial carousel
    */
-  new PureCounter();
+  new Swiper('#testimonial-carousel', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.testimonial-carousel-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
+
+  /**
+   * Property Single carousel
+   */
+  new Swiper('#property-single-carousel', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: '.property-single-carousel-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
 
 })()
