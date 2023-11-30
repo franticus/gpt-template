@@ -959,11 +959,14 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing {
+  padding: 100px 0;
+}
+
 .pricing .box {
   padding: 20px;
-  background: #fff;
   text-align: center;
-  border: 8px solid #fff;
+  border: 1px solid #fff;
   border-radius: 40px 10px;
   position: relative;
   overflow: hidden;
@@ -975,13 +978,12 @@ section {
   padding: 20px 15px;
   font-size: 16px;
   font-weight: 600;
-  color: #777777;
-  background: #f8f8f8;
+  color: #fff;
 }
 
 .pricing h4 {
   font-size: 36px;
-  color: #30313b;
+  color: #fff;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -994,7 +996,7 @@ section {
 }
 
 .pricing h4 span {
-  color: #bababa;
+  color: #eee;
   font-size: 16px;
   font-weight: 300;
 }
@@ -1002,7 +1004,7 @@ section {
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #444444;
+  color: #fff;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -1026,7 +1028,6 @@ section {
 .pricing .btn-wrap {
   margin: 20px -20px -20px -20px;
   padding: 20px 15px;
-  background: #f8f8f8;
   text-align: center;
 }
 
