@@ -1,10 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  background-color: #162715;
-  opacity: 1;
-  background-image: linear-gradient(45deg, #152513 50%, #162715 50%);
-  background-size: 40px 40px;
+  background-color: #111;
 }
 
 a {
@@ -13,8 +10,7 @@ a {
 }
 
 a:hover {
-  color: #eee;
-  text-decoration: underline;
+  color: #fff758;
 }
 
 h1,
@@ -39,7 +35,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #275616;
+  background: #000;
   transition: all 0.5s;
   z-index: 997;
   padding: 25px 0;
@@ -58,42 +54,14 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
-  border-bottom: 1px solid #fff;
-  border-right: 1px solid #fff;
+  color: #fff758;
   padding: 4px 10px;
   border-radius: 10px;
+  text-transform: uppercase;
 }
 
 #header .logo img {
   max-height: 40px;
-}
-
-/**
-* Get Startet Button 
-*/
-.get-started-btn {
-  margin-left: 22px;
-  background: #fff;
-  color: #fff;
-  border-radius: 50px;
-  padding: 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
-  display: inline-block;
-}
-
-.get-started-btn:hover {
-  background: #3ac162;
-  color: #fff;
-}
-
-@media (max-width: 768px) {
-  .get-started-btn {
-    margin: 0 15px 0 0;
-    padding: 6px 18px;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -144,7 +112,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #eee;
+  color: #fff758;
 }
 
 /**
@@ -200,7 +168,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 6px;
-  background-color: #184c22;
+  background-color: #222;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -218,83 +186,6 @@ h6 {
   color: #fff;
 }
 
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
-  margin: 15px;
-}
-
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(12 53 25 / 60%)), url(../img/hero-bg.jpg) top center;
-  background-size: cover;
-
-  position: relative;
-}
-
-#hero .container {
-  padding-top: 72px;
-}
-
-@media (max-width: 992px) {
-  #hero .container {
-    padding-top: 62px;
-  }
-}
-
-#hero h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-}
-
-#hero h2 {
-  color: #eee;
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
-#hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 35px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin-top: 30px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#hero .btn-get-started:hover {
-  background: #30313b;
-  border: 2px solid #30313b;
-}
-
-@media (max-width: 768px) {
-  #hero {
-    height: 100vh;
-  }
-
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -304,7 +195,7 @@ section {
 }
 
 .section-bg {
-  background-color: #113120;
+  background-color: #222;
 }
 
 .section-title {
@@ -340,27 +231,6 @@ section {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #37423b;
-}
-
-.breadcrumbs {
-  margin-top: 100px;
-  text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/hero-bg.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 100px 0;
-  color: #fff;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 63px;
-  }
-}
-
-.breadcrumbs h2 {
-  font-size: 32px;
-  font-weight: 500;
 }
 
 /*--------------------------------------------------------------
@@ -410,29 +280,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
-.counts {
-  padding: 100px 0;
-}
-
-.counts .counters span {
-  font-size: 48px;
-  display: block;
-  color: #fff;
-  font-weight: 700;
-}
-
-.counts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  color: #eee;
-}
-
-/*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
 .why-us .content {
@@ -474,8 +321,6 @@ section {
   text-align: center;
   padding: 40px 30px;
   width: 100%;
-  border-radius: 100px 4px;
-  border: 4px dashed #fff;
 }
 
 .why-us .icon-boxes .icon-box i {
@@ -892,11 +737,10 @@ section {
   padding: 0 30px;
   margin-bottom: 60px;
   position: relative;
+  background: transparent;
 }
 
 .events .card-img {
-  width: calc(100% + 60px);
-  margin-left: -30px;
   overflow: hidden;
   z-index: 9;
   border-radius: 0;
@@ -909,11 +753,8 @@ section {
 
 .events .card-body {
   z-index: 10;
-  background: #fff;
-  border-top: 4px solid #fff;
   padding: 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  margin-top: -60px;
   transition: 0.3s;
 }
 
@@ -924,16 +765,20 @@ section {
 }
 
 .events .card-title a {
-  color: #37423b;
+  color: #fff;
   transition: 0.3s;
 }
 
+.events p {
+  color: #eee;
+}
+
 .events .card-text {
-  color: #5e5e5e;
+  color: #eee;
 }
 
 .events .read-more a {
-  color: #777777;
+  color: #eee;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
@@ -941,19 +786,15 @@ section {
 }
 
 .events .read-more a:hover {
-  color: #30313b;
-}
-
-.events .card:hover img {
-  transform: scale(1.1);
+  color: #fff;
 }
 
 .events .card:hover .card-body {
-  border-color: #30313b;
+  border-color: #fff;
 }
 
 .events .card:hover .card-body .card-title a {
-  color: #30313b;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1217,9 +1058,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/hero-bg.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: #000;
 }
 
 #footer .footer-top {
