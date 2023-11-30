@@ -918,6 +918,11 @@ section {
 
 .contact .info {
   width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0;
+  flex-wrap: wrap;
 }
 
 .contact .info i {
@@ -947,11 +952,6 @@ section {
   margin-bottom: 0;
   font-size: 14px;
   color: #657a6d;
-}
-
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
 }
 
 .contact .info .email:hover i,
