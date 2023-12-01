@@ -7,11 +7,11 @@
   left: 50%;
   transform: translateX(-50%);
   color: #111;
-  background-color: #fff;
+  background-color: #e1d6ff;
   border-radius: 4px 10px;
-  border-right: 10px solid #131413;
-  border-left: 40px solid #131413;
-  border-bottom: 2px solid #131413;
+  border-right: 10px solid #4a5195;
+  border-left: 40px solid #4a5195;
+  border-bottom: 2px solid #4a5195;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
   gap: 25px;
   z-index: 99999;
@@ -20,7 +20,7 @@
 }
 
 .floating-windows-9oV a {
-  color: #131413;
+  color: #4a5195;
   text-decoration: underline;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .button-9oV:hover {
-  background-color: #131413;
+  background-color: #4a5195;
   color: #fff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
