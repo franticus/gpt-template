@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
-  color: #222;
+  color: #111;
+  background: #e1d6ff;
 }
 
 h1,
@@ -13,13 +14,13 @@ h6 {
 }
 
 a {
-  color: #3b777a;
+  color: #fff;
   text-decoration: none;
   transition: all 0.5s ease;
 }
 
 a:hover {
-  color: #28c6e4;
+  color: #b755ff;
   text-decoration: none;
 }
 
@@ -96,7 +97,7 @@ a:hover {
 }
 
 .text-brand {
-  color: #000000;
+  color: #fff;
   font-size: 2rem;
   font-weight: 600;
 }
@@ -109,7 +110,7 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #000000;
+  color: #fff;
 }
 
 .color-b {
@@ -117,12 +118,12 @@ a:hover {
 }
 
 .color-d {
-  color: #adadad;
+  color: #b755ff;
 }
 
 .color-text-a {
   text-decoration: none;
-  color: #555555;
+  color: #eee;
 }
 
 .no-margin {
@@ -506,22 +507,29 @@ a:hover {
   line-height: 0;
 }
 
+.navbar-brand {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #b755ff;
+}
+
 /*--------------------------------------------------------------
 # Navbar
 --------------------------------------------------------------*/
 .navbar-default {
   transition: all 0.5s ease-in-out;
-  background-color: #ffffff;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  background-color: #4a5195;
+  padding-top: 10px;
+  padding-bottom: 10px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
-}
-
-.navbar-default .nav-search {
-  color: #000000;
-  font-size: 1.5rem;
 }
 
 .navbar-default.navbar-reduce {
@@ -553,7 +561,7 @@ a:hover {
 .navbar-default.navbar-trans .nav-link,
 .navbar-default.navbar-reduce .nav-link {
   font-size: 1.1rem;
-  color: #000000;
+  color: #fff;
   font-weight: 600;
   letter-spacing: 0.03em;
   transition: all 0.1s ease-in-out;
@@ -579,7 +587,7 @@ a:hover {
 
 .navbar-default.navbar-trans .nav-link:hover,
 .navbar-default.navbar-reduce .nav-link:hover {
-  color: #000000;
+  color: #b755ff;
 }
 
 .navbar-default.navbar-trans .nav-link:hover:before,
@@ -604,43 +612,25 @@ a:hover {
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
-  color: #000000;
+  color: #b755ff;
 }
 
 .navbar-default.navbar-trans .show>.nav-link,
 .navbar-default.navbar-trans .active>.nav-link,
 .navbar-default.navbar-trans .nav-link.show,
+.navbar-default.navbar-reduce .nav-link.active,
 .navbar-default.navbar-trans .nav-link.active {
-  color: #000000;
+  color: #b755ff;
 }
 
 .navbar-default.navbar-reduce {
   transition: all 0.5s ease-in-out;
-  padding-top: 19px;
-  padding-bottom: 19px;
-}
-
-.navbar-default.navbar-reduce .nav-link {
-  color: #000000;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .navbar-default.navbar-reduce .nav-link:before {
   background-color: #28c6e4;
-}
-
-.navbar-default.navbar-reduce .nav-link:hover {
-  color: #000000;
-}
-
-.navbar-default.navbar-reduce .show>.nav-link,
-.navbar-default.navbar-reduce .active>.nav-link,
-.navbar-default.navbar-reduce .nav-link.show,
-.navbar-default.navbar-reduce .nav-link.active {
-  color: #000000;
-}
-
-.navbar-default.navbar-reduce .navbar-brand {
-  color: #000000;
 }
 
 /*------/ Hamburger Navbar /------*/
@@ -655,7 +645,7 @@ a:hover {
 
 .navbar-toggler span {
   display: block;
-  background-color: #000000;
+  background-color: #fff;
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -663,6 +653,17 @@ a:hover {
   transform: rotate(0deg);
   left: 0;
   opacity: 1;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
 }
 
 .navbar-toggler span:nth-child(1),
@@ -697,9 +698,15 @@ a:hover {
 # Hero Section
 --------------------------------------------------------------*/
 .intro {
-  height: 100vh;
+  height: 84vh;
   position: relative;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .intro .swiper-pagination {
@@ -749,11 +756,9 @@ a:hover {
 
 .intro .intro-body_4_m1_v2 .price-a {
   color: #ffffff;
-  padding: 1rem 1.5rem;
-  border: 2px solid #28c6e4;
-  border-radius: 50px;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #28c6e4;
+  border-radius: 0px;
 }
 
 .intro .intro-title_4_m1_v2 {
@@ -927,17 +932,6 @@ a:hover {
 .card-shadow_4_m1_v2 {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-}
-
-.card-shadow_4_m1_v2:before {
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 27%, rgba(0, 0, 0, 0.65) 90%);
 }
 
 /*======================================
@@ -1122,7 +1116,7 @@ a:hover {
 .post-content_4_m1_v2 .post-intro {
   font-size: 1.7rem;
   font-weight: 300;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   line-height: 1.6;
   color: #000000;
   font-weight: 400;
@@ -1177,6 +1171,7 @@ a:hover {
 .card-box-ico {
   padding: 1rem 3rem 1rem 2.5rem;
   border: 5px solid #28c6e4;
+  border-radius: 100px;
 }
 
 .card-box-ico span {
@@ -1385,7 +1380,7 @@ a:hover {
   font-style: italic;
   margin-top: 25px;
   padding: 1.5rem 1.5rem;
-  background-color: #f3f3f3;
+  background-color: #fff;
   position: relative;
 }
 
@@ -1550,7 +1545,7 @@ a:hover {
 .section-footer_4_m1_v2 {
   padding-top: 60px;
   margin-top: 60px;
-  background: #f3f3f3;
+  background: #4a5195;
 }
 
 .section-footer_4_m1_v2 ul {
@@ -1568,7 +1563,7 @@ a:hover {
 }
 
 footer {
-  background: #f3f3f3;
+  background: #4a5195;
   text-align: center;
   padding: 30px 0;
 }
