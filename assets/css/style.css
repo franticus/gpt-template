@@ -1572,3 +1572,7 @@ footer .copyright-footer {
   border-top: 1px solid #ddd;
   padding-top: 20px;
 }
+
+.blockquote-footer {
+  color: #fff;
+}
