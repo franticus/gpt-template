@@ -161,38 +161,36 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            At "Gretinge Wellness Center," we extend our sincere gratitude to
-            every cherished client and wellness enthusiast who has selected us
-            as their go-to destination for exploring and attaining the perfect
-            fusion of health and joy for their well-being journey. Your
-            confidence in our platform fuels our commitment to delivering an
-            outstanding wellness experience that not only aligns with but
-            surpasses your expectations, offering services customized to address
-            your unique wellness needs.
+            At "Handybok Travel Hub," we extend our heartfelt appreciation to
+            every esteemed traveler and adventure enthusiast who has chosen us
+            as their preferred destination for discovering and achieving the
+            perfect blend of exploration and joy in their travel journey. Your
+            trust in our platform fuels our commitment to providing an
+            exceptional travel experience that not only aligns with but exceeds
+            your expectations, offering services tailored to meet your unique
+            travel aspirations.
           </p>
           <p>
-            Our pledge to uphold a prominent position in the wellness domain
-            propels us to maintain the highest standards in our services and
-            customer support. Your invaluable insights, inventive suggestions,
-            and viewpoints serve as the foundation of our continuous enhancement
-            and distinction. If you have any questions or concerns, rest assured
-            that our responsive and knowledgeable team stands ready to assist.
-            We look forward to guiding you through the realm of wellness,
-            ensuring your overall well-being and contentment.
+            Our commitment to maintaining a leading position in the travel
+            industry propels us to uphold the highest standards in our services
+            and customer support. Your valuable insights, creative suggestions,
+            and perspectives serve as the cornerstone of our continuous
+            improvement and excellence. If you have any questions or concerns,
+            rest assured that our responsive and knowledgeable team is ready to
+            assist. We look forward to guiding you through the realm of travel,
+            ensuring your overall satisfaction and contentment.
           </p>
           <p>
-            We express profound gratitude for your dedication to Gretinge
-            Wellness Center and for selecting us as an indispensable companion
-            in your wellness journey. Together, we share a common enthusiasm for
-            well-being and the exploration of innovative wellness approaches.
+            We express profound gratitude for your dedication to Handybok Travel
+            Hub and for choosing us as an indispensable companion in your travel
+            journey. Together, we share a common enthusiasm for exploration and
+            the discovery of innovative travel experiences.
           </p>
           <p class="cBlock-fgZSxP4y">
             With heartfelt appreciation and warm regards,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y"
-              >The Gretinge Wellness Center Team</span
-            >
+            <span class="domain-fgZSxP4y">The Handybok Travel Hub Team</span>
           </p>
         </div>
       </div>
