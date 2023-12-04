@@ -1302,9 +1302,14 @@ a:hover {
   }
 }
 
+.card-box-d {
+  border-radius: 40px;
+}
+
 .card-box-d .info-agents {
   opacity: 0;
   transition: 0.5s ease-in-out;
+  border-radius: 40px;
 }
 
 .card-box-d .card-footer-d {
@@ -1315,6 +1320,7 @@ a:hover {
   width: 100%;
   bottom: 10px;
   left: 0;
+  border-radius: 40px;
 }
 
 .card-box-d .list-inline-item:not(:last-child) {
@@ -1324,6 +1330,7 @@ a:hover {
 .card-box-d:hover .card-overlay_4_m1_v2-hover {
   background-color: #fff;
   opacity: 0.9;
+  border-radius: 40px;
 }
 
 .card-box-d:hover .title-d,
