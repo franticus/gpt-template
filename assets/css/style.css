@@ -702,16 +702,18 @@ a:hover {
 # Hero Section
 --------------------------------------------------------------*/
 .intro {
-  height: 86vh;
+  height: 40vh;
   position: relative;
   color: #ffffff;
   display: flex;
+  padding-top: 140px;
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("../img/hero-bg.jpg") no-repeat;
   background-position: center;
   background-size: cover;
-  animation: ctascrollintro 30s ease-in-out infinite;
+  animation: ctascrollintro 80s ease-in-out infinite;
+  border: none;
 }
 
 @keyframes ctascrollintro {
@@ -799,6 +801,13 @@ a:hover {
 
   .intro .intro-title_4_m1_v3 {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 568px) {
+  .intro {
+    height: 80vh;
+    align-items: center;
   }
 }
 
@@ -1319,7 +1328,7 @@ a:hover {
 }
 
 .card-box-d {
-  border-radius: 40px;
+  border-radius: 0px;
 }
 
 .card-box-d .info-agents {
@@ -1638,4 +1647,15 @@ footer .copyright-footer {
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 20px;
+}
+
+.service-card {
+  border: 1px solid #efff6d;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-header-d .title-d {
+  font-size: 1rem;
 }
