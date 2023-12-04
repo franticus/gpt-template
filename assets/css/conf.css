@@ -47,10 +47,18 @@ iframe {
   text-align: left;
 }
 
+.cloud {
+  padding: 40px 20px;
+  border-radius: 40px;
+  margin: 40px auto;
+  background-color: #fff;
+  text-align: left;
+}
+
 .img-fluid {
   // padding: 20px;
-  border: 10px solid #fff;
-  border-radius: 100px 4px;
+  border: 4px solid #fff;
+  border-radius: 40px;
   min-width: 100%;
 }
 
