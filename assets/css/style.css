@@ -1386,6 +1386,15 @@ a:hover {
   text-align: right;
 }
 
+.section-about_4_m1_v5 ul {
+  list-style: circle;
+  margin-left: 20px;
+}
+
+.section-about_4_m1_v5 ul li {
+  margin-bottom: 10px;
+}
+
 .about-img-box {
   padding-left: 1rem;
   position: relative;
@@ -1409,6 +1418,10 @@ a:hover {
 .testimonials-box_4_m1_v5 {
   padding: 1rem 0;
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.section-testimonials {
+  margin-bottom: 80px;
 }
 
 .section-testimonials h2 {
