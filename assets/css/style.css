@@ -1735,7 +1735,7 @@ footer .copyright-footer {
   font-weight: bold;
   cursor: pointer;
   display: block;
-  padding: 10px;
+  padding: 20px;
   background-color: #0d1121;
   border-radius: 10px;
   border: 1px solid transparent;
@@ -1745,11 +1745,11 @@ footer .copyright-footer {
 
 .faq-answer {
   display: none;
-  padding: 10px;
+  padding: 40px 10px;
   background-color: rgba(0, 0, 0, 0.2);
   color: #00ffcf;
   border-top: none;
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 20px 20px;
 }
 
 .faq-toggle {
