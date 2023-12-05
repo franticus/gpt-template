@@ -1,11 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #fff;
-  background-color: #000000;
-  opacity: 1;
-  background-image: linear-gradient(#131313 2px, transparent 2px), linear-gradient(90deg, #131313 2px, transparent 2px), linear-gradient(#131313 1px, transparent 1px), linear-gradient(90deg, #131313 1px, #000000 1px);
-  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
-  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  background-color: #131b3c;
 }
 
 h1,
@@ -14,17 +10,17 @@ h3,
 h4,
 h5,
 h6 {
-  color: #efff6d;
+  color: #00ffcf;
 }
 
 a {
-  color: #efff6d;
+  color: #00ffcf;
   text-decoration: none;
   transition: all 0.5s ease;
 }
 
 a:hover {
-  color: #ffb53b;
+  color: #46ff59;
   text-decoration: none;
 }
 
@@ -122,7 +118,7 @@ a:hover {
 }
 
 .color-d {
-  color: #ffb53b;
+  color: #46ff59;
 }
 
 .color-text-a {
@@ -514,7 +510,7 @@ a:hover {
 .navbar-brand {
   font-weight: 600;
   text-transform: uppercase;
-  color: #efff6d;
+  color: #00ffcf;
 }
 
 .navbar-brand:hover {
@@ -528,7 +524,7 @@ a:hover {
 --------------------------------------------------------------*/
 .navbar-default {
   transition: all 0.5s ease-in-out;
-  background-color: #222;
+  background-color: #0d1121;
   padding-top: 20px;
   padding-bottom: 10px;
   -webkit-backface-visibility: hidden;
@@ -591,7 +587,7 @@ a:hover {
 
 .navbar-default.navbar-trans .nav-link:hover,
 .navbar-default.navbar-reduce .nav-link:hover {
-  color: #ffb53b;
+  color: #46ff59;
 }
 
 .navbar-default.navbar-trans .nav-link:hover:before,
@@ -616,7 +612,7 @@ a:hover {
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
-  color: #ffb53b;
+  color: #46ff59;
 }
 
 .navbar-default.navbar-trans .show>.nav-link,
@@ -624,7 +620,7 @@ a:hover {
 .navbar-default.navbar-trans .nav-link.show,
 .navbar-default.navbar-reduce .nav-link.active,
 .navbar-default.navbar-trans .nav-link.active {
-  color: #ffb53b;
+  color: #46ff59;
 }
 
 .navbar-default.navbar-reduce {
@@ -1166,7 +1162,7 @@ a:hover {
   font-weight: 300;
   margin-bottom: 1rem;
   line-height: 1.6;
-  color: #efff6d;
+  color: #00ffcf;
   font-weight: 400;
 }
 
@@ -1650,7 +1646,7 @@ footer .copyright-footer {
 }
 
 .service-card {
-  border: 1px solid #efff6d;
+  border: 1px solid #00ffcf;
   text-align: center;
   padding: 20px;
   margin-bottom: 20px;
