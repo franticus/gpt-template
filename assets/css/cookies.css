@@ -19,10 +19,6 @@
   text-align: center;
 }
 
-h2 {
-  color: #111;
-}
-
 .floating-windows-9oV a {
   color: #fff;
   text-decoration: underline;
@@ -84,6 +80,10 @@ h2 {
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
   margin: 10% auto;
   position: relative;
+}
+
+.modal-content-9oV h2 {
+  color: #111;
 }
 
 .modal-close-9oV {
