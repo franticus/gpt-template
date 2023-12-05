@@ -161,36 +161,36 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            At "Noftebok Realty Hub," we extend our sincere appreciation to
-            every valued property enthusiast and real estate aficionado who has
-            chosen us as their preferred destination for exploring and achieving
-            the perfect blend of property mastery and joy in their real estate
-            journey. Your trust in our platform fuels our commitment to
-            providing an exceptional real estate experience that not only aligns
-            with but exceeds your expectations, offering services tailored to
-            meet your unique property aspirations.
+            At "Qusytion Music School," we extend our sincere appreciation to
+            every valued music enthusiast and melody aficionado who has chosen
+            us as their preferred destination for exploring and achieving the
+            perfect blend of musical mastery and joy in their musical journey.
+            Your trust in our platform fuels our commitment to providing an
+            exceptional musical experience that not only aligns with but exceeds
+            your expectations, offering lessons tailored to meet your unique
+            musical aspirations.
           </p>
           <p>
-            Our commitment to maintaining a leading position in the real estate
-            industry propels us to uphold the highest standards in our services
-            and customer support. Your valuable insights, creative suggestions,
-            and perspectives serve as the cornerstone of our continuous
-            improvement and excellence. If you have any questions or concerns,
-            rest assured that our responsive and knowledgeable team is ready to
-            assist. We look forward to guiding you through the realm of real
-            estate, ensuring your overall satisfaction and contentment.
+            Our commitment to maintaining a leading position in the music
+            education industry propels us to uphold the highest standards in our
+            lessons and student support. Your valuable insights, creative
+            suggestions, and perspectives serve as the cornerstone of our
+            continuous improvement and excellence. If you have any questions or
+            concerns, rest assured that our responsive and knowledgeable team is
+            ready to assist. We look forward to guiding you through the realm of
+            music, ensuring your overall satisfaction and contentment.
           </p>
           <p>
-            We express profound gratitude for your dedication to Noftebok Realty
-            Hub and for choosing us as an indispensable companion in your real
-            estate journey. Together, we share a common enthusiasm for property
-            exploration and the discovery of innovative real estate experiences.
+            We express profound gratitude for your dedication to Qusytion Music
+            School and for choosing us as an indispensable companion in your
+            musical journey. Together, we share a common enthusiasm for musical
+            exploration and the discovery of innovative musical experiences.
           </p>
           <p class="cBlock-fgZSxP4y">
             With heartfelt appreciation and warm regards,
           </p>
           <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y">The Noftebok Realty Hub Team</span>
+            <span class="domain-fgZSxP4y">The Qusytion Music School Team</span>
           </p>
         </div>
       </div>
