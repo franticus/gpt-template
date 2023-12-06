@@ -32,64 +32,29 @@ body {
 
 .semicircle {
   position: relative;
-  background: #1D1D23;
-  background: url(../img/black.png) no-repeat;
+  background: #434e67;
   background-position: center;
   background-size: 140% 100%;
   width: 100vw;
   height: auto;
-  padding: 300px 0;
+  padding: 100px 0;
+  margin: 100px 0;
 }
 
 .semicircle_bg {
-  background-color: #1D1D23;
-  background-image: url("../img/instruction_bg.jpg");
+  background-color: #434e67;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;
   overflow: hidden;
 }
 
-.semicircle_bg::before {
-  content: "";
-  position: absolute;
-  top: -90%;
-  left: 50%;
-  transform: translate(-50%);
-  border-radius: 50%;
-  width: 200%;
-  height: 100%;
-  background: #fff;
-}
-
-.semicircle_bg::after {
-  content: "";
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%);
-  border-radius: 50%;
-  width: 200%;
-  height: 100%;
-  background: #fff;
-}
-
 .semicircle_footer {
-  background: #1D1D23;
+  background: #434e67;
   overflow: hidden;
-  padding: 300px 0 20px 0;
-}
-
-.semicircle_footer::before {
-  content: "";
-  position: absolute;
-  top: -90%;
-  left: 50%;
-  transform: translate(-50%);
-  border-radius: 50%;
-  width: 110%;
-  height: 130%;
-  background: #fff;
+  padding: 100px 0 40px 0;
+  margin: 0;
+  margin-top: 100px;
 }
 
 ::-webkit-scrollbar {
@@ -125,7 +90,6 @@ body {
 
   .hero_right-img {
     margin-top: 60px;
-    width: 120%;
     height: auto;
   }
 
@@ -647,7 +611,7 @@ body {
     max-width: unset;
     width: 100%;
     height: 100%;
-    background-color: #1d1d23;
+    background-color: #434e67;
     min-height: 100%
   }
 

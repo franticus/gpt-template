@@ -19,6 +19,15 @@
   gap: 20px;
 }
 
+.footer__content-top a {
+  color: #FFF;
+}
+
+.footer__content-top a:hover {
+  color: #eee;
+  text-decoration: underline;
+}
+
 .footer__content-bottom {
   font-family: 'Roboto', sans-serif;
 }
