@@ -1,7 +1,3 @@
-.present * {
-
-}
-
 .present_form_input {
   font-family: 'Roboto', sans-serif;
 }
@@ -47,6 +43,7 @@
 .present_form_input_container {
   display: flex;
   gap: 20px;
+  margin-bottom: 20px;
 }
 
 .present_form_input_wrapper {
