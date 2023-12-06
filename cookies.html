@@ -54,60 +54,97 @@
       }
     </style>
 
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link href="assets/css/conf.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/necessary.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
-    <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
-      <div class="container">
-        <button
-          class="navbar-toggler collapsed"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarDefault"
-          aria-controls="navbarDefault"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Sculitur</a>
-
-        <div
-          class="navbar-collapse collapse justify-content-end"
-          id="navbarDefault"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+    <div class="headerbg">
+      <div class="land_container">
+        <div class="header">
+          <header class="header" id="header">
+            <div class="header__wrapper">
+              <a href="/" class="header__logo">
+                <p class="header__logo-name">Ambientia</p>
+              </a>
+              <div class="header__hamburger" data-open-modal="mobmenu">
+                <span></span>
+              </div>
+              <ul class="header__menu">
+                <li>
+                  <a href="index.html" class=""> Home </a>
+                </li>
+                <li>
+                  <a href="about.html" class=""> About </a>
+                </li>
+                <li>
+                  <a href="gallery.html" class=""> Gallery </a>
+                </li>
+                <li>
+                  <a href="contact.html" class=""> Contact Us </a>
+                </li>
+              </ul>
+              <div
+                class="modal modal--mobmenu"
+                data-modal="mobmenu"
+                tabindex="-1"
+              >
+                <div class="modal__overlay modal__overlay__burger"></div>
+                <div class="modal__close modal__close__burger">
+                  <i class="icon modal__icon modal__icon--close">
+                    <svg
+                      class="icon__svg modal__svg"
+                      viewBox="0 0 23 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        class="icon__path modal__path"
+                        d="M1.4 1L21.4 21"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      ></path>
+                      <path
+                        class="icon__path modal__path"
+                        d="M21 1L0.999998 21"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      ></path>
+                    </svg>
+                  </i>
+                </div>
+                <div class="modal__dialog">
+                  <div class="modal__content">
+                    <ul class="modal__menu">
+                      <li>
+                        <a href="index.html" class=""> Home </a>
+                      </li>
+                      <li>
+                        <a href="about.html" class=""> About </a>
+                      </li>
+                      <li>
+                        <a href="gallery.html" class=""> Gallery </a>
+                      </li>
+                      <li>
+                        <a href="contact.html" class=""> Contact Us </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="burger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+          </header>
         </div>
       </div>
-    </nav>
+    </div>
 
     <div class="container policy" data-aos="fade-up">
       <h1>Cookie Policy</h1>
@@ -229,82 +266,68 @@
       </p>
     </div>
 
-    <section class="section-footer_4_m1_v6">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <div class="widget-a">
-              <div class="w-header-a">
-                <h3 class="w-title-a text-brand">Sculitur</h3>
-              </div>
-              <div class="w-footer-a">
-                <ul class="list-unstyled">
-                  <li class="color-a">
-                    <span class="">Phone:</span>
-                    <a href="tel:+91-66473-88474" target="_blank"
-                      >+91-66473-88474</a
-                    >
-                  </li>
-                  <li class="color-a">
-                    <span class="">Email:</span>
-                    <a href="mailto:info@sculitur.com" target="_blank"
-                      >info@sculitur.com</a
-                    >
-                  </li>
-                </ul>
-              </div>
+    <div class="semicircle semicircle_footer">
+      <div class="footer__wrapper">
+        <div class="footer__content-top">
+          <div class="footer__column">
+            <h2>Contact Information</h2>
+            <div class="footer__block">
+              <img src="./img/phone.svg" alt="phone" />
+              <a
+                class="footer__block-phone"
+                href="tel:+1 (800) 445-34-12"
+                class="phone"
+              >
+                +1 (800) 445-34-12
+              </a>
+            </div>
+            <div class="footer__block">
+              <h3>Email:</h3>
+              <a href="mailto:info@ambientia.com"> info@ambientia.com </a>
             </div>
           </div>
-          <div class="col-sm-12 col-md-4 section-md-t3">
-            <div class="widget-a">
-              <div class="w-header-a">
-                <h3 class="w-title-a text-brand">Links</h3>
-              </div>
-              <div class="w-body-a">
-                <div class="w-body-a">
-                  <ul class="list-unstyled">
-                    <li class="item-list-a">
-                      <i class="bi bi-chevron-right"></i>
-                      <a href="cookies.html">Cookies</a>
-                    </li>
-                    <li class="item-list-a">
-                      <i class="bi bi-chevron-right"></i>
-                      <a href="disclaimer.html">Disclaimer</a>
-                    </li>
-                    <li class="item-list-a">
-                      <i class="bi bi-chevron-right"></i>
-                      <a href="terms.html">Terms of service</a>
-                    </li>
-                    <li class="item-list-a">
-                      <i class="bi bi-chevron-right"></i>
-                      <a href="privacy.html">Privacy Policy</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+          <div class="footer__column">
+            <h2>About the Company</h2>
+            <h3>
+              <a
+                href="https://www.google.com/maps/place/1000+2nd+St,+Mendota,+CA+93640,+%D0%A1%D0%A8%D0%90/@36.7649274,-120.381988,17z/data=!3m1!4b1!4m6!3m5!1s0x80939236f1aee991:0x4ea6b92f5209291b!8m2!3d36.7649274!4d-120.381988!16s%2Fg%2F11bw3zgjs7?entry=ttu"
+                target="_blank"
+                >1000 2nd St, Mendota, CA 93640, USA
+              </a>
+            </h3>
+            <div class="footer__block">
+              <h3>Working Hours:</h3>
+              <p>a24/7, including weekends</p>
             </div>
+          </div>
+          <div class="footer__column">
+            <h2>Useful Information</h2>
+            <nav class="footer__nav">
+              <ul class="footer__menu">
+                <li>
+                  <a href="disclaimer.html"> Disclaimer </a>
+                </li>
+                <li>
+                  <a href="cookies.html"> Cookie Policy </a>
+                </li>
+                <li>
+                  <a href="terms.html"> Terms of Use </a>
+                </li>
+                <li>
+                  <a href="privacy.html" class="footer__policy"
+                    >Privacy Policy</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="footer__content-bottom">
+          <div class="footer__copy">
+            © Ambientia.com Official Website · 2021–2023
           </div>
         </div>
       </div>
-    </section>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="copyright-footer">
-              <p class="copyright color-a">
-                &copy; Copyright Sculitur All Rights Reserved.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <div id="preloader"></div>
-
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    </div>
   </body>
 </html>
