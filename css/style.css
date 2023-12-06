@@ -34,7 +34,6 @@ body {
   position: relative;
   background: #434e67;
   background-position: center;
-  background-size: 140% 100%;
   width: 100vw;
   height: auto;
   padding: 100px 0;
@@ -43,7 +42,6 @@ body {
 
 .semicircle_bg {
   background-color: #434e67;
-  background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;
   overflow: hidden;
@@ -107,14 +105,6 @@ body {
 
   .discount_right_img {
     width: 140%;
-  }
-
-  .semicircle {
-    background-size: 160% 100%;
-  }
-
-  .semicircle_bg {
-    background-size: 100%
   }
 
   .semicircle_bg::before,
@@ -338,14 +328,6 @@ body {
     display: none;
   }
 
-  .semicircle {
-    background-size: 160% 100%;
-  }
-
-  .semicircle_bg {
-    background-size: 100%
-  }
-
   .semicircle_bg::before,
   .semicircle_bg::after {
     width: 300%;
@@ -358,10 +340,6 @@ body {
   .hero_right {
     width: 100%;
     max-width: 712px;
-  }
-
-  .herobg {
-    margin-bottom: -300px;
   }
 
   .discount {
@@ -775,23 +753,7 @@ body {
     align-items: center;
     padding-bottom: 40px;
   }
-
-  .semicircle {
-    background-size: 250% 100%;
-  }
-
-  .semicircle_bg {
-    background-size: auto
-  }
-
-  .land_container_mtop {
-    margin-top: -150px;
-  }
-
-  .land_container_mbottom {
-    margin-bottom: -300px;
-  }
-
+  
   .consult {
     flex-direction: column-reverse;
     margin-bottom: 100px;
@@ -825,10 +787,6 @@ body {
     line-height: 16px;
     margin-bottom: 20px;
     white-space: nowrap;
-  }
-
-  .herobg {
-    margin-bottom: -500px;
   }
 
   .effective_title {
