@@ -247,31 +247,39 @@
           <div class="order_title_img"></div>
         </div>
         <div class="order_right">
-          <div class="order_form">
+          <form
+            action="tnx_page.php"
+            method="post"
+            class="order_form"
+          >
             <div class="order_form_title">Order Your Design Consultation</div>
             <input
               class="order_form_input"
               placeholder="Name"
               type="text"
               id="name"
+              name="name"
+              required
             />
             <input
               class="order_form_input"
-              placeholder="+ 7 (___)___-__-__"
+              placeholder="+7 (___)___-__-__"
               type="tel"
               id="telephone2"
+              name="phone"
+              required
             />
-            <a class="order_button" href="#">Get Your Design</a>
+            <button type="submit" class="order_button">Get Your Design</button>
             <div class="order_form_checkbox">
               <label>
-                <input type="checkbox" />
+                <input type="checkbox" required />
                 <p>
                   By sending this form, you agree to the processing of personal
                   data.
                 </p>
               </label>
             </div>
-          </div>
+          </form>
         </div>
       </div>
 
@@ -360,11 +368,7 @@
           </div>
         </div>
         <div class="licenses_desc_container">
-          <form
-            action="tnx_page.php"
-            method="post"
-            class="licenses_form"
-          >
+          <form action="tnx_page.php" method="post" class="licenses_form">
             <div class="licenses_form_title">
               <p>Order Your Free</p>
               <p>Design Consultation</p>
