@@ -791,12 +791,10 @@ body {
 
   .effective_title {
     border: none;
-    border-bottom: 1px solid #000;
   }
 
   .guarantee_title {
     border: none;
-    border-bottom: 1px solid #000;
   }
 
   .effective_list {
@@ -813,7 +811,7 @@ body {
 
   .necessary_title {
     border: none;
-    border-bottom: 1px solid #000;
+    width: 100%;
   }
 
   .necessary_list_container {
