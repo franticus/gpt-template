@@ -1,5 +1,5 @@
 .effective * {
-  font-family: 'Montserrat', sans-serif;
+
 }
 
 .effective_list_item_preline, 
@@ -23,7 +23,7 @@
   width: 100%;
   padding-right: 10px;
   border-right: 1px solid #100C37;
-  font-family: 'Montserrat', sans-serif;
+
 }
 
 .effective_title_container {
@@ -89,7 +89,7 @@
 
 .effective_button,
 .effective_list_button {
-  font-family: 'Montserrat', sans-serif;
+
   display: flex;
   align-items: center;
   margin: 0 auto;

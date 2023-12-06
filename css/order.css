@@ -1,5 +1,5 @@
 .order * {
-  font-family: 'Montserrat', sans-serif;
+
 }
 
 .order {
@@ -22,7 +22,7 @@
   line-height: 59px;
   color: #1D1D23;
   margin-bottom: 16px;
-  font-family: 'Montserrat', sans-serif;
+
 }
 
 .order_title_img {
@@ -56,7 +56,7 @@
 }
 
 .order_button {
-  font-family: 'Montserrat', sans-serif;
+
   display: flex;
   align-items: center;
   justify-content: center;

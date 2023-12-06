@@ -1,5 +1,5 @@
 .principe * {
-  font-family: 'Montserrat', sans-serif;
+
 }
 
 .principe {
@@ -17,7 +17,7 @@
   width: 50%;
   padding-right: 10px;
   border-right: 1px solid #100C37;
-  font-family: 'Montserrat', sans-serif;
+
 }
 
 .principe_title_container {
@@ -117,7 +117,7 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 39px;
-  font-family: 'Montserrat', sans-serif;
+
 }
 
 .principe_list_item_title_gradient {
@@ -126,7 +126,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  font-family: 'Montserrat', sans-serif;
+
 }
 
 .principe_list_img_mag {
@@ -141,19 +141,8 @@
   white-space: nowrap;
 }
 
-.principe_list_item::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 38px;
-  height: 38px;
-  background: url("../img/principe_icon.png") no-repeat;
-  background-size: contain;
-}
-
 .principe_button {
-  font-family: 'Montserrat', sans-serif;
+
   display: flex;
   align-items: center;
   margin: 0 auto;

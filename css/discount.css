@@ -1,5 +1,5 @@
 .discount * {
-  font-family: 'Montserrat', sans-serif;
+
 }
 
 .discount {
@@ -57,7 +57,7 @@
 }
 
 .discount_button {
-  font-family: 'Montserrat', sans-serif;
+
   display: flex;
   align-items: center;
   justify-content: center;

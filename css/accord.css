@@ -1,6 +1,5 @@
 .accord * {
-  font-family: 'Montserrat', sans-serif;
-  color: #F9F9F9;
+  color: #111;
 }
 
 .accord {
@@ -17,8 +16,8 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 49px;
-  color: #F9F9F9;
-  font-family: 'Montserrat', sans-serif;
+  color: #111;
+
   margin-bottom: 72px;
 }
 

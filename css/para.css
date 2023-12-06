@@ -1,5 +1,5 @@
 .para * {
-  font-family: 'Montserrat', sans-serif;
+
 }
 
 .para {
@@ -23,7 +23,7 @@
   line-height: 39px;
   color: #1D1D23;
   margin-bottom: 16px;
-  font-family: 'Montserrat', sans-serif;
+
 }
 
 .para_bubble {
@@ -71,7 +71,7 @@
 }
 
 .para_button {
-  font-family: 'Montserrat', sans-serif;
+
   display: flex;
   align-items: center;
   max-width: 346px;

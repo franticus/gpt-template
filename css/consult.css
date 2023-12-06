@@ -1,7 +1,3 @@
-.consult * {
-  font-family: 'Montserrat', sans-serif;
-}
-
 .consult {
   display: flex;
   align-items: flex-start;
@@ -27,8 +23,8 @@
   width: 100%;
   height: 370px;
   background: url("../img/consult.png") no-repeat;
-  background-position: left;
   background-size: contain;
+  background-position: center;
 }
 
 .consult_desc {
@@ -52,7 +48,7 @@
 }
 
 .consult_button {
-  font-family: 'Montserrat', sans-serif;
+
   display: flex;
   align-items: center;
   justify-content: center;
