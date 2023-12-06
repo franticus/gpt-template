@@ -1,0 +1,130 @@
+.para * {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.para {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.para_left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.para_title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #1D1D23;
+  margin-bottom: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.para_bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 206px;
+  height: 206px;
+  border-radius: 50%;
+  background: linear-gradient(138.63deg, #FFDAA6 11.55%, #FA858D 64.65%, #A153C9 121.09%), linear-gradient(155.9deg, #FDAE3C 14.34%, #FA858D 68.02%, #74269C 125.08%);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-left: 40%;
+}
+
+.para_desc {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #1D1D23;
+  margin-bottom: 130px;
+}
+
+.para_desc-bold {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1D1D23;
+  margin-bottom: 16px;
+}
+
+.para_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: 620px;
+  background: url("../img/para_img.png") no-repeat;
+  background-position: center;
+}
+
+.para_button {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  max-width: 346px;
+  transition: filter 0.2s;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1D1D23;
+  padding: 10px 107px;
+  background: linear-gradient(138.06deg, #FDAE3C 13.28%, #FA858D 58.2%, #74269C 105.94%);
+}
+
+.para_button:hover {
+  filter: brightness(1.05);
+}
+
+.para_list_item::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  min-height: 30px;
+  background: url("../img/result_icon.svg") no-repeat;
+  background-size: 90%;
+}
+
+.para_list {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 72px;
+}
+
+.para_list_container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.para_list_item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+  color: #1D1D23;
+  font-family: 'Roboto', sans-serif;
+}
