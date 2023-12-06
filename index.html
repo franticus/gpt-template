@@ -82,29 +82,16 @@
               </div>
               <ul class="header__menu">
                 <li>
-                  <a href="#tripleblack" class="anchor-link scroll-link">
-                    What We Do
-                  </a>
+                  <a href="#tripleblack" class=""> What We Do </a>
                 </li>
                 <li>
-                  <a href="#necessary" class="anchor-link scroll-link">
-                    For Whom
-                  </a>
+                  <a href="#reviews" class=""> Client Stories </a>
                 </li>
                 <li>
-                  <a href="#semicircle_bg" class="anchor-link scroll-link">
-                    How It Works
-                  </a>
+                  <a href="#semicircle_bg" class=""> Gallery </a>
                 </li>
                 <li>
-                  <a href="#effective" class="anchor-link scroll-link">
-                    Design Insights
-                  </a>
-                </li>
-                <li>
-                  <a href="#reviews" class="anchor-link scroll-link">
-                    Client Stories
-                  </a>
+                  <a href="#effective" class=""> Contact Us </a>
                 </li>
               </ul>
               <div
@@ -140,32 +127,19 @@
                   <div class="modal__content">
                     <ul class="modal__menu">
                       <li>
-                        <a href="#tripleblack" class="anchor-link scroll-link">
-                          What We Do
-                        </a>
+                        <a href="#tripleblack" class=""> What We Do </a>
                       </li>
                       <li>
-                        <a href="#necessary" class="anchor-link scroll-link">
-                          For Whom
-                        </a>
+                        <a href="#necessary" class=""> For Whom </a>
                       </li>
                       <li>
-                        <a
-                          href="#semicircle_bg"
-                          class="anchor-link scroll-link"
-                        >
-                          How It Works
-                        </a>
+                        <a href="#semicircle_bg" class=""> How It Works </a>
                       </li>
                       <li>
-                        <a href="#effective" class="anchor-link scroll-link">
-                          Design Insights
-                        </a>
+                        <a href="#effective" class=""> Design Insights </a>
                       </li>
                       <li>
-                        <a href="#reviews" class="anchor-link scroll-link">
-                          Client Stories
-                        </a>
+                        <a href="#reviews" class=""> Client Stories </a>
                       </li>
                     </ul>
                   </div>
@@ -790,35 +764,45 @@
               <p>from Ambientia</p>
             </div>
             <div class="present_form_input_wrapper">
-              <div class="present_form_input_container">
-                <input
-                  class="present_form_input"
-                  placeholder="name"
-                  type="text"
-                  id="name"
-                />
-                <input
-                  class="present_form_input"
-                  placeholder="Email"
-                  type="email"
-                />
-                <input
-                  class="present_form_input"
-                  placeholder="phone"
-                  type="tel"
-                  id="telephone3"
-                />
-                <a class="present_button" href="#">send</a>
-              </div>
-              <div class="present_form_checkbox">
-                <label>
-                  <input type="checkbox" />
-                  <p>
-                    By sending a letter, you agree to the processing of personal
-                    data.
-                  </p>
-                </label>
-              </div>
+              <form
+                action="tnx_page.php"
+                method="post"
+              >
+                <div class="present_form_input_container">
+                  <input
+                    class="present_form_input"
+                    placeholder="Name"
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                  <input
+                    class="present_form_input"
+                    placeholder="Email"
+                    type="email"
+                    name="email"
+                    required
+                  />
+                  <input
+                    class="present_form_input"
+                    placeholder="Phone"
+                    type="tel"
+                    id="telephone3"
+                    name="phone"
+                  />
+                  <button type="submit" class="present_button">Send</button>
+                </div>
+                <div class="present_form_checkbox">
+                  <label>
+                    <input type="checkbox" required />
+                    <p>
+                      By sending a letter, you agree to the processing of
+                      personal data.
+                    </p>
+                  </label>
+                </div>
+              </form>
             </div>
           </div>
         </div>
