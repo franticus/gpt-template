@@ -360,7 +360,11 @@
           </div>
         </div>
         <div class="licenses_desc_container">
-          <div class="licenses_form">
+          <form
+            action="tnx_page.php"
+            method="post"
+            class="licenses_form"
+          >
             <div class="licenses_form_title">
               <p>Order Your Free</p>
               <p>Design Consultation</p>
@@ -372,18 +376,22 @@
                   placeholder="Name"
                   type="text"
                   id="name"
+                  name="name"
+                  required
                 />
                 <input
                   class="licenses_form_input"
-                  placeholder="+ 7 (___)___-__-__"
+                  placeholder="+7 (___)___-__-__"
                   type="text"
                   id="telephone1"
+                  name="phone"
+                  required
                 />
-                <a class="licenses_button" href="#">Send</a>
+                <button type="submit" class="licenses_button">Send</button>
               </div>
               <div class="licenses_form_checkbox">
                 <label>
-                  <input type="checkbox" />
+                  <input type="checkbox" required />
                   <p>
                     By sending this letter, you agree to the processing of
                     personal data
@@ -391,7 +399,7 @@
                 </label>
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
@@ -764,10 +772,7 @@
               <p>from Ambientia</p>
             </div>
             <div class="present_form_input_wrapper">
-              <form
-                action="tnx_page.php"
-                method="post"
-              >
+              <form action="tnx_page.php" method="post">
                 <div class="present_form_input_container">
                   <input
                     class="present_form_input"
