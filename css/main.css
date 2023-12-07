@@ -25,7 +25,7 @@ section {
   text-align: center;
   text-transform: uppercase;
   font-size: 2.4rem;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 
 .container {
@@ -144,13 +144,14 @@ nav li {
 /* HERO */
 
 #hero {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url("../img/hero-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
+  animation: scroll 60s ease-in-out infinite;
 }
 
 .hero-content {
@@ -255,10 +256,76 @@ nav li {
   }
 }
 
+/* PRICES */
+.prices-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.prices h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.price-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.price {
+  font-size: 24px;
+  color: #333;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  color: #999;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .prices {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-card {
+    width: 80%;
+  }
+}
+
+
 /* CTA */
 
 .cta {
-  height: 70vh;
+  height: 80vh;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("../img/cta-bg.jpg") no-repeat;
   background-position: center;
   background-size: cover;
@@ -266,10 +333,11 @@ nav li {
   justify-content: center;
   align-items: center;
   color: #fff;
+  animation: scroll 30s ease-in-out infinite;
 }
 
 .cta2 {
-  height: 70vh;
+  height: 80vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("../img/cta-bg-2.jpg") no-repeat;
   background-position: center;
   background-size: cover;
@@ -278,6 +346,7 @@ nav li {
   text-align: right;
   align-items: center;
   color: #fff;
+  animation: scroll 30s ease-in-out infinite;
 }
 
 .cta-content {
@@ -322,8 +391,7 @@ nav li {
 
 /* SERVICES */
 
-#services {
-}
+#services {}
 
 .services-content {
   display: grid;
@@ -477,6 +545,9 @@ nav li {
 #contact {
   padding: 100px 20px;
   background-color: #fff;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1)), url("../img/contact-bg.jpg") no-repeat;
+  background-position: top;
+  background-size: cover;
   width: 100vw;
 }
 
@@ -623,5 +694,19 @@ ul li {
   .footer-column {
     margin-bottom: 20px;
     text-align: center;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 0% 100%;
+  }
+
+  100% {
+    background-position: 0% 0%;
   }
 }
