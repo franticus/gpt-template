@@ -315,3 +315,40 @@ nav li {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+/* TESTIMONIALS */
+
+#testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.testimonial-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.testimonial-card img {
+  max-width: 40%;
+  border-radius: 40%;
+  margin-bottom: 15px;
+}
+
+.testimonial-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.stars {
+  color: #FFD700;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #testimonials {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
