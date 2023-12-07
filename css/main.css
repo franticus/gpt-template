@@ -358,9 +358,50 @@ nav li {
   }
 }
 
+/* POSTS */
+
+#posts {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#posts h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.post-card {
+  display: flex;
+  text-align: left;
+}
+
+.post-image {
+  width: 40%;
+  height: auto;
+}
+
+.post-content {
+  padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .post-card {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
 /* CONTACT */
 
-/* Responsive styles for the contact form */
 #contact {
   padding: 20px;
 }
@@ -393,13 +434,13 @@ nav li {
   padding: 10px;
   box-sizing: border-box;
   margin-top: 5px;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
 #contact #privacy {
-  width: 20px; 
+  width: 20px;
 }
 
 #contact button {
