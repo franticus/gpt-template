@@ -32,175 +32,98 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thank you!</title>
-    <link href="./favicon.ico" rel="icon" />
-
+    <title>Thanks for Choosing Lustrum Photo Studio!</title>
     <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-
       body {
-        font-family: 'Piazzolla', sans-serif;
-        height: 100vh;
-        width: 100%;
-        font-size: 16px;
+        font-family: 'Arial', sans-serif;
         margin: 0;
         padding: 0;
+        background-color: #f8f9fa;
+        color: #495057;
       }
 
-      .wrapage {
-        background-size: 100%;
-        width: 100%;
-        height: 100%;
-      }
-
-      .centerBlock {
-        width: 100%;
-        margin: 0 auto;
+      header {
+        background-color: #222;
+        color: #fff;
         text-align: center;
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        align-items: center;
-        height: 100%;
-      }
-
-      .centerBlock h2 {
-        font-size: 24px;
-        padding: 0px 0px 25px;
-      }
-
-      .centerBlock p {
-        font-weight: 500;
-        font-size: 18px;
-        margin-bottom: 10px;
-      }
-
-      .mainBlock {
-        text-align: start;
-        max-width: 1000px;
-        margin: 0 auto;
-        padding: 40px;
-        border-radius: 0px;
-      }
-
-      .mainBlock ul {
-        text-align: start;
         padding: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
       }
 
-      .mainBlock ul > li span {
-        font-weight: bold;
+      h1 {
+        margin: 0;
       }
 
-      .mainBlock .cBlock {
-        text-align: start;
+      .thanks-content {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
 
-      .order {
-        font-size: 22px !important;
+      footer {
+        text-align: center;
+        margin-top: 20px;
       }
 
-      @media screen and (max-width: 639px) {
-        .centerBlock p {
-          padding: 0px 15px;
-        }
-        .centerBlock h2 {
-          padding: 0px 10px 15px;
-        }
-        .mainBlock {
-          padding: 15px;
-        }
+      a {
+        color: #007bff;
+        text-decoration: none;
       }
 
-      @media screen and (max-width: 480px) {
-        body {
-          height: 100%;
-        }
+      a:hover {
+        text-decoration: underline;
       }
     </style>
   </head>
   <body>
-    <div class="wrapage">
-      <div class="centerBlock">
-        <div class="mainBlock">
-          <h1>Thank You for Your Order!</h1>
-          <p>Dear Customer,</p>
-          <p>
-            We sincerely appreciate your interest in the services of
-            "Ambientia"! Your request for an interior design order is invaluable
-            to us, and we are ready to do everything possible to exceed your
-            expectations.
-          </p>
-          <h2>What Will Happen Next:</h2>
-          <ol>
-            <li>
-              <p>
-                <strong>Order Confirmation:</strong> Shortly, our manager will
-                get in touch with you to confirm the receipt of your order. If
-                you have any additional questions or preferences, feel free to
-                inform us.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Personalized Approach:</strong> We value the uniqueness
-                of each customer, and our designers are ready to start creating
-                a personalized design project that matches your taste and
-                preferences.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Next Steps:</strong> Keep an eye on updates in your
-                personal account. Here, you will receive information about the
-                progress of your order, preliminary sketches, and, of course,
-                can communicate with our team.
-              </p>
-            </li>
-          </ol>
-          <h2>Your Contribution to the Process:</h2>
-          <p>
-            We invite you to actively participate in the creation of your
-            perfect interior. Share your preferences, provide your ideas and
-            impressions—your involvement will help us make the design even more
-            unique.
-          </p>
-          <p>
-            <strong>Thank you for choosing Ambientia!</strong> Ambientia is
-            proud to be part of your interior journey. We strive to turn your
-            dreams into reality and create a space that reflects your style and
-            character.
-          </p>
-          <p>
-            If you have any questions during the project, feel free to reach
-            out. We are ready to turn your dream into reality.
-          </p>
-          <p>
-            Thank you for your trust, and we look forward to the start of our
-            collaboration!
-          </p>
-          <p class="cBlock">With heartfelt appreciation and warm regards,</p>
-          <p class="cBlock">
-            <span class="domain">The Ambientia Team</span>
-          </p>
-        </div>
-      </div>
-    </div>
+    <header>
+      <h1>Thanks for Choosing Lustrum Photo Studio!</h1>
+    </header>
 
-    <script>
-      var domainElements = document.querySelector('.domain');
-      var hostname = window.location.hostname;
-      domainElements.innerHTML = hostname;
-    </script>
+    <section class="thanks-content">
+      <p>
+        We're thrilled that you've chosen Lustrum Photo Studio for your
+        photography needs. Your trust means the world to us, and we're committed
+        to providing you with exceptional service and memorable moments.
+      </p>
+
+      <p>
+        At Lustrum, we understand the importance of capturing special occasions
+        and creating lasting memories. Whether it's a portrait session, event
+        coverage, or any other photography service, we're dedicated to
+        delivering stunning results that exceed your expectations.
+      </p>
+
+      <p>
+        Our team of talented photographers is passionate about their craft, and
+        we're excited about the opportunity to work with you. Your satisfaction
+        is our priority, and we strive to make every photo session a unique and
+        enjoyable experience.
+      </p>
+
+      <p>
+        If you have any specific requests, ideas, or questions, feel free to
+        reach out to us. We're here to ensure that your vision is realized, and
+        the moments we capture together are cherished for years to come.
+      </p>
+
+      <p>
+        Thank you again for choosing Lustrum Photo Studio. We look forward to
+        creating beautiful memories with you!
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        For more information about our services, please
+        <a href="mailto:lustrum@gmail.com">Contact Us</a>.
+      </p>
+    </footer>
   </body>
 </html>

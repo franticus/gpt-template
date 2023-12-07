@@ -43,27 +43,31 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-  const cookieBanner = document.getElementById('cookieBanner');
-  const acceptCookiesBtn = document.getElementById('acceptCookies');
-  const rejectCookiesBtn = document.getElementById('rejectCookies');
+const bannerCok = document.getElementById('cookieBanner') || 0;
 
-  const cookiesAccepted = localStorage.getItem('cookiesAccepted');
-  if (cookiesAccepted === 'true') {
-    cookieBanner.style.display = 'none';
-  } else if (cookiesAccepted === 'false') {
-    cookieBanner.style.display = 'none'; // You can modify this part based on your requirements
-  } else {
-    cookieBanner.style.display = 'block';
-  }
+if (!!bannerCok) {
+  document.addEventListener('DOMContentLoaded', function () {
+    const cookieBanner = document.getElementById('cookieBanner');
+    const acceptCookiesBtn = document.getElementById('acceptCookies');
+    const rejectCookiesBtn = document.getElementById('rejectCookies');
 
-  acceptCookiesBtn.addEventListener('click', function () {
-    localStorage.setItem('cookiesAccepted', true);
-    cookieBanner.style.display = 'none';
+    const cookiesAccepted = localStorage.getItem('cookiesAccepted');
+    if (cookiesAccepted === 'true') {
+      cookieBanner.style.display = 'none';
+    } else if (cookiesAccepted === 'false') {
+      cookieBanner.style.display = 'none'; // You can modify this part based on your requirements
+    } else {
+      cookieBanner.style.display = 'block';
+    }
+
+    acceptCookiesBtn.addEventListener('click', function () {
+      localStorage.setItem('cookiesAccepted', true);
+      cookieBanner.style.display = 'none';
+    });
+
+    rejectCookiesBtn.addEventListener('click', function () {
+      localStorage.setItem('cookiesAccepted', false);
+      cookieBanner.style.display = 'none';
+    });
   });
-
-  rejectCookiesBtn.addEventListener('click', function () {
-    localStorage.setItem('cookiesAccepted', false);
-    cookieBanner.style.display = 'none';
-  });
-});
+}
