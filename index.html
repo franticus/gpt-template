@@ -211,6 +211,34 @@
           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
         </div>
       </section>
+
+      <section id="contact" class="container">
+        <form action="tnx_page.php" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <input type="checkbox" id="privacy" name="privacy" required />
+            <label id="forPrivacy" for="privacy"
+              >I accept the <a href="privacy.html">Privacy Policy</a></label
+            >
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
     </main>
 
     <footer id="footer">
