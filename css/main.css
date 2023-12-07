@@ -710,3 +710,77 @@ ul li {
     background-position: 0% 0%;
   }
 }
+
+/* COOKIE */
+
+.cookie-banner {
+  position: fixed;
+  bottom: 4%;
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cookie-banner a {
+  text-decoration: underline;
+}
+
+#cookieBanner .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#cookieBanner .cookie-content {
+  flex-grow: 1;
+}
+
+#cookieBanner .cookie-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 100px;
+}
+
+#cookieBanner .accept-cookies-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 200px;
+}
+
+#cookieBanner .accept-cookies-btn {
+  background-color: #28a745;
+}
+
+#cookieBanner .reject-cookies-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 200px;
+}
+
+#cookieBanner .accept-cookies-btn:hover,
+#cookieBanner .reject-cookies-btn:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  #cookieBanner .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #cookieBanner .cookie-actions {
+    margin: 0;
+  }
+}
