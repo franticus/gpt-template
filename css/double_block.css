@@ -1,54 +1,54 @@
-.discount {
+.double_block {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90vw;
+  width: 100vw;
   max-width: 1100px;
   max-height: 440px;
-  margin: -70px auto 60px auto;
+  margin: 60px auto;
   z-index: 2;
 }
 
-.discount_block {
+.double_block_block {
   display: flex;
   align-items: center;
   height: 100%;
   width: 100%;
-  padding: 80px 20px;
+  padding: 200px 20px;
   color: #fff;
   transition: all 1s ease-in-out;
 }
 
-.discount_content {
+.double_block_content {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.discount_block-1 {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0.01) 100%), url("../img/discount-1.jpg") no-repeat;
-  background-position: right bottom;
+.double_block_block-1 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.2) 100%), url("../img/double-1.jpg") no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
-.discount_block-2 {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0.01) 100%), url("../img/discount-2.jpg") no-repeat;
-  background-position: right bottom;
+.double_block_block-2 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.2) 100%), url("../img/double-2.jpg") no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
-.discount_title {
+.double_block_title {
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.discount_description {
+.double_block_description {
   font-size: 14px;
 }
 
-.discount_btn {
+.double_block_btn {
   font-size: 10px;
   padding: 10px 20px;
   margin-top: 10px;
@@ -60,7 +60,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.discount_btn:hover {
+.double_block_btn:hover {
   font-size: 10px;
   padding: 10px 20px;
   margin-top: 10px;
@@ -72,13 +72,4 @@
   justify-content: center;
   text-transform: uppercase;
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .discount {
-    width: 100vw;
-    flex-wrap: wrap;
-    margin: 0px auto 60px auto;
-    max-height: 100%;
-  }
 }
