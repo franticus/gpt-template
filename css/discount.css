@@ -1,0 +1,74 @@
+.discount {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 1100px;
+  max-height: 440px;
+  margin: -40px auto 80px auto;
+  z-index: 2;
+}
+
+.discount_block {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 80px 20px;
+  color: #fff;
+}
+
+.discount_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.discount_block-1 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0.01) 100%), url("../img/discount-1.jpg") no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+}
+
+.discount_block-2 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0.01) 100%), url("../img/discount-2.jpg") no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+}
+
+.discount_title {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.discount_description {
+  font-size: 14px;
+}
+
+.discount_btn {
+  font-size: 10px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.discount_btn:hover {
+  font-size: 10px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: 1px solid #fff;
+  background: #fff;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
