@@ -1,4 +1,4 @@
-.double_block {
+.single_block {
   position: relative;
   display: flex;
   align-items: center;
@@ -10,7 +10,7 @@
   z-index: 2;
 }
 
-.double_block_block {
+.single_block_block {
   display: flex;
   align-items: center;
   height: 100%;
@@ -20,35 +20,29 @@
   transition: all 1s ease-in-out;
 }
 
-.double_block_content {
+.single_block_content {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.double_block_block-1 {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.2) 100%), url("../img/double-1.jpg") no-repeat;
+.single_block_block-1 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0) 100%), url("../img/single-bg.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.double_block_block-2 {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.2) 100%), url("../img/double-2.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.double_block_title {
+.single_block_title {
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.double_block_description {
+.single_block_description {
   font-size: 14px;
 }
 
-.double_block_btn {
+.single_block_btn {
   font-size: 10px;
   padding: 10px 20px;
   margin-top: 10px;
@@ -60,7 +54,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.double_block_btn:hover {
+.single_block_btn:hover {
   font-size: 10px;
   padding: 10px 20px;
   margin-top: 10px;
@@ -72,13 +66,4 @@
   justify-content: center;
   text-transform: uppercase;
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .double_block {
-    width: 100vw;
-    flex-wrap: wrap;
-    margin: 0px auto 60px auto;
-    max-height: 100%;
-  }
 }
