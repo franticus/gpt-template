@@ -1,0 +1,16 @@
+.delivery {
+  padding: 20px;
+  margin: 60px auto;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.delivery ul {
+  margin: 20px;
+}
+
+.delivery ul li {
+  margin-bottom: 20px;
+}
