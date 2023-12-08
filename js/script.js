@@ -4,21 +4,21 @@ document.addEventListener('DOMContentLoaded', function () {
   const mobileMenu = document.querySelector('.mobile-menu');
 
   burgerMenu.addEventListener('click', function () {
-      mobileMenu.classList.toggle('active');
-      mobileMenuOverlay.classList.toggle('active');
+    mobileMenu.classList.toggle('active');
+    mobileMenuOverlay.classList.toggle('active');
   });
 
   mobileMenuOverlay.addEventListener('click', function () {
-      mobileMenu.classList.remove('active');
-      mobileMenuOverlay.classList.remove('active');
+    mobileMenu.classList.remove('active');
+    mobileMenuOverlay.classList.remove('active');
   });
 
   const mobileMenuLinks = mobileMenu.querySelectorAll('a');
 
-    mobileMenuLinks.forEach(function (link) {
-        link.addEventListener('click', function () {
-            mobileMenu.classList.remove('active');
-            mobileMenuOverlay.classList.remove('active');
-        });
+  mobileMenuLinks.forEach(function (link) {
+    link.addEventListener('click', function () {
+      mobileMenu.classList.remove('active');
+      mobileMenuOverlay.classList.remove('active');
     });
+  });
 });
