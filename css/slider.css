@@ -12,7 +12,7 @@
 
 .slide {
   min-width: 100%;
-  height: 60vh;
+  height: 80vh;
   padding: 0 20px;
   background-position: center;
   background-size: cover;
@@ -30,13 +30,13 @@
 }
 
 #slide2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../img/slide-1.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../img/slide-2.jpg") no-repeat;
   background-position: bottom;
   background-size: cover;
 }
 
 #slide3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../img/slide-1.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../img/slide-3.jpg") no-repeat;
   background-position: bottom;
   background-size: cover;
 }
