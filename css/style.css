@@ -206,3 +206,21 @@ section {
   background: #f44336;
   border: 1px solid #f44336;
 }
+
+.privacy-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.privacy-checkbox a {
+  text-decoration: underline;
+}
+
+#privacyCheckbox {
+  width: 20px;
+  height: 20px;
+  margin-top: 0;
+  margin-right: 6px;
+}
