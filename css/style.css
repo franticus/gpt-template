@@ -173,6 +173,10 @@ section {
   z-index: 999;
 }
 
+.cookie-consent a {
+  text-decoration: underline;
+}
+
 .cookie-buttons button {
   margin: 15px;
   padding: 8px 15px;
@@ -180,6 +184,7 @@ section {
   border: none;
   border-radius: 3px;
   color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 
 #acceptButton {
@@ -189,5 +194,15 @@ section {
 
 #rejectButton {
   background: transparent;
+  border: 1px solid #f44336;
+}
+
+#acceptButton:hover {
+  background: #4CAF50;
+  border: 1px solid #4CAF50;
+}
+
+#rejectButton:hover {
+  background: #f44336;
   border: 1px solid #f44336;
 }
