@@ -13,12 +13,26 @@ li {
   padding: 0;
 }
 
+a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-radius: 6px;
+  padding-left: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  border-left: 2px solid #f00;
+  border-radius: 10px;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   height: 100%;
-  padding-top: 100px;
-  padding-bottom: 300px;
 }
 
 .container {
@@ -31,9 +45,10 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
-  background-color: #333;
+  background-color: #ec8874;
   color: white;
   padding: 10px 0;
+  z-index: 3;
 }
 
 .header .container {
@@ -89,7 +104,8 @@ header {
     top: 58px;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #de7c69;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .header .nav-list.active {
@@ -127,12 +143,88 @@ button {
   cursor: pointer;
 }
 
+.hero {
+  padding: 20px;
+  position: relative;
+  height: 84vh;
+  background: linear-gradient(rgb(62 22 22 / 80%), rgba(0, 0, 0, 0.9)),
+    url(../img/hero-bg.jpg) no-repeat;
+  background-size: 150%;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: heroScroll 40s infinite;
+}
+
+@keyframes heroScroll {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(rgb(62 22 22 / 80%), rgba(0, 0, 0, 0.9)),
+      url(../img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: none;
+  }
+}
+
+.hero a {
+  border: none;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: #FF4500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #FF6347;
+}
+
 /* Footer styles */
 footer {
-  position: fixed;
-  bottom: 0;
   width: 100vw;
-  background-color: #333;
+  background-color: #ec8874;
   color: #fff;
   text-align: center;
   padding: 10px 0;
