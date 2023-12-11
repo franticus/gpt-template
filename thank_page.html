@@ -3,94 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thanks for Choosing Lustrum Photo Studio!</title>
+    <title>Thank You for Your Purchase!</title>
     <style>
       body {
         font-family: 'Arial', sans-serif;
+        background-color: #f5f5f5;
         margin: 0;
         padding: 0;
-        background-color: #f8f9fa;
-        color: #495057;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
       }
 
-      header {
-        background-color: #222;
-        color: #fff;
+      .thanks-container {
         text-align: center;
+        background-color: #fff;
         padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 100%;
+      }
+
+      .thanks-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
       }
 
       h1 {
-        margin: 0;
+        color: #333;
       }
 
-      .thanks-content {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      p {
+        color: #666;
+        margin-bottom: 20px;
       }
 
-      footer {
-        text-align: center;
-        margin-top: 20px;
-      }
-
-      a {
-        color: #007bff;
+      .back-to-home {
+        display: inline-block;
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 20px;
         text-decoration: none;
+        border-radius: 5px;
       }
 
-      a:hover {
-        text-decoration: underline;
+      .back-to-home:hover {
+        background-color: #45a049;
       }
     </style>
   </head>
   <body>
-    <header>
-      <h1>Thanks for Choosing Lustrum Photo Studio!</h1>
-    </header>
-
-    <section class="thanks-content">
+    <div class="thanks-container">
+      <img
+        src="./img/thanks.jpg"
+        alt="Thank You for Your Purchase"
+        class="thanks-image"
+      />
+      <h1>Thank You for Your Order!</h1>
       <p>
-        We're thrilled that you've chosen Lustrum Photo Studio for your
-        photography needs. Your trust means the world to us, and we're committed
-        to providing you with exceptional service and memorable moments.
+        Your order has been successfully placed. We appreciate your choice and
+        hope that our furniture items will bring you joy.
       </p>
-
-      <p>
-        At Lustrum, we understand the importance of capturing special occasions
-        and creating lasting memories. Whether it's a portrait session, event
-        coverage, or any other photography service, we're dedicated to
-        delivering stunning results that exceed your expectations.
-      </p>
-
-      <p>
-        Our team of talented photographers is passionate about their craft, and
-        we're excited about the opportunity to work with you. Your satisfaction
-        is our priority, and we strive to make every photo session a unique and
-        enjoyable experience.
-      </p>
-
-      <p>
-        If you have any specific requests, ideas, or questions, feel free to
-        reach out to us. We're here to ensure that your vision is realized, and
-        the moments we capture together are cherished for years to come.
-      </p>
-
-      <p>
-        Thank you again for choosing Lustrum Photo Studio. We look forward to
-        creating beautiful memories with you!
-      </p>
-    </section>
-
-    <footer>
-      <p>
-        For more information about our services, please
-        <a href="mailto:lustrum@gmail.com">Contact Us</a>.
-      </p>
-    </footer>
+      <a href="index.html" class="back-to-home">Back to Home</a>
+    </div>
   </body>
 </html>
