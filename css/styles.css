@@ -221,6 +221,56 @@ button {
   background-color: #FF6347;
 }
 
+.home-about {
+  background: linear-gradient(45deg, #fff, #eee);
+  color: #333;
+  padding: 60px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  opacity: 0;
+  transform: translateY(0px);
+  transition: opacity 2s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.about-additional {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.about-image.in-viewport {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Footer styles */
 footer {
   width: 100vw;
