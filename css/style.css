@@ -159,3 +159,35 @@ body {
 section {
   background: #F4F4F4;
 }
+
+.cookie-consent {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  z-index: 999;
+}
+
+.cookie-buttons button {
+  margin: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
+
+#acceptButton {
+  background: transparent;
+  border: 1px solid #4CAF50;
+}
+
+#rejectButton {
+  background: transparent;
+  border: 1px solid #f44336;
+}
