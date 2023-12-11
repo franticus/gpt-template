@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 300px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header styles */
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+}
+
+.header .nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+}
+
+.header .nav-list li {
+  padding: 10px;
+}
+
+.header .nav-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.header .burger-menu {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 568px) {
+  .header .burger-menu {
+    display: block;
+  }
+
+  .header .nav-list {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+
+  .header .nav-list.active {
+    display: flex;
+  }
+}
+
+/* Form styles */
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

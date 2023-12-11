@@ -1,0 +1,169 @@
+/* Общие стили */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.burger-menu {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-left: auto;
+}
+
+/* Main */
+
+main {
+  padding: 30px 0;
+}
+
+/* Contact Form Section */
+
+.contact-form-section h2 {
+  color: #333;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-mail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name,
+.mail {
+  width: 48%;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+textarea {
+  resize: none;
+}
+
+.privacy-checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: #555;
+}
+
+.privacy-checkbox a {
+  color: #555;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* Contact Info Section */
+
+.contact-info-section p {
+  margin: 0;
+  color: #333;
+}
+
+/* Location Map Section */
+
+.location-map-section p {
+  margin: 0;
+  color: #333;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Адаптивные стили */
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #333;
+    z-index: 1;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .nav-list li {
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
