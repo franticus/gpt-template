@@ -11,6 +11,7 @@ ul,
 li {
   margin: 0;
   padding: 0;
+  list-style: none;
   line-height: 2rem;
 }
 
@@ -27,6 +28,7 @@ a {
 
 a:hover {
   border-left: 2px solid #f00;
+  color: #f00;
   border-radius: 10px;
 }
 
@@ -270,15 +272,6 @@ button {
   transform: translateY(0);
 }
 
-/* Footer styles */
-footer {
-  width: 100vw;
-  background-color: #ec8874;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-}
-
 .home-servCards {
   background: linear-gradient(rgba(225, 225, 225, 0.9), rgba(225, 225, 225, 0.9)), url("../img/serv.jpg") no-repeat;
   background-size: cover;
@@ -351,7 +344,7 @@ footer {
 .home-featured-products {
   padding: 60px 20px;
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: #ffdfdf;
 }
 
 .home-featured-products .container {
@@ -470,8 +463,10 @@ footer {
 }
 
 .testimonial-section {
-  background-color: #f9f9f9;
-  padding: 60px 0;
+  background: linear-gradient(rgba(225, 225, 225, 0.9), rgba(225, 225, 225, 0.9)), url("../img/testimonial.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
   text-align: center;
   overflow: hidden;
 }
@@ -498,7 +493,7 @@ footer {
 }
 
 .testimonial-content img {
-  border-radius: 50%;
+  border-radius: 40%;
   margin-bottom: 10px;
   max-width: 10%;
 }
@@ -530,3 +525,24 @@ footer {
   margin-right: 10px;
 }
 
+/* Footer styles */
+footer {
+  width: 100vw;
+  background-color: #ec8874;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-column {
+  width: 30%;
+}
+
+.copyright {
+  text-align: center;
+}
