@@ -65,8 +65,19 @@ header {
   font-size: 1.5rem;
 }
 
-.header a {
+.header h1 a {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header h1 a {
   border-left: 2px solid #fff;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header h1 a:hover {
+  border-left: 2px solid #f00;
   margin: 0;
   font-size: 1.5rem;
 }
@@ -539,10 +550,31 @@ footer {
   padding: 10px 0;
 }
 
+footer h3 {
+  line-height: 2rem;
+  margin-top: 10px;
+}
+
+footer p {
+  line-height: 1rem;
+  margin-top: 10px;
+}
+
+footer a {
+  border: none;
+  padding: 0;
+  line-height: 1rem;
+}
+
+footer a:hover {
+  border: none;
+}
+
 .footer-links {
   display: flex;
-  align-items: center;
   justify-content: center;
+  padding: 40px 0;
+  gap: 30px;
 }
 
 .footer-column {
@@ -551,4 +583,18 @@ footer {
 
 .copyright {
   text-align: center;
+}
+
+@media (max-width: 668px) {
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-column {
+    width: 80%;
+    gap: 20px;
+  }
 }
