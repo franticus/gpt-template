@@ -147,7 +147,7 @@ button {
 .hero {
   padding: 20px;
   position: relative;
-  height: 84vh;
+  height: 94vh;
   background: linear-gradient(rgb(62 22 22 / 80%), rgba(0, 0, 0, 0.9)),
     url(../img/hero-bg.jpg) no-repeat;
   background-size: 150%;
@@ -283,7 +283,7 @@ footer {
   background: linear-gradient(rgba(225, 225, 225, 0.9), rgba(225, 225, 225, 0.9)), url("../img/serv.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 60px 20px;
+  padding: 200px 20px;
   text-align: center;
 }
 
