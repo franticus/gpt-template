@@ -422,3 +422,49 @@ footer {
 .order-button:hover {
   background-color: #333;
 }
+
+.home-our-story {
+  background: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.home-our-story p {
+  margin: 10px;
+}
+
+.home-our-story .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  width: 30%;
+  height: 1px;
+  background: #333;
+  margin: 20px auto;
+}
+
+.story-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.story-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-our-story .container {
+    justify-content: space-between;
+  }
+
+  .story-content {
+    max-width: 800px;
+    text-align: left;
+  }
+}
