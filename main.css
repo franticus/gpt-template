@@ -27,9 +27,9 @@ a {
   justify-content: center;
   overflow: hidden;
   width: 100%;
-  height: 80vh;
+  min-width: 300px;
+  height: 60vh;
   margin: 0 auto;
-  border: 10px solid #333;
   border-radius: 20px;
 }
 
@@ -37,6 +37,7 @@ iframe {
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  background: transparent;
 }
 
 // @keyframes gradient {
@@ -109,6 +110,8 @@ iframe {
   flex-direction: column;
   gap: 20px;
   color: #f0f8ff;
+  width: 60vw;
+  min-width: 300px;
 }
 
 .button {
