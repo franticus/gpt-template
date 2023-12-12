@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(149deg, rgba(24, 187, 156, 1) 0%, rgba(106, 57, 175, 1) 42%, rgba(187, 24, 148, 1) 72%, rgba(115, 53, 134, 1) 100%);
+  animation: gradient 10s infinite linear;
+  background-size: 400%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  border: 10px solid #333;
+  border-radius: 20px;
+}
+
+iframe {
+  overflow: hidden;
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 80% 0%;
+  }
+
+  50% {
+    background-position: 20% 100%;
+  }
+
+  100% {
+    background-position: 80% 0%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .game {
+    width: 600px;
+    height: 450px;
+  }
+
+  iframe {
+    width: 800px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .game {
+    width: 500px;
+    height: 380px;
+  }
+
+  iframe {
+    width: 800px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 568px) {
+  .game {
+    width: 400px;
+    height: 300px;
+  }
+
+  iframe {
+    width: 800px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 468px) {
+  .game {
+    width: 320px;
+    height: 240px;
+  }
+
+  iframe {
+    width: 800px;
+    height: 600px;
+  }
+}
+
+.preview {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  color: #f0f8ff;
+}
+
+.button {
+  padding: 20px 40px;
+  border-radius: 40px;
+  background-color: #f0f8ff;
+  color: #333;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  color: #333;
+  background-color: #34c880;
+  border-radius: 50%;
+  transform: scale(1.2);
+}
+
+.balloon_img {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
