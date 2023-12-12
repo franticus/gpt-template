@@ -668,3 +668,79 @@ footer a:hover {
     margin-bottom: 20px;
   }
 }
+
+.our-team-section {
+  padding: 200px 20px;
+  background: linear-gradient(45deg, #fff, #eee);
+}
+
+.our-team-section .container {
+  text-align: center;
+}
+
+.our-team-section h2 {
+  margin-bottom: 30px;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-front {
+  cursor: pointer;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.team-card:hover .card-front {
+  transform: rotateY(180deg);
+}
+
+.team-card:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+.team-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.team-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.team-card p {
+  font-size: 1em;
+  line-height: 1.4;
+
+}
