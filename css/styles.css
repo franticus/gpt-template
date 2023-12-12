@@ -15,6 +15,10 @@ li {
   line-height: 2rem;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 a {
   list-style: none;
   text-decoration: none;
@@ -743,4 +747,55 @@ footer a:hover {
   font-size: 1em;
   line-height: 1.4;
 
+}
+
+.our-achievements-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/achievments.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 20px;
+  color: #333;
+}
+
+.our-achievements-section .container {
+  text-align: center;
+}
+
+.our-achievements-section h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.achievements-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.achievement-card {
+  flex: 1;
+  max-width: 250px;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #ec8874;
+  margin: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.achievement-card:hover {
+  background-color: #2c3e50;
+}
+
+.card-content {
+  text-align: center;
+  color: #fff;
+}
+
+.count {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.1em;
 }
