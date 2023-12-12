@@ -185,6 +185,7 @@ header {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.95);
   display: none;
+  z-index: 2;
 }
 
 .overlay.active {
