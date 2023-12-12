@@ -20,6 +20,28 @@ h2 {
 }
 
 a {
+  text-decoration: none;
+}
+
+.buttonBtn {
+  background: #e44d26;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  transition: background 0.3s ease-in-out;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.buttonBtn:hover {
+  background: #e22d26;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+header a,
+footer a {
   list-style: none;
   text-decoration: none;
   color: inherit;
@@ -30,7 +52,8 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover {
+header a:hover,
+footer a:hover {
   border-left: 2px solid #f00;
   color: #f00;
   border-radius: 10px;
@@ -367,10 +390,6 @@ header {
 .featured-product:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-
-.product-image {
-  padding: 20px;
 }
 
 .product-image img {
@@ -816,7 +835,7 @@ textarea {
 }
 
 textarea {
-  height: 300px;
+  height: 100px;
 }
 
 input {
@@ -862,10 +881,6 @@ button:hover {
 p {
   font-size: 1.1em;
   margin-bottom: 10px;
-}
-
-a {
-  color: #fff;
 }
 
 .featured-block {
