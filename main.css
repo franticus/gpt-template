@@ -30,6 +30,7 @@ a {
   overflow: hidden;
   width: 100%;
   min-width: 300px;
+  max-width: 1000px;
   height: 60vh;
   margin: 0 auto;
   border-radius: 20px;
