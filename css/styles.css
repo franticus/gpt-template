@@ -137,41 +137,6 @@ header {
   }
 }
 
-/* Form styles */
-.contacts-form-section {
-  margin-top: 100px;
-  padding: 60px 20px;
-}
-
-form {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input,
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-bottom: 15px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 .hero {
   padding: 20px;
   position: relative;
@@ -798,4 +763,131 @@ footer a:hover {
 
 .description {
   font-size: 1.1em;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contacts-form-section {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 100px 20px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name_mail {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-size: 1rem;  
+  border-radius: 20px;
+  outline: none;
+  resize: none;
+}
+
+textarea {
+  height: 300px;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+  font-size: 1rem;  
+  border-radius: 20px;
+}
+
+.checkPrivacy {
+  display: flex;
+  align-items: center;
+}
+
+#privacy-checkbox {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.checkPrivacy a {
+  border: none;
+  color: #de7c69;
+  padding: 0;
+  text-decoration: underline;
+}
+
+button {
+  background-color: #FF4500;
+  color: #fff;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #FF2500;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #fff;
+}
+
+.featured-block {
+  background-color: #f8f8f8;
+  padding: 100px 0;
+  margin-top: 100px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.block-content p {
+  color: #555;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 15px;
 }
