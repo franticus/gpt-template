@@ -112,7 +112,7 @@ function calculateVelocity(
 // Animation
 function animate() {
   animationId = requestAnimationFrame(animate)
-  c.fillStyle = 'rgba(0,0,0,0.1)'
+  c.fillStyle = '#100d39'
   c.fillRect(0, 0, canvas.width, canvas.height)
   player.draw()
 

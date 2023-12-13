@@ -21,6 +21,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  animation: fadeIn 1s;
 }
 
 .game {
@@ -85,6 +86,10 @@ body {
   z-index: 99;
 }
 
+canvas {
+  background: #031c47;
+}
+
 #score p {
   display: inline-block;
   margin-right: 10px;
@@ -96,7 +101,7 @@ button:focus {
 
 .modelEl {
   background-color: rgb(8 20 100 / 90%);
-  animation: fadeIn 1s;
+  animation: fadeIn 0.4s;
 }
 
 #modelEl {
@@ -157,7 +162,7 @@ canvas {
     opacity: 0;
   }
 
-  20% {
+  40% {
     opacity: 0;
   }
 
