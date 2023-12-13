@@ -1,49 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title>Balloons - играть в шарики онлайн</title>
+    <title>
+      Bubble Strike - Играйте в захватывающую мини-игру с пузырьками
+    </title>
     <meta
       name="description"
-      content="Balloons - Играйте в шарики на нашем сайте прямо сейчас. Игра не требует регистрации и доступна всем пользователям!"
+      content="Bubble Strike - Погрузитесь в захватывающий мир мини-игры с пузырьками. Приготовьтесь к веселым приключениям и наслаждайтесь игрой с разноцветными пузырьками."
     />
     <meta
       name="keywords"
-      content="игры, мини-игры, воздушные шарики, развлечения, Balloons, веселые приключения, разноцветные шарики"
+      content="игры, мини-игры, пузырьки, развлечения, Bubble Strike, веселые приключения, разноцветные пузырьки"
     />
+
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <main>
-      <div id="score">
-        <img src="./baloon.png" alt="balloon game" class="balloon_img" />
-        <h1>Играть в Balloon!</h1>
-        <p>
-          Счёт:
-          <span class="ml-1" id="scoreEl">0</span>
-        </p>
-
-        <p>
-          Рекорд:
-          <span class="ml-1" id="highestEl">0</span>
-        </p>
+      <div class="preview game">
+        <img src="./bubble.png" alt="bubble game" class="bubble_img" />
+        <h1>
+          Играть в <br />
+          Bubble Shooter!
+        </h1>
+        <a href="game.html" id="startGameBtn" class="button">Начать</a>
       </div>
-
-      <div id="modelEl">
-        <div>
-          <h1 id="bigScoreEl">0</h1>
-          <p>Счёт</p>
-          <div>
-            <button id="startGameBtn">Начать</button>
-          </div>
-        </div>
-      </div>
-
-      <canvas></canvas>
     </main>
-
-    <script src="main.js"></script>
   </body>
 </html>

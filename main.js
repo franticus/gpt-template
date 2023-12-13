@@ -265,3 +265,4 @@ function startGame() {
 
 // Start Game Button
 startGameBtn.addEventListener('click', startGame)
+startGameBtn.click();

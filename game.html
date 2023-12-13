@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Bubble Strike - играть в пузырьки онлайн</title>
+    <meta
+      name="description"
+      content="Bubble Strike - Играйте в пузырьки на нашем сайте прямо сейчас. Игра не требует регистрации и доступна всем пользователям!"
+    />
+    <meta
+      name="keywords"
+      content="игры, мини-игры, пузырьки, развлечения, Bubble Strike, веселые приключения, разноцветные пузырьки"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <div id="score">
+        <p>
+          Счёт:
+          <span class="ml-1" id="scoreEl">0</span>
+        </p>
+
+        <p>
+          Рекорд:
+          <span class="ml-1" id="highestEl">0</span>
+        </p>
+      </div>
+
+      <div id="modelEl" class="modelEl">
+        <div>
+          <h1 id="bigScoreEl">0</h1>
+          <p>Счёт</p>
+          <div>
+            <button id="startGameBtn">Ещё раз!</button>
+          </div>
+        </div>
+      </div>
+
+      <canvas></canvas>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
