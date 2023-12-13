@@ -36,6 +36,18 @@ a {
   border-radius: 20px;
 }
 
+.game {
+  position: relative;
+  width: 100%; /* Ширина родительского элемента */
+  max-width: 628px; /* Максимальная ширина canvas */
+}
+
+canvas {
+  width: 100%; /* Занимает 100% ширины родительского элемента */
+  height: auto; /* Сохраняет соотношение сторон */
+  display: block; /* Исключает лишние отступы */
+}
+
 iframe {
   width: 100%;
   height: 100%;
