@@ -1,49 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title>
-      Balloon - Играйте в захватывающую мини-игру с шариками
-    </title>
-    <meta
-      name="description"
-      content="Balloon - Погрузитесь в захватывающий мир мини-игры с шариками. Приготовьтесь к веселым приключениям и наслаждайтесь игрой с разноцветными шариками."
-    />
-    <meta
-      name="keywords"
-      content="игры, мини-игры, воздушные шарики, развлечения, Balloon, веселые приключения, разноцветные воздушные шарики"
-    />
-    <link rel="stylesheet" href="main.css" />
-  </head>
-  <body>
-    <main>
-      <div id="score">
-        <p>
-          Счёт:
-          <span class="ml-1" id="scoreEl">0</span>
-        </p>
+<html>
 
-        <p>
-          Рекорд:
-          <span class="ml-1" id="highestEl">0</span>
-        </p>
-      </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Balloon Pop!</title>
+  <link href="./main.css" rel="stylesheet" type="text/css" />
+</head>
 
-      <div id="modelEl" class="modelEl">
-        <div>
-          <h1 id="bigScoreEl">0</h1>
-          <p>Счёт</p>
-          <div>
-            <button id="startGameBtn">Ещё раз!</button>
-          </div>
-        </div>
-      </div>
+<body>
+  <div class="canvas">
+    <div id="score">Score: 0</div>
+    <div id="gameArea"></div>
+  </div>
+  <script src="./main.js"></script>
+</body>
 
-      <canvas></canvas>
-    </main>
-
-    <script src="main.js"></script>
-  </body>
 </html>

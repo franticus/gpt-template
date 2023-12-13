@@ -1,172 +1,39 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1;
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  -webkit-tap-highlight-color: transparent;
-}
-
-a {
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 body {
-  color: #333333;
+  font-family: arial, sans-sheriff;
+  text-align: center;
+  background-color: #3f37d3;
   overflow: hidden;
-  background: #100d39;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.canvas {
   height: 100vh;
-  animation: fadeIn 1s;
-}
-
-.game {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  width: 100%;
-  min-width: 300px;
-  max-width: 1000px;
-  height: 60vh;
-  margin: 0 auto;
-  border-radius: 200px;
-}
-
-.game h1 {
-  text-align: center;
-}
-
-.preview {
-  background-color: #031c47;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 20px;
-  color: #f0f8ff;
-  width: 60vw;
-  min-width: 300px;
-}
-
-.button {
-  margin-top: 40px;
-  padding: 20px 40px;
-  border-radius: 40px;
-  background-color: #0b4272;
-  color: #fff;
-  text-transform: uppercase;
-  transition: all 0.3s ease-in-out;
-}
-
-.button:hover {
-  background-color: #1244cf;
-  border-radius: 50px;
-  transform: scale(1.5);
-}
-
-.bubble_img {
-  display: block;
-  width: 200px;
-  margin: 0 auto;
-  text-align: center;
-  border-radius: 80px;
+  width: 100vw;
 }
 
 #score {
-  position: fixed;
-  color: white;
-  font-size: 13px;
-  padding: 5px;
-  user-select: none;
-  z-index: 99;
-}
-
-canvas {
-  background: #031c47;
-}
-
-#score p {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-button:focus {
-  outline: none;
-}
-
-.modelEl {
-  background-color: rgb(8 20 100 / 90%);
-  animation: fadeIn 0.4s;
-}
-
-#modelEl {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  padding: 1em;
-  text-align: center;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 999;
-}
-
-#modelEl > div {
-  width: 100%;
-  max-width: 350px;
-  padding: 1.5em;
+  margin-bottom: 20px;
   color: #fff;
 }
 
-#modelEl h1 {
-  font-size: 3em;
-  font-weight: 600;
-}
-
-#modelEl p {
-  font-size: 14px;
-}
-
-#modelEl button {
-  width: 100%;
-  margin-top: 1.5em;
-  border: none;
-  color: white;
-  cursor: pointer;
-  border-radius: 2em;
-  padding: 1em 2em;
-  background: dodgerblue;
-  transition: all 0.3s ease;
-}
-
-#modelEl button:hover {
-  opacity: 0.8;
-}
-
-canvas {
+#gameArea {
+  position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
+.balloon {
+  position: absolute;
+  width: 70px;
+  height: 80px;
+  background-size: cover;
+  cursor: pointer;
+  background: url("./balloon.png") no-repeat;
+  background-size: cover;
+  animation: fade 0.3s ease-out;
+}
 
-  40% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 100%;
-  }
+@keyframes fade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
