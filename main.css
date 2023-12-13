@@ -1,26 +1,19 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  -webkit-tap-highlight-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
 }
 
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #333333;
+  overflow: hidden;
+  background: #111111;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  width: 100%;
-  background: linear-gradient(149deg, rgba(24, 187, 156, 1) 0%, rgba(106, 57, 175, 1) 42%, rgba(187, 24, 148, 1) 72%, rgba(115, 53, 134, 1) 100%);
-  animation: gradient 10s infinite linear;
-  background-size: 400%;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .game {
@@ -34,25 +27,6 @@ a {
   height: 60vh;
   margin: 0 auto;
   border-radius: 20px;
-}
-
-.game {
-  position: relative;
-  width: 100%; /* Ширина родительского элемента */
-  max-width: 628px; /* Максимальная ширина canvas */
-}
-
-canvas {
-  width: 100%; /* Занимает 100% ширины родительского элемента */
-  height: auto; /* Сохраняет соотношение сторон */
-  display: block; /* Исключает лишние отступы */
-}
-
-iframe {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  background: transparent;
 }
 
 .preview {
@@ -88,4 +62,75 @@ iframe {
   width: 200px;
   margin: 0 auto;
   text-align: center;
+}
+
+#score {
+  position: fixed;
+  color: white;
+  font-size: 13px;
+  padding: 5px;
+  user-select: none;
+  z-index: 99;
+}
+
+#score p {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+#modelEl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 1em;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+#modelEl > div {
+  width: 100%;
+  max-width: 350px;
+  padding: 1.5em;
+  color: #fff;
+}
+
+#modelEl h1 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+#modelEl p {
+  font-size: 14px;
+}
+
+#modelEl button {
+  width: 100%;
+  margin-top: 1.5em;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 2em;
+  padding: 1em 2em;
+  background: dodgerblue;
+  transition: all 0.3s ease;
+}
+
+#modelEl button:hover {
+  opacity: 0.8;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
