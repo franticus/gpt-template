@@ -21,7 +21,7 @@ function createBalloon(){
 
 setTimeout(() =>{
   balloon.remove();
-  }, 1000);
+  }, 3000);
 }
 
 
@@ -30,4 +30,4 @@ function increaseScore(){
   scoreDisplay.textContent = "Score: " + score;
 }
 
-setInterval(createBalloon, 500);
+setInterval(createBalloon, 300);
