@@ -27,9 +27,6 @@ var imgSprite = new Image();
 imgSprite.src = 'images/sprite.png';
 imgSprite.addEventListener('load', init, false);
 
-var audioGame = document.createElement('audio');
-var audioStart = document.createElement('audio');
-
 var canvasMenu = document.getElementById('canvasMenu');
 var ctxMenu = canvasMenu.getContext('2d');
 
@@ -136,9 +133,6 @@ function checkLevens() {
 
 function init() {
   tekenMenu();
-  audioGame.setAttribute('src', 'ogg/game.ogg');
-  audioGame.load();
-  audioGame.play();
   document.addEventListener('click', muisClick, false);
   startSpel();
 }
@@ -149,7 +143,6 @@ function startSpel() {
   startLoopSterren();
   startLoopVijand();
   updateScore();
-  audioGame.play();
   document.addEventListener('keydown', checkKeyDown, false);
   document.addEventListener('keyup', checkKeyUp, false);
 }
@@ -202,8 +195,6 @@ function loopVijand() {
 
 function startLoopVijand() {
   isPlaying = true;
-  audioGame.setAttribute('src', 'ogg/game.ogg');
-  audioGame.play();
   loopVijand();
   startMaakVijand();
 }
