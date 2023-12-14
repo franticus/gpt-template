@@ -61,8 +61,8 @@ p {
 
 .button {
   padding: 40px;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,6 +81,11 @@ p {
   transform: scale(1.01);
 }
 
+.Fire {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
 
 .logo {
   width: 200px;
