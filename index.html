@@ -1,151 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <title>Space Shooter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Воздушные Дуэли в Aviator: Онлайн-Игра без Границ!</title>
+    <meta
+      name="description"
+      content="Погрузитесь в захватывающий мир воздушных дуэлей с Aviator. Отправьтесь в небеса, управляя летающим самолетом и разгадайте стратегии взрывных баталий. Играйте без регистрации, доступно для всех любителей воздушных приключений!"
+    />
+    <meta
+      name="keywords"
+      content="игры, воздушные дуэли, онлайн-игры, стреляющие самолеты, приключения в небесах"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      user-select: none;
-      -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-      -webkit-tap-highlight-color: transparent;
-    }
-    body {
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-color: #000;
-    }
-    #board {
-      position: relative;
-      width: 100vw;
-      max-width: 800px;
-      height: 80vw;
-      max-height: 1000px;
-      margin: 0px auto;
-      border: 1px solid #333;
-      background-color: black;
-      overflow: hidden;
-    }
-
-    #jet {
-      position: absolute;
-      width: 80px;
-      height: 80px;
-      background: url('rocket.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      left: 50%;
-      bottom: 0px;
-    }
-
-    .bullets {
-      position: absolute;
-      bottom: 40px;
-      left: 50%;
-      width: 40px;
-      height: 20px;
-      background: url('bullet.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-
-    .rocks {
-      position: absolute;
-      top: 0px;
-      width: 80px;
-      height: 80px;
-      background: url('alien.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-    #points {
-      position: absolute;
-      top: 0px;
-      margin: 40px;
-      opacity: 0.7;
-      font-size: 4rem;
-      color: #21a353;
-    }
-
-    .buttons {
-      margin: 80px auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      width: 800px;
-    }
-
-    .arrows {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .leftRight {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 80px;
-    }
-
-    .button {
-      padding: 40px;
-      width: 180px;
-      height: 180px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #eee;
-      border-radius: 40px;
-      font-size: 50px;
-      font-weight: 600;
-      transition: all 0.3s ease-in-out;
-      outline: none;
-      border: none;
-    }
-
-    .button:active {
-      cursor: pointer;
-      background: #32b124;
-      transform: scale(1.01);
-    }
-
-    .fire {
-      border-radius: 50%;
-      width: 240px;
-      height: 240px;
-    }
-
-    #board,
-    #jet,
-    .button {
-      touch-action: manipulation;
-    }
-  </style>
-  <script src="app.js" defer></script>
   <body>
-    <div id="board">
-      <div class="rocks"></div>
-      <div id="jet"></div>
-    </div>
-    <div id="points">0</div>
-    <div class="buttons">
-      <div class="arrows">
-        <div class="leftRight">
-          <button class="button left">Left</button>
-          <button class="button right">Right</button>
-        </div>
+    <main>
+      <div class="game">
+        <img src="./logo.png" alt="aviator game" class="logo" />
+        <h1>Играть в Авиатор!</h1>
+        <a href="airplan.html" class="animated-button1">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Начать!
+        </a>
       </div>
-      <button class="button fire">Fire</button>
-    </div>
+    </main>
   </body>
 </html>

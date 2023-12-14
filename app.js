@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
         );
 
         if (rocktop >= 475) {
-          alert('Game Over');
+          alert(`Конец Игры! Счёт: ${parseInt(pointsElement.innerHTML)}`);
           clearInterval(moverocks);
           window.location.reload();
         }

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aviator: Онлайн-Баталии в Небесах с Взрывными Приключениями!</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Присоединяйтесь к онлайн-баталиям в небесах с Aviator. Опережайте врагов, управляя летающим самолетом, и испытайте взрывные приключения. Играйте в Aviator без регистрации и наслаждайтесь воздушными баталиями!"
+    />
+    <meta
+      name="keywords"
+      content="онлайн-игры, воздушные баталии, Aviator, взрывные приключения, стреляющие самолеты, без регистрации"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+      -webkit-tap-highlight-color: transparent;
+    }
+    body {
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(rgba(2, 1, 33, 0.9), rgba(6, 3, 59, 0.9));
+    }
+    #board {
+      position: relative;
+      width: 100vw;
+      max-width: 600px;
+      height: 80vw;
+      max-height: 1000px;
+      margin: 0px auto;
+      border: 1px solid #333;
+      background: linear-gradient(rgba(2, 1, 33, 0.9), rgba(6, 3, 59, 0.9));
+      overflow: hidden;
+    }
+
+    #jet {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background: url('rocket.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      left: 50%;
+      bottom: 0px;
+    }
+
+    .bullets {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      width: 40px;
+      height: 20px;
+      background: url('bullet.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .rocks {
+      position: absolute;
+      top: 0px;
+      width: 80px;
+      height: 80px;
+      background: url('alien.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      transition: all 0.3s ease-in-out;
+    }
+    #points {
+      position: absolute;
+      top: 0px;
+      margin: 40px;
+      opacity: 0.7;
+      font-size: 4rem;
+      color: #21a353;
+    }
+
+    .buttons {
+      margin: 80px auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 800px;
+    }
+
+    .arrows {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .leftRight {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 80px;
+    }
+
+    .button {
+      padding: 40px;
+      width: 180px;
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(rgba(2, 1, 33, 0.9), rgba(6, 3, 59, 0.9));
+      color: #eee;
+      border-radius: 40px;
+      font-size: 80px;
+      font-weight: 600;
+      outline: none;
+      border: none;
+    }
+
+    .button:hover,
+    .button:active {
+      cursor: pointer;
+      background: #32b124;
+      transform: scale(1.01);
+    }
+
+    .fire {
+      border-radius: 50%;
+      width: 240px;
+      height: 240px;
+      font-size: 60px;
+    }
+
+    #board,
+    #jet,
+    .button {
+      touch-action: manipulation;
+    }
+  </style>
+  <script src="app.js" defer></script>
+  <body>
+    <div id="board">
+      <div class="rocks"></div>
+      <div id="jet"></div>
+    </div>
+    <div id="points">0</div>
+    <div class="buttons">
+      <div class="arrows">
+        <div class="leftRight">
+          <button class="button left">&#8592;</button>
+          <button class="button right">&#8594;</button>
+        </div>
+      </div>
+      <button class="button fire">FIRE</button>
+    </div>
+  </body>
+</html>
