@@ -1,34 +1,133 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title>Aviator - воздушные баталии в захватывающей онлайн-игре</title>
-    <meta
-      name="description"
-      content="Aviator - Погрузитесь в мир воздушных баталий и взрывов на нашем сайте. Играйте в увлекательную игру 'Авиатор' с летающим самолётиком и стрельбой без регистрации – доступно для всех пользователей!"
-    />
-    <meta
-      name="keywords"
-      content="игры, мини-игры, воздушные баталии, Aviator, стреляющий самолётик, захватывающие приключения, взрывы"
-    />
-
-    <link rel="stylesheet" href="./stylesheet.css" />
+    <title>Space Shooter</title>
   </head>
+  <style>
+    body {
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    #board {
+      position: relative;
+      width: 500px;
+      height: 500px;
+      margin: 40px auto;
+      border: 2px solid white;
+      background-color: black;
+      overflow: hidden;
+    }
+
+    #jet {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background: url('rocket.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      left: 50%;
+      bottom: 0px;
+    }
+
+    .bullets {
+      position: absolute;
+      bottom: 40px;
+      left: 51%;
+      width: 20px;
+      height: 20px;
+      background: url('bullet.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .rocks {
+      position: absolute;
+      top: 0px;
+      width: 50px;
+      height: 50px;
+      background: url('alien.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    #points {
+      position: absolute;
+      top: 0px;
+      margin: 40px;
+      opacity: 0.7;
+      font-size: 10em;
+      color: #21a353;
+    }
+
+    .buttons {
+      margin: 80px auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 800px;
+    }
+
+    .arrows {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .leftRight {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 80px;
+    }
+
+    .button {
+      padding: 40px;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #b15524;
+      border-radius: 20px;
+      font-size: 20px;
+      font-weight: 600;
+      transition: all 0.3s ease-in-out;
+      outline: none;
+      border: none;
+    }
+
+    .button:active {
+      cursor: pointer;
+      background: #32b124;
+      transform: scale(1.01);
+    }
+
+    .fire {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+    }
+  </style>
+  <script src="app.js" defer></script>
   <body>
-    <main>
-      <div class="game">
-        <img src="./logo.jpg" alt="aviator game" class="logo" />
-        <h1>Играть в Авиатор!</h1>
-        <a href="plane.html" class="animated-button1">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          Начать!
-        </a>
+    <div id="board">
+      <div class="rocks"></div>
+      <div id="jet"></div>
+    </div>
+    <div id="points">0</div>
+    <div class="buttons">
+      <div class="arrows">
+        <div class="leftRight">
+          <button class="button left">Left</button>
+          <button class="button right">Right</button>
+        </div>
       </div>
-    </main>
+      <button class="button fire">Fire</button>
+    </div>
   </body>
 </html>
