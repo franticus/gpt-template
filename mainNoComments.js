@@ -122,9 +122,9 @@ function checkLevens() {
     setTimeout(function () {
       if (
         !alert(
-          'GAME OVER, U hebt een score van ' +
+          'ИГРА ЗАВЕРШЕНА, ваш счет ' +
             speler.score +
-            ' behaald op level ' +
+            ' достигнут на уровне ' +
             speler.level
         )
       ) {
