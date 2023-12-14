@@ -106,9 +106,9 @@ ctxMenu.font = 'bold 20px Arial';
 
 function updateScore() {
   clearCtxMenu();
-  ctxMenu.fillText('Score: ' + speler.score, 660, 30);
-  ctxMenu.fillText('Levens: ' + aantalLevens, 50, 30);
-  ctxMenu.fillText('Level: ' + speler.level, 350, 30);
+  ctxMenu.fillText('Счёт: ' + speler.score, 660, 30);
+  ctxMenu.fillText('Жизни: ' + aantalLevens, 50, 30);
+  ctxMenu.fillText('Уровень: ' + speler.level, 350, 30);
   checkLevens();
 }
 

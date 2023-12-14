@@ -13,7 +13,6 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
-  overflow: hidden;
   color: #fff;
 }
 
@@ -43,7 +42,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 80vw;
+  width: 800px;
 }
 
 .arrows {
@@ -67,7 +66,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #b12424;
+  background: #b15524;
   border-radius: 20px;
   font-size: 20px;
   font-weight: 600;
