@@ -9,7 +9,7 @@
 body {
   font-family: arial, sans-sheriff;
   text-align: center;
-  background-color: #080727;
+  background-color: #250202;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -88,10 +88,11 @@ p {
 }
 
 .logo {
+  margin-top: 100px;
   width: 200px;
   border-radius: 50%;
   box-shadow: 0 0 20px #070a34;
-  animation: rotate 5s linear infinite;
+  border: 10px solid #310808;
 }
 
 @keyframes fade {
