@@ -9,7 +9,7 @@
 body {
   font-family: arial, sans-sheriff;
   text-align: center;
-  background-color: #000;
+  background-color: #080727;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -38,9 +38,19 @@ p {
   justify-content: center;
 }
 
-.btn {
+.buttons {
+  margin: 0 auto;
+  display: flex;
+}
+
+.button {
   margin-top: 40px;
-  padding: 20px 40px;
+  padding: 40px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #b12424;
   border-radius: 20px;
   font-size: 30px;
@@ -48,14 +58,17 @@ p {
   transition: all 0.3s ease-in-out;
 }
 
-.btn:hover {
+.button:active {
   cursor: pointer;
   background: #32b124;
-  transform: rotate(5deg) scale(1.2);
+  transform: scale(1.01);
 }
+
 
 .logo {
   width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #070a34;
   animation: rotate 5s linear infinite;
 }
 

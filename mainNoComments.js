@@ -8,6 +8,21 @@ var requestAnimationFrame =
     window.setTimeout(callback, 100 / 60);
   };
 
+var buttonUp = document.querySelector('.Up');
+var buttonLeft = document.querySelector('.left');
+var buttonRight = document.querySelector('.Right');
+var buttonDown = document.querySelector('.Down');
+var buttonFire = document.querySelector('.Fire');
+
+buttonFire.addEventListener('click', function () {
+  speler.isSpacebar = true;
+});
+
+buttonFire.addEventListener('mouseup', function () {
+  speler.isSpacebar = false;
+  speler.isAanHetSchieten = false;
+});
+
 var imgSprite = new Image();
 imgSprite.src = 'images/sprite.png';
 imgSprite.addEventListener('load', init, false);
@@ -614,3 +629,112 @@ function checkKeyUp(e) {
     e.preventDefault();
   }
 }
+
+var buttonUp = document.querySelector('.Up');
+var buttonLeft = document.querySelector('.left');
+var buttonRight = document.querySelector('.Right');
+var buttonDown = document.querySelector('.Down');
+var buttonFire = document.querySelector('.Fire');
+
+// Функция для обработки нажатия кнопки
+function handleButtonDown(direction) {
+  speler[direction] = true;
+}
+
+// Функция для обработки отпускания кнопки
+function handleButtonUp(direction) {
+  speler[direction] = false;
+}
+
+
+buttonUp.addEventListener('mousedown', function () {
+  speler.isUpKey = true;
+});
+
+buttonUp.addEventListener('mouseup', function () {
+  speler.isUpKey = false;
+});
+
+buttonLeft.addEventListener('mousedown', function () {
+  speler.isLeftKey = true;
+});
+
+buttonLeft.addEventListener('mouseup', function () {
+  speler.isLeftKey = false;
+});
+
+buttonRight.addEventListener('mousedown', function () {
+  speler.isRightKey = true;
+});
+
+buttonRight.addEventListener('mouseup', function () {
+  speler.isRightKey = false;
+});
+
+buttonDown.addEventListener('mousedown', function () {
+  speler.isDownKey = true;
+});
+
+buttonDown.addEventListener('mouseup', function () {
+  speler.isDownKey = false;
+});
+
+buttonFire.addEventListener('mousedown', function () {
+  speler.isSpacebar = true;
+});
+
+buttonFire.addEventListener('mouseup', function () {
+  speler.isSpacebar = false;
+  speler.isAanHetSchieten = false;
+});
+
+buttonUp.addEventListener('touchstart', function (event) {
+  event.preventDefault();
+  handleButtonDown('isUpKey');
+});
+
+buttonUp.addEventListener('touchend', function (event) {
+  event.preventDefault();
+  handleButtonUp('isUpKey');
+});
+
+buttonLeft.addEventListener('touchstart', function (event) {
+  event.preventDefault();
+  handleButtonDown('isLeftKey');
+});
+
+buttonLeft.addEventListener('touchend', function (event) {
+  event.preventDefault();
+  handleButtonUp('isLeftKey');
+});
+
+buttonRight.addEventListener('touchstart', function (event) {
+  event.preventDefault();
+  handleButtonDown('isRightKey');
+});
+
+buttonRight.addEventListener('touchend', function (event) {
+  event.preventDefault();
+  handleButtonUp('isRightKey');
+});
+
+buttonDown.addEventListener('touchstart', function (event) {
+  event.preventDefault();
+  handleButtonDown('isDownKey');
+});
+
+buttonDown.addEventListener('touchend', function (event) {
+  event.preventDefault();
+  handleButtonUp('isDownKey');
+});
+
+buttonFire.addEventListener('touchstart', function (event) {
+  event.preventDefault();
+  speler.isSpacebar = true;
+});
+
+buttonFire.addEventListener('touchend', function (event) {
+  event.preventDefault();
+  speler.isSpacebar = false;
+  speler.isAanHetSchieten = false;
+});

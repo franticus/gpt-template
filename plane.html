@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta
+      name="viewport"
+    />
     <title>
       Aviator - веселые воздушные приключения с самолётиком на нашем сайте
     </title>
@@ -15,6 +18,21 @@
       content="игры, мини-игры, воздушные приключения, Aviator, стреляющий самолётик, развлечения, захватывающие игры, весёлые шарики"
     />
     <link rel="stylesheet" href="stylesheet.css" />
+
+    <style>
+      body {
+        font-family: arial, sans-sheriff;
+        text-align: center;
+        background-color: #000;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+      }
+    </style>
   </head>
   <body>
     <div id="inner">
@@ -22,6 +40,13 @@
       <canvas id="canvasBg" height="500px" width="800px"></canvas>
       <canvas id="canvasKomeet" height="500px" width="800px"></canvas>
       <canvas id="canvasSpeler" height="500px" width="800px"></canvas>
+    </div>
+    <div class="buttons">
+      <button class="button Up">Up</button>
+      <button class="button left">Left</button>
+      <button class="button Right">Right</button>
+      <button class="button Down">Down</button>
+      <button class="button Fire">Fire</button>
     </div>
     <script src="mainNoComments.js"></script>
   </body>
