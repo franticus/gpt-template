@@ -6,19 +6,20 @@ document.addEventListener('DOMContentLoaded', function () {
   var moveLeft = function () {
     var left = parseInt(window.getComputedStyle(jet).getPropertyValue('left'));
     if (left > 0) {
-      jet.style.left = left - 10 + 'px';
+      jet.style.left = left - 20 + 'px';
     }
   };
 
   var moveRight = function () {
     var left = parseInt(window.getComputedStyle(jet).getPropertyValue('left'));
     if (left <= 460) {
-      jet.style.left = left + 10 + 'px';
+      jet.style.left = left + 20 + 'px';
     }
   };
 
   var fireBullet = function () {
-    var left = parseInt(window.getComputedStyle(jet).getPropertyValue('left'));
+    var left =
+      parseInt(window.getComputedStyle(jet).getPropertyValue('left')) + 40;
     var bullet = document.createElement('div');
     bullet.classList.add('bullets');
     board.appendChild(bullet);
@@ -33,10 +34,10 @@ document.addEventListener('DOMContentLoaded', function () {
           var bulletbound = bullet.getBoundingClientRect();
 
           if (
-            bulletbound.left >= rockbound.left &&
-            bulletbound.right <= rockbound.right &&
-            bulletbound.top <= rockbound.top &&
-            bulletbound.bottom <= rockbound.bottom
+            bulletbound.left >= rockbound.left - 20 &&
+            bulletbound.right <= rockbound.right + 20 &&
+            bulletbound.top <= rockbound.top + 20 &&
+            bulletbound.bottom <= rockbound.bottom + 20
           ) {
             rock.parentElement.removeChild(rock);
             pointsElement.innerHTML = parseInt(pointsElement.innerHTML) + 1;
@@ -48,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
         window.getComputedStyle(bullet).getPropertyValue('bottom')
       );
 
-      if (bulletbottom >= 500) {
+      if (bulletbottom >= 1000) {
         clearInterval(movebullet);
         bullet.parentElement.removeChild(bullet);
       }
