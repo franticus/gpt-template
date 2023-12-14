@@ -8,6 +8,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
       }
 
       #gameCanvas {
@@ -18,6 +19,16 @@
 
   <body>
     <canvas id="gameCanvas" width="760" height="570"></canvas>
+
+    <div class="arrows">
+      <div class="leftRight">
+        <button class="button up">&#8593;</button>
+        <button class="button left">&#8592;</button>
+        <button class="button right">&#8594;</button>
+      </div>
+    </div>
+    <button class="button fire">FIRE</button>
+
     <script src="game.js"></script>
   </body>
 </html>

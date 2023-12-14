@@ -697,3 +697,59 @@ function update() {
     }
   }
 }
+
+// Найти все кнопки
+const upButton = document.querySelector('.up');
+const leftButton = document.querySelector('.left');
+const rightButton = document.querySelector('.right');
+const fireButton = document.querySelector('.fire');
+
+// Определить, включено ли в данный момент стрельба
+let shooting = false;
+
+// Добавить обработчики событий для кнопок вверх, влево и вправо
+upButton.addEventListener('mousedown', () => keyDown({ keyCode: 38 })); // 38 - код клавиши "вверх"
+leftButton.addEventListener('mousedown', () => keyDown({ keyCode: 37 })); // 37 - код клавиши "влево"
+rightButton.addEventListener('mousedown', () => keyDown({ keyCode: 39 })); // 39 - код клавиши "вправо"
+
+upButton.addEventListener('mouseup', () => keyUp({ keyCode: 38 }));
+leftButton.addEventListener('mouseup', () => keyUp({ keyCode: 37 }));
+rightButton.addEventListener('mouseup', () => keyUp({ keyCode: 39 }));
+
+upButton.addEventListener('touchstart', () => keyDown({ keyCode: 38 }));
+leftButton.addEventListener('touchstart', () => keyDown({ keyCode: 37 }));
+rightButton.addEventListener('touchstart', () => keyDown({ keyCode: 39 }));
+
+upButton.addEventListener('touchend', () => keyUp({ keyCode: 38 }));
+leftButton.addEventListener('touchend', () => keyUp({ keyCode: 37 }));
+rightButton.addEventListener('touchend', () => keyUp({ keyCode: 39 }));
+
+// Добавить обработчики событий для кнопки fire
+fireButton.addEventListener('mousedown', () => {
+  keyDown({ keyCode: 32 }); // 32 - код клавиши "пробел"
+  shooting = true;
+});
+
+fireButton.addEventListener('mouseup', () => {
+  keyUp({ keyCode: 32 });
+  shooting = false;
+});
+
+fireButton.addEventListener('touchstart', (event) => {
+  event.preventDefault(); // предотвращаем скроллинг при тапе
+  keyDown({ keyCode: 32 });
+  shooting = true;
+});
+
+fireButton.addEventListener('touchend', () => {
+  keyUp({ keyCode: 32 });
+  shooting = false;
+});
+
+// Добавить обработчик для прекращения стрельбы при потере фокуса (например, если пользователь переключится на другое окно)
+window.addEventListener('blur', () => {
+  if (shooting) {
+    keyUp({ keyCode: 32 });
+    shooting = false;
+  }
+});
