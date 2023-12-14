@@ -91,8 +91,8 @@ p {
   margin-top: 100px;
   width: 200px;
   border-radius: 50%;
-  box-shadow: 0 0 20px #070a34;
-  border: 10px solid #310808;
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.2);
+  border: 10px solid rgb(177 119 119 / 10%);
 }
 
 @keyframes fade {
