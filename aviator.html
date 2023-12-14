@@ -2,17 +2,30 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Asteroids</title>
+    <meta name="viewport" content="user-scalable=no" />
+    <title>Aviator: Онлайн-Баталии в Небесах с Взрывными Приключениями!</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Присоединяйтесь к онлайн-баталиям в небесах с Aviator. Опережайте врагов, управляя летающим самолетом, и испытайте взрывные приключения. Играйте в Aviator без регистрации и наслаждайтесь воздушными баталиями!"
+    />
+    <meta
+      name="keywords"
+      content="онлайн-игры, воздушные баталии, Aviator, взрывные приключения, стреляющие самолеты, без регистрации"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <style>
       body {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        background: #000;
       }
 
       #gameCanvas {
         margin: 0 auto;
+        border: 1px dashed rgba(255, 255, 255, 0.1);
       }
     </style>
   </head>
@@ -21,13 +34,13 @@
     <canvas id="gameCanvas" width="760" height="570"></canvas>
 
     <div class="arrows">
+      <button class="button up">Газ</button>
       <div class="leftRight">
-        <button class="button up">&#8593;</button>
         <button class="button left">&#8592;</button>
         <button class="button right">&#8594;</button>
       </div>
     </div>
-    <button class="button fire">FIRE</button>
+    <button class="button fire">Огонь</button>
 
     <script src="game.js"></script>
   </body>
