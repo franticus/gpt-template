@@ -6,14 +6,14 @@ document.addEventListener('DOMContentLoaded', function () {
   var moveLeft = function () {
     var left = parseInt(window.getComputedStyle(jet).getPropertyValue('left'));
     if (left > 0) {
-      jet.style.left = left - 20 + 'px';
+      jet.style.left = left - 40 + 'px';
     }
   };
 
   var moveRight = function () {
     var left = parseInt(window.getComputedStyle(jet).getPropertyValue('left'));
     if (left <= 460) {
-      jet.style.left = left + 20 + 'px';
+      jet.style.left = left + 40 + 'px';
     }
   };
 
@@ -59,7 +59,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   };
 
-  // Add event listeners for keyboard events
   window.addEventListener('keydown', function (e) {
     switch (e.key) {
       case 'ArrowLeft':
@@ -77,7 +76,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // Add event listeners for button clicks
   document.querySelector('.left').addEventListener('click', moveLeft);
   document.querySelector('.right').addEventListener('click', moveRight);
   document.querySelector('.fire').addEventListener('click', fireBullet);
@@ -102,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
           window.getComputedStyle(rock).getPropertyValue('top')
         );
 
-        if (rocktop >= 475) {
+        if (rocktop >= board.clientHeight) {
           alert(`Конец Игры! Счёт: ${parseInt(pointsElement.innerHTML)}`);
           clearInterval(moverocks);
           window.location.reload();
