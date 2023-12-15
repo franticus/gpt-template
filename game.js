@@ -487,7 +487,7 @@ function update() {
   ctx.textBaseline = 'middle';
   ctx.fillStyle = 'white';
   ctx.font = TEXT_SIZE * 0.75 + 'px dejavu sans mono';
-  ctx.fillText('BEST ' + scoreHigh, canv.width / 2, SHIP_SIZE);
+  ctx.fillText('Рекорд ' + scoreHigh, canv.width / 2, SHIP_SIZE);
 
   // detect laser hits on asteroids
   var ax, ay, ar, lx, ly;
