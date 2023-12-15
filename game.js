@@ -218,7 +218,7 @@ function newGame() {
 }
 
 function newLevel() {
-  text = 'Level ' + (level + 1);
+  text = 'Уровень ' + (level + 1);
   textAlpha = 1.0;
   createAsteroidBelt();
 }
