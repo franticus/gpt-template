@@ -680,3 +680,14 @@ window.addEventListener('blur', () => {
     shooting = false;
   }
 });
+
+var hiddenBlock = document.getElementById('hiddenBlock');
+
+var isMobile =
+  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent
+  );
+
+if (!isMobile) {
+  hiddenBlock.style.display = 'none';
+}

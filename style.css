@@ -13,8 +13,11 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
-  color: #ff0037;
-  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #04044e;
+  opacity: 1;
+  background: repeating-linear-gradient(-45deg, #202580, #202580 2px, #04044e 2px, #04044e 10px);
 }
 
 a {
@@ -24,6 +27,7 @@ a {
 
 h1 {
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 p {
@@ -36,6 +40,10 @@ p {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background: rgba(2, 1, 33, 0.6);
+  border-radius: 40px;
+  padding: 40px;
+  margin-top: 100px;
 }
 
 .buttons {
@@ -53,6 +61,14 @@ p {
   justify-content: center;
 }
 
+#hiddenBlock {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
 .leftRight {
   display: flex;
   align-items: center;
@@ -62,21 +78,39 @@ p {
 
 .button {
   padding: 40px;
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #b15524;
-  border-radius: 20px;
-  font-size: 20px;
+  background: transparent;
+  border-radius: 100px;
+  font-size: 24px;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
   outline: none;
   border: none;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
-.button:active {
+#gameCanvas {
+  border-radius: 20px;
+}
+
+.btn {
+  padding: 40px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  font-size: 20px;
+  animation: bounce 3s ease-in-out infinite;
+}
+
+.btn:hover {
   cursor: pointer;
   background: #32b124;
   transform: scale(1.01);
@@ -89,8 +123,8 @@ p {
 }
 
 .logo {
-  margin-top: 100px;
   width: 200px;
+  animation: bounce 3s ease-in-out infinite;
 }
 
 @keyframes fade {
@@ -114,4 +148,16 @@ p {
 #canvasSpeler {
   display: block;
   margin: -500px auto 0px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
