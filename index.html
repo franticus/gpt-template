@@ -1,42 +1,26 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title>
-      Plinko: Веселье и Азарт с Увлекательной Игрой в Плинко!
-    </title>
-    <meta
-      name="description"
-      content="Играйте в Plinko и окунитесь в мир веселья и азарта! Попробуйте удачу в этой захватывающей игре Plinko, где каждый шар может принести вам крупный выигрыш. Присоединяйтесь прямо сейчас и испытайте удовольствие от падающих шаров!"
-    />
-    <meta
-      name="keywords"
-      content="игра Plinko, азартные игры, веселые шары, онлайн-развлечения"
-    />
+<html>
+<head>
+	
+	<script type="text/javascript" src="constants.js"></script>				<!-- Constants - Before Anything else-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="Engines/p5/p5.js"></script>					<!-- p5 -->
+	<script type="text/javascript" src="Engines/p5/addons/p5.dom.js"></script>		<!-- p5 Dom -->
+	<Script type="text/javascript" src="Engines/p5/addons/p5.sound.js"></script>	<!-- p5 Audio -->
+	<script type="text/javascript" src="Engines/matter/matter.js"></script>				<!-- Matter Physics -->
 
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <main>
-      <div class="game">
-        <img src="./logo.png" alt="aviator game" class="logo" />
-        <h1>
-          Играть <br />
-          в Plinko!
-        </h1>
-        <a href="plinko.html" class="btn"> Начать игру </a>
-      </div>
-      <div class="light x1"></div>
-      <div class="light x2"></div>
-      <div class="light x3"></div>
-      <div class="light x4"></div>
-      <div class="light x5"></div>
-      <div class="light x6"></div>
-      <div class="light x7"></div>
-      <div class="light x8"></div>
-      <div class="light x9"></div>
-    </main>
-  </body>
+	<script type="text/javascript" src="Main.js"></script>
+	<script type="text/javascript" src="Classes/Cup.js"></script>
+	<script type="text/javascript" src="Classes/Label.js"></script>
+	<script type="text/javascript" src="Classes/Ball.js"></script>
+	<Script type="text/javascript" src="Classes/Stud.js"></script>
+	<script type="text/javascript" src="Classes/Boundary.js"></script>
+	
+	<title>JS Plinko</title>
+	
+</head>
+
+<body style="margin: 0px;">
+	
+</body>
 </html>
