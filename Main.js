@@ -34,11 +34,7 @@ function setup(){
 	initCollisions();
 	
 	//Score + Label
-	if(yesOrNo){
-		score = "";
-	} else {
-		score = 0;
-	}
+	score = 0;
 	newScore();
 	
 	// Get Column and Row Spacing based on cols, rows and screen size
@@ -66,12 +62,7 @@ function setup(){
 		} else {
 			b = new Boundary((i * colSpace) + (0.3 * colSpace), height - 0.25 * cupH, studRad, 0.75 * cupH);
 		}
-		var cupValue = floor(random(100))-50;
-		//Yes No
-		if(yesOrNo){
-			cupValue = floor(random(100)) >= 50 ? "Yes" : "No";
-		}
-		cups.push(new Cup(cupValue, b.body.position.x + (colSpace/2), height - cupLabelSize, cupLabelSize));
+		cups.push(new Cup(floor(random(100))-50, b.body.position.x + (colSpace/2), height - cupLabelSize, cupLabelSize, 255,255,255));
 		bounds.push(b);
 	}
 	
@@ -89,9 +80,10 @@ function setup(){
 
 //Draw everything to the screen 
 function draw(){
-	background(Theme[theme].color1);
+	background(5);
 	Engine.update(engine, 1000 / 40);
 	ball.show();
+	
 	for (var i = 0; i < studs.length; i ++){
 		studs[i].show();  
 	}
@@ -114,11 +106,7 @@ function mousePressed() {
 }
 
 function newScore(){
-	if(yesOrNo){
-		scoreLabel = new Label(score, 10, scoreLabelSize, scoreLabelSize);
-	} else {
-		scoreLabel = new Label("Score: "+ score, 10, scoreLabelSize, scoreLabelSize);
-	}
+	scoreLabel = new Label("Score: "+ score, 10, scoreLabelSize, scoreLabelSize, 255,255,255);
 }
 
 function initCollisions(){

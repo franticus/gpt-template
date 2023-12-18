@@ -14,8 +14,8 @@ function Boundary(x, y, w, h){
 
 Boundary.prototype.show = function() {
 	
-	fill(Theme[theme].color2);
-	stroke(Theme[theme].color2);
+	fill(255);
+	stroke(255);
 	var pos = this.body.position;
 	push();
 	translate(pos.x, pos.y);

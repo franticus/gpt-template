@@ -29,11 +29,7 @@ Ball.prototype.drop = function() {
 Ball.prototype.claimPoints = function(){
 	for (var i = 0; i < cups.length; i ++){
 		if (Matter.Bounds.overlaps(ball.body.bounds, cups[i].body.bounds)) {
-			if(yesOrNo){
-				score = cups[i].body.pointValue;
-			} else {
-				score += cups[i].body.pointValue;
-			}
+			score += cups[i].body.pointValue;
 			newScore();
 			break;
 		}
@@ -41,7 +37,8 @@ Ball.prototype.claimPoints = function(){
 };
 
 Ball.prototype.show = function() {
-	fill(Theme[theme].color2);
+	fill(255);
+	stroke(255);
 	
 	var pos = this.body.position;
 	if(this.restTime >= 70){

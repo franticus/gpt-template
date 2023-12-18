@@ -1,8 +1,11 @@
-function Cup(content, x, y, size){
+function Cup(content, x, y, size, r, g, b){
 	this.content	= content;
 	this.x			= x;
 	this.y 			= y;
 	this.size		= size;
+	this.r 			= r;
+	this.g 			= g;
+	this.b 			= b;
 	
 	var options = {
 		isStatic: true,
@@ -20,7 +23,7 @@ function Cup(content, x, y, size){
 
 Cup.prototype.draw = function(){
 	textSize(this.size);
-	fill(Theme[theme].color2);
+	fill(this.r, this.g, this.b);
 	var label_width = textWidth(this.content);
 	text(this.content, this.x - (label_width / 2), this.y);
 }

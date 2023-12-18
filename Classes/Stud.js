@@ -16,7 +16,8 @@ function Stud(x, y){
 
 Stud.prototype.show = function() {
 	
-	fill(Theme[theme].color2);
+	fill(255);
+	stroke(255);
 	var pos = this.body.position;
 		
 	push();
