@@ -16,7 +16,7 @@ placeBetButton.onclick = function () {
   const betAmount = parseFloat(betAmountInput.value);
   if (!isNaN(betAmount) && betAmount > 0 && betAmount <= totalBalance) {
     totalBalance -= betAmount;
-    totalBalanceElement.textContent = `Общий счет: $${totalBalance.toFixed(2)}`;
+    totalBalanceElement.textContent = `Общий счет: ${totalBalance.toFixed(2)}`;
     playButton.disabled = false;
     placeBetButton.disabled = true;
   } else {
