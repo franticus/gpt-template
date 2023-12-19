@@ -1,54 +1,69 @@
-// let isPlaying = false;
-// let crashTime;
-// let multiplier = 1.0;
-// let jetElement = document.getElementById('jet');
-// let playButton = document.getElementById('playButton');
-// let cashoutButton = document.getElementById('cashoutButton');
-// let multiplierText = document.getElementById('multiplier');
+let isPlaying = false;
+let crashTime;
+let multiplier = 1.0;
+let jetElement = document.getElementById('jet');
+let playButton = document.getElementById('playButton');
+let cashoutButton = document.getElementById('cashoutButton');
+let multiplierText = document.getElementById('multiplier');
+let betAmountInput = document.getElementById('betAmount');
+let placeBetButton = document.getElementById('placeBetButton');
+let totalBalanceElement = document.getElementById('totalBalance');
 
-// playButton.onclick = function () {
-//   isPlaying = true;
-//   playButton.disabled = true;
-//   cashoutButton.disabled = false;
-//   multiplier = 1.0;
-//   crashTime = Date.now() + Math.random() * 20000 + 1000; // случайное время взрыва
+let totalBalance = 1000; // Начальный общий счет
 
-//   (function flyJet() {
-//     if (isPlaying && Date.now() < crashTime) {
-//       multiplier += 0.01;
-//       multiplierText.textContent = `Множитель: x${multiplier.toFixed(2)}`;
-//       jetElement.style.transform = `translateY(${-multiplier * 10}px)`; // Поднимаем самолет
-//       requestAnimationFrame(flyJet);
-//     } else {
-//       jetExplode();
-//     }
-//   })();
-// };
+placeBetButton.onclick = function () {
+  const betAmount = parseFloat(betAmountInput.value);
+  if (!isNaN(betAmount) && betAmount > 0 && betAmount <= totalBalance) {
+    totalBalance -= betAmount;
+    totalBalanceElement.textContent = `Общий счет: $${totalBalance.toFixed(2)}`;
+    playButton.disabled = false;
+    placeBetButton.disabled = true;
+  } else {
+    alert('Пожалуйста, введите правильное значение ставки.');
+  }
+};
 
-// cashoutButton.onclick = function () {
-//   isPlaying = false;
-//   alert(`Вы забрали выигрыш! Множитель: x${multiplier.toFixed(2)}`);
-//   resetGame();
-// };
+playButton.onclick = function () {
+  isPlaying = true;
+  playButton.disabled = true;
+  cashoutButton.disabled = false;
+  multiplier = 1.0;
+  crashTime = Date.now() + Math.random() * 20000 + 1000; // случайное время взрыва
 
-// function jetExplode() {
-//   alert('Взрыв! Игра окончена.');
-//   resetGame();
-// }
+  (function flyJet() {
+    if (isPlaying && Date.now() < crashTime) {
+      multiplier += 0.01;
+      multiplierText.textContent = `Множитель: x${multiplier.toFixed(2)}`;
+      jetElement.style.transform = `translateY(${-multiplier * 10}px)`; // Поднимаем самолет
+      requestAnimationFrame(flyJet);
+    } else {
+      jetExplode();
+    }
+  })();
+};
 
-// function resetGame() {
-//   isPlaying = false;
-//   playButton.disabled = false;
-//   cashoutButton.disabled = true;
-//   jetElement.style.transform = 'translateY(0px)';
-//   multiplierText.textContent = 'Множитель: x1.0';
-// }
+cashoutButton.onclick = function () {
+  isPlaying = false;
+  const winnings = betAmountInput.value * multiplier;
+  alert(`Вы забрали выигрыш! Выигрыш: $${winnings.toFixed(2)}`);
+  totalBalance += winnings;
+  totalBalanceElement.textContent = `Общий счет: $${totalBalance.toFixed(2)}`;
+  resetGame();
+};
 
+function jetExplode() {
+  if (isPlaying) {
+    alert(`Взрыв! Игра окончена. Выигрыш: $0.00`);
+    resetGame();
+  }
+}
 
-let utm = window.location.href.split('?').pop(); //получаем utm
-console.log('utm:', utm)
-
-
-document.getElementById('link').onclick = function() { //по клику на кнопку
-   window.location = 'https://sitenew2023.com/HPqDgWWm?'+utm; //переправляем пользователя на новый адрес
+function resetGame() {
+  isPlaying = false;
+  playButton.disabled = true;
+  cashoutButton.disabled = true;
+  placeBetButton.disabled = false;
+  jetElement.style.transform = 'translateY(0px)';
+  multiplierText.textContent = 'Множитель: x1.0';
+  betAmountInput.value = ''; // Сбросить значение ставки
 }
