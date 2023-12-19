@@ -29,13 +29,13 @@ playButton.onclick = function () {
   playButton.disabled = true;
   cashoutButton.disabled = false;
   multiplier = 1.0;
-  crashTime = Date.now() + Math.random() * 20000 + 1000;
+  crashTime = Date.now() + Math.random() * 5000 + 100;
 
   (function flyJet() {
     if (isPlaying && Date.now() < crashTime) {
-      multiplier += 0.01;
+      multiplier += 0.05;
       multiplierText.textContent = `Множитель: x${multiplier.toFixed(2)}`;
-      jetElement.style.transform = `translateY(${-multiplier * 20}px)`;
+      jetElement.style.transform = `translateY(${-multiplier * 30}px)`;
       jetFire.classList.remove('hide');
       requestAnimationFrame(flyJet);
     } else {
