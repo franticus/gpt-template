@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>JetX Casino - Play and Win Big!</title>
+    <meta
+      name="description"
+      content="Explore the thrilling world of JetX Casino! Play and win big with our exciting casino game. Test your luck and experience the adrenaline rush of JetX. Join now for a chance to enjoy endless fun and incredible wins!"
+    />
+    <meta
+      name="keywords"
+      content="JetX Casino, online gambling, win big, casino games, exciting spins, online entertainment, play and win"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./bg.css" />
+  </head>
+
+  <body>
+    <div class="game">
+      <img src="./jet_nofire.png" id="jet" alt="Jet" />
+      <div id="multiplier">Множитель: x1.0</div>
+      <label for="betAmount">Ставка: </label>
+      <input type="number" id="betAmount" />
+      <button id="placeBetButton">Сделать ставку</button>
+      <button id="playButton" disabled>Играть</button>
+      <button id="cashoutButton" disabled>Забрать выигрыш</button>
+      <div id="totalBalance">Общий счет: $1000</div>
+    </div>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+
+    <script src="./game.js"></script>
+  </body>
+</html>

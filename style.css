@@ -26,9 +26,8 @@ a {
 h1 {
   color: #eee;
   margin-bottom: 40px;
-  text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 p {
@@ -110,4 +109,26 @@ button:disabled {
 
 #cashoutButton {
   background-color: #e74c3c;
+}
+
+.logo {
+  width: 200px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 20px 60px;
+  background: #389f09;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 10px 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  padding: 20px 60px;
+  background: #c99b0e;
+  font-size: 20px;
+  border-radius: 10px 100px;
 }
