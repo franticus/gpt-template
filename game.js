@@ -33,7 +33,9 @@ playButton.onclick = function () {
 
   (function flyJet() {
     if (isPlaying && Date.now() < crashTime) {
-      multiplier += 0.05;
+      multiplier += 0.01;
+      console.log('multiplier:', -multiplier * 20)
+
       multiplierText.textContent = `Множитель: x${multiplier.toFixed(2)}`;
       jetElement.style.transform = `translateY(${-multiplier * 30}px)`;
       jetFire.classList.remove('hide');
