@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Проверяем, есть ли utm
     if (utm) {
-      if (utm.includes('utm_term=jetx')) {
-        links[i].setAttribute('href', `https://black.com?${remainingUtm}`);
+      if (utm.includes('utm_term=lucky%20jet')) {
+        links[i].setAttribute('href', `https://sitenew2023.com/3tgV26T9?${remainingUtm}`);
       } else {
         // Иначе добавляем utm как обычно
         links[i].setAttribute(
