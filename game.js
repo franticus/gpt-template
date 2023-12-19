@@ -16,11 +16,11 @@ placeBetButton.onclick = function () {
   const betAmount = parseFloat(betAmountInput.value);
   if (!isNaN(betAmount) && betAmount > 0 && betAmount <= totalBalance) {
     totalBalance -= betAmount;
-    totalBalanceElement.textContent = `Общий счет: ${totalBalance.toFixed(2)}`;
+    totalBalanceElement.textContent = `Total Balance: ${totalBalance.toFixed(2)}`;
     playButton.disabled = false;
     placeBetButton.disabled = true;
   } else {
-    alert('Пожалуйста, введите правильное значение ставки.');
+    alert('Please enter a valid bet amount.');
   }
 };
 
@@ -35,7 +35,7 @@ playButton.onclick = function () {
     if (isPlaying && Date.now() < crashTime) {
       multiplier += 0.01;
 
-      multiplierText.textContent = `Множитель: x${multiplier.toFixed(2)}`;
+      multiplierText.textContent = `Multiplier: x${multiplier.toFixed(2)}`;
       jetElement.style.transform = `translateY(${-multiplier * 30}px)`;
       jetFire.classList.remove('hide');
       requestAnimationFrame(flyJet);
@@ -48,16 +48,16 @@ playButton.onclick = function () {
 cashoutButton.onclick = function () {
   isPlaying = false;
   const winnings = betAmountInput.value * multiplier;
-  alert(`Вы забрали выигрыш! Выигрыш: ${winnings.toFixed(2)}`);
+  alert(`You claimed your winnings! Winnings: ${winnings.toFixed(2)}`);
   totalBalance += winnings;
-  totalBalanceElement.textContent = `Общий счет: ${totalBalance.toFixed(2)}`;
+  totalBalanceElement.textContent = `Total Balance: ${totalBalance.toFixed(2)}`;
   jetFire.classList.add('hide');
   resetGame();
 };
 
 function jetExplode() {
   if (isPlaying) {
-    alert(`Взрыв! Игра окончена. Выигрыш: 0.00`);
+    alert(`Explosion! Game over. Winnings: 0.00`);
     resetGame();
     jetFire.classList.add('hide');
   }
@@ -69,6 +69,6 @@ function resetGame() {
   cashoutButton.disabled = true;
   placeBetButton.disabled = false;
   jetElement.style.transform = 'translateY(0px)';
-  multiplierText.textContent = 'Множитель: x1.0';
+  multiplierText.textContent = 'Multiplier: x1.0';
   betAmountInput.value = '';
 }
