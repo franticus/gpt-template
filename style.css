@@ -138,3 +138,25 @@ button:disabled {
   font-size: 20px;
   border-radius: 10px 100px;
 }
+
+.jetFire {
+  position: relative;
+}
+
+.fire {
+  position: absolute;
+  top: 5px;
+  right: 86px;
+  transform: rotate(250deg);
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-image: url("./fire.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-blend-mode: color;
+}
+
+.hide {
+  display: none;
+}

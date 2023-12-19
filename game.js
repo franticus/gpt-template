@@ -1,7 +1,8 @@
 let isPlaying = false;
 let crashTime;
 let multiplier = 1.0;
-let jetElement = document.getElementById('jet');
+let jetElement = document.getElementById('jetFire');
+let jetFire = document.getElementById('fire');
 let playButton = document.getElementById('playButton');
 let cashoutButton = document.getElementById('cashoutButton');
 let multiplierText = document.getElementById('multiplier');
@@ -35,6 +36,7 @@ playButton.onclick = function () {
       multiplier += 0.01;
       multiplierText.textContent = `Множитель: x${multiplier.toFixed(2)}`;
       jetElement.style.transform = `translateY(${-multiplier * 20}px)`;
+      jetFire.classList.remove('hide');
       requestAnimationFrame(flyJet);
     } else {
       jetExplode();
@@ -48,6 +50,7 @@ cashoutButton.onclick = function () {
   alert(`Вы забрали выигрыш! Выигрыш: $${winnings.toFixed(2)}`);
   totalBalance += winnings;
   totalBalanceElement.textContent = `Общий счет: $${totalBalance.toFixed(2)}`;
+  jetFire.classList.add('hide');
   resetGame();
 };
 
@@ -55,6 +58,7 @@ function jetExplode() {
   if (isPlaying) {
     alert(`Взрыв! Игра окончена. Выигрыш: $0.00`);
     resetGame();
+    jetFire.classList.add('hide');
   }
 }
 
