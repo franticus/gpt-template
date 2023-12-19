@@ -49,13 +49,15 @@ p {
   text-align: center;
   margin: 50px auto;
   max-width: 600px;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 40px;
+  border-radius: 50px;
+  background: #111;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
 }
 
 #jet {
-  width: 100px;
+  width: 80px;
   height: auto;
   margin-bottom: 20px;
 }
@@ -114,19 +116,35 @@ button {
 
 #cashoutButton:disabled,
 #playButton:disabled {
-  background-color: #ccc;
+  opacity: 0.3;
   cursor: not-allowed;
 }
 
 button:disabled {
-  background-color: #ccc;
+  opacity: 0.3;
   cursor: not-allowed;
 }
 
 .logo {
+  position: relative;
   width: 200px;
+  height: 200px; /* Добавлено для наглядности, можно изменить в зависимости от вашего изображения */
   border-radius: 40px;
   margin-bottom: 20px;
+  overflow: hidden; /* Обрезаем псевдоэлемент, который выходит за пределы .logo */
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .btn {
@@ -134,15 +152,15 @@ button:disabled {
   background: #389f09;
   font-size: 24px;
   text-transform: uppercase;
-  border-radius: 10px 100px;
+  border-radius: 40px 100px 0 20px;
   transition: all 0.3s ease-in-out;
+  z-index: 999;
 }
 
 .btn:hover {
   padding: 20px 60px;
   background: #c99b0e;
-  font-size: 20px;
-  border-radius: 10px 100px;
+  border-radius: 40px 20px 0 100px;
 }
 
 .jetFire {
@@ -151,9 +169,9 @@ button:disabled {
 
 .fire {
   position: absolute;
-  top: 5px;
-  right: 86px;
-  transform: rotate(250deg);
+  top: 65px;
+  right: 60px;
+  transform: rotate(220deg);
   width: 100px;
   height: 100px;
   display: block;
@@ -165,4 +183,15 @@ button:disabled {
 
 .hide {
   display: none;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#playButton, #cashoutButton {
+  width: 80px;
+  height: 80px;
 }

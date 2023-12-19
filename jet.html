@@ -1,36 +1,60 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title>Lucky Jet - Поднимитесь к богатству с захватывающими играми!</title>
+    <title>Lucky Jet - Rise to Wealth with Exciting Games!</title>
     <meta
       name="description"
-      content="Lucky Jet приглашает вас подняться к богатству с нашими захватывающими играми! Возьмите шанс, крутите барабаны и почувствуйте азарт выигрышей. Присоединяйтесь к волнению прямо сейчас для незабываемого игрового приключения!"
+      content="Lucky Jet invites you to rise to wealth with our exciting games! Take a chance, spin the reels, and feel the thrill of winning. Join the excitement now for an unforgettable gaming adventure!"
     />
     <meta
       name="keywords"
-      content="Lucky Jet, онлайн, захватывающие игры, крупные выигрыши, игровое приключение, крутите и выигрывайте, захватывающие развлечения"
+      content="Lucky Jet, online, exciting games, big wins, gaming adventure, spin and win, thrilling entertainment"
     />
 
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./bg.css" />
+    <style>
+      html {
+        background: #111;
+      }
+
+      .game {
+        background: none;
+      }
+    </style>
   </head>
 
   <body>
     <div class="game">
       <div class="jetFire" id="jetFire">
-        <img src="./jet_nofire.png" id="jet" alt="Jet" />
+        <img src="./no_fire.png" id="jet" alt="Jet" />
         <div class="fire hide" id="fire"></div>
       </div>
-      <div id="multiplier">Множитель: x1.0</div>
-      <label for="betAmount">Ставка: </label>
+      <div id="multiplier">Multiplier: x1.0</div>
+      <label for="betAmount">Attempt: </label>
       <input type="number" id="betAmount" />
-      <button id="placeBetButton">Ваш рейт</button>
-      <button id="playButton" disabled>Играть</button>
-      <button id="cashoutButton" disabled>Забрать выигрыш</button>
-      <div id="totalBalance">Общий счет: 1000</div>
+      <button id="placeBetButton">To Attempt</button>
+      <div class="btns">
+        <button id="playButton" disabled>Go</button>
+        <button id="cashoutButton" disabled>Claim</button>
+      </div>
+      <div id="totalBalance">Total Balance: 1000</div>
     </div>
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
 
     <script src="./game.js"></script>
   </body>
