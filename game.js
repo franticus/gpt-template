@@ -9,7 +9,7 @@ let betAmountInput = document.getElementById('betAmount');
 let placeBetButton = document.getElementById('placeBetButton');
 let totalBalanceElement = document.getElementById('totalBalance');
 
-let totalBalance = 1000; // Начальный общий счет
+let totalBalance = 1000;
 
 placeBetButton.onclick = function () {
   const betAmount = parseFloat(betAmountInput.value);
@@ -28,13 +28,13 @@ playButton.onclick = function () {
   playButton.disabled = true;
   cashoutButton.disabled = false;
   multiplier = 1.0;
-  crashTime = Date.now() + Math.random() * 20000 + 1000; // случайное время взрыва
+  crashTime = Date.now() + Math.random() * 20000 + 1000;
 
   (function flyJet() {
     if (isPlaying && Date.now() < crashTime) {
       multiplier += 0.01;
       multiplierText.textContent = `Множитель: x${multiplier.toFixed(2)}`;
-      jetElement.style.transform = `translateY(${-multiplier * 10}px)`; // Поднимаем самолет
+      jetElement.style.transform = `translateY(${-multiplier * 20}px)`;
       requestAnimationFrame(flyJet);
     } else {
       jetExplode();
@@ -65,5 +65,5 @@ function resetGame() {
   placeBetButton.disabled = false;
   jetElement.style.transform = 'translateY(0px)';
   multiplierText.textContent = 'Множитель: x1.0';
-  betAmountInput.value = ''; // Сбросить значение ставки
+  betAmountInput.value = '';
 }
