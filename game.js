@@ -49,16 +49,16 @@ playButton.onclick = function () {
 cashoutButton.onclick = function () {
   isPlaying = false;
   const winnings = betAmountInput.value * multiplier;
-  alert(`Вы забрали выигрыш! Выигрыш: $${winnings.toFixed(2)}`);
+  alert(`Вы забрали выигрыш! Выигрыш: ${winnings.toFixed(2)}`);
   totalBalance += winnings;
-  totalBalanceElement.textContent = `Общий счет: $${totalBalance.toFixed(2)}`;
+  totalBalanceElement.textContent = `Общий счет: ${totalBalance.toFixed(2)}`;
   jetFire.classList.add('hide');
   resetGame();
 };
 
 function jetExplode() {
   if (isPlaying) {
-    alert(`Взрыв! Игра окончена. Выигрыш: $0.00`);
+    alert(`Взрыв! Игра окончена. Выигрыш: 0.00`);
     resetGame();
     jetFire.classList.add('hide');
   }
