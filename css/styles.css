@@ -145,8 +145,9 @@ header {
 }
 
 .header .burger-menu {
+  color: #e9e823;
   display: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -194,7 +195,7 @@ header {
 .hero {
   padding: 20px;
   position: relative;
-  height: 94vh;
+  height: 100vh;
   max-height: 1000px;
   background: linear-gradient(rgba(25, 22, 62, 0.8),rgba(0, 0, 0, 0.9)),
     url(../img/hero-bg.jpg) no-repeat;
@@ -235,12 +236,17 @@ header {
   }
 }
 
+.hero-hightlight {
+  font-weight: 600;
+  color: #e9e823;
+}
+
 .hero a {
   border: none;
 }
 
 .hero-content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -293,7 +299,7 @@ header {
 }
 
 .about-content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -529,7 +535,7 @@ header {
 }
 
 .story-content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -539,7 +545,7 @@ header {
   }
 
   .story-content {
-    max-width: 800px;
+    max-width: 1000px;
     text-align: left;
   }
 }
@@ -557,7 +563,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 20px auto;
 }
 
@@ -741,8 +747,15 @@ footer a:hover {
   text-align: center;
 }
 
-.our-team-section h2 {
-  margin-bottom: 30px;
+.our-team-section h3 {
+  margin-bottom: 0px;
+  color: #e9e823;
+}
+
+.our-team-section h4 {
+  margin: 0px;
+  font-size: 1rem;
+  color: #fff;
 }
 
 .team-cards {
@@ -753,19 +766,12 @@ footer a:hover {
 }
 
 .team-card {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
+  max-width: 200px;
 }
 
 .card-front,
 .card-back {
   width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: hidden;
-  transition: transform 0.5s ease-in-out;
 }
 
 .card-front {
@@ -773,22 +779,12 @@ footer a:hover {
 }
 
 .card-back {
-  transform: rotateY(180deg);
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 20px;
-}
-
-.team-card:hover .card-front {
-  transform: rotateY(180deg);
-}
-
-.team-card:hover .card-back {
-  transform: rotateY(0deg);
 }
 
 .team-card img {
@@ -798,13 +794,13 @@ footer a:hover {
 
 .team-card h3 {
   margin-bottom: 10px;
-  font-size: 1.2em;
+  font-size: 1.4em;
+  line-height: 30px;
 }
 
 .team-card p {
   font-size: 1em;
   line-height: 1.4;
-
 }
 
 .our-achievements-section {
@@ -819,15 +815,12 @@ footer a:hover {
   text-align: center;
 }
 
-.our-achievements-section h2 {
-  font-size: 2em;
-  margin-bottom: 30px;
-}
-
 .achievements-cards {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 .achievement-card {
@@ -1009,4 +1002,11 @@ h2 {
   100% {
     background-size: 100%;
   }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
 }
