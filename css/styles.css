@@ -151,7 +151,7 @@ header {
   cursor: pointer;
 }
 
-@media (max-width: 568px) {
+@media (max-width: 968px) {
   .header .burger-menu {
     display: block;
   }
@@ -197,7 +197,7 @@ header {
   position: relative;
   height: 100vh;
   max-height: 1000px;
-  background: linear-gradient(rgba(25, 22, 62, 0.8),rgba(0, 0, 0, 0.9)),
+  background: linear-gradient(rgba(25, 22, 62, 0.8), rgba(0, 0, 0, 0.9)),
     url(../img/hero-bg.jpg) no-repeat;
   background-size: 150%;
   background-position: center;
@@ -228,8 +228,8 @@ header {
   .hero {
     position: relative;
     height: 100vh;
-    background: linear-gradient(rgba(25, 22, 62, 0.8),rgba(0, 0, 0, 0.9)),
-    url(../img/hero-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(25, 22, 62, 0.8), rgba(0, 0, 0, 0.9)),
+      url(../img/hero-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     animation: none;
@@ -265,14 +265,14 @@ header {
   max-width: 500px;
   display: block;
   padding: 20px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0 auto;
   text-decoration: none;
   background-color: #e9e823;
   color: #111;
   border: none;
   text-transform: uppercase;
-  letter-spacing: 6px;
+  letter-spacing: 3px;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -390,13 +390,16 @@ header {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-#card2, #card4 {
+#card2,
+#card4 {
   margin-top: 40px;
   margin-bottom: -40px;
 }
 
 @media (max-width: 480px) {
-  #card2, #card4 {
+
+  #card2,
+  #card4 {
     margin-top: 0;
     margin-bottom: 0;
   }
