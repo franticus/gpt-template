@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const overlay = document.querySelector('.overlay');
-  const navList = document.querySelector('.nav-list');
-  const burgerMenu = document.querySelector('.burger-menu');
+  const overlay = document.querySelector('.over-starlighttt-lay');
+  const navList = document.querySelector('.nav-starlighttt-list');
+  const burgerMenu = document.querySelector('.burger-starlighttt-menu');
 
   burgerMenu.addEventListener('click', function () {
     overlay.classList.toggle('active');

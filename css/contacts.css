@@ -28,21 +28,21 @@ nav {
   align-items: center;
 }
 
-.nav-list {
+.nav-starlighttt-list {
   list-style: none;
   display: flex;
 }
 
-.nav-list li {
+.nav-starlighttt-list li {
   margin-right: 20px;
 }
 
-.nav-list a {
+.nav-starlighttt-list a {
   text-decoration: none;
   color: #fff;
 }
 
-.burger-menu {
+.burger-starlighttt-menu {
   display: none;
   cursor: pointer;
   font-size: 24px;
@@ -142,11 +142,11 @@ footer {
     align-items: flex-start;
   }
 
-  .burger-menu {
+  .burger-starlighttt-menu {
     display: block;
   }
 
-  .nav-list {
+  .nav-starlighttt-list {
     display: none;
     flex-direction: column;
     width: 100%;
@@ -157,11 +157,11 @@ footer {
     z-index: 1;
   }
 
-  .nav-list.active {
+  .nav-starlighttt-list.active {
     display: flex;
   }
 
-  .nav-list li {
+  .nav-starlighttt-list li {
     margin: 0;
     text-align: center;
     padding: 10px 0;

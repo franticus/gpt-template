@@ -119,32 +119,32 @@ header {
   align-items: center;
 }
 
-.header .nav-list {
+.header .nav-starlighttt-list {
   list-style: none;
   margin: 0;
   padding: 10px;
   display: flex;
 }
 
-.header .nav-list li {
+.header .nav-starlighttt-list li {
   padding: 10px;
 }
 
-.header .nav-list a {
+.header .nav-starlighttt-list a {
   text-decoration: none;
   color: white;
   font-weight: bold;
   font-size: 1rem;
 }
 
-.header .nav-list a:hover {
+.header .nav-starlighttt-list a:hover {
   text-decoration: none;
   color: #e9e823;
   font-weight: bold;
   font-size: 1rem;
 }
 
-.header .burger-menu {
+.header .burger-starlighttt-menu {
   color: #e9e823;
   display: none;
   font-size: 2rem;
@@ -152,11 +152,11 @@ header {
 }
 
 @media (max-width: 968px) {
-  .header .burger-menu {
+  .header .burger-starlighttt-menu {
     display: block;
   }
 
-  .header .nav-list {
+  .header .nav-starlighttt-list {
     display: none;
     align-items: center;
     flex-direction: column;
@@ -168,12 +168,12 @@ header {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .header .nav-list.active {
+  .header .nav-starlighttt-list.active {
     display: flex;
   }
 }
 
-.overlay {
+.over-starlighttt-lay {
   position: fixed;
   top: 0;
   left: 0;
@@ -184,7 +184,7 @@ header {
   z-index: 2;
 }
 
-.overlay.active {
+.over-starlighttt-lay.active {
   display: block;
 }
 
