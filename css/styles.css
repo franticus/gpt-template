@@ -73,7 +73,6 @@ body {
   }
 }
 
-/* Header styles */
 header {
   position: fixed;
   top: 0;
@@ -88,11 +87,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.header h1 {
-  margin: 0;
-  font-size: 1.5rem;
 }
 
 .header span {
@@ -114,6 +108,18 @@ header {
   color: #e9e823;
 }
 
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header span {
+  margin: 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #e9e823;
+}
+
 .header nav {
   display: flex;
   align-items: center;
@@ -130,6 +136,13 @@ header {
   padding: 10px;
 }
 
+.header .burger-starlighttt-menu {
+  color: #e9e823;
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 .header .nav-starlighttt-list a {
   text-decoration: none;
   color: white;
@@ -137,18 +150,23 @@ header {
   font-size: 1rem;
 }
 
+.header h1 a {
+  margin: 0;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.header h1 a:hover {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #e9e823;
+}
+
 .header .nav-starlighttt-list a:hover {
   text-decoration: none;
   color: #e9e823;
   font-weight: bold;
   font-size: 1rem;
-}
-
-.header .burger-starlighttt-menu {
-  color: #e9e823;
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
 }
 
 @media (max-width: 968px) {
