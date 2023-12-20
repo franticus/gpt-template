@@ -27,6 +27,13 @@ h2 {
 
 a {
   text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: inherit;
 }
 
 .buttonBtn {
@@ -44,30 +51,6 @@ a {
   border-radius: 10px;
   padding: 10px 20px;
   color: #fff;
-}
-
-header a,
-footer a {
-  list-style: none;
-  text-decoration: none;
-  color: inherit;
-  border-left: 2px solid transparent;
-  border-right: 2px solid transparent;
-  border-radius: 6px;
-  padding-left: 6px;
-  transition: all 0.3s ease-in-out;
-}
-
-footer a,
-footer p {
-  color: #fff;
-}
-
-header a:hover,
-footer a:hover {
-  border-left: 2px solid #f00;
-  color: #f00;
-  border-radius: 10px;
 }
 
 body {
@@ -92,7 +75,7 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
-  background-color: #ec8874;
+  background-color: #121225;
   color: white;
   padding: 10px 0;
   z-index: 3;
@@ -200,6 +183,7 @@ header {
   padding: 20px;
   position: relative;
   height: 94vh;
+  max-height: 1000px;
   background: linear-gradient(rgb(62 22 22 / 80%), rgba(0, 0, 0, 0.9)),
     url(../img/hero-bg.jpg) no-repeat;
   background-size: 150%;
@@ -275,7 +259,7 @@ header {
 }
 
 .home-about {
-  background: linear-gradient(45deg, #fff, #eee);
+  background: linear-gradient(45deg, #0d0a18, #080718);
   color: #333;
   padding: 60px 20px;
   text-align: center;
@@ -305,11 +289,9 @@ header {
 .about-image {
   width: 100%;
   border-radius: 10px;
-  opacity: 0;
   margin: 20px auto;
   overflow: hidden;
   transform: translateY(0px);
-  transition: opacity 2s ease-in-out, transform 0.8s ease-in-out;
 }
 
 .about-additional {
@@ -323,7 +305,7 @@ header {
 }
 
 .home-servCards {
-  background: linear-gradient(rgba(225, 225, 225, 0.9), rgba(225, 225, 225, 0.9)), url("../img/serv.jpg") no-repeat;
+  background: linear-gradient(rgba(5, 4, 16, 1), rgba(4, 4, 19, 0.9));
   background-size: cover;
   background-position: center;
   padding: 200px 20px;
@@ -364,12 +346,12 @@ header {
 
 .card-icon {
   padding: 20px;
-  background: #ec8874;
+  background: #121225;
 }
 
 .card-icon {
   padding: 20px;
-  background: #ec8874;
+  background: #121225;
 }
 
 .card-icon img {
@@ -394,7 +376,7 @@ header {
 .home-featured-products {
   padding: 60px 20px;
   text-align: center;
-  background-color: #ffdfdf;
+  background-color: #0e111e;
 }
 
 .home-featured-products .container {
@@ -463,7 +445,7 @@ header {
 }
 
 .home-our-story {
-  background: #f9f9f9;
+  background: linear-gradient(45deg, #0d0a18, #080718);
   padding: 60px 20px;
   text-align: center;
 }
@@ -509,7 +491,7 @@ header {
 }
 
 .testimonial-section {
-  background: linear-gradient(rgba(225, 225, 225, 0.9), rgba(225, 225, 225, 0.9)), url("../img/testimonial.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/testimonial.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding: 200px 0;
@@ -574,7 +556,7 @@ header {
 /* Footer styles */
 footer {
   width: 100vw;
-  background-color: #ec8874;
+  background-color: #121225;
   color: #fff;
   padding: 10px 0;
 }
@@ -796,7 +778,7 @@ footer a:hover {
   max-width: 250px;
   padding: 40px;
   border-radius: 8px;
-  background-color: #ec8874;
+  background-color: #121225;
   margin: 10px;
   transition: background-color 0.3s ease-in-out;
 }
