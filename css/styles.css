@@ -32,12 +32,11 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
   color: inherit;
 }
 
 .buttonBtn {
-  background: #e44d26;
+  background: #e9e823;
   border-radius: 10px;
   padding: 10px 20px;
   color: #fff;
@@ -92,21 +91,23 @@ header {
   font-size: 1.5rem;
 }
 
-.header h1 a {
+.header span {
   margin: 0;
   font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #e9e823;
 }
 
 .header h1 a {
-  border-left: 2px solid #fff;
   margin: 0;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
 .header h1 a:hover {
-  border-left: 2px solid #f00;
   margin: 0;
   font-size: 1.5rem;
+  color: #e9e823;
 }
 
 .header nav {
@@ -132,6 +133,13 @@ header {
   font-size: 1rem;
 }
 
+.header .nav-list a:hover {
+  text-decoration: none;
+  color: #e9e823;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 .header .burger-menu {
   display: none;
   font-size: 1.5rem;
@@ -151,7 +159,7 @@ header {
     top: 98px;
     left: 0;
     width: 100%;
-    background-color: #de7c69;
+    background-color: #121225;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
@@ -166,7 +174,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(7, 7, 16, 0.95);
   display: none;
   z-index: 2;
 }
@@ -184,7 +192,7 @@ header {
   position: relative;
   height: 94vh;
   max-height: 1000px;
-  background: linear-gradient(rgb(62 22 22 / 80%), rgba(0, 0, 0, 0.9)),
+  background: linear-gradient(rgba(25, 22, 62, 0.8),rgba(0, 0, 0, 0.9)),
     url(../img/hero-bg.jpg) no-repeat;
   background-size: 150%;
   background-position: center;
@@ -194,20 +202,20 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  animation: heroScroll 40s infinite;
+  animation: heroScroll 80s infinite;
 }
 
 @keyframes heroScroll {
   0% {
-    background-position: 0% 50%;
+    background-size: 100%;
   }
 
   50% {
-    background-position: 100% 50%;
+    background-size: 300%;
   }
 
   100% {
-    background-position: 0% 50%;
+    background-size: 100%;
   }
 }
 
@@ -243,19 +251,26 @@ header {
 }
 
 .hero-button {
-  padding: 10px 20px;
-  font-size: 1.2rem;
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  padding: 20px;
+  font-size: 2rem;
+  margin: 0 auto;
   text-decoration: none;
-  background-color: #FF4500;
-  color: white;
+  background-color: #e9e823;
+  color: #111;
   border: none;
-  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .hero-button:hover {
-  background-color: #FF6347;
+  color: #fff;
+  background-color: #212750;
 }
 
 .home-about {
@@ -264,6 +279,13 @@ header {
   padding: 60px 20px;
   text-align: center;
   overflow: hidden;
+}
+
+.home-about .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 
 .about-content {
@@ -279,24 +301,35 @@ header {
 .about-description {
   font-size: 1.2em;
   line-height: 1.6;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #e9e823;
 }
 
 .about-image img {
   width: 100%;
-  border: 10px solid #eee;
 }
 
 .about-image {
+  position: relative;
   width: 100%;
+  min-width: 300px;
   border-radius: 10px;
+  border: 2px solid #e9e823;
   margin: 20px auto;
   overflow: hidden;
-  transform: translateY(0px);
+}
+
+@media screen and (max-width: 968px) {
+  .about-image {
+    display: none;
+  }
 }
 
 .about-additional {
   font-size: 1.2em;
   line-height: 1.6;
+  text-align: left;
 }
 
 .about-image.in-viewport {
@@ -308,7 +341,7 @@ header {
   background: linear-gradient(rgba(5, 4, 16, 1), rgba(4, 4, 19, 0.9));
   background-size: cover;
   background-position: center;
-  padding: 200px 20px;
+  padding: 100px 20px;
   text-align: center;
 }
 
@@ -318,7 +351,7 @@ header {
   gap: 10px;
 }
 
-@media (max-width: 868px) {
+@media (max-width: 968px) {
   .home-servCards .container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -331,12 +364,16 @@ header {
 }
 
 .servCard {
-  background: #fff;
-  border-radius: 10px;
+  border-radius: 40px 10px 0 60px;
   overflow: hidden;
   margin-bottom: 20px;
+  border: 2px solid #e9e823;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.01);
   transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .servCard:hover {
@@ -344,28 +381,25 @@ header {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.card-icon {
-  padding: 20px;
-  background: #121225;
-}
-
-.card-icon {
-  padding: 20px;
-  background: #121225;
-}
-
-.card-icon img {
-  width: 50px;
-  height: 50px;
+#card2, #card4 {
+  margin-top: 40px;
+  margin-bottom: -40px;
 }
 
 .card-text {
   padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .card-text h3 {
+  display: block;
   font-size: 1.5em;
   margin-bottom: 10px;
+  color: #e9e823;
 }
 
 .card-text p {
@@ -382,7 +416,7 @@ header {
 .home-featured-products .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 60px;
 }
 
 @media (max-width: 768px) {
@@ -398,16 +432,21 @@ header {
 }
 
 .featured-product {
-  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(225, 255, 0, 0.1);
   transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
 }
 
 .featured-product:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border: 2px solid #e9e823;
 }
 
 .product-image img {
@@ -423,25 +462,30 @@ header {
 .product-details h3 {
   font-size: 1.2em;
   margin-bottom: 10px;
+  color: #e9e823;
+  line-height: 24px;
 }
 
 .price {
   font-size: 1.1em;
-  color: #e44d26;
+  color: #e9e823;
 }
 
 .order-button {
-  background-color: #e44d26;
-  color: #fff;
+  display: block;
+  background-color: #e9e823;
+  color: #111;
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .order-button:hover {
-  background-color: #333;
+  background-color: #212750;
+  color: #fff;
 }
 
 .home-our-story {
@@ -463,7 +507,7 @@ header {
 .line {
   width: 30%;
   height: 1px;
-  background: #333;
+  border: 1px dashed #e9e823;
   margin: 20px auto;
 }
 
@@ -874,13 +918,13 @@ input {
 
 .checkPrivacy a {
   border: none;
-  color: #de7c69;
+  color: #121225;
   padding: 0;
   text-decoration: underline;
 }
 
 button {
-  background-color: #FF4500;
+  background-color: #e9e823;
   color: #fff;
   padding: 20px;
   border: none;
@@ -897,6 +941,7 @@ button:hover {
 p {
   font-size: 1.1em;
   margin-bottom: 10px;
+  color: #eee;
 }
 
 .featured-block {
@@ -911,7 +956,7 @@ p {
 }
 
 h2 {
-  color: #333;
+  color: #e9e823;
   font-size: 2.5em;
   margin-bottom: 20px;
 }
@@ -921,4 +966,19 @@ h2 {
   font-size: 1.2em;
   line-height: 1.6;
   margin-bottom: 15px;
+}
+
+
+@keyframes heroScroll {
+  0% {
+    background-size: 100%;
+  }
+
+  50% {
+    background-size: 300%;
+  }
+
+  100% {
+    background-size: 100%;
+  }
 }

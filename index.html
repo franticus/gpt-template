@@ -19,11 +19,12 @@
     <header class="header">
       <div class="container">
         <h1>
-          <a href="index.html" class="logo">StarlightGem</a>
+          <a href="index.html" class="logo">Starlight<span>Gem</span></a>
         </h1>
         <nav>
           <ul class="nav-list">
-            <li><a href="#">Home</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#products">Products</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contacts</a></li>
           </ul>
@@ -34,7 +35,7 @@
     <div class="overlay"></div>
 
     <main>
-      <div class="hero">
+      <div class="hero" id="hero">
         <div class="hero-content">
           <h1 class="hero-title">Discover Exquisite Jewelry</h1>
           <p class="hero-description">
@@ -44,62 +45,6 @@
           <a href="contacts.html" class="hero-button">Shop Now</a>
         </div>
       </div>
-
-      <section class="home-servCards">
-        <div class="container">
-          <div class="servCard" id="card1">
-            <div class="card-icon">
-              <img src="./img/servCard-1.svg" alt="Icon 1" />
-            </div>
-            <div class="card-text">
-              <h3>Exquisite Gemstones</h3>
-              <p>
-                Explore a collection of exquisite and trend-setting gemstones
-                that set you apart.
-              </p>
-            </div>
-          </div>
-
-          <div class="servCard" id="card2">
-            <div class="card-icon">
-              <img src="./img/servCard-2.svg" alt="Icon 2" />
-            </div>
-            <div class="card-text">
-              <h3>Ethical Sourcing</h3>
-              <p>
-                Support ethical choices with our responsibly sourced and crafted
-                jewelry.
-              </p>
-            </div>
-          </div>
-
-          <div class="servCard" id="card3">
-            <div class="card-icon">
-              <img src="./img/servCard-3.svg" alt="Icon 3" />
-            </div>
-            <div class="card-text">
-              <h3>Express Your Elegance</h3>
-              <p>
-                Find jewelry that lets you express your elegance and personal
-                style.
-              </p>
-            </div>
-          </div>
-
-          <div class="servCard" id="card4">
-            <div class="card-icon">
-              <img src="./img/servCard-4.svg" alt="Icon 4" />
-            </div>
-            <div class="card-text">
-              <h3>Exceptional Craftsmanship</h3>
-              <p>
-                Experience exceptional craftsmanship with meticulously designed
-                jewelry and accessories.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section class="home-about">
         <div class="container">
@@ -113,9 +58,6 @@
               self-expression and individuality. Here, every gemstone tells a
               story, and every piece is a statement.
             </p>
-            <div class="about-image" id="about-image">
-              <img src="./img/homeAbout.jpg" alt="Jewelry Trends" />
-            </div>
             <p class="about-additional">
               Explore a fusion of cultural influences and cutting-edge designs
               that redefine the boundaries of style. Whether you seek bold
@@ -123,107 +65,51 @@
               StarlightGem is your guide to jewelry excellence.
             </p>
           </div>
+          <div class="about-image" id="about-image">
+            <img src="./img/homeAbout.jpg" alt="Jewelry Trends" />
+          </div>
         </div>
       </section>
 
-      <section class="home-featured-products">
+      <section class="home-servCards">
         <div class="container">
-          <div class="featured-product" id="product1">
-            <div class="product-image">
-              <img src="./img/price-ring.jpg" alt="Elegant Ring" />
-            </div>
-            <div class="product-details">
-              <h3>Elegant Ring</h3>
-              <p class="price">$199.99</p>
-              <a href="contacts.html" class="order-button">Order</a>
-            </div>
-          </div>
-
-          <div class="featured-product" id="product2">
-            <div class="product-image">
-              <img src="./img/price-necklace.jpg" alt="Exquisite Necklace" />
-            </div>
-            <div class="product-details">
-              <h3>Exquisite Necklace</h3>
-              <p class="price">$249.99</p>
-              <a href="contacts.html" class="order-button">Order</a>
+          <div class="servCard" id="card1">
+            <div class="card-text">
+              <h3>Exquisite Gemstones</h3>
+              <p>
+                Explore a collection of exquisite and trend-setting gemstones
+                that set you apart.
+              </p>
             </div>
           </div>
 
-          <div class="featured-product" id="product3">
-            <div class="product-image">
-              <img src="./img/price-bracelet.jpg" alt="Chic Bracelet" />
-            </div>
-            <div class="product-details">
-              <h3>Chic Bracelet</h3>
-              <p class="price">$189.99</p>
-              <a href="contacts.html" class="order-button">Order</a>
-            </div>
-          </div>
-
-          <div class="featured-product" id="product4">
-            <div class="product-image">
-              <img src="./img/price-earrings.jpg" alt="Stylish Earrings" />
-            </div>
-            <div class="product-details">
-              <h3>Stylish Earrings</h3>
-              <p class="price">$169.99</p>
-              <a href="contacts.html" class="order-button">Order</a>
+          <div class="servCard" id="card2">
+            <div class="card-text">
+              <h3>Ethical Sourcing</h3>
+              <p>
+                Support ethical choices with our responsibly sourced and crafted
+                jewelry.
+              </p>
             </div>
           </div>
 
-          <div class="featured-product" id="product5">
-            <div class="product-image">
-              <img src="./img/price-watch.jpg" alt="Luxury Watch" />
-            </div>
-            <div class="product-details">
-              <h3>Luxury Watch</h3>
-              <p class="price">$399.99</p>
-              <a href="contacts.html" class="order-button">Order</a>
-            </div>
-          </div>
-
-          <div class="featured-product" id="product6">
-            <div class="product-image">
-              <img src="./img/price-pendant.jpg" alt="Diamond Pendant" />
-            </div>
-            <div class="product-details">
-              <h3>Diamond Pendant</h3>
-              <p class="price">$349.99</p>
-              <a href="contacts.html" class="order-button">Order</a>
+          <div class="servCard" id="card3">
+            <div class="card-text">
+              <h3>Express Your Elegance</h3>
+              <p>
+                Find jewelry that lets you express your elegance and personal
+                style.
+              </p>
             </div>
           </div>
 
-          <div class="featured-product" id="product7">
-            <div class="product-image">
-              <img src="./img/price-gemstone.jpg" alt="Gemstone Brooch" />
-            </div>
-            <div class="product-details">
-              <h3>Gemstone Brooch</h3>
-              <p class="price">$299.99</p>
-              <a href="contacts.html" class="order-button">Order</a>
-            </div>
-          </div>
-
-          <div class="featured-product" id="product8">
-            <div class="product-image">
-              <img src="./img/price-set.jpg" alt="Jewelry Set" />
-            </div>
-            <div class="product-details">
-              <h3>Jewelry Set</h3>
-              <p class="price">$449.99</p>
-              <a href="contacts.html" class="order-button">Order</a>
-            </div>
-          </div>
-
-          <div class="featured-product" id="product9">
-            <div class="product-image">
-              <img src="./img/price-ring2.jpg" alt="Sapphire Ring" />
-            </div>
-            <div class="product-details">
-              <h3>Sapphire Ring</h3>
-              <p class="price">$299.99</p>
-              <a href="contacts.html" class="order-button">Order</a>
+          <div class="servCard" id="card4">
+            <div class="card-text">
+              <h3>Exceptional Craftsmanship</h3>
+              <p>
+                Experience exceptional craftsmanship with meticulously designed
+                jewelry and accessories.
+              </p>
             </div>
           </div>
         </div>
@@ -275,6 +161,106 @@
               experience remains unyielding. Discover the magic of StarlightGem,
               where the art of jewelry meets the soul of storytelling.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-featured-products" id="products">
+        <div class="container">
+          <div class="featured-product" id="product1">
+            <div class="product-image">
+              <img src="./img/product-1.jpg" alt="product" />
+            </div>
+            <div class="product-details">
+              <h3>Elegant Ring</h3>
+              <p class="price">$199.99</p>
+              <a href="contacts.html" class="order-button">Order</a>
+            </div>
+          </div>
+
+          <div class="featured-product" id="product2">
+            <div class="product-image">
+              <img src="./img/product-2.jpg" alt="product" />
+            </div>
+            <div class="product-details">
+              <h3>Exquisite Necklace</h3>
+              <p class="price">$249.99</p>
+              <a href="contacts.html" class="order-button">Order</a>
+            </div>
+          </div>
+
+          <div class="featured-product" id="product3">
+            <div class="product-image">
+              <img src="./img/product-3.jpg" alt="product" />
+            </div>
+            <div class="product-details">
+              <h3>Chic Bracelet</h3>
+              <p class="price">$189.99</p>
+              <a href="contacts.html" class="order-button">Order</a>
+            </div>
+          </div>
+
+          <div class="featured-product" id="product4">
+            <div class="product-image">
+              <img src="./img/product-4.jpg" alt="product" />
+            </div>
+            <div class="product-details">
+              <h3>Stylish Earrings</h3>
+              <p class="price">$169.99</p>
+            </div>
+          </div>
+
+          <div class="featured-product" id="product5">
+            <div class="product-image">
+              <img src="./img/product-5.jpg" alt="product" />
+            </div>
+            <div class="product-details">
+              <h3>Luxury Watch</h3>
+              <p class="price">$399.99</p>
+            </div>
+          </div>
+
+          <div class="featured-product" id="product6">
+            <div class="product-image">
+              <img src="./img/product-6.jpg" alt="product" />
+            </div>
+            <div class="product-details">
+              <h3>Diamond Pendant</h3>
+              <p class="price">$349.99</p>
+            </div>
+          </div>
+
+          <div class="featured-product" id="product7">
+            <div class="product-image">
+              <img src="./img/product-7.jpg" alt="product" />
+            </div>
+            <div class="product-details">
+              <h3>Gemstone Brooch</h3>
+              <p class="price">$299.99</p>
+              <a href="contacts.html" class="order-button">Pre-Order</a>
+            </div>
+          </div>
+
+          <div class="featured-product" id="product8">
+            <div class="product-image">
+              <img src="./img/product-8.jpg" alt="product" />
+            </div>
+            <div class="product-details">
+              <h3>Jewelry Set</h3>
+              <p class="price">$449.99</p>
+              <a href="contacts.html" class="order-button">Pre-Order</a>
+            </div>
+          </div>
+
+          <div class="featured-product" id="product9">
+            <div class="product-image">
+              <img src="./img/product-9.jpg" alt="product" />
+            </div>
+            <div class="product-details">
+              <h3>Sapphire Ring</h3>
+              <p class="price">$299.99</p>
+              <a href="contacts.html" class="order-button">Pre-Order</a>
+            </div>
           </div>
         </div>
       </section>
