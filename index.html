@@ -24,8 +24,9 @@
         <nav>
           <ul class="nav-list">
             <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#products">Products</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#">Contacts</a></li>
           </ul>
           <div class="burger-menu">&#9776;</div>
@@ -46,7 +47,7 @@
         </div>
       </div>
 
-      <section class="home-about">
+      <section class="home-about" id="about">
         <div class="container">
           <div class="about-content">
             <h2 class="about-title">Welcome to StarlightGem</h2>
@@ -166,13 +167,16 @@
       </section>
 
       <section class="home-featured-products" id="products">
+        <div class="story-header">
+          <h2>Our Products</h2>
+        </div>
         <div class="container">
           <div class="featured-product" id="product1">
             <div class="product-image">
               <img src="./img/product-1.jpg" alt="product" />
             </div>
             <div class="product-details">
-              <h3>Elegant Ring</h3>
+              <h3>Elegant Watch</h3>
               <p class="price">$199.99</p>
               <a href="contacts.html" class="order-button">Order</a>
             </div>
@@ -183,7 +187,7 @@
               <img src="./img/product-2.jpg" alt="product" />
             </div>
             <div class="product-details">
-              <h3>Exquisite Necklace</h3>
+              <h3>Exquisite Ring</h3>
               <p class="price">$249.99</p>
               <a href="contacts.html" class="order-button">Order</a>
             </div>
@@ -194,7 +198,7 @@
               <img src="./img/product-3.jpg" alt="product" />
             </div>
             <div class="product-details">
-              <h3>Chic Bracelet</h3>
+              <h3>Chic Watch</h3>
               <p class="price">$189.99</p>
               <a href="contacts.html" class="order-button">Order</a>
             </div>
@@ -205,7 +209,7 @@
               <img src="./img/product-4.jpg" alt="product" />
             </div>
             <div class="product-details">
-              <h3>Stylish Earrings</h3>
+              <h3>Stylish Bracelet</h3>
               <p class="price">$169.99</p>
             </div>
           </div>
@@ -225,7 +229,7 @@
               <img src="./img/product-6.jpg" alt="product" />
             </div>
             <div class="product-details">
-              <h3>Diamond Pendant</h3>
+              <h3>Diamond Ring</h3>
               <p class="price">$349.99</p>
             </div>
           </div>
@@ -235,7 +239,7 @@
               <img src="./img/product-7.jpg" alt="product" />
             </div>
             <div class="product-details">
-              <h3>Gemstone Brooch</h3>
+              <h3>Gemstone Watch</h3>
               <p class="price">$299.99</p>
               <a href="contacts.html" class="order-button">Pre-Order</a>
             </div>
@@ -246,7 +250,7 @@
               <img src="./img/product-8.jpg" alt="product" />
             </div>
             <div class="product-details">
-              <h3>Jewelry Set</h3>
+              <h3>Sapphire Brooch</h3>
               <p class="price">$449.99</p>
               <a href="contacts.html" class="order-button">Pre-Order</a>
             </div>
@@ -257,7 +261,7 @@
               <img src="./img/product-9.jpg" alt="product" />
             </div>
             <div class="product-details">
-              <h3>Sapphire Ring</h3>
+              <h3>Jewelry Set</h3>
               <p class="price">$299.99</p>
               <a href="contacts.html" class="order-button">Pre-Order</a>
             </div>
@@ -265,77 +269,93 @@
         </div>
       </section>
 
-      <section class="testimonial-section">
+      <section class="testimonial-section" id="testimonials">
         <div class="container">
           <h2>StarlightGem Customer Reviews</h2>
           <div class="testimonial-slider">
             <div class="testimonial-slide">
               <div class="testimonial-content">
-                <img src="./img/customer1.jpg" alt="Customer 1" />
-                <p class="testimonial-text">
-                  "StarlightGem is a gem in the world of jewelry! I always find
-                  something extraordinary that fits my taste. The quality is
-                  impeccable, and the customer service is outstanding. Kudos to
-                  the StarlightGem team!"
-                </p>
-                <p class="testimonial-author">- Emma Thompson</p>
+                <div class="testimonial-photo">
+                  <img src="./img/customer1.jpg" alt="Customer 1" />
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-text">
+                    "StarlightGem is a gem in the world of jewelry! I always
+                    find something extraordinary that fits my taste. The quality
+                    is impeccable, and the customer service is outstanding.
+                    Kudos to the StarlightGem team!"
+                  </p>
+                  <p class="testimonial-author">- Emma Thompson</p>
+                </div>
               </div>
             </div>
             <div class="testimonial-slide">
               <div class="testimonial-content">
-                <img src="./img/customer2.jpg" alt="Customer 2" />
-                <p class="testimonial-text">
-                  "I've been a loyal customer of StarlightGem for years. The
-                  diverse range of jewelry and the commitment to quality make
-                  StarlightGem my go-to place. Truly an exceptional shopping
-                  experience!"
-                </p>
-                <p class="testimonial-author">- James Anderson</p>
+                <div class="testimonial-photo">
+                  <img src="./img/customer2.jpg" alt="Customer 2" />
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-text">
+                    "I've been a loyal customer of StarlightGem for years. The
+                    diverse range of jewelry and the commitment to quality make
+                    StarlightGem my go-to place. Truly an exceptional shopping
+                    experience!"
+                  </p>
+                  <p class="testimonial-author">- James Anderson</p>
+                </div>
               </div>
             </div>
 
             <div class="testimonial-slide">
               <div class="testimonial-content">
-                <img src="./img/customer3.jpg" alt="Customer 3" />
-                <p class="testimonial-text">
-                  "StarlightGem is more than just a jewelry store; it's an
-                  experience. The carefully curated collections reflect the
-                  essence of modern jewelry, and each piece tells a unique
-                  story. Proud to be a part of the StarlightGem community!"
-                </p>
-                <p class="testimonial-author">- Olivia Carter</p>
+                <div class="testimonial-photo">
+                  <img src="./img/customer3.jpg" alt="Customer 3" />
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-text">
+                    "StarlightGem is more than just a jewelry store; it's an
+                    experience. The carefully curated collections reflect the
+                    essence of modern jewelry, and each piece tells a unique
+                    story. Proud to be a part of the StarlightGem community!"
+                  </p>
+                  <p class="testimonial-author">- Olivia Carter</p>
+                </div>
               </div>
             </div>
 
             <div class="testimonial-slide">
               <div class="testimonial-content">
-                <img src="./img/customer4.jpg" alt="Customer 4" />
-                <p class="testimonial-text">
-                  "Shopping at StarlightGem is like embarking on a jewelry
-                  adventure. The styles are elegant, the quality is unmatched,
-                  and the team's dedication to customer satisfaction is truly
-                  commendable. StarlightGem has set the bar high!"
-                </p>
-                <p class="testimonial-author">- Michaela Davis</p>
+                <div class="testimonial-photo">
+                  <img src="./img/customer4.jpg" alt="Customer 4" />
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-text">
+                    "Shopping at StarlightGem is like embarking on a jewelry
+                    adventure. The styles are elegant, the quality is unmatched,
+                    and the team's dedication to customer satisfaction is truly
+                    commendable. StarlightGem has set the bar high!"
+                  </p>
+                  <p class="testimonial-author">- Michaela Davis</p>
+                </div>
               </div>
             </div>
 
             <div class="testimonial-slide">
               <div class="testimonial-content">
-                <img src="./img/customer5.jpg" alt="Customer 5" />
-                <p class="testimonial-text">
-                  "StarlightGem understands the art of self-expression through
-                  jewelry. The personalized service, along with trendy and
-                  unique pieces, has made StarlightGem my favorite jewelry
-                  destination. Excited for more stylish adventures!"
-                </p>
-                <p class="testimonial-author">- Sophia Lee</p>
+                <div class="testimonial-photo">
+                  <img src="./img/customer5.jpg" alt="Customer 5" />
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-text">
+                    "StarlightGem understands the art of self-expression through
+                    jewelry. The personalized service, along with trendy and
+                    unique pieces, has made StarlightGem my favorite jewelry
+                    destination. Excited for more stylish adventures!"
+                  </p>
+                  <p class="testimonial-author">- Sophia Lee</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="testimonial-navigation">
-            <button class="prev-button">&#9665;</button>
-            <button class="next-button">&#9655;</button>
           </div>
         </div>
       </section>
@@ -356,7 +376,6 @@
                     express your elegance with our curated collections.
                   </p>
                 </li>
-                <div class="line"></div>
                 <li>
                   <p>
                     Founded with a passion for elegance, StarlightGem has grown
@@ -369,33 +388,10 @@
                 <div class="line"></div>
                 <li>
                   <p>
-                    At StarlightGem, affordability meets quality. We understand
-                    the importance of budget-friendly options without
-                    compromising on the excellence of our products. Enjoy the
-                    latest designs without breaking the bank.
-                  </p>
-                  <ul class="aboutUs-ul">
-                    <li>Exquisite jewelry range</li>
-                    <li>Affordable prices</li>
-                    <li>Exceptional quality</li>
-                    <li>Dedicated to customer satisfaction</li>
-                  </ul>
-                </li>
-                <li>
-                  <p>
                     Our commitment to inclusivity drives our collection. From
                     timeless classics to modern designs, we ensure that everyone
                     finds something that resonates with their elegance. Your
                     satisfaction is our priority.
-                  </p>
-                </li>
-                <div class="line"></div>
-                <li>
-                  <p>
-                    StarlightGem is not just a store; it's a community. We
-                    celebrate diversity and believe that jewelry is a form of
-                    self-expression. Join our community, explore our
-                    collections, and embark on an elegant journey with us!
                   </p>
                 </li>
               </ul>
@@ -583,14 +579,6 @@
               <li><a href="disclaimer.html">Disclaimer</a></li>
             </ul>
           </div>
-          <div class="footer-column">
-            <h3>Pages</h3>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contacts.html">Contacts</a></li>
-            </ul>
-          </div>
         </div>
         <div class="line"></div>
         <div class="copyright">
@@ -600,7 +588,5 @@
     </footer>
 
     <script src="./js/script.js"></script>
-    <script src="./js/homeAbout.js"></script>
-    <script src="./js/testimonial.js"></script>
   </body>
 </html>

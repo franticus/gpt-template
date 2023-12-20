@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #121225;
+}
+
 body,
 h1,
 h2,
@@ -223,8 +227,8 @@ header {
   .hero {
     position: relative;
     height: 100vh;
-    background: linear-gradient(rgb(62 22 22 / 80%), rgba(0, 0, 0, 0.9)),
-      url(../img/hero-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(25, 22, 62, 0.8),rgba(0, 0, 0, 0.9)),
+    url(../img/hero-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     animation: none;
@@ -308,14 +312,13 @@ header {
 
 .about-image img {
   width: 100%;
+  border: 2px solid #e9e823;
 }
 
 .about-image {
   position: relative;
   width: 100%;
   min-width: 300px;
-  border-radius: 10px;
-  border: 2px solid #e9e823;
   margin: 20px auto;
   overflow: hidden;
 }
@@ -384,6 +387,13 @@ header {
 #card2, #card4 {
   margin-top: 40px;
   margin-bottom: -40px;
+}
+
+@media (max-width: 480px) {
+  #card2, #card4 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 .card-text {
@@ -535,39 +545,48 @@ header {
 }
 
 .testimonial-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/testimonial.jpg") no-repeat;
+  background: linear-gradient(rgba(16, 11, 31, 0.9), rgba(8, 4, 23, 0.9));
   background-size: cover;
   background-position: center;
-  padding: 200px 0;
+  padding: 100px 0;
   text-align: center;
   overflow: hidden;
 }
 
 .testimonial-slider {
   display: flex;
+  flex-direction: column;
+  gap: 40px;
   max-width: 800px;
   margin: 20px auto;
-  transition: transform 0.5s ease-in-out;
 }
 
 .testimonial-slide {
   flex: 0 0 100%;
-  transition: transform 0.5s ease-in-out;
 }
 
 .testimonial-content {
-  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(225, 255, 0, 0.1);
   padding: 20px;
   text-align: left;
   margin: 0 10px;
+  transition: all 0.6s ease-in-out;
+}
+
+.testimonial-content:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 20px rgba(225, 255, 0, 0.3);
 }
 
 .testimonial-content img {
-  border-radius: 40%;
+  border-radius: 10px;
   margin-bottom: 10px;
-  max-width: 10%;
+  max-width: 100%;
 }
 
 .testimonial-text {
@@ -578,23 +597,17 @@ header {
 
 .testimonial-author {
   font-weight: bold;
-  color: #555;
+  color: #e9e823;
 }
 
-.testimonial-navigation {
-  margin-top: 20px;
-}
+@media (max-width: 768px) {
+  .testimonial-content {
+    flex-direction: column;
+  }
 
-.prev-button,
-.next-button {
-  background-color: #555;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1em;
-  margin-right: 10px;
+  .testimonial-content img {
+    width: 30%;
+  }
 }
 
 /* Footer styles */
@@ -608,6 +621,7 @@ footer {
 footer h3 {
   line-height: 2rem;
   margin-top: 10px;
+  color: #e9e823;
 }
 
 footer p {
@@ -616,13 +630,12 @@ footer p {
 }
 
 footer a {
-  border: none;
   padding: 0;
   line-height: 1.4rem;
 }
 
 footer a:hover {
-  border: none;
+  color: #e9e823;
 }
 
 .footer-links {
@@ -655,9 +668,8 @@ footer a:hover {
 }
 
 .aboutUs {
-  margin-top: 100px;
   padding: 60px 20px;
-  background-color: #fff;
+  background-color: #0e111e;
 }
 
 .aboutUs .container h2 {
@@ -679,6 +691,7 @@ footer a:hover {
 
 .aboutUs .aboutUs-image img {
   width: 100%;
+  border: 2px solid #e9e823;
   border-radius: 8px;
 }
 
@@ -720,8 +733,8 @@ footer a:hover {
 }
 
 .our-team-section {
-  padding: 200px 20px;
-  background: linear-gradient(45deg, #fff, #eee);
+  padding: 100px 20px;
+  background: #0e111e;
 }
 
 .our-team-section .container {
@@ -795,10 +808,10 @@ footer a:hover {
 }
 
 .our-achievements-section {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/achievments.jpg") no-repeat;
+  background: linear-gradient(rgba(16, 11, 31, 0.9), rgba(8, 4, 23, 0.9));
   background-size: cover;
   background-position: center;
-  padding: 200px 20px;
+  padding: 100px 20px;
   color: #333;
 }
 
@@ -821,19 +834,24 @@ footer a:hover {
   flex: 1;
   max-width: 250px;
   padding: 40px;
-  border-radius: 8px;
-  background-color: #121225;
+  border-radius: 80px;
+  border: 2px solid #e9e823;
   margin: 10px;
   transition: background-color 0.3s ease-in-out;
+  color: #fff;
 }
 
 .achievement-card:hover {
-  background-color: #2c3e50;
+  background-color: #e9e823;
+  color: #111;
+}
+
+.achievement-card:hover p {
+  color: #111;
 }
 
 .card-content {
   text-align: center;
-  color: #fff;
 }
 
 .count {
@@ -859,12 +877,13 @@ h2 {
 }
 
 .contacts-form-section {
-  background-color: #fff;
+  background: linear-gradient(rgba(16, 11, 31, 0.9), rgba(8, 4, 23, 0.9));
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 100px 20px;
-  max-width: 600px;
+  max-width: 800px;
   margin: 20px auto;
+  border: 2px solid #e9e823;
 }
 
 form {
@@ -882,15 +901,16 @@ form {
 label {
   font-size: 1.1em;
   margin-bottom: 5px;
+  color: #e9e823;
 }
 
 input,
 textarea {
   margin-bottom: 15px;
   border: 1px solid #ccc;
-  padding: 10px 20px;
+  padding: 20px 20px;
   font-size: 1rem;
-  border-radius: 20px;
+  border-radius: 20px 0;
   outline: none;
   resize: none;
 }
@@ -902,7 +922,6 @@ textarea {
 input {
   width: 100%;
   font-size: 1rem;
-  border-radius: 20px;
 }
 
 .checkPrivacy {
@@ -918,24 +937,34 @@ input {
 
 .checkPrivacy a {
   border: none;
-  color: #121225;
+  color: #eee;
   padding: 0;
+  font-weight: 600;
+}
+
+.checkPrivacy a:hover {
+  color: #e9e823;
   text-decoration: underline;
 }
 
 button {
+  margin-top: 40px;
   background-color: #e9e823;
-  color: #fff;
+  color: #111;
   padding: 20px;
   border: none;
   border-radius: 10px;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
 }
 
 button:hover {
-  background-color: #FF2500;
+  background-color: #212750;
+  color: #fff;
 }
 
 p {
@@ -945,9 +974,8 @@ p {
 }
 
 .featured-block {
-  background-color: #f8f8f8;
+  background: linear-gradient(rgba(5, 4, 16, 1), rgba(4, 4, 19, 0.9));
   padding: 100px 0;
-  margin-top: 100px;
 }
 
 .container {
@@ -962,7 +990,7 @@ h2 {
 }
 
 .block-content p {
-  color: #555;
+  color: #fff;
   font-size: 1.2em;
   line-height: 1.6;
   margin-bottom: 15px;
