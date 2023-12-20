@@ -192,7 +192,7 @@ header {
   overflow: hidden;
 }
 
-.hero {
+.he-starlighttt-ro {
   padding: 20px;
   position: relative;
   height: 100vh;
@@ -225,42 +225,42 @@ header {
 }
 
 @media (max-width: 768px) {
-  .hero {
+  .he-starlighttt-ro {
     position: relative;
     height: 100vh;
     background: linear-gradient(rgba(25, 22, 62, 0.8), rgba(0, 0, 0, 0.9)),
-      url(../img/hero-bg.jpg) no-repeat;
+      url(../img/he-starlighttt-ro-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     animation: none;
   }
 }
 
-.hero-hightlight {
+.he-starlighttt-ro-hightlight {
   font-weight: 600;
   color: #e9e823;
 }
 
-.hero a {
+.he-starlighttt-ro a {
   border: none;
 }
 
-.hero-content {
+.he-starlighttt-ro-content {
   max-width: 1000px;
   margin: 0 auto;
 }
 
-.hero-title {
+.he-starlighttt-ro-title {
   font-size: 3rem;
   margin-bottom: 20px;
 }
 
-.hero-description {
+.he-starlighttt-ro-description {
   font-size: 1.5rem;
   margin-bottom: 30px;
 }
 
-.hero-button {
+.he-starlighttt-ro-button {
   width: 100%;
   max-width: 500px;
   display: block;
@@ -278,12 +278,12 @@ header {
   transition: all 0.3s ease;
 }
 
-.hero-button:hover {
+.he-starlighttt-ro-button:hover {
   color: #fff;
   background-color: #212750;
 }
 
-.home-about {
+.home-starlighttt-about {
   background: linear-gradient(45deg, #0d0a18, #080718);
   color: #333;
   padding: 60px 20px;
@@ -291,7 +291,7 @@ header {
   overflow: hidden;
 }
 
-.home-about .container {
+.home-starlighttt-about .container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -372,7 +372,7 @@ header {
   }
 }
 
-.servCard {
+.serv-starlighttt-Card {
   border-radius: 40px 10px 0 60px;
   overflow: hidden;
   margin-bottom: 20px;
@@ -385,7 +385,7 @@ header {
   flex-direction: column;
 }
 
-.servCard:hover {
+.serv-starlighttt-Card:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
@@ -405,7 +405,7 @@ header {
   }
 }
 
-.card-text {
+.card-starlighttt-text {
   padding: 20px;
   width: 100%;
   display: flex;
@@ -414,14 +414,14 @@ header {
   flex-direction: column;
 }
 
-.card-text h3 {
+.card-starlighttt-text h3 {
   display: block;
   font-size: 1.5em;
   margin-bottom: 10px;
   color: #e9e823;
 }
 
-.card-text p {
+.card-starlighttt-text p {
   font-size: 1.1em;
   line-height: 1.6;
 }
@@ -450,7 +450,7 @@ header {
   }
 }
 
-.featured-product {
+.featured-starlighttt-product {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -462,7 +462,7 @@ header {
   border: 2px solid transparent;
 }
 
-.featured-product:hover {
+.featured-starlighttt-product:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border: 2px solid #e9e823;
@@ -490,7 +490,7 @@ header {
   color: #e9e823;
 }
 
-.order-button {
+.order-starlighttt-button {
   display: block;
   background-color: #e9e823;
   color: #111;
@@ -502,22 +502,22 @@ header {
   letter-spacing: 2px;
 }
 
-.order-button:hover {
+.order-starlighttt-button:hover {
   background-color: #212750;
   color: #fff;
 }
 
-.home-our-story {
+.home-starlighttt-story {
   background: linear-gradient(45deg, #0d0a18, #080718);
   padding: 60px 20px;
   text-align: center;
 }
 
-.home-our-story p {
+.home-starlighttt-story p {
   margin: 10px;
 }
 
-.home-our-story .container {
+.home-starlighttt-story .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -537,23 +537,23 @@ header {
   margin-bottom: 30px;
 }
 
-.story-content {
+.story-starlighttt-content {
   max-width: 1000px;
   margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
-  .home-our-story .container {
+  .home-starlighttt-story .container {
     justify-content: space-between;
   }
 
-  .story-content {
+  .story-starlighttt-content {
     max-width: 1000px;
     text-align: left;
   }
 }
 
-.testimonial-section {
+.testistarlightttmonial-section {
   background: linear-gradient(rgba(16, 11, 31, 0.9), rgba(8, 4, 23, 0.9));
   background-size: cover;
   background-position: center;
@@ -562,7 +562,7 @@ header {
   overflow: hidden;
 }
 
-.testimonial-slider {
+.testistarlightttmonial-slider {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -570,11 +570,11 @@ header {
   margin: 20px auto;
 }
 
-.testimonial-slide {
+.testistarlightttmonial-slide {
   flex: 0 0 100%;
 }
 
-.testimonial-content {
+.testistarlightttmonial-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -587,34 +587,34 @@ header {
   transition: all 0.6s ease-in-out;
 }
 
-.testimonial-content:hover {
+.testistarlightttmonial-content:hover {
   transform: scale(1.01);
   box-shadow: 0 0 20px rgba(225, 255, 0, 0.3);
 }
 
-.testimonial-content img {
+.testistarlightttmonial-content img {
   border-radius: 10px;
   margin-bottom: 10px;
   max-width: 100%;
 }
 
-.testimonial-text {
+.testistarlightttmonial-text {
   font-size: 1.1em;
   line-height: 1.6;
   margin-bottom: 15px;
 }
 
-.testimonial-author {
+.testistarlightttmonial-author {
   font-weight: bold;
   color: #e9e823;
 }
 
 @media (max-width: 768px) {
-  .testimonial-content {
+  .testistarlightttmonial-content {
     flex-direction: column;
   }
 
-  .testimonial-content img {
+  .testistarlightttmonial-content img {
     width: 30%;
   }
 }
@@ -647,14 +647,14 @@ footer a:hover {
   color: #e9e823;
 }
 
-.footer-links {
+.footer-starlighttt-links {
   display: flex;
   justify-content: center;
   padding: 40px 0;
   gap: 30px;
 }
 
-.footer-column {
+.footer-starlighttt-column {
   width: 40%;
 }
 
@@ -663,99 +663,99 @@ footer a:hover {
 }
 
 @media (max-width: 668px) {
-  .footer-links {
+  .footer-starlighttt-links {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
 
-  .footer-column {
+  .footer-starlighttt-column {
     width: 80%;
     gap: 20px;
   }
 }
 
-.aboutUs {
+.about-starlighttt-Us {
   padding: 60px 20px;
   background-color: #0e111e;
 }
 
-.aboutUs .container h2 {
+.about-starlighttt-Us .container h2 {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.aboutUs .aboutUs-content {
+.about-starlighttt-Us .about-starlighttt-Us-content {
   display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.aboutUs .aboutUs-image {
+.about-starlighttt-Us .about-starlighttt-Us-image {
   flex: 1;
   margin-right: 20px;
 }
 
-.aboutUs .aboutUs-image img {
+.about-starlighttt-Us .about-starlighttt-Us-image img {
   width: 100%;
   border: 2px solid #e9e823;
   border-radius: 8px;
 }
 
-.aboutUs .aboutUs-text {
+.about-starlighttt-Us .about-starlighttt-Us-text {
   flex: 1;
 }
 
-.aboutUs-ul {
+.about-starlighttt-Us-ul {
   margin-left: 20px;
 }
 
-.aboutUs-ul li {
+.about-starlighttt-Us-ul li {
   margin-left: 20px;
   list-style: square;
 }
 
-.aboutUs .aboutUs-text ul {
+.about-starlighttt-Us .about-starlighttt-Us-text ul {
   padding: 0;
 }
 
-.aboutUs .about-text li {
+.about-starlighttt-Us .about-text li {
   margin-bottom: 20px;
 }
 
-.aboutUs .about-text p {
+.about-starlighttt-Us .about-text p {
   font-size: 1.1em;
   line-height: 1.6;
 }
 
 @media screen and (max-width: 968px) {
-  .aboutUs .aboutUs-content {
+  .about-starlighttt-Us .about-starlighttt-Us-content {
     flex-direction: column-reverse;
   }
 
-  .aboutUs .aboutUs-image {
+  .about-starlighttt-Us .about-starlighttt-Us-image {
     margin-right: 0;
     margin-bottom: 20px;
   }
 }
 
-.our-team-section {
+.our-starlighttt--team-section {
   padding: 100px 20px;
   background: #0e111e;
 }
 
-.our-team-section .container {
+.our-starlighttt--team-section .container {
   text-align: center;
 }
 
-.our-team-section h3 {
+.our-starlighttt--team-section h3 {
   margin-bottom: 0px;
   color: #e9e823;
 }
 
-.our-team-section h4 {
+.our-starlighttt--team-section h4 {
   margin: 0px;
   font-size: 1rem;
   color: #fff;
@@ -806,7 +806,7 @@ footer a:hover {
   line-height: 1.4;
 }
 
-.our-achievements-section {
+.our-achievements-starlighttt-section {
   background: linear-gradient(rgba(16, 11, 31, 0.9), rgba(8, 4, 23, 0.9));
   background-size: cover;
   background-position: center;
@@ -814,7 +814,7 @@ footer a:hover {
   color: #333;
 }
 
-.our-achievements-section .container {
+.our-achievements-starlighttt-section .container {
   text-align: center;
 }
 
@@ -887,7 +887,7 @@ form {
   flex-direction: column;
 }
 
-.name_mail {
+.name_mail_starlighttt {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -920,7 +920,7 @@ input {
   font-size: 1rem;
 }
 
-.checkPrivacy {
+.checkPrivacyl_starlighttt {
   display: flex;
   align-items: center;
 }
@@ -931,14 +931,14 @@ input {
   margin-right: 10px;
 }
 
-.checkPrivacy a {
+.checkPrivacyl_starlighttt a {
   border: none;
   color: #eee;
   padding: 0;
   font-weight: 600;
 }
 
-.checkPrivacy a:hover {
+.checkPrivacyl_starlighttt a:hover {
   color: #e9e823;
   text-decoration: underline;
 }
@@ -969,7 +969,7 @@ p {
   color: #eee;
 }
 
-.featured-block {
+.featured-block_starlighttt {
   background: linear-gradient(rgba(5, 4, 16, 1), rgba(4, 4, 19, 0.9));
   padding: 100px 0;
 }
