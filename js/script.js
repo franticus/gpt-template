@@ -4,12 +4,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
   menuButton.addEventListener('click', function () {
     menu.classList.toggle('show');
+
+    if (menu.classList.contains('show')) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
   });
 
-  // Close the menu when clicking outside
   document.addEventListener('click', function (event) {
     if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
       menu.classList.remove('show');
+      
+      document.body.style.overflow = 'auto';
     }
   });
 });
