@@ -38,6 +38,7 @@ h1 {
   font-size: 5rem;
   font-weight: 600;
   line-height: 110%;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
 }
 
 h2 {
@@ -47,6 +48,7 @@ h2 {
   font-size: 4rem;
   font-weight: 600;
   line-height: 120%;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
 }
 
 h3 {
@@ -96,10 +98,6 @@ a {
   transition: color .2s;
 }
 
-a:hover {
-  color: #545454;
-}
-
 ul {
   margin-top: 0;
   margin-bottom: 10px;
@@ -109,11 +107,6 @@ ul {
 img {
   max-width: 100%;
   display: inline-block;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .button-group {
@@ -210,6 +203,10 @@ a {
 
 .text-align-center {
   text-align: center;
+}
+
+.text-color-white {
+  color: #fff;
 }
 
 .container {
@@ -588,8 +585,6 @@ a {
   background-position: 100% 99%;
   background-repeat: no-repeat;
   background-size: auto;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
 }
 
 .rc-bottom-component {
@@ -598,6 +593,78 @@ a {
   margin-top: 5rem;
   display: flex;
 }
+
+.newsletter-content {
+  flex: 1;
+}
+
+.newsletter-form-component {
+  max-width: 30rem;
+  margin-bottom: 0;
+}
+
+.newsletter-component {
+  grid-column-gap: 5rem;
+  grid-row-gap: 2rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr max-content;
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+  align-items: start;
+  display: grid;
+}
+
+.signup-form-wrapper {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr max-content;
+  grid-auto-columns: 1fr;
+  margin-bottom: 1rem;
+  display: grid;
+}
+
+.section-newsletter {
+  background-color: var(--solid--black);
+  background-image: url("https://assets-global.website-files.com/65465ba679857998750f8fd2/65465ba679857998750f8ffb_mail%20watermark.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-input {
+  height: auto;
+  min-height: 2.75rem;
+  border: var(--border--border-1px) solid var(--solid--black);
+  color: #000;
+  background-color: #fff;
+  border-radius: 2px;
+  margin-bottom: 0;
+  padding: .5rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.form-input:focus {
+  background-color: var(--solid--gray);
+}
+
+.form-input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, .6);
+}
+
+.form-input::placeholder {
+  color: rgba(0, 0, 0, .6);
+}
+
+.form-input.is-text-area {
+  height: auto;
+  min-height: 11.25rem;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  overflow: auto;
+}
+
 
 @media screen and (max-width: 991px) {
   .hero-component {
