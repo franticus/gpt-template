@@ -16,47 +16,27 @@
     <style>
       body {
         font-family: 'Arial', sans-serif;
-        background-color: #121225;
+        background-color: #fff;
         margin: 0;
         padding: 0;
         display: flex;
         align-items: center;
         justify-content: center;
         height: 100vh;
-        text-align: center;
-      }
-
-      .thanks-container {
-        text-align: center;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        max-width: 400px;
-        width: 100%;
-      }
-
-      .thanks-image {
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 20px;
       }
 
       h2 {
-        color: #e9e823;
+        color: #111;
       }
 
       p {
-        color: #fff;
-        margin-bottom: 20px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid #e9e823;
+        color: #111;
       }
 
       .to-home {
         display: inline-block;
-        background-color: #e9e823;
-        color: #111;
+        background-color: #111;
+        color: #fff;
         padding: 10px 20px;
         text-decoration: none;
         border-radius: 5px;
@@ -66,34 +46,42 @@
 
       a {
         text-decoration: none;
-        color: #e9e823;
+        color: #111;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        color: #111;
+      }
+
+      .thanks-container {
+        max-width: 600px;
       }
 
       .to-home:hover {
-        background-color: #121225;
-        color: #e9e823;
-        border: 1px solid #e9e823;
+        background-color: #fff;
+        color: #111;
+        border: 1px solid #111;
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
     <main>
-      <section class="thanks-section">
-        <div class="container">
-          <h2>Thank You for Your Purchase!</h2>
+      <section class="thanks-section" style="padding: 40px;">
+        <div class="thanks-container">
+          <h2>Obrigado!</h2>
           <p>
-            We appreciate your order and your choice to shop with StarlightGem.
-            Your satisfaction is our priority.
+            Se tiver alguma dúvida ou precisar de assistência adicional,
+            sinta-se à vontade para entrar em contato com nosso suporte ao
+            cliente.
           </p>
           <p>
-            If you have any questions or need further assistance, please feel
-            free to contact our customer support.
+            Siga-nos por e-mail para as últimas atualizações e ofertas
+            exclusivas:
+            <a href="mailto:pixelpursuit@gmail.com">pixelpursuit@gmail.com</a>
           </p>
-          <p>
-            Follow us via email for the latest updates and exclusive offers:
-            <a href="mailto:starlightgem@gmail.com">starlightgem@gmail.com</a>
-          </p>
-          <a href="index.html" class="to-home">Back to Home</a>
+          <a href="index.html" class="to-home">Voltar à Página Inicial</a>
         </div>
       </section>
     </main>
