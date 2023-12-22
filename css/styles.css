@@ -29,6 +29,9 @@ body {
   color: var(--solid--black);
   font-size: 1rem;
   line-height: 120%;
+  background-color: #ffffff;
+  opacity: 1;
+  background: repeating-linear-gradient(-45deg, #f6f7ff, #f6f7ff 2px, #ffffff 2px, #ffffff 10px);
 }
 
 h1 {
