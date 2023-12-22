@@ -659,7 +659,7 @@ img {
 
 .section-newsletter {
   background-color: var(--solid--black);
-  background-image: url("https://assets-global.website-files.com/65465ba679857998750f8fd2/65465ba679857998750f8ffb_mail%20watermark.svg");
+  background-image: url("../img/news-bg.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
