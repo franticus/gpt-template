@@ -195,11 +195,6 @@
     grid-row-gap: 4rem;
   }
 
-  .team-component {
-    grid-column-gap: 2rem;
-    grid-template-columns: 1fr;
-  }
-
   .blogpost-newsletter {
     position: static;
   }
@@ -466,15 +461,6 @@
     grid-template-columns: 1fr;
   }
 
-  .team-component {
-    grid-row-gap: 3rem;
-    grid-template-columns: 1fr;
-  }
-
-  .team-image-wrapper {
-    height: 100%;
-  }
-
   .blogpost-content,
   .blogpost-image-wrapper {
     margin-bottom: 2rem;
@@ -707,10 +693,6 @@
 
   .job-component {
     grid-template-columns: 1fr;
-  }
-
-  .team-image-wrapper {
-    padding-top: 66%;
   }
 
   .blogpost-content-meta {
