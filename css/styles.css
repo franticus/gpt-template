@@ -1106,3 +1106,63 @@ img {
 .monthly-span {
   font-size: 1.5rem;
 }
+
+.job-title-wrapper {
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+}
+
+.job-component {
+  grid-column-gap: 4rem;
+  grid-row-gap: 4rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-items: start;
+  display: grid;
+}
+
+.job-item {
+  border: var(--border--border-2px) solid var(--solid--black);
+  border-radius: var(--radius--radius-32px);
+  background-color: var(--light--violet-light);
+  box-shadow: 6px 6px 0 0 var(--solid--violet);
+  margin-bottom: 2.5rem;
+  padding: 2rem;
+}
+
+.career-job-details-wrapper {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.career-detail-wrapper {
+  align-items: center;
+  margin-right: 1.5rem;
+  display: flex;
+}
+
+.career-icon-wrapper {
+  margin-right: .75rem;
+}
+
+.margin-top, .margin-top.margin-xs, .margin-top.margin-huge, .margin-top.margin-m {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.job-image-wrapper {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius--radius-32px) var(--radius--radius-32px) 128px;
+  object-fit: cover;
+  position: relative;
+}
