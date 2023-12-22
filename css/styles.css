@@ -736,7 +736,7 @@ img {
 
 .section-logos {
   background-color: var(--solid--black);
-  background-image: url("https://assets-global.website-files.com/65465ba679857998750f8fd2/65465ba679857998750f9003_ph_globe-hemisphere-west-duotone.svg");
+  background-image: url("../img/partners-bg.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
