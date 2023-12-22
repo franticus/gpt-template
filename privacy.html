@@ -4,34 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./favicon.ico" rel="icon" />
-    <title>StarlightGem - Privacy Policy</title>
+    <title>PixelPursuit - Desfrute da Diversão nos Games</title>
     <meta
       name="description"
-      content="Review the privacy policy of StarlightGem for details on how we collect, use, and protect your personal information. Understand our commitment to maintaining the privacy and security of our customers in the realm of jewelry trends and designs."
+      content="PixelPursuit - Experimente a emoção no divertido mundo dos games. Explore as últimas tendências, estilos e acessórios no universo dos games para aprimorar sua experiência. Descubra ofertas únicas e envolventes da PixelPursuit."
     />
     <meta
       name="keywords"
-      content="StarlightGem, privacy policy, personal information, data protection, jewelry, style, trends"
+      content="games, diversão, entretenimento, PixelPursuit, acessórios para games, estilos de games, ofertas exclusivas, tendências de games, lançamentos de games"
     />
 
-    <link rel="stylesheet" href="./css/policy.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/policy.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <h1>
-          <a href="index.html" class="logo">Starlight<span>Gem</span></a>
-        </h1>
-        <nav>
-          <ul class="nav-list">
-            <li><a href="#he-starlighttt-ro">Home</a></li>
-          </ul>
-          <div class="burger-menu">&#9776;</div>
+    <div class="navbar">
+      <div class="navbar-container">
+        <a
+          href="./index.html"
+          class="navbar-logo-link"
+          style="font-size: 40px; text-decoration: none"
+          >PixelPursuit</a
+        >
+        <div class="navbar-menu-button">
+          <div class="menu-icon">
+            <div class="menu-icon-line-top"></div>
+            <div class="menu-icon-line-middle">
+              <div class="menu-icon-line-middle-inner"></div>
+            </div>
+            <div class="menu-icon-line-bottom"></div>
+          </div>
+        </div>
+        <nav role="navigation" class="navbar-menu">
+          <a href="./pricing.html" class="navbar-link">Preços</a>
+          <a href="./job.html" class="navbar-link">Trabalho</a>
+          <a href="./contact.html" class="navbar-link">Contato</a>
         </nav>
       </div>
-    </header>
-    <div class="over-lay"></div>
+      <div class="overlay"></div>
+    </div>
+
     <main>
       <h2>Welcome to StarlightGem's Privacy Commitment</h2>
       <p>
@@ -103,35 +116,117 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="footer-links">
-          <div class="footer-column">
-            <h3>Contact Us</h3>
-            <p>
-              Address:
-              <a
-                href="https://www.google.com/maps/place/Romeo+Lane/@28.676594,77.2226457,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfde46df6adb3:0xa6e882ddba69469e!8m2!3d28.676594!4d77.2252206!16s%2Fg%2F11fl91rtf8?entry=ttu"
-                >13, Third floor, Sham Nath Marg, Civil Lines, New Delhi, Delhi
-                110054, India</a
-              >
-            </p>
-            <p>Phone: <a href="tel:+917065111192">+91-70651-11192</a></p>
-            <p>
-              Email:
-              <a href="mailto:starlightgem@gmail.com">starlightgem@gmail.com</a>
-            </p>
+        <div class="padding-vertical padding-xxl">
+          <div class="padding-bottom padding-s">
+            <div class="w-layout-grid footer-wrapper">
+              <div class="footer-left-wrapper">
+                <div class="margin-bottom margin-s">
+                  <a
+                    style="text-decoration: none"
+                    href="./index.html"
+                    aria-current="page"
+                    class="footer-logo-link text-size-l text-weight-semibold text-color-white"
+                    >PixelPursuit</a
+                  >
+                </div>
+                <div class="margin-bottom margin-s">
+                  <div class="text-size-m text-color-white">
+                    Assine nossa newsletter
+                  </div>
+                </div>
+                <div class="footer-form-block w-form">
+                  <form
+                    id="email-form-footer"
+                    action="thanks_form.php"
+                    name="email-form"
+                    method="POST"
+                    class="footer-form"
+                    aria-label="Formulário de E-mail"
+                  >
+                    <input
+                      type="email"
+                      class="form-input w-input"
+                      maxlength="256"
+                      name="email-2"
+                      data-name="Email 2"
+                      placeholder="Digite seu e-mail"
+                      id="email-2-footer"
+                      required=""
+                    /><input
+                      type="submit"
+                      value="Inscrever-se"
+                      data-wait="Aguarde..."
+                      id="w-node-_9dec18d0-ad7f-8cce-aff0-205bd5840b7d-57d75e80"
+                      class="button is-secondary w-button"
+                    />
+                  </form>
+                  <div class="text-size-s text-color-white">
+                    Ao clicar em Inscrever-se, você confirma que concorda com
+                    nossa
+                    <a href="./privacy.html" class="text-color-white"
+                      >Política de Privacidade</a
+                    >.
+                  </div>
+                  <div
+                    class="success-message w-form-done"
+                    tabindex="-1"
+                    role="region"
+                    aria-label="Sucesso no Formulário de E-mail"
+                  >
+                    <div>Obrigado! Sua inscrição foi recebida!</div>
+                  </div>
+                  <div
+                    class="error-message w-form-fail"
+                    tabindex="-1"
+                    role="region"
+                    aria-label="Falha no Formulário de E-mail"
+                  >
+                    <div>Ops! Algo deu errado ao enviar o formulário.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-layout-grid footer-menu-wrapper">
+                <div class="footer-link-list">
+                  <div class="margin-bottom margin-xs">
+                    <div
+                      class="text-size-l text-weight-semibold text-color-white"
+                    >
+                      Menu
+                    </div>
+                  </div>
+                  <a href="./pricing.html" class="footer-link">Preços</a>
+                  <a href="./job.html" class="footer-link">Vagas</a>
+                  <a href="./contact.html" class="footer-link">Contato</a>
+                </div>
+                <div class="footer-link-list">
+                  <div class="margin-bottom margin-xs">
+                    <div
+                      class="text-size-l text-weight-semibold text-color-white"
+                    >
+                      Informações
+                    </div>
+                  </div>
+                  <a href="./disclaimer.html" class="footer-link"
+                    >Aviso Legal</a
+                  >
+                  <a href="./privacy.html" class="footer-link"
+                    >Política de Privacidade</a
+                  >
+                  <a href="./terms.html" class="footer-link">Termos de Uso</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="footer-column">
-            <h3>Information</h3>
-            <ul>
-              <li><a href="privacy.html">Privacy Policy</a></li>
-              <li><a href="terms.html">Terms of Use</a></li>
-              <li><a href="disclaimer.html">Disclaimer</a></li>
-            </ul>
+          <div class="padding-top padding-s">
+            <div class="footer-bottom-wrapper">
+              <div class="footer-credit-text">
+                © 2023
+                <a href="./index.html" class="texte-style-span-link"
+                  >PixelPursuit</a
+                >
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="line"></div>
-        <div class="copyright">
-          &copy; 2023 StarlightGem. All rights reserved.
         </div>
       </div>
     </footer>

@@ -1436,3 +1436,7 @@ textarea.w-input, textarea.w-select {
   margin: 3px 0 0 -20px;
   line-height: normal;
 }
+
+.loc_icon_text {
+  max-width: 300px;
+}
