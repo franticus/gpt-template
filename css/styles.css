@@ -739,6 +739,7 @@ img {
   padding-top: .75rem;
   padding-bottom: .75rem;
   overflow: auto;
+  resize: vertical;
 }
 
 .solutions-list {
