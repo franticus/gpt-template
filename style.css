@@ -10,7 +10,6 @@
 html {
   height: 100%;
   background: radial-gradient(ellipse at bottom, #0b644d 0%, #0a6d56 100%);
-  overflow: hidden;
 }
 
 body {
@@ -64,6 +63,7 @@ p {
 }
 
 .btn {
+  margin-top: 20px;
   padding: 15px 20px;
   background: #929492;
   font-size: 24px;
