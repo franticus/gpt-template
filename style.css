@@ -9,19 +9,17 @@
 
 html {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #0b644d 0%, #0a6d56 100%);
   overflow: hidden;
 }
 
 body {
-  font-family: arial, sans-sheriff;
+  font-family: Arial, sans-sheriff;
   text-align: center;
   height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
   color: #fff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -31,17 +29,18 @@ a {
 
 h1 {
   color: #eee;
-  margin-bottom: 40px;
-  letter-spacing: 2px;
-  font-size: 2rem;
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 200px;
 }
 
 p {
-  margin: 40px;
   max-width: 400px;
+  margin-bottom: 200px;
 }
 
-.game {
+.box {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,148 +50,37 @@ p {
   max-width: 600px;
   padding: 40px;
   border-radius: 50px;
-  background: #111;
   z-index: 999;
-}
-
-#jet {
-  width: 80px;
-  height: auto;
-  margin-bottom: 20px;
-  transition: all 0.3s ease-in-out;
-}
-
-#playButton,
-#cashoutButton {
-  width: 100%;
-  margin-top: 10px;
-}
-
-#multiplier {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-#link {
-  padding: 80px;
-  font-size: 40px;
-}
-
-#betAmount {
-  width: 100%;
-  padding: 5px;
-  font-size: 16px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  outline: none;
-  border-radius: 5px;
-  border: none;
-}
-
-button {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  margin: 5px;
-  cursor: pointer;
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-}
-
-#totalBalance {
-  font-size: 18px;
-  margin-top: 20px;
-}
-
-#playButton {
-  background-color: #3498db;
-}
-
-#cashoutButton {
-  background-color: #e74c3c;
-}
-
-#cashoutButton:disabled,
-#playButton:disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
-}
-
-button:disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
 }
 
 .logo {
-  position: relative;
-  width: 200px;
-  height: 200px; /* Добавлено для наглядности, можно изменить в зависимости от вашего изображения */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
   border-radius: 40px;
   margin-bottom: 20px;
-  overflow: hidden; /* Обрезаем псевдоэлемент, который выходит за пределы .logo */
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
+  overflow: hidden;
 }
 
 .btn {
-  padding: 20px 60px;
-  background: #389f09;
+  padding: 15px 20px;
+  background: #929492;
   font-size: 24px;
-  text-transform: uppercase;
-  border-radius: 40px 100px 0 20px;
+  font-weight: 600;
+  border-radius: 100px;
   transition: all 0.3s ease-in-out;
   z-index: 999;
-}
-
-.btn:hover {
-  padding: 20px 60px;
-  background: #c99b0e;
-  border-radius: 40px 20px 0 100px;
-}
-
-.jetFire {
-  position: relative;
-  transition: all 0.1s ease-in-out;
-}
-
-.fire {
-  position: absolute;
-  top: 65px;
-  right: 60px;
-  transform: rotate(220deg);
-  width: 100px;
-  height: 100px;
-  display: block;
-  background-image: url("./fire.gif");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-blend-mode: color;
-}
-
-.hide {
-  display: none;
-}
-
-.btns {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#playButton, #cashoutButton {
-  width: 80px;
-  height: 80px;
+.btn:hover {
+  background: #7abb6c;
+}
+
+.marked {
+  color: #ebdf2a;
+
 }
