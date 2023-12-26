@@ -9,7 +9,7 @@
 
 html {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #0b644d 0%, #0a6d56 100%);
+  background: radial-gradient(ellipse at bottom, #03bdff 0%, #009fff 100%);
   overflow: hidden;
 }
 
@@ -54,10 +54,7 @@ p {
 }
 
 .logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100px;
+  width: 300px;
   border-radius: 40px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -65,7 +62,8 @@ p {
 
 .btn {
   padding: 15px 20px;
-  background: #929492;
+  background: transparent;
+  border: 1px solid #fff;
   font-size: 24px;
   font-weight: 600;
   border-radius: 100px;
@@ -74,13 +72,56 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 100px auto 20px auto;
+  animation: pulse 2s ease-in-out infinite;
 }
 
 .btn:hover {
-  background: #7abb6c;
+  background: #ebdf2a;
 }
 
 .marked {
   color: #ebdf2a;
+}
 
+.yellow,
+.red {
+  position: relative;
+}
+
+.yellow_line {
+  content: "";
+  position: absolute;
+  top: 137px;
+  left: -124px
+}
+
+.red_img {
+  width: 60px;
+  margin-left: 80px;
+}
+
+.red_line {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 131px;
+  width: 140px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.05);
+    background: #ebdf2a;
+  }
+
+  50% {
+    transform: scale(1.0);
+    background: transparent;
+  }
+
+  100% {
+    transform: scale(1.05);
+    background: #ebdf2a;
+  }
 }
