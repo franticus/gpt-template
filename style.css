@@ -9,8 +9,7 @@
 
 html {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #03bdff 0%, #009fff 100%);
-  overflow: hidden;
+  background: #009fff;
 }
 
 body {
@@ -46,7 +45,6 @@ p {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin: 50px auto;
   max-width: 600px;
   padding: 40px;
   border-radius: 50px;
