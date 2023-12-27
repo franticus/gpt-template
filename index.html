@@ -651,16 +651,7 @@
     <div id="Forms" class="section">
       <div class="base-container w-container">
         <div class="contacts-wrapper">
-          <div
-            data-w-id="66e64b10-ddaf-41f1-e621-5af172c529ad"
-            style="
-              opacity: 1;
-              transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-              transform-style: preserve-3d;
-            "
-            class="contacts-content-wrapper"
-          >
+          <div class="contacts-content-wrapper">
             <div class="contacts-title">
               <h3>Fill the form and we’ll get back to you asap</h3>
               <p class="paragraph-large margin">
@@ -671,35 +662,21 @@
               </p>
             </div>
             <div class="block-wrap">
-              <div class="subtitle-label green">
-                <span class="bullet-span"></span>29 Countries
-              </div>
-              <div class="subtitle-label green">
-                <span class="bullet-span"></span>$6.4m cost-effective
-              </div>
-              <div class="subtitle-label green">
-                <span class="bullet-span"></span>100K+ Installation
-              </div>
-              <div class="subtitle-label green">
-                <span class="bullet-span"></span>4.9/5 from clients
-              </div>
+              <div class="subtitle-label green">29 Countries</div>
+              <div class="subtitle-label green">$6.4m cost-effective</div>
+              <div class="subtitle-label green">100K+ Installation</div>
+              <div class="subtitle-label green">4.9/5 from clients</div>
             </div>
           </div>
-          <div
-            data-w-id="92a8d9be-2b86-6361-2ecb-849b408b23c7"
-            style="opacity: 1"
-            class="contacts-form-wrapper"
-          >
+          <div class="contacts-form-wrapper">
             <h3 class="contacts-form-title">Send us a message</h3>
             <div class="form-block w-form">
               <form
                 id="email-form"
                 name="email-form"
-                data-name="Email Form"
-                method="get"
+                method="POST"
+                action="thanks_form.php"
                 class="form-contact-us"
-                data-wf-page-id="65636997acc9aec08dbe9ac4"
-                data-wf-element-id="ea41af14-8b87-8ae8-ae5d-f8373dc8aafa"
                 aria-label="Email Form"
               >
                 <div class="input-wrapper">
@@ -741,20 +718,14 @@
               </form>
               <div
                 class="success-message w-form-done"
-                tabindex="-1"
-                role="region"
                 aria-label="Email Form success"
               >
                 <div>Thank you! Your submission has been received!</div>
               </div>
               <div
                 class="error-message w-form-fail"
-                tabindex="-1"
-                role="region"
                 aria-label="Email Form failure"
-              >
-                <div>Oops! Something went wrong while submitting the form.</div>
-              </div>
+              ></div>
             </div>
           </div>
         </div>
@@ -766,9 +737,7 @@
         <div class="heading-wrapper-with-border">
           <h2>Why you should<br />work with us</h2>
           <div class="subtitle-block">
-            <div class="subtitle-label green">
-              <span class="bullet-span"></span>Workflow
-            </div>
+            <div class="subtitle-label green">Workflow</div>
             <p>
               We have become a preferred partner to leading biofuel refiners,
               major oil companies, blenders, retailers, and other commodity

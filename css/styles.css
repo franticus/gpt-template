@@ -5334,7 +5334,6 @@ blockquote {
 .contacts-input {
   height: auto;
   border: 1px solid var(--transparent);
-  background-color: var(--white);
   border-radius: 12px;
   margin-bottom: 0;
   padding: 16px 18px;
@@ -5344,7 +5343,6 @@ blockquote {
 
 .contacts-input:focus {
   border: 1px solid var(--primary);
-  color: var(--white);
   font-size: 18px;
 }
 
