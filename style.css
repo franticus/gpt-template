@@ -13,12 +13,12 @@ html {
 
 body {
   font-family: Arial, sans-sheriff;
-  text-align: center;
+  text-align: left;
   height: 100vh;
   display: flex;
   justify-content: center;
   color: #fff;
-  background: linear-gradient(to right, #d45002, #e7ad26);
+  background: linear-gradient(to right, #a71933, #dfee0c);
 }
 
 a {
@@ -46,36 +46,43 @@ p {
 }
 
 .box {
-  border: 2px solid #fff;
   position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
-  text-align: center;
-  margin: 50px auto;
   max-width: 600px;
   padding: 40px;
   z-index: 999;
 }
 
+.cover {
+  display: flex;
+}
+
+.image {
+  display: block;
+}
+
 .btn {
   color: #fff;
-  background: #709964;
+  background: #d26115;
   margin-top: 20px;
-  padding: 15px 20px;
+  text-align: center;
+  padding: 25px 20px;
   font-size: 24px;
   font-weight: 600;
-  border-radius: 8px;
+  border-radius: 80px;
   transition: all 0.3s ease-in-out;
   z-index: 999;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 4px solid #fff;
+  border: 1px solid #fff;
 }
 
 .btn:hover {
   background: #ffae00;
+  transform: scale(1.05);
 }
 
 .marked {
