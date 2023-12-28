@@ -9,7 +9,6 @@
 
 html {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #0b644d 0%, #0a6d56 100%);
 }
 
 body {
@@ -18,7 +17,7 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
-  color: #fff;
+  color: #000;
 }
 
 a {
@@ -26,58 +25,55 @@ a {
   text-decoration: none;
 }
 
+.logobox {
+  background: linear-gradient(to right, #d45002, #e7ad26);
+  padding: 20px;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  color: #FFF;
+}
+
 h1 {
-  color: #eee;
-  font-size: 60px;
+  font-size: 32px;
   font-weight: 600;
-  margin-top: 100px;
+  text-align: left;
 }
 
 p {
-  max-width: 400px;
-  margin-bottom: 100px;
+  max-width: 360px;
 }
 
 .box {
+  border: 2px solid #000;
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   text-align: center;
   margin: 50px auto;
   max-width: 600px;
   padding: 40px;
-  border-radius: 50px;
   z-index: 999;
 }
 
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100px;
-  border-radius: 40px;
-  margin-bottom: 20px;
-  overflow: hidden;
-}
-
 .btn {
+  color: #000;
   margin-top: 20px;
   padding: 15px 20px;
-  background: #929492;
+  background: transparent;
   font-size: 24px;
-  font-weight: 600;
-  border-radius: 100px;
   transition: all 0.3s ease-in-out;
   z-index: 999;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid #000;
 }
 
 .btn:hover {
-  background: #7abb6c;
+  background: #f6f6f6;
 }
 
 .marked {
