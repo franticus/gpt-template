@@ -90,8 +90,8 @@ body {
 
 .navbar-sahdfblsabsf.show {
   display: flex;
+  padding-top: 20%;
   align-items: center;
-  justify-content: center;
   height: 100vh;
   background: #fff;
   transform: translateY(0);
@@ -128,7 +128,7 @@ body {
   .menu-icon-linesldfbkb-middle,
   .menu-icon-linesldfbkb-bottom {
     height: 2px;
-    background-color: var(--solid--black);
+    background-color: #000;
     margin: 6px 0;
     transition: transform 0.3s, opacity 0.3s;
   }
