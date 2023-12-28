@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: center;
   color: #fff;
-  background: linear-gradient(to right, #a71933, #dfee0c);
+  background: linear-gradient(to right, #0b56c7, #3e2566);
 }
 
 a {
@@ -61,23 +61,24 @@ p {
 
 .image {
   display: block;
+  border-radius: 100px;
+  overflow: hidden;
 }
 
 .btn {
   color: #fff;
-  background: #d26115;
+  background: #4862ff;
   margin-top: 20px;
   text-align: center;
   padding: 25px 20px;
   font-size: 24px;
   font-weight: 600;
-  border-radius: 80px;
+  border-radius: 20px;
   transition: all 0.3s ease-in-out;
   z-index: 999;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #fff;
 }
 
 .btn:hover {
