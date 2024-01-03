@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const menuButton = document.querySelector('.sdnmfbb');
-  const menu = document.querySelector('.navhsdkk');
+  const menuButton = document.querySelector('.sdlkfnnsdf');
+  const menu = document.querySelector('.sdfbskdfblshdfb');
 
   menuButton.addEventListener('click', function () {
     menu.classList.toggle('show');
