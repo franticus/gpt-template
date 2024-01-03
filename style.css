@@ -109,6 +109,12 @@ body {
     z-index: 1;
   }
 
+  .navhsdkk.show {
+    display: flex;
+    background: #fff;
+    border-bottom: 20px solid #00ffa6;
+  }
+
   .sdnmfbb {
     display: block;
     cursor: pointer;
