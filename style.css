@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --dark: #353640;
+  --primary: #005450;
+  --green: #068466;
+  --light-bgr-color: #f8f8f8;
+  --white: white;
+  --transparent: rgba(0, 0, 0, 0);
+  --grey: #dbdbdb;
+  --orange: #ffc776;
+  --black: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 1rem;
+  line-height: 120%;
+  background-color: #ffffff;
+}
+
+.navhsdkk {
+  align-items: center;
+  display: flex;
+  position: static;
+}
+
+.navbar-lojksdfgksb {
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.sdnmfbb {
+  padding: 0;
+}
+
+.sdjflsdaswer {
+  font-family: var(--archivo);
+  color: var(--solid--black);
+  white-space: normal;
+  padding: .5rem 1rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 150%;
+  text-decoration: none;
+  transition: transform .5s;
+}
+
+.sdjflsdaswer:hover {
+  opacity: 0.7;
+}
+
+.sdjflsdaswer:active {
+  transform: none;
+}
+
+.navbar-container {
+  width: 100%;
+  height: 100%;
+  max-width: 80rem;
+  flex: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.navbar {
+  min-height: 5.5rem;
+  background-color: var(--solid--white);
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  border-bottom: 10px solid #cfad3f;
+}
+
+.navhsdkk {
+  align-items: center;
+  display: flex;
+  position: static;
+  transition: transform 0.5s;
+}
+
+.navhsdkk.show {
+  display: flex;
+  background: #fff;
+  transform: translateY(0);
+}
+
+@media (max-width: 1000px) {
+  .navhsdkk {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 5.5rem;
+    left: 0;
+    width: 100%;
+    background-color: var(--solid--white);
+    z-index: 1;
+  }
+
+  .navhsdkk.show {
+    display: flex;
+    border-bottom: 20px solid #cfad3f;
+
+  }
+
+  .sdnmfbb {
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .menu-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .menu-icshdkjfgh-top,
+  .menu-icshdkjfgh-middle,
+  .menu-icshdkjfgh-bottom {
+    height: 2px;
+    background-color: #000;
+    margin: 6px 0;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .sdjflsdaswer {
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+}
