@@ -9,7 +9,7 @@
 
 html {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #582ad5 0%, #582ad5 100%);
+  background: linear-gradient(to bottom, #ac0d06 0%, #fbd63e 100%);
 }
 
 body {
@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   color: #fff;
+  background: linear-gradient(to bottom, #ac0d06 0%, #fbd63e 100%);
 }
 
 a {
@@ -51,8 +52,7 @@ p {
   text-align: center;
   margin: 50px auto;
   max-width: 600px;
-  padding: 40px;
-  border-radius: 50px;
+  padding: 10px;
   z-index: 999;
 }
 
@@ -60,7 +60,7 @@ p {
   position: absolute;
   top: 0;
   left: 10%;
-  width: 100px;
+  width: 60px;
   border-radius: 10px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -79,10 +79,14 @@ p {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+  background: url("./button.png") no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 76px;
 }
 
 .btn:hover {
-  background: #7abb6c;
+  transform: scale(1.1);
 }
 
 .marked {
@@ -107,5 +111,4 @@ p {
 
 .cards img {
   display: block;
-  margin-left: -60px;
 }
