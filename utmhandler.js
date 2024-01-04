@@ -7,8 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
   let remainingUtm = '';
 
   // --- сюда вставляются необходимые значения.----------
+
   const utmTargetValue = 'все игры';
   const targetLink = 'https://sitenew2023.com/3tgV26T9';
+
   // ----------------------------------------------------
 
   function getUtmTermValue() {
