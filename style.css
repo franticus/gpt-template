@@ -59,7 +59,7 @@ p {
 .logo {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10%;
   width: 100px;
   border-radius: 10px;
   margin-bottom: 20px;
