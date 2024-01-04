@@ -9,7 +9,7 @@
 
 html {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #0b644d 0%, #0a6d56 100%);
+  background: radial-gradient(ellipse at bottom, #582ad5 0%, #582ad5 100%);
 }
 
 body {
@@ -30,7 +30,11 @@ h1 {
   color: #eee;
   font-size: 60px;
   font-weight: 600;
-  margin-top: 100px;
+  z-index: 3;
+  background: linear-gradient(to right, #ff94bd, #fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 p {
@@ -65,7 +69,7 @@ p {
 .btn {
   margin-top: 20px;
   padding: 15px 20px;
-  background: #929492;
+  background: #fd2951;
   font-size: 24px;
   font-weight: 600;
   border-radius: 10px;
@@ -74,6 +78,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-transform: uppercase;
 }
 
 .btn:hover {
@@ -92,7 +97,15 @@ p {
   margin-top: 40px;
 }
 
-.promo {
-  font-size: 20px;
-  font-weight: 600;
+.cards {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards img {
+  display: block;
+  margin-left: -60px;
 }
