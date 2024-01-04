@@ -57,7 +57,7 @@ p {
   top: 0;
   left: 0;
   width: 100px;
-  border-radius: 40px;
+  border-radius: 10px;
   margin-bottom: 20px;
   overflow: hidden;
 }
@@ -68,7 +68,7 @@ p {
   background: #929492;
   font-size: 24px;
   font-weight: 600;
-  border-radius: 100px;
+  border-radius: 10px;
   transition: all 0.3s ease-in-out;
   z-index: 999;
   display: flex;
@@ -82,5 +82,17 @@ p {
 
 .marked {
   color: #ebdf2a;
+}
 
+.gift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.promo {
+  font-size: 20px;
+  font-weight: 600;
 }
