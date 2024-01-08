@@ -536,10 +536,6 @@ a {
 }
 
 .location-image {
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -562,7 +558,7 @@ a {
   z-index: 2;
   width: 50px;
   height: 50px;
-  background-image: url("https://assets-global.website-files.com/65648c17113f2e88f629f5df/6564b5c08ef57866e40939db_arrow.svg");
+  background-image: url("./img/arrow.svg");
   background-position: 50%;
   background-size: cover;
   position: absolute;
