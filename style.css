@@ -362,6 +362,7 @@ input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
+  margin-right: 4px;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -3088,6 +3089,7 @@ blockquote {
   border: 1px solid rgba(43, 65, 58, .75);
   padding-bottom: 100px;
   transition: border-color .2s;
+  resize: none;
 }
 
 .form-textarea:focus {
