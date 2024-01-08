@@ -19,4 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
       document.body.style.overflow = 'auto';
     }
   });
+
+  menu.addEventListener('click', function (event) {
+    menu.classList.toggle('show');
+  });
 });
