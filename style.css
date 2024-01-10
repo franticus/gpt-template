@@ -37,6 +37,14 @@ body {
   padding: 0;
 }
 
+.overlay {
+  display: none;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.9);
+}
+
 .wuetyriwyr {
   color: #0f6254;
   white-space: normal;
