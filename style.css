@@ -721,6 +721,10 @@ label {
   text-align: center;
 }
 
+.hero.purple-small-bg2 {
+  background-image: none;
+}
+
 .column-medium {
   width: 100%;
   max-width: 730px;
