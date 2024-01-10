@@ -567,8 +567,8 @@ label {
 }
 
 .section {
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .section.cta {
@@ -576,7 +576,6 @@ label {
 }
 
 .section.overlap-pricing {
-  margin-top: -29px;
   padding-top: 0px;
 }
 
@@ -699,7 +698,7 @@ label {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  border-radius: 100px;
+  border-radius: 10px;
   background-color: #0f6254;
 }
 
@@ -716,7 +715,7 @@ label {
   grid-template-rows: auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./img/hor_2.jpg");
   background-position: 50% 0%;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -883,7 +882,7 @@ label {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 
 .features-card {
@@ -902,7 +901,7 @@ label {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  border-radius: 40px;
+  border-radius: 10px;
   background-color: #fff;
   box-shadow: 0 16px 32px 0 rgba(19, 17, 33, 0.04);
 }
@@ -1042,7 +1041,7 @@ label {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  border-radius: 100px;
+  border-radius: 10px;
   background-color: #f1f0f5;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url("./img/hor_3.jpg");
   background-position: 0px 0px, 50% 0%;
@@ -1105,7 +1104,7 @@ label {
 .contact-img {
   width: 100%;
   height: 754px;
-  border-radius: 40px;
+  border-radius: 10px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -1214,7 +1213,7 @@ label {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  border-radius: 40px;
+  border-radius: 10px;
   background-color: #fff;
   box-shadow: 0 16px 32px 0 rgba(19, 17, 33, 0.04);
 }
@@ -1233,11 +1232,11 @@ label {
 
 .login-wrap {
   width: 100%;
-  max-width: 630px;
+  max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
   padding: 48px;
-  border-radius: 40px;
+  border-radius: 10px;
   background-color: #fff;
   box-shadow: 0 16px 32px 0 rgba(19, 17, 33, 0.04);
   text-align: center;
@@ -1290,7 +1289,7 @@ label {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  border-radius: 100px;
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -1355,7 +1354,7 @@ label {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 10px;
   background-image: url("./img/cosm_1.jpg");
   background-position: 0px 0px, 0px 0px;
   background-size: cover;
@@ -1367,7 +1366,7 @@ label {
   position: relative;
   width: 100%;
   height: 750px;
-  border-radius: 100px;
+  border-radius: 10px;
   background-image: url("./img/hor_1.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -1423,7 +1422,7 @@ label {
 .features-tab-content {
   width: 100%;
   max-width: 620px;
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
 .features-tab-img {
@@ -1507,13 +1506,13 @@ label {
   .hero.purple-small-bg {
     height: auto;
     padding: 120px 32px;
-    border-radius: 40px;
+    border-radius: 10px;
   }
 
   .gray-block {
     padding-top: 100px;
     padding-bottom: 100px;
-    border-radius: 40px;
+    border-radius: 10px;
   }
 
   .pricing-number.large {
@@ -1524,7 +1523,7 @@ label {
     height: 100%;
     padding-top: 120px;
     padding-bottom: 120px;
-    border-radius: 40px;
+    border-radius: 10px;
   }
 
   .contact-img {
@@ -1541,11 +1540,11 @@ label {
     max-height: 100%;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-radius: 40px;
+    border-radius: 10px;
   }
 
   .large-bg {
-    border-radius: 40px;
+    border-radius: 10px;
   }
 
   .features-tab {
@@ -1743,7 +1742,7 @@ label {
   .gray-block {
     padding-top: 60px;
     padding-bottom: 60px;
-    border-radius: 40px;
+    border-radius: 10px;
   }
 
   .features-card {
