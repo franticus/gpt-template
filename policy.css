@@ -11,6 +11,12 @@ main {
   margin: 40px auto;
 }
 
+h1 {
+  color: #333;
+  font-size: 1.9rem !important;
+  text-shadow: none;
+}
+
 h2 {
   color: #333;
   font-size: 1.8rem !important;

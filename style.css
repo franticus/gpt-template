@@ -1045,7 +1045,7 @@ label {
   background-color: #f1f0f5;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url("./img/hor_3.jpg");
   background-position: 0px 0px, 50% 0%;
-  background-size: auto, auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -1054,6 +1054,12 @@ label {
   font-size: 14px;
   line-height: 1.4;
   font-weight: 600;
+}
+
+#footer {
+  padding: 80px 0 0;
+  background: #ffe5cf;
+  border-top: 1px solid #000;
 }
 
 .column-xs {
