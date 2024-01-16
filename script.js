@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const menuButton = document.querySelector('.sdjhbdsf');
-  const menu = document.querySelector('.uyuweyuweyyuwe');
+  const menuButton = document.querySelector('.sdkuhkbd');
+  const menu = document.querySelector('.nncbcvx');
   const overlay = document.querySelector('.overlay');
 
   menuButton.addEventListener('click', function () {
