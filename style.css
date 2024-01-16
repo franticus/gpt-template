@@ -703,19 +703,19 @@ strong {
   background-color: #caccd1;
 }
 
-.divider.footer-content-top-divider {
+.divider.eeyegytyddd-top-divider {
   margin-top: 64px;
   margin-bottom: 100px;
   background-color: #e7e9ee;
 }
 
-.divider.footer-content-bottom-divider {
+.divider.eeyegytyddd-bottom-divider {
   margin-top: 100px;
   margin-bottom: 38px;
   background-color: #e7e9ee;
 }
 
-.divider.home-v3-companies {
+.divider.home-dgttetrre-companies {
   margin-bottom: 52px;
   background-color: #fff;
   opacity: 0.5;
@@ -729,31 +729,31 @@ strong {
   margin-bottom: 40px;
 }
 
-.paragraph.card-home-v3-feature {
+.paragraph.card-home-dgttetrre-feature {
   margin-bottom: 0px;
 }
 
-.paragraph.testimonial-company {
+.paragraph.dhvjvsdgvsvs {
   margin-bottom: 48px;
 }
 
-.paragraph.card-home-v3-case-study {
+.paragraph.card-home-dgttetrre-case-study {
   margin-bottom: 0px;
 }
 
-.paragraph.card-home-v3-testimonials {
+.paragraph.card-home-dgttetrre-testimonials {
   margin-bottom: 0px;
 }
 
-.paragraph.about-v1-story {
+.paragraph.about-dgvutuvd-story {
   margin-bottom: 0px;
 }
 
-.paragraph.about-v1-mission {
+.paragraph.about-dgvutuvd-mission {
   margin-bottom: 0px;
 }
 
-.paragraph.card-team-v1-about-excerpt {
+.paragraph.card-team-dgvutuvd-about-excerpt {
   margin-bottom: 0px;
 }
 
@@ -768,7 +768,7 @@ strong {
   box-shadow: 0 4px 10px 0 rgba(41, 44, 50, 0.03);
 }
 
-.card.home-v3-feature {
+.card.home-dgttetrre-feature {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -788,12 +788,12 @@ strong {
   align-items: center;
 }
 
-.card.home-v3-case-study {
+.card.home-dgttetrre-case-study {
   padding: 64px 31px 66px;
   text-align: center;
 }
 
-.card.home-v3-testimonials {
+.card.home-dgttetrre-testimonials {
   position: absolute;
   left: 0px;
   z-index: 1;
@@ -801,7 +801,7 @@ strong {
   padding: 78px 44px;
 }
 
-.card.team-v1 {
+.card.team-dgvutuvd {
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
@@ -813,7 +813,7 @@ strong {
   text-decoration: none;
 }
 
-.card.team-v1:hover {
+.card.team-dgvutuvd:hover {
   border-color: #d4b43e;
   box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
   -webkit-transform: translate(0px, -8px);
@@ -859,41 +859,41 @@ strong {
   margin-bottom: 31px;
 }
 
-.title.home-v3-features {
+.title.home-dgttetrre-features {
   margin-bottom: 0px;
 }
 
-.title.home-v3-case-study {
+.title.home-dgttetrre-case-study {
   margin-bottom: 0px;
 }
 
-.title.home-v3-achievements {
+.title.home-dgttetrre-achievements {
   position: relative;
   z-index: 1;
   margin-bottom: 40px;
 }
 
-.title.card-home-v3-case-study {
+.title.card-home-dgttetrre-case-study {
   margin-bottom: 10px;
 }
 
-.title.home-v3-testimonials {
+.title.home-dgttetrre-testimonials {
   margin-bottom: 0px;
 }
 
-.title.about-v1-story {
+.title.about-dgvutuvd-story {
   margin-bottom: 10px;
 }
 
-.title.about-v1-mission {
+.title.about-dgvutuvd-mission {
   margin-bottom: 10px;
 }
 
-.title.about-v1-team {
+.title.about-dgvutuvd-team {
   margin-bottom: 0px;
 }
 
-.title.card-team-v1-name {
+.title.card-team-dgvutuvd-name {
   margin-bottom: 8px;
 }
 
@@ -901,17 +901,17 @@ strong {
   margin-bottom: 22px;
 }
 
-.split-content.home-v3-features-left {
+.split-content.home-dgttetrre-features-left {
   max-width: 60%;
 }
 
-.split-content.about-v1-story-left {
+.split-content.about-dgvutuvd-story-left {
   max-width: 562px;
   margin-top: 60px;
   margin-right: 40px;
 }
 
-.split-content.about-v1-story-right {
+.split-content.about-dgvutuvd-story-right {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -928,7 +928,7 @@ strong {
   align-items: flex-end;
 }
 
-.split-content.footer-content {
+.split-content.eeyegytyddd {
   width: 100%;
   max-width: 50%;
 }
@@ -948,12 +948,12 @@ strong {
   transform: translate(0px, 0px);
 }
 
-.image-wrapper.testimonial-company {
+.image-wrapper.dhvjvsdgvsvs {
   max-width: 535px;
   border-radius: 18px;
 }
 
-.image-wrapper.home-v3-testimonials {
+.image-wrapper.home-dgttetrre-testimonials {
   position: relative;
   max-width: 82%;
   -webkit-box-pack: center;
@@ -967,49 +967,49 @@ strong {
   border-radius: 18px;
 }
 
-.image-wrapper.about-v1-story {
+.image-wrapper.about-dgvutuvd-story {
   border-radius: 18px;
 }
 
-.image-wrapper.about-v1-mission {
+.image-wrapper.about-dgvutuvd-mission {
   margin-bottom: 118px;
   border-radius: 18px;
 }
 
-.image-wrapper.card-team-v1 {
+.image-wrapper.card-team-dgvutuvd {
   position: relative;
 }
 
-.image.card-home-v3-feature {
+.image.card-home-dgttetrre-feature {
   margin-right: 10px;
   margin-bottom: 20px;
 }
 
-.image.testimonial-company {
+.image.dhvjvsdgvsvs {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-.image.home-v3-testimonials {
+.image.home-dgttetrre-testimonials {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-.image.about-v1-story {
+.image.about-dgvutuvd-story {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-.image.about-v1-mission {
+.image.about-dgvutuvd-mission {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-.image.card-team-v1 {
+.image.card-team-dgvutuvd {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
@@ -1064,21 +1064,21 @@ strong {
   color: #fff;
 }
 
-.subtitle.home-v3-testimonials {
+.subtitle.home-dgttetrre-testimonials {
   margin-right: auto;
   margin-bottom: 20px;
   margin-left: auto;
   text-align: center;
 }
 
-.subtitle.home-v3-case-study {
+.subtitle.home-dgttetrre-case-study {
   margin-right: auto;
   margin-bottom: 20px;
   margin-left: auto;
   text-align: center;
 }
 
-.subtitle.home-v3-achievements {
+.subtitle.home-dgttetrre-achievements {
   position: relative;
   z-index: 1;
   margin-right: auto;
@@ -1087,7 +1087,7 @@ strong {
   text-align: center;
 }
 
-.subtitle.about-v1-team {
+.subtitle.about-dgvutuvd-team {
   margin-right: auto;
   margin-bottom: 20px;
   margin-left: auto;
@@ -1154,7 +1154,7 @@ strong {
   bottom: 0%;
 }
 
-.bg.home-v3-testimonials-filter {
+.bg.home-dgttetrre-testimonials-filter {
   left: 0%;
   top: 0%;
   right: 0%;
@@ -1206,7 +1206,7 @@ strong {
   color: #d4b43e;
 }
 
-.content-top {
+.sbkhsd {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1221,7 +1221,7 @@ strong {
   align-items: flex-end;
 }
 
-.content-top.home-v3-features {
+.sbkhsd.home-dgttetrre-features {
   margin-bottom: 56px;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -1257,7 +1257,7 @@ strong {
   line-height: 1.273em;
 }
 
-.footer-content {
+.eeyegytyddd {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1268,7 +1268,7 @@ strong {
   justify-content: space-between;
 }
 
-.footer-content-bottom {
+.eeyegytyddd-bottom {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1330,12 +1330,12 @@ strong {
   padding-left: 24px;
 }
 
-.container-medium-695px.home-v3-testimonials {
+.container-medium-695px.home-dgttetrre-testimonials {
   margin-bottom: 56px;
   text-align: center;
 }
 
-.home-v3-features-grid {
+.home-dgttetrre-features-grid {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -1359,12 +1359,12 @@ strong {
   z-index: 1;
 }
 
-.card-home-v3-feature-content {
+.card-home-dgttetrre-feature-content {
   max-width: 334px;
   margin-bottom: 20px;
 }
 
-.testimonial-company-wrapper {
+.dhvjvsdgvsvs-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1379,7 +1379,7 @@ strong {
   align-items: center;
 }
 
-.testimonial-company-content {
+.dhvjvsdgvsvs-content {
   max-width: 542px;
   margin-right: 30px;
 }
@@ -1392,12 +1392,12 @@ strong {
   padding-left: 24px;
 }
 
-.container-small-551px.home-v3-case-study {
+.container-small-551px.home-dgttetrre-case-study {
   margin-bottom: 48px;
   text-align: center;
 }
 
-.container-small-551px.about-v1-team {
+.container-small-551px.about-dgvutuvd-team {
   max-width: 600px;
   margin-bottom: 48px;
   text-align: center;
@@ -1411,12 +1411,12 @@ strong {
   padding-left: 24px;
 }
 
-.home-v3-achievements-wrapper {
+.home-dgttetrre-achievements-wrapper {
   position: relative;
   text-align: center;
 }
 
-.home-v3-achievements-grid {
+.home-dgttetrre-achievements-grid {
   position: relative;
   z-index: 1;
   margin-right: auto;
@@ -1428,7 +1428,7 @@ strong {
   grid-template-rows: auto;
 }
 
-.home-v3-companies-wrapper {
+.home-dgttetrre-companies-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1443,7 +1443,7 @@ strong {
   align-items: center;
 }
 
-.home-v3-companies-text {
+.home-dgttetrre-companies-text {
   margin-right: 40px;
   color: #fff;
   font-size: 22px;
@@ -1452,7 +1452,7 @@ strong {
   white-space: nowrap;
 }
 
-.home-v3-companies-logos {
+.home-dgttetrre-companies-logos {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1495,7 +1495,7 @@ strong {
   text-align: center;
 }
 
-.card-home-v3-case-study-step {
+.card-home-dgttetrre-case-study-step {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1522,12 +1522,12 @@ strong {
   font-weight: 700;
 }
 
-.home-v3-case-study-grid {
+.home-dgttetrre-case-study-grid {
   grid-column-gap: 32px;
   grid-row-gap: 40px;
 }
 
-.home-v3-achievement-number {
+.home-dgttetrre-achievement-number {
   margin-bottom: 6px;
   color: #fff;
   font-size: 50px;
@@ -1535,13 +1535,13 @@ strong {
   font-weight: 800;
 }
 
-.home-v3-achievement-text {
+.home-dgttetrre-achievement-text {
   font-size: 20px;
   line-height: 1.7em;
   font-weight: 700;
 }
 
-.home-v3-testimonials-wrapper {
+.home-dgttetrre-testimonials-wrapper {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1557,7 +1557,7 @@ strong {
   align-items: center;
 }
 
-.card-home-v3-testimonials-name {
+.card-home-dgttetrre-testimonials-name {
   margin-bottom: 8px;
   color: #fff;
   font-size: 24px;
@@ -1565,7 +1565,7 @@ strong {
   font-weight: 700;
 }
 
-.card-home-v3-testimonials-position {
+.card-home-dgttetrre-testimonials-position {
   margin-bottom: 24px;
   color: #d4b43e;
   font-size: 24px;
@@ -1591,7 +1591,7 @@ strong {
   text-align: center;
 }
 
-.about-v1-story-wrapper {
+.about-dgvutuvd-story-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1602,16 +1602,16 @@ strong {
   justify-content: space-between;
 }
 
-.about-v1-story-content {
+.about-dgvutuvd-story-content {
   max-width: 539px;
   margin-bottom: 168px;
 }
 
-.about-v1-mission-content {
+.about-dgvutuvd-mission-content {
   max-width: 510px;
 }
 
-.team-v1-grid {
+.team-dgvutuvd-grid {
   display: -ms-grid;
   display: grid;
   margin-bottom: 48px;
@@ -1624,11 +1624,11 @@ strong {
   grid-template-rows: auto;
 }
 
-.card-team-v1-content {
+.card-team-dgvutuvd-content {
   padding: 34px 32px 48px;
 }
 
-.card-team-v1-position {
+.card-team-dgvutuvd-position {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -1708,7 +1708,7 @@ strong {
   grid-template-rows: auto;
 }
 
-.text-area {
+.dfsvjhfdvjdvf {
   max-height: 200px;
   max-width: 100%;
   min-height: 138px;
@@ -1726,24 +1726,24 @@ strong {
   font-size: 18px;
 }
 
-.text-area:hover {
+.dfsvjhfdvjdvf:hover {
   border-color: #d4b43e;
 }
 
-.text-area:focus {
+.dfsvjhfdvjdvf:focus {
   border-color: #d4b43e;
   color: #494a4d;
 }
 
-.text-area::-webkit-input-placeholder {
+.dfsvjhfdvjdvf::-webkit-input-placeholder {
   color: #ccc;
 }
 
-.text-area:-ms-input-placeholder {
+.dfsvjhfdvjdvf:-ms-input-placeholder {
   color: #ccc;
 }
 
-.text-area::-ms-input-placeholder {
+.dfsvjhfdvjdvf::-ms-input-placeholder {
   color: #ccc;
 }
 
@@ -1837,27 +1837,27 @@ strong {
     padding-bottom: 50px;
   }
 
-  .divider.footer-content-top-divider {
+  .divider.eeyegytyddd-top-divider {
     margin-top: 60px;
     margin-bottom: 83px;
   }
 
-  .divider.footer-content-bottom-divider {
+  .divider.eeyegytyddd-bottom-divider {
     margin-top: 83px;
   }
 
-  .divider.home-v3-companies {
+  .divider.home-dgttetrre-companies {
     margin-bottom: 50px;
   }
 
-  .paragraph.testimonial-company {
+  .paragraph.dhvjvsdgvsvs {
     max-width: 630px;
     margin-right: auto;
     margin-bottom: 40px;
     margin-left: auto;
   }
 
-  .card.home-v3-feature {
+  .card.home-dgttetrre-feature {
     max-width: 100%;
     padding-right: 44px;
     padding-left: 44px;
@@ -1875,12 +1875,12 @@ strong {
     align-items: flex-start;
   }
 
-  .card.home-v3-case-study {
+  .card.home-dgttetrre-case-study {
     padding-top: 53px;
     padding-bottom: 55px;
   }
 
-  .card.home-v3-testimonials {
+  .card.home-dgttetrre-testimonials {
     position: static;
     max-width: 660px;
     margin-top: -60px;
@@ -1898,23 +1898,23 @@ strong {
     margin-bottom: 40px;
   }
 
-  .title.home-v3-features {
+  .title.home-dgttetrre-features {
     max-width: 574px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .title.card-home-v3-feature {
+  .title.card-home-dgttetrre-feature {
     margin-bottom: 10px;
   }
 
-  .title.about-v1-story {
+  .title.about-dgvutuvd-story {
     max-width: 679px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .title.about-v1-mission {
+  .title.about-dgvutuvd-mission {
     max-width: 679px;
     margin-right: auto;
     margin-left: auto;
@@ -1924,19 +1924,19 @@ strong {
     margin-bottom: 18px;
   }
 
-  .split-content.home-v3-features-left {
+  .split-content.home-dgttetrre-features-left {
     max-width: none;
     margin-bottom: 35px;
   }
 
-  .split-content.about-v1-story-left {
+  .split-content.about-dgvutuvd-story-left {
     max-width: none;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 100px;
   }
 
-  .split-content.about-v1-story-right {
+  .split-content.about-dgvutuvd-story-right {
     max-width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1949,7 +1949,7 @@ strong {
     align-items: stretch;
   }
 
-  .split-content.footer-content {
+  .split-content.eeyegytyddd {
     max-width: 100%;
     margin-bottom: 0px;
     -webkit-box-orient: horizontal;
@@ -1963,19 +1963,19 @@ strong {
     justify-content: flex-start;
   }
 
-  .image-wrapper.testimonial-company {
+  .image-wrapper.dhvjvsdgvsvs {
     max-width: 754px;
   }
 
-  .image-wrapper.home-v3-testimonials {
+  .image-wrapper.home-dgttetrre-testimonials {
     max-width: 100%;
   }
 
-  .image-wrapper.about-v1-mission {
+  .image-wrapper.about-dgvutuvd-mission {
     margin-bottom: 0px;
   }
 
-  .image.home-v3-company {
+  .image.home-dgttetrre-company {
     margin-right: 10px;
     margin-bottom: 30px;
     margin-left: 10px;
@@ -2000,21 +2000,21 @@ strong {
     margin-bottom: 20px;
   }
 
-  .subtitle-wrapper.home-v3-features {
+  .subtitle-wrapper.home-dgttetrre-features {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
 
-  .subtitle-wrapper.about-v1-story {
+  .subtitle-wrapper.about-dgvutuvd-story {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
 
-  .subtitle-wrapper.about-v1-mission {
+  .subtitle-wrapper.about-dgvutuvd-mission {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -2028,15 +2028,15 @@ strong {
     justify-content: center;
   }
 
-  .subtitle-line.home-v3-features {
+  .subtitle-line.home-dgttetrre-features {
     display: none;
   }
 
-  .subtitle-line.about-v1-story {
+  .subtitle-line.about-dgvutuvd-story {
     display: none;
   }
 
-  .subtitle-line.about-v1-mission {
+  .subtitle-line.about-dgvutuvd-mission {
     display: none;
   }
 
@@ -2044,19 +2044,19 @@ strong {
     display: none;
   }
 
-  .subtitle.home-v3-testimonials {
+  .subtitle.home-dgttetrre-testimonials {
     margin-bottom: 15px;
   }
 
-  .subtitle.home-v3-case-study {
+  .subtitle.home-dgttetrre-case-study {
     margin-bottom: 15px;
   }
 
-  .subtitle.home-v3-achievements {
+  .subtitle.home-dgttetrre-achievements {
     margin-bottom: 15px;
   }
 
-  .subtitle.about-v1-team {
+  .subtitle.about-dgvutuvd-team {
     margin-bottom: 15px;
   }
 
@@ -2084,7 +2084,7 @@ strong {
     right: 13px;
   }
 
-  .content-top.home-v3-features {
+  .sbkhsd.home-dgttetrre-features {
     margin-bottom: 50px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2107,7 +2107,7 @@ strong {
     text-align: center;
   }
 
-  .footer-content {
+  .eeyegytyddd {
     margin-bottom: -60px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2119,7 +2119,7 @@ strong {
     flex-wrap: wrap;
   }
 
-  .footer-content-bottom {
+  .eeyegytyddd-bottom {
     margin-bottom: -20px;
     -webkit-flex-wrap: wrap-reverse;
     -ms-flex-wrap: wrap-reverse;
@@ -2136,11 +2136,11 @@ strong {
     margin-bottom: 20px;
   }
 
-  .container-medium-695px.home-v3-testimonials {
+  .container-medium-695px.home-dgttetrre-testimonials {
     margin-bottom: 50px;
   }
 
-  .home-v3-features-grid {
+  .home-dgttetrre-features-grid {
     margin-right: auto;
     margin-left: auto;
   }
@@ -2149,11 +2149,11 @@ strong {
     margin-bottom: 150px;
   }
 
-  .card-home-v3-feature-content {
+  .card-home-dgttetrre-feature-content {
     max-width: 682px;
   }
 
-  .testimonial-company-wrapper {
+  .dhvjvsdgvsvs-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2161,14 +2161,14 @@ strong {
     flex-direction: column;
   }
 
-  .testimonial-company-content {
+  .dhvjvsdgvsvs-content {
     max-width: 700px;
     margin-right: 0px;
     margin-bottom: 60px;
     text-align: center;
   }
 
-  .home-v3-achievements-grid {
+  .home-dgttetrre-achievements-grid {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -2179,7 +2179,7 @@ strong {
     grid-template-columns: auto auto;
   }
 
-  .home-v3-companies-wrapper {
+  .home-dgttetrre-companies-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2191,17 +2191,17 @@ strong {
     align-items: stretch;
   }
 
-  .home-v3-companies-text {
+  .home-dgttetrre-companies-text {
     margin-right: 0px;
     margin-bottom: 30px;
   }
 
-  .home-v3-companies-logos {
+  .home-dgttetrre-companies-logos {
     margin-bottom: -30px;
     margin-left: -10px;
   }
 
-  .card-home-v3-case-study-step {
+  .card-home-dgttetrre-case-study-step {
     width: 107px;
     min-height: 107px;
     min-width: 107px;
@@ -2209,15 +2209,15 @@ strong {
     font-size: 36px;
   }
 
-  .home-v3-case-study-grid {
+  .home-dgttetrre-case-study-grid {
     grid-column-gap: 20px;
   }
 
-  .home-v3-achievement-number {
+  .home-dgttetrre-achievement-number {
     font-size: 42px;
   }
 
-  .home-v3-testimonials-wrapper {
+  .home-dgttetrre-testimonials-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;
@@ -2225,7 +2225,7 @@ strong {
     flex-direction: column-reverse;
   }
 
-  .about-v1-story-wrapper {
+  .about-dgvutuvd-story-wrapper {
     max-width: 754px;
     margin-right: auto;
     margin-left: auto;
@@ -2237,17 +2237,17 @@ strong {
     text-align: center;
   }
 
-  .about-v1-story-content {
+  .about-dgvutuvd-story-content {
     max-width: none;
     margin-bottom: 50px;
   }
 
-  .about-v1-mission-content {
+  .about-dgvutuvd-mission-content {
     max-width: none;
     margin-bottom: 50px;
   }
 
-  .team-v1-grid {
+  .team-dgvutuvd-grid {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
@@ -2359,16 +2359,16 @@ strong {
     background-position: 95% 50%;
   }
 
-  .divider.footer-content-top-divider {
+  .divider.eeyegytyddd-top-divider {
     margin-top: 50px;
     margin-bottom: 70px;
   }
 
-  .divider.footer-content-bottom-divider {
+  .divider.eeyegytyddd-bottom-divider {
     margin-top: 70px;
   }
 
-  .divider.home-v3-companies {
+  .divider.home-dgttetrre-companies {
     margin-bottom: 40px;
   }
 
@@ -2376,11 +2376,11 @@ strong {
     margin-bottom: 35px;
   }
 
-  .paragraph.testimonial-company {
+  .paragraph.dhvjvsdgvsvs {
     margin-bottom: 30px;
   }
 
-  .paragraph.card-team-v1-about-excerpt {
+  .paragraph.card-team-dgvutuvd-about-excerpt {
     max-width: 90%;
   }
 
@@ -2388,7 +2388,7 @@ strong {
     margin-bottom: 35px;
   }
 
-  .card.home-v3-feature {
+  .card.home-dgttetrre-feature {
     padding: 40px 40px 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2402,7 +2402,7 @@ strong {
     text-align: center;
   }
 
-  .card.home-v3-case-study {
+  .card.home-dgttetrre-case-study {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2420,7 +2420,7 @@ strong {
     text-align: left;
   }
 
-  .card.home-v3-testimonials {
+  .card.home-dgttetrre-testimonials {
     max-width: 95%;
     margin-top: -30px;
     padding: 54px 40px;
@@ -2436,35 +2436,35 @@ strong {
     margin-bottom: 35px;
   }
 
-  .title.testimonial-company {
+  .title.dhvjvsdgvsvs {
     max-width: 560px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .title.card-home-v3-case-study {
+  .title.card-home-dgttetrre-case-study {
     margin-bottom: 6px;
     font-size: 20px;
   }
 
-  .title.home-v3-testimonials {
+  .title.home-dgttetrre-testimonials {
     max-width: 518px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .title.about-v1-story {
+  .title.about-dgvutuvd-story {
     max-width: 477px;
     margin-right: 0px;
     margin-left: 0px;
   }
 
-  .title.about-v1-mission {
+  .title.about-dgvutuvd-mission {
     margin-right: 0px;
     margin-left: 0px;
   }
 
-  .title.about-v1-team {
+  .title.about-dgvutuvd-team {
     max-width: 453px;
     margin-right: auto;
     margin-left: auto;
@@ -2474,20 +2474,20 @@ strong {
     margin-bottom: 15px;
   }
 
-  .split-content.home-v3-features-left {
+  .split-content.home-dgttetrre-features-left {
     margin-bottom: 30px;
   }
 
-  .split-content.about-v1-story-left {
+  .split-content.about-dgvutuvd-story-left {
     margin-bottom: 83px;
   }
 
-  .image.card-home-v3-feature {
+  .image.card-home-dgttetrre-feature {
     margin-right: auto;
     margin-left: auto;
   }
 
-  .image.home-v3-company {
+  .image.home-dgttetrre-company {
     max-width: 24%;
     margin-right: 20px;
     margin-left: 20px;
@@ -2508,14 +2508,14 @@ strong {
     margin-bottom: 15px;
   }
 
-  .subtitle-wrapper.about-v1-story {
+  .subtitle-wrapper.about-dgvutuvd-story {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
   }
 
-  .subtitle-wrapper.about-v1-mission {
+  .subtitle-wrapper.about-dgvutuvd-mission {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -2533,11 +2533,11 @@ strong {
     margin-right: 15px;
   }
 
-  .subtitle-line.about-v1-story {
+  .subtitle-line.about-dgvutuvd-story {
     display: block;
   }
 
-  .subtitle-line.about-v1-mission {
+  .subtitle-line.about-dgvutuvd-mission {
     display: block;
   }
 
@@ -2545,19 +2545,19 @@ strong {
     display: block;
   }
 
-  .subtitle.home-v3-testimonials {
+  .subtitle.home-dgttetrre-testimonials {
     margin-bottom: 10px;
   }
 
-  .subtitle.home-v3-case-study {
+  .subtitle.home-dgttetrre-case-study {
     margin-bottom: 10px;
   }
 
-  .subtitle.home-v3-achievements {
+  .subtitle.home-dgttetrre-achievements {
     margin-bottom: 10px;
   }
 
-  .subtitle.about-v1-team {
+  .subtitle.about-dgvutuvd-team {
     margin-bottom: 10px;
   }
 
@@ -2601,13 +2601,13 @@ strong {
     font-size: 20px;
   }
 
-  .footer-content {
+  .eeyegytyddd {
     max-width: 550px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .footer-content-bottom {
+  .eeyegytyddd-bottom {
     margin-bottom: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -2639,11 +2639,11 @@ strong {
     margin-bottom: 0px;
   }
 
-  .container-medium-695px.home-v3-testimonials {
+  .container-medium-695px.home-dgttetrre-testimonials {
     margin-bottom: 40px;
   }
 
-  .home-v3-features-grid {
+  .home-dgttetrre-features-grid {
     grid-row-gap: 35px;
     -ms-grid-columns: auto;
     grid-template-columns: auto;
@@ -2653,19 +2653,19 @@ strong {
     margin-bottom: 120px;
   }
 
-  .testimonial-company-content {
+  .dhvjvsdgvsvs-content {
     margin-bottom: 50px;
   }
 
-  .container-small-551px.home-v3-case-study {
+  .container-small-551px.home-dgttetrre-case-study {
     margin-bottom: 40px;
   }
 
-  .container-small-551px.about-v1-team {
+  .container-small-551px.about-dgvutuvd-team {
     margin-bottom: 40px;
   }
 
-  .home-v3-companies-logos {
+  .home-dgttetrre-companies-logos {
     margin-left: -20px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -2676,7 +2676,7 @@ strong {
     flex-wrap: wrap;
   }
 
-  .card-home-v3-case-study-step {
+  .card-home-dgttetrre-case-study-step {
     width: 90px;
     min-height: 90px;
     min-width: 90px;
@@ -2686,44 +2686,44 @@ strong {
     font-size: 30px;
   }
 
-  .home-v3-case-study-grid {
+  .home-dgttetrre-case-study-grid {
     grid-row-gap: 35px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 
-  .home-v3-achievement-number {
+  .home-dgttetrre-achievement-number {
     margin-bottom: 0px;
     font-size: 35px;
   }
 
-  .home-v3-achievement-text {
+  .home-dgttetrre-achievement-text {
     font-size: 18px;
   }
 
-  .card-home-v3-testimonials-position {
+  .card-home-dgttetrre-testimonials-position {
     margin-bottom: 20px;
   }
 
-  .card-home-v3-case-study-content {
+  .card-home-dgttetrre-case-study-content {
     max-width: 491px;
   }
 
-  .about-v1-story-wrapper {
+  .about-dgvutuvd-story-wrapper {
     text-align: left;
   }
 
-  .about-v1-story-content {
+  .about-dgvutuvd-story-content {
     max-width: 530px;
     margin-bottom: 40px;
   }
 
-  .about-v1-mission-content {
+  .about-dgvutuvd-mission-content {
     max-width: 530px;
     margin-bottom: 40px;
   }
 
-  .team-v1-grid {
+  .team-dgvutuvd-grid {
     max-width: 575px;
     margin-right: auto;
     margin-bottom: 40px;
@@ -2733,11 +2733,11 @@ strong {
     grid-template-columns: 1fr;
   }
 
-  .card-team-v1-content {
+  .card-team-dgvutuvd-content {
     padding-bottom: 40px;
   }
 
-  .card-team-v1-position {
+  .card-team-dgvutuvd-position {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -2862,16 +2862,16 @@ strong {
     padding-right: 50px;
   }
 
-  .divider.footer-content-top-divider {
+  .divider.eeyegytyddd-top-divider {
     margin-top: 40px;
     margin-bottom: 58px;
   }
 
-  .divider.footer-content-bottom-divider {
+  .divider.eeyegytyddd-bottom-divider {
     margin-top: 58px;
   }
 
-  .divider.home-v3-companies {
+  .divider.home-dgttetrre-companies {
     margin-bottom: 35px;
   }
 
@@ -2879,11 +2879,11 @@ strong {
     margin-bottom: 30px;
   }
 
-  .card.home-v3-feature {
+  .card.home-dgttetrre-feature {
     padding: 33px 25px 13px;
   }
 
-  .card.home-v3-case-study {
+  .card.home-dgttetrre-case-study {
     padding: 36px 25px 38px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2896,7 +2896,7 @@ strong {
     align-items: stretch;
   }
 
-  .card.home-v3-testimonials {
+  .card.home-dgttetrre-testimonials {
     margin-top: -15px;
     padding: 35px 25px;
   }
@@ -2910,25 +2910,25 @@ strong {
     margin-bottom: 30px;
   }
 
-  .title.card-home-v3-feature {
+  .title.card-home-dgttetrre-feature {
     margin-bottom: 6px;
   }
 
-  .title.home-v3-case-study {
+  .title.home-dgttetrre-case-study {
     max-width: 402px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .title.testimonial-company {
+  .title.dhvjvsdgvsvs {
     margin-bottom: 6px;
   }
 
-  .title.about-v1-story {
+  .title.about-dgvutuvd-story {
     max-width: 402px;
   }
 
-  .title.about-v1-team {
+  .title.about-dgvutuvd-team {
     max-width: 358px;
   }
 
@@ -2936,15 +2936,15 @@ strong {
     margin-bottom: 10px;
   }
 
-  .split-content.about-v1-story-left {
+  .split-content.about-dgvutuvd-story-left {
     margin-bottom: 69px;
   }
 
-  .image.card-home-v3-feature {
+  .image.card-home-dgttetrre-feature {
     margin-bottom: 15px;
   }
 
-  .image.home-v3-company {
+  .image.home-dgttetrre-company {
     max-width: 107px;
     margin-right: 10px;
     margin-left: 10px;
@@ -2996,7 +2996,7 @@ strong {
     right: -125px;
   }
 
-  .content-top.home-v3-features {
+  .sbkhsd.home-dgttetrre-features {
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
@@ -3011,7 +3011,7 @@ strong {
     font-size: 18px;
   }
 
-  .footer-content {
+  .eeyegytyddd {
     margin-bottom: -50px;
   }
 
@@ -3032,7 +3032,7 @@ strong {
     margin-bottom: 95px;
   }
 
-  .testimonial-company-content {
+  .dhvjvsdgvsvs-content {
     margin-bottom: 40px;
   }
 
@@ -3046,17 +3046,17 @@ strong {
     padding-left: 16px;
   }
 
-  .home-v3-achievements-grid {
+  .home-dgttetrre-achievements-grid {
     grid-column-gap: 20px;
     grid-row-gap: 35px;
     grid-template-columns: repeat(auto-fit, 200px);
   }
 
-  .home-v3-companies-text {
+  .home-dgttetrre-companies-text {
     margin-bottom: 20px;
   }
 
-  .home-v3-companies-logos {
+  .home-dgttetrre-companies-logos {
     margin-left: -10px;
   }
 
@@ -3065,7 +3065,7 @@ strong {
     padding-left: 16px;
   }
 
-  .card-home-v3-case-study-step {
+  .card-home-dgttetrre-case-study-step {
     width: 75px;
     min-height: 75px;
     min-width: 75px;
@@ -3074,37 +3074,37 @@ strong {
     font-size: 25px;
   }
 
-  .home-v3-achievement-number {
+  .home-dgttetrre-achievement-number {
     font-size: 40px;
   }
 
-  .home-v3-achievement-text {
+  .home-dgttetrre-achievement-text {
     font-size: 16px;
   }
 
-  .card-home-v3-testimonials-name {
+  .card-home-dgttetrre-testimonials-name {
     margin-bottom: 6px;
     font-size: 20px;
   }
 
-  .card-home-v3-testimonials-position {
+  .card-home-dgttetrre-testimonials-position {
     margin-bottom: 15px;
     font-size: 20px;
   }
 
-  .about-v1-story-content {
+  .about-dgvutuvd-story-content {
     margin-bottom: 30px;
   }
 
-  .about-v1-mission-content {
+  .about-dgvutuvd-mission-content {
     margin-bottom: 30px;
   }
 
-  .card-team-v1-content {
+  .card-team-dgvutuvd-content {
     padding: 28px 25px 33px;
   }
 
-  .card-team-v1-position {
+  .card-team-dgvutuvd-position {
     top: 15px;
     right: 15px;
     padding-right: 15px;
