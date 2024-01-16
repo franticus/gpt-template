@@ -12,24 +12,24 @@ main {
 }
 
 h1 {
-  color: #333;
+  color: #d4b43e;
   font-size: 1.9rem !important;
   text-shadow: none;
 }
 
 h2 {
-  color: #333;
+  color: #d4b43e;
   font-size: 1.8rem !important;
   text-shadow: none;
 }
 
 p {
   margin-bottom: 1rem;
-  color: #555;
+  color: #c0c0c0;
 }
 
-.uyuweyuweyyuwe.show {
-  display: flex;
-  background: #fff;
-  border-bottom: 1px solid #000;
-}
+// .uyuweyuweyyuwe.show {
+//   display: flex;
+//   background: #fff;
+//   border-bottom: 1px solid #000;
+// }
