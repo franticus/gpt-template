@@ -392,6 +392,10 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #eee;
+
+  background-color: #101011;
+  opacity: 1;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #101011 18px), repeating-linear-gradient(#14070455, #140704);
 }
 
 img {
