@@ -5180,7 +5180,6 @@ figcaption {
 }
 
 .project-item {
-  background-color: var(--white);
   border-radius: 2rem;
   margin-bottom: 2rem;
   transition: transform .35s;
@@ -5978,7 +5977,7 @@ figcaption {
   height: 100%;
   grid-column-gap: 1.5rem;
   grid-row-gap: 2.5rem;
-  background-color: var(--royal-blue);
+  background-color: #132938;
   color: var(--white);
   border-top-left-radius: 1.125rem;
   border-bottom-left-radius: 1.125rem;
@@ -6278,7 +6277,7 @@ figcaption {
   z-index: 2;
   width: 115%;
   height: 100%;
-  background-color: var(--white);
+  background-color: #421010;
   border-radius: 1.125rem;
   padding: 2.5rem;
   position: relative;
@@ -6359,8 +6358,8 @@ figcaption {
 }
 
 .blog-item-link {
-  box-shadow: 0 2px 4px 0 var(--blue-light3), 0 1px 2px 0 var(--blue-light3);
-  color: var(--black);
+  background: #132938;
+  color: #eee;
   border-radius: 1rem;
   padding: 1rem;
   text-decoration: none;
@@ -6368,7 +6367,6 @@ figcaption {
 }
 
 .blog-item-link:hover {
-  box-shadow: 0 0 3px 0 rgba(16, 24, 40, .1), 0 2px 4px 0 var(--blue-light3), 0 1px 2px 0 var(--blue-light3);
   transform: translate(0, -6px);
 }
 
