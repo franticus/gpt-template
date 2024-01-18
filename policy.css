@@ -28,8 +28,10 @@ p {
   color: #c0c0c0;
 }
 
-// .nncbcvx.show {
-//   display: flex;
-//   background: #fff;
-//   border-bottom: 1px solid #000;
-// }
+.nncbcvx.show {
+  height: 100vh;
+  display: flex;
+  background: #000;
+  z-index: 9999;
+  padding-top: 10%;
+}
