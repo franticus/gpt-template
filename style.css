@@ -845,6 +845,8 @@ label {
 
 .about-image {
   width: 100%;
+  border-radius: 300px 300px 200px 500px;
+  animation: borderWave 30s linear infinite;
   height: 100%;
 }
 
@@ -891,6 +893,8 @@ label {
   height: 100%;
   object-fit: cover;
   position: relative;
+  border-radius: 300px 300px 200px 500px;
+  animation: borderWave 30s linear infinite;
 }
 
 .project-item {
@@ -920,9 +924,11 @@ label {
 }
 
 .project-image {
-  width: 100%;
+  width: 50%;
   height: 100%;
   object-fit: cover;
+  border-radius: 300px 300px 200px 500px;
+  animation: borderWave 30s linear infinite;
 }
 
 .project-component {
@@ -1205,9 +1211,12 @@ label {
 }
 
 .header-image {
+  margin-bottom: 200px;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 300px 300px 200px 500px;
+  animation: borderWave 30s linear infinite;
 }
 
 .section-about-life {
@@ -1234,6 +1243,8 @@ label {
   width: 100%;
   height: 100%;
   position: relative;
+  border-radius: 300px 300px 200px 500px;
+  animation: borderWave 30s linear infinite;
 }
 
 .contact-form-block {
@@ -1425,6 +1436,8 @@ label {
 .inspiration-image {
   width: 100%;
   height: 100%;
+  border-radius: 300px 300px 200px 500px;
+  animation: borderWave 30s linear infinite;
   object-fit: cover;
   transition: transform .35s;
   position: absolute;
@@ -1618,6 +1631,8 @@ label {
   .about-graphic-image-top {
     width: 100%;
     height: 100%;
+    border-radius: 300px 300px 200px 500px;
+    animation: borderWave 30s linear infinite;
     max-height: 7rem;
     max-width: 8rem;
     top: -7%;
@@ -1627,6 +1642,8 @@ label {
   .about-graphic-image-bottom {
     width: 100%;
     height: 100%;
+    border-radius: 300px 300px 200px 500px;
+    animation: borderWave 30s linear infinite;
     max-height: 9rem;
     max-width: 8rem;
     bottom: -10%;
@@ -2007,5 +2024,31 @@ label {
 
   .inspiration-image-wrapper {
     padding-top: 66%;
+  }
+}
+
+@keyframes borderWave {
+  0% {
+    border-radius: 300px 300px 200px 500px;
+  }
+
+  20% {
+    border-radius: 240px 200px 300px 340px;
+  }
+
+  40% {
+    border-radius: 500px 540px 200px 240px;
+  }
+
+  60% {
+    border-radius: 240px 200px 300px 340px;
+  }
+
+  80% {
+    border-radius: 540px 500px 500px 240px;
+  }
+
+  100% {
+    border-radius: 300px 300px 200px 500px;
   }
 }
