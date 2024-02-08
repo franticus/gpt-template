@@ -96,7 +96,7 @@ textarea {
   .kKdqqPkLZM.show {
     height: 100vh;
     display: flex;
-    background: #eee;
+    background: #e0fff2;
     z-index: 9999;
     padding-top: 80px;
   }
@@ -1776,7 +1776,7 @@ img {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   display: grid;
 }
 
