@@ -977,7 +977,7 @@ img {
 }
 
 .hEvlznqpIF {
-  color: var(--heading-color);
+  color: #333;
   margin-bottom: 20px;
 
   font-size: 24px;
@@ -989,7 +989,7 @@ img {
 }
 
 .hEvlznqpIF:hover {
-  color: var(--primary-color);
+  color: #333;
 }
 
 .vlGwjYjmAY {
@@ -1321,7 +1321,6 @@ img {
   grid-auto-columns: 1fr;
   align-items: center;
   padding-top: 80px;
-  padding-bottom: 205px;
   display: grid;
 }
 
@@ -2697,7 +2696,6 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 80px;
-    padding-bottom: 130px;
     display: flex;
   }
 
@@ -3298,7 +3296,7 @@ img {
   }
 
   .BIrBtTJbsS {
-    padding-top: 115px;
+    padding-top: 60px;
   }
 
   .PpCRWYZRce {
