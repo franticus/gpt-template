@@ -1,20 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const menuButton = document.querySelector('.CiGnqYvLDW');
-  const menu = document.querySelector('.kKdqqPkLZM');
-  menuButton.addEventListener('click', function () {
-    menu.classList.toggle('show');
+  const burger = document.querySelector('.burger');
+  const navLinks = document.querySelector('.nav-links');
 
-    if (menu.classList.contains('show')) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
+  burger.addEventListener('click', function () {
+    navLinks.classList.toggle('active');
+    burger.classList.toggle('toggle');
   });
 
-  document.addEventListener('click', function (event) {
-    if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
-      menu.classList.remove('show');
-      document.body.style.overflow = 'auto';
-    }
+  navLinks.addEventListener('click', function () {
+    navLinks.classList.remove('active');
+    burger.classList.remove('toggle');
   });
 });
