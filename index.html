@@ -23,9 +23,10 @@
         <a href="index.html" class="logo">FurniVista</a>
         <nav>
           <ul class="nav-links">
-            <li><a href="#home">Главная</a></li>
-            <li><a href="#about">О нас</a></li>
-            <li><a href="#contact">Контакты</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
         <div class="burger">
@@ -617,24 +618,20 @@
               </div>
               <div class="form-block w-form">
                 <form
-                  id="wf-form-Formular-abonnieren"
-                  name="wf-form-Formular-abonnieren"
-                  data-name="Formular abonnieren"
-                  method="get"
+                  name="form1"
+                  action="thanks_form.php"
+                  method="post"
                   class="form-grid-vertical"
-                  data-wf-page-id="611998fd6845fab1fd2ce099"
-                  data-wf-element-id="e6b062e3-2460-8dd5-db52-a991ca2b2bb8"
                 >
                   <div>
                     <label for="Newsletter-E-Mail">E-Mail-Addresse</label
                     ><input
                       class="form-input w-input"
                       maxlength="256"
-                      name="Newsletter-E-Mail"
-                      data-name="Newsletter E Mail"
+                      name="Newsletter"
                       placeholder=""
                       type="email"
-                      id="Newsletter-E-Mail"
+                      required=""
                     />
                   </div>
                   <div class="OAWipSfqoN">
@@ -657,15 +654,6 @@
                     value="Formular senden"
                   />
                 </form>
-                <div class="form-success w-form-done">
-                  <div>Dankeschön! Ihre Einreichung ist eingegangen!</div>
-                </div>
-                <div class="form-error w-form-fail">
-                  <div>
-                    Hoppla! Beim Absenden des Formulars ist ein Fehler
-                    aufgetreten.
-                  </div>
-                </div>
               </div>
             </div>
             <div
@@ -1787,65 +1775,34 @@
             </div>
             <div class="form-block w-form">
               <form
-                id="wf-form-Kontakt-Formular"
-                name="wf-form-Kontakt-Formular"
-                data-name="Kontakt Formular"
+                name="form2"
+                action="thanks_form.php"
+                method="post"
                 class="form-grid-vertical"
               >
-                <div class="w-layout-grid form-row">
-                  <div>
-                    <label for="Vorname">Vorname</label
-                    ><input
-                      type="text"
-                      class="form-input w-input"
-                      maxlength="256"
-                      name="Vorname"
-                      data-name="Vorname"
-                      placeholder=""
-                      id="Vorname"
-                    />
-                  </div>
-                  <div>
-                    <label for="Nachname">Nachname</label
-                    ><input
-                      type="text"
-                      class="form-input w-input"
-                      maxlength="256"
-                      name="Nachname"
-                      data-name="Nachname"
-                      placeholder=""
-                      id="Nachname"
-                    />
-                  </div>
+                <div>
+                  <label for="Vorname">Vorname</label
+                  ><input
+                    type="text"
+                    class="form-input w-input"
+                    maxlength="256"
+                    name="Vorname"
+                    placeholder=""
+                    required=""
+                    id="Vorname"
+                  />
                 </div>
-                <div class="w-layout-grid form-row">
-                  <div>
-                    <label for="E-Mail-Addresse">E-Mail-Addresse</label
-                    ><input
-                      type="email"
-                      class="form-input w-input"
-                      maxlength="256"
-                      name="E-Mail-Addresse"
-                      data-name="E-Mail-Addresse"
-                      id="E-Mail-Addresse"
-                    />
-                  </div>
-                  <div>
-                    <label for="Last-Name-2">Präferenz</label>
-                    <div class="select-wrapper">
-                      <select
-                        id="Dropdown-ausw-hlen"
-                        name="Dropdown-ausw-hlen"
-                        data-name="Dropdown auswählen"
-                        class="select-field w-select"
-                      >
-                        <option value="">Wähle eine Option</option>
-                        <option value="Erste Wahl">Erste Wahl</option>
-                        <option value="Zweite Wahl">Zweite Wahl</option>
-                        <option value="Dritte Wahl">Dritte Wahl</option>
-                      </select>
-                    </div>
-                  </div>
+                <div>
+                  <label for="E-Mail-Addresse">E-Mail-Addresse</label
+                  ><input
+                    type="email"
+                    class="form-input w-input"
+                    maxlength="256"
+                    name="E-Mail"
+                    required=""
+                    data-name="E-Mail-Addresse"
+                    id="E-Mail-Addresse"
+                  />
                 </div>
                 <div>
                   <label for="Zus-tzliche-Information"
@@ -1854,9 +1811,9 @@
                     type="text"
                     class="form-input w-input"
                     maxlength="256"
-                    name="Zus-tzliche-Information"
-                    data-name="Zusätzliche Information"
+                    name="Information"
                     placeholder=""
+                    required=""
                     id="Zus-tzliche-Information"
                   />
                 </div>
@@ -2229,41 +2186,30 @@
               id="w-node-f6b795dd-43fe-511d-79b0-6e6110e63182-10e6317f"
               class="footer-company-wrapper"
             >
-              <div>
-                Newleaf Inc.<br />130 Camperdown Street<br />Hawthorn, Victoria
-                3147
-              </div>
+              <a
+                href="https://maps.app.goo.gl/3TKXGwDN44hqUW3X7"
+                class="DWKzXPcBWQ"
+                >Amrit cooperative society, Kailash Enclave, Harsh Vihar,
+                Pitampura, Delhi, 110034 India</a
+              >
               <div class="justify-content-left">
-                <a href="#" class="hover-link text-white">+613 3827 4639</a
-                ><a href="#" class="hover-link text-white"
-                  >hallo@newleaf.website</a
+                <a href="tel:+91-343-6645367" class="cambAeXccK"
+                  >+91-343-6645367</a
+                >
+                <a href="mailto:furnivista@gmail.com" class="cambAeXccK"
+                  >furnivista@gmail.com</a
                 >
               </div>
             </div>
             <div class="w-layout-grid vertical-menu-grid">
-              <div class="text-uppercase">Vorlage</div>
-              <a href="/vorlage/einstieg" class="hover-link text-white"
-                >Einstieg</a
-              ><a
-                href="/vorlage/gestaltungsrichtlinie"
-                class="hover-link text-white"
-                >Gestaltungsrichtlinie</a
-              ><a
-                href="/vorlage/anderungsprotokoll"
-                class="hover-link text-white"
-                >Änderungsprotokoll</a
-              ><a href="/vorlage/lizenzen" class="hover-link text-white"
-                >Lizenzen</a
-              >
+              <div class="text-uppercase">Info</div>
+              <a href="index.html" class="hover-link text-white">Home</a
+              ><a href="about.html" class="hover-link text-white">About</a
+              ><a href="blog.html" class="hover-link text-white">Blog</a
+              ><a href="contact.html" class="hover-link text-white">Contact</a>
             </div>
           </div>
           <div class="footer-bottom-bar">
-            <div>
-              Präsentiert von
-              <a href="https://mmra.re/portfolio" class="text-white"
-                >Medium Rare</a
-              >
-            </div>
             <div class="text-muted">
               Copyright ©
               <a href="index.html" class="text-white">FurniVista</a>
