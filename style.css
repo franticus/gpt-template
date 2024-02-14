@@ -175,12 +175,14 @@ body {
 img {
   max-width: 100%;
   vertical-align: middle;
-  display: inline-block
+  display: inline-block;
+  border-radius: 40px;
+  border: 1px solid #ac7f17;
 }
 
 .KTMZmddYNF {
   max-width: 100%;
-  display: inline-block
+  display: inline-block;
 }
 
 .JPgxEvivdV {
@@ -962,6 +964,7 @@ label {
   display: block;
   -o-object-fit: cover;
   object-fit: cover;
+  border: 6px solid #ac7f17;
 }
 
 .NQGMrWPQAb {
