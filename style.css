@@ -17,7 +17,7 @@ body {
 }
 
 .DOgQUrSjsw {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 header {
@@ -466,8 +466,8 @@ label {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  max-height: 52px;
-  padding: 12px 21px;
+  padding: 30px 21px;
+  border-radius: 10px 0 40px 0;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -476,7 +476,6 @@ label {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 7px;
   background-color: #fff;
   color: #333;
   font-size: 18px;
@@ -496,8 +495,8 @@ label {
 
 .WzRJFfAiaX.ZnRHQfDXSf {
   border-style: solid;
-  border-width: 2px;
-  border-color: rgba(28, 74, 54, 0.15);
+  border-width: 1px;
+  border-color: #fff;
   background-color: transparent;
   -webkit-transition: color 200ms ease, background-color 200ms ease, border-color 200ms ease;
   transition: color 200ms ease, background-color 200ms ease, border-color 200ms ease;
