@@ -1,35 +1,28 @@
-header {
-  padding: 1rem;
-  text-align: center;
-}
-
 main {
   padding: 2rem;
   max-width: 1000px;
   margin: 40px auto;
 }
 
-h1 {
-  color: #333;
-  font-size: 1.9rem !important;
-  text-shadow: none;
-}
-
 h2 {
-  color: #000;
+  color: #fff;
   font-size: 1.8rem !important;
   text-shadow: none;
 }
 
-p {
-  margin-bottom: 1rem;
-  color: #333;
+header {
+  padding: 1rem;
+  text-align: center;
 }
 
-// .CiGnqYvLDW.show {
-//   height: 100vh;
-//   display: flex;
-//   background: #081a26;
-//   z-index: 9999;
-//   padding-top: 10%;
-// }
+h1 {
+  color: #fff;
+  font-size: 40px !important;
+  text-shadow: none;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #eee;
+}
